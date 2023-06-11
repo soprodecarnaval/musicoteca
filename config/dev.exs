@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :musicoteca, Musicoteca.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "beise",
+  password: "sebei",
   hostname: "localhost",
   database: "musicoteca_dev",
   stacktrace: true,
