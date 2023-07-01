@@ -85,10 +85,15 @@ defmodule Musicoteca.FileSystemStorage do
         IO.puts("")
 
         entries
+        # [entry_a, entry_b] -> [{models_a, errors_a}, {models_b, errors_b}]
         |> Enum.map(&read_entry(Path.join(path, &1), &1, structure, parent_models))
+        # [{models_a, errors_a}, {models_b, errors_b}] -> {[models_a, models_b], [errors_a, errors_b]}
         |> Enum.unzip()
+        # {[models_a, models_b], [errors_a, errors_b]} -> [[models_a, models_b], [errors_a, errors_b]]
         |> Tuple.to_list()
+        # [[models_a, models_b], [errors_a, errors_b]] -> [all_models, all_errors]
         |> Enum.map(&List.flatten/1)
+        # [all_models, all_errors] -> { all_models, all_errors }
         |> List.to_tuple()
 
       {:error, _} ->
