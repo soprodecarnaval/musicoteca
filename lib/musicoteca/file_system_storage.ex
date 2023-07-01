@@ -16,9 +16,9 @@ defmodule Musicoteca.FileSystemStorage do
                       "tuba"
                     ])
 
-  # /style/song/arrangement/file
-  # /style/song/arrangement/format/song-part-page.png
-  def structure do
+  def read(root_path) do
+    # /style/song/arrangement/arrangement-file.*
+    # /style/song/arrangement/_/song-part-page.format
     [
       dir: %{
         model: :style,
@@ -46,9 +46,14 @@ defmodule Musicoteca.FileSystemStorage do
         ]
       }
     ]
+    do_read(root_path, structure, %{}, [], [])
   end
 
-  def read(root_path) do
+  def do_read(path, [h | t], parent_models, model_acc, error_acc) do
+
+  end
+
+  def read_old(root_path) do
     # root has multiple style folders
     dir_each_dir(root_path, fn style_path, style_entry ->
       style_model = get_style(style_entry)
