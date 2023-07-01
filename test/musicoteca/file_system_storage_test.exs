@@ -3,19 +3,41 @@ defmodule Musicoteca.FileSystemStorage.Test do
   alias Musicoteca.FileSystemStorage
   alias Musicoteca.Models
 
-  # test "read" do
-  #   assert [] = FileSystemStorage.read("PARTITURAS")
-  # end
+  test "read" do
+    # TODO: add parts
+    want =
+      {[
+         %Models.Tag{
+           name: "fanfarras"
+         },
+         %Models.Song{
+           name: "buyo",
+           tags: [
+             %Models.Tag{
+               name: "fanfarras"
+             }
+           ]
+         },
+         %Models.ArrangementFile{
+           arrangement: %Models.Arrangement{
+             name: "desconhecido",
+             song: %Models.Song{
+               name: "buyo"
+             }
+           },
+           file: %Models.File{
+             path:
+               "/Users/beise/code/musicoteca/test/fixtures/file_system_storage_unknown_arrangement/FANFARRAS/BUYO/BUYO.mscz",
+             file_type: "mscz"
+           }
+         }
+       ], []}
 
-  # @tag :skip
-  # test "style" do
-  #   test_cases = [
-  #     {"AXÉS", %Models.Tag{name: "axés"}},
-  #     {"MARCHAS RANCHO", %Models.Tag{name: "machas rancho"}}
-  #   ]
+    got =
+      FileSystemStorage.read(
+        Path.expand("../fixtures/file_system_storage_unknown_arrangement", __DIR__)
+      )
 
-  #   Enum.each(test_cases, fn {entry, result} ->
-  #     assert FileSystemStorage.style(entry) == result
-  #   end)
-  # end
+    assert want = got
+  end
 end
