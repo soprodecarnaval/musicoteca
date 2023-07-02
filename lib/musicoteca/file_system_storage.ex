@@ -2,19 +2,19 @@
 defmodule Musicoteca.FileSystemStorage do
   alias Musicoteca.Models
 
-  @instrument_names MapSet.new([
-                      "bombardino",
-                      "trompete",
-                      "pete",
-                      "sax alto",
-                      "sax tenor",
-                      "sax soprano",
-                      "flauta",
-                      "clarinete",
-                      "trombone",
-                      "bone",
-                      "tuba"
-                    ])
+  @instrument_names %{
+    "bombardino" => "bombardino",
+    "clarinete" => "clarinete",
+    "flauta" => "flauta",
+    "sax alto" => "sax alto",
+    "sax soprano" => "sax soprano",
+    "sax tenor" => "sax tenor",
+    "trombone" => "trombone",
+    "bone" => "trombone",
+    "trompete" => "trompete",
+    "pete" => "trompete",
+    "tuba" => "tuba"
+  }
 
   @part_file_extensions MapSet.new([
                           "pdf",
@@ -22,6 +22,8 @@ defmodule Musicoteca.FileSystemStorage do
                           "jpeg",
                           "png"
                         ])
+
+  @ignore_entry_prefixes [".", "_"]
 
   def read(root_path) do
     structure = [
@@ -78,8 +80,6 @@ defmodule Musicoteca.FileSystemStorage do
   end
 
   def read_directory(path, structure, parent_models) do
-    IO.puts("read_directory: #{path}")
-
     case list_dir(path) do
       {:ok, entries} ->
         IO.puts("")
@@ -108,10 +108,15 @@ defmodule Musicoteca.FileSystemStorage do
   end
 
   def read_entry(path, entry, [h | t], parent_models) do
-    if entry_matches_node?(h, path, entry) do
-      read_node(h, path, entry, parent_models)
-    else
-      read_entry(path, entry, t, parent_models)
+    cond do
+      ignored_file_prefix?(entry) ->
+        {[], [{:ignored_entry, entry, path}]}
+
+      entry_matches_node?(h, path, entry) ->
+        read_node(h, path, entry, parent_models)
+
+      true ->
+        read_entry(path, entry, t, parent_models)
     end
   end
 
@@ -128,8 +133,6 @@ defmodule Musicoteca.FileSystemStorage do
 
   # File with model
   def read_node({:file, %{model: model_type}}, path, entry, parent_models) do
-    IO.puts("file: #{model_type} - #{entry} - #{path}")
-
     case get_model(model_type, entry, parent_models, path) do
       {:ok, model} ->
         {[model], []}
@@ -146,8 +149,6 @@ defmodule Musicoteca.FileSystemStorage do
         entry,
         parent_models
       ) do
-    IO.puts("dir: #{model_type} - #{entry} - #{path}")
-
     case get_model(model_type, entry, parent_models, path) do
       {:ok, dir_model} ->
         dir_parent_models = Map.put(parent_models, dir_model.__struct__, dir_model)
@@ -166,7 +167,6 @@ defmodule Musicoteca.FileSystemStorage do
         entry,
         parent_models
       ) do
-    IO.puts("dir: #{entry}")
     read_directory(path, children, parent_models)
   end
 
@@ -176,37 +176,31 @@ defmodule Musicoteca.FileSystemStorage do
 
   def get_model(:song, entry, parent_models, _path) do
     with {:ok, style} <- get_parent_model(parent_models, Models.Tag) do
-      {
-        :ok,
-        %Models.Song{
-          name: String.downcase(entry),
-          tags: [style]
-        }
-      }
+      {:ok,
+       %Models.Song{
+         name: String.downcase(entry),
+         tags: [style]
+       }}
     end
   end
 
   def get_model(:arrangement, entry, parent_models, _path) do
     with {:ok, song} <- get_parent_model(parent_models, Models.Song) do
-      {
-        :ok,
-        %Models.Arrangement{
-          name: String.downcase(entry),
-          song: song
-        }
-      }
+      {:ok,
+       %Models.Arrangement{
+         name: String.downcase(entry),
+         song: song
+       }}
     end
   end
 
   def get_model(:unknown_arrangement, _entry, parent_models, _path) do
     with {:ok, song} <- get_parent_model(parent_models, Models.Song) do
-      {
-        :ok,
-        %Models.Arrangement{
-          name: "desconhecido",
-          song: song
-        }
-      }
+      {:ok,
+       %Models.Arrangement{
+         name: "desconhecido",
+         song: song
+       }}
     end
   end
 
@@ -225,13 +219,11 @@ defmodule Musicoteca.FileSystemStorage do
   def get_model(:part_file, entry, parent_models, path) do
     with {:ok, part} <- get_model(:part, entry, parent_models, path),
          {:ok, file} <- get_model(:file, entry, parent_models, path) do
-      {
-        :ok,
-        %Models.PartFile{
-          part: part,
-          file: file
-        }
-      }
+      {:ok,
+       %Models.PartFile{
+         part: part,
+         file: file
+       }}
     end
   end
 
@@ -240,48 +232,42 @@ defmodule Musicoteca.FileSystemStorage do
     #       We should have a better way to do this, like using a default arrangement for a song
     with {:ok, arrangement} <- get_model(:unknown_arrangement, entry, parent_models, path),
          {:ok, file} <- get_model(:file, entry, parent_models, path) do
-      {
-        :ok,
-        %Models.ArrangementFile{
-          arrangement: arrangement,
-          file: file
-        }
-      }
+      {:ok,
+       %Models.ArrangementFile{
+         arrangement: arrangement,
+         file: file
+       }}
     end
   end
 
   def get_model(:arrangement_file, entry, parent_models, path) do
     with {:ok, arrangement} <- get_parent_model(parent_models, Models.Arrangement),
          {:ok, file} <- get_model(:file, entry, parent_models, path) do
-      {
-        :ok,
-        %Models.ArrangementFile{
-          arrangement: arrangement,
-          file: file
-        }
-      }
+      {:ok,
+       %Models.ArrangementFile{
+         arrangement: arrangement,
+         file: file
+       }}
     end
   end
 
   def get_model(:part, entry, parent_models, path) do
     with {:ok, arr} <- get_parent_model(parent_models, Models.Arrangement),
+         {:ok, part_name, _} <- find_instrument_name_in_filename(entry),
          {:ok, instrument} <- get_model(:instrument, entry, parent_models, path) do
-      {
-        :ok,
-        %Models.Part{
-          name: instrument.name,
-          instrument: instrument,
-          arrangement: arr
-        }
-      }
+      {:ok,
+       %Models.Part{
+         name: part_name,
+         instrument: instrument,
+         arrangement: arr
+       }}
     end
   end
 
   def get_model(:instrument, entry, _parent_models, _path) do
     # buyo-sax_tenor-1.png
-    with {:ok, filename_parts} <- parse_filename(entry),
-         {:ok, name} <- find_instrument_name(filename_parts) do
-      {:ok, %Models.Instrument{name: name}}
+    with {:ok, _, normalized_name} <- find_instrument_name_in_filename(entry) do
+      {:ok, %Models.Instrument{name: normalized_name}}
     else
       err ->
         {:error, {:no_instrument_name, entry}}
@@ -298,19 +284,24 @@ defmodule Musicoteca.FileSystemStorage do
     end
   end
 
-  # TODO: support substring matching
-  def instrument_name?(entry) do
-    MapSet.member?(@instrument_names, String.downcase(entry))
+  def instrument_name(entry) do
+    @instrument_names[String.downcase(entry)]
   end
 
   # finds an instrument name within a list of strings
   def find_instrument_name(str_list) do
-    case Enum.find(str_list, nil, &instrument_name?/1) do
+    case Enum.find(str_list, nil, &instrument_name/1) do
       nil ->
         {:error, :no_instrument_name}
 
       name ->
-        {:ok, name}
+        {:ok, name, @instrument_names[name]}
+    end
+  end
+
+  def find_instrument_name_in_filename(filename) do
+    with {:ok, filename_parts} = parse_filename(filename) do
+      find_instrument_name(filename_parts)
     end
   end
 
@@ -336,14 +327,10 @@ defmodule Musicoteca.FileSystemStorage do
     |> Enum.at(-1)
   end
 
-  def list_dir(path) do
-    with {:ok, entries} <- File.ls(path),
-         filtered_entries <-
-           Enum.filter(entries, fn entry ->
-             not String.starts_with?(entry, ".")
-           end) do
-      {:ok, filtered_entries}
-    end
+  def ignored_file_prefix?(entry) do
+    Enum.any?(@ignore_entry_prefixes, fn prefix ->
+      String.starts_with?(entry, prefix)
+    end)
   end
 
   def part_file_extension?(entry) do
@@ -353,5 +340,15 @@ defmodule Musicoteca.FileSystemStorage do
       |> String.downcase()
 
     MapSet.member?(@part_file_extensions, normalized)
+  end
+
+  def list_dir(path) do
+    case File.ls(path) do
+      {:ok, entries} ->
+        {:ok, entries |> Enum.sort()}
+
+      {:error, error} ->
+        {:error, error}
+    end
   end
 end
