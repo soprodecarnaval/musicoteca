@@ -1,0 +1,30 @@
+{
+  "songs": [
+    {
+      "title": "Some song",
+      "composer": "Cool Composer",
+      "sub": "shows under the title",
+      "tags": ["some", "tags"],
+      "arrangements": [
+        {
+          "source": {
+            "url": "https://some-static-asset",
+            "type": "mscz"
+          },
+          "name": "arrangement name",
+          "parts": [
+            {
+              "instrument": "trumpet",
+              "files": [
+                {
+                  "url": "https://some-static-asset",
+                  "type": "png"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
