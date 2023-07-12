@@ -21,6 +21,78 @@
                   "type": "png"
                 }
               ]
+            },
+            {
+              "instrument": "alto sax",
+              "files": [
+                {
+                  "url": "https://some-static-asset",
+                  "type": "png"
+                }
+              ]
+            }
+ 
+          ]
+        },
+        {
+          "source": {
+            "url": "https://some-static-asset",
+            "type": "mscz"
+          },
+          "name": "arrangement name 2",
+          "parts": [
+            {
+              "instrument": "trumpet",
+              "files": [
+                {
+                  "url": "https://some-static-asset",
+                  "type": "png"
+                }
+              ]
+            },
+            {
+              "instrument": "alto sax",
+              "files": [
+                {
+                  "url": "https://some-static-asset",
+                  "type": "png"
+                }
+              ]
+            }
+ 
+          ]
+        }
+      ]
+    }, {
+      "title": "Some song 2",
+      "composer": "Cool Composer 2",
+      "sub": "shows under the title",
+      "tags": ["some", "other", "tags"],
+      "arrangements": [
+        {
+          "source": {
+            "url": "https://some-static-asset",
+            "type": "mscz"
+          },
+          "name": "arrangement name 2",
+          "parts": [
+            {
+              "instrument": "trumpet",
+              "files": [
+                {
+                  "url": "https://some-static-asset",
+                  "type": "png"
+                }
+              ]
+            },  
+            {
+              "instrument": "bone",
+              "files": [
+                {
+                  "url": "https://some-static-asset",
+                  "type": "png"
+                }
+              ]
             }
           ]
         }
