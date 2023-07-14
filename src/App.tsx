@@ -4,8 +4,7 @@ import { SearchBar } from './SearchBar';
 import { SongsTable } from './SongsTable';
 import type { Song } from './types';
 
-import "bootstrap/dist/css/bootstrap.css"; // Import precompiled Bootstrap css
-
+import "bootstrap/dist/css/bootstrap.css";
 import './App.css'
 
 function App() {

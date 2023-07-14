@@ -12,26 +12,32 @@ const SearchBar = ({ handleResults }) => {
     setSearchInput(e.target.value);
   };
 
-  useEffect(() => {
-    if (searchInput.length > 0) {
-      const res = collection.songs.filter((song) => {
-        return song.title.match(searchInput) || song.composer.match(searchInput)
-      });
-      handleResults(res);
-    } else if (searchInput.length === 0) {
+  const handleKeyDown = (e : any) => {
+    if (e.key !== 'Enter') return
+    e.preventDefault();
+
+    if (searchInput.length === 0) {
       handleResults([]);
+      return
     }
-  }, [searchInput])
+
+    const res = collection.songs.filter((song) => {
+      return song.title.match(searchInput) || song.composer.match(searchInput) ||
+               song.arrangements.filter((a) => a.name.match(searchInput)).length > 0
+    });
+    handleResults(res);
+  }
  
-return (
+  return (
     <Row className="mt-4">
       <Col sm={6}>
         <Form className="d-flex">
           <Form.Control
             type="search"
-            placeholder="Procurar por título, compositor, partes..."
+            placeholder="Procurar por título, compositor, arranjos, partes..."
             className="me-2"
             aria-label="Search"
+            onKeyDown={handleKeyDown}
             value={searchInput}
             onChange={handleChange}
           />
