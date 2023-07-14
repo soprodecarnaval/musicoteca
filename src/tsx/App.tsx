@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { Col, Container, Navbar, Row } from "react-bootstrap";
 import { SearchBar } from './SearchBar';
-import { SongsTable } from './SongsTable';
-import type { Song } from './types';
+import { ArrangementsTable } from './ArrangementsTable';
+import type { Song } from '../types';
 
 import "bootstrap/dist/css/bootstrap.css";
-import './App.css'
+import '../css/App.css'
 
 function App() {
   const [results, setResults] = useState<Song[]>([]);
@@ -21,7 +21,7 @@ function App() {
         <SearchBar handleResults={setResults} />
         <Row className="mt-4">
           <Col sm={6}>
-            {results.length > 0 ? <SongsTable songs={results} /> : <></>}
+            {results.length > 0 ? <ArrangementsTable songs={results} /> : <></>}
           </Col>
           <Col sm={6}>
           </Col>

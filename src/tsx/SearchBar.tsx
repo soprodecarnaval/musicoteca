@@ -1,10 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
 import { Row, Col, Form } from "react-bootstrap";
 
-import collection from '../collection.json'
+import collection from '../../collection.json'
+import { Song } from '../types';
 
-const SearchBar = ({ handleResults }) => {
+interface SearchBarProps {
+  handleResults: (results : Song[]) => void
+}
+
+const SearchBar = ({ handleResults } : SearchBarProps) => {
   const [searchInput, setSearchInput] = useState("");
 
   const handleChange = (e : any) => {
@@ -24,7 +29,7 @@ const SearchBar = ({ handleResults }) => {
     const res = collection.songs.filter((song) => {
       return song.title.match(searchInput) || song.composer.match(searchInput) ||
                song.arrangements.filter((a) => a.name.match(searchInput)).length > 0
-    });
+    }) as Song[];
     handleResults(res);
   }
  

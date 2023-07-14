@@ -1,0 +1,25 @@
+.action-cell {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.instrument-checkbox {
+  margin-left: 3.6em
+}
+
+.arrangement-checkbox {
+  display: inline;
+  margin-left: 0.7em
+}
+
+.arrow {
+  transition: all 0.5s ease
+}
+
+.arrow-right {
+  transform: rotate(0.25turn)
+}
+
+.arrow-down {
+  transform: rotate(0.50turn)
+}
