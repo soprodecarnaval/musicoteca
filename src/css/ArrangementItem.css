@@ -3,8 +3,15 @@
   margin-right: 0;
 }
 
+.visualize-icon {
+  margin-left: 1.8em !important;
+  margin-right: 0.8em !important
+}
+
 .instrument-checkbox {
-  margin-left: 3.6em
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  display: inline;
 }
 
 .arrangement-checkbox {
