@@ -1,0 +1,32 @@
+.action-cell {
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.visualize-icon {
+  margin-left: 1.8em !important;
+  margin-right: 0.8em !important
+}
+
+.instrument-checkbox {
+  margin-left: 0.7em;
+  margin-right: 0.7em;
+  display: inline;
+}
+
+.arrangement-checkbox {
+  display: inline;
+  margin-left: 0.7em
+}
+
+.arrow {
+  transition: all 0.5s ease
+}
+
+.arrow-right {
+  transform: rotate(0.25turn)
+}
+
+.arrow-down {
+  transform: rotate(0.50turn)
+}
