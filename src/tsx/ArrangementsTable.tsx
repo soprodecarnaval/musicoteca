@@ -17,8 +17,9 @@ const ArrangementsTable = ({ songs } : Collection ) => {
       </thead>
       <tbody>
         {songs.map((song, songIdx) => (
-          song.arrangements.map(arrangement => (
+          song.arrangements.map((arrangement, idx) => (
             <ArrangementItem
+              id={idx}
               arrangement={arrangement}
               songTitle={songs[songIdx].title}
               songComposer={songs[songIdx].composer}

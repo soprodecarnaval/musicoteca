@@ -17,6 +17,23 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
     setSearchInput(e.target.value);
   };
 
+  const searchByArrangement = (searchData : string) => (
+    collection.songs.map(song => {
+      const foundArrs = song.arrangements.filter(
+        arr => arr.name.toUpperCase().match(searchData.toUpperCase())
+      )
+
+      return { ...song, arrangements: foundArrs }
+    })
+  )
+
+  const searchByTitleOrComposer = (searchData : string) => (
+    collection.songs.filter((song) => (
+      song.title.toUpperCase().match(searchData.toUpperCase()) ||
+        song.composer.toUpperCase().match(searchData.toUpperCase())
+    ))
+  )
+
   const handleKeyDown = (e : any) => {
     if (e.key !== 'Enter') return
     e.preventDefault();
@@ -26,11 +43,10 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
       return
     }
 
-    const res = collection.songs.filter((song) => {
-      return song.title.match(searchInput) || song.composer.match(searchInput) ||
-               song.arrangements.filter((a) => a.name.match(searchInput)).length > 0
-    }) as Song[];
-    handleResults(res);
+    const songsByArrangement = searchByArrangement(searchInput) as Song[];
+    const songsByTitleOrComposer = searchByTitleOrComposer(searchInput) as Song[];
+
+    handleResults([... songsByTitleOrComposer, ...songsByArrangement]);
   }
  
   return (
@@ -39,7 +55,7 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
         <Form className="d-flex">
           <Form.Control
             type="search"
-            placeholder="Procurar por título, compositor, arranjos, partes..."
+            placeholder="Procurar por título, compositor ou arranjos"
             className="me-2"
             aria-label="Search"
             onKeyDown={handleKeyDown}
