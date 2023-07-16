@@ -1,12 +1,14 @@
 {
   "songs": [
     {
+      "id": 1,
       "title": "Some song 1",
       "composer": "Cool Composer",
       "sub": "shows under the title",
       "tags": ["some", "tags"],
       "arrangements": [
         {
+          "id": 1,
           "source": {
             "url": "https://some-static-asset",
             "type": "mscz"
@@ -30,11 +32,11 @@
                   "type": "png"
                 }
               ]
-            }
- 
+            } 
           ]
         },
         {
+          "id": 2,
           "source": {
             "url": "https://some-static-asset",
             "type": "mscz"
@@ -47,6 +49,10 @@
                 {
                   "url": "https://via.placeholder.com/600/56a8c2",
                   "type": "png"
+                },
+                {
+                  "url": "https://via.placeholder.com/600/b0f7cc",
+                  "type": "png"
                 }
               ]
             },
@@ -56,6 +62,10 @@
                 {
                   "url": "https://via.placeholder.com/600/b0f7cc",
                   "type": "png"
+                },
+                {
+                  "url": "https://via.placeholder.com/600/56a8c2",
+                  "type": "png"
                 }
               ]
             }
@@ -64,12 +74,14 @@
         }
       ]
     }, {
+      "id": 2,
       "title": "Some song 2",
       "composer": "Cool Composer 2",
       "sub": "shows under the title",
       "tags": ["some", "other", "tags"],
       "arrangements": [
         {
+          "id": 3,
           "source": {
             "url": "https://some-static-asset",
             "type": "mscz"

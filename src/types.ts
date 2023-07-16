@@ -1,8 +1,5 @@
-export interface Collection {
-  songs: Song[]
-}
-
 export interface Song {
+  id: number
   title: string
   composer: string
   sub: string
@@ -11,6 +8,7 @@ export interface Song {
 }
 
 export interface Arrangement {
+  id: number
   source: { url: string, type: string }
   name: string
   parts: Part[]
@@ -18,5 +16,10 @@ export interface Arrangement {
 
 export interface Part {
   instrument: string
-  files: { url: string, type: "png" | "svg" }[]
+  files: File[]
+}
+
+export interface File {
+  url: string
+  type: "png" | "svg" 
 }

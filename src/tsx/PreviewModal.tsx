@@ -1,6 +1,6 @@
-import { Modal, Image } from 'react-bootstrap';
-
-import { Part } from '../types';
+import { Modal, Image, Carousel } from 'react-bootstrap';
+import { useState } from 'react';
+import { Part, File } from '../types';
 
 import '../css/PreviewModal.css'
 
@@ -8,6 +8,29 @@ interface PreviewModalProps {
   show: boolean
   handleShow: (show: boolean) => void
   part: Part
+}
+
+interface FilesCarouselProps {
+  files: File[]
+}
+
+const FilesCarousel = ({ files } : FilesCarouselProps) => {
+  const [index, setIndex] = useState(0);
+
+
+  const handleSelect = (selectedIndex : number) => {
+    setIndex(selectedIndex);
+  };
+
+  return (
+    <Carousel activeIndex={index} onSelect={handleSelect}>
+      {files.map(file => (
+        <Carousel.Item>
+          <Image src={file.url} />
+        </Carousel.Item>
+      ))}
+    </Carousel>
+  );
 }
 
 const PreviewModal = ({ show, handleShow, part } : PreviewModalProps) => {
@@ -23,8 +46,9 @@ const PreviewModal = ({ show, handleShow, part } : PreviewModalProps) => {
       <Modal.Header closeButton>
         <Modal.Title>{part.instrument}</Modal.Title>
       </Modal.Header>
+
       <Modal.Body>
-        <Image src={part.files[0].url} />
+        <FilesCarousel files={part.files} />
       </Modal.Body>
     </Modal>
   );

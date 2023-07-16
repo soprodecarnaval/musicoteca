@@ -1,10 +1,16 @@
 import { Table } from "react-bootstrap";
 
-import type { Collection } from '../types';
+import type { Song } from '../types';
 
 import { ArrangementItem } from "./ArrangementItem";
 
-const ArrangementsTable = ({ songs } : Collection ) => {
+interface ArrangementsTableProps {
+  songs: Song[] 
+  readOnly: boolean
+  handleCheck: (song: Song, checked: boolean) => void
+}
+
+const ArrangementsTable = ({ songs, readOnly, handleCheck } : ArrangementsTableProps ) => {
   return (
     <Table striped borderless hover>
       <thead>
@@ -17,12 +23,12 @@ const ArrangementsTable = ({ songs } : Collection ) => {
       </thead>
       <tbody>
         {songs.map((song, songIdx) => (
-          song.arrangements.map((arrangement, idx) => (
+          song.arrangements.map((arrangement) => (
             <ArrangementItem
-              id={idx}
+              readOnly={readOnly}
+              handleCheck={handleCheck}
               arrangement={arrangement}
-              songTitle={songs[songIdx].title}
-              songComposer={songs[songIdx].composer}
+              song={songs[songIdx]}
             />
           ))
         ))}

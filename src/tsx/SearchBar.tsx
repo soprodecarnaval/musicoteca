@@ -12,7 +12,7 @@ interface SearchBarProps {
 const SearchBar = ({ handleResults } : SearchBarProps) => {
   const [searchInput, setSearchInput] = useState("");
 
-  const handleChange = (e : any) => {
+  const handleChange = (e : React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     setSearchInput(e.target.value);
   };
@@ -34,7 +34,7 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
     ))
   )
 
-  const handleKeyDown = (e : any) => {
+  const handleKeyDown = (e : React.KeyboardEvent) => {
     if (e.key !== 'Enter') return
     e.preventDefault();
 
