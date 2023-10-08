@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Col, Container, Navbar, Row } from "react-bootstrap";
 import { SearchBar } from './SearchBar';
 import { ArrangementsTable } from './ArrangementsTable';
+import { PDFGenerator } from './PdfGenerator';
 import type { Song } from '../types';
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -51,6 +52,7 @@ function App() {
           </Col>
         </Row>
         </Container>
+        <PDFGenerator></PDFGenerator>
     </>
   )
 }
