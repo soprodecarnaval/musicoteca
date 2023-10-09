@@ -25,3 +25,6 @@ dist-ssr
 _build/
 deps/
 priv/
+
+# Binary
+musescore_*
