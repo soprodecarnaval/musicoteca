@@ -77,6 +77,7 @@ type Context = {
   song: Song | null;
   tags: string[];
   arrangement: Arrangement | null;
+  outputPath: string;
 };
 
 type Warning = {
@@ -146,9 +147,13 @@ const fileSystemStructure: CollectionNode[] = [
 ];
 
 /**
- * Collection reader entry point. Reads the directory and parses the songs.
+ * Collection reader entry point. Reads the directory, parses the songs and copies
+ * the files to the output directory. Returns the collection model.
  */
-export const readFileSystemCollection = (path: string): Results => {
+export const indexCollection = (
+  inputPath: string,
+  outputPath: string
+): Results => {
   const results: Results = {
     songs: [],
     warnings: [],
@@ -160,8 +165,22 @@ export const readFileSystemCollection = (path: string): Results => {
     arrangement: null,
     song: null,
     tags: [],
+    outputPath,
   };
-  readDirectory(fileSystemStructure, path, results, rootContext);
+  readDirectory(fileSystemStructure, inputPath, results, rootContext);
+
+  console.log(`[indexCollection] Writing index at '${outputPath}/index.json'`);
+  const songsJson = JSON.stringify(results.songs, null, 2);
+  fs.writeFileSync(`${outputPath}/index.json`, songsJson);
+
+  if (results.warnings.length > 0) {
+    console.log(
+      `[indexCollection] Writing warnings at '${outputPath}/warnings.json'`
+    );
+    const warningsJson = JSON.stringify(results.warnings, null, 2);
+    fs.writeFileSync(`${outputPath}/warnings.json`, warningsJson);
+  }
+
   return results;
 };
 
@@ -207,7 +226,7 @@ const doesEntryMatchNode = (
     console.log(`[doesEntryMatchNode] node test failed`);
     return false;
   }
-  console.log(`[doesEntryMatchNode] matches`);
+  console.log(`[doesEntryMatchNode] matched node`);
   return true;
 };
 
@@ -551,14 +570,14 @@ const getFile = (entry: string, context: Context): CollectionFile | null => {
 
 const main = () => {
   const input = "test/scripts/collectionIndexer";
-  const output = "collectionIndex.json";
+  const output = "public/collection";
 
-  console.log(`Reading collection from '${input}'...`);
-  const { songs } = readFileSystemCollection(input);
+  if (!fs.existsSync(output)) {
+    fs.mkdirSync(output);
+  }
 
-  const json = JSON.stringify({ songs }, null, 2);
-  console.log(`Writing collection index to ${output}...`);
-  fs.writeFileSync(output, json);
+  console.log(`Indexing collection from '${input}' into '${output}'...`);
+  indexCollection(input, output);
 };
 
 main();
