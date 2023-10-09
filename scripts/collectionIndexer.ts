@@ -6,6 +6,7 @@ import {
   Part,
   Song,
 } from "../src/types";
+import path from "path";
 
 const instrumentNames: Map<string, Instrument> = new Map([
   ["bombardino", "bombardino"],
@@ -73,11 +74,12 @@ type Results = {
 };
 
 type Context = {
+  inputPath: string;
+  outputPath: string;
   path: string;
   song: Song | null;
   tags: string[];
   arrangement: Arrangement | null;
-  outputPath: string;
 };
 
 type Warning = {
@@ -161,11 +163,12 @@ export const indexCollection = (
     songCount: 0,
   };
   const rootContext: Context = {
+    inputPath,
+    outputPath,
     path: ".",
     arrangement: null,
     song: null,
     tags: [],
-    outputPath,
   };
   readDirectory(fileSystemStructure, inputPath, results, rootContext);
 
@@ -389,7 +392,6 @@ const emitPartFile = (
   const filenameParts = entry
     .split("-")
     .map((part) => part.replace("_", " ").toLocaleLowerCase());
-  console.log(`[emitPartFile] '${filenameParts}'`);
   const name = filenameParts.find((slice) => instrumentNames.has(slice));
   if (!name) {
     emitWarning(
@@ -412,7 +414,7 @@ const emitPartFile = (
     return context;
   }
 
-  const file = getFile(entry, context);
+  const file = emitFile(entry, context);
   if (!file || !isPartFileExtension(file.extension)) {
     emitWarning(
       `[emitPartFile] Part file '${entry}' does not contain a valid file extension`,
@@ -448,7 +450,7 @@ const emitArrangementFile = (
     );
     return context;
   }
-  const file = getFile(entry, context);
+  const file = emitFile(entry, context);
   if (!file) {
     emitWarning(
       `[emitArrangementFile] Arrangement file '${entry}' is a valid file`,
@@ -487,7 +489,7 @@ const emitUntitledArrangementFile = (
     return context;
   }
 
-  const file = getFile(entry, context);
+  const file = emitFile(entry, context);
   if (!file) {
     emitWarning(
       `[emitUntitledArrangementFile] Unnamed arrangement file '${entry}' is a valid file`,
@@ -555,15 +557,27 @@ const emitWarning = (
   });
 };
 
-const getFile = (entry: string, context: Context): CollectionFile | null => {
-  // TODO: copy file to assets folder and return the new url
+const emitFile = (entry: string, context: Context): CollectionFile | null => {
   const extension = entry.split(".").pop();
   if (!extension) {
     return null;
   }
+
+  const entryPath = `${context.path}/${entry}`;
+  const url = "/" + path.relative(context.inputPath, entryPath);
+
+  // copy file to output
+  const outputPath = `${context.outputPath}/${url}`;
+  console.log(`[emitFile] Copying file '${entryPath}' to '${outputPath}'`);
+  const outputDir = path.dirname(outputPath);
+  if (!fs.existsSync(outputDir)) {
+    fs.mkdirSync(outputDir, { recursive: true });
+  }
+  fs.copyFileSync(entryPath, outputPath);
+
   return {
     type: "file",
-    url: `${context.path}/${entry}`,
+    url,
     extension,
   };
 };
