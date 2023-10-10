@@ -21,13 +21,15 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1"
+    "react-icons": "^4.10.1",
+    "svg-to-pdfkit": "^0.1.8"
   },
   "devDependencies": {
     "@types/blob-stream": "^0.1.31",
     "@types/pdfkit": "^0.12.12",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
+    "@types/svg-to-pdfkit": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react-swc": "^3.3.2",

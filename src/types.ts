@@ -1,3 +1,10 @@
+export interface ArrangedSong {
+  title: string
+  composer: string
+  sub: string
+  file_path: string
+}
+
 export interface Song {
   id: number
   title: string

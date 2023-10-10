@@ -1,0 +1,17 @@
+{
+    "title": "Carnaval 2024",
+    "arrangements": [
+        {
+            "title": "A Banda Ta Com Sede",
+            "composer": "Thiago França",
+            "sub": "A banda ta com sede, quem vai trazer goró pra gente",
+            "file_path": "./public/documents/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE/A_BANDA_TA_COM_SEDE_"
+        },
+        {
+            "title": "Alala Ô",
+            "composer": "Não sei",
+            "sub": "Alalaô... mas que calor ô...",
+            "file_path": "./public/documents/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/ALALA_O_"
+        }
+    ]
+}
