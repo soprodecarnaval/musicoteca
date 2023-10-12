@@ -4,3 +4,6 @@ download-musescore:
 
 svg:
 	./musescore_3.6.2.AppImage -j svg-generation.json
+
+build:
+	npm run build
