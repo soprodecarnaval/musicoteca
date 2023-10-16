@@ -1,4 +1,7 @@
 import fs from "fs";
+import path from "path";
+import { ArgumentParser } from "argparse";
+
 import {
   Arrangement,
   CollectionFile,
@@ -6,21 +9,54 @@ import {
   Part,
   Song,
 } from "../src/types";
-import path from "path";
 
 const instrumentNames: Map<string, Instrument> = new Map([
   ["bombardino", "bombardino"],
   ["clarinete", "clarinete"],
+  ["clarineta", "clarinete"],
   ["flauta", "flauta"],
+  ["flute", "flauta"],
+  ["flauta transversal", "flauta"],
+  ["alto", "sax alto"],
   ["sax alto", "sax alto"],
+  ["alto sax", "sax alto"],
+  ["soprano", "sax soprano"],
   ["sax soprano", "sax soprano"],
+  ["soprano sax", "sax soprano"],
+  ["tenor", "sax tenor"],
   ["sax tenor", "sax tenor"],
+  ["tenor sax", "sax tenor"],
   ["trombone", "trombone"],
+  ["trombone pirata", "trombone pirata"],
   ["bone", "trombone"],
+  ["bone pirata", "trombone pirata"],
   ["trompete", "trompete"],
+  ["trumpet", "trompete"],
+  ["trompete pirata", "trompete pirata"],
   ["pete", "trompete"],
+  ["pete pirata", "trompete pirata"],
   ["tuba", "tuba"],
+  ["sousaphone", "tuba"],
 ]);
+
+const getInstrumentName = (entry: string): Instrument | undefined => {
+  let filenameParts = entry
+    .split("-")
+    .flatMap((part) => part.split("."))
+    .map((part) => part.replace("_", " ").toLocaleLowerCase());
+
+  // try to find a match without breaking up the spaces
+  let match = filenameParts.find((slice) => instrumentNames.has(slice));
+  if (match) {
+    return instrumentNames.get(match);
+  }
+
+  // otherwise try to break up spaces and find a match
+  filenameParts = filenameParts.flatMap((part) => part.split(" "));
+  match = filenameParts.find((slice) => instrumentNames.has(slice));
+
+  return match ? instrumentNames.get(match) : undefined;
+};
 
 const partFileExtensions = new Set(["pdf", "svg", "jpg", "jpeg", "png"]);
 
@@ -28,15 +64,16 @@ const isPartFileExtension = (extension: string) => {
   return partFileExtensions.has(extension.toLocaleLowerCase());
 };
 
-// const hasPartFileExtension = (entry: string) => {
-//   const extension = entry.split(".").pop();
-//   if (!extension) {
-//     return false;
-//   }
-//   return isPartFileExtension(extension);
-// };
+const hasPartFileExtension = (entry: string): boolean => {
+  const extension = entry.split(".").pop();
+  return extension != undefined && isPartFileExtension(extension);
+};
 
-// const not = (fn: (entry: string) => boolean) => (entry: string) => !fn(entry);
+const partFolderNames = new Set(partFileExtensions).add("partes");
+
+const isPartFolderName = (entry: string) => {
+  return partFolderNames.has(entry.toLocaleLowerCase());
+};
 
 const ignoreEntryPrefixes = new Set([".", "_"]);
 
@@ -47,7 +84,8 @@ type NodeModel =
   | "partFile"
   | "arrangementFile"
   | "untitledArrangement"
-  | "untitledArrangementFile";
+  | "untitledArrangementFile"
+  | "untitledArrangementPartFile";
 
 type CollectionFileNode = {
   label: string;
@@ -70,7 +108,6 @@ type Results = {
   songs: Song[];
   warnings: Warning[];
   songCount: number;
-  arrangementCount: number;
 };
 
 type Context = {
@@ -83,6 +120,7 @@ type Context = {
 };
 
 type Warning = {
+  source: string;
   context: Context;
   entry: string;
   message: string;
@@ -102,7 +140,7 @@ const fileSystemStructure: CollectionNode[] = [
           {
             label: "/style/song/format/",
             type: "dir",
-            test: isPartFileExtension,
+            test: isPartFolderName,
             model: "untitledArrangement",
             children: [
               {
@@ -111,6 +149,12 @@ const fileSystemStructure: CollectionNode[] = [
                 model: "partFile",
               },
             ],
+          },
+          {
+            label: "/style/song/file.*",
+            type: "file",
+            test: hasPartFileExtension,
+            model: "untitledArrangementPartFile",
           },
           {
             label: "/style/song/file.*",
@@ -126,7 +170,7 @@ const fileSystemStructure: CollectionNode[] = [
               {
                 label: "/style/song/arrangement/format/",
                 type: "dir",
-                test: isPartFileExtension,
+                test: isPartFolderName,
                 children: [
                   {
                     label: "/style/song/arrangement/format/part.*",
@@ -148,6 +192,15 @@ const fileSystemStructure: CollectionNode[] = [
   },
 ];
 
+const emptyContext = {
+  inputPath: "",
+  outputPath: "",
+  path: "",
+  song: null,
+  tags: [],
+  arrangement: null,
+};
+
 /**
  * Collection reader entry point. Reads the directory, parses the songs and copies
  * the files to the output directory. Returns the collection model.
@@ -159,31 +212,15 @@ export const indexCollection = (
   const results: Results = {
     songs: [],
     warnings: [],
-    arrangementCount: 0,
     songCount: 0,
   };
   const rootContext: Context = {
+    ...emptyContext,
     inputPath,
     outputPath,
-    path: ".",
-    arrangement: null,
-    song: null,
-    tags: [],
   };
   readDirectory(fileSystemStructure, inputPath, results, rootContext);
-
-  console.log(`[indexCollection] Writing index at '${outputPath}/index.json'`);
-  const songsJson = JSON.stringify(results.songs, null, 2);
-  fs.writeFileSync(`${outputPath}/index.json`, songsJson);
-
-  if (results.warnings.length > 0) {
-    console.log(
-      `[indexCollection] Writing warnings at '${outputPath}/warnings.json'`
-    );
-    const warningsJson = JSON.stringify(results.warnings, null, 2);
-    fs.writeFileSync(`${outputPath}/warnings.json`, warningsJson);
-  }
-
+  pruneSongsWithoutArrangements(results);
   return results;
 };
 
@@ -193,19 +230,21 @@ export const indexCollection = (
  */
 const readDirectory = (
   structure: CollectionNode[],
-  path: string,
+  outputPath: string,
   results: Results,
   context: Context
-): Results => {
-  path = `${context.path}/${path}`;
-  console.log(`[readDirectory] '${path}'`);
+): Context => {
+  outputPath = path.join(context.path, outputPath);
+  console.debug(`[readDirectory] '${outputPath}'`);
 
-  const dirContext = { ...context, path };
-  fs.readdirSync(path).forEach((entry) => {
-    readEntry(structure, entry, results, dirContext);
+  const dirContext = { ...context, path: outputPath };
+  fs.readdirSync(outputPath).forEach((entry) => {
+    const context = readEntry(structure, entry, results, dirContext);
+    dirContext.arrangement = context.arrangement;
+    dirContext.song = context.song;
   });
 
-  return results;
+  return dirContext;
 };
 
 const doesEntryMatchNode = (
@@ -213,23 +252,23 @@ const doesEntryMatchNode = (
   node: CollectionNode,
   context: Context
 ): boolean => {
-  const entryPath = `${context.path}/${entry}`;
+  const entryPath = path.join(context.path, entry);
   const entryIsDir = fs.statSync(entryPath).isDirectory();
   const nodeIsDir = node.type === "dir";
-  console.log(
+  console.debug(
     `[doesEntryMatchNode] testing entry '${entry}' against node '${node.label}'`
   );
   if (nodeIsDir != entryIsDir) {
-    console.log(
+    console.debug(
       `[doesEntryMatchNode] wrong node type (nodeIsDir: ${nodeIsDir}, entryIsDir: ${entryIsDir})`
     );
     return false;
   }
   if (node.test && !node.test(entry)) {
-    console.log(`[doesEntryMatchNode] node test failed`);
+    console.debug(`[doesEntryMatchNode] node test failed`);
     return false;
   }
-  console.log(`[doesEntryMatchNode] matched node`);
+  console.debug(`[doesEntryMatchNode] matched node`);
   return true;
 };
 
@@ -238,27 +277,22 @@ const readEntry = (
   entry: string,
   results: Results,
   context: Context
-) => {
+): Context => {
   if (ignoreEntryPrefixes.has(entry[0])) {
-    console.log(`[readEntry] Ignoring '${entry}'`);
-    return;
+    console.debug(`[readEntry] Ignoring '${entry}'`);
+    return context;
   }
   const node = structure.find((n) => doesEntryMatchNode(entry, n, context));
   if (!node) {
-    const message = `No node matches entry '${entry}'`;
-    console.warn(`[readEntry] ${message}`, context);
-    results.warnings.push({
-      context,
-      entry,
-      message,
-    });
-    return;
+    emitWarning("readEntry", "No node matches entry", entry, results, context);
+    return context;
   }
   if (node.type === "file") {
-    readFileEntry(entry, node, results, context);
+    return readFileEntry(entry, node, results, context);
   } else if (node.type === "dir") {
-    readDirectoryEntry(entry, node, results, context);
+    return readDirectoryEntry(entry, node, results, context);
   }
+  return context;
 };
 
 const readFileEntry = (
@@ -267,8 +301,8 @@ const readFileEntry = (
   results: Results,
   context: Context
 ) => {
-  console.log(`[readFileEntry] '${entry}'`);
-  emitModel(node.model, entry, results, context);
+  console.debug(`[readFileEntry] '${entry}'`);
+  return emitModel(node.model, entry, results, context);
 };
 
 const readDirectoryEntry = (
@@ -276,22 +310,23 @@ const readDirectoryEntry = (
   node: CollectionDirNode,
   results: Results,
   context: Context
-) => {
-  console.log(`[readDirectoryEntry] '${entry}'`);
+): Context => {
+  console.debug(`[readDirectoryEntry] '${entry}'`);
 
-  const entryPath = `${context.path}/${entry}`;
+  const entryPath = path.join(context.path, entry);
   if (!fs.statSync(entryPath).isDirectory()) {
     emitWarning(
-      `[readDirectoryEntry] Directory entry '${entryPath}' is not a directory`,
+      "readDirectoryEntry",
+      "Entry is not a directory",
       entry,
       results,
       context
     );
-    return;
+    return context;
   }
 
   const nodeContext = emitModel(node.model, entry, results, context);
-  readDirectory(node.children, entry, results, nodeContext);
+  return readDirectory(node.children, entry, results, nodeContext);
 };
 
 const emitModel = (
@@ -313,6 +348,8 @@ const emitModel = (
       return emitArrangementFile(entry, results, context);
     case "untitledArrangement":
       return emitUntitledArrangement(entry, results, context);
+    case "untitledArrangementPartFile":
+      return emitUntitledArrangementPartFile(entry, results, context);
     case "untitledArrangementFile":
       return emitUntitledArrangementFile(entry, results, context);
     default:
@@ -321,11 +358,19 @@ const emitModel = (
 };
 
 const emitTag = (entry: string, context: Context): Context => {
-  console.log(`[emitTag] '${entry}' context: ${inspectContext(context)}'`);
+  console.debug(`[emitTag] '${entry}' context: ${inspectContext(context)}'`);
   const tag = entry.toLocaleLowerCase();
 
   context.tags = [tag];
   return context;
+};
+
+const idFromTitle = (title: string): string => {
+  return title
+    .split(" ")
+    .filter((s) => s.length > 0 && s !== "-")
+    .join("-")
+    .toLocaleLowerCase();
 };
 
 const emitSong = (
@@ -333,18 +378,19 @@ const emitSong = (
   results: Results,
   context: Context
 ): Context => {
+  const title = entry.toLowerCase();
   const song: Song = {
-    id: results.songCount++,
+    id: idFromTitle(title),
     type: "song",
-    title: entry.toLowerCase(),
+    title,
     composer: "",
     sub: "",
     tags: context.tags,
     arrangements: [],
   };
-  console.log(`[emitSong] '${JSON.stringify(song)}'`);
+  console.debug(`[emitSong] '${JSON.stringify(song)}'`);
   results.songs.push(song);
-  return { ...context, song };
+  return { ...context, song, arrangement: null };
 };
 
 const emitArrangement = (
@@ -352,17 +398,19 @@ const emitArrangement = (
   results: Results,
   context: Context
 ): Context => {
+  const name = entry;
   const arrangement: Arrangement = {
-    id: results.arrangementCount++,
+    id: idFromTitle(name),
     type: "arrangement",
-    name: entry,
+    name,
     files: [],
     parts: [],
   };
-  console.log(`[emitArrangement] '${arrangement}'`);
+  console.debug(`[emitArrangement] '${arrangement}'`);
   if (!context.song) {
     emitWarning(
-      `[emitArrangement] Arrangement '${entry}' is not inside an arrangement context`,
+      "emitArrangement",
+      "Arrangement is not inside an arrangement context",
       entry,
       results,
       context
@@ -381,7 +429,8 @@ const emitPartFile = (
 ): Context => {
   if (!context.arrangement) {
     emitWarning(
-      `[emitPartFile] Part file '${entry}' is not inside an arrangement context`,
+      "emitPartFile",
+      "Part file is not inside an arrangement context",
       entry,
       results,
       context
@@ -389,13 +438,11 @@ const emitPartFile = (
     return context;
   }
 
-  const filenameParts = entry
-    .split("-")
-    .map((part) => part.replace("_", " ").toLocaleLowerCase());
-  const name = filenameParts.find((slice) => instrumentNames.has(slice));
+  const name = getInstrumentName(entry);
   if (!name) {
     emitWarning(
-      `[emitPartFile] Part file '${entry}' does not contain a valid instrument name`,
+      "emitPartFile",
+      "Part file does not contain a valid instrument name",
       entry,
       results,
       context
@@ -406,7 +453,8 @@ const emitPartFile = (
   const instrument = instrumentNames.get(name);
   if (!instrument) {
     emitWarning(
-      `[emitPartFile] Part file '${entry}' does not contain a valid instrument`,
+      "emitPartFile",
+      "Part file does not contain a valid instrument",
       entry,
       results,
       context
@@ -417,7 +465,8 @@ const emitPartFile = (
   const file = emitFile(entry, context);
   if (!file || !isPartFileExtension(file.extension)) {
     emitWarning(
-      `[emitPartFile] Part file '${entry}' does not contain a valid file extension`,
+      "emitPartFile",
+      `Part file does not contain a valid file extension`,
       entry,
       results,
       context
@@ -431,7 +480,6 @@ const emitPartFile = (
     instrument,
     files: [file],
   };
-  console.log(`[emitPartFile] '${part}'`);
   context.arrangement.parts.push(part);
   return context;
 };
@@ -443,7 +491,8 @@ const emitArrangementFile = (
 ): Context => {
   if (!context.arrangement) {
     emitWarning(
-      `[emitArrangementFile] Arrangement file '${entry}' is not inside an arrangement context`,
+      "emitArrangementFile",
+      "Arrangement file is not inside an arrangement context",
       entry,
       results,
       context
@@ -453,14 +502,15 @@ const emitArrangementFile = (
   const file = emitFile(entry, context);
   if (!file) {
     emitWarning(
-      `[emitArrangementFile] Arrangement file '${entry}' is a valid file`,
+      "emitArrangementFile",
+      "Arrangement file is a valid file",
       entry,
       results,
       context
     );
     return context;
   }
-  console.log(`[emitArrangementFile] '${JSON.stringify(file)}'`);
+  console.debug(`[emitArrangementFile] '${JSON.stringify(file)}'`);
   context.arrangement.files.push(file);
   return context;
 };
@@ -481,7 +531,8 @@ const emitUntitledArrangementFile = (
   const arrContext = getOrEmitUntitledArrangement(entry, results, context);
   if (!arrContext.arrangement) {
     emitWarning(
-      `[emitUntitledArrangementFile] Unnamed arrangement file '${entry}' is not inside an arrangement context`,
+      "emitUntitledArrangementFile",
+      `Unnamed arrangement file is not inside an arrangement context`,
       entry,
       results,
       context
@@ -492,14 +543,47 @@ const emitUntitledArrangementFile = (
   const file = emitFile(entry, context);
   if (!file) {
     emitWarning(
-      `[emitUntitledArrangementFile] Unnamed arrangement file '${entry}' is a valid file`,
+      "emitUntitledArrangementFile",
+      "Unnamed arrangement file is not a valid file",
       entry,
       results,
       context
     );
     return arrContext;
   }
-  console.log(`[emitUntitledArrangementFile] '${JSON.stringify(file)}'`);
+  console.debug(`[emitUntitledArrangementFile] '${JSON.stringify(file)}'`);
+  arrContext.arrangement.files.push(file);
+  return arrContext;
+};
+
+const emitUntitledArrangementPartFile = (
+  entry: string,
+  results: Results,
+  context: Context
+): Context => {
+  const arrContext = getOrEmitUntitledArrangement(entry, results, context);
+  if (!arrContext.arrangement) {
+    emitWarning(
+      "emitUntitledArrangementPartFile",
+      "Unnamed arrangement file is not inside an arrangement context",
+      entry,
+      results,
+      context
+    );
+    return arrContext;
+  }
+  const file = emitFile(entry, context);
+  if (!file) {
+    emitWarning(
+      "emitUntitledArrangementPartFile",
+      "Arrangement file is a valid file",
+      entry,
+      results,
+      context
+    );
+    return arrContext;
+  }
+  console.debug(`[emitUntitledArrangementPartFile] '${JSON.stringify(file)}'`);
   arrContext.arrangement.files.push(file);
   return arrContext;
 };
@@ -515,26 +599,32 @@ const getOrEmitUntitledArrangement = (
   context: Context
 ): Context => {
   if (context.arrangement) {
+    console.debug(
+      `[getOrEmitUntitledArrangement] Found arrangement in context: '${context.arrangement.name}'`
+    );
     return context;
   }
   if (!context.song) {
     emitWarning(
-      `Unnamed arrangement is not inside a song context`,
+      "getOrEmitUntitledArrangement",
+      "Unnamed arrangement is not inside a song context",
       entry,
       results,
       context
     );
     return context;
   }
+
+  const title = `${context.song.tags[0]} - ${context.song.title}`;
+
   const arrangement: Arrangement = {
-    id: results.arrangementCount++,
+    id: idFromTitle(title),
+    name: title,
     type: "arrangement",
     files: [],
     parts: [],
   };
-  console.log(
-    `[getOrEmitUntitledArrangement] '${JSON.stringify(arrangement)}'`
-  );
+  console.debug(`[getOrEmitUntitledArrangement] emit '${title}'`);
   context.song.arrangements.push(arrangement);
   return { ...context, arrangement };
 };
@@ -544,13 +634,15 @@ const inspectContext = (context: Context) => {
 };
 
 const emitWarning = (
+  source: string,
   message: string,
   entry: string,
   results: Results,
-  context: Context
+  context: Context = emptyContext
 ) => {
-  console.warn(`${message} (${inspectContext(context)})`);
+  console.debug(`[${source}] ${message} (${inspectContext(context)})`);
   results.warnings.push({
+    source,
     context,
     entry,
     message,
@@ -563,12 +655,12 @@ const emitFile = (entry: string, context: Context): CollectionFile | null => {
     return null;
   }
 
-  const entryPath = `${context.path}/${entry}`;
+  const entryPath = path.join(context.path, entry);
   const url = "/" + path.relative(context.inputPath, entryPath);
 
   // copy file to output
-  const outputPath = `${context.outputPath}/${url}`;
-  console.log(`[emitFile] Copying file '${entryPath}' to '${outputPath}'`);
+  const outputPath = path.join(context.outputPath, url);
+  console.debug(`[emitFile] Copying file '${entryPath}' to '${outputPath}'`);
   const outputDir = path.dirname(outputPath);
   if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
@@ -582,16 +674,92 @@ const emitFile = (entry: string, context: Context): CollectionFile | null => {
   };
 };
 
-const main = () => {
-  const input = "test/scripts/collectionIndexer";
-  const output = "public/collection";
+const pruneSongsWithoutArrangements = (results: Results) => {
+  results.songs = results.songs.filter((song) => {
+    if (song.arrangements.length === 0) {
+      emitWarning(
+        "pruneSongsWithoutArrangements",
+        `Pruning song '${song.title}' because it has no arrangements`,
+        song.title,
+        results
+      );
+      return false;
+    }
+    return true;
+  });
+};
 
-  if (!fs.existsSync(output)) {
-    fs.mkdirSync(output);
+const main = () => {
+  const argParser = new ArgumentParser({
+    description:
+      "Reads a score collection from a folder, copies the valid files over to the output folder and generates an index file.",
+  });
+
+  argParser.add_argument("-i", "--input", {
+    type: "str",
+    dest: "input",
+    help: "Input folder",
+  });
+  argParser.add_argument("-o", "--output", {
+    type: "str",
+    dest: "output",
+    help: "Output folder",
+  });
+  argParser.add_argument("-v", "--verbose", {
+    dest: "verbose",
+    action: "store_true",
+    help: "Verbose mode",
+  });
+
+  const args = argParser.parse_args();
+
+  const input = args["input"];
+  if (!input) {
+    console.error("ERROR: Input folder is required");
+    console.info(argParser.format_help());
+    return;
   }
 
-  console.log(`Indexing collection from '${input}' into '${output}'...`);
-  indexCollection(input, output);
+  const output = args["output"];
+  if (!output) {
+    console.error("ERROR: Output folder is required");
+    console.info(argParser.format_help());
+    return;
+  }
+
+  const verbose = args["verbose"] || false;
+  if (!verbose) {
+    console.debug = () => {};
+  }
+
+  if (fs.existsSync(output)) {
+    console.info(`Output folder exists, removing all files inside '${output}'`);
+    fs.rmSync(output, { recursive: true });
+  }
+
+  fs.mkdirSync(output);
+
+  console.info(`Indexing collection from '${input}' into '${output}'...`);
+
+  const results = indexCollection(input, output);
+
+  const songCount = results.songs.length;
+  const arrCount = results.songs.reduce((acc, song) => {
+    return acc + song.arrangements.length;
+  }, 0);
+  console.info(`Indexed ${arrCount} arrangements from ${songCount} songs.`);
+
+  console.info(`Writing index at '${output}/index.json'...`);
+  const songsJson = JSON.stringify(results.songs, null, 2);
+  fs.writeFileSync(`${output}/index.json`, songsJson);
+
+  if (results.warnings.length > 0) {
+    console.info(
+      `Writing ${results.warnings.length} warnings at '${output}/warnings.json'...`
+    );
+    const warningsJson = JSON.stringify(results.warnings, null, 2);
+    fs.writeFileSync(`${output}/warnings.json`, warningsJson);
+  }
 };
 
 main();
