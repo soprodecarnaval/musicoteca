@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "index-collection": "ts-node --esm scripts/collectionIndexer.ts"
   },
   "dependencies": {
     "@types/jest": "^29.5.3",
@@ -27,12 +28,15 @@
   "devDependencies": {
     "@types/blob-stream": "^0.1.31",
     "@types/pdfkit": "^0.12.12",
+    "ts-node": "^10.9.1",
+    "@types/argparse": "^2.0.11",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@types/svg-to-pdfkit": "^0.1.1",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@vitejs/plugin-react-swc": "^3.3.2",
+    "argparse": "^2.0.1",
     "eslint": "^8.44.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.1",

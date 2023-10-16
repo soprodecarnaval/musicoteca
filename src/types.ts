@@ -1,32 +1,45 @@
-export interface ArrangedSong {
-  title: string
-  composer: string
-  sub: string
-  file_path: string
-}
+export type Tag = string;
 
-export interface Song {
-  id: number
-  title: string
-  composer: string
-  sub: string
-  tags: string[]
-  arrangements: Arrangement[]
-}
+export type Song = {
+  type: "song";
+  id: string;
+  title: string;
+  composer: string;
+  sub: string;
+  tags: Tag[];
+  arrangements: Arrangement[];
+};
 
-export interface Arrangement {
-  id: number
-  source: { url: string, type: string }
-  name: string
-  parts: Part[]
-}
+export type Arrangement = {
+  type: "arrangement";
+  id: string;
+  files: CollectionFile[];
+  name?: string;
+  parts: Part[];
+};
 
-export interface Part {
-  instrument: string
-  files: File[]
-}
+export type CollectionFile = {
+  type: "file";
+  url: string;
+  extension: string;
+};
 
-export interface File {
-  url: string
-  type: "png" | "svg" 
-}
+export type Instrument =
+  | "bombardino"
+  | "clarinete"
+  | "flauta"
+  | "sax alto"
+  | "sax soprano"
+  | "sax tenor"
+  | "trombone"
+  | "trombone pirata"
+  | "trompete"
+  | "trompete pirata"
+  | "tuba";
+
+export type Part = {
+  type: "part";
+  name: string;
+  instrument: Instrument;
+  files: CollectionFile[];
+};
