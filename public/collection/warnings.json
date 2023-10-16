@@ -1,0 +1,1494 @@
+[
+  {
+    "source": "readEntry",
+    "context": {
+      "inputPath": "/Users/beise/Desktop/PARTITURAS/",
+      "outputPath": "public/collection",
+      "path": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO ",
+      "song": {
+        "id": "forasteiro",
+        "type": "song",
+        "title": "forasteiro",
+        "composer": "",
+        "sub": "",
+        "tags": [
+          "brazukas"
+        ],
+        "arrangements": [
+          {
+            "id": "carnaval-bh-2023-forasteiro",
+            "type": "arrangement",
+            "name": "CARNAVAL BH 2023 - FORASTEIRO ",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/CARNAVAL BH 2023 - FORASTEIRO /FORASTEIRO.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": []
+          },
+          {
+            "id": "sopra-que-sara-forasteiro",
+            "type": "arrangement",
+            "name": "SOPRA QUE SARA - FORASTEIRO ",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO-GUIA.mp3",
+                "extension": "mp3"
+              },
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": [
+              {
+                "type": "part",
+                "name": "tuba",
+                "instrument": "tuba",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Sousaphone.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax tenor",
+                "instrument": "sax tenor",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Tenor_sax.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trombone",
+                "instrument": "trombone",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trombone.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_1.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_2.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "brazukas"
+      ],
+      "arrangement": {
+        "id": "sopra-que-sara-forasteiro",
+        "type": "arrangement",
+        "name": "SOPRA QUE SARA - FORASTEIRO ",
+        "files": [
+          {
+            "type": "file",
+            "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO-GUIA.mp3",
+            "extension": "mp3"
+          },
+          {
+            "type": "file",
+            "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO.mscz",
+            "extension": "mscz"
+          }
+        ],
+        "parts": [
+          {
+            "type": "part",
+            "name": "tuba",
+            "instrument": "tuba",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Sousaphone.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax tenor",
+            "instrument": "sax tenor",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Tenor_sax.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trombone",
+            "instrument": "trombone",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trombone.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_1.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_2.pdf",
+                "extension": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "entry": "AUDIOS",
+    "message": "No node matches entry"
+  },
+  {
+    "source": "emitPartFile",
+    "context": {
+      "inputPath": "/Users/beise/Desktop/PARTITURAS/",
+      "outputPath": "public/collection",
+      "path": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES",
+      "song": {
+        "id": "forasteiro",
+        "type": "song",
+        "title": "forasteiro",
+        "composer": "",
+        "sub": "",
+        "tags": [
+          "brazukas"
+        ],
+        "arrangements": [
+          {
+            "id": "carnaval-bh-2023-forasteiro",
+            "type": "arrangement",
+            "name": "CARNAVAL BH 2023 - FORASTEIRO ",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/CARNAVAL BH 2023 - FORASTEIRO /FORASTEIRO.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": []
+          },
+          {
+            "id": "sopra-que-sara-forasteiro",
+            "type": "arrangement",
+            "name": "SOPRA QUE SARA - FORASTEIRO ",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO-GUIA.mp3",
+                "extension": "mp3"
+              },
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": [
+              {
+                "type": "part",
+                "name": "tuba",
+                "instrument": "tuba",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Sousaphone.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax tenor",
+                "instrument": "sax tenor",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Tenor_sax.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trombone",
+                "instrument": "trombone",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trombone.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_1.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_2.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "brazukas"
+      ],
+      "arrangement": {
+        "id": "sopra-que-sara-forasteiro",
+        "type": "arrangement",
+        "name": "SOPRA QUE SARA - FORASTEIRO ",
+        "files": [
+          {
+            "type": "file",
+            "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO-GUIA.mp3",
+            "extension": "mp3"
+          },
+          {
+            "type": "file",
+            "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO.mscz",
+            "extension": "mscz"
+          }
+        ],
+        "parts": [
+          {
+            "type": "part",
+            "name": "tuba",
+            "instrument": "tuba",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Sousaphone.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax tenor",
+            "instrument": "sax tenor",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Tenor_sax.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trombone",
+            "instrument": "trombone",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trombone.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_1.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /PARTES/FORASTEIRO-Trumpet_in_bb_2.pdf",
+                "extension": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "entry": "FORASTEIRO-Drum_set.pdf",
+    "message": "Part file does not contain a valid instrument name"
+  },
+  {
+    "source": "readEntry",
+    "context": {
+      "inputPath": "/Users/beise/Desktop/PARTITURAS/",
+      "outputPath": "public/collection",
+      "path": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA",
+      "song": {
+        "id": "vem-morena",
+        "type": "song",
+        "title": "vem morena",
+        "composer": "",
+        "sub": "",
+        "tags": [
+          "festa junina"
+        ],
+        "arrangements": [
+          {
+            "id": "festa-junina-vem-morena",
+            "name": "festa junina - vem morena",
+            "type": "arrangement",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+                "extension": "wav"
+              },
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": [
+              {
+                "type": "part",
+                "name": "bombardino",
+                "instrument": "bombardino",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trombone",
+                "instrument": "trombone",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "flauta",
+                "instrument": "flauta",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax alto",
+                "instrument": "sax alto",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax tenor",
+                "instrument": "sax tenor",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "festa junina"
+      ],
+      "arrangement": {
+        "id": "festa-junina-vem-morena",
+        "name": "festa junina - vem morena",
+        "type": "arrangement",
+        "files": [
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+            "extension": "wav"
+          },
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+            "extension": "mscz"
+          }
+        ],
+        "parts": [
+          {
+            "type": "part",
+            "name": "bombardino",
+            "instrument": "bombardino",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trombone",
+            "instrument": "trombone",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "flauta",
+            "instrument": "flauta",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax alto",
+            "instrument": "sax alto",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax tenor",
+            "instrument": "sax tenor",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                "extension": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "entry": "Controle.xlsx",
+    "message": "No node matches entry"
+  },
+  {
+    "source": "readEntry",
+    "context": {
+      "inputPath": "/Users/beise/Desktop/PARTITURAS/",
+      "outputPath": "public/collection",
+      "path": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA",
+      "song": {
+        "id": "vem-morena",
+        "type": "song",
+        "title": "vem morena",
+        "composer": "",
+        "sub": "",
+        "tags": [
+          "festa junina"
+        ],
+        "arrangements": [
+          {
+            "id": "festa-junina-vem-morena",
+            "name": "festa junina - vem morena",
+            "type": "arrangement",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+                "extension": "wav"
+              },
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": [
+              {
+                "type": "part",
+                "name": "bombardino",
+                "instrument": "bombardino",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trombone",
+                "instrument": "trombone",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "flauta",
+                "instrument": "flauta",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax alto",
+                "instrument": "sax alto",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax tenor",
+                "instrument": "sax tenor",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "festa junina"
+      ],
+      "arrangement": {
+        "id": "festa-junina-vem-morena",
+        "name": "festa junina - vem morena",
+        "type": "arrangement",
+        "files": [
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+            "extension": "wav"
+          },
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+            "extension": "mscz"
+          }
+        ],
+        "parts": [
+          {
+            "type": "part",
+            "name": "bombardino",
+            "instrument": "bombardino",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trombone",
+            "instrument": "trombone",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "flauta",
+            "instrument": "flauta",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax alto",
+            "instrument": "sax alto",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax tenor",
+            "instrument": "sax tenor",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                "extension": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "entry": "EBbloco2023 bonepirata.pptx",
+    "message": "No node matches entry"
+  },
+  {
+    "source": "readEntry",
+    "context": {
+      "inputPath": "/Users/beise/Desktop/PARTITURAS/",
+      "outputPath": "public/collection",
+      "path": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA",
+      "song": {
+        "id": "vem-morena",
+        "type": "song",
+        "title": "vem morena",
+        "composer": "",
+        "sub": "",
+        "tags": [
+          "festa junina"
+        ],
+        "arrangements": [
+          {
+            "id": "festa-junina-vem-morena",
+            "name": "festa junina - vem morena",
+            "type": "arrangement",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+                "extension": "wav"
+              },
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": [
+              {
+                "type": "part",
+                "name": "bombardino",
+                "instrument": "bombardino",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trombone",
+                "instrument": "trombone",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "flauta",
+                "instrument": "flauta",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax alto",
+                "instrument": "sax alto",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax tenor",
+                "instrument": "sax tenor",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "festa junina"
+      ],
+      "arrangement": {
+        "id": "festa-junina-vem-morena",
+        "name": "festa junina - vem morena",
+        "type": "arrangement",
+        "files": [
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+            "extension": "wav"
+          },
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+            "extension": "mscz"
+          }
+        ],
+        "parts": [
+          {
+            "type": "part",
+            "name": "bombardino",
+            "instrument": "bombardino",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trombone",
+            "instrument": "trombone",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "flauta",
+            "instrument": "flauta",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax alto",
+            "instrument": "sax alto",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax tenor",
+            "instrument": "sax tenor",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                "extension": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "entry": "EBbloco2023 petepirata.pptx",
+    "message": "No node matches entry"
+  },
+  {
+    "source": "readEntry",
+    "context": {
+      "inputPath": "/Users/beise/Desktop/PARTITURAS/",
+      "outputPath": "public/collection",
+      "path": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA",
+      "song": {
+        "id": "vem-morena",
+        "type": "song",
+        "title": "vem morena",
+        "composer": "",
+        "sub": "",
+        "tags": [
+          "festa junina"
+        ],
+        "arrangements": [
+          {
+            "id": "festa-junina-vem-morena",
+            "name": "festa junina - vem morena",
+            "type": "arrangement",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+                "extension": "wav"
+              },
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": [
+              {
+                "type": "part",
+                "name": "bombardino",
+                "instrument": "bombardino",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trombone",
+                "instrument": "trombone",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "flauta",
+                "instrument": "flauta",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax alto",
+                "instrument": "sax alto",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax tenor",
+                "instrument": "sax tenor",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "festa junina"
+      ],
+      "arrangement": {
+        "id": "festa-junina-vem-morena",
+        "name": "festa junina - vem morena",
+        "type": "arrangement",
+        "files": [
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+            "extension": "wav"
+          },
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+            "extension": "mscz"
+          }
+        ],
+        "parts": [
+          {
+            "type": "part",
+            "name": "bombardino",
+            "instrument": "bombardino",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trombone",
+            "instrument": "trombone",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "flauta",
+            "instrument": "flauta",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax alto",
+            "instrument": "sax alto",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax tenor",
+            "instrument": "sax tenor",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                "extension": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "entry": "Extensão dos instrumentos por níveis de dificuldade.jpeg",
+    "message": "No node matches entry"
+  },
+  {
+    "source": "readEntry",
+    "context": {
+      "inputPath": "/Users/beise/Desktop/PARTITURAS/",
+      "outputPath": "public/collection",
+      "path": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA",
+      "song": {
+        "id": "vem-morena",
+        "type": "song",
+        "title": "vem morena",
+        "composer": "",
+        "sub": "",
+        "tags": [
+          "festa junina"
+        ],
+        "arrangements": [
+          {
+            "id": "festa-junina-vem-morena",
+            "name": "festa junina - vem morena",
+            "type": "arrangement",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+                "extension": "wav"
+              },
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+                "extension": "mscz"
+              }
+            ],
+            "parts": [
+              {
+                "type": "part",
+                "name": "bombardino",
+                "instrument": "bombardino",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trombone",
+                "instrument": "trombone",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "flauta",
+                "instrument": "flauta",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "trompete",
+                "instrument": "trompete",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax alto",
+                "instrument": "sax alto",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              },
+              {
+                "type": "part",
+                "name": "sax tenor",
+                "instrument": "sax tenor",
+                "files": [
+                  {
+                    "type": "file",
+                    "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                    "extension": "pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "tags": [
+        "festa junina"
+      ],
+      "arrangement": {
+        "id": "festa-junina-vem-morena",
+        "name": "festa junina - vem morena",
+        "type": "arrangement",
+        "files": [
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/GUIA.wav",
+            "extension": "wav"
+          },
+          {
+            "type": "file",
+            "url": "/FESTA JUNINA/VEM MORENA/VEM MORENA.mscz",
+            "extension": "mscz"
+          }
+        ],
+        "parts": [
+          {
+            "type": "part",
+            "name": "bombardino",
+            "instrument": "bombardino",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BOMBARDINO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trombone",
+            "instrument": "trombone",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/BONE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "flauta",
+            "instrument": "flauta",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/FLAUTA.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "trompete",
+            "instrument": "trompete",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/PETE.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax alto",
+            "instrument": "sax alto",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX ALTO.pdf",
+                "extension": "pdf"
+              }
+            ]
+          },
+          {
+            "type": "part",
+            "name": "sax tenor",
+            "instrument": "sax tenor",
+            "files": [
+              {
+                "type": "file",
+                "url": "/FESTA JUNINA/VEM MORENA/PARTES/SAX TENOR.pdf",
+                "extension": "pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "entry": "Tutorial_ formatação de partituras.docx",
+    "message": "No node matches entry"
+  },
+  {
+    "source": "pruneSongsWithoutArrangements",
+    "context": {
+      "inputPath": "",
+      "outputPath": "",
+      "path": "",
+      "song": null,
+      "tags": [],
+      "arrangement": null
+    },
+    "entry": "praiera",
+    "message": "Pruning song 'praiera' because it has no arrangements"
+  },
+  {
+    "source": "pruneSongsWithoutArrangements",
+    "context": {
+      "inputPath": "",
+      "outputPath": "",
+      "path": "",
+      "song": null,
+      "tags": [],
+      "arrangement": null
+    },
+    "entry": "bactéria filha da pu",
+    "message": "Pruning song 'bactéria filha da pu' because it has no arrangements"
+  },
+  {
+    "source": "pruneSongsWithoutArrangements",
+    "context": {
+      "inputPath": "",
+      "outputPath": "",
+      "path": "",
+      "song": null,
+      "tags": [],
+      "arrangement": null
+    },
+    "entry": "dengo",
+    "message": "Pruning song 'dengo' because it has no arrangements"
+  },
+  {
+    "source": "pruneSongsWithoutArrangements",
+    "context": {
+      "inputPath": "",
+      "outputPath": "",
+      "path": "",
+      "song": null,
+      "tags": [],
+      "arrangement": null
+    },
+    "entry": "meu bem",
+    "message": "Pruning song 'meu bem' because it has no arrangements"
+  },
+  {
+    "source": "pruneSongsWithoutArrangements",
+    "context": {
+      "inputPath": "",
+      "outputPath": "",
+      "path": "",
+      "song": null,
+      "tags": [],
+      "arrangement": null
+    },
+    "entry": "meu pedaço de pecado",
+    "message": "Pruning song 'meu pedaço de pecado' because it has no arrangements"
+  }
+]

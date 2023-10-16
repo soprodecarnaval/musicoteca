@@ -2,7 +2,7 @@ export type Tag = string;
 
 export type Song = {
   type: "song";
-  id: number;
+  id: string;
   title: string;
   composer: string;
   sub: string;
@@ -12,7 +12,7 @@ export type Song = {
 
 export type Arrangement = {
   type: "arrangement";
-  id: number;
+  id: string;
   files: CollectionFile[];
   name?: string;
   parts: Part[];
@@ -32,7 +32,9 @@ export type Instrument =
   | "sax soprano"
   | "sax tenor"
   | "trombone"
+  | "trombone pirata"
   | "trompete"
+  | "trompete pirata"
   | "tuba";
 
 export type Part = {
