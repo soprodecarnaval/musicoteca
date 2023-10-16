@@ -1,12 +1,11 @@
 import { Button } from "react-bootstrap";
-
+import { CanvasGenerator } from "./CanvasGenerator"
 // Needed for calling PDFDocument from window variable
 declare const window: any;
-import SVGtoPDF from 'svg-to-pdfkit';
 
-window.PDFDocument.prototype.addSVG = function(svg_path: any, instrument : any, x: any, y: any, options: any) {
-    return SVGtoPDF(this, require(`${svg_path}${instrument}-1.svg`) as string, x, y, options), this;
-};
+const options = {}
+const cg = CanvasGenerator(options)
+
 
 import songbook from './songs-example.json';
 
@@ -21,25 +20,6 @@ enum Instruments {
 const a = document.createElement("a");
 document.body.appendChild(a);
 
-const download = (doc: any, file_name: string) => {
-    const stream = doc.pipe(window.blobStream());
-    stream.on('finish', function () {
-        const url = stream.toBlobURL('application/pdf');
-        a.href = url;
-        a.download = file_name;
-        a.click();
-        window.URL.revokeObjectURL(url);
-    });
-    doc.end()
-}
-
-const createDoc = () => {
-    return new window.PDFDocument({ layout: "landscape", size: 'A5' });
-}
-
-const addPage = (doc: any) => {
-    doc.addPage({ layout: "landscape", size: 'A5' })
-}
 
 const createMusicSheet = (doc: any, instrument : string, song: { title: string, composer: string, sub: string, file_path: string }) => {
     doc.fontSize(20).text(song.title, 800, 50);
