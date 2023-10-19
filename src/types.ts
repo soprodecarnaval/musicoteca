@@ -1,5 +1,5 @@
 export type Tag = string;
-
+export type File = any;
 export type Song = {
   type: "song";
   id: string;

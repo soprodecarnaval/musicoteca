@@ -43,8 +43,8 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
       return
     }
 
-    const songsByArrangement = searchByArrangement(searchInput) as Song[];
-    const songsByTitleOrComposer = searchByTitleOrComposer(searchInput) as Song[];
+    const songsByArrangement = searchByArrangement(searchInput) as unknown as Song[];
+    const songsByTitleOrComposer = searchByTitleOrComposer(searchInput) as unknown as Song[];
 
     handleResults([... songsByTitleOrComposer, ...songsByArrangement]);
   }
