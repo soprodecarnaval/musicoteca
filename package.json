@@ -26,14 +26,10 @@
     "svg-to-pdfkit": "^0.1.8"
   },
   "devDependencies": {
-<<<<<<< HEAD
     "@types/blob-stream": "^0.1.31",
     "@types/pdfkit": "^0.12.12",
     "ts-node": "^10.9.1",
     "@types/argparse": "^2.0.11",
-=======
-    "@types/argparse": "^2.0.12",
->>>>>>> main
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "@types/svg-to-pdfkit": "^0.1.1",
