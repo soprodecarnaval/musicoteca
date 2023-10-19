@@ -34,13 +34,28 @@ const download = (doc: any, file_name: string) => {
     doc.end()
 }
 
+const toJpg = (canvas : any) => {
+    return new Promise(function (resolve, reject) {
+      canvas.toBlob((blob: any) => {
+        try{
+          blob.name = canvas.filename
+          resolve(blob)
+        }catch(e){
+          reject(e)
+        }
+      }, 'image/jpeg', canvas.quality);
+    })
+  }
+
 const loadImage = (url: string) => {
     return new Promise((resolve, reject) => {
         let img = new Image()
         img.crossOrigin = "Anonymous"
 
-        img.onload = (e) => {
-            console.log(e)
+        img.onload = () => {
+            let canvas = document.createElement('canvas')
+			let ctx = canvas.getContext('2d')
+            ctx?.drawImage(img,0,0)
             resolve(img)
         }
 

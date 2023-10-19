@@ -7,3 +7,6 @@ svg:
 
 build:
 	npm run build
+
+run:
+	npm run preview
