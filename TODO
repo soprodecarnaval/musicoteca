@@ -1,0 +1,2 @@
+- retirar espaços e caracteres especiais das urls dos arquivos
+- indexar search usando fuse.js

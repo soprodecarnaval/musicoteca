@@ -1,54 +1,57 @@
-import { useState } from 'react'
+import { useState } from "react";
 
 import { Row, Col, Form } from "react-bootstrap";
 
-import collection from '../../collection.json'
-import { Song } from '../types';
+import collection from "../collection.json";
+import { Song } from "../types";
 
 interface SearchBarProps {
-  handleResults: (results : Song[]) => void
+  handleResults: (results: Song[]) => void;
 }
 
-const SearchBar = ({ handleResults } : SearchBarProps) => {
+const SearchBar = ({ handleResults }: SearchBarProps) => {
   const [searchInput, setSearchInput] = useState("");
 
-  const handleChange = (e : React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     e.preventDefault();
     setSearchInput(e.target.value);
   };
 
-  const searchByArrangement = (searchData : string) => (
-    collection.songs.map(song => {
-      const foundArrs = song.arrangements.filter(
-        arr => arr.name.toUpperCase().match(searchData.toUpperCase())
-      )
+  const searchByArrangement = (searchData: string) =>
+    collection.songs.map((song) => {
+      const foundArrs = song.arrangements.filter((arr) =>
+        arr.name.toUpperCase().match(searchData.toUpperCase())
+      );
 
-      return { ...song, arrangements: foundArrs }
-    })
-  )
+      return { ...song, arrangements: foundArrs };
+    });
 
-  const searchByTitleOrComposer = (searchData : string) => (
-    collection.songs.filter((song) => (
-      song.title.toUpperCase().match(searchData.toUpperCase()) ||
+  const searchByTitleOrComposer = (searchData: string) =>
+    collection.songs.filter(
+      (song) =>
+        song.title.toUpperCase().match(searchData.toUpperCase()) ||
         song.composer.toUpperCase().match(searchData.toUpperCase())
-    ))
-  )
+    );
 
-  const handleKeyDown = (e : React.KeyboardEvent) => {
-    if (e.key !== 'Enter') return
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key !== "Enter") return;
     e.preventDefault();
 
     if (searchInput.length === 0) {
       handleResults([]);
-      return
+      return;
     }
 
-    const songsByArrangement = searchByArrangement(searchInput) as unknown as Song[];
-    const songsByTitleOrComposer = searchByTitleOrComposer(searchInput) as unknown as Song[];
+    const songsByArrangement = searchByArrangement(
+      searchInput
+    ) as unknown as Song[];
+    const songsByTitleOrComposer = searchByTitleOrComposer(
+      searchInput
+    ) as unknown as Song[];
 
-    handleResults([... songsByTitleOrComposer, ...songsByArrangement]);
-  }
- 
+    handleResults([...songsByTitleOrComposer, ...songsByArrangement]);
+  };
+
   return (
     <Row className="mt-4">
       <Col sm={6}>
@@ -65,7 +68,7 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
         </Form>
       </Col>
     </Row>
-  )
-}
+  );
+};
 
-export { SearchBar }
+export { SearchBar };
