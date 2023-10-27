@@ -47,8 +47,6 @@ const ArrangementItem = ({
   const [expand, setExpand] = useState(false);
   const [checked, setChecked] = useState(false);
 
-  console.log(arrangement);
-
   const handleOnChange = () => {
     handleCheck({ ...song, arrangements: [arrangement] }, !checked);
     setChecked(!checked);

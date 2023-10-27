@@ -21,7 +21,6 @@ const FilesCarousel = ({ files }: FilesCarouselProps) => {
     setIndex(selectedIndex);
   };
 
-  console.log(files);
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {files.map((file) => (
