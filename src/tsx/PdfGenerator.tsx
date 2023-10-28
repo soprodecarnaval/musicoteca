@@ -19,6 +19,8 @@ enum Instruments {
     TENOR_SAX = "SAX_TENOR"
 }
 
+const documentOptions = { layout: "landscape", size: 'A5', bufferPages: true }
+
 const a = document.createElement("a");
 document.body.appendChild(a);
 
@@ -34,29 +36,20 @@ const download = (doc: any, file_name: string) => {
     doc.end()
 }
 
-const toJpg = (canvas : any) => {
-    return new Promise(function (resolve, reject) {
-      canvas.toBlob((blob: any) => {
-        try{
-          blob.name = canvas.filename
-          resolve(blob)
-        }catch(e){
-          reject(e)
-        }
-      }, 'image/jpeg', canvas.quality);
-    })
-  }
-
 const loadImage = (url: string) => {
     return new Promise((resolve, reject) => {
         let img = new Image()
         img.crossOrigin = "Anonymous"
 
         img.onload = () => {
-            let canvas = document.createElement('canvas')
-			let ctx = canvas.getContext('2d')
-            ctx?.drawImage(img,0,0)
-            resolve(img)
+            // resolve(img)
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            canvas.height = 2409;
+            canvas.width = 4208;
+            ctx?.drawImage(img, 0, 0);
+            const dataUrl = canvas.toDataURL();
+            resolve(dataUrl)
         }
 
         img.onerror = () => {
@@ -66,24 +59,26 @@ const loadImage = (url: string) => {
     })
 }
 
-const drawImage = (doc : any, img_url : string) => {
-    return loadImage(img_url).then((img) => {
-            doc.image(img,900,50,{width:500})
-        }
-    )
+const drawImage = (doc : any, img_url : string, page: number) => {
+    return loadImage(img_url).then((img: any) => {
+        doc.switchToPage(page)
+        doc.image(img, 50, 100, {
+            width: 500,
+            height: 300
+          });
+    }).catch((error)=>{console.log(error)})
+    
 }
 
 const createDoc = () => {
-    return new window.PDFDocument({ layout: "landscape", size: 'A5' });
+    return new window.PDFDocument(documentOptions);
 }
 
-const addPage = (doc: any) => {
-    doc.addPage({ layout: "landscape", size: 'A5' })
-}
-const createMusicSheet = (doc: any, instrument : string, song: { title: string, composer: string, sub: string, file_path: string }) => {
-    doc.fontSize(20).text(song.title, 800, 50);
+const createMusicSheet = (doc: any, instrument : string, song: { title: string, composer: string, sub: string, file_path: string }, page : number) => {
+    doc.addPage()
+    doc.fontSize(20).text(song.title, 50, 30);
     let img_url = `${song.file_path}${instrument}-1.png`
-    return drawImage(doc,img_url)
+    return drawImage(doc,img_url,page)
     
 }
 
@@ -98,8 +93,7 @@ const createSongBook = (instrument: Instruments) => {
     let promises: any[] = []
     for (let i = 0; i < songbook.arrangements.length; i++) {
         const song = songbook.arrangements[i];
-        addPage(doc)
-        promises = promises.concat(createMusicSheet(doc, instrument, song))
+        promises = promises.concat(createMusicSheet(doc, instrument, song,i+1))
     }
     return Promise.all(promises).then(() => {
         download(doc, createFileName(songbook.title))
