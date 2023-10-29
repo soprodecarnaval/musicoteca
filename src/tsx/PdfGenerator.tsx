@@ -82,11 +82,11 @@ const createMusicSheet = (doc: any, instrument : string, song: { title: string, 
     
 }
 
-const createFileName = (title: string) => {
-    return `${title.replace(/[ -]/g, "_")}.pdf`
+const createFileName = (title: string, instrument: string) => {
+    return `${title.replace(/[ -]/g, "_")}_${instrument}.pdf`
 }
 
-const createSongBook = (instrument: Instruments) => {
+const createSongBook = (instrument: string) => {
     const doc = createDoc()
     doc.fontSize(25).text(songbook.title, 120, 100);
     doc.fontSize(22).text(instrument, 120, 125);
@@ -96,14 +96,18 @@ const createSongBook = (instrument: Instruments) => {
         promises = promises.concat(createMusicSheet(doc, instrument, song,i+1))
     }
     return Promise.all(promises).then(() => {
-        download(doc, createFileName(songbook.title))
+        download(doc, createFileName(songbook.title,instrument))
     })
 }
 
 const PDFGenerator = () => {
 
     const generatePdf = () => {
-        createSongBook(Instruments.TRUMPET)
+        let songbooks: any[] = []
+        Object.values(Instruments).forEach((instrument) => {
+            songbooks.push(createSongBook(instrument))
+        })
+        Promise.all(songbooks).then(()=>{console.log("Terminei")})
     }
 
     return (
