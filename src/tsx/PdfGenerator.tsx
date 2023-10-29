@@ -1,14 +1,10 @@
 import { Button } from "react-bootstrap";
-// import { CanvasGenerator } from "./CanvasGenerator"
+import * as d3 from "d3";
+import SVGtoPDF, * as svgToPdf from "svg-to-pdfkit";
 // Needed for calling PDFDocument from window variable
 declare const window: any;
 
-// const options = {}
-// const dpi = 300
-// const a5size = { width: 14.85 * (dpi / 2.54), height: 21 * (dpi / 2.54) }
-// const cg = CanvasGenerator(options)
-
-
+// TODO: Remove static file and integrate with UI
 import songbook from './songs-example.json';
 
 enum Instruments {
@@ -34,6 +30,61 @@ const download = (doc: any, file_name: string) => {
         window.URL.revokeObjectURL(url);
     });
     doc.end()
+}
+
+const parseHTML = (html:string) => {
+    let doc = document.implementation.createHTMLDocument("");
+    doc.write(html);
+
+    // You must manually set the xmlns if you intend to immediately serialize
+    // the HTML document to a string as opposed to appending it to a
+    // <foreignObject> in the DOM
+    // doc.documentElement.setAttribute("xmlns", doc.documentElement.namespaceURI);
+
+    // Get well-formed markup
+    return (new XMLSerializer).serializeToString(doc.body);
+}
+
+const drawSvg = (doc : any, url: string, page : number) => {
+    return fetch(url).
+    then(r => r.text()).
+    then(svg => {
+        doc.switchToPage(page)
+        let width = 500
+        let height = 300
+        SVGtoPDF(doc,svg,50,100,{
+            width: width,
+            height: height,
+            preserveAspectRatio: `${width}x${height}`,
+        })
+        // let serializer = new XMLSerializer()
+        // let div = document.createElement('div')
+        // let svg_html = d3.select(div).html(svg).select('svg')
+        // let svg_url = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(serializer.serializeToString(svg_html.node()));
+        // let img = document.createElement('img')
+        // img.onload = (e) => {
+        //     let canvas = document.createElement('canvas');
+        //     let ctx = canvas.getContext('2d');
+        //     canvas.height = 2409;
+        //     canvas.width = 4208;
+        //     ctx?.drawImage(img, 0, 0);
+        //     let dataUrl = canvas.toDataURL();
+
+        //     doc.switchToPage(page)
+        //     doc.image(dataUrl, 50, 100, {
+        //         width: 500,
+        //         height: 300
+        //       });
+        //     URL.revokeObjectURL(svg_url);
+        // }
+
+        // img.onerror = () => {
+        //     console.log(`Erro ao desenhar svg`)
+        // }
+
+        // img.src = svg_url
+    })
+    .catch(console.error.bind(console));
 }
 
 const loadImage = (url: string) => {
@@ -66,8 +117,7 @@ const drawImage = (doc : any, img_url : string, page: number) => {
             width: 500,
             height: 300
           });
-    }).catch((error)=>{console.log(error)})
-    
+    }).catch((error)=>{console.log(error)})   
 }
 
 const createDoc = () => {
@@ -77,8 +127,10 @@ const createDoc = () => {
 const createMusicSheet = (doc: any, instrument : string, song: { title: string, composer: string, sub: string, file_path: string }, page : number) => {
     doc.addPage()
     doc.fontSize(20).text(song.title, 50, 30);
-    let img_url = `${song.file_path}${instrument}-1.png`
-    return drawImage(doc,img_url,page)
+    let svg_url = `${song.file_path}${instrument}-1.svg`
+    return drawSvg(doc,svg_url,page)
+    // let img_url = `${song.file_path}${instrument}-1.png`
+    // return drawImage(doc,img_url,page)
     
 }
 
