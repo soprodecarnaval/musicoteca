@@ -28,3 +28,4 @@ priv/
 
 # Binary
 musescore_*
+*.svg
