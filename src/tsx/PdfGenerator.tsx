@@ -1,5 +1,5 @@
 import { Button } from "react-bootstrap";
-import SVGtoPDF, * as svgToPdf from "svg-to-pdfkit";
+import SVGtoPDF from "svg-to-pdfkit";
 // Needed for calling PDFDocument from window variable
 declare const window: any;
 

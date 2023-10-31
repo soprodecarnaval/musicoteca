@@ -18,9 +18,9 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
   };
 
   const searchByArrangement = (searchData : string) => (
-    collection.songs.map(song => {
+    collection.songs.map((song : any) => {
       const foundArrs = song.arrangements.filter(
-        arr => arr.name.toUpperCase().match(searchData.toUpperCase())
+        (arr:any) => arr.name.toUpperCase().match(searchData.toUpperCase())
       )
 
       return { ...song, arrangements: foundArrs }
@@ -28,7 +28,7 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
   )
 
   const searchByTitleOrComposer = (searchData : string) => (
-    collection.songs.filter((song) => (
+    collection.songs.filter((song:any) => (
       song.title.toUpperCase().match(searchData.toUpperCase()) ||
         song.composer.toUpperCase().match(searchData.toUpperCase())
     ))
