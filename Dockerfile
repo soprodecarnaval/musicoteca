@@ -13,12 +13,17 @@ RUN find /collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"
 
 RUN xvfb-run /squashfs-root/AppRun -j /media-generation.json
 
-RUN find /collection/* -type f ! -name '*.svg' -a ! -name '*.json' -delete
+RUN find /collection/* -type f ! -name '*.svg' -a ! -name '*.json' -a ! -name '*.metajson' -delete
+
 
 FROM node:18.18.2-bullseye-slim as build-node
 
-COPY src/ /app/src
+WORKDIR /app
+
 COPY package.json /app
+RUN npm install
+
+COPY src/ /app/src
 COPY --from=build-svg /collection /app/public/collection
 COPY public/assets /app/public/assets
 COPY tsconfig.json /app
@@ -28,8 +33,7 @@ COPY index.html /app
 
 # TODO: Remove example files
 COPY collection.json /app
-WORKDIR /app
-RUN npm install
+#RUN npm run index-collection -i /app/public/collection -o /app/public/collection
 RUN npm run build
 
 #FROM node:18.18.2-alpine3.18

@@ -52,7 +52,7 @@ function App() {
           </Col>
         </Row>
         </Container>
-        <PDFGenerator></PDFGenerator>
+        <PDFGenerator songs={checkedResults} title="Carnaval 2024"></PDFGenerator>
     </>
   )
 }
