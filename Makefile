@@ -10,3 +10,6 @@ build:
 
 run:
 	npm run preview
+
+docker:
+	docker build -t musicoteca .

@@ -2,7 +2,8 @@ import { useState } from 'react'
 
 import { Row, Col, Form } from "react-bootstrap";
 
-import collection from '../../collection.json'
+// import collection from '../../collection.json'
+import collection from '../../public/collection/index.json'
 import { Song } from '../types';
 
 interface SearchBarProps {
@@ -18,7 +19,7 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
   };
 
   const searchByArrangement = (searchData : string) => (
-    collection.songs.map((song : any) => {
+    collection.map((song : any) => {
       const foundArrs = song.arrangements.filter(
         (arr:any) => arr.name.toUpperCase().match(searchData.toUpperCase())
       )
@@ -28,7 +29,7 @@ const SearchBar = ({ handleResults } : SearchBarProps) => {
   )
 
   const searchByTitleOrComposer = (searchData : string) => (
-    collection.songs.filter((song:any) => (
+    collection.filter((song:any) => (
       song.title.toUpperCase().match(searchData.toUpperCase()) ||
         song.composer.toUpperCase().match(searchData.toUpperCase())
     ))

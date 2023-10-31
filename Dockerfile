@@ -9,7 +9,7 @@ RUN /musescore.AppImage --appimage-extract
 
 COPY public/collection/ /collection/
 
-RUN find /collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"]]})' | jq 'map(select(.in != ""))' > media-generation.json
+RUN find /collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],"\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
 
 RUN xvfb-run /squashfs-root/AppRun -j /media-generation.json
 
