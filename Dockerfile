@@ -36,15 +36,11 @@ COPY vite.config.ts /app
 COPY index.html /app
 
 # TODO: Remove example files
-COPY collection.json /app
-#RUN npm run index-collection -i /app/public/collection -o /app/public/collection
+RUN npm run index-collection -- -i /app/public/collection -o /app/public/collection
+COPY /app/public/collection/index.json /app
 RUN npm run build
 
 #FROM node:18.18.2-alpine3.18
 FROM nginx:1.25.3-alpine3.18-slim
 
 COPY --from=build-node /app/dist /usr/share/nginx/html
-
-
-
-

@@ -58,7 +58,7 @@ const getInstrumentName = (entry: string): Instrument | undefined => {
   return match ? instrumentNames.get(match) : undefined;
 };
 
-const partFileExtensions = new Set(["pdf", "svg", "jpg", "jpeg", "png"]);
+const partFileExtensions = new Set(["svg"]);
 
 const isPartFileExtension = (extension: string) => {
   return partFileExtensions.has(extension.toLocaleLowerCase());
@@ -73,6 +73,15 @@ const partFolderNames = new Set(partFileExtensions).add("partes");
 
 const isPartFolderName = (entry: string) => {
   return partFolderNames.has(entry.toLocaleLowerCase());
+};
+
+const hasArrangementFileExtension = (entry: string): boolean => {
+  const extension = entry.split(".").pop();
+  return (
+    extension != undefined &&
+    (extension.toLocaleLowerCase() === "mscz" ||
+      extension.toLocaleLowerCase() === "metajson")
+  );
 };
 
 const ignoreEntryPrefixes = new Set([".", "_"]);
@@ -147,6 +156,7 @@ const fileSystemStructure: CollectionNode[] = [
                 label: "/style/song/format/part.*",
                 type: "file",
                 model: "partFile",
+                test: hasPartFileExtension,
               },
             ],
           },
@@ -160,6 +170,7 @@ const fileSystemStructure: CollectionNode[] = [
             label: "/style/song/file.*",
             type: "file",
             model: "untitledArrangementFile",
+            test: hasArrangementFileExtension,
           },
           {
             label: "/style/song/arrangement/",
@@ -176,12 +187,20 @@ const fileSystemStructure: CollectionNode[] = [
                     label: "/style/song/arrangement/format/part.*",
                     type: "file",
                     model: "partFile",
+                    test: hasPartFileExtension,
                   },
                 ],
               },
               {
                 label: "/style/song/arrangement/file.*",
                 type: "file",
+                test: hasPartFileExtension,
+                model: "partFile",
+              },
+              {
+                label: "/style/song/arrangement/file.*",
+                type: "file",
+                test: hasArrangementFileExtension,
                 model: "arrangementFile",
               },
             ],
@@ -651,13 +670,13 @@ const emitWarning = (
 
 // remove spaces and special characters from URLs
 // diacriticals are removed (e.g. á -> a)
-const normalizeUrl = (url: string): string => {
-  return url
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[^a-zA-Z0-9-_.]/g, "_")
-    .toLocaleLowerCase();
-};
+// const normalizeUrl = (url: string): string => {
+//   return url
+//     .normalize("NFD")
+//     .replace(/[\u0300-\u036f]/g, "")
+//     .replace(/[^a-zA-Z0-9-_.]/g, "_")
+//     .toLocaleLowerCase();
+// };
 
 const emitFile = (entry: string, context: Context): CollectionFile | null => {
   const extension = entry.split(".").pop();
@@ -666,7 +685,7 @@ const emitFile = (entry: string, context: Context): CollectionFile | null => {
   }
 
   const entryPath = path.join(context.path, entry);
-  const url = normalizeUrl(path.relative(context.inputPath, entryPath));
+  const url = path.relative(context.inputPath, entryPath);
 
   // copy file to output
   const outputPath = path.join(context.outputPath, url);
