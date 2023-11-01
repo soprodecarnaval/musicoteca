@@ -5,20 +5,9 @@ import { Song, Instrument } from '../types';
 // Needed for calling PDFDocument from window variable
 declare const window: any;
 
-// TODO: Remove static file and integrate with UI
-// import songbook from './songs-example.json';
-
 interface PdfGeneratorProps {
     songs: Song[],
     title: string
-}
-
-enum Instruments {
-    FLUTE = "FLAUTA",
-    TROMBONE = "BONE",
-    TRUMPET = "PETE",
-    ALTO_SAX = "SAX_ALTO",
-    TENOR_SAX = "SAX_TENOR"
 }
 
 const instruments : Instrument[] = [ 
@@ -68,38 +57,38 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         .catch(console.error.bind(console));
     }
 
-    const loadImage = (url: string) => {
-        return new Promise((resolve, reject) => {
-            let img = new Image()
-            img.crossOrigin = "Anonymous"
+    // const loadImage = (url: string) => {
+    //     return new Promise((resolve, reject) => {
+    //         let img = new Image()
+    //         img.crossOrigin = "Anonymous"
 
-            img.onload = () => {
-                // resolve(img)
-                const canvas = document.createElement('canvas');
-                const ctx = canvas.getContext('2d');
-                canvas.height = 2409;
-                canvas.width = 4208;
-                ctx?.drawImage(img, 0, 0);
-                const dataUrl = canvas.toDataURL();
-                resolve(dataUrl)
-            }
+    //         img.onload = () => {
+    //             // resolve(img)
+    //             const canvas = document.createElement('canvas');
+    //             const ctx = canvas.getContext('2d');
+    //             canvas.height = 2409;
+    //             canvas.width = 4208;
+    //             ctx?.drawImage(img, 0, 0);
+    //             const dataUrl = canvas.toDataURL();
+    //             resolve(dataUrl)
+    //         }
 
-            img.onerror = () => {
-                reject(new Error(`Failed to load image's URL: ${url}`))
-            }
-            img.src = url
-        })
-    }
+    //         img.onerror = () => {
+    //             reject(new Error(`Failed to load image's URL: ${url}`))
+    //         }
+    //         img.src = url
+    //     })
+    // }
 
-    const drawImage = (doc : any, img_url : string, page: number) => {
-        return loadImage(img_url).then((img: any) => {
-            doc.switchToPage(page)
-            doc.image(img, 50, 100, {
-                width: 500,
-                height: 300
-            });
-        }).catch((error)=>{console.log(error)})   
-    }
+    // const drawImage = (doc : any, img_url : string, page: number) => {
+    //     return loadImage(img_url).then((img: any) => {
+    //         doc.switchToPage(page)
+    //         doc.image(img, 50, 100, {
+    //             width: 500,
+    //             height: 300
+    //         });
+    //     }).catch((error)=>{console.log(error)})   
+    // }
 
     const createDoc = () => {
         return new window.PDFDocument(documentOptions);
@@ -117,7 +106,7 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
                         .filter((file) => file.extension == "svg")[0]
                         .url
         
-        return drawSvg(doc,svgUrl,page)
+        return drawSvg(doc,`/collection/${svgUrl}`,page)
         
     }
 
@@ -138,7 +127,7 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
     }
 
     const generatePdf = () => {
-        let songbooks: any[] = instruments.map(createSongBook)
+        let songbooks: any[] = instruments.map((instrument) => {createSongBook(instrument)})
         Promise.all(songbooks).then(()=>{console.log("Terminei")})
     }
 

@@ -28,19 +28,18 @@ COPY package.json /app
 RUN npm install
 
 COPY src/ /app/src
-COPY --from=build-svg /collection /app/public/collection
+COPY --from=build-svg /collection /collection
 COPY public/assets /app/public/assets
 COPY tsconfig.json /app
 COPY tsconfig.node.json /app
 COPY vite.config.ts /app
 COPY index.html /app
+COPY scripts /app/scripts
 
-# TODO: Remove example files
-RUN npm run index-collection -- -i /app/public/collection -o /app/public/collection
-COPY /app/public/collection/index.json /app
+RUN npm run index-collection -- -i /collection -o /app/public/collection
 RUN npm run build
 
-#FROM node:18.18.2-alpine3.18
+# #FROM node:18.18.2-alpine3.18
 FROM nginx:1.25.3-alpine3.18-slim
 
 COPY --from=build-node /app/dist /usr/share/nginx/html
