@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
-import { Song } from '../types';
+import { Song, Instrument } from '../types';
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
@@ -21,8 +21,20 @@ enum Instruments {
     TENOR_SAX = "SAX_TENOR"
 }
 
+const instruments : Instrument[] = [ 
+    "bombardino",
+    "clarinete",
+    "flauta",
+    "sax alto",
+    "sax soprano",
+    "sax tenor",
+    "trombone",
+    "trombone pirata",
+    "trompete",
+    "trompete pirata",
+    "tuba"
+]
 const documentOptions = { layout: "landscape", size: 'A5', bufferPages: true, margin: 0 }
-const useSVG = true
 
 const a = document.createElement("a");
 document.body.appendChild(a);
@@ -98,15 +110,14 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         doc.fontSize(20).text(song.title, 40, 35) // Título
         doc.fontSize(18).text(song.composer, 45, 55) // Compositor
         doc.fontSize(15).text(page, 550, 380) // Número de página
-        let urlPrefix = song.arrangements[0].files[0].url.replace(/.mscz/,"_")
-        // Paritura
-        if (useSVG){
-            let svg_url = `${urlPrefix}${instrument}-1.svg`
-            return drawSvg(doc,svg_url,page)
-        } else {
-            let img_url = `${urlPrefix}${instrument}-1.png`
-            return drawImage(doc,img_url,page)
-        }
+        // TODO: Pensar em quando tiver mais de um arranjo
+        let svgUrl = song.arrangements[0].parts
+                        .filter((part)=> part.instrument == instrument)[0]
+                        .files
+                        .filter((file) => file.extension == "svg")[0]
+                        .url
+        
+        return drawSvg(doc,svgUrl,page)
         
     }
 
@@ -114,24 +125,20 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         return `${title.replace(/[ -]/g, "_")}_${instrument}.pdf`
     }
 
-    const createSongBook = (instrument: string) => {
+    const createSongBook = async (instrument: Instrument) => {
         const doc = createDoc()
         doc.fontSize(25).text(title, 120, 100);
         doc.fontSize(22).text(instrument, 120, 125);
-        let promises: any[] = []
-        songs.map((song, songIdx) => {
-            promises = promises.concat(createMusicSheet(doc, instrument, song,songIdx+1))
+        let promises = songs.map((song, songIdx) => {
+            return createMusicSheet(doc, instrument, song,songIdx+1).catch(()=>null)
         })
-        return Promise.all(promises).then(() => {
-            download(doc, createFileName(title,instrument))
-        })
+        
+        await Promise.all(promises)
+        download(doc, createFileName(title,instrument))
     }
 
     const generatePdf = () => {
-        let songbooks: any[] = []
-        Object.values(Instruments).forEach((instrument) => {
-            songbooks.push(createSongBook(instrument))
-        })
+        let songbooks: any[] = instruments.map(createSongBook)
         Promise.all(songbooks).then(()=>{console.log("Terminei")})
     }
 
