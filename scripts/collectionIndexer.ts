@@ -649,6 +649,16 @@ const emitWarning = (
   });
 };
 
+// remove spaces and special characters from URLs
+// diacriticals are removed (e.g. á -> a)
+const normalizeUrl = (url: string): string => {
+  return url
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-zA-Z0-9-_.]/g, "_")
+    .toLocaleLowerCase();
+};
+
 const emitFile = (entry: string, context: Context): CollectionFile | null => {
   const extension = entry.split(".").pop();
   if (!extension) {
@@ -656,7 +666,7 @@ const emitFile = (entry: string, context: Context): CollectionFile | null => {
   }
 
   const entryPath = path.join(context.path, entry);
-  const url = "/" + path.relative(context.inputPath, entryPath);
+  const url = normalizeUrl(path.relative(context.inputPath, entryPath));
 
   // copy file to output
   const outputPath = path.join(context.outputPath, url);
@@ -749,9 +759,9 @@ const main = () => {
   }, 0);
   console.info(`Indexed ${arrCount} arrangements from ${songCount} songs.`);
 
-  console.info(`Writing index at '${output}/index.json'...`);
-  const songsJson = JSON.stringify(results.songs, null, 2);
-  fs.writeFileSync(`${output}/index.json`, songsJson);
+  console.info(`Writing index at '${output}/collection.json'...`);
+  const songsJson = JSON.stringify({ songs: results.songs }, null, 2);
+  fs.writeFileSync(`${output}/collection.json`, songsJson);
 
   if (results.warnings.length > 0) {
     console.info(
