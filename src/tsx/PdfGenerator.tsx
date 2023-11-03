@@ -100,12 +100,17 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         doc.fontSize(18).text(song.composer, 45, 55) // Compositor
         doc.fontSize(15).text(page, 550, 380) // Número de página
         // TODO: Pensar em quando tiver mais de um arranjo
-        let svgUrl = song.arrangements[0].parts
-                        .filter((part)=> part.instrument == instrument)[0]
-                        .files
-                        .filter((file) => file.extension == "svg")[0]
-                        .url
-        
+        let svgUrl = ""
+        try {
+            svgUrl = song.arrangements[0].parts
+                            .filter((part)=> part.instrument == instrument)[0]
+                            .files
+                            .filter((file) => file.extension == "svg")[0]
+                            .url
+        } catch (error) {
+            console.log(`No part for ${instrument} in ${song.title}.`)
+            return null
+        }
         return drawSvg(doc,`/collection/${svgUrl}`,page)
         
     }
@@ -119,14 +124,21 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         doc.fontSize(25).text(title, 120, 100);
         doc.fontSize(22).text(instrument, 120, 125);
         let promises = songs.map((song, songIdx) => {
-            return createMusicSheet(doc, instrument, song,songIdx+1).catch(()=>null)
+            return createMusicSheet(doc, instrument, song,songIdx+1)
         })
         
-        await Promise.all(promises)
-        download(doc, createFileName(title,instrument))
+        let nonNullPromises = promises.filter((promise)=>promise !== null)
+        if(nonNullPromises.length > 0) {
+            await Promise.all(nonNullPromises)
+            download(doc, createFileName(title,instrument))
+        }
     }
 
     const generatePdf = () => {
+        if ( songs.length < 1) {
+            alert("Selecione ao menos 1 arranjo!")
+            return
+        }
         let songbooks: any[] = instruments.map((instrument) => {createSongBook(instrument)})
         Promise.all(songbooks).then(()=>{console.log("Terminei")})
     }
