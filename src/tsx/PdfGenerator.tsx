@@ -28,7 +28,7 @@ const documentOptions = { layout: "landscape", size: 'A5', bufferPages: true, ma
 const a = document.createElement("a");
 document.body.appendChild(a);
 
-const PDFGenerator = ({ songs, title }: PdfGeneratorProps) => {
+const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     const download = (doc: any, file_name: string) => {
         const stream = doc.pipe(window.blobStream());
         stream.on('finish', function () {
@@ -46,8 +46,8 @@ const PDFGenerator = ({ songs, title }: PdfGeneratorProps) => {
             then(r => r.text()).
             then(svg => {
                 doc.switchToPage(page)
-                let width = 550
-                let height = 400
+                const width = 550
+                const height = 400
                 SVGtoPDF(doc, svg, 20, 30, {
                     width: width,
                     height: height,
@@ -123,11 +123,11 @@ const PDFGenerator = ({ songs, title }: PdfGeneratorProps) => {
         const doc = createDoc()
         doc.fontSize(25).text(title, 120, 100);
         doc.fontSize(22).text(instrument, 120, 125);
-        let promises = songs.map((song, songIdx) => {
+        const promises = songs.map((song, songIdx) => {
             return createMusicSheet(doc, instrument, song, songIdx + 1)
         })
 
-        let nonNullPromises = promises.filter((promise) => promise !== null)
+        const nonNullPromises = promises.filter((promise) => promise !== null)
         if (nonNullPromises.length > 0) {
             await Promise.all(nonNullPromises)
             download(doc, createFileName(instrument))
@@ -144,7 +144,7 @@ const PDFGenerator = ({ songs, title }: PdfGeneratorProps) => {
             alert("Digite um título para o caderninho!")
             return
         }
-        let songbooks: any[] = instruments.map((instrument) => { createSongBook(instrument) })
+        const songbooks: any[] = instruments.map((instrument) => { createSongBook(instrument) })
         Promise.all(songbooks).then(() => { console.log("Terminei") })
     }
 
