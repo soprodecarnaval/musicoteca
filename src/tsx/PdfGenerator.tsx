@@ -1,13 +1,13 @@
 import { Button, Col, Form, Row } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
-import { Song, Instrument } from "../types";
+import { Instrument, HydratedSong } from "../types";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
 
 interface PdfGeneratorProps {
-  songs: Song[];
+  songs: HydratedSong[];
 }
 
 const instruments: Instrument[] = [
@@ -102,7 +102,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
   const createMusicSheet = (
     doc: any,
     instrument: string,
-    song: Song,
+    song: HydratedSong,
     page: number
   ) => {
     doc.addPage();
@@ -112,9 +112,10 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     // TODO: Pensar em quando tiver mais de um arranjo
     let svgUrl = "";
     try {
+      console.log(song.arrangements[0]);
       svgUrl = song.arrangements[0].parts
         .filter((part) => part.instrument == instrument)[0]
-        .files.filter((file) => file.extension == "svg")[0].path;
+        .files.filter((file) => file.extension == ".svg")[0].path;
     } catch (error) {
       console.log(`No part for ${instrument} in ${song.title}.`);
       return null;

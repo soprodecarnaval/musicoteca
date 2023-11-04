@@ -13,6 +13,10 @@ export type Song = {
   style: Tag;
 };
 
+export type HydratedSong = Song & {
+  arrangements: Arrangement[];
+};
+
 export type Arrangement = {
   id: string;
   files: File[];
