@@ -2,16 +2,15 @@ import { useState } from "react";
 
 import { Row, Col, Form } from "react-bootstrap";
 
-import collection from '../collection.json'
-import { Song } from '../types';
+import collection from "../collection.json";
+import { Song } from "../types";
 
 interface SearchBarProps {
   handleResults: (results: Song[]) => void;
 }
 
-collection.songs = collection.songs.filter((item) => item.arrangements[0].parts.length > 0)
-
 const SearchBar = ({ handleResults }: SearchBarProps) => {
+  const songs = Object.values(collection.songs);
   const [searchInput, setSearchInput] = useState("");
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -19,20 +18,21 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
     setSearchInput(e.target.value);
   };
 
-  const searchByArrangement = (searchData : string) => (
-    collection.songs.map((song : any) => {
-      const foundArrs = song.arrangements.filter(
-        (arr:any) => arr.name.toUpperCase().match(searchData.toUpperCase())
-      )
+  const searchByArrangement = (searchData: string) =>
+    collection.songs.map((song: any) => {
+      const foundArrs = song.arrangements.filter((arr: any) =>
+        arr.name.toUpperCase().match(searchData.toUpperCase())
+      );
 
       return { ...song, arrangements: foundArrs };
-    }));
+    });
 
-  const searchByTitleOrComposer = (searchData : string) => (
-    collection.songs.filter((song:any) => (
-      song.title.toUpperCase().match(searchData.toUpperCase()) ||
+  const searchByTitleOrComposer = (searchData: string) =>
+    collection.songs.filter(
+      (song: any) =>
+        song.title.toUpperCase().match(searchData.toUpperCase()) ||
         song.composer.toUpperCase().match(searchData.toUpperCase())
-    )));
+    );
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key !== "Enter") return;
