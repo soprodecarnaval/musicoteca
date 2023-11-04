@@ -1,16 +1,16 @@
-import { Button } from "react-bootstrap";
+import { Button, Col, Form, Row } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
+import { useState } from "react";
 import { Song, Instrument } from '../types';
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
 
 interface PdfGeneratorProps {
-    songs: Song[],
-    title: string
+    songs: Song[]
 }
 
-const instruments : Instrument[] = [ 
+const instruments: Instrument[] = [
     "bombardino",
     "clarinete",
     "flauta",
@@ -28,7 +28,7 @@ const documentOptions = { layout: "landscape", size: 'A5', bufferPages: true, ma
 const a = document.createElement("a");
 document.body.appendChild(a);
 
-const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
+const PDFGenerator = ({ songs, title }: PdfGeneratorProps) => {
     const download = (doc: any, file_name: string) => {
         const stream = doc.pipe(window.blobStream());
         stream.on('finish', function () {
@@ -41,20 +41,20 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         doc.end()
     }
 
-    const drawSvg = (doc : any, url: string, page : number) => {
+    const drawSvg = (doc: any, url: string, page: number) => {
         return fetch(url).
-        then(r => r.text()).
-        then(svg => {
-            doc.switchToPage(page)
-            let width = 550
-            let height = 400
-            SVGtoPDF(doc,svg,20,30,{
-                width: width,
-                height: height,
-                preserveAspectRatio: `${width}x${height}`
+            then(r => r.text()).
+            then(svg => {
+                doc.switchToPage(page)
+                let width = 550
+                let height = 400
+                SVGtoPDF(doc, svg, 20, 30, {
+                    width: width,
+                    height: height,
+                    preserveAspectRatio: `${width}x${height}`
+                })
             })
-        })
-        .catch(console.error.bind(console));
+            .catch(console.error.bind(console));
     }
 
     // const loadImage = (url: string) => {
@@ -94,7 +94,7 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         return new window.PDFDocument(documentOptions);
     }
 
-    const createMusicSheet = (doc: any, instrument : string, song: Song, page : number) => {
+    const createMusicSheet = (doc: any, instrument: string, song: Song, page: number) => {
         doc.addPage()
         doc.fontSize(20).text(song.title, 40, 35) // Título
         doc.fontSize(18).text(song.composer, 45, 55) // Compositor
@@ -103,20 +103,20 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         let svgUrl = ""
         try {
             svgUrl = song.arrangements[0].parts
-                            .filter((part)=> part.instrument == instrument)[0]
-                            .files
-                            .filter((file) => file.extension == "svg")[0]
-                            .url
+                .filter((part) => part.instrument == instrument)[0]
+                .files
+                .filter((file) => file.extension == "svg")[0]
+                .url
         } catch (error) {
             console.log(`No part for ${instrument} in ${song.title}.`)
             return null
         }
-        return drawSvg(doc,`/collection/${svgUrl}`,page)
-        
+        return drawSvg(doc, `/collection/${svgUrl}`, page)
+
     }
 
-    const createFileName = (title: string, instrument: string) => {
-        return `${title.replace(/[ -]/g, "_")}_${instrument}.pdf`
+    const createFileName = (instrument: string) => {
+        return `${songbookTitle.replace(/[ -]/g, "_")}_${instrument}.pdf`
     }
 
     const createSongBook = async (instrument: Instrument) => {
@@ -124,27 +124,44 @@ const PDFGenerator = ({songs, title} : PdfGeneratorProps) => {
         doc.fontSize(25).text(title, 120, 100);
         doc.fontSize(22).text(instrument, 120, 125);
         let promises = songs.map((song, songIdx) => {
-            return createMusicSheet(doc, instrument, song,songIdx+1)
+            return createMusicSheet(doc, instrument, song, songIdx + 1)
         })
-        
-        let nonNullPromises = promises.filter((promise)=>promise !== null)
-        if(nonNullPromises.length > 0) {
+
+        let nonNullPromises = promises.filter((promise) => promise !== null)
+        if (nonNullPromises.length > 0) {
             await Promise.all(nonNullPromises)
-            download(doc, createFileName(title,instrument))
+            download(doc, createFileName(instrument))
         }
     }
 
-    const generatePdf = () => {
-        if ( songs.length < 1) {
+    const generatePdf = (e : any) => {
+        e.preventDefault()
+        if (songs.length < 1) {
             alert("Selecione ao menos 1 arranjo!")
             return
         }
-        let songbooks: any[] = instruments.map((instrument) => {createSongBook(instrument)})
-        Promise.all(songbooks).then(()=>{console.log("Terminei")})
+        let songbooks: any[] = instruments.map((instrument) => { createSongBook(instrument) })
+        Promise.all(songbooks).then(() => { console.log("Terminei") })
     }
 
+    const [songbookTitle, setTitle] = useState()
+    const onInput = ({ target: { value } }:any) => setTitle(value)
+
     return (
-        <Button onClick={generatePdf}>Gerar PDF</Button>
+        <Form className="d-flex" onSubmit={generatePdf}>
+            <Row className="mt-4">
+                <Col sm={8}>
+                    <Form.Control
+                        type="text"
+                        onChange={onInput}
+                        value={songbookTitle}
+                        placeholder="Título do caderninho" />
+                </Col>
+                <Col sm={4}>
+                    <Button type="submit">Gerar PDF</Button>
+                </Col>
+            </Row>
+        </Form>
     )
 }
 

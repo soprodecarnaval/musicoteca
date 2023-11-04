@@ -33,7 +33,7 @@ function App() {
       </Navbar>
       <Container>
         <SearchBar handleResults={setResults} />
-        <PDFGenerator songs={checkedResults} title="Carnaval 2024"></PDFGenerator>
+        <PDFGenerator songs={checkedResults} ></PDFGenerator>
         <Row className="mt-4">
           <Col sm={6}>
             {(results.length > 0) &&
