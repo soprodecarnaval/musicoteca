@@ -140,11 +140,15 @@ const PDFGenerator = ({ songs, title }: PdfGeneratorProps) => {
             alert("Selecione ao menos 1 arranjo!")
             return
         }
+        if (songbookTitle == ""){
+            alert("Digite um título para o caderninho!")
+            return
+        }
         let songbooks: any[] = instruments.map((instrument) => { createSongBook(instrument) })
         Promise.all(songbooks).then(() => { console.log("Terminei") })
     }
 
-    const [songbookTitle, setTitle] = useState()
+    const [songbookTitle, setTitle] = useState('')
     const onInput = ({ target: { value } }:any) => setTitle(value)
 
     return (
