@@ -121,7 +121,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
 
     const createSongBook = async (instrument: Instrument) => {
         const doc = createDoc()
-        doc.fontSize(25).text(title, 120, 100);
+        doc.fontSize(25).text(songbookTitle, 120, 100);
         doc.fontSize(22).text(instrument, 120, 125);
         const promises = songs.map((song, songIdx) => {
             return createMusicSheet(doc, instrument, song, songIdx + 1)
