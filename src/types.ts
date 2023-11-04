@@ -1,26 +1,36 @@
-export type Tag = string;
-export type File = any;
+export type Collection = {
+  arrangements: { [id: string]: Arrangement };
+  songs: { [id: string]: Song };
+  tags: Tag[];
+};
+
 export type Song = {
-  type: "song";
   id: string;
   title: string;
   composer: string;
   sub: string;
-  tags: Tag[];
+  arrangementIds: string[];
+  style: Tag;
+};
+
+export type HydratedSong = Song & {
   arrangements: Arrangement[];
 };
 
 export type Arrangement = {
-  type: "arrangement";
   id: string;
-  files: CollectionFile[];
-  name?: string;
+  files: File[];
+  name: string;
   parts: Part[];
+  tags: Tag[];
+  songId: string;
 };
 
-export type CollectionFile = {
-  type: "file";
-  url: string;
+export type Tag = string;
+export type Style = Tag;
+
+export type File = {
+  path: string;
   extension: string;
 };
 
@@ -38,8 +48,7 @@ export type Instrument =
   | "tuba";
 
 export type Part = {
-  type: "part";
   name: string;
   instrument: Instrument;
-  files: CollectionFile[];
+  files: File[];
 };

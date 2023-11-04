@@ -2,14 +2,41 @@ import { useState } from "react";
 
 import { Row, Col, Form } from "react-bootstrap";
 
-import collection from '../collection.json'
-import { Song } from '../types';
+import collection from "../collection.json";
+import { HydratedSong } from "../types";
+
+import Fuse from "fuse.js";
 
 interface SearchBarProps {
-  handleResults: (results: Song[]) => void;
+  handleResults: (results: HydratedSong[]) => void;
 }
 
-collection.songs = collection.songs.filter((item) => item.arrangements[0].parts.length > 0)
+// index collection using Fuse.js
+const hydratedSongs: HydratedSong[] = Object.values(collection.songs).map(
+  (song) => ({
+    ...song,
+    arrangements: song.arrangementIds.map((arrangementId) => ({
+      ...(collection.arrangements as any)[arrangementId],
+    })),
+  })
+);
+
+// TODO: move index creation to build step
+const songIndex = Fuse.createIndex(
+  ["title", "composer", "arrangements.name"],
+  hydratedSongs
+);
+
+const fuse = new Fuse(
+  hydratedSongs,
+  {
+    keys: ["title", "composer", "arrangements.name"],
+    includeScore: true,
+    shouldSort: true,
+    threshold: 0.1,
+  },
+  songIndex
+);
 
 const SearchBar = ({ handleResults }: SearchBarProps) => {
   const [searchInput, setSearchInput] = useState("");
@@ -18,21 +45,6 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
     e.preventDefault();
     setSearchInput(e.target.value);
   };
-
-  const searchByArrangement = (searchData : string) => (
-    collection.songs.map((song : any) => {
-      const foundArrs = song.arrangements.filter(
-        (arr:any) => arr.name.toUpperCase().match(searchData.toUpperCase())
-      )
-
-      return { ...song, arrangements: foundArrs };
-    }));
-
-  const searchByTitleOrComposer = (searchData : string) => (
-    collection.songs.filter((song:any) => (
-      song.title.toUpperCase().match(searchData.toUpperCase()) ||
-        song.composer.toUpperCase().match(searchData.toUpperCase())
-    )));
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key !== "Enter") return;
@@ -43,14 +55,8 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
       return;
     }
 
-    const songsByArrangement = searchByArrangement(
-      searchInput
-    ) as unknown as Song[];
-    const songsByTitleOrComposer = searchByTitleOrComposer(
-      searchInput
-    ) as unknown as Song[];
-
-    handleResults([...songsByTitleOrComposer, ...songsByArrangement]);
+    const searchResult = fuse.search(searchInput);
+    handleResults(searchResult.map((result) => result.item));
   };
 
   return (

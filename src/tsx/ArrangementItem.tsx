@@ -3,15 +3,15 @@ import { Form } from "react-bootstrap";
 import { BsTriangleFill } from "react-icons/bs";
 import { AiFillEye } from "react-icons/ai";
 
-import type { Part, Arrangement, Song } from "../types";
+import type { Part, Arrangement, HydratedSong } from "../types";
 
 import { PreviewModal } from "./PreviewModal";
 
 import "../css/ArrangementItem.css";
 
 interface ArrangementItemProps {
-  handleCheck: (song: Song, checked: boolean) => void;
-  song: Song;
+  handleCheck: (song: HydratedSong, checked: boolean) => void;
+  song: HydratedSong;
   arrangement: Arrangement;
   readOnly: boolean;
 }
@@ -73,7 +73,7 @@ const ArrangementItem = ({
         <td>{song.title}</td>
         <td>{song.composer}</td>
         <td>{arrangement.name}</td>
-        <td>{song.tags}</td>
+        <td>{arrangement.tags}</td>
       </tr>
       {expand ? (
         arrangement.parts.map((part) => (

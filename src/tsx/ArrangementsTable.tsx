@@ -1,13 +1,13 @@
 import { Table } from "react-bootstrap";
 
-import type { Song } from "../types";
+import type { HydratedSong } from "../types";
 
 import { ArrangementItem } from "./ArrangementItem";
 
 interface ArrangementsTableProps {
-  songs: Song[];
+  songs: HydratedSong[];
   readOnly: boolean;
-  handleCheck: (song: Song, checked: boolean) => void;
+  handleCheck: (song: HydratedSong, checked: boolean) => void;
 }
 
 const ArrangementsTable = ({

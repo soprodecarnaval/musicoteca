@@ -24,8 +24,8 @@ const FilesCarousel = ({ files }: FilesCarouselProps) => {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       {files.map((file) => (
-        <Carousel.Item key={file.url}>
-          <Image src={`/collection/${file.url}`} />
+        <Carousel.Item key={file.path}>
+          <Image src={`/collection/${file.path}`} />
         </Carousel.Item>
       ))}
     </Carousel>
