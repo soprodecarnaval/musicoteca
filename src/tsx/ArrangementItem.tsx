@@ -7,13 +7,13 @@ import { PartItem } from "./PartItem";
 import "../css/ArrangementItem.css";
 
 interface ArrangementItemProps {
-  handleCheck: (song: HydratedSong, checked: boolean) => void;
+  handleSelect: (song: HydratedSong, checked: boolean) => void;
   song: HydratedSong;
   arrangement: Arrangement;
 }
 
 const ArrangementItem = ({
-  handleCheck,
+  handleSelect,
   song,
   arrangement,
 }: ArrangementItemProps) => {
@@ -21,7 +21,7 @@ const ArrangementItem = ({
   const [checked, setChecked] = useState(false);
 
   const handleOnChange = () => {
-    handleCheck({ ...song, arrangements: [arrangement] }, !checked);
+    handleSelect({ ...song, arrangements: [arrangement] }, !checked);
     setChecked(!checked);
   };
 

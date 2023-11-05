@@ -7,20 +7,20 @@ import { PartItem } from "./PartItem";
 import "../css/ArrangementItem.css";
 
 interface ArrangementItemProps {
-  handleCheck: (song: HydratedSong, checked: boolean) => void;
+  handleSelect: (song: HydratedSong, checked: boolean) => void;
   song: HydratedSong;
   arrangement: Arrangement;
 }
 
 const ChosenArrangementItem = ({
-  handleCheck,
+  handleSelect,
   song,
   arrangement,
 }: ArrangementItemProps) => {
   const [expand, setExpand] = useState(false);
 
   const handleDelete = () => {
-    handleCheck({ ...song, arrangements: [arrangement] }, false);
+    handleSelect({ ...song, arrangements: [arrangement] }, false);
   }
 
   return (

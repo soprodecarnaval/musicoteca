@@ -8,13 +8,13 @@ import { ChosenArrangementItem } from "./ChosenArrangementItem";
 
 interface ArrangementsTableProps {
   songs: HydratedSong[];
-  handleCheck: (song: HydratedSong, checked: boolean) => void;
+  handleSelect: (song: HydratedSong, checked: boolean) => void;
   handleClear: () => void;
 }
 
 const ChosenArrangementsTable = ({
   songs,
-  handleCheck,
+  handleSelect,
   handleClear,
 }: ArrangementsTableProps) => {
   const [currentPage, setCurrentPagee] = useState(1);
@@ -40,7 +40,7 @@ const ChosenArrangementsTable = ({
           {songs.slice((currentPage - 1) * 10, currentPage * 10).map((song, songIdx) =>
             song.arrangements.map((arrangement) => (
               <ChosenArrangementItem
-                handleCheck={handleCheck}
+                handleSelect={handleSelect}
                 arrangement={arrangement}
                 song={songs[songIdx]}
                 key={arrangement.name}

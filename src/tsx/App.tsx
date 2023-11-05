@@ -15,18 +15,18 @@ import "../css/App.css";
 
 function App() {
   const [results, setResults] = useState<HydratedSong[]>([]);
-  const [checkedResults, setCheckedResults] = useState<HydratedSong[]>([]);
+  const [selectedResults, setSelectedResults] = useState<HydratedSong[]>([]);
 
   const handleSelectSong = (song: HydratedSong, checked: boolean) => {
     checked ? handleAddSong(song) : handleRemoveSong(song)
   };
 
   const clearSelected = () => {
-    setCheckedResults([]);
+    setSelectedResults([]);
   }
 
   const handleAddSong = (song: HydratedSong) => {
-    setCheckedResults([...checkedResults, song]);
+    setSelectedResults([...selectedResults, song]);
     const updatedRes = results.filter(
       (r) => r.arrangements[0].id !== song.arrangements[0].id
     );
@@ -35,16 +35,16 @@ function App() {
   }
 
   const handleRemoveSong = (song: HydratedSong) => {
-    const updatedRes = checkedResults.filter(
+    const updatedRes = selectedResults.filter(
       (r) => r.arrangements[0].id !== song.arrangements[0].id
     );
     setResults([ song, ...results]);
-    setCheckedResults(updatedRes);
+    setSelectedResults(updatedRes);
   }
 
-  const handleCheckedResultsSortBy = (column : string, direction: string) => {
-    const sorted = sortByColumn(checkedResults, column, direction)
-    setCheckedResults(sorted.slice())
+  const handleSelectedResultsSortBy = (column : string, direction: string) => {
+    const sorted = sortByColumn(selectedResults, column, direction)
+    setSelectedResults(sorted.slice())
   }
 
   const handleResultsSortBy = (column: string, direction: string) => {
@@ -68,7 +68,7 @@ function App() {
       </Navbar>
       <Container>
         <SearchBar handleResults={setResults} />
-        <PDFGenerator songs={checkedResults}></PDFGenerator>
+        <PDFGenerator songs={selectedResults}></PDFGenerator>
         <Row className="mt-4">
           <Col sm={6}>
             {results.length > 0 && (
@@ -77,19 +77,19 @@ function App() {
                 <Sort onSortBy={handleResultsSortBy} />
                 <ArrangementsTable
                   songs={results}
-                  handleCheck={handleSelectSong}
+                  handleSelect={handleSelectSong}
                 />
               </>
             )}
           </Col>
           <Col sm={6}>
-            {(checkedResults.length > 0 || results.length > 0) && (
+            {(selectedResults.length > 0 || results.length > 0) && (
               <>
                 <h3 className="results">Resultados selecionados</h3>
-                <Sort onSortBy={handleCheckedResultsSortBy} />
+                <Sort onSortBy={handleSelectedResultsSortBy} />
                 <ChosenArrangementsTable
-                  songs={checkedResults}
-                  handleCheck={handleSelectSong}
+                  songs={selectedResults}
+                  handleSelect={handleSelectSong}
                   handleClear={clearSelected}
                 />
               </>
