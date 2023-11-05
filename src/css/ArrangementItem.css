@@ -30,3 +30,7 @@
 .arrow-down {
   transform: rotate(0.50turn)
 }
+
+.cursor:hover {
+  cursor: pointer;
+}

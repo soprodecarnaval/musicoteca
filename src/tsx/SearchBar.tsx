@@ -1,12 +1,10 @@
 import { useState } from "react";
-
 import { Row, Col, Form } from "react-bootstrap";
 
 import collection from "../collection.json";
 import { HydratedSong } from "../types";
 
 import Fuse from "fuse.js";
-import { ArrangementItem } from "./ArrangementItem";
 
 interface SearchBarProps {
   handleResults: (results: HydratedSong[]) => void;

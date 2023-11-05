@@ -18,12 +18,12 @@ const PaginationBar = ({ onChange, currentPage, maxNumberPages } : PaginationBar
 
     <Form.Control
       value={currentPage}
-      className="input-page"
+      className="page"
       type="number"
       onChange={(event) => onChange(Number.parseInt(event.target.value))}
     />
 
-    <Pagination.Item key={maxNumberPages} disabled>
+    <Pagination.Item className="page" key={maxNumberPages} disabled>
       {maxNumberPages}
     </Pagination.Item>
 

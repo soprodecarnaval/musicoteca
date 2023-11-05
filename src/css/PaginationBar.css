@@ -9,6 +9,6 @@ input[type=number] {
   -moz-appearance: textfield;
 }
 
-.input-page {
-    width: 7% !important;
+.page {
+    width: 4.5vh !important;
 }

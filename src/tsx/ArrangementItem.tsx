@@ -1,10 +1,8 @@
 import { useState } from "react";
 import { BsTriangleFill } from "react-icons/bs";
-import { AiFillEye } from "react-icons/ai";
 
-import type { Part, Arrangement, HydratedSong } from "../types";
-
-import { PreviewModal } from "./PreviewModal";
+import type { Arrangement, HydratedSong } from "../types";
+import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
 
@@ -13,28 +11,6 @@ interface ArrangementItemProps {
   song: HydratedSong;
   arrangement: Arrangement;
 }
-
-interface PartItemProps {
-  part: Part;
-}
-
-const PartItem = ({ part }: PartItemProps) => {
-  const [showPreview, setShowPreview] = useState(false);
-
-  return (
-    <tr className="instrument">
-      <td onClick={() => setShowPreview(true)} colSpan={4}>
-        <AiFillEye className="visualize-icon" />
-        <label>{part.instrument}</label>
-      </td>
-      <PreviewModal
-        show={showPreview}
-        handleShow={setShowPreview}
-        part={part}
-      />
-    </tr>
-  );
-};
 
 const ArrangementItem = ({
   handleCheck,
@@ -51,7 +27,7 @@ const ArrangementItem = ({
 
   return (
     <>
-      <tr>
+      <tr className="cursor">
         <td className="action-cell">
           <BsTriangleFill
             onClick={() => setExpand(!expand)}
@@ -62,13 +38,11 @@ const ArrangementItem = ({
         <td onClick={handleOnChange}>{arrangement.name}</td>
         <td onClick={handleOnChange}>{arrangement.tags}</td>
       </tr>
-      {expand ? (
+      {expand &&
         arrangement.parts.map((part) => (
           <PartItem part={part} key={part.name} />
         ))
-      ) : (
-        <></>
-      )}
+      }
     </>
   );
 };

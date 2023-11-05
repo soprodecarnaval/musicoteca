@@ -1,27 +1,31 @@
 import { useState } from "react";
 import { Col, Container, Navbar, Row } from "react-bootstrap";
+
+import { Sort } from "./Sort";
 import { SearchBar } from "./SearchBar";
 import { ArrangementsTable } from "./ArrangementsTable";
+import { ChosenArrangementsTable } from "./ChosenArrangementsTable";
 import { PDFGenerator } from "./PdfGenerator";
+import { sortByColumn } from "./helper/sorter";
+
 import type { HydratedSong } from "../types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";
-import { ChosenArrangementsTable } from "./ChosenArrangementsTable";
 
 function App() {
   const [results, setResults] = useState<HydratedSong[]>([]);
   const [checkedResults, setCheckedResults] = useState<HydratedSong[]>([]);
 
-  const handleCheck = (song: HydratedSong, checked: boolean) => {
-    checked ? handleAdd(song) : handleRemove(song)
+  const handleSelectSong = (song: HydratedSong, checked: boolean) => {
+    checked ? handleAddSong(song) : handleRemoveSong(song)
   };
 
   const clearSelected = () => {
     setCheckedResults([]);
   }
 
-  const handleAdd = (song: HydratedSong) => {
+  const handleAddSong = (song: HydratedSong) => {
     setCheckedResults([...checkedResults, song]);
     const updatedRes = results.filter(
       (r) => r.arrangements[0].id !== song.arrangements[0].id
@@ -30,12 +34,22 @@ function App() {
     setResults(updatedRes);
   }
 
-  const handleRemove = (song: HydratedSong) => {
+  const handleRemoveSong = (song: HydratedSong) => {
     const updatedRes = checkedResults.filter(
       (r) => r.arrangements[0].id !== song.arrangements[0].id
     );
     setResults([ song, ...results]);
     setCheckedResults(updatedRes);
+  }
+
+  const handleCheckedResultsSortBy = (column : string, direction: string) => {
+    const sorted = sortByColumn(checkedResults, column, direction)
+    setCheckedResults(sorted.slice())
+  }
+
+  const handleResultsSortBy = (column: string, direction: string) => {
+    const sorted = sortByColumn(results, column, direction)
+    setResults(sorted.slice())
   }
 
   return (
@@ -60,9 +74,10 @@ function App() {
             {results.length > 0 && (
               <>
                 <h3 className="results">Resultados</h3>
+                <Sort onSortBy={handleResultsSortBy} />
                 <ArrangementsTable
                   songs={results}
-                  handleCheck={handleCheck}
+                  handleCheck={handleSelectSong}
                 />
               </>
             )}
@@ -71,9 +86,10 @@ function App() {
             {(checkedResults.length > 0 || results.length > 0) && (
               <>
                 <h3 className="results">Resultados selecionados</h3>
+                <Sort onSortBy={handleCheckedResultsSortBy} />
                 <ChosenArrangementsTable
                   songs={checkedResults}
-                  handleCheck={handleCheck}
+                  handleCheck={handleSelectSong}
                   handleClear={clearSelected}
                 />
               </>
