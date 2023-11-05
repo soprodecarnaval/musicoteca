@@ -24,7 +24,8 @@ import {
 // Each valid file entry corresponds to one arrangement.
 // We'll figure the arrangement id from the directory structure.
 type Entry = {
-  path: string;
+  absPath: string;
+  relPath: string;
   extension: string;
   arrId: string;
   arrName: string;
@@ -100,6 +101,10 @@ type ArrangementDraft = {
   songId: string;
 };
 
+type ScoreMetadata = {
+  composer: string;
+};
+
 /**
  * Drop diacriticals (e.g. á -> a) and replace non-characters with spaces
  */
@@ -138,16 +143,7 @@ function endsInExtension(extensions: Set<string>) {
   return (entry: string) => extensions.has(path.extname(entry).toLowerCase());
 }
 
-// TODO: handle errors
-function listFiles(
-  rootPath: string,
-  filterFn: (entry: string) => boolean
-): string[] {
-  return _listFiles(rootPath, rootPath, filterFn);
-}
-
-function _listFiles(
-  rootPath: string,
+function listFilePaths(
   currentPath: string,
   filterFn: (entry: string) => boolean
 ): string[] {
@@ -156,12 +152,11 @@ function _listFiles(
 
   for (const entry of entries) {
     const entryPath = path.join(currentPath, entry);
-    const relativePath = path.relative(rootPath, entryPath);
 
     if (fs.statSync(entryPath).isDirectory()) {
-      result.push(..._listFiles(rootPath, entryPath, filterFn));
-    } else if (filterFn(relativePath)) {
-      result.push(relativePath);
+      result.push(...listFilePaths(entryPath, filterFn));
+    } else if (filterFn(entryPath)) {
+      result.push(entryPath);
     }
   }
 
@@ -173,14 +168,15 @@ function _listFiles(
  * - Named arrangements: '/style/song/arrangement/asset.*'
  * - Unnamed arrangements: '/style/song/asset.*'
  */
-function parseEntry(relativePath: string): Result<Entry> {
-  console.debug(`[parseEntry] parsing ${relativePath}`);
+function parseEntry(absPath: string, rootPath: string): Result<Entry> {
+  console.debug(`[parseEntry] parsing ${absPath}`);
 
-  const parts = relativePath.split(path.sep);
+  const relPath = path.relative(rootPath, absPath);
+  const parts = relPath.split(path.sep);
   if (parts.length != 3 && parts.length != 4) {
-    return err(warning(`Unsupported file structure`, { relativePath }));
+    return err(warning(`Unsupported file structure`, { relPath }));
   }
-  const extension = path.extname(relativePath).toLowerCase();
+  const extension = path.extname(relPath).toLowerCase();
   const style = parts[0].trim().toLocaleLowerCase();
   const songTitle = parts[1].trim().toLocaleLowerCase();
   const songId = idString(style, songTitle);
@@ -188,7 +184,8 @@ function parseEntry(relativePath: string): Result<Entry> {
     parts.length == 3 ? style : parts[2].trim().toLocaleLowerCase();
   const arrId = idString(style, songTitle, arrName);
   const entry = {
-    path: relativePath,
+    absPath,
+    relPath,
     extension,
     arrId,
     arrName,
@@ -264,6 +261,21 @@ function renderArrangementDraft(arrDraft: ArrangementDraft): Arrangement {
   return { id, name, assets: files, parts, tags };
 }
 
+// TODO: handle errors
+function readScoreMetajson(scoreEntry: Entry): ScoreMetadata {
+  // open .metajson file, which should have the same filename as the score
+  const metajsonPath = scoreEntry.absPath.replace(
+    scoreEntry.extension,
+    metaFileExtension
+  );
+  console.debug(`[readScoreMetajson] reading ${metajsonPath}`);
+  const metaJson = fs.readFileSync(metajsonPath, "utf-8");
+  const meta = JSON.parse(metaJson);
+  return {
+    composer: meta.composer,
+  };
+}
+
 function indexScoreAsset(entry: Entry, collDraft: CollectionDraft) {
   const { arrMap, songMap, warnings } = collDraft;
   console.debug(`[_indexScoreFileEntry] indexing entry ${entry}`);
@@ -296,11 +308,12 @@ function indexScoreAsset(entry: Entry, collDraft: CollectionDraft) {
       `[indexScoreFileEntry] added arrangement ${arrId} to song ${songId}`
     );
   } else {
+    const scoreMetadata = readScoreMetajson(entry);
     songMap[songId] = {
       id: songId,
       title: songTitle,
-      composer: "", // TODO: get from .metajson
-      sub: "",
+      composer: scoreMetadata.composer,
+      sub: "", // TODO: figure out a way to read this
       arrangementIds: [arrId],
       style,
     };
@@ -320,10 +333,10 @@ function indexPartAsset(entry: Entry, collDraft: CollectionDraft) {
     return;
   }
 
-  const instrument = findInstrument(entry.path);
+  const instrument = findInstrument(entry.relPath);
   if (!instrument) {
     collDraft.warnings.push(
-      warning(`No instrument found for ${entry.path}`, entry)
+      warning(`No instrument found for ${entry.relPath}`, entry)
     );
     return;
   }
@@ -333,7 +346,7 @@ function indexPartAsset(entry: Entry, collDraft: CollectionDraft) {
     instrument,
     assets: [
       {
-        path: entry.path,
+        path: entry.relPath,
         extension: entry.extension,
       },
     ],
@@ -423,9 +436,12 @@ function emitCollection(
  * the files to the output directory. Returns the warnings generated in the process.
  */
 function indexCollection(inputPath: string, outputPath: string): Warning[] {
-  const files = listFiles(inputPath, endsInExtension(supportedFileExtensions));
+  const filePaths = listFilePaths(
+    inputPath,
+    endsInExtension(supportedFileExtensions)
+  );
   const { value: entries, warnings: parseEntryWarnings } = keepOk(
-    files.map(parseEntry)
+    filePaths.map((fp) => parseEntry(fp, inputPath))
   );
   const { value: collection, warnings: parseCollectionWarnings } =
     indexEntries(entries);
