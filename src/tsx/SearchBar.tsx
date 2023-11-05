@@ -70,7 +70,7 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
         <Form className="d-flex">
           <Form.Control
             type="search"
-            placeholder="Procurar por título ou arranjos"
+            placeholder="Procurar por título, arranjo ou tags"
             className="me-2"
             aria-label="Search"
             onKeyDown={handleKeyDown}
