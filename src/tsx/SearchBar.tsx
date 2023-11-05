@@ -23,14 +23,14 @@ const hydratedSongs: HydratedSong[] = Object.values(collection.songs).map(
 
 // TODO: move index creation to build step
 const songIndex = Fuse.createIndex(
-  ["title", "composer", "arrangements.name"],
+  ["title", "composer", "arrangements.name",  "arrangements.tags"],
   hydratedSongs
 );
 
 const fuse = new Fuse(
   hydratedSongs,
   {
-    keys: ["title", "composer", "arrangements.name"],
+    keys: ["title", "composer", "arrangements.name", "arrangements.tags"],
     includeScore: true,
     shouldSort: true,
     threshold: 0.1,
@@ -47,12 +47,9 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key !== "Enter") return;
-    e.preventDefault();
-
-    if (searchInput.length === 0) {
-      handleResults([]);
-      return;
+    if (e.key === "Enter") {
+      e.preventDefault();
+      return
     }
 
     const searchResult = fuse.search(searchInput);
@@ -65,7 +62,7 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
         <Form className="d-flex">
           <Form.Control
             type="search"
-            placeholder="Procurar por título, compositor ou arranjos"
+            placeholder="Procurar por título ou arranjos"
             className="me-2"
             aria-label="Search"
             onKeyDown={handleKeyDown}

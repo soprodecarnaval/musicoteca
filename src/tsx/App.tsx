@@ -7,22 +7,32 @@ import type { HydratedSong } from "../types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";
+import { ChosenArrangementsTable } from "./ChosenArrangementsTable";
 
 function App() {
   const [results, setResults] = useState<HydratedSong[]>([]);
   const [checkedResults, setCheckedResults] = useState<HydratedSong[]>([]);
 
   const handleCheck = (song: HydratedSong, checked: boolean) => {
-    if (checked) {
-      setCheckedResults([...checkedResults, song]);
-      return;
-    }
+    checked ? handleAdd(song) : handleRemove(song)
+  };
 
+  const handleAdd = (song: HydratedSong) => {
+    setCheckedResults([...checkedResults, song]);
+    const updatedRes = results.filter(
+      (r) => r.arrangements[0].id !== song.arrangements[0].id
+    );
+
+    setResults(updatedRes);
+  }
+
+  const handleRemove = (song: HydratedSong) => {
     const updatedRes = checkedResults.filter(
       (r) => r.arrangements[0].id !== song.arrangements[0].id
     );
+    setResults([ song, ...results]);
     setCheckedResults(updatedRes);
-  };
+  }
 
   return (
     <>
@@ -49,19 +59,17 @@ function App() {
                 <ArrangementsTable
                   songs={results}
                   handleCheck={handleCheck}
-                  readOnly={false}
                 />
               </>
             )}
           </Col>
           <Col sm={6}>
-            {results.length > 0 && (
+            {checkedResults.length > 0 && (
               <>
                 <h3 className="results">Resultados Selecionados</h3>
-                <ArrangementsTable
+                <ChosenArrangementsTable
                   songs={checkedResults}
                   handleCheck={handleCheck}
-                  readOnly={true}
                 />
               </>
             )}

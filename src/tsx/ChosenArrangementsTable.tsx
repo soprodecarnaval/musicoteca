@@ -2,14 +2,14 @@ import { Table } from "react-bootstrap";
 
 import type { HydratedSong } from "../types";
 
-import { ArrangementItem } from "./ArrangementItem";
+import { ChosenArrangementItem } from "./ChosenArrangementItem";
 
 interface ArrangementsTableProps {
   songs: HydratedSong[];
   handleCheck: (song: HydratedSong, checked: boolean) => void;
 }
 
-const ArrangementsTable = ({
+const ChosenArrangementsTable = ({
   songs,
   handleCheck,
 }: ArrangementsTableProps) => {
@@ -26,7 +26,7 @@ const ArrangementsTable = ({
       <tbody>
         {songs.map((song, songIdx) =>
           song.arrangements.map((arrangement) => (
-            <ArrangementItem
+            <ChosenArrangementItem
               handleCheck={handleCheck}
               arrangement={arrangement}
               song={songs[songIdx]}
@@ -39,4 +39,4 @@ const ArrangementsTable = ({
   );
 };
 
-export { ArrangementsTable };
+export { ChosenArrangementsTable };
