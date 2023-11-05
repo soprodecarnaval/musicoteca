@@ -1,5 +1,4 @@
 import { useState } from "react";
-
 import { Row, Col, Form } from "react-bootstrap";
 
 import collection from "../collection.json";
@@ -23,14 +22,14 @@ const hydratedSongs: HydratedSong[] = Object.values(collection.songs).map(
 
 // TODO: move index creation to build step
 const songIndex = Fuse.createIndex(
-  ["title", "composer", "arrangements.name"],
+  ["title", "composer", "arrangements.name",  "arrangements.tags"],
   hydratedSongs
 );
 
 const fuse = new Fuse(
   hydratedSongs,
   {
-    keys: ["title", "composer", "arrangements.name"],
+    keys: ["title", "composer", "arrangements.name", "arrangements.tags"],
     includeScore: true,
     shouldSort: true,
     threshold: 0.1,
@@ -47,16 +46,22 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key !== "Enter") return;
-    e.preventDefault();
+    if (e.key === "Enter") {
+      e.preventDefault();
+      return
+    }
 
-    if (searchInput.length === 0) {
+    if (searchInput === '') {
       handleResults([]);
-      return;
+      return
     }
 
     const searchResult = fuse.search(searchInput);
-    handleResults(searchResult.map((result) => result.item));
+    const results = searchResult.map(result => result.item.arrangements.map(
+      arrangement => ({ ...result.item, arrangements: [arrangement] })
+    )).flat();
+
+    handleResults(results);
   };
 
   return (
@@ -65,7 +70,7 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
         <Form className="d-flex">
           <Form.Control
             type="search"
-            placeholder="Procurar por título, compositor ou arranjos"
+            placeholder="Procurar por título, arranjo ou tags"
             className="me-2"
             aria-label="Search"
             onKeyDown={handleKeyDown}

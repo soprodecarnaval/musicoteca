@@ -1,19 +1,21 @@
-import { Table } from "react-bootstrap";
+import { Button, Col, Row, Table } from "react-bootstrap";
+import { useState } from "react";
 
 import type { HydratedSong } from "../types";
 
-import { ArrangementItem } from "./ArrangementItem";
 import { PaginationBar } from './PaginationBar';
-import { useState } from "react";
+import { ChosenArrangementItem } from "./ChosenArrangementItem";
 
 interface ArrangementsTableProps {
   songs: HydratedSong[];
   handleSelect: (song: HydratedSong, checked: boolean) => void;
+  handleClear: () => void;
 }
 
-const ArrangementsTable = ({
+const ChosenArrangementsTable = ({
   songs,
   handleSelect,
+  handleClear,
 }: ArrangementsTableProps) => {
   const [currentPage, setCurrentPagee] = useState(1);
 
@@ -37,7 +39,7 @@ const ArrangementsTable = ({
         <tbody>
           {songs.slice((currentPage - 1) * 10, currentPage * 10).map((song, songIdx) =>
             song.arrangements.map((arrangement) => (
-              <ArrangementItem
+              <ChosenArrangementItem
                 handleSelect={handleSelect}
                 arrangement={arrangement}
                 song={songs[songIdx]}
@@ -47,9 +49,16 @@ const ArrangementsTable = ({
           )}
         </tbody>
       </Table>
-      <PaginationBar onChange={handlePageChange} currentPage={currentPage} maxNumberPages={maxNumberPages} />
+      <Row className="mt-4">
+        <Col sm={10}>
+          <PaginationBar onChange={handlePageChange} currentPage={currentPage} maxNumberPages={maxNumberPages} />
+        </Col>
+        <Col sm={2}>
+          <Button onClick={handleClear}>Limpar</Button>
+        </Col>
+      </Row>
     </>
   );
 };
 
-export { ArrangementsTable };
+export { ChosenArrangementsTable };
