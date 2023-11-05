@@ -52,6 +52,4 @@ const ArrangementsTable = ({
   );
 };
 
-
-
 export { ArrangementsTable };
