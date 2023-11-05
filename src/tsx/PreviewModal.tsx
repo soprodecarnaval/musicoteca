@@ -1,6 +1,6 @@
 import { Modal, Image, Carousel } from "react-bootstrap";
 import { useState } from "react";
-import { Part, File } from "../types";
+import { Part, Asset } from "../types";
 
 import "../css/PreviewModal.css";
 
@@ -11,7 +11,7 @@ interface PreviewModalProps {
 }
 
 interface FilesCarouselProps {
-  files: File[];
+  files: Asset[];
 }
 
 const FilesCarousel = ({ files }: FilesCarouselProps) => {
@@ -41,7 +41,7 @@ const PreviewModal = ({ show, handleShow, part }: PreviewModalProps) => {
       </Modal.Header>
 
       <Modal.Body>
-        <FilesCarousel files={part.files} />
+        <FilesCarousel files={part.assets} />
       </Modal.Body>
     </Modal>
   );

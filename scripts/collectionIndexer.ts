@@ -3,11 +3,13 @@ import path from "path";
 import { ArgumentParser } from "argparse";
 
 import {
-  Arrangement,
   Collection,
   Instrument,
+  Part,
   Song,
   Tag,
+  Asset,
+  Arrangement,
 } from "../src/types.js";
 import {
   Ok,
@@ -72,6 +74,32 @@ instrumentAliases.sort(
   (a, b) => a[0].split(" ").length - b[0].split(" ").length
 );
 
+// Draft types used internally to index the collection
+type CollectionDraft = {
+  arrMap: { [id: string]: ArrangementDraft };
+  songMap: { [id: string]: SongDraft };
+  tagSet: Set<Tag>;
+  warnings: Warning[];
+};
+
+type SongDraft = {
+  id: string;
+  title: string;
+  composer: string;
+  sub: string;
+  arrangementIds: string[];
+  style: Tag;
+};
+
+type ArrangementDraft = {
+  id: string;
+  files: Asset[];
+  name: string;
+  parts: Part[];
+  tags: Tag[];
+  songId: string;
+};
+
 /**
  * Drop diacriticals (e.g. á -> a) and replace non-characters with spaces
  */
@@ -97,12 +125,12 @@ function findInstrument(str: string): Instrument | null {
   return instrument ? instrument[1] : null;
 }
 
-const partFileExtension = ".svg";
-const scoreFileExtension = ".mscz";
+const partAssetExtension = ".svg";
+const scoreAssetExtension = ".mscz";
 const metaFileExtension = ".metajson";
 const supportedFileExtensions = new Set([
-  partFileExtension,
-  scoreFileExtension,
+  partAssetExtension,
+  scoreAssetExtension,
   metaFileExtension,
 ]);
 
@@ -142,8 +170,8 @@ function _listFiles(
 
 /**
  * Entries are organized in two different file system patterns:
- * - Named arrangements: '/style/song/arrangement/file.*'
- * - Unnamed arrangements: '/style/song/file.*'
+ * - Named arrangements: '/style/song/arrangement/asset.*'
+ * - Unnamed arrangements: '/style/song/asset.*'
  */
 function parseEntry(relativePath: string): Result<Entry> {
   console.debug(`[parseEntry] parsing ${relativePath}`);
@@ -174,134 +202,171 @@ function parseEntry(relativePath: string): Result<Entry> {
 
 /**
  * Goes through all the entries and creates a Song and Arrangement model for each
- * score file, then adds the part files to the corresponding arrangement.
+ * score asset, then adds the part assets to the corresponding arrangement.
  * There are no blocking errors here, but we do generate some warnings.
  */
 function indexEntries(entries: Entry[]): Ok<Collection> {
-  const warnings: Warning[] = [];
+  const collDraft: CollectionDraft = {
+    arrMap: {},
+    songMap: {},
+    tagSet: new Set(),
+    warnings: [],
+  };
 
-  // Create Song and Arrangement models from each score file, using the directory structure
+  // Create Song and Arrangement models from each score asset, using the directory structure
   // to infer the song and arrangement names. If the arrangement name is not present, we
   // use the style name instead.
-  const arrangements: { [id: string]: Arrangement } = {};
-  const songs: { [id: string]: Song } = {};
-  const tagSet: Set<Tag> = new Set();
+  entries
+    .filter((entry) => entry.extension.endsWith(scoreAssetExtension))
+    .forEach((entry) => indexScoreAsset(entry, collDraft));
 
   entries
-    .filter((entry) => entry.extension.endsWith(scoreFileExtension))
-    .forEach((entry) => {
-      console.debug(`[parseCollection] indexing entry ${entry}`);
+    .filter((entry) => entry.extension.endsWith(partAssetExtension))
+    .forEach((entry) => indexPartAsset(entry, collDraft));
 
-      const { arrId, arrName, songId, songTitle, style } = entry;
-      const arr: Arrangement = {
-        id: arrId,
-        files: [],
-        name: arrName,
-        parts: [],
-        tags: [style],
-        songId: songId,
-      };
+  const coll = renderCollectionDraft(collDraft);
+  return ok(coll, collDraft.warnings);
+}
 
-      if (arrId in arrangements) {
-        warnings.push(
-          warning(
-            `Duplicate arrangement ${arrId} for song ${songId} (${songTitle})`,
-            entry
-          )
-        );
-        return;
-      }
-      arrangements[arrId] = arr;
-
-      if (songs[songId]) {
-        const song = songs[songId];
-        song.arrangementIds.push(arrId);
-        console.debug(
-          `[parseCollection] added arrangement ${arrId} to song ${songId}`
-        );
-      } else {
-        songs[songId] = {
-          id: songId,
-          title: songTitle,
-          composer: "", // TODO: get from .metajson
-          sub: "",
-          arrangementIds: [arrId],
-          style,
-        };
-        console.debug(
-          `[parseCollection] created song ${songId} with arrangement ${arrId}`
-        );
-      }
-    });
-
-  // Add part files to the corresponding arrangements
-  entries
-    .filter((entry) => entry.extension.endsWith(partFileExtension))
-    .forEach((entry) => {
-      console.debug(`[parseCollection] adding part ${entry}`);
-      const arr = arrangements[entry.arrId];
-      if (!arr) {
-        warnings.push(
-          warning(`No arrangement found for ${entry.arrId}`, entry)
-        );
-        return;
-      }
-
-      const instrument = findInstrument(entry.path);
-      if (!instrument) {
-        warnings.push(warning(`No instrument found for ${entry.path}`, entry));
-        return;
-      }
-
-      arr.parts.push({
-        name: instrument, // TODO: get from .metajson
-        instrument,
-        files: [
-          {
-            path: entry.path,
-            extension: entry.extension,
-          },
-        ],
-      });
-    });
-
+function renderCollectionDraft(collDraft: CollectionDraft): Collection {
+  const { arrMap, songMap, tagSet } = collDraft;
   const tags = Array.from(tagSet.values());
-  const collection = {
-    arrangements,
+  const songs: Song[] = Object.values(songMap).map((songDraft) => {
+    const songArrs = songDraft.arrangementIds.map((arrangementId) => {
+      return renderArrangementDraft(arrMap[arrangementId]);
+    });
+    return renderSongDraft(songDraft, songArrs);
+  });
+
+  return {
     songs,
     tags,
   };
+}
 
-  return ok(collection, warnings);
+function renderSongDraft(
+  songDraft: SongDraft,
+  arrangements: Arrangement[]
+): Song {
+  const { id, title, composer, sub, style } = songDraft;
+  return {
+    id,
+    title,
+    composer,
+    sub,
+    arrangements,
+    style,
+  };
+}
+
+function renderArrangementDraft(arrDraft: ArrangementDraft): Arrangement {
+  const { id, name, files, parts, tags } = arrDraft;
+  return { id, name, assets: files, parts, tags };
+}
+
+function indexScoreAsset(entry: Entry, collDraft: CollectionDraft) {
+  const { arrMap, songMap, warnings } = collDraft;
+  console.debug(`[_indexScoreFileEntry] indexing entry ${entry}`);
+
+  const { arrId, arrName, songId, songTitle, style } = entry;
+  const arr: ArrangementDraft = {
+    id: arrId,
+    files: [],
+    name: arrName,
+    parts: [],
+    tags: [style],
+    songId: songId,
+  };
+
+  if (arrId in arrMap) {
+    warnings.push(
+      warning(
+        `Duplicate arrangement ${arrId} for song ${songId} (${songTitle})`,
+        entry
+      )
+    );
+    return;
+  }
+  arrMap[arrId] = arr;
+
+  if (songMap[songId]) {
+    const song = songMap[songId];
+    song.arrangementIds.push(arrId);
+    console.debug(
+      `[indexScoreFileEntry] added arrangement ${arrId} to song ${songId}`
+    );
+  } else {
+    songMap[songId] = {
+      id: songId,
+      title: songTitle,
+      composer: "", // TODO: get from .metajson
+      sub: "",
+      arrangementIds: [arrId],
+      style,
+    };
+    console.debug(
+      `[indexScoreFileEntry] created song ${songId} with arrangement ${arrId}`
+    );
+  }
+}
+
+function indexPartAsset(entry: Entry, collDraft: CollectionDraft) {
+  console.debug(`[indexPartAssetEntry] adding part ${entry}`);
+  const arr = collDraft.arrMap[entry.arrId];
+  if (!arr) {
+    collDraft.warnings.push(
+      warning(`No arrangement found for ${entry.arrId}`, entry)
+    );
+    return;
+  }
+
+  const instrument = findInstrument(entry.path);
+  if (!instrument) {
+    collDraft.warnings.push(
+      warning(`No instrument found for ${entry.path}`, entry)
+    );
+    return;
+  }
+
+  arr.parts.push({
+    name: instrument, // TODO: get from .metajson
+    instrument,
+    assets: [
+      {
+        path: entry.path,
+        extension: entry.extension,
+      },
+    ],
+  });
 }
 
 /**
  * Emits the song collection index and assets to the output directory.
  * This method will update the collection paths according to the
  * output directory structure:
- * '/style/song/arrangement/file.*'
+ * '/style/song/arrangement/asset.*'
  */
 function emitCollection(
   coll: Collection,
   inputPath: string,
   outputPath: string
-): Ok<number> {
+): Ok<Collection> {
   // copy files
   let assetFileCount = 0;
-  for (const songId in coll.songs) {
-    const song = coll.songs[songId];
+  for (const s in coll.songs) {
+    const song = coll.songs[s];
     const songPath = path.join(song.style, song.title);
     const absSongPath = path.join(outputPath, songPath);
     fs.mkdirSync(absSongPath, { recursive: true });
 
-    for (const arrId of song.arrangementIds) {
-      const arr = coll.arrangements[arrId];
+    for (const a in song.arrangements) {
+      const arr = song.arrangements[a];
       const arrPath = path.join(songPath, arr.name);
       const absArrPath = path.join(outputPath, arrPath);
       fs.mkdirSync(absArrPath, { recursive: true });
 
-      for (const afIdx in arr.files) {
-        const arrFile = arr.files[afIdx];
+      for (const ass in arr.assets) {
+        const arrFile = arr.assets[ass];
         const srcArrFilePath = path.join(inputPath, arrFile.path);
         const dstArrFilePath = path.join(arrPath, arr.name + arrFile.extension);
         const absDstArrFilePath = path.join(outputPath, dstArrFilePath);
@@ -312,30 +377,30 @@ function emitCollection(
         fs.copyFileSync(srcArrFilePath, absDstArrFilePath);
 
         // update arrFile path in collection
-        coll.arrangements[arrId].files[afIdx].path = dstArrFilePath;
+        coll.songs[s].arrangements[a].assets[ass].path = dstArrFilePath;
 
         assetFileCount++;
       }
 
-      for (const pIdx in arr.parts) {
-        const part = arr.parts[pIdx];
+      for (const p in arr.parts) {
+        const part = arr.parts[p];
 
-        for (const pfIdx in part.files) {
-          const partFile = part.files[pfIdx];
-          const srcPartFilePath = path.join(inputPath, partFile.path);
-          const dstPartFilePath =
-            path.join(arrPath, part.name) + partFile.extension;
+        for (const ass in part.assets) {
+          const partAsset = part.assets[ass];
+          const srcPartAssetPath = path.join(inputPath, partAsset.path);
+          const dstPartAssetPath =
+            path.join(arrPath, part.name) + partAsset.extension;
 
-          const absDstPartFilePath = path.join(outputPath, dstPartFilePath);
+          const absDstPartAssetPath = path.join(outputPath, dstPartAssetPath);
 
           console.debug(
-            `[writeCollection] copying ${srcPartFilePath} to ${absDstPartFilePath}`
+            `[writeCollection] copying ${srcPartAssetPath} to ${absDstPartAssetPath}`
           );
-          fs.copyFileSync(srcPartFilePath, absDstPartFilePath);
+          fs.copyFileSync(srcPartAssetPath, absDstPartAssetPath);
 
-          // update partFile path in collection
-          coll.arrangements[arrId].parts[pIdx].files[pfIdx].path =
-            dstPartFilePath;
+          // update partAsset path in collection
+          coll.songs[s].arrangements[a].parts[p].assets[ass].path =
+            dstPartAssetPath;
 
           assetFileCount++;
         }
@@ -343,14 +408,14 @@ function emitCollection(
     }
   }
 
-  // write index
+  // write collection
   const indexPath = path.join(outputPath, "collection.json");
   console.info(`Writing collection index at '${indexPath}'...`);
-  const songsJson = JSON.stringify(coll, null, 2);
-  fs.writeFileSync(indexPath, songsJson);
+  const collJson = JSON.stringify(coll, null, 2);
+  fs.writeFileSync(indexPath, collJson);
   console.info(`Wrote ${assetFileCount} collection asset files`);
 
-  return ok(assetFileCount, []);
+  return ok(coll, []);
 }
 
 /**
