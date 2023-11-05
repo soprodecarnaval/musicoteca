@@ -17,6 +17,10 @@ function App() {
     checked ? handleAdd(song) : handleRemove(song)
   };
 
+  const clearSelected = () => {
+    setCheckedResults([]);
+  }
+
   const handleAdd = (song: HydratedSong) => {
     setCheckedResults([...checkedResults, song]);
     const updatedRes = results.filter(
@@ -64,12 +68,13 @@ function App() {
             )}
           </Col>
           <Col sm={6}>
-            {checkedResults.length > 0 && (
+            {(checkedResults.length > 0 || results.length > 0) && (
               <>
-                <h3 className="results">Resultados Selecionados</h3>
+                <h3 className="results">Resultados selecionados</h3>
                 <ChosenArrangementsTable
                   songs={checkedResults}
                   handleCheck={handleCheck}
+                  handleClear={clearSelected}
                 />
               </>
             )}

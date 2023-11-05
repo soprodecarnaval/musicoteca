@@ -6,6 +6,7 @@ import collection from "../collection.json";
 import { HydratedSong } from "../types";
 
 import Fuse from "fuse.js";
+import { ArrangementItem } from "./ArrangementItem";
 
 interface SearchBarProps {
   handleResults: (results: HydratedSong[]) => void;
@@ -52,8 +53,17 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
       return
     }
 
+    if (searchInput === '') {
+      handleResults([]);
+      return
+    }
+
     const searchResult = fuse.search(searchInput);
-    handleResults(searchResult.map((result) => result.item));
+    const results = searchResult.map(result => result.item.arrangements.map(
+      arrangement => ({ ...result.item, arrangements: [arrangement] })
+    )).flat();
+
+    handleResults(results);
   };
 
   return (
