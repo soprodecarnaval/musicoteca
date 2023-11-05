@@ -1,6 +1,5 @@
 export type Collection = {
-  arrangements: { [id: string]: Arrangement };
-  songs: { [id: string]: Song };
+  songs: Song[];
   tags: Tag[];
 };
 
@@ -9,27 +8,22 @@ export type Song = {
   title: string;
   composer: string;
   sub: string;
-  arrangementIds: string[];
-  style: Tag;
-};
-
-export type HydratedSong = Song & {
   arrangements: Arrangement[];
+  style: Tag;
 };
 
 export type Arrangement = {
   id: string;
-  files: File[];
+  assets: Asset[];
   name: string;
   parts: Part[];
   tags: Tag[];
-  songId: string;
 };
 
 export type Tag = string;
 export type Style = Tag;
 
-export type File = {
+export type Asset = {
   path: string;
   extension: string;
 };
@@ -50,5 +44,5 @@ export type Instrument =
 export type Part = {
   name: string;
   instrument: Instrument;
-  files: File[];
+  assets: Asset[];
 };

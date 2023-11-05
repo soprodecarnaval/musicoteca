@@ -1,33 +1,25 @@
 import { useState } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 
-import collection from "../collection.json";
-import { HydratedSong } from "../types";
+import { Song } from "../types";
+import collection from "../collection";
 
 import Fuse from "fuse.js";
 
 interface SearchBarProps {
-  handleResults: (results: HydratedSong[]) => void;
+  handleResults: (results: Song[]) => void;
 }
 
 // index collection using Fuse.js
-const hydratedSongs: HydratedSong[] = Object.values(collection.songs).map(
-  (song) => ({
-    ...song,
-    arrangements: song.arrangementIds.map((arrangementId) => ({
-      ...(collection.arrangements as any)[arrangementId],
-    })),
-  })
-);
 
 // TODO: move index creation to build step
 const songIndex = Fuse.createIndex(
-  ["title", "composer", "arrangements.name",  "arrangements.tags"],
-  hydratedSongs
+  ["title", "composer", "arrangements.name", "arrangements.tags"],
+  collection.songs
 );
 
 const fuse = new Fuse(
-  hydratedSongs,
+  collection.songs,
   {
     keys: ["title", "composer", "arrangements.name", "arrangements.tags"],
     includeScore: true,
@@ -48,18 +40,23 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
       e.preventDefault();
-      return
+      return;
     }
 
-    if (searchInput === '') {
+    if (searchInput === "") {
       handleResults([]);
-      return
+      return;
     }
 
     const searchResult = fuse.search(searchInput);
-    const results = searchResult.map(result => result.item.arrangements.map(
-      arrangement => ({ ...result.item, arrangements: [arrangement] })
-    )).flat();
+    const results = searchResult
+      .map((result) =>
+        result.item.arrangements.map((arrangement) => ({
+          ...result.item,
+          arrangements: [arrangement],
+        }))
+      )
+      .flat();
 
     handleResults(results);
   };
