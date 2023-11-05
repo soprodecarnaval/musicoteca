@@ -62,7 +62,7 @@ function App() {
       >
         <Container>
           <Navbar.Brand className="nav-bar-title" href="#">
-            Musicoteca
+            Cadern.in
           </Navbar.Brand>
         </Container>
       </Navbar>
