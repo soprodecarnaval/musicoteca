@@ -130,11 +130,11 @@ function findInstrument(str: string): Instrument | null {
   return instrument ? instrument[1] : null;
 }
 
-const partAssetExtension = ".svg";
+const partAssetExtensions = [".svg", ".midi"];
 const scoreAssetExtension = ".mscz";
 const metaFileExtension = ".metajson";
 const supportedFileExtensions = new Set([
-  partAssetExtension,
+  ...partAssetExtensions,
   scoreAssetExtension,
   metaFileExtension,
 ]);
@@ -218,7 +218,9 @@ function indexEntries(entries: Entry[]): Ok<Collection> {
     .forEach((entry) => indexScoreAsset(entry, collDraft));
 
   entries
-    .filter((entry) => entry.extension.endsWith(partAssetExtension))
+    .filter((entry) =>
+      partAssetExtensions.some((ext) => entry.extension.endsWith(ext))
+    )
     .forEach((entry) => indexPartAsset(entry, collDraft));
 
   const coll = renderCollectionDraft(collDraft);
