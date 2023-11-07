@@ -49,8 +49,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
       - name: Index collection
         run: |
           mv public/collection /tmp/collection
