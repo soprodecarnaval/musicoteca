@@ -40,3 +40,32 @@ jobs:
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  index-files:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: read
+    container:
+      image: node:18.18.2-alpine3.18
+      options: --user root --workdir /app
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Index file
+        shell: bash
+        run: |
+          mv public/collection /collection
+          npm run index-collection -- -i /collection -o public/collection
+      - name: Commit and push files
+        shell: sh
+        run: |
+          git config --global --add safe.directory /__w/musicoteca/musicoteca
+          git config --global user.email "musicoteca@github.com"
+          git config --global user.name "GitHub Actions"
+          git add public/collection
+          git commit -m "[AUTO] Generating index file"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
