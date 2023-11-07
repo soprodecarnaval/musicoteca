@@ -101,11 +101,6 @@ type ArrangementDraft = {
   songId: string;
 };
 
-type ScoreMetadata = {
-  metajsonRelPath: string;
-  composer: string;
-};
-
 /**
  * Drop diacriticals (e.g. á -> a) and replace non-characters with spaces
  */
@@ -131,9 +126,12 @@ function findInstrument(str: string): Instrument | null {
   return instrument ? instrument[1] : null;
 }
 
-const partAssetExtensions = [".svg", ".midi"];
 const scoreAssetExtension = ".mscz";
 const metaFileExtension = ".metajson";
+const midiExtension = ".midi";
+const svgExtension = ".svg";
+
+const partAssetExtensions = [svgExtension, midiExtension];
 const supportedFileExtensions = new Set([
   ...partAssetExtensions,
   scoreAssetExtension,
@@ -211,16 +209,18 @@ function indexEntries(entries: Entry[]): Ok<Collection> {
     warnings: [],
   };
 
-  // Create Song and Arrangement models from each score asset, using the directory structure
-  // to infer the song and arrangement names. If the arrangement name is not present, we
-  // use the style name instead.
+  // First pass: index songs and arrangements
   entries
     .filter((entry) => entry.extension.endsWith(scoreAssetExtension))
-    .forEach((entry) => indexScoreAsset(entry, collDraft));
+    .map((entry) => indexScoreEntry(entry, collDraft));
 
+  // Second pass: add parts to the corresponding arrangement
   entries
-    .filter((entry) =>
-      partAssetExtensions.some((ext) => entry.extension.endsWith(ext))
+    .filter(
+      (entry) =>
+        partAssetExtensions.some((ext) => entry.extension.endsWith(ext)) &&
+        // we already indexed the arrangement entries on the previous pass
+        !isArrangementEntry(entry)
     )
     .forEach((entry) => indexPartAsset(entry, collDraft));
 
@@ -264,30 +264,49 @@ function renderArrangementDraft(arrDraft: ArrangementDraft): Arrangement {
   return { id, name, assets: files, parts, tags };
 }
 
-function readScoreMetajsonForScoreEntry(
-  scoreEntry: Entry
-): Result<ScoreMetadata> {
-  const metajsonPath = scoreEntry.absPath.replace(
-    scoreEntry.extension,
-    metaFileExtension
-  );
-
-  console.debug(`[readScoreMetajson] reading ${metajsonPath}`);
-  if (!fs.existsSync(metajsonPath)) {
-    return err(warning(`No metajson file found`, { metajsonPath }));
+function readJsonAsset(jsonAsset: Asset, rootPath: string): Result<any> {
+  const absPath = path.join(rootPath, jsonAsset.path);
+  console.debug(`[readJsonAsset] reading ${absPath}`);
+  if (!fs.existsSync(absPath)) {
+    return err(warning(`No json file found`, { absPath }));
   }
-  const metaJson = fs.readFileSync(metajsonPath, "utf-8");
-  const meta = JSON.parse(metaJson);
+  const json = fs.readFileSync(absPath, "utf-8");
+  try {
+    return ok(JSON.parse(json));
+  } catch (e) {
+    return err(warning(`Invalid json file`, { absPath }));
+  }
+}
+
+/**
+ * Looks for asset with the same name as the score file, but with a different extension.
+ */
+function findArrangementAssetForScoreEntry(
+  scoreEntry: Entry,
+  extension: string
+): Result<Asset> {
+  const assetPath = scoreEntry.absPath.replace(scoreEntry.extension, extension);
+
+  console.debug(`[findAssetForScoreEntry] reading ${assetPath}`);
+  if (!fs.existsSync(assetPath)) {
+    return err(warning(`No ${extension} file found`, { assetPath }));
+  }
   return ok({
-    metajsonRelPath: scoreEntry.relPath.replace(
-      scoreEntry.extension,
-      metaFileExtension
-    ),
-    composer: meta.composer,
+    path: scoreEntry.relPath.replace(scoreEntry.extension, extension),
+    extension,
   });
 }
 
-function indexScoreAsset(scoreEntry: Entry, collDraft: CollectionDraft) {
+/**
+ * Arrangement assets are .midi or .metajson files that have the same
+ * name as the score file.
+ */
+function isArrangementEntry(entry: Entry): boolean {
+  const maybeScorePath = entry.absPath.replace(entry.extension, ".mscz");
+  return fs.existsSync(maybeScorePath);
+}
+
+function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
   const { arrMap, songMap, warnings } = collDraft;
   console.debug(`[_indexScoreFileEntry] indexing entry ${scoreEntry}`);
 
@@ -306,13 +325,17 @@ function indexScoreAsset(scoreEntry: Entry, collDraft: CollectionDraft) {
     songId: songId,
   };
 
-  const metajsonResult = readScoreMetajsonForScoreEntry(scoreEntry);
+  let metajsonAsset: Asset | null = null;
+
+  const metajsonResult = findArrangementAssetForScoreEntry(
+    scoreEntry,
+    metaFileExtension
+  );
   if (metajsonResult.ok) {
-    const { metajsonRelPath: metajsonPath } = metajsonResult.value;
-    arr.files.push({
-      path: metajsonPath,
-      extension: metaFileExtension,
-    });
+    metajsonAsset = metajsonResult.value;
+    arr.files.push(metajsonAsset);
+  } else {
+    warnings.push(...metajsonResult.warnings);
   }
 
   if (arrId in arrMap) {
@@ -333,10 +356,22 @@ function indexScoreAsset(scoreEntry: Entry, collDraft: CollectionDraft) {
       `[indexScoreFileEntry] added arrangement ${arrId} to song ${songId}`
     );
   } else {
+    let composer = "";
+    if (metajsonAsset) {
+      const rootPath = path.dirname(scoreEntry.absPath);
+      const readMetaJsonResult = readJsonAsset(metajsonAsset, rootPath);
+      if (readMetaJsonResult.ok) {
+        const { composer: metajsonComposer } = readMetaJsonResult.value;
+        composer = metajsonComposer;
+      } else {
+        warnings.push(...readMetaJsonResult.warnings);
+      }
+    }
+
     songMap[songId] = {
       id: songId,
       title: songTitle,
-      composer: metajsonResult.ok ? metajsonResult.value.composer : "",
+      composer,
       sub: "", // TODO: figure out a way to read this
       arrangementIds: [arrId],
       style,
