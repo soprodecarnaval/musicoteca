@@ -29,4 +29,4 @@ jobs:
           commit_prefix: "[AUTO]"
           commit_message: "Commiting media files"
           force: false
-          target_branch: main  commit-changes:
+          target_branch: main
