@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
       - name: Generate media generator file
         run: |
-          find public/collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],"\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
-          cat media-generation.json
+          find public/collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
+          head media-generation.json
           musescore-cli -j media-generation.json
   # index-files:
