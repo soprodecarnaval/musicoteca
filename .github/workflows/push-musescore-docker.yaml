@@ -43,4 +43,4 @@ jobs:
         with:
           context: musescore-docker
           push: true
-          tags: 3.6
+          tags: ghcr.io/musescore-cli:3.6
