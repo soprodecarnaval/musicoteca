@@ -33,11 +33,10 @@ jobs:
           git config --global --add safe.directory /__w/musicoteca/musicoteca
           git config --global user.email "musicoteca@github.com"
           git config --global user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add media-generation.json
           git add public/collection
-          git commit -m "[AUTO] Generating media files"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git push
+          (git commit -m "[AUTO] Generating media files" && git push) || exit 0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
