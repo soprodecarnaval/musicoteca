@@ -10,18 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/soprodecarnaval/musicoteca:main
-      options: --user root
+      options: --user root --workdir /app
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Generate media generator file
         shell: bash
         run: |
           find public/collection/ -type f -name "*.mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
-          alias
-          xvfb-run /squashfs-root/AppRun -j media-generation.json
-      - name: Commit and push changes"
+          #xvfb-run /squashfs-root/AppRun -j media-generation.json
+      - name: Commit and push changes
         uses: devops-infra/action-commit-push@master
         with:
           github_token: "${{ secrets.GITHUB_TOKEN }}"
