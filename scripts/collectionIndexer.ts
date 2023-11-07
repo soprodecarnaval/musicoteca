@@ -94,11 +94,23 @@ type SongDraft = {
 
 type ArrangementDraft = {
   id: string;
-  files: Asset[];
+  assets: AssetDraft[];
   name: string;
-  parts: Part[];
+  parts: PartDraft[];
   tags: Tag[];
   songId: string;
+};
+
+type PartDraft = {
+  name: string;
+  instrument: Instrument;
+  assets: AssetDraft[];
+};
+
+type AssetDraft = {
+  relPath: string;
+  absPath: string;
+  extension: string;
 };
 
 /**
@@ -259,13 +271,32 @@ function renderSongDraft(
   };
 }
 
-function renderArrangementDraft(arrDraft: ArrangementDraft): Arrangement {
-  const { id, name, files, parts, tags } = arrDraft;
-  return { id, name, assets: files, parts, tags };
+function renderAssetDraft(assetDraft: AssetDraft): Asset {
+  const { relPath, extension } = assetDraft;
+  return {
+    path: relPath,
+    extension,
+  };
 }
 
-function readJsonAsset(jsonAsset: Asset, rootPath: string): Result<any> {
-  const absPath = path.join(rootPath, jsonAsset.path);
+function renderPartDraft(partDraft: PartDraft): Part {
+  const { name, instrument, assets: assetDrafts } = partDraft;
+  const assets = assetDrafts.map(renderAssetDraft);
+  return {
+    name,
+    instrument,
+    assets,
+  };
+}
+
+function renderArrangementDraft(arrDraft: ArrangementDraft): Arrangement {
+  const { id, name, assets: assetDrafts, parts: partsDrafts, tags } = arrDraft;
+  const assets = assetDrafts.map(renderAssetDraft);
+  const parts = partsDrafts.map(renderPartDraft);
+  return { id, name, assets, parts, tags };
+}
+
+function readJsonFile(absPath: string): Result<any> {
   console.debug(`[readJsonAsset] reading ${absPath}`);
   if (!fs.existsSync(absPath)) {
     return err(warning(`No json file found`, { absPath }));
@@ -284,15 +315,16 @@ function readJsonAsset(jsonAsset: Asset, rootPath: string): Result<any> {
 function findArrangementAssetForScoreEntry(
   scoreEntry: Entry,
   extension: string
-): Result<Asset> {
-  const assetPath = scoreEntry.absPath.replace(scoreEntry.extension, extension);
+): Result<AssetDraft> {
+  const absPath = scoreEntry.absPath.replace(scoreEntry.extension, extension);
 
-  console.debug(`[findAssetForScoreEntry] reading ${assetPath}`);
-  if (!fs.existsSync(assetPath)) {
-    return err(warning(`No ${extension} file found`, { assetPath }));
+  console.debug(`[findAssetForScoreEntry] reading ${absPath}`);
+  if (!fs.existsSync(absPath)) {
+    return err(warning(`No ${extension} file found`, { assetPath: absPath }));
   }
   return ok({
-    path: scoreEntry.relPath.replace(scoreEntry.extension, extension),
+    absPath: absPath,
+    relPath: scoreEntry.relPath.replace(scoreEntry.extension, extension),
     extension,
   });
 }
@@ -313,9 +345,10 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
   const { arrId, arrName, songId, songTitle, style } = scoreEntry;
   const arr: ArrangementDraft = {
     id: arrId,
-    files: [
+    assets: [
       {
-        path: scoreEntry.relPath,
+        absPath: scoreEntry.absPath,
+        relPath: scoreEntry.relPath,
         extension: scoreEntry.extension,
       },
     ],
@@ -325,7 +358,7 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
     songId: songId,
   };
 
-  let metajsonAsset: Asset | null = null;
+  let metajsonAsset: AssetDraft | null = null;
 
   const metajsonResult = findArrangementAssetForScoreEntry(
     scoreEntry,
@@ -333,7 +366,7 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
   );
   if (metajsonResult.ok) {
     metajsonAsset = metajsonResult.value;
-    arr.files.push(metajsonAsset);
+    arr.assets.push(metajsonAsset);
   } else {
     warnings.push(...metajsonResult.warnings);
   }
@@ -358,8 +391,7 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
   } else {
     let composer = "";
     if (metajsonAsset) {
-      const rootPath = path.dirname(scoreEntry.absPath);
-      const readMetaJsonResult = readJsonAsset(metajsonAsset, rootPath);
+      const readMetaJsonResult = readJsonFile(metajsonAsset.absPath);
       if (readMetaJsonResult.ok) {
         const { composer: metajsonComposer } = readMetaJsonResult.value;
         composer = metajsonComposer;
@@ -405,7 +437,8 @@ function indexPartAsset(partEntry: Entry, collDraft: CollectionDraft) {
     instrument,
     assets: [
       {
-        path: partEntry.relPath,
+        absPath: partEntry.absPath,
+        relPath: partEntry.relPath,
         extension: partEntry.extension,
       },
     ],
