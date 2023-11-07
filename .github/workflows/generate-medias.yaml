@@ -46,26 +46,24 @@ jobs:
     permissions:
       contents: write
       packages: read
-    container:
-      image: node:18.18.2-alpine3.18
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
       - name: Index collection
         run: |
           mv public/collection /collection
-          npm install
+          npm ci
           npm run index-collection -- -i /collection -o public/collection
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
-        # - name: Commit and push files
-        #   run: |
-        #     apk add git
-        #     git config --global --add safe.directory /__w/musicoteca/musicoteca
-        #     git config --global user.email "musicoteca@github.com"
-        #     git config --global user.name "GitHub Actions"
-        #     git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-        #     git add public/collection
-        #     (git commit -m "[AUTO] Generating index file" && git push) || exit 0
+      - name: Commit and push files
+        run: |
+          apk add git
+          git config --global --add safe.directory /__w/musicoteca/musicoteca
+          git config --global user.email "musicoteca@github.com"
+          git config --global user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add public/collection
+          (git commit -m "[AUTO] Generating index file" && git push) || exit 0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
