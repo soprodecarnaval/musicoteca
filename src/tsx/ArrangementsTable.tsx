@@ -9,11 +9,13 @@ import { useState } from "react";
 interface ArrangementsTableProps {
   songs: HydratedSong[];
   handleSelect: (song: HydratedSong, checked: boolean) => void;
+  handlePlayingSong: (song: HydratedSong) => void;
 }
 
 const ArrangementsTable = ({
   songs,
   handleSelect,
+  handlePlayingSong,
 }: ArrangementsTableProps) => {
   const [currentPage, setCurrentPagee] = useState(1);
 
@@ -42,6 +44,7 @@ const ArrangementsTable = ({
                 arrangement={arrangement}
                 song={songs[songIdx]}
                 key={arrangement.name}
+                handlePlayingSong={handlePlayingSong}
               />
             ))
           )}

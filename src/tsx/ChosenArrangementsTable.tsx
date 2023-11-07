@@ -9,6 +9,7 @@ import { ChosenArrangementItem } from "./ChosenArrangementItem";
 interface ArrangementsTableProps {
   songs: HydratedSong[];
   handleSelect: (song: HydratedSong, checked: boolean) => void;
+  handlePlayingSong: (song: HydratedSong) => void;
   handleClear: () => void;
 }
 
@@ -16,10 +17,11 @@ const ChosenArrangementsTable = ({
   songs,
   handleSelect,
   handleClear,
+  handlePlayingSong,
 }: ArrangementsTableProps) => {
   const [currentPage, setCurrentPagee] = useState(1);
 
-  const maxNumberPages = Math.round(songs.length / 10) + 1;
+  const maxNumberPages = Math.ceil(songs.length / 10);
 
   const handlePageChange = (pageNumber : number) => {
     setCurrentPagee(pageNumber);
@@ -44,6 +46,7 @@ const ChosenArrangementsTable = ({
                 arrangement={arrangement}
                 song={songs[songIdx]}
                 key={arrangement.name}
+                handlePlayingSong={handlePlayingSong}
               />
             ))
           )}

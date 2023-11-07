@@ -1,0 +1,23 @@
+#play-bar-container {
+  visibility: hidden;
+}
+
+.bar {
+  height:20px;
+  background:#33C3F0;
+  width:0%;
+}
+
+.slider {
+  vertical-align: middle
+}
+
+.play-icon, .pause-icon, .stop-icon {
+  margin: 0 0.2%
+}
+
+.song {
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
