@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  my-job-name:
+  generate-medias:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/soprodecarnaval/musicoteca:main
