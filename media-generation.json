@@ -1,10 +1,3332 @@
 [
   {
-    "in": "public/documents/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /A BANDA TÁ COM SEDE.mscz",
-    "out":[["./public/documents/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /media/A_BANDA_TA_COM_SEDE_",".png"],"./public/documents/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /media/A_BANDA_TA_COM_SEDE.midi"]
+    "in": "public/collection/technohell/jesus humilha o satanas/jesus humilha o satanas/jesus humilha o satanas.mscz",
+    "out": [
+      [
+        "public/collection/technohell/jesus humilha o satanas/jesus humilha o satanas/jesus humilha o satanas_",
+        ".svg"
+      ],
+      [
+        "public/collection/technohell/jesus humilha o satanas/jesus humilha o satanas/jesus humilha o satanas_",
+        ".midi"
+      ],
+      "public/collection/technohell/jesus humilha o satanas/jesus humilha o satanas/jesus humilha o satanas.midi",
+      "public/collection/technohell/jesus humilha o satanas/jesus humilha o satanas/jesus humilha o satanas.metajson"
+    ]
   },
   {
-    "in": "./public/documents/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/ALALA-Ô.mscz",
-    "out":[["./public/documents/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/media/ALALA_O_",".png"],"./public/documents/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/media/ALALA_O.midi"]
+    "in": "public/collection/technohell/freed from desire/formatada/formatada.mscz",
+    "out": [
+      [
+        "public/collection/technohell/freed from desire/formatada/formatada_",
+        ".svg"
+      ],
+      [
+        "public/collection/technohell/freed from desire/formatada/formatada_",
+        ".midi"
+      ],
+      "public/collection/technohell/freed from desire/formatada/formatada.midi",
+      "public/collection/technohell/freed from desire/formatada/formatada.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/technohell/freed from desire/freed from desire/freed from desire.mscz",
+    "out": [
+      [
+        "public/collection/technohell/freed from desire/freed from desire/freed from desire_",
+        ".svg"
+      ],
+      [
+        "public/collection/technohell/freed from desire/freed from desire/freed from desire_",
+        ".midi"
+      ],
+      "public/collection/technohell/freed from desire/freed from desire/freed from desire.midi",
+      "public/collection/technohell/freed from desire/freed from desire/freed from desire.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/technohell/what is love/what is love/what is love.mscz",
+    "out": [
+      [
+        "public/collection/technohell/what is love/what is love/what is love_",
+        ".svg"
+      ],
+      [
+        "public/collection/technohell/what is love/what is love/what is love_",
+        ".midi"
+      ],
+      "public/collection/technohell/what is love/what is love/what is love.midi",
+      "public/collection/technohell/what is love/what is love/what is love.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/technohell/children + can_t get you out of my head/children + can_t get you out of my head/children + can_t get you out of my head.mscz",
+    "out": [
+      [
+        "public/collection/technohell/children + can_t get you out of my head/children + can_t get you out of my head/children + can_t get you out of my head_",
+        ".svg"
+      ],
+      [
+        "public/collection/technohell/children + can_t get you out of my head/children + can_t get you out of my head/children + can_t get you out of my head_",
+        ".midi"
+      ],
+      "public/collection/technohell/children + can_t get you out of my head/children + can_t get you out of my head/children + can_t get you out of my head.midi",
+      "public/collection/technohell/children + can_t get you out of my head/children + can_t get you out of my head/children + can_t get you out of my head.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/morena tropicana/morena tropicana/morena tropicana.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/morena tropicana/morena tropicana/morena tropicana_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/morena tropicana/morena tropicana/morena tropicana_",
+        ".midi"
+      ],
+      "public/collection/festa junina/morena tropicana/morena tropicana/morena tropicana.midi",
+      "public/collection/festa junina/morena tropicana/morena tropicana/morena tropicana.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/olha pro ceu/olha pro ceu/olha pro ceu.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/olha pro ceu/olha pro ceu/olha pro ceu_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/olha pro ceu/olha pro ceu/olha pro ceu_",
+        ".midi"
+      ],
+      "public/collection/festa junina/olha pro ceu/olha pro ceu/olha pro ceu.midi",
+      "public/collection/festa junina/olha pro ceu/olha pro ceu/olha pro ceu.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/eu só quero um xodó/eu só quero um xodó/eu só quero um xodó.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/eu só quero um xodó/eu só quero um xodó/eu só quero um xodó_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/eu só quero um xodó/eu só quero um xodó/eu só quero um xodó_",
+        ".midi"
+      ],
+      "public/collection/festa junina/eu só quero um xodó/eu só quero um xodó/eu só quero um xodó.midi",
+      "public/collection/festa junina/eu só quero um xodó/eu só quero um xodó/eu só quero um xodó.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/tapao na raba/tapao na raba/tapao na raba.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/tapao na raba/tapao na raba/tapao na raba_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/tapao na raba/tapao na raba/tapao na raba_",
+        ".midi"
+      ],
+      "public/collection/festa junina/tapao na raba/tapao na raba/tapao na raba.midi",
+      "public/collection/festa junina/tapao na raba/tapao na raba/tapao na raba.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/sabiá/sabiá/sabiá.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/sabiá/sabiá/sabiá_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/sabiá/sabiá/sabiá_",
+        ".midi"
+      ],
+      "public/collection/festa junina/sabiá/sabiá/sabiá.midi",
+      "public/collection/festa junina/sabiá/sabiá/sabiá.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/sabiá/.original/.original.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/sabiá/.original/.original_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/sabiá/.original/.original_",
+        ".midi"
+      ],
+      "public/collection/festa junina/sabiá/.original/.original.midi",
+      "public/collection/festa junina/sabiá/.original/.original.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/assum preto/assum preto/assum preto.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/assum preto/assum preto/assum preto_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/assum preto/assum preto/assum preto_",
+        ".midi"
+      ],
+      "public/collection/festa junina/assum preto/assum preto/assum preto.midi",
+      "public/collection/festa junina/assum preto/assum preto/assum preto.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/assum preto/.original/.original.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/assum preto/.original/.original_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/assum preto/.original/.original_",
+        ".midi"
+      ],
+      "public/collection/festa junina/assum preto/.original/.original.midi",
+      "public/collection/festa junina/assum preto/.original/.original.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/ai que saudade d_ocê/ai que saudade d_ocê/ai que saudade d_ocê.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/ai que saudade d_ocê/ai que saudade d_ocê/ai que saudade d_ocê_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/ai que saudade d_ocê/ai que saudade d_ocê/ai que saudade d_ocê_",
+        ".midi"
+      ],
+      "public/collection/festa junina/ai que saudade d_ocê/ai que saudade d_ocê/ai que saudade d_ocê.midi",
+      "public/collection/festa junina/ai que saudade d_ocê/ai que saudade d_ocê/ai que saudade d_ocê.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/vem morena/vem morena/vem morena.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/vem morena/vem morena/vem morena_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/vem morena/vem morena/vem morena_",
+        ".midi"
+      ],
+      "public/collection/festa junina/vem morena/vem morena/vem morena.midi",
+      "public/collection/festa junina/vem morena/vem morena/vem morena.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/la belle du jour/la belle du jour/la belle du jour.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/la belle du jour/la belle du jour/la belle du jour_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/la belle du jour/la belle du jour/la belle du jour_",
+        ".midi"
+      ],
+      "public/collection/festa junina/la belle du jour/la belle du jour/la belle du jour.midi",
+      "public/collection/festa junina/la belle du jour/la belle du jour/la belle du jour.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/carcará/carcará/carcará.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/carcará/carcará/carcará_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/carcará/carcará/carcará_",
+        ".midi"
+      ],
+      "public/collection/festa junina/carcará/carcará/carcará.midi",
+      "public/collection/festa junina/carcará/carcará/carcará.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/asa branca/asa branca/asa branca.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/asa branca/asa branca/asa branca_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/asa branca/asa branca/asa branca_",
+        ".midi"
+      ],
+      "public/collection/festa junina/asa branca/asa branca/asa branca.midi",
+      "public/collection/festa junina/asa branca/asa branca/asa branca.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/abri a porta/abri a porta/abri a porta.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/abri a porta/abri a porta/abri a porta_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/abri a porta/abri a porta/abri a porta_",
+        ".midi"
+      ],
+      "public/collection/festa junina/abri a porta/abri a porta/abri a porta.midi",
+      "public/collection/festa junina/abri a porta/abri a porta/abri a porta.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/esperando na janela/esperando na janela/esperando na janela.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/esperando na janela/esperando na janela/esperando na janela_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/esperando na janela/esperando na janela/esperando na janela_",
+        ".midi"
+      ],
+      "public/collection/festa junina/esperando na janela/esperando na janela/esperando na janela.midi",
+      "public/collection/festa junina/esperando na janela/esperando na janela/esperando na janela.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/tá rocheda/tá rocheda/tá rocheda.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/tá rocheda/tá rocheda/tá rocheda_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/tá rocheda/tá rocheda/tá rocheda_",
+        ".midi"
+      ],
+      "public/collection/festa junina/tá rocheda/tá rocheda/tá rocheda.midi",
+      "public/collection/festa junina/tá rocheda/tá rocheda/tá rocheda.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/festa junina/pula a fogueira/pula a fogueira/pula a fogueira.mscz",
+    "out": [
+      [
+        "public/collection/festa junina/pula a fogueira/pula a fogueira/pula a fogueira_",
+        ".svg"
+      ],
+      [
+        "public/collection/festa junina/pula a fogueira/pula a fogueira/pula a fogueira_",
+        ".midi"
+      ],
+      "public/collection/festa junina/pula a fogueira/pula a fogueira/pula a fogueira.midi",
+      "public/collection/festa junina/pula a fogueira/pula a fogueira/pula a fogueira.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/yellow submarine/avenidinha kids/avenidinha kids.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/yellow submarine/avenidinha kids/avenidinha kids_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/yellow submarine/avenidinha kids/avenidinha kids_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/yellow submarine/avenidinha kids/avenidinha kids.midi",
+      "public/collection/musicas infantis/yellow submarine/avenidinha kids/avenidinha kids.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/yellow submarine/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/yellow submarine/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/yellow submarine/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/yellow submarine/maminha/maminha.midi",
+      "public/collection/musicas infantis/yellow submarine/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/a cigarra e a formiga/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/a cigarra e a formiga/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/a cigarra e a formiga/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/a cigarra e a formiga/maminha/maminha.midi",
+      "public/collection/musicas infantis/a cigarra e a formiga/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/peixe vivo/avenidinha kids/avenidinha kids.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/peixe vivo/avenidinha kids/avenidinha kids_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/peixe vivo/avenidinha kids/avenidinha kids_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/peixe vivo/avenidinha kids/avenidinha kids.midi",
+      "public/collection/musicas infantis/peixe vivo/avenidinha kids/avenidinha kids.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/ilariê/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/ilariê/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/ilariê/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/ilariê/maminha/maminha.midi",
+      "public/collection/musicas infantis/ilariê/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/tem gato na tuba/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/tem gato na tuba/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/tem gato na tuba/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/tem gato na tuba/maminha/maminha.midi",
+      "public/collection/musicas infantis/tem gato na tuba/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/atirei o pau no gato/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/atirei o pau no gato/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/atirei o pau no gato/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/atirei o pau no gato/maminha/maminha.midi",
+      "public/collection/musicas infantis/atirei o pau no gato/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/meu lanchinho/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/meu lanchinho/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/meu lanchinho/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/meu lanchinho/maminha/maminha.midi",
+      "public/collection/musicas infantis/meu lanchinho/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/alecrim dourado/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/alecrim dourado/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/alecrim dourado/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/alecrim dourado/maminha/maminha.midi",
+      "public/collection/musicas infantis/alecrim dourado/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/borboletinha/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/borboletinha/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/borboletinha/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/borboletinha/maminha/maminha.midi",
+      "public/collection/musicas infantis/borboletinha/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/pastorzinho (dó-ré-mi-fá fá fa)/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/pastorzinho (dó-ré-mi-fá fá fa)/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/pastorzinho (dó-ré-mi-fá fá fa)/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/pastorzinho (dó-ré-mi-fá fá fa)/maminha/maminha.midi",
+      "public/collection/musicas infantis/pastorzinho (dó-ré-mi-fá fá fa)/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/meu pintinho amarelinho/avenidinha kids/avenidinha kids.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/meu pintinho amarelinho/avenidinha kids/avenidinha kids_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/meu pintinho amarelinho/avenidinha kids/avenidinha kids_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/meu pintinho amarelinho/avenidinha kids/avenidinha kids.midi",
+      "public/collection/musicas infantis/meu pintinho amarelinho/avenidinha kids/avenidinha kids.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/meu pintinho amarelinho/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/meu pintinho amarelinho/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/meu pintinho amarelinho/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/meu pintinho amarelinho/maminha/maminha.midi",
+      "public/collection/musicas infantis/meu pintinho amarelinho/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/o sapo não lava o pé/avenidinha kids/avenidinha kids.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/o sapo não lava o pé/avenidinha kids/avenidinha kids_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/o sapo não lava o pé/avenidinha kids/avenidinha kids_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/o sapo não lava o pé/avenidinha kids/avenidinha kids.midi",
+      "public/collection/musicas infantis/o sapo não lava o pé/avenidinha kids/avenidinha kids.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/o sapo não lava o pé/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/o sapo não lava o pé/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/o sapo não lava o pé/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/o sapo não lava o pé/maminha/maminha.midi",
+      "public/collection/musicas infantis/o sapo não lava o pé/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/pela estrada a fora/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/pela estrada a fora/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/pela estrada a fora/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/pela estrada a fora/maminha/maminha.midi",
+      "public/collection/musicas infantis/pela estrada a fora/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/a dona aranha/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/a dona aranha/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/a dona aranha/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/a dona aranha/maminha/maminha.midi",
+      "public/collection/musicas infantis/a dona aranha/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/musicas infantis/pula pula pipoquinha/maminha/maminha.mscz",
+    "out": [
+      [
+        "public/collection/musicas infantis/pula pula pipoquinha/maminha/maminha_",
+        ".svg"
+      ],
+      [
+        "public/collection/musicas infantis/pula pula pipoquinha/maminha/maminha_",
+        ".midi"
+      ],
+      "public/collection/musicas infantis/pula pula pipoquinha/maminha/maminha.midi",
+      "public/collection/musicas infantis/pula pula pipoquinha/maminha/maminha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.midi",
+      "public/collection/marchas rancho/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/pastorinhas/carnaval bh 2023 - pastorinhas/carnaval bh 2023 - pastorinhas.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/pastorinhas/carnaval bh 2023 - pastorinhas/carnaval bh 2023 - pastorinhas_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/pastorinhas/carnaval bh 2023 - pastorinhas/carnaval bh 2023 - pastorinhas_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/pastorinhas/carnaval bh 2023 - pastorinhas/carnaval bh 2023 - pastorinhas.midi",
+      "public/collection/marchas rancho/pastorinhas/carnaval bh 2023 - pastorinhas/carnaval bh 2023 - pastorinhas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.midi",
+      "public/collection/marchas rancho/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/tristeza/carnaval bh 2023 - tristeza/carnaval bh 2023 - tristeza.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/tristeza/carnaval bh 2023 - tristeza/carnaval bh 2023 - tristeza_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/tristeza/carnaval bh 2023 - tristeza/carnaval bh 2023 - tristeza_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/tristeza/carnaval bh 2023 - tristeza/carnaval bh 2023 - tristeza.midi",
+      "public/collection/marchas rancho/tristeza/carnaval bh 2023 - tristeza/carnaval bh 2023 - tristeza.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/bandeira branca/carnaval bh 2023 - bandeira branca/carnaval bh 2023 - bandeira branca.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/bandeira branca/carnaval bh 2023 - bandeira branca/carnaval bh 2023 - bandeira branca_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/bandeira branca/carnaval bh 2023 - bandeira branca/carnaval bh 2023 - bandeira branca_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/bandeira branca/carnaval bh 2023 - bandeira branca/carnaval bh 2023 - bandeira branca.midi",
+      "public/collection/marchas rancho/bandeira branca/carnaval bh 2023 - bandeira branca/carnaval bh 2023 - bandeira branca.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/abre alas/madeira pirata - abre alas/madeira pirata - abre alas.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/abre alas/madeira pirata - abre alas/madeira pirata - abre alas_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/abre alas/madeira pirata - abre alas/madeira pirata - abre alas_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/abre alas/madeira pirata - abre alas/madeira pirata - abre alas.midi",
+      "public/collection/marchas rancho/abre alas/madeira pirata - abre alas/madeira pirata - abre alas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/abre alas/carnaval bh 2023 - abre alas/carnaval bh 2023 - abre alas.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/abre alas/carnaval bh 2023 - abre alas/carnaval bh 2023 - abre alas_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/abre alas/carnaval bh 2023 - abre alas/carnaval bh 2023 - abre alas_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/abre alas/carnaval bh 2023 - abre alas/carnaval bh 2023 - abre alas.midi",
+      "public/collection/marchas rancho/abre alas/carnaval bh 2023 - abre alas/carnaval bh 2023 - abre alas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/carinhoso/carnaval bh 2023 - carinhoso/carnaval bh 2023 - carinhoso.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/carinhoso/carnaval bh 2023 - carinhoso/carnaval bh 2023 - carinhoso_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/carinhoso/carnaval bh 2023 - carinhoso/carnaval bh 2023 - carinhoso_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/carinhoso/carnaval bh 2023 - carinhoso/carnaval bh 2023 - carinhoso.midi",
+      "public/collection/marchas rancho/carinhoso/carnaval bh 2023 - carinhoso/carnaval bh 2023 - carinhoso.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/touradas em madri/carnaval bh 2023 - touradas de madri/carnaval bh 2023 - touradas de madri.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/touradas em madri/carnaval bh 2023 - touradas de madri/carnaval bh 2023 - touradas de madri_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/touradas em madri/carnaval bh 2023 - touradas de madri/carnaval bh 2023 - touradas de madri_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/touradas em madri/carnaval bh 2023 - touradas de madri/carnaval bh 2023 - touradas de madri.midi",
+      "public/collection/marchas rancho/touradas em madri/carnaval bh 2023 - touradas de madri/carnaval bh 2023 - touradas de madri.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchas rancho/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.mscz",
+    "out": [
+      [
+        "public/collection/marchas rancho/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchas rancho/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra_",
+        ".midi"
+      ],
+      "public/collection/marchas rancho/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.midi",
+      "public/collection/marchas rancho/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/dancin_ days (abra suas asas)/carnaval bh 2023 - abra suas asas/carnaval bh 2023 - abra suas asas.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/dancin_ days (abra suas asas)/carnaval bh 2023 - abra suas asas/carnaval bh 2023 - abra suas asas_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/dancin_ days (abra suas asas)/carnaval bh 2023 - abra suas asas/carnaval bh 2023 - abra suas asas_",
+        ".midi"
+      ],
+      "public/collection/brazukas/dancin_ days (abra suas asas)/carnaval bh 2023 - abra suas asas/carnaval bh 2023 - abra suas asas.midi",
+      "public/collection/brazukas/dancin_ days (abra suas asas)/carnaval bh 2023 - abra suas asas/carnaval bh 2023 - abra suas asas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro_",
+        ".midi"
+      ],
+      "public/collection/brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.midi",
+      "public/collection/brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/lucro/carnaval bh 2023 - lucro/carnaval bh 2023 - lucro.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/lucro/carnaval bh 2023 - lucro/carnaval bh 2023 - lucro_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/lucro/carnaval bh 2023 - lucro/carnaval bh 2023 - lucro_",
+        ".midi"
+      ],
+      "public/collection/brazukas/lucro/carnaval bh 2023 - lucro/carnaval bh 2023 - lucro.midi",
+      "public/collection/brazukas/lucro/carnaval bh 2023 - lucro/carnaval bh 2023 - lucro.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte_",
+        ".midi"
+      ],
+      "public/collection/brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte.midi",
+      "public/collection/brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada_",
+        ".midi"
+      ],
+      "public/collection/brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada.midi",
+      "public/collection/brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_",
+        ".midi"
+      ],
+      "public/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja.midi",
+      "public/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_",
+        ".midi"
+      ],
+      "public/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana.midi",
+      "public/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/não me entrego pros caretas/não me entrego pros caretas/não me entrego pros caretas.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/não me entrego pros caretas/não me entrego pros caretas/não me entrego pros caretas_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/não me entrego pros caretas/não me entrego pros caretas/não me entrego pros caretas_",
+        ".midi"
+      ],
+      "public/collection/brazukas/não me entrego pros caretas/não me entrego pros caretas/não me entrego pros caretas.midi",
+      "public/collection/brazukas/não me entrego pros caretas/não me entrego pros caretas/não me entrego pros caretas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/mamãe oxum/mamãe oxum/mamãe oxum.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/mamãe oxum/mamãe oxum/mamãe oxum_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/mamãe oxum/mamãe oxum/mamãe oxum_",
+        ".midi"
+      ],
+      "public/collection/brazukas/mamãe oxum/mamãe oxum/mamãe oxum.midi",
+      "public/collection/brazukas/mamãe oxum/mamãe oxum/mamãe oxum.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/cotidiano/cotidiano/cotidiano.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/cotidiano/cotidiano/cotidiano_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/cotidiano/cotidiano/cotidiano_",
+        ".midi"
+      ],
+      "public/collection/brazukas/cotidiano/cotidiano/cotidiano.midi",
+      "public/collection/brazukas/cotidiano/cotidiano/cotidiano.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/nao enche/nao enche/nao enche.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/nao enche/nao enche/nao enche_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/nao enche/nao enche/nao enche_",
+        ".midi"
+      ],
+      "public/collection/brazukas/nao enche/nao enche/nao enche.midi",
+      "public/collection/brazukas/nao enche/nao enche/nao enche.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/reconvexo/reconvexo/reconvexo.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/reconvexo/reconvexo/reconvexo_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/reconvexo/reconvexo/reconvexo_",
+        ".midi"
+      ],
+      "public/collection/brazukas/reconvexo/reconvexo/reconvexo.midi",
+      "public/collection/brazukas/reconvexo/reconvexo/reconvexo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/vaca profana/carnaval bh 2023 - vaca profana/carnaval bh 2023 - vaca profana.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/vaca profana/carnaval bh 2023 - vaca profana/carnaval bh 2023 - vaca profana_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/vaca profana/carnaval bh 2023 - vaca profana/carnaval bh 2023 - vaca profana_",
+        ".midi"
+      ],
+      "public/collection/brazukas/vaca profana/carnaval bh 2023 - vaca profana/carnaval bh 2023 - vaca profana.midi",
+      "public/collection/brazukas/vaca profana/carnaval bh 2023 - vaca profana/carnaval bh 2023 - vaca profana.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/divino maravilhoso/carnaval bh 2023 - divino maravilhoso/carnaval bh 2023 - divino maravilhoso.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/divino maravilhoso/carnaval bh 2023 - divino maravilhoso/carnaval bh 2023 - divino maravilhoso_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/divino maravilhoso/carnaval bh 2023 - divino maravilhoso/carnaval bh 2023 - divino maravilhoso_",
+        ".midi"
+      ],
+      "public/collection/brazukas/divino maravilhoso/carnaval bh 2023 - divino maravilhoso/carnaval bh 2023 - divino maravilhoso.midi",
+      "public/collection/brazukas/divino maravilhoso/carnaval bh 2023 - divino maravilhoso/carnaval bh 2023 - divino maravilhoso.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser_",
+        ".midi"
+      ],
+      "public/collection/brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser.midi",
+      "public/collection/brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/pais tropical/pais tropical/pais tropical.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/pais tropical/pais tropical/pais tropical_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/pais tropical/pais tropical/pais tropical_",
+        ".midi"
+      ],
+      "public/collection/brazukas/pais tropical/pais tropical/pais tropical.midi",
+      "public/collection/brazukas/pais tropical/pais tropical/pais tropical.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/ombrim/ombrim/ombrim.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/ombrim/ombrim/ombrim_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/ombrim/ombrim/ombrim_",
+        ".midi"
+      ],
+      "public/collection/brazukas/ombrim/ombrim/ombrim.midi",
+      "public/collection/brazukas/ombrim/ombrim/ombrim.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney_",
+        ".midi"
+      ],
+      "public/collection/brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney.midi",
+      "public/collection/brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/forasteiro/carnaval bh 2023 - forasteiro/carnaval bh 2023 - forasteiro.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/forasteiro/carnaval bh 2023 - forasteiro/carnaval bh 2023 - forasteiro_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/forasteiro/carnaval bh 2023 - forasteiro/carnaval bh 2023 - forasteiro_",
+        ".midi"
+      ],
+      "public/collection/brazukas/forasteiro/carnaval bh 2023 - forasteiro/carnaval bh 2023 - forasteiro.midi",
+      "public/collection/brazukas/forasteiro/carnaval bh 2023 - forasteiro/carnaval bh 2023 - forasteiro.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro.mscz",
+    "out": [
+      [
+        "public/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_",
+        ".svg"
+      ],
+      [
+        "public/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_",
+        ".midi"
+      ],
+      "public/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro.midi",
+      "public/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/montserrat, serrat/carnaval bh 2023 - montserrat serrat/carnaval bh 2023 - montserrat serrat.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/montserrat, serrat/carnaval bh 2023 - montserrat serrat/carnaval bh 2023 - montserrat serrat_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/montserrat, serrat/carnaval bh 2023 - montserrat serrat/carnaval bh 2023 - montserrat serrat_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/montserrat, serrat/carnaval bh 2023 - montserrat serrat/carnaval bh 2023 - montserrat serrat.midi",
+      "public/collection/fanfarras/montserrat, serrat/carnaval bh 2023 - montserrat serrat/carnaval bh 2023 - montserrat serrat.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca.midi",
+      "public/collection/fanfarras/tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca/carnaval bh 2023 - tom _ jerry em guca.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/buyo/buyo/buyo.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/buyo/buyo/buyo_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/buyo/buyo/buyo_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/buyo/buyo/buyo.midi",
+      "public/collection/fanfarras/buyo/buyo/buyo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/blue cigano/blue cigano/blue cigano.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/blue cigano/blue cigano/blue cigano_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/blue cigano/blue cigano/blue cigano_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/blue cigano/blue cigano/blue cigano.midi",
+      "public/collection/fanfarras/blue cigano/blue cigano/blue cigano.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo.midi",
+      "public/collection/fanfarras/oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo/carnaval bh 2023 - oswaldo, o pombo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/não é mole não + guadaloupe/carnaval bh 2023 - nao é mole não + guadalupe/carnaval bh 2023 - nao é mole não + guadalupe.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/não é mole não + guadaloupe/carnaval bh 2023 - nao é mole não + guadalupe/carnaval bh 2023 - nao é mole não + guadalupe_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/não é mole não + guadaloupe/carnaval bh 2023 - nao é mole não + guadalupe/carnaval bh 2023 - nao é mole não + guadalupe_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/não é mole não + guadaloupe/carnaval bh 2023 - nao é mole não + guadalupe/carnaval bh 2023 - nao é mole não + guadalupe.midi",
+      "public/collection/fanfarras/não é mole não + guadaloupe/carnaval bh 2023 - nao é mole não + guadalupe/carnaval bh 2023 - nao é mole não + guadalupe.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/when the saints go marching in/when the saints go marching in/when the saints go marching in.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/when the saints go marching in/when the saints go marching in/when the saints go marching in_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/when the saints go marching in/when the saints go marching in/when the saints go marching in_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/when the saints go marching in/when the saints go marching in/when the saints go marching in.midi",
+      "public/collection/fanfarras/when the saints go marching in/when the saints go marching in/when the saints go marching in.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/bakalao salao/bakalao salao/bakalao salao.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/bakalao salao/bakalao salao/bakalao salao_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/bakalao salao/bakalao salao/bakalao salao_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/bakalao salao/bakalao salao/bakalao salao.midi",
+      "public/collection/fanfarras/bakalao salao/bakalao salao/bakalao salao.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/soul finger/carnaval bh 2023 - soul finger/carnaval bh 2023 - soul finger.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/soul finger/carnaval bh 2023 - soul finger/carnaval bh 2023 - soul finger_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/soul finger/carnaval bh 2023 - soul finger/carnaval bh 2023 - soul finger_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/soul finger/carnaval bh 2023 - soul finger/carnaval bh 2023 - soul finger.midi",
+      "public/collection/fanfarras/soul finger/carnaval bh 2023 - soul finger/carnaval bh 2023 - soul finger.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/fanfarras/soul finger/madeira pirata - soul finger/madeira pirata - soul finger.mscz",
+    "out": [
+      [
+        "public/collection/fanfarras/soul finger/madeira pirata - soul finger/madeira pirata - soul finger_",
+        ".svg"
+      ],
+      [
+        "public/collection/fanfarras/soul finger/madeira pirata - soul finger/madeira pirata - soul finger_",
+        ".midi"
+      ],
+      "public/collection/fanfarras/soul finger/madeira pirata - soul finger/madeira pirata - soul finger.midi",
+      "public/collection/fanfarras/soul finger/madeira pirata - soul finger/madeira pirata - soul finger.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/cumbia/yo quiero cumbiar/yo quiero cumbiar/yo quiero cumbiar.mscz",
+    "out": [
+      [
+        "public/collection/cumbia/yo quiero cumbiar/yo quiero cumbiar/yo quiero cumbiar_",
+        ".svg"
+      ],
+      [
+        "public/collection/cumbia/yo quiero cumbiar/yo quiero cumbiar/yo quiero cumbiar_",
+        ".midi"
+      ],
+      "public/collection/cumbia/yo quiero cumbiar/yo quiero cumbiar/yo quiero cumbiar.midi",
+      "public/collection/cumbia/yo quiero cumbiar/yo quiero cumbiar/yo quiero cumbiar.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/cumbia/cumbia en do menor/cumbia en do menor/cumbia en do menor.mscz",
+    "out": [
+      [
+        "public/collection/cumbia/cumbia en do menor/cumbia en do menor/cumbia en do menor_",
+        ".svg"
+      ],
+      [
+        "public/collection/cumbia/cumbia en do menor/cumbia en do menor/cumbia en do menor_",
+        ".midi"
+      ],
+      "public/collection/cumbia/cumbia en do menor/cumbia en do menor/cumbia en do menor.midi",
+      "public/collection/cumbia/cumbia en do menor/cumbia en do menor/cumbia en do menor.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/cumbia/sonido amazonico/sonido amazonico/sonido amazonico.mscz",
+    "out": [
+      [
+        "public/collection/cumbia/sonido amazonico/sonido amazonico/sonido amazonico_",
+        ".svg"
+      ],
+      [
+        "public/collection/cumbia/sonido amazonico/sonido amazonico/sonido amazonico_",
+        ".midi"
+      ],
+      "public/collection/cumbia/sonido amazonico/sonido amazonico/sonido amazonico.midi",
+      "public/collection/cumbia/sonido amazonico/sonido amazonico/sonido amazonico.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/vermelho (groove)/vermelho (groove)/vermelho (groove).mscz",
+    "out": [
+      [
+        "public/collection/funks/vermelho (groove)/vermelho (groove)/vermelho (groove)_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/vermelho (groove)/vermelho (groove)/vermelho (groove)_",
+        ".midi"
+      ],
+      "public/collection/funks/vermelho (groove)/vermelho (groove)/vermelho (groove).midi",
+      "public/collection/funks/vermelho (groove)/vermelho (groove)/vermelho (groove).metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/cheguei/carnaval bh 2023 - cheguei/carnaval bh 2023 - cheguei.mscz",
+    "out": [
+      [
+        "public/collection/funks/cheguei/carnaval bh 2023 - cheguei/carnaval bh 2023 - cheguei_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/cheguei/carnaval bh 2023 - cheguei/carnaval bh 2023 - cheguei_",
+        ".midi"
+      ],
+      "public/collection/funks/cheguei/carnaval bh 2023 - cheguei/carnaval bh 2023 - cheguei.midi",
+      "public/collection/funks/cheguei/carnaval bh 2023 - cheguei/carnaval bh 2023 - cheguei.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/tu ta na gaiola/tu ta na gaiola/tu ta na gaiola.mscz",
+    "out": [
+      [
+        "public/collection/funks/tu ta na gaiola/tu ta na gaiola/tu ta na gaiola_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/tu ta na gaiola/tu ta na gaiola/tu ta na gaiola_",
+        ".midi"
+      ],
+      "public/collection/funks/tu ta na gaiola/tu ta na gaiola/tu ta na gaiola.midi",
+      "public/collection/funks/tu ta na gaiola/tu ta na gaiola/tu ta na gaiola.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/agora vai sentar/agora vai sentar/agora vai sentar.mscz",
+    "out": [
+      [
+        "public/collection/funks/agora vai sentar/agora vai sentar/agora vai sentar_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/agora vai sentar/agora vai sentar/agora vai sentar_",
+        ".midi"
+      ],
+      "public/collection/funks/agora vai sentar/agora vai sentar/agora vai sentar.midi",
+      "public/collection/funks/agora vai sentar/agora vai sentar/agora vai sentar.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/parados no bailão/carnaval bh 2023 - parados no bailão/carnaval bh 2023 - parados no bailão.mscz",
+    "out": [
+      [
+        "public/collection/funks/parados no bailão/carnaval bh 2023 - parados no bailão/carnaval bh 2023 - parados no bailão_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/parados no bailão/carnaval bh 2023 - parados no bailão/carnaval bh 2023 - parados no bailão_",
+        ".midi"
+      ],
+      "public/collection/funks/parados no bailão/carnaval bh 2023 - parados no bailão/carnaval bh 2023 - parados no bailão.midi",
+      "public/collection/funks/parados no bailão/carnaval bh 2023 - parados no bailão/carnaval bh 2023 - parados no bailão.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/show das poderosas/show das poderosas/show das poderosas.mscz",
+    "out": [
+      [
+        "public/collection/funks/show das poderosas/show das poderosas/show das poderosas_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/show das poderosas/show das poderosas/show das poderosas_",
+        ".midi"
+      ],
+      "public/collection/funks/show das poderosas/show das poderosas/show das poderosas.midi",
+      "public/collection/funks/show das poderosas/show das poderosas/show das poderosas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/rap das armas/rap das armas/rap das armas.mscz",
+    "out": [
+      [
+        "public/collection/funks/rap das armas/rap das armas/rap das armas_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/rap das armas/rap das armas/rap das armas_",
+        ".midi"
+      ],
+      "public/collection/funks/rap das armas/rap das armas/rap das armas.midi",
+      "public/collection/funks/rap das armas/rap das armas/rap das armas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.mscz",
+    "out": [
+      [
+        "public/collection/funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar_",
+        ".midi"
+      ],
+      "public/collection/funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.midi",
+      "public/collection/funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/oh juliana/oh juliana/oh juliana.mscz",
+    "out": [
+      [
+        "public/collection/funks/oh juliana/oh juliana/oh juliana_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/oh juliana/oh juliana/oh juliana_",
+        ".midi"
+      ],
+      "public/collection/funks/oh juliana/oh juliana/oh juliana.midi",
+      "public/collection/funks/oh juliana/oh juliana/oh juliana.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/tedio/tedio/tedio.mscz",
+    "out": [
+      [
+        "public/collection/funks/tedio/tedio/tedio_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/tedio/tedio/tedio_",
+        ".midi"
+      ],
+      "public/collection/funks/tedio/tedio/tedio.midi",
+      "public/collection/funks/tedio/tedio/tedio.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/um morto muito louco/um morto muito louco/um morto muito louco.mscz",
+    "out": [
+      [
+        "public/collection/funks/um morto muito louco/um morto muito louco/um morto muito louco_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/um morto muito louco/um morto muito louco/um morto muito louco_",
+        ".midi"
+      ],
+      "public/collection/funks/um morto muito louco/um morto muito louco/um morto muito louco.midi",
+      "public/collection/funks/um morto muito louco/um morto muito louco/um morto muito louco.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.mscz",
+    "out": [
+      [
+        "public/collection/funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade_",
+        ".midi"
+      ],
+      "public/collection/funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.midi",
+      "public/collection/funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/verdinha/carnaval bh 2023 - verdinha/carnaval bh 2023 - verdinha.mscz",
+    "out": [
+      [
+        "public/collection/funks/verdinha/carnaval bh 2023 - verdinha/carnaval bh 2023 - verdinha_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/verdinha/carnaval bh 2023 - verdinha/carnaval bh 2023 - verdinha_",
+        ".midi"
+      ],
+      "public/collection/funks/verdinha/carnaval bh 2023 - verdinha/carnaval bh 2023 - verdinha.midi",
+      "public/collection/funks/verdinha/carnaval bh 2023 - verdinha/carnaval bh 2023 - verdinha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/glamurosa/carnaval bh 2023 - glamurosa/carnaval bh 2023 - glamurosa.mscz",
+    "out": [
+      [
+        "public/collection/funks/glamurosa/carnaval bh 2023 - glamurosa/carnaval bh 2023 - glamurosa_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/glamurosa/carnaval bh 2023 - glamurosa/carnaval bh 2023 - glamurosa_",
+        ".midi"
+      ],
+      "public/collection/funks/glamurosa/carnaval bh 2023 - glamurosa/carnaval bh 2023 - glamurosa.midi",
+      "public/collection/funks/glamurosa/carnaval bh 2023 - glamurosa/carnaval bh 2023 - glamurosa.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/endereco dos bailes/endereco dos bailes/endereco dos bailes.mscz",
+    "out": [
+      [
+        "public/collection/funks/endereco dos bailes/endereco dos bailes/endereco dos bailes_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/endereco dos bailes/endereco dos bailes/endereco dos bailes_",
+        ".midi"
+      ],
+      "public/collection/funks/endereco dos bailes/endereco dos bailes/endereco dos bailes.midi",
+      "public/collection/funks/endereco dos bailes/endereco dos bailes/endereco dos bailes.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/vai malandra/carnaval bh 2023 - vai malandra/carnaval bh 2023 - vai malandra.mscz",
+    "out": [
+      [
+        "public/collection/funks/vai malandra/carnaval bh 2023 - vai malandra/carnaval bh 2023 - vai malandra_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/vai malandra/carnaval bh 2023 - vai malandra/carnaval bh 2023 - vai malandra_",
+        ".midi"
+      ],
+      "public/collection/funks/vai malandra/carnaval bh 2023 - vai malandra/carnaval bh 2023 - vai malandra.midi",
+      "public/collection/funks/vai malandra/carnaval bh 2023 - vai malandra/carnaval bh 2023 - vai malandra.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/miss beleza universal/carnaval bh 2023 - miss beleza universal/carnaval bh 2023 - miss beleza universal.mscz",
+    "out": [
+      [
+        "public/collection/funks/miss beleza universal/carnaval bh 2023 - miss beleza universal/carnaval bh 2023 - miss beleza universal_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/miss beleza universal/carnaval bh 2023 - miss beleza universal/carnaval bh 2023 - miss beleza universal_",
+        ".midi"
+      ],
+      "public/collection/funks/miss beleza universal/carnaval bh 2023 - miss beleza universal/carnaval bh 2023 - miss beleza universal.midi",
+      "public/collection/funks/miss beleza universal/carnaval bh 2023 - miss beleza universal/carnaval bh 2023 - miss beleza universal.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/amor de que/carnaval bh 2023 - amor de que/carnaval bh 2023 - amor de que.mscz",
+    "out": [
+      [
+        "public/collection/funks/amor de que/carnaval bh 2023 - amor de que/carnaval bh 2023 - amor de que_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/amor de que/carnaval bh 2023 - amor de que/carnaval bh 2023 - amor de que_",
+        ".midi"
+      ],
+      "public/collection/funks/amor de que/carnaval bh 2023 - amor de que/carnaval bh 2023 - amor de que.midi",
+      "public/collection/funks/amor de que/carnaval bh 2023 - amor de que/carnaval bh 2023 - amor de que.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/malha funk/malha funk/malha funk.mscz",
+    "out": [
+      [
+        "public/collection/funks/malha funk/malha funk/malha funk_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/malha funk/malha funk/malha funk_",
+        ".midi"
+      ],
+      "public/collection/funks/malha funk/malha funk/malha funk.midi",
+      "public/collection/funks/malha funk/malha funk/malha funk.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.mscz",
+    "out": [
+      [
+        "public/collection/funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din_",
+        ".midi"
+      ],
+      "public/collection/funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.midi",
+      "public/collection/funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/se tá solteira/carnaval bh 2023 - se tá solteira/carnaval bh 2023 - se tá solteira.mscz",
+    "out": [
+      [
+        "public/collection/funks/se tá solteira/carnaval bh 2023 - se tá solteira/carnaval bh 2023 - se tá solteira_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/se tá solteira/carnaval bh 2023 - se tá solteira/carnaval bh 2023 - se tá solteira_",
+        ".midi"
+      ],
+      "public/collection/funks/se tá solteira/carnaval bh 2023 - se tá solteira/carnaval bh 2023 - se tá solteira.midi",
+      "public/collection/funks/se tá solteira/carnaval bh 2023 - se tá solteira/carnaval bh 2023 - se tá solteira.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/feira de acari/carnaval bh 2023 - feira de acari/carnaval bh 2023 - feira de acari.mscz",
+    "out": [
+      [
+        "public/collection/funks/feira de acari/carnaval bh 2023 - feira de acari/carnaval bh 2023 - feira de acari_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/feira de acari/carnaval bh 2023 - feira de acari/carnaval bh 2023 - feira de acari_",
+        ".midi"
+      ],
+      "public/collection/funks/feira de acari/carnaval bh 2023 - feira de acari/carnaval bh 2023 - feira de acari.midi",
+      "public/collection/funks/feira de acari/carnaval bh 2023 - feira de acari/carnaval bh 2023 - feira de acari.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/funks/baile de favela/baile de favela/baile de favela.mscz",
+    "out": [
+      [
+        "public/collection/funks/baile de favela/baile de favela/baile de favela_",
+        ".svg"
+      ],
+      [
+        "public/collection/funks/baile de favela/baile de favela/baile de favela_",
+        ".midi"
+      ],
+      "public/collection/funks/baile de favela/baile de favela/baile de favela.midi",
+      "public/collection/funks/baile de favela/baile de favela/baile de favela.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/sambas enredo/mangueira 2019/mangueira 2019/mangueira 2019.mscz",
+    "out": [
+      [
+        "public/collection/sambas enredo/mangueira 2019/mangueira 2019/mangueira 2019_",
+        ".svg"
+      ],
+      [
+        "public/collection/sambas enredo/mangueira 2019/mangueira 2019/mangueira 2019_",
+        ".midi"
+      ],
+      "public/collection/sambas enredo/mangueira 2019/mangueira 2019/mangueira 2019.midi",
+      "public/collection/sambas enredo/mangueira 2019/mangueira 2019/mangueira 2019.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.mscz",
+    "out": [
+      [
+        "public/collection/sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim_",
+        ".svg"
+      ],
+      [
+        "public/collection/sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim_",
+        ".midi"
+      ],
+      "public/collection/sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.midi",
+      "public/collection/sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer.mscz",
+    "out": [
+      [
+        "public/collection/sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer_",
+        ".svg"
+      ],
+      [
+        "public/collection/sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer_",
+        ".midi"
+      ],
+      "public/collection/sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer.midi",
+      "public/collection/sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/sambas/juizo final (o sol)/carnaval bh 2023 - juizo final/carnaval bh 2023 - juizo final.mscz",
+    "out": [
+      [
+        "public/collection/sambas/juizo final (o sol)/carnaval bh 2023 - juizo final/carnaval bh 2023 - juizo final_",
+        ".svg"
+      ],
+      [
+        "public/collection/sambas/juizo final (o sol)/carnaval bh 2023 - juizo final/carnaval bh 2023 - juizo final_",
+        ".midi"
+      ],
+      "public/collection/sambas/juizo final (o sol)/carnaval bh 2023 - juizo final/carnaval bh 2023 - juizo final.midi",
+      "public/collection/sambas/juizo final (o sol)/carnaval bh 2023 - juizo final/carnaval bh 2023 - juizo final.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/sambas/o sol nascerá (a sorrir)/carnaval bh 2023 - o sol nascerá/carnaval bh 2023 - o sol nascerá.mscz",
+    "out": [
+      [
+        "public/collection/sambas/o sol nascerá (a sorrir)/carnaval bh 2023 - o sol nascerá/carnaval bh 2023 - o sol nascerá_",
+        ".svg"
+      ],
+      [
+        "public/collection/sambas/o sol nascerá (a sorrir)/carnaval bh 2023 - o sol nascerá/carnaval bh 2023 - o sol nascerá_",
+        ".midi"
+      ],
+      "public/collection/sambas/o sol nascerá (a sorrir)/carnaval bh 2023 - o sol nascerá/carnaval bh 2023 - o sol nascerá.midi",
+      "public/collection/sambas/o sol nascerá (a sorrir)/carnaval bh 2023 - o sol nascerá/carnaval bh 2023 - o sol nascerá.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/sambas/o morro não tem vez/carnaval bh 2023 - o morro não tem vez/carnaval bh 2023 - o morro não tem vez.mscz",
+    "out": [
+      [
+        "public/collection/sambas/o morro não tem vez/carnaval bh 2023 - o morro não tem vez/carnaval bh 2023 - o morro não tem vez_",
+        ".svg"
+      ],
+      [
+        "public/collection/sambas/o morro não tem vez/carnaval bh 2023 - o morro não tem vez/carnaval bh 2023 - o morro não tem vez_",
+        ".midi"
+      ],
+      "public/collection/sambas/o morro não tem vez/carnaval bh 2023 - o morro não tem vez/carnaval bh 2023 - o morro não tem vez.midi",
+      "public/collection/sambas/o morro não tem vez/carnaval bh 2023 - o morro não tem vez/carnaval bh 2023 - o morro não tem vez.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/sambas/canto das tres raças/carnaval bh 2023 - canto das três raças/carnaval bh 2023 - canto das três raças.mscz",
+    "out": [
+      [
+        "public/collection/sambas/canto das tres raças/carnaval bh 2023 - canto das três raças/carnaval bh 2023 - canto das três raças_",
+        ".svg"
+      ],
+      [
+        "public/collection/sambas/canto das tres raças/carnaval bh 2023 - canto das três raças/carnaval bh 2023 - canto das três raças_",
+        ".midi"
+      ],
+      "public/collection/sambas/canto das tres raças/carnaval bh 2023 - canto das três raças/carnaval bh 2023 - canto das três raças.midi",
+      "public/collection/sambas/canto das tres raças/carnaval bh 2023 - canto das três raças/carnaval bh 2023 - canto das três raças.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/cirandas/nagô nagô/carnaval bh 2023 - nago nago/carnaval bh 2023 - nago nago.mscz",
+    "out": [
+      [
+        "public/collection/cirandas/nagô nagô/carnaval bh 2023 - nago nago/carnaval bh 2023 - nago nago_",
+        ".svg"
+      ],
+      [
+        "public/collection/cirandas/nagô nagô/carnaval bh 2023 - nago nago/carnaval bh 2023 - nago nago_",
+        ".midi"
+      ],
+      "public/collection/cirandas/nagô nagô/carnaval bh 2023 - nago nago/carnaval bh 2023 - nago nago.midi",
+      "public/collection/cirandas/nagô nagô/carnaval bh 2023 - nago nago/carnaval bh 2023 - nago nago.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/instrumental/palhaço/casório lá - palhaço/casório lá - palhaço.mscz",
+    "out": [
+      [
+        "public/collection/instrumental/palhaço/casório lá - palhaço/casório lá - palhaço_",
+        ".svg"
+      ],
+      [
+        "public/collection/instrumental/palhaço/casório lá - palhaço/casório lá - palhaço_",
+        ".midi"
+      ],
+      "public/collection/instrumental/palhaço/casório lá - palhaço/casório lá - palhaço.midi",
+      "public/collection/instrumental/palhaço/casório lá - palhaço/casório lá - palhaço.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho.mscz",
+    "out": [
+      [
+        "public/collection/zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho_",
+        ".svg"
+      ],
+      [
+        "public/collection/zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho_",
+        ".midi"
+      ],
+      "public/collection/zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho.midi",
+      "public/collection/zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada.mscz",
+    "out": [
+      [
+        "public/collection/zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada_",
+        ".svg"
+      ],
+      [
+        "public/collection/zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada_",
+        ".midi"
+      ],
+      "public/collection/zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada.midi",
+      "public/collection/zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/zoeira/undererê/undererê/undererê.mscz",
+    "out": [
+      [
+        "public/collection/zoeira/undererê/undererê/undererê_",
+        ".svg"
+      ],
+      [
+        "public/collection/zoeira/undererê/undererê/undererê_",
+        ".midi"
+      ],
+      "public/collection/zoeira/undererê/undererê/undererê.midi",
+      "public/collection/zoeira/undererê/undererê/undererê.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara).mscz",
+    "out": [
+      [
+        "public/collection/zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara)_",
+        ".svg"
+      ],
+      [
+        "public/collection/zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara)_",
+        ".midi"
+      ],
+      "public/collection/zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara).midi",
+      "public/collection/zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara).metajson"
+    ]
+  },
+  {
+    "in": "public/collection/zoeira/thug life/thug life/thug life.mscz",
+    "out": [
+      [
+        "public/collection/zoeira/thug life/thug life/thug life_",
+        ".svg"
+      ],
+      [
+        "public/collection/zoeira/thug life/thug life/thug life_",
+        ".midi"
+      ],
+      "public/collection/zoeira/thug life/thug life/thug life.midi",
+      "public/collection/zoeira/thug life/thug life/thug life.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/farao/carnaval bh 2023 - farao/carnaval bh 2023 - farao.mscz",
+    "out": [
+      [
+        "public/collection/axés/farao/carnaval bh 2023 - farao/carnaval bh 2023 - farao_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/farao/carnaval bh 2023 - farao/carnaval bh 2023 - farao_",
+        ".midi"
+      ],
+      "public/collection/axés/farao/carnaval bh 2023 - farao/carnaval bh 2023 - farao.midi",
+      "public/collection/axés/farao/carnaval bh 2023 - farao/carnaval bh 2023 - farao.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/baianidade nagô/carnaval bh 2023 - baianidade nagô/carnaval bh 2023 - baianidade nagô.mscz",
+    "out": [
+      [
+        "public/collection/axés/baianidade nagô/carnaval bh 2023 - baianidade nagô/carnaval bh 2023 - baianidade nagô_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/baianidade nagô/carnaval bh 2023 - baianidade nagô/carnaval bh 2023 - baianidade nagô_",
+        ".midi"
+      ],
+      "public/collection/axés/baianidade nagô/carnaval bh 2023 - baianidade nagô/carnaval bh 2023 - baianidade nagô.midi",
+      "public/collection/axés/baianidade nagô/carnaval bh 2023 - baianidade nagô/carnaval bh 2023 - baianidade nagô.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.mscz",
+    "out": [
+      [
+        "public/collection/axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara_",
+        ".midi"
+      ],
+      "public/collection/axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.midi",
+      "public/collection/axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/toda menina baiana/carnaval bh 2023 - toda menina baiana/carnaval bh 2023 - toda menina baiana.mscz",
+    "out": [
+      [
+        "public/collection/axés/toda menina baiana/carnaval bh 2023 - toda menina baiana/carnaval bh 2023 - toda menina baiana_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/toda menina baiana/carnaval bh 2023 - toda menina baiana/carnaval bh 2023 - toda menina baiana_",
+        ".midi"
+      ],
+      "public/collection/axés/toda menina baiana/carnaval bh 2023 - toda menina baiana/carnaval bh 2023 - toda menina baiana.midi",
+      "public/collection/axés/toda menina baiana/carnaval bh 2023 - toda menina baiana/carnaval bh 2023 - toda menina baiana.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/haja amor/carnaval bh 2023 - haja amor/carnaval bh 2023 - haja amor.mscz",
+    "out": [
+      [
+        "public/collection/axés/haja amor/carnaval bh 2023 - haja amor/carnaval bh 2023 - haja amor_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/haja amor/carnaval bh 2023 - haja amor/carnaval bh 2023 - haja amor_",
+        ".midi"
+      ],
+      "public/collection/axés/haja amor/carnaval bh 2023 - haja amor/carnaval bh 2023 - haja amor.midi",
+      "public/collection/axés/haja amor/carnaval bh 2023 - haja amor/carnaval bh 2023 - haja amor.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/vem meu amor/carnaval bh 2023 - vem meu amor/carnaval bh 2023 - vem meu amor.mscz",
+    "out": [
+      [
+        "public/collection/axés/vem meu amor/carnaval bh 2023 - vem meu amor/carnaval bh 2023 - vem meu amor_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/vem meu amor/carnaval bh 2023 - vem meu amor/carnaval bh 2023 - vem meu amor_",
+        ".midi"
+      ],
+      "public/collection/axés/vem meu amor/carnaval bh 2023 - vem meu amor/carnaval bh 2023 - vem meu amor.midi",
+      "public/collection/axés/vem meu amor/carnaval bh 2023 - vem meu amor/carnaval bh 2023 - vem meu amor.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/a luz de tiêta/carnaval bh 2023 - a luz de tiêta/carnaval bh 2023 - a luz de tiêta.mscz",
+    "out": [
+      [
+        "public/collection/axés/a luz de tiêta/carnaval bh 2023 - a luz de tiêta/carnaval bh 2023 - a luz de tiêta_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/a luz de tiêta/carnaval bh 2023 - a luz de tiêta/carnaval bh 2023 - a luz de tiêta_",
+        ".midi"
+      ],
+      "public/collection/axés/a luz de tiêta/carnaval bh 2023 - a luz de tiêta/carnaval bh 2023 - a luz de tiêta.midi",
+      "public/collection/axés/a luz de tiêta/carnaval bh 2023 - a luz de tiêta/carnaval bh 2023 - a luz de tiêta.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/mila/carnaval bh 2023 - mila/carnaval bh 2023 - mila.mscz",
+    "out": [
+      [
+        "public/collection/axés/mila/carnaval bh 2023 - mila/carnaval bh 2023 - mila_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/mila/carnaval bh 2023 - mila/carnaval bh 2023 - mila_",
+        ".midi"
+      ],
+      "public/collection/axés/mila/carnaval bh 2023 - mila/carnaval bh 2023 - mila.midi",
+      "public/collection/axés/mila/carnaval bh 2023 - mila/carnaval bh 2023 - mila.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/fricote/carnaval bh 2023 - fricote/carnaval bh 2023 - fricote.mscz",
+    "out": [
+      [
+        "public/collection/axés/fricote/carnaval bh 2023 - fricote/carnaval bh 2023 - fricote_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/fricote/carnaval bh 2023 - fricote/carnaval bh 2023 - fricote_",
+        ".midi"
+      ],
+      "public/collection/axés/fricote/carnaval bh 2023 - fricote/carnaval bh 2023 - fricote.midi",
+      "public/collection/axés/fricote/carnaval bh 2023 - fricote/carnaval bh 2023 - fricote.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/danca do vampiro/carnaval bh 2023 - dança do vampiro/carnaval bh 2023 - dança do vampiro.mscz",
+    "out": [
+      [
+        "public/collection/axés/danca do vampiro/carnaval bh 2023 - dança do vampiro/carnaval bh 2023 - dança do vampiro_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/danca do vampiro/carnaval bh 2023 - dança do vampiro/carnaval bh 2023 - dança do vampiro_",
+        ".midi"
+      ],
+      "public/collection/axés/danca do vampiro/carnaval bh 2023 - dança do vampiro/carnaval bh 2023 - dança do vampiro.midi",
+      "public/collection/axés/danca do vampiro/carnaval bh 2023 - dança do vampiro/carnaval bh 2023 - dança do vampiro.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/arerê-ê-ê/carnaval bh 2023 - arere-ê-ê/carnaval bh 2023 - arere-ê-ê.mscz",
+    "out": [
+      [
+        "public/collection/axés/arerê-ê-ê/carnaval bh 2023 - arere-ê-ê/carnaval bh 2023 - arere-ê-ê_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/arerê-ê-ê/carnaval bh 2023 - arere-ê-ê/carnaval bh 2023 - arere-ê-ê_",
+        ".midi"
+      ],
+      "public/collection/axés/arerê-ê-ê/carnaval bh 2023 - arere-ê-ê/carnaval bh 2023 - arere-ê-ê.midi",
+      "public/collection/axés/arerê-ê-ê/carnaval bh 2023 - arere-ê-ê/carnaval bh 2023 - arere-ê-ê.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/carrinho de mao/carnaval bh 2023 - carrinho de mão/carnaval bh 2023 - carrinho de mão.mscz",
+    "out": [
+      [
+        "public/collection/axés/carrinho de mao/carnaval bh 2023 - carrinho de mão/carnaval bh 2023 - carrinho de mão_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/carrinho de mao/carnaval bh 2023 - carrinho de mão/carnaval bh 2023 - carrinho de mão_",
+        ".midi"
+      ],
+      "public/collection/axés/carrinho de mao/carnaval bh 2023 - carrinho de mão/carnaval bh 2023 - carrinho de mão.midi",
+      "public/collection/axés/carrinho de mao/carnaval bh 2023 - carrinho de mão/carnaval bh 2023 - carrinho de mão.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.mscz",
+    "out": [
+      [
+        "public/collection/axés/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja_",
+        ".midi"
+      ],
+      "public/collection/axés/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.midi",
+      "public/collection/axés/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/sou 100_ você (lê-lê)/carnaval bh 2023 - 100_ você/carnaval bh 2023 - 100_ você.mscz",
+    "out": [
+      [
+        "public/collection/axés/sou 100_ você (lê-lê)/carnaval bh 2023 - 100_ você/carnaval bh 2023 - 100_ você_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/sou 100_ você (lê-lê)/carnaval bh 2023 - 100_ você/carnaval bh 2023 - 100_ você_",
+        ".midi"
+      ],
+      "public/collection/axés/sou 100_ você (lê-lê)/carnaval bh 2023 - 100_ você/carnaval bh 2023 - 100_ você.midi",
+      "public/collection/axés/sou 100_ você (lê-lê)/carnaval bh 2023 - 100_ você/carnaval bh 2023 - 100_ você.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/minha pequena eva/carnaval bh 2023 - pequena eva/carnaval bh 2023 - pequena eva.mscz",
+    "out": [
+      [
+        "public/collection/axés/minha pequena eva/carnaval bh 2023 - pequena eva/carnaval bh 2023 - pequena eva_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/minha pequena eva/carnaval bh 2023 - pequena eva/carnaval bh 2023 - pequena eva_",
+        ".midi"
+      ],
+      "public/collection/axés/minha pequena eva/carnaval bh 2023 - pequena eva/carnaval bh 2023 - pequena eva.midi",
+      "public/collection/axés/minha pequena eva/carnaval bh 2023 - pequena eva/carnaval bh 2023 - pequena eva.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.mscz",
+    "out": [
+      [
+        "public/collection/axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais_",
+        ".midi"
+      ],
+      "public/collection/axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.midi",
+      "public/collection/axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/beija flor/carnaval bh 2023 - beija flor/carnaval bh 2023 - beija flor.mscz",
+    "out": [
+      [
+        "public/collection/axés/beija flor/carnaval bh 2023 - beija flor/carnaval bh 2023 - beija flor_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/beija flor/carnaval bh 2023 - beija flor/carnaval bh 2023 - beija flor_",
+        ".midi"
+      ],
+      "public/collection/axés/beija flor/carnaval bh 2023 - beija flor/carnaval bh 2023 - beija flor.midi",
+      "public/collection/axés/beija flor/carnaval bh 2023 - beija flor/carnaval bh 2023 - beija flor.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/avisa la ô-ô (nossa gente)/carnaval bh 2023 - nossa gente/carnaval bh 2023 - nossa gente.mscz",
+    "out": [
+      [
+        "public/collection/axés/avisa la ô-ô (nossa gente)/carnaval bh 2023 - nossa gente/carnaval bh 2023 - nossa gente_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/avisa la ô-ô (nossa gente)/carnaval bh 2023 - nossa gente/carnaval bh 2023 - nossa gente_",
+        ".midi"
+      ],
+      "public/collection/axés/avisa la ô-ô (nossa gente)/carnaval bh 2023 - nossa gente/carnaval bh 2023 - nossa gente.midi",
+      "public/collection/axés/avisa la ô-ô (nossa gente)/carnaval bh 2023 - nossa gente/carnaval bh 2023 - nossa gente.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/a roda/carnaval bh 2023 - a roda/carnaval bh 2023 - a roda.mscz",
+    "out": [
+      [
+        "public/collection/axés/a roda/carnaval bh 2023 - a roda/carnaval bh 2023 - a roda_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/a roda/carnaval bh 2023 - a roda/carnaval bh 2023 - a roda_",
+        ".midi"
+      ],
+      "public/collection/axés/a roda/carnaval bh 2023 - a roda/carnaval bh 2023 - a roda.midi",
+      "public/collection/axés/a roda/carnaval bh 2023 - a roda/carnaval bh 2023 - a roda.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/apocalipse do amor/carnaval bh 2023 - apocalipse do amor/carnaval bh 2023 - apocalipse do amor.mscz",
+    "out": [
+      [
+        "public/collection/axés/apocalipse do amor/carnaval bh 2023 - apocalipse do amor/carnaval bh 2023 - apocalipse do amor_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/apocalipse do amor/carnaval bh 2023 - apocalipse do amor/carnaval bh 2023 - apocalipse do amor_",
+        ".midi"
+      ],
+      "public/collection/axés/apocalipse do amor/carnaval bh 2023 - apocalipse do amor/carnaval bh 2023 - apocalipse do amor.midi",
+      "public/collection/axés/apocalipse do amor/carnaval bh 2023 - apocalipse do amor/carnaval bh 2023 - apocalipse do amor.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/requebra/carnaval bh 2023 - requebra/carnaval bh 2023 - requebra.mscz",
+    "out": [
+      [
+        "public/collection/axés/requebra/carnaval bh 2023 - requebra/carnaval bh 2023 - requebra_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/requebra/carnaval bh 2023 - requebra/carnaval bh 2023 - requebra_",
+        ".midi"
+      ],
+      "public/collection/axés/requebra/carnaval bh 2023 - requebra/carnaval bh 2023 - requebra.midi",
+      "public/collection/axés/requebra/carnaval bh 2023 - requebra/carnaval bh 2023 - requebra.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar.mscz",
+    "out": [
+      [
+        "public/collection/axés/eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar_",
+        ".midi"
+      ],
+      "public/collection/axés/eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar.midi",
+      "public/collection/axés/eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/beijo na boca/carnaval bh 2023 - beijo na boca/carnaval bh 2023 - beijo na boca.mscz",
+    "out": [
+      [
+        "public/collection/axés/beijo na boca/carnaval bh 2023 - beijo na boca/carnaval bh 2023 - beijo na boca_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/beijo na boca/carnaval bh 2023 - beijo na boca/carnaval bh 2023 - beijo na boca_",
+        ".midi"
+      ],
+      "public/collection/axés/beijo na boca/carnaval bh 2023 - beijo na boca/carnaval bh 2023 - beijo na boca.midi",
+      "public/collection/axés/beijo na boca/carnaval bh 2023 - beijo na boca/carnaval bh 2023 - beijo na boca.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/flores/carnaval bh 2023 - flores/carnaval bh 2023 - flores.mscz",
+    "out": [
+      [
+        "public/collection/axés/flores/carnaval bh 2023 - flores/carnaval bh 2023 - flores_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/flores/carnaval bh 2023 - flores/carnaval bh 2023 - flores_",
+        ".midi"
+      ],
+      "public/collection/axés/flores/carnaval bh 2023 - flores/carnaval bh 2023 - flores.midi",
+      "public/collection/axés/flores/carnaval bh 2023 - flores/carnaval bh 2023 - flores.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/é d_oxum/carnaval bh 2023 - é d_oxum/carnaval bh 2023 - é d_oxum.mscz",
+    "out": [
+      [
+        "public/collection/axés/é d_oxum/carnaval bh 2023 - é d_oxum/carnaval bh 2023 - é d_oxum_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/é d_oxum/carnaval bh 2023 - é d_oxum/carnaval bh 2023 - é d_oxum_",
+        ".midi"
+      ],
+      "public/collection/axés/é d_oxum/carnaval bh 2023 - é d_oxum/carnaval bh 2023 - é d_oxum.midi",
+      "public/collection/axés/é d_oxum/carnaval bh 2023 - é d_oxum/carnaval bh 2023 - é d_oxum.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.mscz",
+    "out": [
+      [
+        "public/collection/axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao_",
+        ".midi"
+      ],
+      "public/collection/axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.midi",
+      "public/collection/axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/deusa do amor/carnaval bh 2023 - deusa do amor/carnaval bh 2023 - deusa do amor.mscz",
+    "out": [
+      [
+        "public/collection/axés/deusa do amor/carnaval bh 2023 - deusa do amor/carnaval bh 2023 - deusa do amor_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/deusa do amor/carnaval bh 2023 - deusa do amor/carnaval bh 2023 - deusa do amor_",
+        ".midi"
+      ],
+      "public/collection/axés/deusa do amor/carnaval bh 2023 - deusa do amor/carnaval bh 2023 - deusa do amor.midi",
+      "public/collection/axés/deusa do amor/carnaval bh 2023 - deusa do amor/carnaval bh 2023 - deusa do amor.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/mal acostumado/carnaval bh 2023 - mal acostumado/carnaval bh 2023 - mal acostumado.mscz",
+    "out": [
+      [
+        "public/collection/axés/mal acostumado/carnaval bh 2023 - mal acostumado/carnaval bh 2023 - mal acostumado_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/mal acostumado/carnaval bh 2023 - mal acostumado/carnaval bh 2023 - mal acostumado_",
+        ".midi"
+      ],
+      "public/collection/axés/mal acostumado/carnaval bh 2023 - mal acostumado/carnaval bh 2023 - mal acostumado.midi",
+      "public/collection/axés/mal acostumado/carnaval bh 2023 - mal acostumado/carnaval bh 2023 - mal acostumado.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/prefixo de verão/carnaval bh 2023 - prefixo de verão/carnaval bh 2023 - prefixo de verão.mscz",
+    "out": [
+      [
+        "public/collection/axés/prefixo de verão/carnaval bh 2023 - prefixo de verão/carnaval bh 2023 - prefixo de verão_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/prefixo de verão/carnaval bh 2023 - prefixo de verão/carnaval bh 2023 - prefixo de verão_",
+        ".midi"
+      ],
+      "public/collection/axés/prefixo de verão/carnaval bh 2023 - prefixo de verão/carnaval bh 2023 - prefixo de verão.midi",
+      "public/collection/axés/prefixo de verão/carnaval bh 2023 - prefixo de verão/carnaval bh 2023 - prefixo de verão.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/olha a onda/carnaval bh 2023 - olha a onda/carnaval bh 2023 - olha a onda.mscz",
+    "out": [
+      [
+        "public/collection/axés/olha a onda/carnaval bh 2023 - olha a onda/carnaval bh 2023 - olha a onda_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/olha a onda/carnaval bh 2023 - olha a onda/carnaval bh 2023 - olha a onda_",
+        ".midi"
+      ],
+      "public/collection/axés/olha a onda/carnaval bh 2023 - olha a onda/carnaval bh 2023 - olha a onda.midi",
+      "public/collection/axés/olha a onda/carnaval bh 2023 - olha a onda/carnaval bh 2023 - olha a onda.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/carnaval bh 2023 - nada mal.mscz",
+    "out": [
+      [
+        "public/collection/axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/carnaval bh 2023 - nada mal_",
+        ".svg"
+      ],
+      [
+        "public/collection/axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/carnaval bh 2023 - nada mal_",
+        ".midi"
+      ],
+      "public/collection/axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/carnaval bh 2023 - nada mal.midi",
+      "public/collection/axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/carnaval bh 2023 - nada mal.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/pagodes/caçamba/carnaval bh 2023 - caçamba/carnaval bh 2023 - caçamba.mscz",
+    "out": [
+      [
+        "public/collection/pagodes/caçamba/carnaval bh 2023 - caçamba/carnaval bh 2023 - caçamba_",
+        ".svg"
+      ],
+      [
+        "public/collection/pagodes/caçamba/carnaval bh 2023 - caçamba/carnaval bh 2023 - caçamba_",
+        ".midi"
+      ],
+      "public/collection/pagodes/caçamba/carnaval bh 2023 - caçamba/carnaval bh 2023 - caçamba.midi",
+      "public/collection/pagodes/caçamba/carnaval bh 2023 - caçamba/carnaval bh 2023 - caçamba.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/pagodes/inara/carnaval bh 2023 - inara/carnaval bh 2023 - inara.mscz",
+    "out": [
+      [
+        "public/collection/pagodes/inara/carnaval bh 2023 - inara/carnaval bh 2023 - inara_",
+        ".svg"
+      ],
+      [
+        "public/collection/pagodes/inara/carnaval bh 2023 - inara/carnaval bh 2023 - inara_",
+        ".midi"
+      ],
+      "public/collection/pagodes/inara/carnaval bh 2023 - inara/carnaval bh 2023 - inara.midi",
+      "public/collection/pagodes/inara/carnaval bh 2023 - inara/carnaval bh 2023 - inara.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/pagodes/cheia de manias/carnaval bh 2023 - cheia de manias/carnaval bh 2023 - cheia de manias.mscz",
+    "out": [
+      [
+        "public/collection/pagodes/cheia de manias/carnaval bh 2023 - cheia de manias/carnaval bh 2023 - cheia de manias_",
+        ".svg"
+      ],
+      [
+        "public/collection/pagodes/cheia de manias/carnaval bh 2023 - cheia de manias/carnaval bh 2023 - cheia de manias_",
+        ".midi"
+      ],
+      "public/collection/pagodes/cheia de manias/carnaval bh 2023 - cheia de manias/carnaval bh 2023 - cheia de manias.midi",
+      "public/collection/pagodes/cheia de manias/carnaval bh 2023 - cheia de manias/carnaval bh 2023 - cheia de manias.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/pagodes/cilada/carnaval bh 2023 - cilada/carnaval bh 2023 - cilada.mscz",
+    "out": [
+      [
+        "public/collection/pagodes/cilada/carnaval bh 2023 - cilada/carnaval bh 2023 - cilada_",
+        ".svg"
+      ],
+      [
+        "public/collection/pagodes/cilada/carnaval bh 2023 - cilada/carnaval bh 2023 - cilada_",
+        ".midi"
+      ],
+      "public/collection/pagodes/cilada/carnaval bh 2023 - cilada/carnaval bh 2023 - cilada.midi",
+      "public/collection/pagodes/cilada/carnaval bh 2023 - cilada/carnaval bh 2023 - cilada.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/rocks/paint in black/paint in black/paint in black.mscz",
+    "out": [
+      [
+        "public/collection/rocks/paint in black/paint in black/paint in black_",
+        ".svg"
+      ],
+      [
+        "public/collection/rocks/paint in black/paint in black/paint in black_",
+        ".midi"
+      ],
+      "public/collection/rocks/paint in black/paint in black/paint in black.midi",
+      "public/collection/rocks/paint in black/paint in black/paint in black.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/frevos/frevo mulher/carnaval bh 2023 - frevo mulher/carnaval bh 2023 - frevo mulher.mscz",
+    "out": [
+      [
+        "public/collection/frevos/frevo mulher/carnaval bh 2023 - frevo mulher/carnaval bh 2023 - frevo mulher_",
+        ".svg"
+      ],
+      [
+        "public/collection/frevos/frevo mulher/carnaval bh 2023 - frevo mulher/carnaval bh 2023 - frevo mulher_",
+        ".midi"
+      ],
+      "public/collection/frevos/frevo mulher/carnaval bh 2023 - frevo mulher/carnaval bh 2023 - frevo mulher.midi",
+      "public/collection/frevos/frevo mulher/carnaval bh 2023 - frevo mulher/carnaval bh 2023 - frevo mulher.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/frevos/hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda.mscz",
+    "out": [
+      [
+        "public/collection/frevos/hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda_",
+        ".svg"
+      ],
+      [
+        "public/collection/frevos/hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda_",
+        ".midi"
+      ],
+      "public/collection/frevos/hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda.midi",
+      "public/collection/frevos/hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda/carnaval bh 2023 - hino do elefante de olinda.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/frevos/cabelo de fogo/carnaval bh 2023 - cabelo de fogo/carnaval bh 2023 - cabelo de fogo.mscz",
+    "out": [
+      [
+        "public/collection/frevos/cabelo de fogo/carnaval bh 2023 - cabelo de fogo/carnaval bh 2023 - cabelo de fogo_",
+        ".svg"
+      ],
+      [
+        "public/collection/frevos/cabelo de fogo/carnaval bh 2023 - cabelo de fogo/carnaval bh 2023 - cabelo de fogo_",
+        ".midi"
+      ],
+      "public/collection/frevos/cabelo de fogo/carnaval bh 2023 - cabelo de fogo/carnaval bh 2023 - cabelo de fogo.midi",
+      "public/collection/frevos/cabelo de fogo/carnaval bh 2023 - cabelo de fogo/carnaval bh 2023 - cabelo de fogo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/frevos/vassourinhas/carnaval bh 2023 - vassourinhas/carnaval bh 2023 - vassourinhas.mscz",
+    "out": [
+      [
+        "public/collection/frevos/vassourinhas/carnaval bh 2023 - vassourinhas/carnaval bh 2023 - vassourinhas_",
+        ".svg"
+      ],
+      [
+        "public/collection/frevos/vassourinhas/carnaval bh 2023 - vassourinhas/carnaval bh 2023 - vassourinhas_",
+        ".midi"
+      ],
+      "public/collection/frevos/vassourinhas/carnaval bh 2023 - vassourinhas/carnaval bh 2023 - vassourinhas.midi",
+      "public/collection/frevos/vassourinhas/carnaval bh 2023 - vassourinhas/carnaval bh 2023 - vassourinhas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/frevos/ciranda de maluco/carnaval bh 2023 - ciranda de maluco/carnaval bh 2023 - ciranda de maluco.mscz",
+    "out": [
+      [
+        "public/collection/frevos/ciranda de maluco/carnaval bh 2023 - ciranda de maluco/carnaval bh 2023 - ciranda de maluco_",
+        ".svg"
+      ],
+      [
+        "public/collection/frevos/ciranda de maluco/carnaval bh 2023 - ciranda de maluco/carnaval bh 2023 - ciranda de maluco_",
+        ".midi"
+      ],
+      "public/collection/frevos/ciranda de maluco/carnaval bh 2023 - ciranda de maluco/carnaval bh 2023 - ciranda de maluco.midi",
+      "public/collection/frevos/ciranda de maluco/carnaval bh 2023 - ciranda de maluco/carnaval bh 2023 - ciranda de maluco.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/manifestação/apesar de voce/apesar de voce/apesar de voce.mscz",
+    "out": [
+      [
+        "public/collection/manifestação/apesar de voce/apesar de voce/apesar de voce_",
+        ".svg"
+      ],
+      [
+        "public/collection/manifestação/apesar de voce/apesar de voce/apesar de voce_",
+        ".midi"
+      ],
+      "public/collection/manifestação/apesar de voce/apesar de voce/apesar de voce.midi",
+      "public/collection/manifestação/apesar de voce/apesar de voce/apesar de voce.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/manifestação/tá escrito/tá escrito/tá escrito.mscz",
+    "out": [
+      [
+        "public/collection/manifestação/tá escrito/tá escrito/tá escrito_",
+        ".svg"
+      ],
+      [
+        "public/collection/manifestação/tá escrito/tá escrito/tá escrito_",
+        ".midi"
+      ],
+      "public/collection/manifestação/tá escrito/tá escrito/tá escrito.midi",
+      "public/collection/manifestação/tá escrito/tá escrito/tá escrito.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.mscz",
+    "out": [
+      [
+        "public/collection/manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair_",
+        ".svg"
+      ],
+      [
+        "public/collection/manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair_",
+        ".midi"
+      ],
+      "public/collection/manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.midi",
+      "public/collection/manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/manifestação/bella ciao/bella ciao/bella ciao.mscz",
+    "out": [
+      [
+        "public/collection/manifestação/bella ciao/bella ciao/bella ciao_",
+        ".svg"
+      ],
+      [
+        "public/collection/manifestação/bella ciao/bella ciao/bella ciao_",
+        ".midi"
+      ],
+      "public/collection/manifestação/bella ciao/bella ciao/bella ciao.midi",
+      "public/collection/manifestação/bella ciao/bella ciao/bella ciao.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/manifestação/vermelho/vermelho/vermelho.mscz",
+    "out": [
+      [
+        "public/collection/manifestação/vermelho/vermelho/vermelho_",
+        ".svg"
+      ],
+      [
+        "public/collection/manifestação/vermelho/vermelho/vermelho_",
+        ".midi"
+      ],
+      "public/collection/manifestação/vermelho/vermelho/vermelho.midi",
+      "public/collection/manifestação/vermelho/vermelho/vermelho.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/emoriô/carnaval bh 2023 - emoriô/carnaval bh 2023 - emoriô.mscz",
+    "out": [
+      [
+        "public/collection/odaras/emoriô/carnaval bh 2023 - emoriô/carnaval bh 2023 - emoriô_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/emoriô/carnaval bh 2023 - emoriô/carnaval bh 2023 - emoriô_",
+        ".midi"
+      ],
+      "public/collection/odaras/emoriô/carnaval bh 2023 - emoriô/carnaval bh 2023 - emoriô.midi",
+      "public/collection/odaras/emoriô/carnaval bh 2023 - emoriô/carnaval bh 2023 - emoriô.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/varias queixas/carnaval bh 2023 - varias queixas/carnaval bh 2023 - varias queixas.mscz",
+    "out": [
+      [
+        "public/collection/odaras/varias queixas/carnaval bh 2023 - varias queixas/carnaval bh 2023 - varias queixas_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/varias queixas/carnaval bh 2023 - varias queixas/carnaval bh 2023 - varias queixas_",
+        ".midi"
+      ],
+      "public/collection/odaras/varias queixas/carnaval bh 2023 - varias queixas/carnaval bh 2023 - varias queixas.midi",
+      "public/collection/odaras/varias queixas/carnaval bh 2023 - varias queixas/carnaval bh 2023 - varias queixas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/cordeiro de nana/carnaval bh 2023 - cordeiro de nana/carnaval bh 2023 - cordeiro de nana.mscz",
+    "out": [
+      [
+        "public/collection/odaras/cordeiro de nana/carnaval bh 2023 - cordeiro de nana/carnaval bh 2023 - cordeiro de nana_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/cordeiro de nana/carnaval bh 2023 - cordeiro de nana/carnaval bh 2023 - cordeiro de nana_",
+        ".midi"
+      ],
+      "public/collection/odaras/cordeiro de nana/carnaval bh 2023 - cordeiro de nana/carnaval bh 2023 - cordeiro de nana.midi",
+      "public/collection/odaras/cordeiro de nana/carnaval bh 2023 - cordeiro de nana/carnaval bh 2023 - cordeiro de nana.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores.mscz",
+    "out": [
+      [
+        "public/collection/odaras/suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores_",
+        ".midi"
+      ],
+      "public/collection/odaras/suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores.midi",
+      "public/collection/odaras/suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/deixa a gira girar/carnaval bh 2023 - deixa a gira girar/carnaval bh 2023 - deixa a gira girar.mscz",
+    "out": [
+      [
+        "public/collection/odaras/deixa a gira girar/carnaval bh 2023 - deixa a gira girar/carnaval bh 2023 - deixa a gira girar_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/deixa a gira girar/carnaval bh 2023 - deixa a gira girar/carnaval bh 2023 - deixa a gira girar_",
+        ".midi"
+      ],
+      "public/collection/odaras/deixa a gira girar/carnaval bh 2023 - deixa a gira girar/carnaval bh 2023 - deixa a gira girar.midi",
+      "public/collection/odaras/deixa a gira girar/carnaval bh 2023 - deixa a gira girar/carnaval bh 2023 - deixa a gira girar.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/canto de xango/carnaval bh 2023 - canto de xango/carnaval bh 2023 - canto de xango.mscz",
+    "out": [
+      [
+        "public/collection/odaras/canto de xango/carnaval bh 2023 - canto de xango/carnaval bh 2023 - canto de xango_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/canto de xango/carnaval bh 2023 - canto de xango/carnaval bh 2023 - canto de xango_",
+        ".midi"
+      ],
+      "public/collection/odaras/canto de xango/carnaval bh 2023 - canto de xango/carnaval bh 2023 - canto de xango.midi",
+      "public/collection/odaras/canto de xango/carnaval bh 2023 - canto de xango/carnaval bh 2023 - canto de xango.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/odara/carnaval bh 2023 - odara/carnaval bh 2023 - odara.mscz",
+    "out": [
+      [
+        "public/collection/odaras/odara/carnaval bh 2023 - odara/carnaval bh 2023 - odara_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/odara/carnaval bh 2023 - odara/carnaval bh 2023 - odara_",
+        ".midi"
+      ],
+      "public/collection/odaras/odara/carnaval bh 2023 - odara/carnaval bh 2023 - odara.midi",
+      "public/collection/odaras/odara/carnaval bh 2023 - odara/carnaval bh 2023 - odara.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/odaras/maresia/carnaval bh 2023 - maresia/carnaval bh 2023 - maresia.mscz",
+    "out": [
+      [
+        "public/collection/odaras/maresia/carnaval bh 2023 - maresia/carnaval bh 2023 - maresia_",
+        ".svg"
+      ],
+      [
+        "public/collection/odaras/maresia/carnaval bh 2023 - maresia/carnaval bh 2023 - maresia_",
+        ".midi"
+      ],
+      "public/collection/odaras/maresia/carnaval bh 2023 - maresia/carnaval bh 2023 - maresia.midi",
+      "public/collection/odaras/maresia/carnaval bh 2023 - maresia/carnaval bh 2023 - maresia.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/zé pereira/carnaval bh 2023 - zé pereira/carnaval bh 2023 - zé pereira.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/zé pereira/carnaval bh 2023 - zé pereira/carnaval bh 2023 - zé pereira_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/zé pereira/carnaval bh 2023 - zé pereira/carnaval bh 2023 - zé pereira_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/zé pereira/carnaval bh 2023 - zé pereira/carnaval bh 2023 - zé pereira.midi",
+      "public/collection/marchinhas/zé pereira/carnaval bh 2023 - zé pereira/carnaval bh 2023 - zé pereira.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte.midi",
+      "public/collection/marchinhas/cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte/carnaval bh 2023 - cabeleira do ed marte.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/vai com jeito/carnaval bh 2023 - vai com jeito/carnaval bh 2023 - vai com jeito.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/vai com jeito/carnaval bh 2023 - vai com jeito/carnaval bh 2023 - vai com jeito_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/vai com jeito/carnaval bh 2023 - vai com jeito/carnaval bh 2023 - vai com jeito_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/vai com jeito/carnaval bh 2023 - vai com jeito/carnaval bh 2023 - vai com jeito.midi",
+      "public/collection/marchinhas/vai com jeito/carnaval bh 2023 - vai com jeito/carnaval bh 2023 - vai com jeito.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/sassaricando/carnaval bh 2023 - sassaricando/carnaval bh 2023 - sassaricando.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/sassaricando/carnaval bh 2023 - sassaricando/carnaval bh 2023 - sassaricando_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/sassaricando/carnaval bh 2023 - sassaricando/carnaval bh 2023 - sassaricando_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/sassaricando/carnaval bh 2023 - sassaricando/carnaval bh 2023 - sassaricando.midi",
+      "public/collection/marchinhas/sassaricando/carnaval bh 2023 - sassaricando/carnaval bh 2023 - sassaricando.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/saca rolhas/carnaval bh 2023 - saca rolhas/carnaval bh 2023 - saca rolhas.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/saca rolhas/carnaval bh 2023 - saca rolhas/carnaval bh 2023 - saca rolhas_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/saca rolhas/carnaval bh 2023 - saca rolhas/carnaval bh 2023 - saca rolhas_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/saca rolhas/carnaval bh 2023 - saca rolhas/carnaval bh 2023 - saca rolhas.midi",
+      "public/collection/marchinhas/saca rolhas/carnaval bh 2023 - saca rolhas/carnaval bh 2023 - saca rolhas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/a banda tá com sede/carnaval bh 2023 - a banda tá com sede/carnaval bh 2023 - a banda tá com sede.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/a banda tá com sede/carnaval bh 2023 - a banda tá com sede/carnaval bh 2023 - a banda tá com sede_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/a banda tá com sede/carnaval bh 2023 - a banda tá com sede/carnaval bh 2023 - a banda tá com sede_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/a banda tá com sede/carnaval bh 2023 - a banda tá com sede/carnaval bh 2023 - a banda tá com sede.midi",
+      "public/collection/marchinhas/a banda tá com sede/carnaval bh 2023 - a banda tá com sede/carnaval bh 2023 - a banda tá com sede.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/marcha do remador/carnaval bh 2023 - marcha do remador/carnaval bh 2023 - marcha do remador.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/marcha do remador/carnaval bh 2023 - marcha do remador/carnaval bh 2023 - marcha do remador_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/marcha do remador/carnaval bh 2023 - marcha do remador/carnaval bh 2023 - marcha do remador_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/marcha do remador/carnaval bh 2023 - marcha do remador/carnaval bh 2023 - marcha do remador.midi",
+      "public/collection/marchinhas/marcha do remador/carnaval bh 2023 - marcha do remador/carnaval bh 2023 - marcha do remador.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/mamãe eu quero/carnaval bh 2023 - mamãe eu quero/carnaval bh 2023 - mamãe eu quero.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/mamãe eu quero/carnaval bh 2023 - mamãe eu quero/carnaval bh 2023 - mamãe eu quero_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/mamãe eu quero/carnaval bh 2023 - mamãe eu quero/carnaval bh 2023 - mamãe eu quero_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/mamãe eu quero/carnaval bh 2023 - mamãe eu quero/carnaval bh 2023 - mamãe eu quero.midi",
+      "public/collection/marchinhas/mamãe eu quero/carnaval bh 2023 - mamãe eu quero/carnaval bh 2023 - mamãe eu quero.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/alala-ô/carnaval bh 2023 - alala-ô/carnaval bh 2023 - alala-ô.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/alala-ô/carnaval bh 2023 - alala-ô/carnaval bh 2023 - alala-ô_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/alala-ô/carnaval bh 2023 - alala-ô/carnaval bh 2023 - alala-ô_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/alala-ô/carnaval bh 2023 - alala-ô/carnaval bh 2023 - alala-ô.midi",
+      "public/collection/marchinhas/alala-ô/carnaval bh 2023 - alala-ô/carnaval bh 2023 - alala-ô.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/cachaça/carnaval bh 2023 - cachaça/carnaval bh 2023 - cachaça.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/cachaça/carnaval bh 2023 - cachaça/carnaval bh 2023 - cachaça_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/cachaça/carnaval bh 2023 - cachaça/carnaval bh 2023 - cachaça_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/cachaça/carnaval bh 2023 - cachaça/carnaval bh 2023 - cachaça.midi",
+      "public/collection/marchinhas/cachaça/carnaval bh 2023 - cachaça/carnaval bh 2023 - cachaça.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/taí/carnaval bh 2023 - taí/carnaval bh 2023 - taí.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/taí/carnaval bh 2023 - taí/carnaval bh 2023 - taí_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/taí/carnaval bh 2023 - taí/carnaval bh 2023 - taí_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/taí/carnaval bh 2023 - taí/carnaval bh 2023 - taí.midi",
+      "public/collection/marchinhas/taí/carnaval bh 2023 - taí/carnaval bh 2023 - taí.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/quem sabe, sabe/carnaval bh 2023  - quem sabe sabe/carnaval bh 2023  - quem sabe sabe.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/quem sabe, sabe/carnaval bh 2023  - quem sabe sabe/carnaval bh 2023  - quem sabe sabe_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/quem sabe, sabe/carnaval bh 2023  - quem sabe sabe/carnaval bh 2023  - quem sabe sabe_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/quem sabe, sabe/carnaval bh 2023  - quem sabe sabe/carnaval bh 2023  - quem sabe sabe.midi",
+      "public/collection/marchinhas/quem sabe, sabe/carnaval bh 2023  - quem sabe sabe/carnaval bh 2023  - quem sabe sabe.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/balancê/carnaval bh 2023 - balancê/carnaval bh 2023 - balancê.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/balancê/carnaval bh 2023 - balancê/carnaval bh 2023 - balancê_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/balancê/carnaval bh 2023 - balancê/carnaval bh 2023 - balancê_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/balancê/carnaval bh 2023 - balancê/carnaval bh 2023 - balancê.midi",
+      "public/collection/marchinhas/balancê/carnaval bh 2023 - balancê/carnaval bh 2023 - balancê.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/jardineira/carnaval bh 2023 - jardineira/carnaval bh 2023 - jardineira.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/jardineira/carnaval bh 2023 - jardineira/carnaval bh 2023 - jardineira_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/jardineira/carnaval bh 2023 - jardineira/carnaval bh 2023 - jardineira_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/jardineira/carnaval bh 2023 - jardineira/carnaval bh 2023 - jardineira.midi",
+      "public/collection/marchinhas/jardineira/carnaval bh 2023 - jardineira/carnaval bh 2023 - jardineira.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/tem nego bêbo aí/carnaval bh 2023 - tem nego bebo ai/carnaval bh 2023 - tem nego bebo ai.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/tem nego bêbo aí/carnaval bh 2023 - tem nego bebo ai/carnaval bh 2023 - tem nego bebo ai_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/tem nego bêbo aí/carnaval bh 2023 - tem nego bebo ai/carnaval bh 2023 - tem nego bebo ai_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/tem nego bêbo aí/carnaval bh 2023 - tem nego bebo ai/carnaval bh 2023 - tem nego bebo ai.midi",
+      "public/collection/marchinhas/tem nego bêbo aí/carnaval bh 2023 - tem nego bebo ai/carnaval bh 2023 - tem nego bebo ai.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas/turma do funil/carnaval bh 2023 - turma do funil/carnaval bh 2023 - turma do funil.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas/turma do funil/carnaval bh 2023 - turma do funil/carnaval bh 2023 - turma do funil_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas/turma do funil/carnaval bh 2023 - turma do funil/carnaval bh 2023 - turma do funil_",
+        ".midi"
+      ],
+      "public/collection/marchinhas/turma do funil/carnaval bh 2023 - turma do funil/carnaval bh 2023 - turma do funil.midi",
+      "public/collection/marchinhas/turma do funil/carnaval bh 2023 - turma do funil/carnaval bh 2023 - turma do funil.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/forrós/morena tropicana/carnaval bh 2023 - morena tropicana/carnaval bh 2023 - morena tropicana.mscz",
+    "out": [
+      [
+        "public/collection/forrós/morena tropicana/carnaval bh 2023 - morena tropicana/carnaval bh 2023 - morena tropicana_",
+        ".svg"
+      ],
+      [
+        "public/collection/forrós/morena tropicana/carnaval bh 2023 - morena tropicana/carnaval bh 2023 - morena tropicana_",
+        ".midi"
+      ],
+      "public/collection/forrós/morena tropicana/carnaval bh 2023 - morena tropicana/carnaval bh 2023 - morena tropicana.midi",
+      "public/collection/forrós/morena tropicana/carnaval bh 2023 - morena tropicana/carnaval bh 2023 - morena tropicana.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/forrós/anunciação/madeira pirata - anunciação/madeira pirata - anunciação.mscz",
+    "out": [
+      [
+        "public/collection/forrós/anunciação/madeira pirata - anunciação/madeira pirata - anunciação_",
+        ".svg"
+      ],
+      [
+        "public/collection/forrós/anunciação/madeira pirata - anunciação/madeira pirata - anunciação_",
+        ".midi"
+      ],
+      "public/collection/forrós/anunciação/madeira pirata - anunciação/madeira pirata - anunciação.midi",
+      "public/collection/forrós/anunciação/madeira pirata - anunciação/madeira pirata - anunciação.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/forrós/anunciação/carnaval bh 2023 - anunciação/carnaval bh 2023 - anunciação.mscz",
+    "out": [
+      [
+        "public/collection/forrós/anunciação/carnaval bh 2023 - anunciação/carnaval bh 2023 - anunciação_",
+        ".svg"
+      ],
+      [
+        "public/collection/forrós/anunciação/carnaval bh 2023 - anunciação/carnaval bh 2023 - anunciação_",
+        ".midi"
+      ],
+      "public/collection/forrós/anunciação/carnaval bh 2023 - anunciação/carnaval bh 2023 - anunciação.midi",
+      "public/collection/forrós/anunciação/carnaval bh 2023 - anunciação/carnaval bh 2023 - anunciação.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/forrós/pagode russo/carnaval bh 2023 - pagode russo/carnaval bh 2023 - pagode russo.mscz",
+    "out": [
+      [
+        "public/collection/forrós/pagode russo/carnaval bh 2023 - pagode russo/carnaval bh 2023 - pagode russo_",
+        ".svg"
+      ],
+      [
+        "public/collection/forrós/pagode russo/carnaval bh 2023 - pagode russo/carnaval bh 2023 - pagode russo_",
+        ".midi"
+      ],
+      "public/collection/forrós/pagode russo/carnaval bh 2023 - pagode russo/carnaval bh 2023 - pagode russo.midi",
+      "public/collection/forrós/pagode russo/carnaval bh 2023 - pagode russo/carnaval bh 2023 - pagode russo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/bloco do peixoto/carnaval bh 2023 - bloco do peixoto/carnaval bh 2023 - bloco do peixoto.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/bloco do peixoto/carnaval bh 2023 - bloco do peixoto/carnaval bh 2023 - bloco do peixoto_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/bloco do peixoto/carnaval bh 2023 - bloco do peixoto/carnaval bh 2023 - bloco do peixoto_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/bloco do peixoto/carnaval bh 2023 - bloco do peixoto/carnaval bh 2023 - bloco do peixoto.midi",
+      "public/collection/marchinhas de bh/bloco do peixoto/carnaval bh 2023 - bloco do peixoto/carnaval bh 2023 - bloco do peixoto.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/ladeira abaixo/carnaval bh 2023 - ladeira abaixo/carnaval bh 2023 - ladeira abaixo.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/ladeira abaixo/carnaval bh 2023 - ladeira abaixo/carnaval bh 2023 - ladeira abaixo_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/ladeira abaixo/carnaval bh 2023 - ladeira abaixo/carnaval bh 2023 - ladeira abaixo_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/ladeira abaixo/carnaval bh 2023 - ladeira abaixo/carnaval bh 2023 - ladeira abaixo.midi",
+      "public/collection/marchinhas de bh/ladeira abaixo/carnaval bh 2023 - ladeira abaixo/carnaval bh 2023 - ladeira abaixo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/alcova libertina/carnaval bh 2023 - alcova libertina/carnaval bh 2023 - alcova libertina.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/alcova libertina/carnaval bh 2023 - alcova libertina/carnaval bh 2023 - alcova libertina_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/alcova libertina/carnaval bh 2023 - alcova libertina/carnaval bh 2023 - alcova libertina_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/alcova libertina/carnaval bh 2023 - alcova libertina/carnaval bh 2023 - alcova libertina.midi",
+      "public/collection/marchinhas de bh/alcova libertina/carnaval bh 2023 - alcova libertina/carnaval bh 2023 - alcova libertina.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/manjericão/carnaval bh 2023 - manjericão/carnaval bh 2023 - manjericão.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/manjericão/carnaval bh 2023 - manjericão/carnaval bh 2023 - manjericão_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/manjericão/carnaval bh 2023 - manjericão/carnaval bh 2023 - manjericão_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/manjericão/carnaval bh 2023 - manjericão/carnaval bh 2023 - manjericão.midi",
+      "public/collection/marchinhas de bh/manjericão/carnaval bh 2023 - manjericão/carnaval bh 2023 - manjericão.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/corte devassa/carnaval bh 2023 - corte devassa/carnaval bh 2023 - corte devassa.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/corte devassa/carnaval bh 2023 - corte devassa/carnaval bh 2023 - corte devassa_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/corte devassa/carnaval bh 2023 - corte devassa/carnaval bh 2023 - corte devassa_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/corte devassa/carnaval bh 2023 - corte devassa/carnaval bh 2023 - corte devassa.midi",
+      "public/collection/marchinhas de bh/corte devassa/carnaval bh 2023 - corte devassa/carnaval bh 2023 - corte devassa.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha.midi",
+      "public/collection/marchinhas de bh/filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/tetê a santa/carnaval bh 2023 - tetê a santa/carnaval bh 2023 - tetê a santa.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/tetê a santa/carnaval bh 2023 - tetê a santa/carnaval bh 2023 - tetê a santa_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/tetê a santa/carnaval bh 2023 - tetê a santa/carnaval bh 2023 - tetê a santa_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/tetê a santa/carnaval bh 2023 - tetê a santa/carnaval bh 2023 - tetê a santa.midi",
+      "public/collection/marchinhas de bh/tetê a santa/carnaval bh 2023 - tetê a santa/carnaval bh 2023 - tetê a santa.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/como te lhama/carnaval bh 2023 - como te lhama/carnaval bh 2023 - como te lhama.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/como te lhama/carnaval bh 2023 - como te lhama/carnaval bh 2023 - como te lhama_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/como te lhama/carnaval bh 2023 - como te lhama/carnaval bh 2023 - como te lhama_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/como te lhama/carnaval bh 2023 - como te lhama/carnaval bh 2023 - como te lhama.midi",
+      "public/collection/marchinhas de bh/como te lhama/carnaval bh 2023 - como te lhama/carnaval bh 2023 - como te lhama.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/aflorou/carnaval bh 2023 - aflorou/carnaval bh 2023 - aflorou.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/aflorou/carnaval bh 2023 - aflorou/carnaval bh 2023 - aflorou_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/aflorou/carnaval bh 2023 - aflorou/carnaval bh 2023 - aflorou_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/aflorou/carnaval bh 2023 - aflorou/carnaval bh 2023 - aflorou.midi",
+      "public/collection/marchinhas de bh/aflorou/carnaval bh 2023 - aflorou/carnaval bh 2023 - aflorou.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/queima largada/carnaval bh 2023 - queima largada/carnaval bh 2023 - queima largada.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/queima largada/carnaval bh 2023 - queima largada/carnaval bh 2023 - queima largada_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/queima largada/carnaval bh 2023 - queima largada/carnaval bh 2023 - queima largada_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/queima largada/carnaval bh 2023 - queima largada/carnaval bh 2023 - queima largada.midi",
+      "public/collection/marchinhas de bh/queima largada/carnaval bh 2023 - queima largada/carnaval bh 2023 - queima largada.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/mamá na vaca/carnaval bh 2023 - mamá na vaca/carnaval bh 2023 - mamá na vaca.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/mamá na vaca/carnaval bh 2023 - mamá na vaca/carnaval bh 2023 - mamá na vaca_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/mamá na vaca/carnaval bh 2023 - mamá na vaca/carnaval bh 2023 - mamá na vaca_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/mamá na vaca/carnaval bh 2023 - mamá na vaca/carnaval bh 2023 - mamá na vaca.midi",
+      "public/collection/marchinhas de bh/mamá na vaca/carnaval bh 2023 - mamá na vaca/carnaval bh 2023 - mamá na vaca.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/marchinhas de bh/praia da estação/carnaval bh 2023 - praia da estação/carnaval bh 2023 - praia da estação.mscz",
+    "out": [
+      [
+        "public/collection/marchinhas de bh/praia da estação/carnaval bh 2023 - praia da estação/carnaval bh 2023 - praia da estação_",
+        ".svg"
+      ],
+      [
+        "public/collection/marchinhas de bh/praia da estação/carnaval bh 2023 - praia da estação/carnaval bh 2023 - praia da estação_",
+        ".midi"
+      ],
+      "public/collection/marchinhas de bh/praia da estação/carnaval bh 2023 - praia da estação/carnaval bh 2023 - praia da estação.midi",
+      "public/collection/marchinhas de bh/praia da estação/carnaval bh 2023 - praia da estação/carnaval bh 2023 - praia da estação.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/ele é ele eu sou eu/ele é ele eu sou eu/ele é ele eu sou eu.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/ele é ele eu sou eu/ele é ele eu sou eu/ele é ele eu sou eu_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/ele é ele eu sou eu/ele é ele eu sou eu/ele é ele eu sou eu_",
+        ".midi"
+      ],
+      "public/collection/piseiro/ele é ele eu sou eu/ele é ele eu sou eu/ele é ele eu sou eu.midi",
+      "public/collection/piseiro/ele é ele eu sou eu/ele é ele eu sou eu/ele é ele eu sou eu.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/tapao na raba/tapao na raba/tapao na raba.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/tapao na raba/tapao na raba/tapao na raba_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/tapao na raba/tapao na raba/tapao na raba_",
+        ".midi"
+      ],
+      "public/collection/piseiro/tapao na raba/tapao na raba/tapao na raba.midi",
+      "public/collection/piseiro/tapao na raba/tapao na raba/tapao na raba.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/aquelas coisas/aquelas coisas/aquelas coisas.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/aquelas coisas/aquelas coisas/aquelas coisas_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/aquelas coisas/aquelas coisas/aquelas coisas_",
+        ".midi"
+      ],
+      "public/collection/piseiro/aquelas coisas/aquelas coisas/aquelas coisas.midi",
+      "public/collection/piseiro/aquelas coisas/aquelas coisas/aquelas coisas.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/cangote/cangote/cangote.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/cangote/cangote/cangote_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/cangote/cangote/cangote_",
+        ".midi"
+      ],
+      "public/collection/piseiro/cangote/cangote/cangote.midi",
+      "public/collection/piseiro/cangote/cangote/cangote.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/senta danada/senta danada/senta danada.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/senta danada/senta danada/senta danada_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/senta danada/senta danada/senta danada_",
+        ".midi"
+      ],
+      "public/collection/piseiro/senta danada/senta danada/senta danada.midi",
+      "public/collection/piseiro/senta danada/senta danada/senta danada.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/eu tenho medo/eu tenho medo/eu tenho medo.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/eu tenho medo/eu tenho medo/eu tenho medo_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/eu tenho medo/eu tenho medo/eu tenho medo_",
+        ".midi"
+      ],
+      "public/collection/piseiro/eu tenho medo/eu tenho medo/eu tenho medo.midi",
+      "public/collection/piseiro/eu tenho medo/eu tenho medo/eu tenho medo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/lovezinho/lovezinho/lovezinho.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/lovezinho/lovezinho/lovezinho_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/lovezinho/lovezinho/lovezinho_",
+        ".midi"
+      ],
+      "public/collection/piseiro/lovezinho/lovezinho/lovezinho.midi",
+      "public/collection/piseiro/lovezinho/lovezinho/lovezinho.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/baby me atende/baby me atende/baby me atende.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/baby me atende/baby me atende/baby me atende_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/baby me atende/baby me atende/baby me atende_",
+        ".midi"
+      ],
+      "public/collection/piseiro/baby me atende/baby me atende/baby me atende.midi",
+      "public/collection/piseiro/baby me atende/baby me atende/baby me atende.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/coladin/coladin/coladin.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/coladin/coladin/coladin_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/coladin/coladin/coladin_",
+        ".midi"
+      ],
+      "public/collection/piseiro/coladin/coladin/coladin.midi",
+      "public/collection/piseiro/coladin/coladin/coladin.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/pochete/pochete/pochete.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/pochete/pochete/pochete_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/pochete/pochete/pochete_",
+        ".midi"
+      ],
+      "public/collection/piseiro/pochete/pochete/pochete.midi",
+      "public/collection/piseiro/pochete/pochete/pochete.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/ta rocheda/ta rocheda/ta rocheda.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/ta rocheda/ta rocheda/ta rocheda_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/ta rocheda/ta rocheda/ta rocheda_",
+        ".midi"
+      ],
+      "public/collection/piseiro/ta rocheda/ta rocheda/ta rocheda.midi",
+      "public/collection/piseiro/ta rocheda/ta rocheda/ta rocheda.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/zona de perigo/zona de perigo/zona de perigo.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/zona de perigo/zona de perigo/zona de perigo_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/zona de perigo/zona de perigo/zona de perigo_",
+        ".midi"
+      ],
+      "public/collection/piseiro/zona de perigo/zona de perigo/zona de perigo.midi",
+      "public/collection/piseiro/zona de perigo/zona de perigo/zona de perigo.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/piseiro/ameaça/ameaça/ameaça.mscz",
+    "out": [
+      [
+        "public/collection/piseiro/ameaça/ameaça/ameaça_",
+        ".svg"
+      ],
+      [
+        "public/collection/piseiro/ameaça/ameaça/ameaça_",
+        ".midi"
+      ],
+      "public/collection/piseiro/ameaça/ameaça/ameaça.midi",
+      "public/collection/piseiro/ameaça/ameaça/ameaça.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/latinas/cariñito/carnaval bh 2023 - cariñito/carnaval bh 2023 - cariñito.mscz",
+    "out": [
+      [
+        "public/collection/latinas/cariñito/carnaval bh 2023 - cariñito/carnaval bh 2023 - cariñito_",
+        ".svg"
+      ],
+      [
+        "public/collection/latinas/cariñito/carnaval bh 2023 - cariñito/carnaval bh 2023 - cariñito_",
+        ".midi"
+      ],
+      "public/collection/latinas/cariñito/carnaval bh 2023 - cariñito/carnaval bh 2023 - cariñito.midi",
+      "public/collection/latinas/cariñito/carnaval bh 2023 - cariñito/carnaval bh 2023 - cariñito.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.mscz",
+    "out": [
+      [
+        "public/collection/latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue_",
+        ".svg"
+      ],
+      [
+        "public/collection/latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue_",
+        ".midi"
+      ],
+      "public/collection/latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.midi",
+      "public/collection/latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.metajson"
+    ]
+  },
+  {
+    "in": "public/collection/latinas/besame mucho/carnaval bh 2023 - besame mucho/carnaval bh 2023 - besame mucho.mscz",
+    "out": [
+      [
+        "public/collection/latinas/besame mucho/carnaval bh 2023 - besame mucho/carnaval bh 2023 - besame mucho_",
+        ".svg"
+      ],
+      [
+        "public/collection/latinas/besame mucho/carnaval bh 2023 - besame mucho/carnaval bh 2023 - besame mucho_",
+        ".midi"
+      ],
+      "public/collection/latinas/besame mucho/carnaval bh 2023 - besame mucho/carnaval bh 2023 - besame mucho.midi",
+      "public/collection/latinas/besame mucho/carnaval bh 2023 - besame mucho/carnaval bh 2023 - besame mucho.metajson"
+    ]
   }
 ]
