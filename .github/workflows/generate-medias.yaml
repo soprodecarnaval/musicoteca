@@ -9,7 +9,7 @@ jobs:
   my-job-name:
     runs-on: ubuntu-latest
     container:
-      image: docker pull ghcr.io/soprodecarnaval/musicoteca:main
+      image: ghcr.io/soprodecarnaval/musicoteca:main
       options: --user root
     steps:
       - name: Checkout repository
