@@ -8,6 +8,8 @@ on:
 jobs:
   generate-medias:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     container:
       image: ghcr.io/soprodecarnaval/musicoteca:main
       options: --user root --workdir /app
