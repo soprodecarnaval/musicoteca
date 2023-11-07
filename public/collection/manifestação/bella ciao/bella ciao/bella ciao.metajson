@@ -1,0 +1,127 @@
+{
+    "composer": "Trad. Italiana",
+    "duration": 90,
+    "fileVersion": 206,
+    "hasHarmonies": "false",
+    "hasLyrics": "false",
+    "keysig": -4,
+    "lyrics": "",
+    "measures": 23,
+    "mscoreVersion": "2.1.0",
+    "pageFormat": {
+        "height": 210,
+        "twosided": "true",
+        "width": 297
+    },
+    "pages": 2,
+    "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "",
+            "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.alto",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "",
+            "program": 65
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.tenor",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "",
+            "program": 66
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.clarinet.bflat",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "",
+            "program": 71
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.flutes.flute",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "",
+            "program": 73
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 56
+        }
+    ],
+    "poet": "",
+    "previousSource": "",
+    "subtitle": "EBb",
+    "tempo": 0,
+    "tempoText": "",
+    "textFramesData": {
+        "composers": [
+            "Trad. Italiana"
+        ],
+        "poets": [
+        ],
+        "subtitles": [
+            "EBb"
+        ],
+        "titles": [
+            "BELLA CIAO"
+        ]
+    },
+    "timesig": "4/4",
+    "title": "BELLA CIAO"
+}

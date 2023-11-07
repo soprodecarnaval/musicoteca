@@ -102,6 +102,7 @@ type ArrangementDraft = {
 };
 
 type ScoreMetadata = {
+  metajsonRelPath: string;
   composer: string;
 };
 
@@ -181,7 +182,7 @@ function parseEntry(absPath: string, rootPath: string): Result<Entry> {
   const songTitle = parts[1].trim().toLocaleLowerCase();
   const songId = idString(style, songTitle);
   const arrName =
-    parts.length == 3 ? style : parts[2].trim().toLocaleLowerCase();
+    parts.length == 3 ? songTitle : parts[2].trim().toLocaleLowerCase();
   const arrId = idString(style, songTitle, arrName);
   const entry = {
     absPath,
@@ -263,40 +264,62 @@ function renderArrangementDraft(arrDraft: ArrangementDraft): Arrangement {
   return { id, name, assets: files, parts, tags };
 }
 
-// TODO: handle errors
-function readScoreMetajson(scoreEntry: Entry): ScoreMetadata {
-  // open .metajson file, which should have the same filename as the score
+function readScoreMetajsonForScoreEntry(
+  scoreEntry: Entry
+): Result<ScoreMetadata> {
   const metajsonPath = scoreEntry.absPath.replace(
     scoreEntry.extension,
     metaFileExtension
   );
+
   console.debug(`[readScoreMetajson] reading ${metajsonPath}`);
+  if (!fs.existsSync(metajsonPath)) {
+    return err(warning(`No metajson file found`, { metajsonPath }));
+  }
   const metaJson = fs.readFileSync(metajsonPath, "utf-8");
   const meta = JSON.parse(metaJson);
-  return {
+  return ok({
+    metajsonRelPath: scoreEntry.relPath.replace(
+      scoreEntry.extension,
+      metaFileExtension
+    ),
     composer: meta.composer,
-  };
+  });
 }
 
-function indexScoreAsset(entry: Entry, collDraft: CollectionDraft) {
+function indexScoreAsset(scoreEntry: Entry, collDraft: CollectionDraft) {
   const { arrMap, songMap, warnings } = collDraft;
-  console.debug(`[_indexScoreFileEntry] indexing entry ${entry}`);
+  console.debug(`[_indexScoreFileEntry] indexing entry ${scoreEntry}`);
 
-  const { arrId, arrName, songId, songTitle, style } = entry;
+  const { arrId, arrName, songId, songTitle, style } = scoreEntry;
   const arr: ArrangementDraft = {
     id: arrId,
-    files: [],
+    files: [
+      {
+        path: scoreEntry.relPath,
+        extension: scoreEntry.extension,
+      },
+    ],
     name: arrName,
     parts: [],
     tags: [style],
     songId: songId,
   };
 
+  const metajsonResult = readScoreMetajsonForScoreEntry(scoreEntry);
+  if (metajsonResult.ok) {
+    const { metajsonRelPath: metajsonPath } = metajsonResult.value;
+    arr.files.push({
+      path: metajsonPath,
+      extension: metaFileExtension,
+    });
+  }
+
   if (arrId in arrMap) {
     warnings.push(
       warning(
         `Duplicate arrangement ${arrId} for song ${songId} (${songTitle})`,
-        entry
+        scoreEntry
       )
     );
     return;
@@ -310,11 +333,10 @@ function indexScoreAsset(entry: Entry, collDraft: CollectionDraft) {
       `[indexScoreFileEntry] added arrangement ${arrId} to song ${songId}`
     );
   } else {
-    const scoreMetadata = readScoreMetajson(entry);
     songMap[songId] = {
       id: songId,
       title: songTitle,
-      composer: scoreMetadata.composer,
+      composer: metajsonResult.ok ? metajsonResult.value.composer : "",
       sub: "", // TODO: figure out a way to read this
       arrangementIds: [arrId],
       style,
@@ -325,20 +347,20 @@ function indexScoreAsset(entry: Entry, collDraft: CollectionDraft) {
   }
 }
 
-function indexPartAsset(entry: Entry, collDraft: CollectionDraft) {
-  console.debug(`[indexPartAssetEntry] adding part ${entry}`);
-  const arr = collDraft.arrMap[entry.arrId];
+function indexPartAsset(partEntry: Entry, collDraft: CollectionDraft) {
+  console.debug(`[indexPartAssetEntry] adding part ${partEntry}`);
+  const arr = collDraft.arrMap[partEntry.arrId];
   if (!arr) {
     collDraft.warnings.push(
-      warning(`No arrangement found for ${entry.arrId}`, entry)
+      warning(`No arrangement found for ${partEntry.arrId}`, partEntry)
     );
     return;
   }
 
-  const instrument = findInstrument(entry.relPath);
+  const instrument = findInstrument(partEntry.relPath);
   if (!instrument) {
     collDraft.warnings.push(
-      warning(`No instrument found for ${entry.relPath}`, entry)
+      warning(`No instrument found for ${partEntry.relPath}`, partEntry)
     );
     return;
   }
@@ -348,8 +370,8 @@ function indexPartAsset(entry: Entry, collDraft: CollectionDraft) {
     instrument,
     assets: [
       {
-        path: entry.relPath,
-        extension: entry.extension,
+        path: partEntry.relPath,
+        extension: partEntry.extension,
       },
     ],
   });
@@ -391,7 +413,7 @@ function emitCollection(
         );
         fs.copyFileSync(srcArrFilePath, absDstArrFilePath);
 
-        // update arrFile path in collection
+        // update arrangement asset path in collection
         coll.songs[s].arrangements[a].assets[ass].path = dstArrFilePath;
 
         assetFileCount++;
@@ -413,7 +435,7 @@ function emitCollection(
           );
           fs.copyFileSync(srcPartAssetPath, absDstPartAssetPath);
 
-          // update partAsset path in collection
+          // update part asset path in collection
           coll.songs[s].arrangements[a].parts[p].assets[ass].path =
             dstPartAssetPath;
 

@@ -12,7 +12,7 @@ RUN /musescore.AppImage --appimage-extract
 COPY public/collection/ /collection/
 
 # Gerando json para conversão de midias com musescore
-RUN find /collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],"\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
+RUN find /collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],[ . | sub(".mscz";"_"),".midi"],"\(. | sub(".mscz";".midi"))","\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
 
 # Gerando mídias e metajson
 RUN xvfb-run /squashfs-root/AppRun -j /media-generation.json

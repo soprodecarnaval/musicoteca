@@ -1,0 +1,19 @@
+#
+name: Generate medias from Musescore files
+
+# Configures this workflow to run every time a change is pushed to the branch called `release`.
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-medias:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/soprodecarnaval/musicoteca:main
+      options: --user root
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Generate media generator file
+        run: |
+          find public/collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],"\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
