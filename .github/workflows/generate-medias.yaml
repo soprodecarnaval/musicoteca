@@ -27,6 +27,7 @@ jobs:
       - name: Commit and push files
         shell: sh
         run: |
+          git config --global --add safe.directory /__w/musicoteca/musicoteca
           git config --global user.email "musicoteca@github.com"
           git config --global user.name "GitHub Actions"
           git add media-generation.json
