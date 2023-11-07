@@ -68,7 +68,7 @@ function App() {
           </Navbar.Brand>
         </Container>
       </Navbar>
-      <Container fluid="xxl">
+      <Container>
         <SearchBar handleResults={setResults} />
         <PDFGenerator songs={selectedResults}></PDFGenerator>
         <SongBar song={playingSong} />
@@ -77,7 +77,7 @@ function App() {
             {results.length > 0 && (
               <>
                 <h3 className="results">Resultados</h3>
-                <Col sm="4"><Sort onSortBy={handleResultsSortBy} /></Col>
+                <Sort onSortBy={handleResultsSortBy} />
                 <ArrangementsTable
                   songs={results}
                   handlePlayingSong={setPlayingSong}
