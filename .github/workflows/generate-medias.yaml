@@ -15,8 +15,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
       - name: Generate media generator file
+        shell: bash
         run: |
-          find public/collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
+          find public/collection/ -type f -name "*.mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
-          musescore-cli -j media-generation.json
+          alias
+          xvfb-run /squashfs-root/AppRun -j media-generation.json
   # index-files:
