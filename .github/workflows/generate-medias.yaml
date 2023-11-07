@@ -53,12 +53,11 @@ jobs:
         uses: lhotari/action-upterm@v1
       - name: Index collection
         run: |
-          mv public/collection /collection
+          mv public/collection /tmp/collection
           npm ci
-          npm run index-collection -- -i /collection -o public/collection
+          npm run index-collection -- -i /tmp/collection -o public/collection
       - name: Commit and push files
         run: |
-          apk add git
           git config --global --add safe.directory /__w/musicoteca/musicoteca
           git config --global user.email "musicoteca@github.com"
           git config --global user.name "GitHub Actions"
