@@ -60,7 +60,11 @@ jobs:
       - name: Commit and push files
         run: |
           apk add git
+          pwd
+          ls
           cd /__w/musicoteca/musicoteca
+          pwd
+          ls
           git config --global --add safe.directory /__w/musicoteca/musicoteca
           git config --global user.email "musicoteca@github.com"
           git config --global user.name "GitHub Actions"
