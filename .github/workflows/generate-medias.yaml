@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      packages: read
     container:
       image: ghcr.io/soprodecarnaval/musicoteca:main
       options: --user root --workdir /app
