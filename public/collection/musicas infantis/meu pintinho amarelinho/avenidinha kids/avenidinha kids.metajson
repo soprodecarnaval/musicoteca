@@ -1,0 +1,69 @@
+{
+    "composer": "",
+    "duration": 68,
+    "fileVersion": 302,
+    "hasHarmonies": "false",
+    "hasLyrics": "false",
+    "keysig": 0,
+    "lyrics": "",
+    "measures": 22,
+    "mscoreVersion": "3.6.2",
+    "pageFormat": {
+        "height": 297,
+        "twosided": "false",
+        "width": 210
+    },
+    "pages": 2,
+    "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trompete em B♭",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trombone",
+            "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.alto",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Saxofone Alto",
+            "program": 65
+        }
+    ],
+    "poet": "",
+    "previousSource": "/tmp/audiveris-be01db513ffeb62175db329d6ce6e6cd/score.pdf",
+    "subtitle": "",
+    "tempo": 120,
+    "tempoText": "<sym>metNoteQuarterUp</sym> = 120",
+    "textFramesData": {
+        "composers": [
+        ],
+        "poets": [
+        ],
+        "subtitles": [
+        ],
+        "titles": [
+        ]
+    },
+    "timesig": "4/4",
+    "title": "PINTINHO AMARELINHO"
+}

@@ -1,0 +1,92 @@
+{
+    "composer": "",
+    "duration": 75,
+    "fileVersion": 302,
+    "hasHarmonies": "false",
+    "hasLyrics": "false",
+    "keysig": 1,
+    "lyrics": "",
+    "measures": 25,
+    "mscoreVersion": "3.6.2",
+    "pageFormat": {
+        "height": 297,
+        "twosided": "false",
+        "width": 210
+    },
+    "pages": 3,
+    "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.cornet.soprano",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trumpet",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.alto",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Saxofone Alto",
+            "program": 65
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.tenor",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Saxofone Tenor",
+            "program": 66
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trombone",
+            "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.flutes.flute",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Flauta Transversal",
+            "program": 73
+        }
+    ],
+    "poet": "",
+    "previousSource": "https://flat.io/score/629804e563df85001296c470-morena-tropicana",
+    "subtitle": "",
+    "tempo": 160,
+    "tempoText": "<sym>metNoteQuarterUp</sym> = 160",
+    "textFramesData": {
+        "composers": [
+        ],
+        "poets": [
+        ],
+        "subtitles": [
+        ],
+        "titles": [
+            "MORENA TROPICANA"
+        ]
+    },
+    "timesig": "4/4",
+    "title": "MORENA TROPICANA"
+}

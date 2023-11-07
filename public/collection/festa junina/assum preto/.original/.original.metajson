@@ -1,0 +1,47 @@
+{
+    "composer": "",
+    "duration": 32,
+    "fileVersion": 302,
+    "hasHarmonies": "false",
+    "hasLyrics": "false",
+    "keysig": 2,
+    "lyrics": "",
+    "measures": 33,
+    "mscoreVersion": "3.6.2",
+    "pageFormat": {
+        "height": 297,
+        "twosided": "false",
+        "width": 210
+    },
+    "pages": 1,
+    "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "voice.vocals",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Voice",
+            "program": 53
+        }
+    ],
+    "poet": "",
+    "previousSource": "/tmp/audiveris-db1fade057dddee00a1e0de0db1afaee/score.pdf",
+    "subtitle": "",
+    "tempo": 120,
+    "tempoText": "<sym>metNoteQuarterUp</sym> = 120",
+    "textFramesData": {
+        "composers": [
+        ],
+        "poets": [
+        ],
+        "subtitles": [
+        ],
+        "titles": [
+        ]
+    },
+    "timesig": "2/4",
+    "title": "bari"
+}
