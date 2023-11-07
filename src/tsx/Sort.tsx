@@ -11,7 +11,7 @@ const Sort = ({ onSortBy } : SortProps) => {
   }
 
   return (
-    <Form.Select onChange={handleOnClick} className="w-25 mb-2">
+    <Form.Select onChange={handleOnClick} className="mb-2">
       <option>Ordenar por</option>
       <option value="title-asc">Título (A-Z)</option>
       <option value="title-desc">Título (Z-A)</option>
