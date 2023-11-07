@@ -16,6 +16,4 @@ jobs:
         uses: actions/checkout@v2
       - name: Generate media generator file
         run: |
-          ls
-          pwd
-          find collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],"\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
+          find public/collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],"\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
