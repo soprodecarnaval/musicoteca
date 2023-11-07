@@ -55,6 +55,7 @@ jobs:
       - name: Index file
         run: |
           mv public/collection /collection
+          npm install
           npm run index-collection -- -i /collection -o public/collection
       - name: Commit and push files
         run: |
