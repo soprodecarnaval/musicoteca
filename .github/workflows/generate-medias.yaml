@@ -48,7 +48,6 @@ jobs:
       packages: read
     container:
       image: node:18.18.2-alpine3.18
-      options: --user root --workdir /app
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -60,11 +59,6 @@ jobs:
       - name: Commit and push files
         run: |
           apk add git
-          pwd
-          ls
-          cd /__w/musicoteca/musicoteca
-          pwd
-          ls
           git config --global --add safe.directory /__w/musicoteca/musicoteca
           git config --global user.email "musicoteca@github.com"
           git config --global user.name "GitHub Actions"
