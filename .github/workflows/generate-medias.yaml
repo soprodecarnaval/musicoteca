@@ -21,4 +21,14 @@ jobs:
           head media-generation.json
           alias
           xvfb-run /squashfs-root/AppRun -j media-generation.json
-  # index-files:
+  commit-changes:
+    runs-on: ubuntu-latest
+    - name: Commit the changes
+      uses: devops-infra/action-commit-push@master
+      with:
+        github_token: "${{ secrets.GITHUB_TOKEN }}"
+        add_timestamp: true
+        commit_prefix: "[AUTO]"
+        commit_message: "Commiting media files"
+        force: false
+        target_branch: main
