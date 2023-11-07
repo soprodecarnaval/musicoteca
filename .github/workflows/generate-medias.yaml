@@ -14,17 +14,25 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Generate media generator file
-        shell: bash
+      - name: Create generator file
+        shell: sh
         run: |
           find public/collection/ -type f -name "*.mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
-          #xvfb-run /squashfs-root/AppRun -j media-generation.json
-      - name: Commit and push changes
-        uses: devops-infra/action-commit-push@master
-        with:
-          github_token: "${{ secrets.GITHUB_TOKEN }}"
-          add_timestamp: true
-          commit_prefix: "[AUTO]"
-          commit_message: "Commiting media files"
-          force: false
+      - name: Create media files
+        shell: sh
+        run: |
+          xvfb-run /squashfs-root/AppRun -j media-generation.json
+          find public/collection/ -type f -name "*.svg" -a -name "*.midi" | head
+      - name: Commit and push files
+        shell: sh
+        run: |
+          git config --global user.email "musicoteca@github.com"
+          git config --global user.name "GitHub Actions"
+          git add media-generation.json
+          git add public/collection
+          git commit -m "[AUTO] Generating media files"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
