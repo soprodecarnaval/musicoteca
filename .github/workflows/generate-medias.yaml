@@ -59,6 +59,7 @@ jobs:
           npm run index-collection -- -i /collection -o public/collection
       - name: Commit and push files
         run: |
+          apk add git
           git config --global --add safe.directory /__w/musicoteca/musicoteca
           git config --global user.email "musicoteca@github.com"
           git config --global user.name "GitHub Actions"
