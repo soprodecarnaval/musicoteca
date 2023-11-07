@@ -1,295 +1,9 @@
 [
   {
-    "message": "Duplicate arrangement brazukas-nao-me-entrego-pros-caretas-nao-me-entrego-pros-caretas for song brazukas-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
-      "relPath": "BRAZUKAS/NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
-      "extension": ".mscz",
-      "arrId": "brazukas-nao-me-entrego-pros-caretas-nao-me-entrego-pros-caretas",
-      "arrName": "não me entrego pros caretas",
-      "songId": "brazukas-nao-me-entrego-pros-caretas",
-      "songTitle": "não me entrego pros caretas",
-      "style": "brazukas"
-    }
-  },
-  {
-    "message": "Duplicate arrangement brazukas-nao-me-entrego-pros-caretas-nao-me-entrego-pros-caretas for song brazukas-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
-      "relPath": "BRAZUKAS/NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
-      "extension": ".mscz",
-      "arrId": "brazukas-nao-me-entrego-pros-caretas-nao-me-entrego-pros-caretas",
-      "arrName": "não me entrego pros caretas",
-      "songId": "brazukas-nao-me-entrego-pros-caretas",
-      "songTitle": "não me entrego pros caretas",
-      "style": "brazukas"
-    }
-  },
-  {
-    "message": "Duplicate arrangement fanfarras-bakalao-salao-bakalao-salao for song fanfarras-bakalao-salao (bakalao salao)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FANFARRAS/BAKALAO SALAO/BAKALAO_SALAO.mscz",
-      "relPath": "FANFARRAS/BAKALAO SALAO/BAKALAO_SALAO.mscz",
-      "extension": ".mscz",
-      "arrId": "fanfarras-bakalao-salao-bakalao-salao",
-      "arrName": "bakalao salao",
-      "songId": "fanfarras-bakalao-salao",
-      "songTitle": "bakalao salao",
-      "style": "fanfarras"
-    }
-  },
-  {
-    "message": "Duplicate arrangement fanfarras-blue-cigano-blue-cigano for song fanfarras-blue-cigano (blue cigano)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FANFARRAS/BLUE CIGANO/BLUES_CIGANO.mscz",
-      "relPath": "FANFARRAS/BLUE CIGANO/BLUES_CIGANO.mscz",
-      "extension": ".mscz",
-      "arrId": "fanfarras-blue-cigano-blue-cigano",
-      "arrName": "blue cigano",
-      "songId": "fanfarras-blue-cigano",
-      "songTitle": "blue cigano",
-      "style": "fanfarras"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-abri-a-porta-abri-a-porta for song festa-junina-abri-a-porta (abri a porta)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/ABRI A PORTA/BONEPirata.mscz",
-      "relPath": "FESTA JUNINA/ABRI A PORTA/BONEPirata.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-abri-a-porta-abri-a-porta",
-      "arrName": "abri a porta",
-      "songId": "festa-junina-abri-a-porta",
-      "songTitle": "abri a porta",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-assum-preto-.original for song festa-junina-assum-preto (assum preto)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/ASSUM PRETO/.ORIGINAL/bone.mscz",
-      "relPath": "FESTA JUNINA/ASSUM PRETO/.ORIGINAL/bone.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-assum-preto-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-assum-preto",
-      "songTitle": "assum preto",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-assum-preto-.original for song festa-junina-assum-preto (assum preto)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/ASSUM PRETO/.ORIGINAL/flauta.mscz",
-      "relPath": "FESTA JUNINA/ASSUM PRETO/.ORIGINAL/flauta.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-assum-preto-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-assum-preto",
-      "songTitle": "assum preto",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-assum-preto-.original for song festa-junina-assum-preto (assum preto)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/ASSUM PRETO/.ORIGINAL/pete.mscz",
-      "relPath": "FESTA JUNINA/ASSUM PRETO/.ORIGINAL/pete.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-assum-preto-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-assum-preto",
-      "songTitle": "assum preto",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-assum-preto-.original for song festa-junina-assum-preto (assum preto)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/ASSUM PRETO/.ORIGINAL/sousa.mscz",
-      "relPath": "FESTA JUNINA/ASSUM PRETO/.ORIGINAL/sousa.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-assum-preto-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-assum-preto",
-      "songTitle": "assum preto",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-assum-preto-.original for song festa-junina-assum-preto (assum preto)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/ASSUM PRETO/.ORIGINAL/tenor.mscz",
-      "relPath": "FESTA JUNINA/ASSUM PRETO/.ORIGINAL/tenor.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-assum-preto-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-assum-preto",
-      "songTitle": "assum preto",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-assum-preto-.original for song festa-junina-assum-preto (assum preto)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/ASSUM PRETO/.ORIGINAL/tuba.mscz",
-      "relPath": "FESTA JUNINA/ASSUM PRETO/.ORIGINAL/tuba.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-assum-preto-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-assum-preto",
-      "songTitle": "assum preto",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-sabia-.original for song festa-junina-sabia (sabiá)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/SABIÁ/.ORIGINAL/clarinete.mscz",
-      "relPath": "FESTA JUNINA/SABIÁ/.ORIGINAL/clarinete.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-sabia-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-sabia",
-      "songTitle": "sabiá",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-sabia-.original for song festa-junina-sabia (sabiá)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/SABIÁ/.ORIGINAL/flauta.mscz",
-      "relPath": "FESTA JUNINA/SABIÁ/.ORIGINAL/flauta.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-sabia-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-sabia",
-      "songTitle": "sabiá",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-sabia-.original for song festa-junina-sabia (sabiá)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/SABIÁ/.ORIGINAL/pete.mscz",
-      "relPath": "FESTA JUNINA/SABIÁ/.ORIGINAL/pete.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-sabia-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-sabia",
-      "songTitle": "sabiá",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-sabia-.original for song festa-junina-sabia (sabiá)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/SABIÁ/.ORIGINAL/sax alto.mscz",
-      "relPath": "FESTA JUNINA/SABIÁ/.ORIGINAL/sax alto.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-sabia-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-sabia",
-      "songTitle": "sabiá",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement festa-junina-sabia-.original for song festa-junina-sabia (sabiá)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/FESTA JUNINA/SABIÁ/.ORIGINAL/tenor.mscz",
-      "relPath": "FESTA JUNINA/SABIÁ/.ORIGINAL/tenor.mscz",
-      "extension": ".mscz",
-      "arrId": "festa-junina-sabia-.original",
-      "arrName": ".original",
-      "songId": "festa-junina-sabia",
-      "songTitle": "sabiá",
-      "style": "festa junina"
-    }
-  },
-  {
-    "message": "Duplicate arrangement manifestacao-bella-ciao-bella-ciao for song manifestacao-bella-ciao (bella ciao)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.mscz",
-      "relPath": "MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.mscz",
-      "extension": ".mscz",
-      "arrId": "manifestacao-bella-ciao-bella-ciao",
-      "arrName": "bella ciao",
-      "songId": "manifestacao-bella-ciao",
-      "songTitle": "bella ciao",
-      "style": "manifestação"
-    }
-  },
-  {
-    "message": "Duplicate arrangement manifestacao-ta-na-hora-do-jair-ta-na-hora-do-jair for song manifestacao-ta-na-hora-do-jair (ta na hora do jair)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair.mscz",
-      "relPath": "MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair.mscz",
-      "extension": ".mscz",
-      "arrId": "manifestacao-ta-na-hora-do-jair-ta-na-hora-do-jair",
-      "arrName": "ta na hora do jair",
-      "songId": "manifestacao-ta-na-hora-do-jair",
-      "songTitle": "ta na hora do jair",
-      "style": "manifestação"
-    }
-  },
-  {
-    "message": "Duplicate arrangement manifestacao-ta-escrito-ta-escrito for song manifestacao-ta-escrito (tá escrito)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.mscz",
-      "relPath": "MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.mscz",
-      "extension": ".mscz",
-      "arrId": "manifestacao-ta-escrito-ta-escrito",
-      "arrName": "tá escrito",
-      "songId": "manifestacao-ta-escrito",
-      "songTitle": "tá escrito",
-      "style": "manifestação"
-    }
-  },
-  {
-    "message": "Duplicate arrangement odaras-emorio-carnaval-bh-2023-emorio for song odaras-emorio (emoriô)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ.mscz",
-      "relPath": "ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ.mscz",
-      "extension": ".mscz",
-      "arrId": "odaras-emorio-carnaval-bh-2023-emorio",
-      "arrName": "carnaval bh 2023 - emoriô",
-      "songId": "odaras-emorio",
-      "songTitle": "emoriô",
-      "style": "odaras"
-    }
-  },
-  {
-    "message": "Duplicate arrangement rocks-paint-in-black-paint-in-black for song rocks-paint-in-black (paint in black)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/ROCKS/PAINT IN BLACK/PAINT IT, BLACK.mscz",
-      "relPath": "ROCKS/PAINT IN BLACK/PAINT IT, BLACK.mscz",
-      "extension": ".mscz",
-      "arrId": "rocks-paint-in-black-paint-in-black",
-      "arrName": "paint in black",
-      "songId": "rocks-paint-in-black",
-      "songTitle": "paint in black",
-      "style": "rocks"
-    }
-  },
-  {
-    "message": "Duplicate arrangement technohell-freed-from-desire-freed-from-desire for song technohell-freed-from-desire (freed from desire)",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1).mscz",
-      "relPath": "TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1).mscz",
-      "extension": ".mscz",
-      "arrId": "technohell-freed-from-desire-freed-from-desire",
-      "arrName": "freed from desire",
-      "songId": "technohell-freed-from-desire",
-      "songTitle": "freed from desire",
-      "style": "technohell"
-    }
-  },
-  {
-    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb-1.svg",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb-1.svg",
-      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb-1.svg",
+      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
+      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -299,10 +13,23 @@
     }
   },
   {
-    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF-1.svg",
+    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF-1.svg",
-      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF-1.svg",
+      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
+      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
+      "extension": ".midi",
+      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
+      "arrName": "chuva suor e cerveja",
+      "songId": "brazukas-chuva-suor-e-cerveja",
+      "songTitle": "chuva suor e cerveja",
+      "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
+      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -312,10 +39,23 @@
     }
   },
   {
-    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb-1.svg",
+    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb-1.svg",
-      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb-1.svg",
+      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
+      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
+      "extension": ".midi",
+      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
+      "arrName": "chuva suor e cerveja",
+      "songId": "brazukas-chuva-suor-e-cerveja",
+      "songTitle": "chuva suor e cerveja",
+      "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
+      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -325,10 +65,23 @@
     }
   },
   {
-    "message": "No instrument found for BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_Bb-1.svg",
+    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_Bb-1.svg",
-      "relPath": "BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_Bb-1.svg",
+      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
+      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
+      "extension": ".midi",
+      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
+      "arrName": "chuva suor e cerveja",
+      "songId": "brazukas-chuva-suor-e-cerveja",
+      "songTitle": "chuva suor e cerveja",
+      "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb-1.svg",
+      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
       "arrName": "filha da chiquita bacana",
@@ -338,10 +91,23 @@
     }
   },
   {
-    "message": "No instrument found for BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_C_clavF-1.svg",
+    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_C_clavF-1.svg",
-      "relPath": "BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_C_clavF-1.svg",
+      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb.midi",
+      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb.midi",
+      "extension": ".midi",
+      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
+      "arrName": "filha da chiquita bacana",
+      "songId": "brazukas-filha-da-chiquita-bacana",
+      "songTitle": "filha da chiquita bacana",
+      "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF-1.svg",
+      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
       "arrName": "filha da chiquita bacana",
@@ -351,10 +117,23 @@
     }
   },
   {
-    "message": "No instrument found for BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_Eb-1.svg",
+    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_Eb-1.svg",
-      "relPath": "BRAZUKAS/FILHA DA CHIQUITA BACANA/CHIQUITA BACANA_Eb-1.svg",
+      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF.midi",
+      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF.midi",
+      "extension": ".midi",
+      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
+      "arrName": "filha da chiquita bacana",
+      "songId": "brazukas-filha-da-chiquita-bacana",
+      "songTitle": "filha da chiquita bacana",
+      "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb-1.svg",
+      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
       "arrName": "filha da chiquita bacana",
@@ -364,10 +143,23 @@
     }
   },
   {
-    "message": "No instrument found for BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set-1.svg",
+    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set-1.svg",
-      "relPath": "BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set-1.svg",
+      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb.midi",
+      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb.midi",
+      "extension": ".midi",
+      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
+      "arrName": "filha da chiquita bacana",
+      "songId": "brazukas-filha-da-chiquita-bacana",
+      "songTitle": "filha da chiquita bacana",
+      "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
+      "relPath": "brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-forasteiro-sopra-que-sara-forasteiro",
       "arrName": "sopra que sara - forasteiro",
@@ -377,10 +169,23 @@
     }
   },
   {
-    "message": "No instrument found for TECHNOHELL/FREED FROM DESIRE/Formatada/Freed_from_desire_Batterie-1.svg",
+    "message": "No instrument found for brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/TECHNOHELL/FREED FROM DESIRE/Formatada/Freed_from_desire_Batterie-1.svg",
-      "relPath": "TECHNOHELL/FREED FROM DESIRE/Formatada/Freed_from_desire_Batterie-1.svg",
+      "absPath": "/tmp/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
+      "relPath": "brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
+      "extension": ".midi",
+      "arrId": "brazukas-forasteiro-sopra-que-sara-forasteiro",
+      "arrName": "sopra que sara - forasteiro",
+      "songId": "brazukas-forasteiro",
+      "songTitle": "forasteiro",
+      "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for technohell/freed from desire/formatada/formatada_Batterie-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/technohell/freed from desire/formatada/formatada_Batterie-1.svg",
+      "relPath": "technohell/freed from desire/formatada/formatada_Batterie-1.svg",
       "extension": ".svg",
       "arrId": "technohell-freed-from-desire-formatada",
       "arrName": "formatada",
@@ -390,26 +195,13 @@
     }
   },
   {
-    "message": "No instrument found for TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1)_Batterie-1.svg",
+    "message": "No instrument found for technohell/freed from desire/formatada/formatada_Batterie.midi",
     "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1)_Batterie-1.svg",
-      "relPath": "TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1)_Batterie-1.svg",
-      "extension": ".svg",
-      "arrId": "technohell-freed-from-desire-freed-from-desire",
-      "arrName": "freed from desire",
-      "songId": "technohell-freed-from-desire",
-      "songTitle": "freed from desire",
-      "style": "technohell"
-    }
-  },
-  {
-    "message": "No instrument found for TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1)_Batterie-2.svg",
-    "meta": {
-      "absPath": "/Users/beise/Desktop/PARTITURAS/TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1)_Batterie-2.svg",
-      "relPath": "TECHNOHELL/FREED FROM DESIRE/Freed_from_desire(1)_Batterie-2.svg",
-      "extension": ".svg",
-      "arrId": "technohell-freed-from-desire-freed-from-desire",
-      "arrName": "freed from desire",
+      "absPath": "/tmp/collection/technohell/freed from desire/formatada/formatada_Batterie.midi",
+      "relPath": "technohell/freed from desire/formatada/formatada_Batterie.midi",
+      "extension": ".midi",
+      "arrId": "technohell-freed-from-desire-formatada",
+      "arrName": "formatada",
       "songId": "technohell-freed-from-desire",
       "songTitle": "freed from desire",
       "style": "technohell"
