@@ -51,19 +51,54 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Index file
+      - name: Index collection
         run: |
           mv public/collection /collection
           npm install
           npm run index-collection -- -i /collection -o public/collection
       - name: Commit and push files
-        run: |
-          apk add git
-          git config --global --add safe.directory /__w/musicoteca/musicoteca
-          git config --global user.email "musicoteca@github.com"
-          git config --global user.name "GitHub Actions"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add public/collection
-          (git commit -m "[AUTO] Generating index file" && git push) || exit 0
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.git
+              .createCommit({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                message: "[AUTO] Generating index file",
+                tree: await github.rest.git
+                  .createTree({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    tree: [
+                      {
+                        path: "public/collection",
+                        mode: "040000",
+                        type: "tree",
+                        sha: await github.rest.git
+                          .getCommit({
+                            owner: context.repo.owner,
+                            repo: context.repo.repo,
+                            commit_sha: context.sha,
+                          })
+                          .then(
+                            (commit) =>
+                              commit.data.tree.find(
+                                (tree) => tree.path === "public/collection"
+                              ).sha
+                          ),
+                      },
+                    ],
+                  })
+                  .then((tree) => tree.data.sha),
+                parents: [context.sha],
+              })
+              .then((commit) =>
+                github.rest.git.updateRef({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  ref: "heads/release",
+                  sha: commit.data.sha,
+                })
+              );
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
