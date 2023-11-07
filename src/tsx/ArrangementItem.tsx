@@ -1,15 +1,15 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { BsTriangleFill, BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
 
-import type { Arrangement, HydratedSong } from "../types";
+import type { Arrangement, Song } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
 
 interface ArrangementItemProps {
-  handleSelect: (song: HydratedSong, checked: boolean) => void;
-  handlePlayingSong: (song: HydratedSong) => void;
-  song: HydratedSong;
+  handleSelect: (song: Song, checked: boolean) => void;
+  handlePlayingSong: (song: Song) => void;
+  song: Song;
   arrangement: Arrangement;
 }
 

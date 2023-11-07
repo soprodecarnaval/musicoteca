@@ -16,6 +16,10 @@
   margin: 0 0.2%
 }
 
+.play-icon:hover, .pause-icon:hover, .stop-icon:hover {
+  cursor: pointer;
+}
+
 .song {
   display: flex;
   align-items: center;

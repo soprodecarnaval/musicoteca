@@ -9,17 +9,17 @@ import { PDFGenerator } from "./PdfGenerator";
 import { sortByColumn } from "./helper/sorter";
 import { SongBar } from './SongBar';
 
-import type { HydratedSong } from "../types";
+import type { Song } from "../types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";
 
 function App() {
-  const [results, setResults] = useState<HydratedSong[]>([]);
-  const [selectedResults, setSelectedResults] = useState<HydratedSong[]>([]);
-  const [playingSong, setPlayingSong] = useState<HydratedSong | undefined>();
+  const [results, setResults] = useState<Song[]>([]);
+  const [selectedResults, setSelectedResults] = useState<Song[]>([]);
+  const [playingSong, setPlayingSong] = useState<Song | undefined>();
 
-  const handleSelectSong = (song: HydratedSong, checked: boolean) => {
+  const handleSelectSong = (song: Song, checked: boolean) => {
     checked ? handleAddSong(song) : handleRemoveSong(song)
   };
 
@@ -27,7 +27,7 @@ function App() {
     setSelectedResults([]);
   }
 
-  const handleAddSong = (song: HydratedSong) => {
+  const handleAddSong = (song: Song) => {
     setSelectedResults([...selectedResults, song]);
     const updatedRes = results.filter(
       (r) => r.arrangements[0].id !== song.arrangements[0].id
@@ -36,7 +36,7 @@ function App() {
     setResults(updatedRes);
   }
 
-  const handleRemoveSong = (song: HydratedSong) => {
+  const handleRemoveSong = (song: Song) => {
     const updatedRes = selectedResults.filter(
       (r) => r.arrangements[0].id !== song.arrangements[0].id
     );
@@ -77,7 +77,9 @@ function App() {
             {results.length > 0 && (
               <>
                 <h3 className="results">Resultados</h3>
-                <Sort onSortBy={handleResultsSortBy} />
+                <Row>
+                  <Col sm="4"><Sort onSortBy={handleResultsSortBy} /></Col>
+                </Row>
                 <ArrangementsTable
                   songs={results}
                   handlePlayingSong={setPlayingSong}

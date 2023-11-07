@@ -3,10 +3,10 @@ import '../css/SongBar.css';
 
 import RangeSlider from 'react-bootstrap-range-slider';
 import { BsFillPauseCircleFill, BsPlayCircleFill, BsStopCircleFill } from "react-icons/bs";
-import { HydratedSong } from '../types';
+import { Song } from '../types';
 
 interface SongBarProps {
-  song: HydratedSong | undefined;
+  song: Song | undefined;
 }
 
 const SongBar = ({ song } : SongBarProps) => {

@@ -1,15 +1,15 @@
 import { Button, Col, Row, Table } from "react-bootstrap";
 import { useState } from "react";
 
-import type { HydratedSong } from "../types";
+import type { Song } from "../types";
 
 import { PaginationBar } from './PaginationBar';
 import { ChosenArrangementItem } from "./ChosenArrangementItem";
 
 interface ArrangementsTableProps {
-  songs: HydratedSong[];
-  handleSelect: (song: HydratedSong, checked: boolean) => void;
-  handlePlayingSong: (song: HydratedSong) => void;
+  songs: Song[];
+  handleSelect: (song: Song, checked: boolean) => void;
+  handlePlayingSong: (song: Song) => void;
   handleClear: () => void;
 }
 

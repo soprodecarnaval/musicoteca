@@ -1,6 +1,6 @@
-import { HydratedSong } from "../../types"
+import { Song } from "../../types"
 
-export const sortByColumn = (arrayToSort : HydratedSong[], columnToSort : string, directionToSort: string) => {
+export const sortByColumn = (arrayToSort : Song[], columnToSort : string, directionToSort: string) => {
   let sorted = arrayToSort.sort((a: any, b: any) => {
     if (columnToSort === 'title') {
       return a['title'].localeCompare(b['title'])

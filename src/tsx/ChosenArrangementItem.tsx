@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsTriangleFill, BsFillTrashFill, BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
 
-import type { Arrangement, HydratedSong } from "../types";
+import type { Arrangement, Song } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
@@ -9,9 +9,9 @@ import "../css/ArrangementItem.css";
 const url = "/documents/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /media/A_BANDA_TA_COM_SEDE.midi"
 
 interface ArrangementItemProps {
-  handleSelect: (song: HydratedSong, checked: boolean) => void;
-  handlePlayingSong: (song: HydratedSong) => void;
-  song: HydratedSong;
+  handleSelect: (song: Song, checked: boolean) => void;
+  handlePlayingSong: (song: Song) => void;
+  song: Song;
   arrangement: Arrangement;
 }
 
