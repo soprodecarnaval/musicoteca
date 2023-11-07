@@ -5,7 +5,8 @@ RUN apt-get update -y && \
     curl -L https://github.com/musescore/MuseScore/releases/download/v3.6.2/MuseScore-3.6.2.548021370-x86_64.AppImage -o /musescore.AppImage && \
     chmod +x /musescore.AppImage && \
     /musescore.AppImage --appimage-extract && \
-    apt-get autoclean && rm /musescore.AppImage
+    apt-get autoclean && rm /musescore.AppImage && \
+    alias musescore-cli="xvfb-run /squashfs-root/AppRun"
 
 # COPY entrypoint.sh /entrypoint.sh
 # RUN chmod +x /entrypoint.sh

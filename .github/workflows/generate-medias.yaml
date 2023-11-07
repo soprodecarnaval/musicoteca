@@ -7,7 +7,7 @@ on:
 
 jobs:
   generate-medias:
-    #runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     container:
       image: ghcr.io/soprodecarnaval/musicoteca:main
       options: --user root
@@ -18,4 +18,5 @@ jobs:
         run: |
           find public/collection/ -type f -name "*.mscz" | jq -R -s -c 'split("\n") | map({"in":., "out": [[ . | sub(".mscz";"_"),".svg"],"\(. | sub(".mscz";".metajson"))"]})' | jq 'map(select(.in != ""))' > media-generation.json
           cat media-generation.json
+          
   # index-files:
