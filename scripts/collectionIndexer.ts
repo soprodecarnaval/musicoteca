@@ -96,7 +96,7 @@ type ArrangementDraft = {
   id: string;
   assets: AssetDraft[];
   name: string;
-  parts: PartDraft[];
+  parts: { [id: string]: PartDraft };
   tags: Tag[];
   songId: string;
 };
@@ -292,7 +292,7 @@ function renderPartDraft(partDraft: PartDraft): Part {
 function renderArrangementDraft(arrDraft: ArrangementDraft): Arrangement {
   const { id, name, assets: assetDrafts, parts: partsDrafts, tags } = arrDraft;
   const assets = assetDrafts.map(renderAssetDraft);
-  const parts = partsDrafts.map(renderPartDraft);
+  const parts = Object.values(partsDrafts).map(renderPartDraft);
   return { id, name, assets, parts, tags };
 }
 
@@ -353,7 +353,7 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
       },
     ],
     name: arrName,
-    parts: [],
+    parts: {},
     tags: [style],
     songId: songId,
   };
@@ -432,16 +432,20 @@ function indexPartAsset(partEntry: Entry, collDraft: CollectionDraft) {
     return;
   }
 
-  arr.parts.push({
-    name: instrument, // TODO: get from .metajson
-    instrument,
-    assets: [
-      {
-        absPath: partEntry.absPath,
-        relPath: partEntry.relPath,
-        extension: partEntry.extension,
-      },
-    ],
+  let part = arr.parts[instrument];
+  if (!part) {
+    part = {
+      name: instrument,
+      instrument,
+      assets: [],
+    };
+    arr.parts[instrument] = part;
+  }
+
+  part.assets.push({
+    absPath: partEntry.absPath,
+    relPath: partEntry.relPath,
+    extension: partEntry.extension,
   });
 }
 
