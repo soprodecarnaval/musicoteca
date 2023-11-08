@@ -371,6 +371,16 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
     warnings.push(...metajsonResult.warnings);
   }
 
+  const midiResult = findArrangementAssetForScoreEntry(
+    scoreEntry,
+    midiExtension
+  );
+  if (midiResult.ok) {
+    arr.assets.push(midiResult.value);
+  } else {
+    warnings.push(...midiResult.warnings);
+  }
+
   if (arrId in arrMap) {
     warnings.push(
       warning(
