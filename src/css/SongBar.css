@@ -12,7 +12,7 @@
   vertical-align: middle
 }
 
-.play-icon, .pause-icon, .stop-icon {
+.play-icon, .pause-icon, .stop-icon, #song-time {
   margin: 0 0.2%
 }
 
