@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BsTriangleFill, BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
+import { BsTriangleFill } from "react-icons/bs";
 
 import type { Arrangement, PlayingSong, Song } from "../types";
 import { PartItem } from "./PartItem";
