@@ -9,7 +9,7 @@ import { PDFGenerator } from "./PdfGenerator";
 import { sortByColumn } from "./helper/sorter";
 import { SongBar } from './SongBar';
 
-import type { Song } from "../types";
+import type { PlayingSong, Song } from "../types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";
@@ -17,7 +17,11 @@ import "../css/App.css";
 function App() {
   const [results, setResults] = useState<Song[]>([]);
   const [selectedResults, setSelectedResults] = useState<Song[]>([]);
-  const [playingSong, setPlayingSong] = useState<Song | undefined>();
+  const [playingSong, setPlayingSong] = useState<PlayingSong>({
+    songName: '',
+    arrangementName: '',
+    partName: ''
+  });
 
   const handleSelectSong = (song: Song, checked: boolean) => {
     checked ? handleAddSong(song) : handleRemoveSong(song)
@@ -71,7 +75,7 @@ function App() {
       <Container>
         <SearchBar handleResults={setResults} />
         <PDFGenerator songs={selectedResults}></PDFGenerator>
-        <SongBar song={playingSong} />
+        <SongBar info={playingSong} />
         <Row className="mt-4">
           <Col sm={6}>
             {results.length > 0 && (
