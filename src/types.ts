@@ -46,3 +46,9 @@ export type Part = {
   instrument: Instrument;
   assets: Asset[];
 };
+
+export type PlayingSong = {
+  songName: string;
+  arrangementName: string;
+  partName: string;
+}

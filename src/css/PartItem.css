@@ -1,3 +1,7 @@
 .cursor:hover {
   cursor: pointer;
 }
+
+.play-icon-part, .pause-icon-part {
+  margin: 0 1%;
+}

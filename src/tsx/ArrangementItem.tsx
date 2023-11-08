@@ -1,19 +1,17 @@
 import { useState } from "react";
 import { BsTriangleFill, BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
 
-import type { Arrangement, Song } from "../types";
+import type { Arrangement, PlayingSong, Song } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
 
 interface ArrangementItemProps {
   handleSelect: (song: Song, checked: boolean) => void;
-  handlePlayingSong: (song: Song) => void;
+  handlePlayingSong: (song: PlayingSong) => void;
   song: Song;
   arrangement: Arrangement;
 }
-
-const url = "/documents/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /media/A_BANDA_TA_COM_SEDE.midi"
 
 const ArrangementItem = ({
   handleSelect,
@@ -29,17 +27,6 @@ const ArrangementItem = ({
     setChecked(!checked);
   };
 
-  const handlePlay = () => {
-    handlePlayingSong({ ...song, arrangements: [arrangement] });
-    // @ts-ignore
-    playSong(url)
-  }
-
-  const handleStop = () => {
-    // @ts-ignore
-    Player.stop();
-  }
-
   return (
     <>
       <tr className="cursor">
@@ -52,12 +39,15 @@ const ArrangementItem = ({
         <td onClick={handleOnChange}>{song.title}</td>
         <td onClick={handleOnChange}>{arrangement.name}</td>
         <td onClick={handleOnChange}>{arrangement.tags}</td>
-        <td><BsPlayCircleFill onClick={handlePlay} /></td>
-        <td><BsFillPauseCircleFill onClick={handleStop} /></td>
       </tr>
       {expand &&
         arrangement.parts.map((part) => (
-          <PartItem part={part} key={part.name} />
+          <PartItem
+            part={part}
+            handlePlayingSong={handlePlayingSong}
+            songName={song.title}
+            arrangementName={arrangement.name}
+          />
         ))
       }
     </>

@@ -3,14 +3,13 @@ import '../css/SongBar.css';
 
 import RangeSlider from 'react-bootstrap-range-slider';
 import { BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
-import { Song } from '../types';
 import { useState } from 'react';
 
 interface SongBarProps {
-  song: Song | undefined;
+  info: { songName: string, arrangementName: string, partName: string | undefined };
 }
 
-const SongBar = ({ song } : SongBarProps) => {
+const SongBar = ({ info } : SongBarProps) => {
   const [value, setValue] = useState(0)
 
   const handlePlay = () => {
@@ -43,9 +42,9 @@ const SongBar = ({ song } : SongBarProps) => {
       >
         <Toast>
           <Toast.Header>
-            {song && <>
-              <strong className="me-auto">{song.title}</strong>
-              <small>{song.arrangements[0].name}</small>
+            {Object.keys(info).length > 0 && <>
+              <strong className="me-auto">{info.songName} | {info.partName}</strong>
+              <small>{info.arrangementName}</small>
             </>}
           </Toast.Header>
           <Toast.Body className="song">

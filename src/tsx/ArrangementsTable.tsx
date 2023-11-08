@@ -1,6 +1,6 @@
 import { Table } from "react-bootstrap";
 
-import type { Song } from "../types";
+import type { PlayingSong, Song } from "../types";
 
 import { ArrangementItem } from "./ArrangementItem";
 import { PaginationBar } from './PaginationBar';
@@ -9,7 +9,7 @@ import { useState } from "react";
 interface ArrangementsTableProps {
   songs: Song[];
   handleSelect: (song: Song, checked: boolean) => void;
-  handlePlayingSong: (song: Song) => void;
+  handlePlayingSong: (info: PlayingSong) => void;
 }
 
 const ArrangementsTable = ({

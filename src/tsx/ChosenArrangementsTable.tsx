@@ -1,7 +1,7 @@
 import { Button, Col, Row, Table } from "react-bootstrap";
 import { useState } from "react";
 
-import type { Song } from "../types";
+import type { PlayingSong, Song } from "../types";
 
 import { PaginationBar } from './PaginationBar';
 import { ChosenArrangementItem } from "./ChosenArrangementItem";
@@ -9,7 +9,7 @@ import { ChosenArrangementItem } from "./ChosenArrangementItem";
 interface ArrangementsTableProps {
   songs: Song[];
   handleSelect: (song: Song, checked: boolean) => void;
-  handlePlayingSong: (song: Song) => void;
+  handlePlayingSong: (song: PlayingSong) => void;
   handleClear: () => void;
 }
 
