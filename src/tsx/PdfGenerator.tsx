@@ -6,6 +6,8 @@ import { Instrument, Song } from "../types";
 // Needed for calling PDFDocument from window variable
 declare const window: any;
 
+const cm2pt = 28.3465
+
 interface PdfGeneratorProps {
   songs: Song[];
 }
@@ -25,7 +27,7 @@ const instruments: Instrument[] = [
 ];
 const documentOptions = {
   layout: "landscape",
-  size: "A5",
+  size: [13*cm2pt,18*cm2pt], //"A5",
   bufferPages: true,
   margin: 0,
 };
@@ -51,9 +53,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
       .then((r) => r.text())
       .then((svg) => {
         doc.switchToPage(page);
-        const width = 550;
-        const height = 400;
-        SVGtoPDF(doc, svg, 20, 30, {
+        const width = 17.17*cm2pt;
+        const height = 9.82*cm2pt;
+        SVGtoPDF(doc, svg, 0.44*cm2pt, 2.55*cm2pt, {
           width: width,
           height: height,
           preserveAspectRatio: `${width}x${height}`,
@@ -106,9 +108,13 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     page: number
   ) => {
     doc.addPage();
-    doc.fontSize(20).text(song.title, 40, 35); // Título
-    doc.fontSize(18).text(song.composer, 45, 55); // Compositor
-    doc.fontSize(15).text(page, 550, 380); // Número de página
+    doc.font('Helvetica-Bold').fontSize(22).text(song.title.toUpperCase(), 0.39*cm2pt, 1.2*cm2pt); // Título x: 0.44*cm2pt, y: 10*cm2pt,
+    doc.rect(0.44*cm2pt, 2.14*cm2pt, 17.17*cm2pt, 0.41*cm2pt).fillAndStroke(); // Retângulo do trecho da letra
+    doc.fontSize(10).fillColor('white').text(song.sub.toUpperCase(), 0.5*cm2pt, 2.2*cm2pt); // Trecho da letra
+    doc.text(song.composer.toUpperCase(), 0.44*cm2pt, 2.2*cm2pt, {align:'right', width: 17.1*cm2pt}); // Compositor
+    doc.rect(0.44*cm2pt, 2.55*cm2pt, 17.17*cm2pt, 9.82*cm2pt).stroke(); // Retângulo da partitura
+    doc.fontSize(9).fillColor('black').text(instrument.toUpperCase(), 0.82*cm2pt, 12.5*cm2pt); // Nome do instrumento
+    doc.fontSize(9).text(`${song.style.toUpperCase()}   ${page}`, 0.44*cm2pt, 12.5*cm2pt, {align:'right', width: 17.1*cm2pt}); // Estilo + Número
     // TODO: Pensar em quando tiver mais de um arranjo
     let svgUrl = "";
     try {
