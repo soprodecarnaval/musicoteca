@@ -1,4 +1,4 @@
-import { Button, Col, Form, Row } from "react-bootstrap";
+import { Button, ButtonGroup, Col, Dropdown, Form, Row } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
 import { Instrument, Song } from "../types";
@@ -13,17 +13,17 @@ interface PdfGeneratorProps {
 }
 
 const instruments: Instrument[] = [
-  "bombardino",
-  "clarinete",
-  "flauta",
+  "trompete",
+  "trombone",
   "sax alto",
   "sax soprano",
   "sax tenor",
-  "trombone",
-  "trombone pirata",
-  "trompete",
-  "trompete pirata",
+  "flauta",
   "tuba",
+  "bombardino",
+  "clarinete",
+  "trombone pirata",
+  "trompete pirata",
 ];
 const documentOptions = {
   layout: "landscape",
@@ -118,7 +118,6 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     // TODO: Pensar em quando tiver mais de um arranjo
     let svgUrl = "";
     try {
-      console.log(song.arrangements[0]);
       svgUrl = song.arrangements[0].parts
         .filter((part) => part.instrument == instrument)[0]
         .assets.filter((file) => file.extension == ".svg")[0].path;
@@ -148,8 +147,12 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     }
   };
 
-  const generatePdf = (e: any) => {
+  const generatePdf = (e: any, instrument : string = "all") => {
     e.preventDefault();
+    let selectedInstruments = instruments
+    if (instrument != "all"){
+      selectedInstruments = selectedInstruments.filter((i) => instrument == i)
+    }
     if (songs.length < 1) {
       alert("Selecione ao menos 1 arranjo!");
       return;
@@ -158,7 +161,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
       alert("Digite um título para o caderninho!");
       return;
     }
-    const songbooks: any[] = instruments.map((instrument) => {
+    const songbooks: any[] = selectedInstruments.map((instrument) => {
       createSongBook(instrument);
     });
     Promise.all(songbooks).then(() => {
@@ -169,10 +172,12 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
   const [songbookTitle, setTitle] = useState("");
   const onInput = ({ target: { value } }: any) => setTitle(value);
 
+
+
   return (
+      <Row>
     <Form className="d-flex" onSubmit={generatePdf}>
-      <Row className="mt-4">
-        <Col sm={8}>
+        <Col sm={4}>
           <Form.Control
             type="text"
             onChange={onInput}
@@ -181,10 +186,23 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
           />
         </Col>
         <Col sm={4}>
-          <Button type="submit">Gerar PDF</Button>
+        <Dropdown as={ButtonGroup}>
+          <Button type="submit">Gerar todos</Button>
+
+          <Dropdown.Toggle split id="dropdown-split-basic" />
+
+          <Dropdown.Menu>
+            {
+              instruments.map((instrument) => 
+              <Dropdown.Item key={instrument} onClick={(event)=> generatePdf(event,instrument)}>
+                {instrument.toUpperCase()}
+              </Dropdown.Item>)
+            } 
+          </Dropdown.Menu>
+        </Dropdown>
         </Col>
-      </Row>
     </Form>
+      </Row>
   );
 };
 
