@@ -73,8 +73,14 @@ function App() {
         </Container>
       </Navbar>
       <Container>
-        <SearchBar handleResults={setResults} />
-        <PDFGenerator songs={selectedResults} />
+        <Row>
+          <Col sm={6}>
+            <SearchBar handleResults={setResults} />
+          </Col>
+          <Col sm={6}>
+            <PDFGenerator songs={selectedResults} />
+          </Col>
+        </Row>
         <SongBar info={playingSong} />
         <Row className="mt-4">
           <Col sm={6}>

@@ -27,7 +27,7 @@ const instruments: Instrument[] = [
 ];
 const documentOptions = {
   layout: "landscape",
-  size: [13*cm2pt,18*cm2pt], //"A5",
+  size: [13 * cm2pt, 18 * cm2pt], //"A5",
   bufferPages: true,
   margin: 0,
 };
@@ -53,9 +53,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
       .then((r) => r.text())
       .then((svg) => {
         doc.switchToPage(page);
-        const width = 17.17*cm2pt;
-        const height = 9.82*cm2pt;
-        SVGtoPDF(doc, svg, 0.44*cm2pt, 2.55*cm2pt, {
+        const width = 17.17 * cm2pt;
+        const height = 9.82 * cm2pt;
+        SVGtoPDF(doc, svg, 0.44 * cm2pt, 2.55 * cm2pt, {
           width: width,
           height: height,
           preserveAspectRatio: `${width}x${height}`,
@@ -108,13 +108,13 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     page: number
   ) => {
     doc.addPage();
-    doc.font('Helvetica-Bold').fontSize(22).text(song.title.toUpperCase(), 0.39*cm2pt, 1.2*cm2pt); // Título x: 0.44*cm2pt, y: 10*cm2pt,
-    doc.rect(0.44*cm2pt, 2.14*cm2pt, 17.17*cm2pt, 0.41*cm2pt).fillAndStroke(); // Retângulo do trecho da letra
-    doc.fontSize(10).fillColor('white').text(song.sub.toUpperCase(), 0.5*cm2pt, 2.2*cm2pt); // Trecho da letra
-    doc.text(song.composer.toUpperCase(), 0.44*cm2pt, 2.2*cm2pt, {align:'right', width: 17.1*cm2pt}); // Compositor
-    doc.rect(0.44*cm2pt, 2.55*cm2pt, 17.17*cm2pt, 9.82*cm2pt).stroke(); // Retângulo da partitura
-    doc.fontSize(9).fillColor('black').text(instrument.toUpperCase(), 0.82*cm2pt, 12.5*cm2pt); // Nome do instrumento
-    doc.fontSize(9).text(`${song.style.toUpperCase()}   ${page}`, 0.44*cm2pt, 12.5*cm2pt, {align:'right', width: 17.1*cm2pt}); // Estilo + Número
+    doc.font('Helvetica-Bold').fontSize(22).text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt); // Título x: 0.44*cm2pt, y: 10*cm2pt,
+    doc.rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt).fillAndStroke(); // Retângulo do trecho da letra
+    doc.fontSize(10).fillColor('white').text(song.sub.toUpperCase(), 0.5 * cm2pt, 2.2 * cm2pt); // Trecho da letra
+    doc.text(song.composer.toUpperCase(), 0.44 * cm2pt, 2.2 * cm2pt, { align: 'right', width: 17.1 * cm2pt }); // Compositor
+    doc.rect(0.44 * cm2pt, 2.55 * cm2pt, 17.17 * cm2pt, 9.82 * cm2pt).stroke(); // Retângulo da partitura
+    doc.fontSize(9).fillColor('black').text(instrument.toUpperCase(), 0.82 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
+    doc.fontSize(9).text(`${song.style.toUpperCase()}   ${page}`, 0.44 * cm2pt, 12.5 * cm2pt, { align: 'right', width: 17.1 * cm2pt }); // Estilo + Número
     // TODO: Pensar em quando tiver mais de um arranjo
     let svgUrl = "";
     try {
@@ -134,8 +134,8 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
 
   const createSongBook = async (instrument: Instrument) => {
     const doc = createDoc();
-    doc.fontSize(25).text(songbookTitle, 120, 100);
-    doc.fontSize(22).text(instrument, 120, 125);
+    doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
+    doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
     const promises = songs.map((song, songIdx) => {
       return createMusicSheet(doc, instrument, song, songIdx + 1);
     });
@@ -147,10 +147,10 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     }
   };
 
-  const generatePdf = (e: any, instrument : string = "all") => {
+  const generatePdf = (e: any, instrument: string = "all") => {
     e.preventDefault();
     let selectedInstruments = instruments
-    if (instrument != "all"){
+    if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i)
     }
     if (songs.length < 1) {
@@ -175,9 +175,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
 
 
   return (
-      <Row>
-    <Form className="d-flex" onSubmit={generatePdf}>
-        <Col sm={4}>
+    <Row className="mt-4">
+      <Form className="d-flex" onSubmit={generatePdf}>
+        <Col sm={6}>
           <Form.Control
             type="text"
             onChange={onInput}
@@ -185,24 +185,31 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
             placeholder="Título do caderninho"
           />
         </Col>
-        <Col sm={4}>
-        <Dropdown as={ButtonGroup}>
-          <Button type="submit">Gerar todos</Button>
+        <Col sm={3}>
+          <Dropdown as={ButtonGroup}>
+            <Button type="submit">Gerar todos</Button>
 
-          <Dropdown.Toggle split id="dropdown-split-basic" />
+            <Dropdown.Toggle split id="dropdown-split-basic" />
 
-          <Dropdown.Menu>
-            {
-              instruments.map((instrument) => 
-              <Dropdown.Item key={instrument} onClick={(event)=> generatePdf(event,instrument)}>
-                {instrument.toUpperCase()}
-              </Dropdown.Item>)
-            } 
-          </Dropdown.Menu>
-        </Dropdown>
+            <Dropdown.Menu>
+              {
+                instruments.map((instrument) =>
+                  <Dropdown.Item key={instrument} onClick={(event) => generatePdf(event, instrument)}>
+                    {instrument.toUpperCase()}
+                  </Dropdown.Item>)
+              }
+            </Dropdown.Menu>
+          </Dropdown>
         </Col>
-    </Form>
-      </Row>
+        <Col sm={3}>
+          <Form.Check
+            type="checkbox"
+            id="back-number"
+            label="Número no verso?"
+          />
+        </Col>
+      </Form>
+    </Row>
   );
 };
 
