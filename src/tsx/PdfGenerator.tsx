@@ -52,7 +52,8 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     return fetch(url)
       .then((r) => r.text())
       .then((svg) => {
-        doc.switchToPage(page);
+        let pdfPage = backNumber ? 2*page + 2 : page + 1
+        doc.switchToPage(pdfPage);
         const width = 17.17 * cm2pt;
         const height = 9.82 * cm2pt;
         SVGtoPDF(doc, svg, 0.44 * cm2pt, 2.55 * cm2pt, {
@@ -107,6 +108,11 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     song: Song,
     page: number
   ) => {
+    if ( backNumber ) {
+      doc.addPage()
+      doc.font('Helvetica-Bold').fontSize(9*cm2pt).text(page, 0, 2.14 * cm2pt, { align: 'center', width: 18 * cm2pt, height: 9*cm2pt }); // Número do verso
+      doc.font('Helvetica').fontSize(1*cm2pt).text(song.title.toUpperCase(), 0*cm2pt, 10.5 * cm2pt, { align: 'center', width: 18 * cm2pt }); // Título do verso
+    }
     doc.addPage();
     doc.font('Helvetica-Bold').fontSize(22).text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt); // Título x: 0.44*cm2pt, y: 10*cm2pt,
     doc.rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt).fillAndStroke(); // Retângulo do trecho da letra
@@ -136,6 +142,8 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     const doc = createDoc();
     doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
     doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
+    if ( backNumber ) doc.addPage()
+    doc.addPage().fontSize(25).text("ÍNDICE", 120, 100); //TODO: Índice
     const promises = songs.map((song, songIdx) => {
       return createMusicSheet(doc, instrument, song, songIdx + 1);
     });
@@ -172,6 +180,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
   const [songbookTitle, setTitle] = useState("");
   const onInput = ({ target: { value } }: any) => setTitle(value);
 
+  const [backNumber, setBackNumber] = useState(false);
+  const onCheckBackNumber = ({ target: { checked } }: any) => setBackNumber(checked);
+
 
 
   return (
@@ -201,11 +212,12 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
             </Dropdown.Menu>
           </Dropdown>
         </Col>
-        <Col sm={3}>
+        <Col sm={4}>
           <Form.Check
-            type="checkbox"
+            type="switch"
             id="back-number"
-            label="Número no verso?"
+            label="Número no verso"
+            onChange={onCheckBackNumber}
           />
         </Col>
       </Form>
