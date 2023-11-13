@@ -179,23 +179,22 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
   const addIndexPage = (doc: any) => {
     doc.addPage().fontSize(25).text("ÍNDICE", 20, 20);
 
-    const entriesPerColumn = 34;
-
-    const numColumns = Math.ceil(songs.length / entriesPerColumn);
-    console.log("numColumns", numColumns);
-    let songIdx = 0;
-
     const containerPaddingX = 20;
     const containerPaddingT = 50;
-    const containerPaddingB = 16;
+    const containerPaddingB = 10;
+
     const containerWidth = pageWidth - 2 * containerPaddingX;
-    // const containerHeight = pageHeight - containerPaddingT - containerPaddingB;
+    const containerHeight = pageHeight - containerPaddingT - containerPaddingB;
 
     const entryFontSize = 7;
     const cellPaddingX = Math.min(Math.ceil(0.5 * entryFontSize), 1);
     const cellPaddingY = Math.min(Math.ceil(0.25 * entryFontSize), 1);
 
     const entryHeight = entryFontSize + 2 * cellPaddingY;
+
+    const entriesPerColumn = Math.floor(containerHeight / entryHeight);
+
+    const numColumns = Math.ceil(songs.length / entriesPerColumn);
     const entryWidth = containerWidth / numColumns;
 
     const gridPosition = (i: number, j: number) => {
@@ -205,6 +204,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
       ];
     };
 
+    let songIdx = 0;
     for (let i = 0; i < numColumns; i++) {
       for (let j = 0; j < entriesPerColumn; j++) {
         const [x, y] = gridPosition(i, j);
