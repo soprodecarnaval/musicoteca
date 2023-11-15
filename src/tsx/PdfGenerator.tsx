@@ -134,7 +134,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc
       .font("Helvetica-Bold")
       .fontSize(22)
-      .text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt); // Título x: 0.44*cm2pt, y: 10*cm2pt,
+      .text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt, {
+        destination: page 
+      }); // Título x: 0.44*cm2pt, y: 10*cm2pt,
     doc
       .rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt)
       .fillAndStroke(); // Retângulo do trecho da letra
@@ -177,61 +179,90 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
   };
 
   const addIndexPage = (doc: any) => {
-    doc.addPage().fontSize(25).text("ÍNDICE", 20, 20);
+    const songsCount = songs.length
+    const styles = new Set(songs.map((song)=>song.style))
+    const stylesCount = styles.size
+    const containerWidth = 17.17 * cm2pt
+    const containerHeight = 9.82 * cm2pt
+    const totalLineCount = songsCount + stylesCount*2
 
-    const containerPaddingX = 20;
-    const containerPaddingT = 50;
-    const containerPaddingB = 10;
-
-    const containerWidth = pageWidth - 2 * containerPaddingX;
-    const containerHeight = pageHeight - containerPaddingT - containerPaddingB;
-
-    const entryFontSize = 7;
-    const cellPaddingX = Math.min(Math.ceil(0.5 * entryFontSize), 1);
-    const cellPaddingY = Math.min(Math.ceil(0.25 * entryFontSize), 1);
-
-    const entryHeight = entryFontSize + 2 * cellPaddingY;
-
-    const entriesPerColumn = Math.floor(containerHeight / entryHeight);
-
-    const numColumns = Math.ceil(songs.length / entriesPerColumn);
-    const entryWidth = containerWidth / numColumns;
-
-    const gridPosition = (i: number, j: number) => {
-      return [
-        containerPaddingX + i * entryWidth,
-        containerPaddingT + j * entryHeight,
-      ];
-    };
-
-    let songIdx = 0;
-    for (let i = 0; i < numColumns; i++) {
-      for (let j = 0; j < entriesPerColumn; j++) {
-        const [x, y] = gridPosition(i, j);
-
-        if (songIdx >= songs.length) {
-          break;
-        }
-        const song = songs[songIdx];
-        doc
-          .fontSize(entryFontSize)
-          .text(
-            `${songIdx + 1}. ${song.title.toUpperCase()}`,
-            x + cellPaddingX,
-            y + cellPaddingY
-          );
-        songIdx++;
-      }
+    let columnCount = 1
+    if (totalLineCount > 80){
+      columnCount = 4
+    } else if (totalLineCount > 50) {
+      columnCount = 3
+    } else if (totalLineCount > 20) {
+      columnCount = 2
     }
-  };
+
+    const maxLinesPerColumn = Math.floor(totalLineCount/columnCount)
+    const fontSize = Math.min(Math.floor(containerHeight/maxLinesPerColumn),15)
+    const columnWidth = Math.floor(containerWidth/columnCount)
+
+    let cursorStartPosition = [0.44 * cm2pt, 2.55 * cm2pt]
+    let currentColumn = 0
+    let currentLine = 0
+    let itemCount = 0
+    let songCount = 0
+    const nextCursorPosition = () => {
+      if (itemCount == 0) {
+        itemCount++
+        return cursorStartPosition
+      }
+      currentLine = itemCount % (maxLinesPerColumn+1)  //Math.max((itemCount+1)%(maxLinesPerColumn+1),1)
+      currentColumn = Math.ceil((itemCount+1)/(maxLinesPerColumn+1))-1//Math.max(Math.ceil((itemCount+1)/maxLinesPerColumn),1)
+      itemCount++
+      return [
+        cursorStartPosition[0]+currentColumn*columnWidth,
+        cursorStartPosition[1]+currentLine*fontSize
+      ]
+    }
+    let [currentX,currentY] = nextCursorPosition()
+    let reorderedSongs: Song[] = []
+    doc.addPage().fontSize(25).text("ÍNDICE", 20, 20);
+    [...styles].sort().forEach((style) => {
+      songs.filter((song) => song.style == style).forEach((song,i) => {
+        reorderedSongs.push(song)
+        if(i == 0){
+          doc.font("Helvetica-Bold")
+          .fontSize(fontSize)
+          .text(
+            `   ${style.toUpperCase()}`,
+            currentX,
+            currentY
+          );
+          [currentX, currentY] = nextCursorPosition()
+        }
+        doc.font("Helvetica-Bold")
+          .fontSize(fontSize-2)
+          .text(
+            1+songCount++,
+            currentX,
+            currentY,
+            {
+              continued:true,
+              goTo: songCount
+            }
+          ) // Número da página
+          .font('Helvetica')
+          .text(
+            ` ${song.title.toUpperCase()}`,
+            {continued:false}
+          );
+          [currentX, currentY] = nextCursorPosition()
+      });
+      [currentX, currentY] = nextCursorPosition()
+    });
+    return reorderedSongs
+  }
 
   const createSongBook = async (instrument: Instrument) => {
     const doc = createDoc();
     doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
     doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
     if (backNumber) doc.addPage();
-    addIndexPage(doc);
-    const promises = songs.map((song, songIdx) => {
+    const reorderedSongs = addIndexPage(doc)
+    const promises = reorderedSongs.map((song, songIdx) => {
       return addSongPage(doc, instrument, song, songIdx + 1);
     });
 
