@@ -134,7 +134,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc
       .font("Helvetica-Bold")
       .fontSize(22)
-      .text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt); // Título x: 0.44*cm2pt, y: 10*cm2pt,
+      .text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt, {
+        destination: page 
+      }); // Título x: 0.44*cm2pt, y: 10*cm2pt,
     doc
       .rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt)
       .fillAndStroke(); // Retângulo do trecho da letra
@@ -175,6 +177,84 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
   const createFileName = (instrument: string) => {
     return `${songbookTitle.replace(/[ -]/g, "_")}_${instrument}.pdf`;
   };
+
+  const createIndexPage = (doc: any) => {
+    const songsCount = songs.length
+    const styles = new Set(songs.map((song)=>song.style))
+    const stylesCount = styles.size
+    const containerWidth = 17.17 * cm2pt
+    const containerHeight = 9.82 * cm2pt
+    const totalLineCount = songsCount + stylesCount*2
+
+    let columnCount = 1
+    if (totalLineCount > 80){
+      columnCount = 4
+    } else if (totalLineCount > 50) {
+      columnCount = 3
+    } else if (totalLineCount > 20) {
+      columnCount = 2
+    }
+
+    const maxLinesPerColumn = Math.floor(totalLineCount/columnCount)
+    const fontSize = Math.min(Math.floor(containerHeight/maxLinesPerColumn),15)
+    const columnWidth = Math.floor(containerWidth/columnCount)
+
+    let cursorStartPosition = [0.44 * cm2pt, 2.55 * cm2pt]
+    let currentColumn = 0
+    let currentLine = 0
+    let itemCount = 0
+    let songCount = 0
+    const nextCursorPosition = () => {
+      if (itemCount == 0) {
+        itemCount++
+        return cursorStartPosition
+      }
+      currentLine = itemCount % (maxLinesPerColumn+1)  //Math.max((itemCount+1)%(maxLinesPerColumn+1),1)
+      currentColumn = Math.ceil((itemCount+1)/(maxLinesPerColumn+1))-1//Math.max(Math.ceil((itemCount+1)/maxLinesPerColumn),1)
+      itemCount++
+      return [
+        cursorStartPosition[0]+currentColumn*columnWidth,
+        cursorStartPosition[1]+currentLine*fontSize
+      ]
+    }
+    let [currentX,currentY] = nextCursorPosition()
+    let reorderedSongs = []
+    doc.addPage().fontSize(25).text("ÍNDICE", 20, 20);
+    [...styles].sort().forEach((style) => {
+      songs.filter((song) => song.style == style).forEach((song,i) => {
+        reorderedSongs.push(song)
+        if(i == 0){
+          doc.font("Helvetica-Bold")
+          .fontSize(fontSize)
+          .text(
+            `   ${style.toUpperCase()}`,
+            currentX,
+            currentY
+          );
+          [currentX, currentY] = nextCursorPosition()
+        }
+        doc.font("Helvetica-Bold")
+          .fontSize(fontSize-2)
+          .text(
+            1+songCount++,
+            currentX,
+            currentY,
+            {
+              continued:true,
+              goTo: songCount
+            }
+          ) // Número da página
+          .font('Helvetica')
+          .text(
+            ` ${song.title.toUpperCase()}`,
+            {continued:false}
+          );
+          [currentX, currentY] = nextCursorPosition()
+      });
+      [currentX, currentY] = nextCursorPosition()
+    });
+    return reorderedSongs
+  }
 
   const addIndexPage = (doc: any) => {
     doc.addPage().fontSize(25).text("ÍNDICE", 20, 20);
@@ -230,8 +310,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
     doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
     if (backNumber) doc.addPage();
-    addIndexPage(doc);
-    const promises = songs.map((song, songIdx) => {
+    // addIndexPage(doc);
+    const reorderedSongs = createIndexPage(doc)
+    const promises = reorderedSongs.map((song, songIdx) => {
       return addSongPage(doc, instrument, song, songIdx + 1);
     });
 
