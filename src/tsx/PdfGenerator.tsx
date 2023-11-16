@@ -222,16 +222,17 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     }
     let [currentX,currentY] = nextCursorPosition()
     let reorderedSongs: Song[] = []
-    doc.addPage().fontSize(25).text("ÍNDICE", 20, 20);
+    doc.addPage().fontSize(25).font("Helvetica-Bold").text("ÍNDICE", currentX+0.3*cm2pt, 1.2*cm2pt);
     [...styles].sort().forEach((style) => {
       songs.filter((song) => song.style == style).forEach((song,i) => {
         reorderedSongs.push(song)
         if(i == 0){
+          if(currentLine == maxLinesPerColumn) [currentX, currentY] = nextCursorPosition()
           doc.font("Helvetica-Bold")
-          .fontSize(fontSize)
+          .fontSize(fontSize-2)
           .text(
-            `   ${style.toUpperCase()}`,
-            currentX,
+            `${style.toUpperCase()}`,
+            currentX+0.3*cm2pt,
             currentY
           );
           [currentX, currentY] = nextCursorPosition()
@@ -240,21 +241,26 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
           .fontSize(fontSize-2)
           .text(
             1+songCount++,
-            currentX,
+            currentX-0.3*cm2pt,
             currentY,
             {
-              continued:true,
+              align: "right",
+              width: 0.5*cm2pt,
               goTo: songCount
             }
           ) // Número da página
           .font('Helvetica')
           .text(
-            ` ${song.title.toUpperCase()}`,
-            {continued:false}
+            `${song.title.toUpperCase()}`,
+            currentX+0.3*cm2pt,
+            currentY,
+            {
+              goTo: songCount
+            }
           );
           [currentX, currentY] = nextCursorPosition()
       });
-      [currentX, currentY] = nextCursorPosition()
+      if(currentLine != 0) [currentX, currentY] = nextCursorPosition()
     });
     return reorderedSongs
   }
