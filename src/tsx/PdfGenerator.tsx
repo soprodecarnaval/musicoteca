@@ -12,6 +12,8 @@ const cm2pt = 28.3465;
 const pageWidth = 18 * cm2pt;
 const pageHeight = 13 * cm2pt;
 
+let stylesOutlines = new Map()
+
 interface PdfGeneratorProps {
   songs: Song[];
 }
@@ -131,6 +133,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
         }); // Título do verso
     }
     doc.addPage();
+    stylesOutlines.get(song.style).addItem(song.title.toUpperCase())
     doc
       .font("Helvetica-Bold")
       .fontSize(22)
@@ -152,7 +155,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc
       .fontSize(9)
       .fillColor("black")
-      .text(instrument.toUpperCase(), 0.82 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
+      .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
     doc
       .fontSize(9)
       .text(
@@ -219,16 +222,17 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     }
     let [currentX,currentY] = nextCursorPosition()
     let reorderedSongs: Song[] = []
-    doc.addPage().fontSize(25).text("ÍNDICE", 20, 20);
+    doc.addPage().fontSize(25).font("Helvetica-Bold").text("ÍNDICE", currentX+0.3*cm2pt, 1.2*cm2pt);
     [...styles].sort().forEach((style) => {
       songs.filter((song) => song.style == style).forEach((song,i) => {
         reorderedSongs.push(song)
         if(i == 0){
+          if(currentLine == maxLinesPerColumn) [currentX, currentY] = nextCursorPosition()
           doc.font("Helvetica-Bold")
-          .fontSize(fontSize)
+          .fontSize(fontSize-2)
           .text(
-            `   ${style.toUpperCase()}`,
-            currentX,
+            `${style.toUpperCase()}`,
+            currentX+0.3*cm2pt,
             currentY
           );
           [currentX, currentY] = nextCursorPosition()
@@ -237,21 +241,26 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
           .fontSize(fontSize-2)
           .text(
             1+songCount++,
-            currentX,
+            currentX-0.3*cm2pt,
             currentY,
             {
-              continued:true,
+              align: "right",
+              width: 0.5*cm2pt,
               goTo: songCount
             }
           ) // Número da página
           .font('Helvetica')
           .text(
-            ` ${song.title.toUpperCase()}`,
-            {continued:false}
+            `${song.title.toUpperCase()}`,
+            currentX+0.3*cm2pt,
+            currentY,
+            {
+              goTo: songCount
+            }
           );
           [currentX, currentY] = nextCursorPosition()
       });
-      [currentX, currentY] = nextCursorPosition()
+      if(currentLine != 0) [currentX, currentY] = nextCursorPosition()
     });
     return reorderedSongs
   }
@@ -261,7 +270,13 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
     doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
     if (backNumber) doc.addPage();
-    const reorderedSongs = addIndexPage(doc)
+    let reorderedSongs = addIndexPage(doc)
+    let styles = new Set(songs.map((song)=>song.style))
+    const { outline } = doc
+    styles.forEach((style) => {
+      let topItem = outline.addItem(style.toUpperCase())
+      stylesOutlines.set(style,topItem)
+    })
     const promises = reorderedSongs.map((song, songIdx) => {
       return addSongPage(doc, instrument, song, songIdx + 1);
     });
