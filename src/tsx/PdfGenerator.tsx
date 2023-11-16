@@ -12,6 +12,8 @@ const cm2pt = 28.3465;
 const pageWidth = 18 * cm2pt;
 const pageHeight = 13 * cm2pt;
 
+let stylesOutlines = new Map()
+
 interface PdfGeneratorProps {
   songs: Song[];
 }
@@ -131,6 +133,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
         }); // Título do verso
     }
     doc.addPage();
+    stylesOutlines.get(song.style).addItem(song.title.toUpperCase())
     doc
       .font("Helvetica-Bold")
       .fontSize(22)
@@ -261,7 +264,13 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
     doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
     if (backNumber) doc.addPage();
-    const reorderedSongs = addIndexPage(doc)
+    let reorderedSongs = addIndexPage(doc)
+    let styles = new Set(songs.map((song)=>song.style))
+    const { outline } = doc
+    styles.forEach((style) => {
+      let topItem = outline.addItem(style.toUpperCase())
+      stylesOutlines.set(style,topItem)
+    })
     const promises = reorderedSongs.map((song, songIdx) => {
       return addSongPage(doc, instrument, song, songIdx + 1);
     });
