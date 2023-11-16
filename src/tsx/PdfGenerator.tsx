@@ -155,7 +155,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc
       .fontSize(9)
       .fillColor("black")
-      .text(instrument.toUpperCase(), 0.82 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
+      .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
     doc
       .fontSize(9)
       .text(
