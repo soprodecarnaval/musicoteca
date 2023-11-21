@@ -42,7 +42,7 @@ const ArrangementsTable = ({
               <ArrangementItem
                 handleSelect={handleSelect}
                 arrangement={arrangement}
-                song={songs[songIdx]}
+                song={song}
                 key={arrangement.name}
                 handlePlayingSong={handlePlayingSong}
               />
