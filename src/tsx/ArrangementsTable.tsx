@@ -37,7 +37,7 @@ const ArrangementsTable = ({
           </tr>
         </thead>
         <tbody>
-          {songs.slice((currentPage - 1) * 10, currentPage * 10).map((song, songIdx) =>
+          {songs.slice((currentPage - 1) * 10, currentPage * 10).map((song) =>
             song.arrangements.map((arrangement) => (
               <ArrangementItem
                 handleSelect={handleSelect}
