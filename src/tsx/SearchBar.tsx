@@ -25,6 +25,7 @@ const fuse = new Fuse(
     includeScore: true,
     shouldSort: true,
     threshold: 0.1,
+    useExtendedSearch: true
   },
   songIndex
 );
