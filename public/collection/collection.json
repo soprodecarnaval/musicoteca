@@ -2,40 +2,40 @@
   "songs": [
     {
       "id": "axes-a-luz-de-tieta",
-      "title": "a luz de tiêta",
+      "title": "a luz de tiêta",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "axes-a-luz-de-tieta-carnaval-bh-2023-a-luz-de-tieta",
-          "name": "carnaval bh 2023 - a luz de tiêta",
+          "name": "carnaval bh 2023 - a luz de tiêta",
           "assets": [
             {
-              "path": "axés/a luz de tiêta/carnaval bh 2023 - a luz de tiêta/carnaval bh 2023 - a luz de tiêta.mscz",
+              "path": "axés/a luz de tiêta/carnaval bh 2023 - a luz de tiêta/carnaval bh 2023 - a luz de tiêta.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
           "id": "axes-a-luz-de-tieta-carnaval-bh-2024-a-luz-de-tieta",
-          "name": "carnaval bh 2024 - a luz de tiêta",
+          "name": "carnaval bh 2024 - a luz de tiêta",
           "assets": [
             {
-              "path": "axés/a luz de tiêta/carnaval bh 2024 - a luz de tiêta/carnaval bh 2024 - a luz de tiêta.mscz",
+              "path": "axés/a luz de tiêta/carnaval bh 2024 - a luz de tiêta/carnaval bh 2024 - a luz de tiêta.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-a-roda",
@@ -48,17 +48,17 @@
           "name": "carnaval bh 2023 - a roda",
           "assets": [
             {
-              "path": "axés/a roda/carnaval bh 2023 - a roda/carnaval bh 2023 - a roda.mscz",
+              "path": "axés/a roda/carnaval bh 2023 - a roda/carnaval bh 2023 - a roda.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-alo-paixao",
@@ -71,17 +71,17 @@
           "name": "carnaval bh 2023 - alo paixao",
           "assets": [
             {
-              "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.mscz",
+              "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-apocalipse-do-amor",
@@ -94,81 +94,81 @@
           "name": "carnaval bh 2023 - apocalipse do amor",
           "assets": [
             {
-              "path": "axés/apocalipse do amor/carnaval bh 2023 - apocalipse do amor/carnaval bh 2023 - apocalipse do amor.mscz",
+              "path": "axés/apocalipse do amor/carnaval bh 2023 - apocalipse do amor/carnaval bh 2023 - apocalipse do amor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-araketu-e-bom-demais",
-      "title": "araketu é bom demais",
+      "title": "araketu é bom demais",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "axes-araketu-e-bom-demais-carnaval-bh-2023-araketu-e-bom-demais",
-          "name": "carnaval bh 2023 - araketu é bom demais",
+          "name": "carnaval bh 2023 - araketu é bom demais",
           "assets": [
             {
-              "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.mscz",
+              "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
           "id": "axes-araketu-e-bom-demais-carnaval-bh-2024-araketu-e-bom-demais",
-          "name": "carnaval bh 2024 - araketu é bom demais",
+          "name": "carnaval bh 2024 - araketu é bom demais",
           "assets": [
             {
-              "path": "axés/araketu é bom demais/carnaval bh 2024 - araketu é bom demais/carnaval bh 2024 - araketu é bom demais.mscz",
+              "path": "axés/araketu é bom demais/carnaval bh 2024 - araketu é bom demais/carnaval bh 2024 - araketu é bom demais.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-arere-e-e",
-      "title": "arerê-ê-ê",
+      "title": "arerê-ê-ê",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "axes-arere-e-e-carnaval-bh-2023-arere-e-e",
-          "name": "carnaval bh 2023 - arere-ê-ê",
+          "name": "carnaval bh 2023 - arere-ê-ê",
           "assets": [
             {
-              "path": "axés/arerê-ê-ê/carnaval bh 2023 - arere-ê-ê/carnaval bh 2023 - arere-ê-ê.mscz",
+              "path": "axés/arerê-ê-ê/carnaval bh 2023 - arere-ê-ê/carnaval bh 2023 - arere-ê-ê.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-avisa-la-o-o-nossa-gente-",
-      "title": "avisa la ô-ô (nossa gente)",
+      "title": "avisa la ô-ô (nossa gente)",
       "composer": "",
       "sub": "",
       "arrangements": [
@@ -177,54 +177,54 @@
           "name": "carnaval bh 2023 - nossa gente",
           "assets": [
             {
-              "path": "axés/avisa la ô-ô (nossa gente)/carnaval bh 2023 - nossa gente/carnaval bh 2023 - nossa gente.mscz",
+              "path": "axés/avisa la ô-ô (nossa gente)/carnaval bh 2023 - nossa gente/carnaval bh 2023 - nossa gente.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-baianidade-nago",
-      "title": "baianidade nagô",
+      "title": "baianidade nagô",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "axes-baianidade-nago-carnaval-bh-2023-baianidade-nago",
-          "name": "carnaval bh 2023 - baianidade nagô",
+          "name": "carnaval bh 2023 - baianidade nagô",
           "assets": [
             {
-              "path": "axés/baianidade nagô/carnaval bh 2023 - baianidade nagô/carnaval bh 2023 - baianidade nagô.mscz",
+              "path": "axés/baianidade nagô/carnaval bh 2023 - baianidade nagô/carnaval bh 2023 - baianidade nagô.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
           "id": "axes-baianidade-nago-carnaval-bh-2024-baianidade-nago",
-          "name": "carnaval bh 2024 - baianidade nagô",
+          "name": "carnaval bh 2024 - baianidade nagô",
           "assets": [
             {
-              "path": "axés/baianidade nagô/carnaval bh 2024 - baianidade nagô/carnaval bh 2024 - baianidade nagô.mscz",
+              "path": "axés/baianidade nagô/carnaval bh 2024 - baianidade nagô/carnaval bh 2024 - baianidade nagô.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-beija-flor",
@@ -237,13 +237,13 @@
           "name": "carnaval bh 2023 - beija flor",
           "assets": [
             {
-              "path": "axés/beija flor/carnaval bh 2023 - beija flor/carnaval bh 2023 - beija flor.mscz",
+              "path": "axés/beija flor/carnaval bh 2023 - beija flor/carnaval bh 2023 - beija flor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
@@ -251,17 +251,17 @@
           "name": "carnaval bh 2024 - beija flor",
           "assets": [
             {
-              "path": "axés/beija flor/carnaval bh 2024 - beija flor/carnaval bh 2024 - beija flor.mscz",
+              "path": "axés/beija flor/carnaval bh 2024 - beija flor/carnaval bh 2024 - beija flor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-beijo-na-boca",
@@ -274,17 +274,17 @@
           "name": "carnaval bh 2023 - beijo na boca",
           "assets": [
             {
-              "path": "axés/beijo na boca/carnaval bh 2023 - beijo na boca/carnaval bh 2023 - beijo na boca.mscz",
+              "path": "axés/beijo na boca/carnaval bh 2023 - beijo na boca/carnaval bh 2023 - beijo na boca.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-beleza-rara-hoje-sou-feliz-e-canto-",
@@ -297,17 +297,17 @@
           "name": "carnaval bh 2023 - beleza rara",
           "assets": [
             {
-              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.mscz",
+              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-carrinho-de-mao",
@@ -317,20 +317,20 @@
       "arrangements": [
         {
           "id": "axes-carrinho-de-mao-carnaval-bh-2023-carrinho-de-mao",
-          "name": "carnaval bh 2023 - carrinho de mão",
+          "name": "carnaval bh 2023 - carrinho de mão",
           "assets": [
             {
-              "path": "axés/carrinho de mao/carnaval bh 2023 - carrinho de mão/carnaval bh 2023 - carrinho de mão.mscz",
+              "path": "axés/carrinho de mao/carnaval bh 2023 - carrinho de mão/carnaval bh 2023 - carrinho de mão.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-chuva-suor-e-cerveja",
@@ -343,17 +343,17 @@
           "name": "carnaval bh 2023 - chuva suor e cerveja",
           "assets": [
             {
-              "path": "axés/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.mscz",
+              "path": "axés/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-danca-do-vampiro",
@@ -363,20 +363,20 @@
       "arrangements": [
         {
           "id": "axes-danca-do-vampiro-carnaval-bh-2023-danca-do-vampiro",
-          "name": "carnaval bh 2023 - dança do vampiro",
+          "name": "carnaval bh 2023 - dança do vampiro",
           "assets": [
             {
-              "path": "axés/danca do vampiro/carnaval bh 2023 - dança do vampiro/carnaval bh 2023 - dança do vampiro.mscz",
+              "path": "axés/danca do vampiro/carnaval bh 2023 - dança do vampiro/carnaval bh 2023 - dança do vampiro.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-deusa-do-amor",
@@ -389,13 +389,13 @@
           "name": "carnaval bh 2023 - deusa do amor",
           "assets": [
             {
-              "path": "axés/deusa do amor/carnaval bh 2023 - deusa do amor/carnaval bh 2023 - deusa do amor.mscz",
+              "path": "axés/deusa do amor/carnaval bh 2023 - deusa do amor/carnaval bh 2023 - deusa do amor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
@@ -403,17 +403,17 @@
           "name": "carnaval bh 2024 - deusa do amor",
           "assets": [
             {
-              "path": "axés/deusa do amor/carnaval bh 2024 - deusa do amor/carnaval bh 2024 - deusa do amor.mscz",
+              "path": "axés/deusa do amor/carnaval bh 2024 - deusa do amor/carnaval bh 2024 - deusa do amor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-eu-tambem-quero-beijar",
@@ -426,13 +426,13 @@
           "name": "carnaval bh 2023 - eu tambem quero beijar",
           "assets": [
             {
-              "path": "axés/eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar.mscz",
+              "path": "axés/eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar/carnaval bh 2023 - eu tambem quero beijar.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
@@ -440,17 +440,17 @@
           "name": "carnaval bh 2024 - eu tambem quero beijar",
           "assets": [
             {
-              "path": "axés/eu tambem quero beijar/carnaval bh 2024 - eu tambem quero beijar/carnaval bh 2024 - eu tambem quero beijar.mscz",
+              "path": "axés/eu tambem quero beijar/carnaval bh 2024 - eu tambem quero beijar/carnaval bh 2024 - eu tambem quero beijar.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-farao",
@@ -463,17 +463,17 @@
           "name": "carnaval bh 2023 - farao",
           "assets": [
             {
-              "path": "axés/farao/carnaval bh 2023 - farao/carnaval bh 2023 - farao.mscz",
+              "path": "axés/farao/carnaval bh 2023 - farao/carnaval bh 2023 - farao.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-flores",
@@ -486,17 +486,17 @@
           "name": "carnaval bh 2023 - flores",
           "assets": [
             {
-              "path": "axés/flores/carnaval bh 2023 - flores/carnaval bh 2023 - flores.mscz",
+              "path": "axés/flores/carnaval bh 2023 - flores/carnaval bh 2023 - flores.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-haja-amor",
@@ -509,13 +509,13 @@
           "name": "carnaval bh 2023 - haja amor",
           "assets": [
             {
-              "path": "axés/haja amor/carnaval bh 2023 - haja amor/carnaval bh 2023 - haja amor.mscz",
+              "path": "axés/haja amor/carnaval bh 2023 - haja amor/carnaval bh 2023 - haja amor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
@@ -523,17 +523,17 @@
           "name": "carnaval bh 2024 - haja amor",
           "assets": [
             {
-              "path": "axés/haja amor/carnaval bh 2024 - haja amor/carnaval bh 2024 - haja amor.mscz",
+              "path": "axés/haja amor/carnaval bh 2024 - haja amor/carnaval bh 2024 - haja amor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-minha-pequena-eva",
@@ -546,13 +546,13 @@
           "name": "carnaval bh 2023 - pequena eva",
           "assets": [
             {
-              "path": "axés/minha pequena eva/carnaval bh 2023 - pequena eva/carnaval bh 2023 - pequena eva.mscz",
+              "path": "axés/minha pequena eva/carnaval bh 2023 - pequena eva/carnaval bh 2023 - pequena eva.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
@@ -560,17 +560,17 @@
           "name": "carnaval bh 2024 - pequena eva",
           "assets": [
             {
-              "path": "axés/minha pequena eva/carnaval bh 2024 - pequena eva/carnaval bh 2024 - pequena eva.mscz",
+              "path": "axés/minha pequena eva/carnaval bh 2024 - pequena eva/carnaval bh 2024 - pequena eva.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-nada-mal-terrasamba-",
@@ -583,13 +583,13 @@
           "name": "carnaval bh 2023 - nada mal",
           "assets": [
             {
-              "path": "axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/carnaval bh 2023 - nada mal.mscz",
+              "path": "axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/carnaval bh 2023 - nada mal.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
@@ -597,17 +597,17 @@
           "name": "carnaval bh 2024 - nada mal",
           "assets": [
             {
-              "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/carnaval bh 2024 - nada mal.mscz",
+              "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/carnaval bh 2024 - nada mal.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-olha-a-onda",
@@ -620,54 +620,54 @@
           "name": "carnaval bh 2023 - olha a onda",
           "assets": [
             {
-              "path": "axés/olha a onda/carnaval bh 2023 - olha a onda/carnaval bh 2023 - olha a onda.mscz",
+              "path": "axés/olha a onda/carnaval bh 2023 - olha a onda/carnaval bh 2023 - olha a onda.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-prefixo-de-verao",
-      "title": "prefixo de verão",
+      "title": "prefixo de verão",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "axes-prefixo-de-verao-carnaval-bh-2023-prefixo-de-verao",
-          "name": "carnaval bh 2023 - prefixo de verão",
+          "name": "carnaval bh 2023 - prefixo de verão",
           "assets": [
             {
-              "path": "axés/prefixo de verão/carnaval bh 2023 - prefixo de verão/carnaval bh 2023 - prefixo de verão.mscz",
+              "path": "axés/prefixo de verão/carnaval bh 2023 - prefixo de verão/carnaval bh 2023 - prefixo de verão.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
           "id": "axes-prefixo-de-verao-carnaval-bh-2024-prefixo-de-verao",
-          "name": "carnaval bh 2024 - prefixo de verão",
+          "name": "carnaval bh 2024 - prefixo de verão",
           "assets": [
             {
-              "path": "axés/prefixo de verão/carnaval bh 2024 - prefixo de verão/carnaval bh 2024 - prefixo de verão.mscz",
+              "path": "axés/prefixo de verão/carnaval bh 2024 - prefixo de verão/carnaval bh 2024 - prefixo de verão.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-requebra",
@@ -680,40 +680,40 @@
           "name": "carnaval bh 2023 - requebra",
           "assets": [
             {
-              "path": "axés/requebra/carnaval bh 2023 - requebra/carnaval bh 2023 - requebra.mscz",
+              "path": "axés/requebra/carnaval bh 2023 - requebra/carnaval bh 2023 - requebra.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-sou-100-voce-le-le-",
-      "title": "sou 100_ você (lê-lê)",
+      "title": "sou 100_ você (lê-lê)",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "axes-sou-100-voce-le-le-carnaval-bh-2023-100-voce",
-          "name": "carnaval bh 2023 - 100_ você",
+          "name": "carnaval bh 2023 - 100_ você",
           "assets": [
             {
-              "path": "axés/sou 100_ você (lê-lê)/carnaval bh 2023 - 100_ você/carnaval bh 2023 - 100_ você.mscz",
+              "path": "axés/sou 100_ você (lê-lê)/carnaval bh 2023 - 100_ você/carnaval bh 2023 - 100_ você.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-toda-menina-baiana",
@@ -726,17 +726,17 @@
           "name": "carnaval bh 2023 - toda menina baiana",
           "assets": [
             {
-              "path": "axés/toda menina baiana/carnaval bh 2023 - toda menina baiana/carnaval bh 2023 - toda menina baiana.mscz",
+              "path": "axés/toda menina baiana/carnaval bh 2023 - toda menina baiana/carnaval bh 2023 - toda menina baiana.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "axes-vem-meu-amor",
@@ -749,13 +749,13 @@
           "name": "carnaval bh 2023 - vem meu amor",
           "assets": [
             {
-              "path": "axés/vem meu amor/carnaval bh 2023 - vem meu amor/carnaval bh 2023 - vem meu amor.mscz",
+              "path": "axés/vem meu amor/carnaval bh 2023 - vem meu amor/carnaval bh 2023 - vem meu amor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         },
         {
@@ -763,17 +763,17 @@
           "name": "carnaval bh 2024 - vem meu amor",
           "assets": [
             {
-              "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/carnaval bh 2024 - vem meu amor.mscz",
+              "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/carnaval bh 2024 - vem meu amor.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "axés"
+            "axés"
           ]
         }
       ],
-      "style": "axés"
+      "style": "axés"
     },
     {
       "id": "beaga-aflorou",
@@ -786,17 +786,17 @@
           "name": "carnaval bh 2023 - aflorou",
           "assets": [
             {
-              "path": "beagá/aflorou/carnaval bh 2023 - aflorou/carnaval bh 2023 - aflorou.mscz",
+              "path": "beagá/aflorou/carnaval bh 2023 - aflorou/carnaval bh 2023 - aflorou.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-alcova-libertina",
@@ -809,17 +809,17 @@
           "name": "carnaval bh 2023 - alcova libertina",
           "assets": [
             {
-              "path": "beagá/alcova libertina/carnaval bh 2023 - alcova libertina/carnaval bh 2023 - alcova libertina.mscz",
+              "path": "beagá/alcova libertina/carnaval bh 2023 - alcova libertina/carnaval bh 2023 - alcova libertina.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-bloco-do-peixoto",
@@ -832,13 +832,13 @@
           "name": "carnaval bh 2023 - bloco do peixoto",
           "assets": [
             {
-              "path": "beagá/bloco do peixoto/carnaval bh 2023 - bloco do peixoto/carnaval bh 2023 - bloco do peixoto.mscz",
+              "path": "beagá/bloco do peixoto/carnaval bh 2023 - bloco do peixoto/carnaval bh 2023 - bloco do peixoto.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
@@ -846,17 +846,17 @@
           "name": "carnaval bh 2024 - bloco do peixoto",
           "assets": [
             {
-              "path": "beagá/bloco do peixoto/carnaval bh 2024 - bloco do peixoto/carnaval bh 2024 - bloco do peixoto.mscz",
+              "path": "beagá/bloco do peixoto/carnaval bh 2024 - bloco do peixoto/carnaval bh 2024 - bloco do peixoto.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-como-te-lhama",
@@ -869,17 +869,17 @@
           "name": "carnaval bh 2023 - como te lhama",
           "assets": [
             {
-              "path": "beagá/como te lhama/carnaval bh 2023 - como te lhama/carnaval bh 2023 - como te lhama.mscz",
+              "path": "beagá/como te lhama/carnaval bh 2023 - como te lhama/carnaval bh 2023 - como te lhama.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-corte-devassa",
@@ -892,13 +892,13 @@
           "name": "carnaval bh 2023 - corte devassa",
           "assets": [
             {
-              "path": "beagá/corte devassa/carnaval bh 2023 - corte devassa/carnaval bh 2023 - corte devassa.mscz",
+              "path": "beagá/corte devassa/carnaval bh 2023 - corte devassa/carnaval bh 2023 - corte devassa.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
@@ -906,17 +906,17 @@
           "name": "carnaval bh 2024 - corte devassa",
           "assets": [
             {
-              "path": "beagá/corte devassa/carnaval bh 2024 - corte devassa/carnaval bh 2024 - corte devassa.mscz",
+              "path": "beagá/corte devassa/carnaval bh 2024 - corte devassa/carnaval bh 2024 - corte devassa.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-filhos-de-tcha-tcha",
@@ -929,13 +929,13 @@
           "name": "carnaval bh 2023 - filhos de tcha tcha",
           "assets": [
             {
-              "path": "beagá/filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha.mscz",
+              "path": "beagá/filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha/carnaval bh 2023 - filhos de tcha tcha.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
@@ -943,17 +943,17 @@
           "name": "carnaval bh 2024 - filhos de tcha tcha",
           "assets": [
             {
-              "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha.mscz",
+              "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-ladeira-abaixo",
@@ -966,13 +966,13 @@
           "name": "carnaval bh 2023 - ladeira abaixo",
           "assets": [
             {
-              "path": "beagá/ladeira abaixo/carnaval bh 2023 - ladeira abaixo/carnaval bh 2023 - ladeira abaixo.mscz",
+              "path": "beagá/ladeira abaixo/carnaval bh 2023 - ladeira abaixo/carnaval bh 2023 - ladeira abaixo.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
@@ -980,128 +980,128 @@
           "name": "carnaval bh 2024 - ladeira abaixo",
           "assets": [
             {
-              "path": "beagá/ladeira abaixo/carnaval bh 2024 - ladeira abaixo/carnaval bh 2024 - ladeira abaixo.mscz",
+              "path": "beagá/ladeira abaixo/carnaval bh 2024 - ladeira abaixo/carnaval bh 2024 - ladeira abaixo.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-mama-na-vaca",
-      "title": "mamá na vaca",
+      "title": "mamá na vaca",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "beaga-mama-na-vaca-carnaval-bh-2023-mama-na-vaca",
-          "name": "carnaval bh 2023 - mamá na vaca",
+          "name": "carnaval bh 2023 - mamá na vaca",
           "assets": [
             {
-              "path": "beagá/mamá na vaca/carnaval bh 2023 - mamá na vaca/carnaval bh 2023 - mamá na vaca.mscz",
+              "path": "beagá/mamá na vaca/carnaval bh 2023 - mamá na vaca/carnaval bh 2023 - mamá na vaca.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
           "id": "beaga-mama-na-vaca-carnaval-bh-2024-mama-na-vaca",
-          "name": "carnaval bh 2024 - mamá na vaca",
+          "name": "carnaval bh 2024 - mamá na vaca",
           "assets": [
             {
-              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.mscz",
+              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-manjericao",
-      "title": "manjericão",
+      "title": "manjericão",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "beaga-manjericao-carnaval-bh-2023-manjericao",
-          "name": "carnaval bh 2023 - manjericão",
+          "name": "carnaval bh 2023 - manjericão",
           "assets": [
             {
-              "path": "beagá/manjericão/carnaval bh 2023 - manjericão/carnaval bh 2023 - manjericão.mscz",
+              "path": "beagá/manjericão/carnaval bh 2023 - manjericão/carnaval bh 2023 - manjericão.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
           "id": "beaga-manjericao-carnaval-bh-2024-manjericao",
-          "name": "carnaval bh 2024 - manjericão",
+          "name": "carnaval bh 2024 - manjericão",
           "assets": [
             {
-              "path": "beagá/manjericão/carnaval bh 2024 - manjericão/carnaval bh 2024 - manjericão.mscz",
+              "path": "beagá/manjericão/carnaval bh 2024 - manjericão/carnaval bh 2024 - manjericão.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-praia-da-estacao",
-      "title": "praia da estação",
+      "title": "praia da estação",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "beaga-praia-da-estacao-carnaval-bh-2023-praia-da-estacao",
-          "name": "carnaval bh 2023 - praia da estação",
+          "name": "carnaval bh 2023 - praia da estação",
           "assets": [
             {
-              "path": "beagá/praia da estação/carnaval bh 2023 - praia da estação/carnaval bh 2023 - praia da estação.mscz",
+              "path": "beagá/praia da estação/carnaval bh 2023 - praia da estação/carnaval bh 2023 - praia da estação.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
           "id": "beaga-praia-da-estacao-carnaval-bh-2024-praia-da-estacao",
-          "name": "carnaval bh 2024 - praia da estação",
+          "name": "carnaval bh 2024 - praia da estação",
           "assets": [
             {
-              "path": "beagá/praia da estação/carnaval bh 2024 - praia da estação/carnaval bh 2024 - praia da estação.mscz",
+              "path": "beagá/praia da estação/carnaval bh 2024 - praia da estação/carnaval bh 2024 - praia da estação.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-queima-largada",
@@ -1114,13 +1114,13 @@
           "name": "carnaval bh 2023 - queima largada",
           "assets": [
             {
-              "path": "beagá/queima largada/carnaval bh 2023 - queima largada/carnaval bh 2023 - queima largada.mscz",
+              "path": "beagá/queima largada/carnaval bh 2023 - queima largada/carnaval bh 2023 - queima largada.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         },
         {
@@ -1128,40 +1128,40 @@
           "name": "carnaval bh 2024 - queima largada",
           "assets": [
             {
-              "path": "beagá/queima largada/carnaval bh 2024 - queima largada/carnaval bh 2024 - queima largada.mscz",
+              "path": "beagá/queima largada/carnaval bh 2024 - queima largada/carnaval bh 2024 - queima largada.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "beaga-tete-a-santa",
-      "title": "tetê a santa",
+      "title": "tetê a santa",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "beaga-tete-a-santa-carnaval-bh-2023-tete-a-santa",
-          "name": "carnaval bh 2023 - tetê a santa",
+          "name": "carnaval bh 2023 - tetê a santa",
           "assets": [
             {
-              "path": "beagá/tetê a santa/carnaval bh 2023 - tetê a santa/carnaval bh 2023 - tetê a santa.mscz",
+              "path": "beagá/tetê a santa/carnaval bh 2023 - tetê a santa/carnaval bh 2023 - tetê a santa.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "beagá"
+            "beagá"
           ]
         }
       ],
-      "style": "beagá"
+      "style": "beagá"
     },
     {
       "id": "brazukas-abra-suas-asas",
@@ -1405,16 +1405,16 @@
     },
     {
       "id": "brazukas-mamae-oxum",
-      "title": "mamãe oxum",
+      "title": "mamãe oxum",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "brazukas-mamae-oxum-mamae-oxum",
-          "name": "mamãe oxum",
+          "name": "mamãe oxum",
           "assets": [
             {
-              "path": "brazukas/mamãe oxum/mamãe oxum/mamãe oxum.mscz",
+              "path": "brazukas/mamãe oxum/mamãe oxum/mamãe oxum.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1451,16 +1451,16 @@
     },
     {
       "id": "brazukas-nao-quero-dinheiro-so-quero-amar-",
-      "title": "não quero dinheiro (só quero amar)",
+      "title": "não quero dinheiro (só quero amar)",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "brazukas-nao-quero-dinheiro-so-quero-amar-carnaval-bh-2023-nao-quero-dinheiro",
-          "name": "carnaval bh 2023 - não quero dinheiro",
+          "name": "carnaval bh 2023 - não quero dinheiro",
           "assets": [
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.mscz",
+              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1471,10 +1471,10 @@
         },
         {
           "id": "brazukas-nao-quero-dinheiro-so-quero-amar-carnaval-bh-2024-nao-quero-dinheiro",
-          "name": "carnaval bh 2024 - não quero dinheiro",
+          "name": "carnaval bh 2024 - não quero dinheiro",
           "assets": [
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.mscz",
+              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1700,16 +1700,16 @@
     },
     {
       "id": "fanfarras-a-banda-ta-com-sede",
-      "title": "a banda tá com sede",
+      "title": "a banda tá com sede",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "fanfarras-a-banda-ta-com-sede-carnaval-bh-2023-a-banda-ta-com-sede",
-          "name": "carnaval bh 2023 - a banda tá com sede",
+          "name": "carnaval bh 2023 - a banda tá com sede",
           "assets": [
             {
-              "path": "fanfarras/a banda tá com sede/carnaval bh 2023 - a banda tá com sede/carnaval bh 2023 - a banda tá com sede.mscz",
+              "path": "fanfarras/a banda tá com sede/carnaval bh 2023 - a banda tá com sede/carnaval bh 2023 - a banda tá com sede.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1720,10 +1720,10 @@
         },
         {
           "id": "fanfarras-a-banda-ta-com-sede-carnaval-bh-2024-a-banda-ta-com-sede",
-          "name": "carnaval bh 2024 - a banda tá com sede",
+          "name": "carnaval bh 2024 - a banda tá com sede",
           "assets": [
             {
-              "path": "fanfarras/a banda tá com sede/carnaval bh 2024 - a banda tá com sede/carnaval bh 2024 - a banda tá com sede.mscz",
+              "path": "fanfarras/a banda tá com sede/carnaval bh 2024 - a banda tá com sede/carnaval bh 2024 - a banda tá com sede.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1833,17 +1833,17 @@
       "style": "fanfarras"
     },
     {
-      "id": "fanfarras-nao-e-mole-nao-guadaloupe",
-      "title": "não é mole não + guadaloupe",
+      "id": "fanfarras-nao-me-entrego-pros-caretas",
+      "title": "não me entrego pros caretas",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
-          "id": "fanfarras-nao-e-mole-nao-guadaloupe-carnaval-bh-2023-nao-e-mole-nao-guadalupe",
-          "name": "carnaval bh 2023 - nao é mole não + guadalupe",
+          "id": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas",
+          "name": "carnaval bh 2023 - não me entrego pros caretas",
           "assets": [
             {
-              "path": "fanfarras/não é mole não + guadaloupe/carnaval bh 2023 - nao é mole não + guadalupe/carnaval bh 2023 - nao é mole não + guadalupe.mscz",
+              "path": "fanfarras/não me entrego pros caretas/carnaval bh 2023 - não me entrego pros caretas/carnaval bh 2023 - não me entrego pros caretas.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1853,11 +1853,11 @@
           ]
         },
         {
-          "id": "fanfarras-nao-e-mole-nao-guadaloupe-carnaval-bh-2024-nao-e-mole-nao-guadalupe",
-          "name": "carnaval bh 2024 - nao é mole não + guadalupe",
+          "id": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas",
+          "name": "carnaval bh 2024 - não me entrego pros caretas",
           "assets": [
             {
-              "path": "fanfarras/não é mole não + guadaloupe/carnaval bh 2024 - nao é mole não + guadalupe/carnaval bh 2024 - nao é mole não + guadalupe.mscz",
+              "path": "fanfarras/não me entrego pros caretas/carnaval bh 2024 - não me entrego pros caretas/carnaval bh 2024 - não me entrego pros caretas.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1870,17 +1870,17 @@
       "style": "fanfarras"
     },
     {
-      "id": "fanfarras-nao-me-entrego-pros-caretas",
-      "title": "não me entrego pros caretas",
+      "id": "fanfarras-nao-e-mole-nao-guadaloupe",
+      "title": "não é mole não + guadaloupe",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
-          "id": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas",
-          "name": "carnaval bh 2023 - não me entrego pros caretas",
+          "id": "fanfarras-nao-e-mole-nao-guadaloupe-carnaval-bh-2023-nao-e-mole-nao-guadalupe",
+          "name": "carnaval bh 2023 - nao é mole não + guadalupe",
           "assets": [
             {
-              "path": "fanfarras/não me entrego pros caretas/carnaval bh 2023 - não me entrego pros caretas/carnaval bh 2023 - não me entrego pros caretas.mscz",
+              "path": "fanfarras/não é mole não + guadaloupe/carnaval bh 2023 - nao é mole não + guadalupe/carnaval bh 2023 - nao é mole não + guadalupe.mscz",
               "extension": ".mscz"
             }
           ],
@@ -1890,11 +1890,11 @@
           ]
         },
         {
-          "id": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas",
-          "name": "carnaval bh 2024 - não me entrego pros caretas",
+          "id": "fanfarras-nao-e-mole-nao-guadaloupe-carnaval-bh-2024-nao-e-mole-nao-guadalupe",
+          "name": "carnaval bh 2024 - nao é mole não + guadalupe",
           "assets": [
             {
-              "path": "fanfarras/não me entrego pros caretas/carnaval bh 2024 - não me entrego pros caretas/carnaval bh 2024 - não me entrego pros caretas.mscz",
+              "path": "fanfarras/não é mole não + guadaloupe/carnaval bh 2024 - nao é mole não + guadalupe/carnaval bh 2024 - nao é mole não + guadalupe.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2033,16 +2033,16 @@
     },
     {
       "id": "frevos-anunciacao",
-      "title": "anunciação",
+      "title": "anunciação",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "frevos-anunciacao-carnaval-bh-2023-anunciacao",
-          "name": "carnaval bh 2023 - anunciação",
+          "name": "carnaval bh 2023 - anunciação",
           "assets": [
             {
-              "path": "frevos/anunciação/carnaval bh 2023 - anunciação/carnaval bh 2023 - anunciação.mscz",
+              "path": "frevos/anunciação/carnaval bh 2023 - anunciação/carnaval bh 2023 - anunciação.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2053,10 +2053,10 @@
         },
         {
           "id": "frevos-anunciacao-carnaval-bh-2024-anunciacao",
-          "name": "carnaval bh 2024 - anunciação",
+          "name": "carnaval bh 2024 - anunciação",
           "assets": [
             {
-              "path": "frevos/anunciação/carnaval bh 2024 - anunciação/carnaval bh 2024 - anunciação.mscz",
+              "path": "frevos/anunciação/carnaval bh 2024 - anunciação/carnaval bh 2024 - anunciação.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2067,10 +2067,10 @@
         },
         {
           "id": "frevos-anunciacao-madeira-pirata-anunciacao",
-          "name": "madeira pirata - anunciação",
+          "name": "madeira pirata - anunciação",
           "assets": [
             {
-              "path": "frevos/anunciação/madeira pirata - anunciação/madeira pirata - anunciação.mscz",
+              "path": "frevos/anunciação/madeira pirata - anunciação/madeira pirata - anunciação.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2241,7 +2241,7 @@
     },
     {
       "id": "frevos-nago-nago",
-      "title": "nagô nagô",
+      "title": "nagô nagô",
       "composer": "",
       "sub": "",
       "arrangements": [
@@ -2250,7 +2250,7 @@
           "name": "carnaval bh 2023 - nago nago",
           "assets": [
             {
-              "path": "frevos/nagô nagô/carnaval bh 2023 - nago nago/carnaval bh 2023 - nago nago.mscz",
+              "path": "frevos/nagô nagô/carnaval bh 2023 - nago nago/carnaval bh 2023 - nago nago.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2619,7 +2619,7 @@
     },
     {
       "id": "funks-rap-da-felicidade-eu-so-quero-e-ser-feliz-",
-      "title": "rap da felicidade (eu só quero é ser feliz)",
+      "title": "rap da felicidade (eu só quero é ser feliz)",
       "composer": "",
       "sub": "",
       "arrangements": [
@@ -2628,7 +2628,7 @@
           "name": "carnaval bh 2023 - rap da felicidade",
           "assets": [
             {
-              "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.mscz",
+              "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2665,16 +2665,16 @@
     },
     {
       "id": "funks-se-ta-solteira",
-      "title": "se tá solteira",
+      "title": "se tá solteira",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "funks-se-ta-solteira-carnaval-bh-2023-se-ta-solteira",
-          "name": "carnaval bh 2023 - se tá solteira",
+          "name": "carnaval bh 2023 - se tá solteira",
           "assets": [
             {
-              "path": "funks/se tá solteira/carnaval bh 2023 - se tá solteira/carnaval bh 2023 - se tá solteira.mscz",
+              "path": "funks/se tá solteira/carnaval bh 2023 - se tá solteira/carnaval bh 2023 - se tá solteira.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2685,10 +2685,10 @@
         },
         {
           "id": "funks-se-ta-solteira-carnaval-bh-2024-se-ta-solteira",
-          "name": "carnaval bh 2024 - se tá solteira",
+          "name": "carnaval bh 2024 - se tá solteira",
           "assets": [
             {
-              "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/carnaval bh 2024 - se tá solteira.mscz",
+              "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/carnaval bh 2024 - se tá solteira.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2905,16 +2905,16 @@
     },
     {
       "id": "latinas-carinito",
-      "title": "cariñito",
+      "title": "cariñito",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "latinas-carinito-carnaval-bh-2023-carinito",
-          "name": "carnaval bh 2023 - cariñito",
+          "name": "carnaval bh 2023 - cariñito",
           "assets": [
             {
-              "path": "latinas/cariñito/carnaval bh 2023 - cariñito/carnaval bh 2023 - cariñito.mscz",
+              "path": "latinas/cariñito/carnaval bh 2023 - cariñito/carnaval bh 2023 - cariñito.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2925,10 +2925,10 @@
         },
         {
           "id": "latinas-carinito-carnaval-bh-2024-carinito",
-          "name": "carnaval bh 2024 - cariñito",
+          "name": "carnaval bh 2024 - cariñito",
           "assets": [
             {
-              "path": "latinas/cariñito/carnaval bh 2024 - cariñito/carnaval bh 2024 - cariñito.mscz",
+              "path": "latinas/cariñito/carnaval bh 2024 - cariñito/carnaval bh 2024 - cariñito.mscz",
               "extension": ".mscz"
             }
           ],
@@ -2988,17 +2988,17 @@
           "name": "bella ciao",
           "assets": [
             {
-              "path": "manifestação/bella ciao/bella ciao/bella ciao.mscz",
+              "path": "manifestação/bella ciao/bella ciao/bella ciao.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "manifestação"
+            "manifestação"
           ]
         }
       ],
-      "style": "manifestação"
+      "style": "manifestação"
     },
     {
       "id": "manifestacao-ta-na-hora-do-jair",
@@ -3011,40 +3011,40 @@
           "name": "ta na hora do jair",
           "assets": [
             {
-              "path": "manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.mscz",
+              "path": "manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "manifestação"
+            "manifestação"
           ]
         }
       ],
-      "style": "manifestação"
+      "style": "manifestação"
     },
     {
       "id": "manifestacao-ta-escrito",
-      "title": "tá escrito",
+      "title": "tá escrito",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "manifestacao-ta-escrito-ta-escrito",
-          "name": "tá escrito",
+          "name": "tá escrito",
           "assets": [
             {
-              "path": "manifestação/tá escrito/tá escrito/tá escrito.mscz",
+              "path": "manifestação/tá escrito/tá escrito/tá escrito.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "manifestação"
+            "manifestação"
           ]
         }
       ],
-      "style": "manifestação"
+      "style": "manifestação"
     },
     {
       "id": "manifestacao-vermelho",
@@ -3057,30 +3057,30 @@
           "name": "vermelho",
           "assets": [
             {
-              "path": "manifestação/vermelho/vermelho/vermelho.mscz",
+              "path": "manifestação/vermelho/vermelho/vermelho.mscz",
               "extension": ".mscz"
             }
           ],
           "parts": [],
           "tags": [
-            "manifestação"
+            "manifestação"
           ]
         }
       ],
-      "style": "manifestação"
+      "style": "manifestação"
     },
     {
       "id": "marchinhas-alala-o",
-      "title": "alala-ô",
+      "title": "alala-ô",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "marchinhas-alala-o-carnaval-bh-2023-alala-o",
-          "name": "carnaval bh 2023 - alala-ô",
+          "name": "carnaval bh 2023 - alala-ô",
           "assets": [
             {
-              "path": "marchinhas/alala-ô/carnaval bh 2023 - alala-ô/carnaval bh 2023 - alala-ô.mscz",
+              "path": "marchinhas/alala-ô/carnaval bh 2023 - alala-ô/carnaval bh 2023 - alala-ô.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3091,10 +3091,10 @@
         },
         {
           "id": "marchinhas-alala-o-carnaval-bh-2024-alala-o",
-          "name": "carnaval bh 2024 - alala-ô",
+          "name": "carnaval bh 2024 - alala-ô",
           "assets": [
             {
-              "path": "marchinhas/alala-ô/carnaval bh 2024 - alala-ô/carnaval bh 2024 - alala-ô.mscz",
+              "path": "marchinhas/alala-ô/carnaval bh 2024 - alala-ô/carnaval bh 2024 - alala-ô.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3108,16 +3108,16 @@
     },
     {
       "id": "marchinhas-balance",
-      "title": "balancê",
+      "title": "balancê",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "marchinhas-balance-carnaval-bh-2023-balance",
-          "name": "carnaval bh 2023 - balancê",
+          "name": "carnaval bh 2023 - balancê",
           "assets": [
             {
-              "path": "marchinhas/balancê/carnaval bh 2023 - balancê/carnaval bh 2023 - balancê.mscz",
+              "path": "marchinhas/balancê/carnaval bh 2023 - balancê/carnaval bh 2023 - balancê.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3128,10 +3128,10 @@
         },
         {
           "id": "marchinhas-balance-carnaval-bh-2024-balance",
-          "name": "carnaval bh 2024 - balancê",
+          "name": "carnaval bh 2024 - balancê",
           "assets": [
             {
-              "path": "marchinhas/balancê/carnaval bh 2024 - balancê/carnaval bh 2024 - balancê.mscz",
+              "path": "marchinhas/balancê/carnaval bh 2024 - balancê/carnaval bh 2024 - balancê.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3182,16 +3182,16 @@
     },
     {
       "id": "marchinhas-cachaca",
-      "title": "cachaça",
+      "title": "cachaça",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "marchinhas-cachaca-carnaval-bh-2023-cachaca",
-          "name": "carnaval bh 2023 - cachaça",
+          "name": "carnaval bh 2023 - cachaça",
           "assets": [
             {
-              "path": "marchinhas/cachaça/carnaval bh 2023 - cachaça/carnaval bh 2023 - cachaça.mscz",
+              "path": "marchinhas/cachaça/carnaval bh 2023 - cachaça/carnaval bh 2023 - cachaça.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3202,10 +3202,10 @@
         },
         {
           "id": "marchinhas-cachaca-carnaval-bh-2024-cachaca",
-          "name": "carnaval bh 2024 - cachaça",
+          "name": "carnaval bh 2024 - cachaça",
           "assets": [
             {
-              "path": "marchinhas/cachaça/carnaval bh 2024 - cachaça/carnaval bh 2024 - cachaça.mscz",
+              "path": "marchinhas/cachaça/carnaval bh 2024 - cachaça/carnaval bh 2024 - cachaça.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3256,16 +3256,16 @@
     },
     {
       "id": "marchinhas-mamae-eu-quero",
-      "title": "mamãe eu quero",
+      "title": "mamãe eu quero",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "marchinhas-mamae-eu-quero-carnaval-bh-2023-mamae-eu-quero",
-          "name": "carnaval bh 2023 - mamãe eu quero",
+          "name": "carnaval bh 2023 - mamãe eu quero",
           "assets": [
             {
-              "path": "marchinhas/mamãe eu quero/carnaval bh 2023 - mamãe eu quero/carnaval bh 2023 - mamãe eu quero.mscz",
+              "path": "marchinhas/mamãe eu quero/carnaval bh 2023 - mamãe eu quero/carnaval bh 2023 - mamãe eu quero.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3276,10 +3276,10 @@
         },
         {
           "id": "marchinhas-mamae-eu-quero-carnaval-bh-2024-mamae-eu-quero",
-          "name": "carnaval bh 2024 - mamãe eu quero",
+          "name": "carnaval bh 2024 - mamãe eu quero",
           "assets": [
             {
-              "path": "marchinhas/mamãe eu quero/carnaval bh 2024 - mamãe eu quero/carnaval bh 2024 - mamãe eu quero.mscz",
+              "path": "marchinhas/mamãe eu quero/carnaval bh 2024 - mamãe eu quero/carnaval bh 2024 - mamãe eu quero.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3441,16 +3441,16 @@
     },
     {
       "id": "marchinhas-tai",
-      "title": "taí",
+      "title": "taí",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "marchinhas-tai-carnaval-bh-2023-tai",
-          "name": "carnaval bh 2023 - taí",
+          "name": "carnaval bh 2023 - taí",
           "assets": [
             {
-              "path": "marchinhas/taí/carnaval bh 2023 - taí/carnaval bh 2023 - taí.mscz",
+              "path": "marchinhas/taí/carnaval bh 2023 - taí/carnaval bh 2023 - taí.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3461,10 +3461,10 @@
         },
         {
           "id": "marchinhas-tai-carnaval-bh-2024-tai",
-          "name": "carnaval bh 2024 - taí",
+          "name": "carnaval bh 2024 - taí",
           "assets": [
             {
-              "path": "marchinhas/taí/carnaval bh 2024 - taí/carnaval bh 2024 - taí.mscz",
+              "path": "marchinhas/taí/carnaval bh 2024 - taí/carnaval bh 2024 - taí.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3478,7 +3478,7 @@
     },
     {
       "id": "marchinhas-tem-nego-bebo-ai",
-      "title": "tem nego bêbo aí",
+      "title": "tem nego bêbo aí",
       "composer": "",
       "sub": "",
       "arrangements": [
@@ -3487,7 +3487,7 @@
           "name": "carnaval bh 2023 - tem nego bebo ai",
           "assets": [
             {
-              "path": "marchinhas/tem nego bêbo aí/carnaval bh 2023 - tem nego bebo ai/carnaval bh 2023 - tem nego bebo ai.mscz",
+              "path": "marchinhas/tem nego bêbo aí/carnaval bh 2023 - tem nego bebo ai/carnaval bh 2023 - tem nego bebo ai.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3501,7 +3501,7 @@
           "name": "carnaval bh 2024 - tem nego bebo ai",
           "assets": [
             {
-              "path": "marchinhas/tem nego bêbo aí/carnaval bh 2024 - tem nego bebo ai/carnaval bh 2024 - tem nego bebo ai.mscz",
+              "path": "marchinhas/tem nego bêbo aí/carnaval bh 2024 - tem nego bebo ai/carnaval bh 2024 - tem nego bebo ai.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3686,16 +3686,16 @@
     },
     {
       "id": "odaras-emorio",
-      "title": "emoriô",
+      "title": "emoriô",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "odaras-emorio-carnaval-bh-2023-emorio",
-          "name": "carnaval bh 2023 - emoriô",
+          "name": "carnaval bh 2023 - emoriô",
           "assets": [
             {
-              "path": "odaras/emoriô/carnaval bh 2023 - emoriô/carnaval bh 2023 - emoriô.mscz",
+              "path": "odaras/emoriô/carnaval bh 2023 - emoriô/carnaval bh 2023 - emoriô.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3706,47 +3706,10 @@
         },
         {
           "id": "odaras-emorio-carnaval-bh-2024-emorio",
-          "name": "carnaval bh 2024 - emoriô",
+          "name": "carnaval bh 2024 - emoriô",
           "assets": [
             {
-              "path": "odaras/emoriô/carnaval bh 2024 - emoriô/carnaval bh 2024 - emoriô.mscz",
-              "extension": ".mscz"
-            }
-          ],
-          "parts": [],
-          "tags": [
-            "odaras"
-          ]
-        }
-      ],
-      "style": "odaras"
-    },
-    {
-      "id": "odaras-e-d-oxum",
-      "title": "é d_oxum",
-      "composer": "",
-      "sub": "",
-      "arrangements": [
-        {
-          "id": "odaras-e-d-oxum-carnaval-bh-2023-e-d-oxum",
-          "name": "carnaval bh 2023 - é d_oxum",
-          "assets": [
-            {
-              "path": "odaras/é d_oxum/carnaval bh 2023 - é d_oxum/carnaval bh 2023 - é d_oxum.mscz",
-              "extension": ".mscz"
-            }
-          ],
-          "parts": [],
-          "tags": [
-            "odaras"
-          ]
-        },
-        {
-          "id": "odaras-e-d-oxum-carnaval-bh-2024-e-d-oxum",
-          "name": "carnaval bh 2024 - é d_oxum",
-          "assets": [
-            {
-              "path": "odaras/é d_oxum/carnaval bh 2024 - é d_oxum/carnaval bh 2024 - é d_oxum.mscz",
+              "path": "odaras/emoriô/carnaval bh 2024 - emoriô/carnaval bh 2024 - emoriô.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3806,16 +3769,16 @@
     },
     {
       "id": "odaras-suite-dos-pescadores",
-      "title": "suíte dos pescadores",
+      "title": "suíte dos pescadores",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "odaras-suite-dos-pescadores-carnaval-bh-2023-suite-dos-pescadores",
-          "name": "carnaval bh 2023 - suíte dos pescadores",
+          "name": "carnaval bh 2023 - suíte dos pescadores",
           "assets": [
             {
-              "path": "odaras/suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores.mscz",
+              "path": "odaras/suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores/carnaval bh 2023 - suíte dos pescadores.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3826,10 +3789,10 @@
         },
         {
           "id": "odaras-suite-dos-pescadores-carnaval-bh-2024-suite-dos-pescadores",
-          "name": "carnaval bh 2024 - suíte dos pescadores",
+          "name": "carnaval bh 2024 - suíte dos pescadores",
           "assets": [
             {
-              "path": "odaras/suíte dos pescadores/carnaval bh 2024 - suíte dos pescadores/carnaval bh 2024 - suíte dos pescadores.mscz",
+              "path": "odaras/suíte dos pescadores/carnaval bh 2024 - suíte dos pescadores/carnaval bh 2024 - suíte dos pescadores.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3879,17 +3842,54 @@
       "style": "odaras"
     },
     {
+      "id": "odaras-e-d-oxum",
+      "title": "é d_oxum",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "odaras-e-d-oxum-carnaval-bh-2023-e-d-oxum",
+          "name": "carnaval bh 2023 - é d_oxum",
+          "assets": [
+            {
+              "path": "odaras/é d_oxum/carnaval bh 2023 - é d_oxum/carnaval bh 2023 - é d_oxum.mscz",
+              "extension": ".mscz"
+            }
+          ],
+          "parts": [],
+          "tags": [
+            "odaras"
+          ]
+        },
+        {
+          "id": "odaras-e-d-oxum-carnaval-bh-2024-e-d-oxum",
+          "name": "carnaval bh 2024 - é d_oxum",
+          "assets": [
+            {
+              "path": "odaras/é d_oxum/carnaval bh 2024 - é d_oxum/carnaval bh 2024 - é d_oxum.mscz",
+              "extension": ".mscz"
+            }
+          ],
+          "parts": [],
+          "tags": [
+            "odaras"
+          ]
+        }
+      ],
+      "style": "odaras"
+    },
+    {
       "id": "pagodes-cacamba",
-      "title": "caçamba",
+      "title": "caçamba",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "pagodes-cacamba-carnaval-bh-2023-cacamba",
-          "name": "carnaval bh 2023 - caçamba",
+          "name": "carnaval bh 2023 - caçamba",
           "assets": [
             {
-              "path": "pagodes/caçamba/carnaval bh 2023 - caçamba/carnaval bh 2023 - caçamba.mscz",
+              "path": "pagodes/caçamba/carnaval bh 2023 - caçamba/carnaval bh 2023 - caçamba.mscz",
               "extension": ".mscz"
             }
           ],
@@ -3900,10 +3900,10 @@
         },
         {
           "id": "pagodes-cacamba-carnaval-bh-2024-cacamba",
-          "name": "carnaval bh 2024 - caçamba",
+          "name": "carnaval bh 2024 - caçamba",
           "assets": [
             {
-              "path": "pagodes/caçamba/carnaval bh 2024 - caçamba/carnaval bh 2024 - caçamba.mscz",
+              "path": "pagodes/caçamba/carnaval bh 2024 - caçamba/carnaval bh 2024 - caçamba.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4199,7 +4199,7 @@
     },
     {
       "id": "ranchos-eu-quero-e-botar-meu-bloco-na-rua",
-      "title": "eu quero é botar meu bloco na rua",
+      "title": "eu quero é botar meu bloco na rua",
       "composer": "",
       "sub": "",
       "arrangements": [
@@ -4208,7 +4208,7 @@
           "name": "carnaval bh 2023 - bloco na rua",
           "assets": [
             {
-              "path": "ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.mscz",
+              "path": "ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4222,7 +4222,7 @@
           "name": "carnaval bh 2024 - bloco na rua",
           "assets": [
             {
-              "path": "ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.mscz",
+              "path": "ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4273,7 +4273,7 @@
     },
     {
       "id": "ranchos-noite-dos-mascarados-mas-e-carnaval-",
-      "title": "noite dos mascarados (mas é carnaval)",
+      "title": "noite dos mascarados (mas é carnaval)",
       "composer": "",
       "sub": "",
       "arrangements": [
@@ -4282,7 +4282,7 @@
           "name": "carnaval bh 2023 - noite dos mascarados",
           "assets": [
             {
-              "path": "ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.mscz",
+              "path": "ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4422,10 +4422,10 @@
       "arrangements": [
         {
           "id": "sambas-apesar-de-voce-carnaval-bh-2023-apesar-de-voce",
-          "name": "carnaval bh 2023 - apesar de você",
+          "name": "carnaval bh 2023 - apesar de você",
           "assets": [
             {
-              "path": "sambas/apesar de voce/carnaval bh 2023 - apesar de você/carnaval bh 2023 - apesar de você.mscz",
+              "path": "sambas/apesar de voce/carnaval bh 2023 - apesar de você/carnaval bh 2023 - apesar de você.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4436,10 +4436,10 @@
         },
         {
           "id": "sambas-apesar-de-voce-carnaval-bh-2024-apesar-de-voce",
-          "name": "carnaval bh 2024 - apesar de você",
+          "name": "carnaval bh 2024 - apesar de você",
           "assets": [
             {
-              "path": "sambas/apesar de voce/carnaval bh 2024 - apesar de você/carnaval bh 2024 - apesar de você.mscz",
+              "path": "sambas/apesar de voce/carnaval bh 2024 - apesar de você/carnaval bh 2024 - apesar de você.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4453,16 +4453,16 @@
     },
     {
       "id": "sambas-canto-das-tres-racas",
-      "title": "canto das tres raças",
+      "title": "canto das tres raças",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "sambas-canto-das-tres-racas-carnaval-bh-2023-canto-das-tres-racas",
-          "name": "carnaval bh 2023 - canto das três raças",
+          "name": "carnaval bh 2023 - canto das três raças",
           "assets": [
             {
-              "path": "sambas/canto das tres raças/carnaval bh 2023 - canto das três raças/carnaval bh 2023 - canto das três raças.mscz",
+              "path": "sambas/canto das tres raças/carnaval bh 2023 - canto das três raças/carnaval bh 2023 - canto das três raças.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4473,10 +4473,10 @@
         },
         {
           "id": "sambas-canto-das-tres-racas-carnaval-bh-2024-canto-das-tres-racas",
-          "name": "carnaval bh 2024 - canto das três raças",
+          "name": "carnaval bh 2024 - canto das três raças",
           "assets": [
             {
-              "path": "sambas/canto das tres raças/carnaval bh 2024 - canto das três raças/carnaval bh 2024 - canto das três raças.mscz",
+              "path": "sambas/canto das tres raças/carnaval bh 2024 - canto das três raças/carnaval bh 2024 - canto das três raças.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4527,16 +4527,16 @@
     },
     {
       "id": "sambas-nao-deixe-o-samba-morrer",
-      "title": "não deixe o samba morrer",
+      "title": "não deixe o samba morrer",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "sambas-nao-deixe-o-samba-morrer-carnaval-bh-2023-nao-deixe-o-samba-morrer",
-          "name": "carnaval bh 2023 - não deixe o samba morrer",
+          "name": "carnaval bh 2023 - não deixe o samba morrer",
           "assets": [
             {
-              "path": "sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer.mscz",
+              "path": "sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4547,10 +4547,10 @@
         },
         {
           "id": "sambas-nao-deixe-o-samba-morrer-carnaval-bh-2024-nao-deixe-o-samba-morrer",
-          "name": "carnaval bh 2024 - não deixe o samba morrer",
+          "name": "carnaval bh 2024 - não deixe o samba morrer",
           "assets": [
             {
-              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.mscz",
+              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4564,16 +4564,16 @@
     },
     {
       "id": "sambas-o-morro-nao-tem-vez",
-      "title": "o morro não tem vez",
+      "title": "o morro não tem vez",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "sambas-o-morro-nao-tem-vez-carnaval-bh-2023-o-morro-nao-tem-vez",
-          "name": "carnaval bh 2023 - o morro não tem vez",
+          "name": "carnaval bh 2023 - o morro não tem vez",
           "assets": [
             {
-              "path": "sambas/o morro não tem vez/carnaval bh 2023 - o morro não tem vez/carnaval bh 2023 - o morro não tem vez.mscz",
+              "path": "sambas/o morro não tem vez/carnaval bh 2023 - o morro não tem vez/carnaval bh 2023 - o morro não tem vez.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4587,16 +4587,16 @@
     },
     {
       "id": "sambas-o-sol-nascera-a-sorrir-",
-      "title": "o sol nascerá (a sorrir)",
+      "title": "o sol nascerá (a sorrir)",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "sambas-o-sol-nascera-a-sorrir-carnaval-bh-2023-o-sol-nascera",
-          "name": "carnaval bh 2023 - o sol nascerá",
+          "name": "carnaval bh 2023 - o sol nascerá",
           "assets": [
             {
-              "path": "sambas/o sol nascerá (a sorrir)/carnaval bh 2023 - o sol nascerá/carnaval bh 2023 - o sol nascerá.mscz",
+              "path": "sambas/o sol nascerá (a sorrir)/carnaval bh 2023 - o sol nascerá/carnaval bh 2023 - o sol nascerá.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4607,10 +4607,10 @@
         },
         {
           "id": "sambas-o-sol-nascera-a-sorrir-carnaval-bh-2024-o-sol-nascera",
-          "name": "carnaval bh 2024 - o sol nascerá",
+          "name": "carnaval bh 2024 - o sol nascerá",
           "assets": [
             {
-              "path": "sambas/o sol nascerá (a sorrir)/carnaval bh 2024 - o sol nascerá/carnaval bh 2024 - o sol nascerá.mscz",
+              "path": "sambas/o sol nascerá (a sorrir)/carnaval bh 2024 - o sol nascerá/carnaval bh 2024 - o sol nascerá.mscz",
               "extension": ".mscz"
             }
           ],
@@ -4827,16 +4827,16 @@
     },
     {
       "id": "zoeira-underere",
-      "title": "undererê",
+      "title": "undererê",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
           "id": "zoeira-underere-underere",
-          "name": "undererê",
+          "name": "undererê",
           "assets": [
             {
-              "path": "zoeira/undererê/undererê/undererê.mscz",
+              "path": "zoeira/undererê/undererê/undererê.mscz",
               "extension": ".mscz"
             }
           ],
