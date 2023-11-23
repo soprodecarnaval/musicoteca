@@ -1,210 +1,3229 @@
 [
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
-      "extension": ".svg",
-      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
-      "arrName": "chuva suor e cerveja",
-      "songId": "brazukas-chuva-suor-e-cerveja",
-      "songTitle": "chuva suor e cerveja",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/A LUZ DE TIÊTA/CARNAVAL BH 2023 - A LUZ DE TIÊTA/A_LUZ_DE_TIETA.metajson"
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
-      "extension": ".midi",
-      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
-      "arrName": "chuva suor e cerveja",
-      "songId": "brazukas-chuva-suor-e-cerveja",
-      "songTitle": "chuva suor e cerveja",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/A LUZ DE TIÊTA/CARNAVAL BH 2023 - A LUZ DE TIÊTA/A_LUZ_DE_TIETA.midi"
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
-      "extension": ".svg",
-      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
-      "arrName": "chuva suor e cerveja",
-      "songId": "brazukas-chuva-suor-e-cerveja",
-      "songTitle": "chuva suor e cerveja",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/A LUZ DE TIÊTA/CARNAVAL BH 2024 - A LUZ DE TIÊTA/A_LUZ_DE_TIETA.metajson"
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
-      "extension": ".midi",
-      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
-      "arrName": "chuva suor e cerveja",
-      "songId": "brazukas-chuva-suor-e-cerveja",
-      "songTitle": "chuva suor e cerveja",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/A LUZ DE TIÊTA/CARNAVAL BH 2024 - A LUZ DE TIÊTA/A_LUZ_DE_TIETA.midi"
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
-      "extension": ".svg",
-      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
-      "arrName": "chuva suor e cerveja",
-      "songId": "brazukas-chuva-suor-e-cerveja",
-      "songTitle": "chuva suor e cerveja",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/A RODA/CARNAVAL BH 2023 - A RODA/A_RODA.metajson"
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
-      "extension": ".midi",
-      "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
-      "arrName": "chuva suor e cerveja",
-      "songId": "brazukas-chuva-suor-e-cerveja",
-      "songTitle": "chuva suor e cerveja",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/A RODA/CARNAVAL BH 2023 - A RODA/A_RODA.midi"
     }
   },
   {
-    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb-1.svg",
-      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb-1.svg",
-      "extension": ".svg",
-      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
-      "arrName": "filha da chiquita bacana",
-      "songId": "brazukas-filha-da-chiquita-bacana",
-      "songTitle": "filha da chiquita bacana",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ALO PAIXAO/CARNAVAL BH 2023 - ALO PAIXAO/ALO_PAIXAO.metajson"
     }
   },
   {
-    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb.midi",
-      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Bb.midi",
-      "extension": ".midi",
-      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
-      "arrName": "filha da chiquita bacana",
-      "songId": "brazukas-filha-da-chiquita-bacana",
-      "songTitle": "filha da chiquita bacana",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ALO PAIXAO/CARNAVAL BH 2023 - ALO PAIXAO/ALO_PAIXAO.midi"
     }
   },
   {
-    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF-1.svg",
-      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF-1.svg",
-      "extension": ".svg",
-      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
-      "arrName": "filha da chiquita bacana",
-      "songId": "brazukas-filha-da-chiquita-bacana",
-      "songTitle": "filha da chiquita bacana",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/APOCALIPSE DO AMOR/CARNAVAL BH 2023 - APOCALIPSE DO AMOR/Apocalipse_do_Amor.metajson"
     }
   },
   {
-    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF.midi",
-      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_C_clavF.midi",
-      "extension": ".midi",
-      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
-      "arrName": "filha da chiquita bacana",
-      "songId": "brazukas-filha-da-chiquita-bacana",
-      "songTitle": "filha da chiquita bacana",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/APOCALIPSE DO AMOR/CARNAVAL BH 2023 - APOCALIPSE DO AMOR/Apocalipse_do_Amor.midi"
     }
   },
   {
-    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb-1.svg",
-      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb-1.svg",
-      "extension": ".svg",
-      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
-      "arrName": "filha da chiquita bacana",
-      "songId": "brazukas-filha-da-chiquita-bacana",
-      "songTitle": "filha da chiquita bacana",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ARAKETU É BOM DEMAIS/CARNAVAL BH 2023 - ARAKETU É BOM DEMAIS/ARAKETU_É_BOM_DEMAIS.metajson"
     }
   },
   {
-    "message": "No instrument found for brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb.midi",
-      "relPath": "brazukas/filha da chiquita bacana/filha da chiquita bacana/filha da chiquita bacana_Eb.midi",
-      "extension": ".midi",
-      "arrId": "brazukas-filha-da-chiquita-bacana-filha-da-chiquita-bacana",
-      "arrName": "filha da chiquita bacana",
-      "songId": "brazukas-filha-da-chiquita-bacana",
-      "songTitle": "filha da chiquita bacana",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ARAKETU É BOM DEMAIS/CARNAVAL BH 2023 - ARAKETU É BOM DEMAIS/ARAKETU_É_BOM_DEMAIS.midi"
     }
   },
   {
-    "message": "No instrument found for brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
-      "relPath": "brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
-      "extension": ".svg",
-      "arrId": "brazukas-forasteiro-sopra-que-sara-forasteiro",
-      "arrName": "sopra que sara - forasteiro",
-      "songId": "brazukas-forasteiro",
-      "songTitle": "forasteiro",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ARAKETU É BOM DEMAIS/CARNAVAL BH 2024 - ARAKETU É BOM DEMAIS/ARAKETU_É_BOM_DEMAIS.metajson"
     }
   },
   {
-    "message": "No instrument found for brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
-      "relPath": "brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
-      "extension": ".midi",
-      "arrId": "brazukas-forasteiro-sopra-que-sara-forasteiro",
-      "arrName": "sopra que sara - forasteiro",
-      "songId": "brazukas-forasteiro",
-      "songTitle": "forasteiro",
-      "style": "brazukas"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ARAKETU É BOM DEMAIS/CARNAVAL BH 2024 - ARAKETU É BOM DEMAIS/ARAKETU_É_BOM_DEMAIS.midi"
     }
   },
   {
-    "message": "No instrument found for technohell/freed from desire/formatada/formatada_Batterie-1.svg",
+    "message": "No .metajson file found",
     "meta": {
-      "absPath": "/tmp/collection/technohell/freed from desire/formatada/formatada_Batterie-1.svg",
-      "relPath": "technohell/freed from desire/formatada/formatada_Batterie-1.svg",
-      "extension": ".svg",
-      "arrId": "technohell-freed-from-desire-formatada",
-      "arrName": "formatada",
-      "songId": "technohell-freed-from-desire",
-      "songTitle": "freed from desire",
-      "style": "technohell"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ARERÊ-Ê-Ê/CARNAVAL BH 2023 - ARERE-Ê-Ê/ARERÊ.metajson"
     }
   },
   {
-    "message": "No instrument found for technohell/freed from desire/formatada/formatada_Batterie.midi",
+    "message": "No .midi file found",
     "meta": {
-      "absPath": "/tmp/collection/technohell/freed from desire/formatada/formatada_Batterie.midi",
-      "relPath": "technohell/freed from desire/formatada/formatada_Batterie.midi",
-      "extension": ".midi",
-      "arrId": "technohell-freed-from-desire-formatada",
-      "arrName": "formatada",
-      "songId": "technohell-freed-from-desire",
-      "songTitle": "freed from desire",
-      "style": "technohell"
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/ARERÊ-Ê-Ê/CARNAVAL BH 2023 - ARERE-Ê-Ê/ARERÊ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/AVISA LA Ô-Ô (NOSSA GENTE)/CARNAVAL BH 2023 - NOSSA GENTE/AVISA_LA_O_O.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/AVISA LA Ô-Ô (NOSSA GENTE)/CARNAVAL BH 2023 - NOSSA GENTE/AVISA_LA_O_O.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BAIANIDADE NAGÔ/CARNAVAL BH 2023 - BAIANIDADE NAGÔ/BAIANIDADE_NAGO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BAIANIDADE NAGÔ/CARNAVAL BH 2023 - BAIANIDADE NAGÔ/BAIANIDADE_NAGO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BAIANIDADE NAGÔ/CARNAVAL BH 2024 - BAIANIDADE NAGÔ/BAIANIDADE_NAGO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BAIANIDADE NAGÔ/CARNAVAL BH 2024 - BAIANIDADE NAGÔ/BAIANIDADE_NAGO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BEIJA FLOR/CARNAVAL BH 2023 - BEIJA FLOR/BEIJA_FLOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BEIJA FLOR/CARNAVAL BH 2023 - BEIJA FLOR/BEIJA_FLOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BEIJA FLOR/CARNAVAL BH 2024 - BEIJA FLOR/BEIJA_FLOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BEIJA FLOR/CARNAVAL BH 2024 - BEIJA FLOR/BEIJA_FLOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BEIJO NA BOCA/CARNAVAL BH 2023 - BEIJO NA BOCA/BEIJO_NA_BOCA_.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BEIJO NA BOCA/CARNAVAL BH 2023 - BEIJO NA BOCA/BEIJO_NA_BOCA_.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BELEZA RARA (HOJE SOU FELIZ E CANTO)/CARNAVAL BH 2023 - BELEZA RARA/BELEZA_RARA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/BELEZA RARA (HOJE SOU FELIZ E CANTO)/CARNAVAL BH 2023 - BELEZA RARA/BELEZA_RARA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/CARRINHO DE MAO/CARNAVAL BH 2023 - CARRINHO DE MÃO/CARRINHO_DE_MAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/CARRINHO DE MAO/CARNAVAL BH 2023 - CARRINHO DE MÃO/CARRINHO_DE_MAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/CHUVA SUOR E CERVEJA/CARNAVAL BH 2023 - CHUVA SUOR E CERVEJA/CHUVA_SUOR_E_CERVEJA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/CHUVA SUOR E CERVEJA/CARNAVAL BH 2023 - CHUVA SUOR E CERVEJA/CHUVA_SUOR_E_CERVEJA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/DANCA DO VAMPIRO/CARNAVAL BH 2023 - DANÇA DO VAMPIRO/DANCA_D0_VAMPIRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/DANCA DO VAMPIRO/CARNAVAL BH 2023 - DANÇA DO VAMPIRO/DANCA_D0_VAMPIRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/DEUSA DO AMOR/CARNAVAL BH 2023 - DEUSA DO AMOR/DEUSA_DO_AMOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/DEUSA DO AMOR/CARNAVAL BH 2023 - DEUSA DO AMOR/DEUSA_DO_AMOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/DEUSA DO AMOR/CARNAVAL BH 2024 - DEUSA DO AMOR/DEUSA_DO_AMOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/DEUSA DO AMOR/CARNAVAL BH 2024 - DEUSA DO AMOR/DEUSA_DO_AMOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/EU TAMBEM QUERO BEIJAR/CARNAVAL BH 2023 - EU TAMBEM QUERO BEIJAR/EU_TAMBEM_QUERO_BEIJAR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/EU TAMBEM QUERO BEIJAR/CARNAVAL BH 2023 - EU TAMBEM QUERO BEIJAR/EU_TAMBEM_QUERO_BEIJAR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/EU TAMBEM QUERO BEIJAR/CARNAVAL BH 2024 - EU TAMBEM QUERO BEIJAR/EU_TAMBEM_QUERO_BEIJAR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/EU TAMBEM QUERO BEIJAR/CARNAVAL BH 2024 - EU TAMBEM QUERO BEIJAR/EU_TAMBEM_QUERO_BEIJAR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/FARAO/CARNAVAL BH 2023 - FARAO/FARAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/FARAO/CARNAVAL BH 2023 - FARAO/FARAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/FLORES/CARNAVAL BH 2023 - FLORES/Flores.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/FLORES/CARNAVAL BH 2023 - FLORES/Flores.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/HAJA AMOR/CARNAVAL BH 2023 - HAJA AMOR/HAJA AMOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/HAJA AMOR/CARNAVAL BH 2023 - HAJA AMOR/HAJA AMOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/HAJA AMOR/CARNAVAL BH 2024 - HAJA AMOR/HAJA AMOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/HAJA AMOR/CARNAVAL BH 2024 - HAJA AMOR/HAJA AMOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/MINHA PEQUENA EVA/CARNAVAL BH 2023 - PEQUENA EVA /MINHA_PEQUENA_EVA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/MINHA PEQUENA EVA/CARNAVAL BH 2023 - PEQUENA EVA /MINHA_PEQUENA_EVA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/MINHA PEQUENA EVA/CARNAVAL BH 2024 - PEQUENA EVA/MINHA_PEQUENA_EVA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/MINHA PEQUENA EVA/CARNAVAL BH 2024 - PEQUENA EVA/MINHA_PEQUENA_EVA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/NADA MAL (TERRASAMBA)/CARNAVAL BH 2023 - NADA MAL /NADA_MAL_TERRASAMBA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/NADA MAL (TERRASAMBA)/CARNAVAL BH 2023 - NADA MAL /NADA_MAL_TERRASAMBA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/NADA MAL (TERRASAMBA)/CARNAVAL BH 2024 - NADA MAL/NADA_MAL_TERRASAMBA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/NADA MAL (TERRASAMBA)/CARNAVAL BH 2024 - NADA MAL/NADA_MAL_TERRASAMBA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/OLHA A ONDA/CARNAVAL BH 2023 - OLHA A ONDA /OLHA_A_ONDA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/OLHA A ONDA/CARNAVAL BH 2023 - OLHA A ONDA /OLHA_A_ONDA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/PREFIXO DE VERÃO/CARNAVAL BH 2023 - PREFIXO DE VERÃO /PREFIXO_DE_VERAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/PREFIXO DE VERÃO/CARNAVAL BH 2023 - PREFIXO DE VERÃO /PREFIXO_DE_VERAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/PREFIXO DE VERÃO/CARNAVAL BH 2024 - PREFIXO DE VERÃO/PREFIXO_DE_VERAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/PREFIXO DE VERÃO/CARNAVAL BH 2024 - PREFIXO DE VERÃO/PREFIXO_DE_VERAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/REQUEBRA/CARNAVAL BH 2023 - REQUEBRA/Requebra.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/REQUEBRA/CARNAVAL BH 2023 - REQUEBRA/Requebra.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/SOU 100_ VOCÊ (LÊ-LÊ)/CARNAVAL BH 2023 - 100_ VOCÊ /CEM_POR_CENTO_VOCÊ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/SOU 100_ VOCÊ (LÊ-LÊ)/CARNAVAL BH 2023 - 100_ VOCÊ /CEM_POR_CENTO_VOCÊ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/TODA MENINA BAIANA/CARNAVAL BH 2023 - TODA MENINA BAIANA/TODA_MENINA_BAIANA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/TODA MENINA BAIANA/CARNAVAL BH 2023 - TODA MENINA BAIANA/TODA_MENINA_BAIANA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/VEM MEU AMOR/CARNAVAL BH 2023 - VEM MEU AMOR/VEM_MEU_AMOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/VEM MEU AMOR/CARNAVAL BH 2023 - VEM MEU AMOR/VEM_MEU_AMOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/VEM MEU AMOR/CARNAVAL BH 2024 - VEM MEU AMOR/VEM_MEU_AMOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/AXÉS/VEM MEU AMOR/CARNAVAL BH 2024 - VEM MEU AMOR/VEM_MEU_AMOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/AFLOROU/CARNAVAL BH 2023 - AFLOROU/AFLOROU.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/AFLOROU/CARNAVAL BH 2023 - AFLOROU/AFLOROU.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/ALCOVA LIBERTINA/CARNAVAL BH 2023 - ALCOVA LIBERTINA/ALCOVA_LIBERTINA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/ALCOVA LIBERTINA/CARNAVAL BH 2023 - ALCOVA LIBERTINA/ALCOVA_LIBERTINA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/BLOCO DO PEIXOTO/CARNAVAL BH 2023 - BLOCO DO PEIXOTO/BLOCO_DO_PEIXOTO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/BLOCO DO PEIXOTO/CARNAVAL BH 2023 - BLOCO DO PEIXOTO/BLOCO_DO_PEIXOTO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/BLOCO DO PEIXOTO/CARNAVAL BH 2024 - BLOCO DO PEIXOTO/BLOCO_DO_PEIXOTO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/BLOCO DO PEIXOTO/CARNAVAL BH 2024 - BLOCO DO PEIXOTO/BLOCO_DO_PEIXOTO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/COMO TE LHAMA/CARNAVAL BH 2023 - COMO TE LHAMA/COMO_TE_LHAMA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/COMO TE LHAMA/CARNAVAL BH 2023 - COMO TE LHAMA/COMO_TE_LHAMA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/CORTE DEVASSA/CARNAVAL BH 2023 - CORTE DEVASSA/CORTE_DEVASSA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/CORTE DEVASSA/CARNAVAL BH 2023 - CORTE DEVASSA/CORTE_DEVASSA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/CORTE DEVASSA/CARNAVAL BH 2024 - CORTE DEVASSA/CORTE_DEVASSA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/CORTE DEVASSA/CARNAVAL BH 2024 - CORTE DEVASSA/CORTE_DEVASSA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/FILHOS DE TCHA TCHA/CARNAVAL BH 2023 - FILHOS DE TCHA TCHA/FILHOS_DE_TCHA_TCHA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/FILHOS DE TCHA TCHA/CARNAVAL BH 2023 - FILHOS DE TCHA TCHA/FILHOS_DE_TCHA_TCHA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/FILHOS DE TCHA TCHA/CARNAVAL BH 2024 - FILHOS DE TCHA TCHA/FILHOS_DE_TCHA_TCHA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/FILHOS DE TCHA TCHA/CARNAVAL BH 2024 - FILHOS DE TCHA TCHA/FILHOS_DE_TCHA_TCHA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/LADEIRA ABAIXO/CARNAVAL BH 2023 - LADEIRA ABAIXO/LADEIRA_ABAIXO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/LADEIRA ABAIXO/CARNAVAL BH 2023 - LADEIRA ABAIXO/LADEIRA_ABAIXO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/LADEIRA ABAIXO/CARNAVAL BH 2024 - LADEIRA ABAIXO/LADEIRA_ABAIXO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/LADEIRA ABAIXO/CARNAVAL BH 2024 - LADEIRA ABAIXO/LADEIRA_ABAIXO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MAMÁ NA VACA/CARNAVAL BH 2023 - MAMÁ NA VACA/MAMA_NA_VACA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MAMÁ NA VACA/CARNAVAL BH 2023 - MAMÁ NA VACA/MAMA_NA_VACA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MAMÁ NA VACA/CARNAVAL BH 2024 - MAMÁ NA VACA/MAMA_NA_VACA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MAMÁ NA VACA/CARNAVAL BH 2024 - MAMÁ NA VACA/MAMA_NA_VACA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MANJERICÃO/CARNAVAL BH 2023 - MANJERICÃO/MANJERICAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MANJERICÃO/CARNAVAL BH 2023 - MANJERICÃO/MANJERICAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MANJERICÃO/CARNAVAL BH 2024 - MANJERICÃO/MANJERICAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/MANJERICÃO/CARNAVAL BH 2024 - MANJERICÃO/MANJERICAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/PRAIA DA ESTAÇÃO/CARNAVAL BH 2023 - PRAIA DA ESTAÇÃO/PRAIA_DA_ESTACAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/PRAIA DA ESTAÇÃO/CARNAVAL BH 2023 - PRAIA DA ESTAÇÃO/PRAIA_DA_ESTACAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/PRAIA DA ESTAÇÃO/CARNAVAL BH 2024 - PRAIA DA ESTAÇÃO/PRAIA_DA_ESTACAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/PRAIA DA ESTAÇÃO/CARNAVAL BH 2024 - PRAIA DA ESTAÇÃO/PRAIA_DA_ESTACAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/QUEIMA LARGADA/CARNAVAL BH 2023 - QUEIMA LARGADA/A BANDA TÁ COM SEDE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/QUEIMA LARGADA/CARNAVAL BH 2023 - QUEIMA LARGADA/A BANDA TÁ COM SEDE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/QUEIMA LARGADA/CARNAVAL BH 2024 - QUEIMA LARGADA/A BANDA TÁ COM SEDE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/QUEIMA LARGADA/CARNAVAL BH 2024 - QUEIMA LARGADA/A BANDA TÁ COM SEDE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/TETÊ A SANTA/CARNAVAL BH 2023 - TETÊ A SANTA/TETE_A_SANTA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BEAGÁ/TETÊ A SANTA/CARNAVAL BH 2023 - TETÊ A SANTA/TETE_A_SANTA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/ABRA SUAS ASAS/CARNAVAL BH 2023 - ABRA SUAS ASAS /ABRA_SUAS_ASAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/ABRA SUAS ASAS/CARNAVAL BH 2023 - ABRA SUAS ASAS /ABRA_SUAS_ASAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/ABRA SUAS ASAS/CARNAVAL BH 2024 - ABRA SUAS ASAS/ABRA_SUAS_ASAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/ABRA SUAS ASAS/CARNAVAL BH 2024 - ABRA SUAS ASAS/ABRA_SUAS_ASAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/COTIDIANO/COTIDIANO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/COTIDIANO/COTIDIANO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/DIVINO MARAVILHOSO/CARNAVAL BH 2023 - DIVINO MARAVILHOSO /DIVINO_MARAVILHOSO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/DIVINO MARAVILHOSO/CARNAVAL BH 2023 - DIVINO MARAVILHOSO /DIVINO_MARAVILHOSO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FE CEGA FACA AMOLADA/FE CEGA FACA AMOLADA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FE CEGA FACA AMOLADA/FE CEGA FACA AMOLADA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FORASTEIRO/CARNAVAL BH 2023 - FORASTEIRO /FORASTEIRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FORASTEIRO/CARNAVAL BH 2023 - FORASTEIRO /FORASTEIRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FORASTEIRO/CARNAVAL BH 2024 - FORASTEIRO/FORASTEIRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FORASTEIRO/CARNAVAL BH 2024 - FORASTEIRO/FORASTEIRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/LENNON AND MCCARTNEY/Lennon_and_McCartney.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/LENNON AND MCCARTNEY/Lennon_and_McCartney.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/LUCRO/CARNAVAL BH 2023 - LUCRO /LUCRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/LUCRO/CARNAVAL BH 2023 - LUCRO /LUCRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/LUCRO/CARNAVAL BH 2024 - LUCRO/LUCRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/LUCRO/CARNAVAL BH 2024 - LUCRO/LUCRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/MAMÃE OXUM/Mamãe_Oxum.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/MAMÃE OXUM/Mamãe_Oxum.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/NAO ENCHE/NAO_ENCHE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/NAO ENCHE/NAO_ENCHE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/NÃO QUERO DINHEIRO (SÓ QUERO AMAR)/CARNAVAL BH 2023 - NÃO QUERO DINHEIRO /NÃO_QUERO_DINHEIRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/NÃO QUERO DINHEIRO (SÓ QUERO AMAR)/CARNAVAL BH 2023 - NÃO QUERO DINHEIRO /NÃO_QUERO_DINHEIRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/NÃO QUERO DINHEIRO (SÓ QUERO AMAR)/CARNAVAL BH 2024 - NÃO QUERO DINHEIRO/NÃO_QUERO_DINHEIRO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/NÃO QUERO DINHEIRO (SÓ QUERO AMAR)/CARNAVAL BH 2024 - NÃO QUERO DINHEIRO/NÃO_QUERO_DINHEIRO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/OMBRIM/OMBRIM.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/OMBRIM/OMBRIM.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/PAIS TROPICAL/CARNAVAL BH 2023 - PAIS TROPICAL/PAIS_TROPICAL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/PAIS TROPICAL/CARNAVAL BH 2023 - PAIS TROPICAL/PAIS_TROPICAL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/PAIS TROPICAL/CARNAVAL BH 2024 - PAIS TROPICAL/PAIS_TROPICAL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/PAIS TROPICAL/CARNAVAL BH 2024 - PAIS TROPICAL/PAIS_TROPICAL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/RECONVEXO/Reconvexo.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/RECONVEXO/Reconvexo.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/SUJEITO DE SORTE/Sujeito_de_Sorte.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/SUJEITO DE SORTE/Sujeito_de_Sorte.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/TUDO O QUE VOCE PODIA SER/Tudo_o_que_você_podia_ser.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/TUDO O QUE VOCE PODIA SER/Tudo_o_que_você_podia_ser.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/VACA PROFANA/CARNAVAL BH 2023 - VACA PROFANA /VACA_PROFANA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/VACA PROFANA/CARNAVAL BH 2023 - VACA PROFANA /VACA_PROFANA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/VACA PROFANA/CARNAVAL BH 2024 - VACA PROFANA/VACA_PROFANA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/BRAZUKAS/VACA PROFANA/CARNAVAL BH 2024 - VACA PROFANA/VACA_PROFANA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/CUMBIA/CUMBIA EN DO MENOR/CUMBIA_EN_DO_MENOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/CUMBIA/CUMBIA EN DO MENOR/CUMBIA_EN_DO_MENOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/CUMBIA/SONIDO AMAZONICO/SONIDO AMAZONICO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/CUMBIA/SONIDO AMAZONICO/SONIDO AMAZONICO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /A BANDA TÁ COM SEDE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /A BANDA TÁ COM SEDE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2024 - A BANDA TÁ COM SEDE/A BANDA TÁ COM SEDE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2024 - A BANDA TÁ COM SEDE/A BANDA TÁ COM SEDE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BLUE CIGANO/BLUES CIGANO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BLUE CIGANO/BLUES CIGANO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BLUE CIGANO/BLUES_CIGANO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BLUE CIGANO/BLUES_CIGANO.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-blue-cigano-blue-cigano for song fanfarras-blue-cigano (blue cigano)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BLUE CIGANO/BLUES_CIGANO.mscz",
+      "relPath": "FANFARRAS/BLUE CIGANO/BLUES_CIGANO.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-blue-cigano-blue-cigano",
+      "arrName": "blue cigano",
+      "songId": "fanfarras-blue-cigano",
+      "songTitle": "blue cigano",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BUYO/CARNAVAL BH 2023 - BUYO/BUYO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BUYO/CARNAVAL BH 2023 - BUYO/BUYO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BUYO/CARNAVAL BH 2024 - BUYO/BUYO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/BUYO/CARNAVAL BH 2024 - BUYO/BUYO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/MONTSERRAT, SERRAT/CARNAVAL BH 2023 - MONTSERRAT SERRAT /MONTSERRAT_SERRAT.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/MONTSERRAT, SERRAT/CARNAVAL BH 2023 - MONTSERRAT SERRAT /MONTSERRAT_SERRAT.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/MONTSERRAT, SERRAT/CARNAVAL BH 2024 - MONTSERRAT SERRAT/MONTSERRAT_SERRAT.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/MONTSERRAT, SERRAT/CARNAVAL BH 2024 - MONTSERRAT SERRAT/MONTSERRAT_SERRAT.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO É MOLE NÃO + GUADALOUPE/CARNAVAL BH 2023 - NAO É MOLE NÃO + GUADALUPE/NAO_É_MOLE_NÃO_E_GUADALUPE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO É MOLE NÃO + GUADALOUPE/CARNAVAL BH 2023 - NAO É MOLE NÃO + GUADALUPE/NAO_É_MOLE_NÃO_E_GUADALUPE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO É MOLE NÃO + GUADALOUPE/CARNAVAL BH 2024 - NAO É MOLE NÃO + GUADALUPE/NAO_É_MOLE_NÃO_E_GUADALUPE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO É MOLE NÃO + GUADALOUPE/CARNAVAL BH 2024 - NAO É MOLE NÃO + GUADALUPE/NAO_É_MOLE_NÃO_E_GUADALUPE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2023 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2023 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2024 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2024 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/OSWALDO, O POMBO/CARNAVAL BH 2023 - OSWALDO, O POMBO /OSWALDO_O_POMBO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/OSWALDO, O POMBO/CARNAVAL BH 2023 - OSWALDO, O POMBO /OSWALDO_O_POMBO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/OSWALDO, O POMBO/CARNAVAL BH 2024 - OSWALDO, O POMBO/OSWALDO_O_POMBO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/OSWALDO, O POMBO/CARNAVAL BH 2024 - OSWALDO, O POMBO/OSWALDO_O_POMBO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/SOUL FINGER/CARNAVAL BH 2023 - SOUL FINGER/SOUL_FINGER.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/SOUL FINGER/CARNAVAL BH 2023 - SOUL FINGER/SOUL_FINGER.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/SOUL FINGER/CARNAVAL BH 2024 - SOUL FINGER/SOUL_FINGER.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/SOUL FINGER/CARNAVAL BH 2024 - SOUL FINGER/SOUL_FINGER.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/SOUL FINGER/MADEIRA PIRATA - SOUL FINGER/SOUL_FINGER.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/SOUL FINGER/MADEIRA PIRATA - SOUL FINGER/SOUL_FINGER.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/TOM _ JERRY EM GUCA/CARNAVAL BH 2023 - TOM _ JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/TOM _ JERRY EM GUCA/CARNAVAL BH 2023 - TOM _ JERRY EM GUCA/TOM_JERRY_EM_GUCA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/TOM _ JERRY EM GUCA/CARNAVAL BH 2024 - TOM _ JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FANFARRAS/TOM _ JERRY EM GUCA/CARNAVAL BH 2024 - TOM _ JERRY EM GUCA/TOM_JERRY_EM_GUCA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/ANUNCIAÇÃO/CARNAVAL BH 2023 - ANUNCIAÇÃO /ANUNCIAÇÃO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/ANUNCIAÇÃO/CARNAVAL BH 2023 - ANUNCIAÇÃO /ANUNCIAÇÃO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/ANUNCIAÇÃO/CARNAVAL BH 2024 - ANUNCIAÇÃO/ANUNCIAÇÃO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/ANUNCIAÇÃO/CARNAVAL BH 2024 - ANUNCIAÇÃO/ANUNCIAÇÃO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/ANUNCIAÇÃO/MADEIRA PIRATA - ANUNCIAÇÃO/ANUNCIAÇÃO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/ANUNCIAÇÃO/MADEIRA PIRATA - ANUNCIAÇÃO/ANUNCIAÇÃO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CABELO DE FOGO/CARNAVAL BH 2023 - CABELO DE FOGO /CABELO_DE_FOGO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CABELO DE FOGO/CARNAVAL BH 2023 - CABELO DE FOGO /CABELO_DE_FOGO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CABELO DE FOGO/CARNAVAL BH 2024 - CABELO DE FOGO/CABELO_DE_FOGO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CABELO DE FOGO/CARNAVAL BH 2024 - CABELO DE FOGO/CABELO_DE_FOGO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CIRANDA DE MALUCO/CARNAVAL BH 2023 - CIRANDA DE MALUCO /CIRANDA_DE_MALUCO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CIRANDA DE MALUCO/CARNAVAL BH 2023 - CIRANDA DE MALUCO /CIRANDA_DE_MALUCO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CIRANDA DE MALUCO/CARNAVAL BH 2024 - CIRANDA DE MALUCO/CIRANDA_DE_MALUCO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/CIRANDA DE MALUCO/CARNAVAL BH 2024 - CIRANDA DE MALUCO/CIRANDA_DE_MALUCO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/FREVO MULHER/CARNAVAL BH 2023 - FREVO MULHER /FREVO_MULHER.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/FREVO MULHER/CARNAVAL BH 2023 - FREVO MULHER /FREVO_MULHER.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/FREVO MULHER/CARNAVAL BH 2024 - FREVO MULHER/FREVO_MULHER.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/FREVO MULHER/CARNAVAL BH 2024 - FREVO MULHER/FREVO_MULHER.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/HINO DO ELEFANTE DE OLINDA/CARNAVAL BH 2023 - HINO DO ELEFANTE DE OLINDA/HINO_DO_ELEFANTE_DE_OLINDA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/HINO DO ELEFANTE DE OLINDA/CARNAVAL BH 2023 - HINO DO ELEFANTE DE OLINDA/HINO_DO_ELEFANTE_DE_OLINDA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/MORENA TROPICANA/CARNAVAL BH 2023 - MORENA TROPICANA/MORENA_TROPICANA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/MORENA TROPICANA/CARNAVAL BH 2023 - MORENA TROPICANA/MORENA_TROPICANA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/NAGÔ NAGÔ/CARNAVAL BH 2023 - NAGO NAGO/Nago_Nago.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/NAGÔ NAGÔ/CARNAVAL BH 2023 - NAGO NAGO/Nago_Nago.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/PAGODE RUSSO/CARNAVAL BH 2023 - PAGODE RUSSO/PAGODE_RUSSO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/PAGODE RUSSO/CARNAVAL BH 2023 - PAGODE RUSSO/PAGODE_RUSSO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/VASSOURINHAS/CARNAVAL BH 2023 - VASSOURINHAS /VASSOURINHAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/VASSOURINHAS/CARNAVAL BH 2023 - VASSOURINHAS /VASSOURINHAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/VASSOURINHAS/CARNAVAL BH 2024 - VASSOURINHAS/VASSOURINHAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FREVOS/VASSOURINHAS/CARNAVAL BH 2024 - VASSOURINHAS/VASSOURINHAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/AGORA VAI SENTAR/AGORA_VAI_SENTAR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/AGORA VAI SENTAR/AGORA_VAI_SENTAR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/AMOR DE QUE/CARNAVAL BH 2023 - AMOR DE QUE/AMOR_DE_QUE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/AMOR DE QUE/CARNAVAL BH 2023 - AMOR DE QUE/AMOR_DE_QUE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/BAILE DE FAVELA/BAILE_DE_FAVELA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/BAILE DE FAVELA/BAILE_DE_FAVELA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/CHEGUEI/CARNAVAL BH 2023 - CHEGUEI/CHEGUEI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/CHEGUEI/CARNAVAL BH 2023 - CHEGUEI/CHEGUEI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/CHEGUEI/CARNAVAL BH 2024 - CHEGUEI/CHEGUEI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/CHEGUEI/CARNAVAL BH 2024 - CHEGUEI/CHEGUEI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/DIN DIN DIN (PODE DAR EM CIMA DE MIM)/CARNAVAL BH 2023 - DIN DIN DIN/DIN_DIN_DIN.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/DIN DIN DIN (PODE DAR EM CIMA DE MIM)/CARNAVAL BH 2023 - DIN DIN DIN/DIN_DIN_DIN.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/ENDERECO DOS BAILES/ENDERECO_DOS_BAILES.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/ENDERECO DOS BAILES/ENDERECO_DOS_BAILES.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/FEIRA DE ACARI/CARNAVAL BH 2023 - FEIRA DE ACARI/FEIRA_DE_ACARI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/FEIRA DE ACARI/CARNAVAL BH 2023 - FEIRA DE ACARI/FEIRA_DE_ACARI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/FEIRA DE ACARI/CARNAVAL BH 2024 - FEIRA DE ACARI/FEIRA_DE_ACARI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/FEIRA DE ACARI/CARNAVAL BH 2024 - FEIRA DE ACARI/FEIRA_DE_ACARI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/GLAMUROSA/CARNAVAL BH 2023 - GLAMUROSA/GLAMUROSA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/GLAMUROSA/CARNAVAL BH 2023 - GLAMUROSA/GLAMUROSA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/MEU JEITO DE AMAR (VAI DESCENDO DEVAGAR)/CARNAVAL BH 2023 - MEU JEITO DE AMAR/MEU_JEITO_DE_AMAR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/MEU JEITO DE AMAR (VAI DESCENDO DEVAGAR)/CARNAVAL BH 2023 - MEU JEITO DE AMAR/MEU_JEITO_DE_AMAR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/MEU JEITO DE AMAR (VAI DESCENDO DEVAGAR)/CARNAVAL BH 2024 - MEU JEITO DE AMAR/MEU_JEITO_DE_AMAR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/MEU JEITO DE AMAR (VAI DESCENDO DEVAGAR)/CARNAVAL BH 2024 - MEU JEITO DE AMAR/MEU_JEITO_DE_AMAR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/MISS BELEZA UNIVERSAL/CARNAVAL BH 2023 - MISS BELEZA UNIVERSAL/MISS_BELEZA_UNIVERSAL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/MISS BELEZA UNIVERSAL/CARNAVAL BH 2023 - MISS BELEZA UNIVERSAL/MISS_BELEZA_UNIVERSAL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/OH JULIANA/OH_JULIANA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/OH JULIANA/OH_JULIANA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/RAP DA FELICIDADE (EU SÓ QUERO É SER FELIZ)/CARNAVAL BH 2023 - RAP DA FELICIDADE/RAP_DA_FELICIDADE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/RAP DA FELICIDADE (EU SÓ QUERO É SER FELIZ)/CARNAVAL BH 2023 - RAP DA FELICIDADE/RAP_DA_FELICIDADE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/RAP DAS ARMAS/RAP_DAS_ARMAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/RAP DAS ARMAS/RAP_DAS_ARMAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/SE TÁ SOLTEIRA/CARNAVAL BH 2023 - SE TÁ SOLTEIRA/SE_TÁ_SOLTEIRA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/SE TÁ SOLTEIRA/CARNAVAL BH 2023 - SE TÁ SOLTEIRA/SE_TÁ_SOLTEIRA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/SE TÁ SOLTEIRA/CARNAVAL BH 2024 - SE TÁ SOLTEIRA/SE_TÁ_SOLTEIRA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/SE TÁ SOLTEIRA/CARNAVAL BH 2024 - SE TÁ SOLTEIRA/SE_TÁ_SOLTEIRA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/TEDIO/TEDIO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/TEDIO/TEDIO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/TU TA NA GAIOLA/TU_TA_NA_GAIOLA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/TU TA NA GAIOLA/TU_TA_NA_GAIOLA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/UM MORTO MUITO LOUCO/UM_MORTO_MUITO_LOUCO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/UM MORTO MUITO LOUCO/UM_MORTO_MUITO_LOUCO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VAI MALANDRA/CARNAVAL BH 2023 - VAI MALANDRA/VAI_MALANDRA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VAI MALANDRA/CARNAVAL BH 2023 - VAI MALANDRA/VAI_MALANDRA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERDINHA/CARNAVAL BH 2023 - VERDINHA/VERDINHA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERDINHA/CARNAVAL BH 2023 - VERDINHA/VERDINHA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERDINHA/CARNAVAL BH 2024 - VERDINHA/VERDINHA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERDINHA/CARNAVAL BH 2024 - VERDINHA/VERDINHA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERMELHO (GROOVE)/CARNAVAL BH 2023 - VERMELHO/VERMELHO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERMELHO (GROOVE)/CARNAVAL BH 2023 - VERMELHO/VERMELHO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERMELHO (GROOVE)/CARNAVAL BH 2024 - VERMELHO/VERMELHO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/FUNKS/VERMELHO (GROOVE)/CARNAVAL BH 2024 - VERMELHO/VERMELHO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/BESAME MUCHO/CARNAVAL BH 2023 - BESAME MUCHO/BESAME_MUCHO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/BESAME MUCHO/CARNAVAL BH 2023 - BESAME MUCHO/BESAME_MUCHO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/BESAME MUCHO/CARNAVAL BH 2024 - BESAME MUCHO/BESAME_MUCHO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/BESAME MUCHO/CARNAVAL BH 2024 - BESAME MUCHO/BESAME_MUCHO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/CARIÑITO/CARNAVAL BH 2023 - CARIÑITO/CARINITO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/CARIÑITO/CARNAVAL BH 2023 - CARIÑITO/CARINITO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/CARIÑITO/CARNAVAL BH 2024 - CARIÑITO/CARINITO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/CARIÑITO/CARNAVAL BH 2024 - CARIÑITO/CARINITO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/LLORANDO SE FUE (CHORANDO SE FOI)/CARNAVAL BH 2023 - LLORANDO SE FUE/CHORANDO_SE_FOI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/LLORANDO SE FUE (CHORANDO SE FOI)/CARNAVAL BH 2023 - LLORANDO SE FUE/CHORANDO_SE_FOI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/LLORANDO SE FUE (CHORANDO SE FOI)/CARNAVAL BH 2024 - LLORANDO SE FUE/CHORANDO_SE_FOI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/LATINAS/LLORANDO SE FUE (CHORANDO SE FOI)/CARNAVAL BH 2024 - LLORANDO SE FUE/CHORANDO_SE_FOI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/BELLA CIAO/BELLA CIAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/BELLA CIAO/BELLA CIAO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement manifestacao-bella-ciao-bella-ciao for song manifestacao-bella-ciao (bella ciao)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.mscz",
+      "relPath": "MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.mscz",
+      "extension": ".mscz",
+      "arrId": "manifestacao-bella-ciao-bella-ciao",
+      "arrName": "bella ciao",
+      "songId": "manifestacao-bella-ciao",
+      "songTitle": "bella ciao",
+      "style": "manifestação"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair(1).metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair(1).midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement manifestacao-ta-na-hora-do-jair-ta-na-hora-do-jair for song manifestacao-ta-na-hora-do-jair (ta na hora do jair)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair.mscz",
+      "relPath": "MANIFESTAÇÃO/TA NA HORA DO JAIR/Tá_na_Hora_do_Jair.mscz",
+      "extension": ".mscz",
+      "arrId": "manifestacao-ta-na-hora-do-jair-ta-na-hora-do-jair",
+      "arrName": "ta na hora do jair",
+      "songId": "manifestacao-ta-na-hora-do-jair",
+      "songTitle": "ta na hora do jair",
+      "style": "manifestação"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TÁ ESCRITO/TA_ESCRITO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TÁ ESCRITO/TA_ESCRITO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement manifestacao-ta-escrito-ta-escrito for song manifestacao-ta-escrito (tá escrito)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.mscz",
+      "relPath": "MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.mscz",
+      "extension": ".mscz",
+      "arrId": "manifestacao-ta-escrito-ta-escrito",
+      "arrName": "tá escrito",
+      "songId": "manifestacao-ta-escrito",
+      "songTitle": "tá escrito",
+      "style": "manifestação"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/VERMELHO/Vermelho.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MANIFESTAÇÃO/VERMELHO/Vermelho.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/ALALA-Ô.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/ALALA-Ô.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/ALALA-Ô/CARNAVAL BH 2024 - ALALA-Ô/ALALA-Ô.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/ALALA-Ô/CARNAVAL BH 2024 - ALALA-Ô/ALALA-Ô.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/BALANCÊ/CARNAVAL BH 2023 - BALANCÊ /BALANCÊ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/BALANCÊ/CARNAVAL BH 2023 - BALANCÊ /BALANCÊ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/BALANCÊ/CARNAVAL BH 2024 - BALANCÊ/BALANCÊ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/BALANCÊ/CARNAVAL BH 2024 - BALANCÊ/BALANCÊ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CABELEIRA DO ED MARTE/CARNAVAL BH 2023 - CABELEIRA DO ED MARTE/CABELEIRA_DO_ZEZE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CABELEIRA DO ED MARTE/CARNAVAL BH 2023 - CABELEIRA DO ED MARTE/CABELEIRA_DO_ZEZE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CABELEIRA DO ED MARTE/CARNAVAL BH 2024 - CABELEIRA DO ED MARTE/CABELEIRA_DO_ZEZE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CABELEIRA DO ED MARTE/CARNAVAL BH 2024 - CABELEIRA DO ED MARTE/CABELEIRA_DO_ZEZE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CACHAÇA/CARNAVAL BH 2023 - CACHAÇA/CACHAÇA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CACHAÇA/CARNAVAL BH 2023 - CACHAÇA/CACHAÇA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CACHAÇA/CARNAVAL BH 2024 - CACHAÇA/CACHAÇA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/CACHAÇA/CARNAVAL BH 2024 - CACHAÇA/CACHAÇA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/JARDINEIRA/CARNAVAL BH 2023 - JARDINEIRA /JARDINEIRA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/JARDINEIRA/CARNAVAL BH 2023 - JARDINEIRA /JARDINEIRA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/JARDINEIRA/CARNAVAL BH 2024 - JARDINEIRA/JARDINEIRA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/JARDINEIRA/CARNAVAL BH 2024 - JARDINEIRA/JARDINEIRA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MAMÃE EU QUERO/CARNAVAL BH 2023 - MAMÃE EU QUERO /MAMÃE EU QUERO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MAMÃE EU QUERO/CARNAVAL BH 2023 - MAMÃE EU QUERO /MAMÃE EU QUERO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MAMÃE EU QUERO/CARNAVAL BH 2024 - MAMÃE EU QUERO/MAMÃE EU QUERO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MAMÃE EU QUERO/CARNAVAL BH 2024 - MAMÃE EU QUERO/MAMÃE EU QUERO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MARCHA DO REMADOR/CARNAVAL BH 2023 - MARCHA DO REMADOR /MARCHA DO REMADOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MARCHA DO REMADOR/CARNAVAL BH 2023 - MARCHA DO REMADOR /MARCHA DO REMADOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MARCHA DO REMADOR/CARNAVAL BH 2024 - MARCHA DO REMADOR/MARCHA DO REMADOR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/MARCHA DO REMADOR/CARNAVAL BH 2024 - MARCHA DO REMADOR/MARCHA DO REMADOR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/QUEM SABE, SABE/CARNAVAL BH 2023  - QUEM SABE SABE  /QUEM SABE SABE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/QUEM SABE, SABE/CARNAVAL BH 2023  - QUEM SABE SABE  /QUEM SABE SABE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/QUEM SABE, SABE/CARNAVAL BH 2024 - QUEM SABE SABE/QUEM SABE SABE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/QUEM SABE, SABE/CARNAVAL BH 2024 - QUEM SABE SABE/QUEM SABE SABE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SACA ROLHAS/CARNAVAL BH 2023 - SACA ROLHAS /SACA ROLHA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SACA ROLHAS/CARNAVAL BH 2023 - SACA ROLHAS /SACA ROLHA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SACA ROLHAS/CARNAVAL BH 2024 - SACA ROLHAS/SACA ROLHA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SACA ROLHAS/CARNAVAL BH 2024 - SACA ROLHAS/SACA ROLHA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SASSARICANDO/CARNAVAL BH 2023 - SASSARICANDO/SASSARICANDO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SASSARICANDO/CARNAVAL BH 2023 - SASSARICANDO/SASSARICANDO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SASSARICANDO/CARNAVAL BH 2024 - SASSARICANDO/SASSARICANDO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/SASSARICANDO/CARNAVAL BH 2024 - SASSARICANDO/SASSARICANDO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TAÍ/CARNAVAL BH 2023 - TAÍ /TAÍ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TAÍ/CARNAVAL BH 2023 - TAÍ /TAÍ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TAÍ/CARNAVAL BH 2024 - TAÍ/TAÍ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TAÍ/CARNAVAL BH 2024 - TAÍ/TAÍ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TEM NEGO BÊBO AÍ/CARNAVAL BH 2023 - TEM NEGO BEBO AI/TEM_NEGO_BEBO_AI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TEM NEGO BÊBO AÍ/CARNAVAL BH 2023 - TEM NEGO BEBO AI/TEM_NEGO_BEBO_AI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TEM NEGO BÊBO AÍ/CARNAVAL BH 2024 - TEM NEGO BEBO AI/TEM_NEGO_BEBO_AI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TEM NEGO BÊBO AÍ/CARNAVAL BH 2024 - TEM NEGO BEBO AI/TEM_NEGO_BEBO_AI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TURMA DO FUNIL/CARNAVAL BH 2023 - TURMA DO FUNIL/TURMA DO FUNIL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TURMA DO FUNIL/CARNAVAL BH 2023 - TURMA DO FUNIL/TURMA DO FUNIL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TURMA DO FUNIL/CARNAVAL BH 2024 - TURMA DO FUNIL/TURMA DO FUNIL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/TURMA DO FUNIL/CARNAVAL BH 2024 - TURMA DO FUNIL/TURMA DO FUNIL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/VAI COM JEITO/CARNAVAL BH 2023 - VAI COM JEITO /VAI COM JEITO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/VAI COM JEITO/CARNAVAL BH 2023 - VAI COM JEITO /VAI COM JEITO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/VAI COM JEITO/CARNAVAL BH 2024 - VAI COM JEITO/VAI COM JEITO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/MARCHINHAS/VAI COM JEITO/CARNAVAL BH 2024 - VAI COM JEITO/VAI COM JEITO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/CANTO DE XANGO/CARNAVAL BH 2023 - CANTO DE XANGO/CANTO_DE_XANGO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/CANTO DE XANGO/CARNAVAL BH 2023 - CANTO DE XANGO/CANTO_DE_XANGO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/CORDEIRO DE NANA/CARNAVAL BH 2023 - CORDEIRO DE NANA/CORDEIRO_DE_NANA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/CORDEIRO DE NANA/CARNAVAL BH 2023 - CORDEIRO DE NANA/CORDEIRO_DE_NANA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/CORDEIRO DE NANA/CARNAVAL BH 2024 - CORDEIRO DE NANA/CORDEIRO_DE_NANA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/CORDEIRO DE NANA/CARNAVAL BH 2024 - CORDEIRO DE NANA/CORDEIRO_DE_NANA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/DEIXA A GIRA GIRAR/CARNAVAL BH 2023 - DEIXA A GIRA GIRAR/DEIXA_A_GIRA_GIRAR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/DEIXA A GIRA GIRAR/CARNAVAL BH 2023 - DEIXA A GIRA GIRAR/DEIXA_A_GIRA_GIRAR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/DEIXA A GIRA GIRAR/CARNAVAL BH 2024 - DEIXA A GIRA GIRAR/DEIXA_A_GIRA_GIRAR.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/DEIXA A GIRA GIRAR/CARNAVAL BH 2024 - DEIXA A GIRA GIRAR/DEIXA_A_GIRA_GIRAR.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ(1).metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ(1).midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement odaras-emorio-carnaval-bh-2023-emorio for song odaras-emorio (emoriô)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ.mscz",
+      "relPath": "ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ.mscz",
+      "extension": ".mscz",
+      "arrId": "odaras-emorio-carnaval-bh-2023-emorio",
+      "arrName": "carnaval bh 2023 - emoriô",
+      "songId": "odaras-emorio",
+      "songTitle": "emoriô",
+      "style": "odaras"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ(1).metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ(1).midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement odaras-emorio-carnaval-bh-2024-emorio for song odaras-emorio (emoriô)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ.mscz",
+      "relPath": "ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ.mscz",
+      "extension": ".mscz",
+      "arrId": "odaras-emorio-carnaval-bh-2024-emorio",
+      "arrName": "carnaval bh 2024 - emoriô",
+      "songId": "odaras-emorio",
+      "songTitle": "emoriô",
+      "style": "odaras"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/É D_OXUM/CARNAVAL BH 2023 - É D_OXUM/É_D_OXUM.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/É D_OXUM/CARNAVAL BH 2023 - É D_OXUM/É_D_OXUM.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/É D_OXUM/CARNAVAL BH 2024 - É D_OXUM/É_D_OXUM.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/É D_OXUM/CARNAVAL BH 2024 - É D_OXUM/É_D_OXUM.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/MARESIA/CARNAVAL BH 2023 - MARESIA/Maresia.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/MARESIA/CARNAVAL BH 2023 - MARESIA/Maresia.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/ODARA/CARNAVAL BH 2023 - ODARA/Odara.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/ODARA/CARNAVAL BH 2023 - ODARA/Odara.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/SUÍTE DOS PESCADORES/CARNAVAL BH 2023 - SUÍTE DOS PESCADORES /SUITE_DOS_PESCADORES.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/SUÍTE DOS PESCADORES/CARNAVAL BH 2023 - SUÍTE DOS PESCADORES /SUITE_DOS_PESCADORES.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/SUÍTE DOS PESCADORES/CARNAVAL BH 2024 - SUÍTE DOS PESCADORES/SUITE_DOS_PESCADORES.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/SUÍTE DOS PESCADORES/CARNAVAL BH 2024 - SUÍTE DOS PESCADORES/SUITE_DOS_PESCADORES.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/VARIAS QUEIXAS/CARNAVAL BH 2023 - VARIAS QUEIXAS/VARIAS_QUEIXAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/VARIAS QUEIXAS/CARNAVAL BH 2023 - VARIAS QUEIXAS/VARIAS_QUEIXAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/VARIAS QUEIXAS/CARNAVAL BH 2024 - VARIAS QUEIXAS/VARIAS_QUEIXAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ODARAS/VARIAS QUEIXAS/CARNAVAL BH 2024 - VARIAS QUEIXAS/VARIAS_QUEIXAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CAÇAMBA/CARNAVAL BH 2023 - CAÇAMBA/CAÇAMBA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CAÇAMBA/CARNAVAL BH 2023 - CAÇAMBA/CAÇAMBA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CAÇAMBA/CARNAVAL BH 2024 - CAÇAMBA/CAÇAMBA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CAÇAMBA/CARNAVAL BH 2024 - CAÇAMBA/CAÇAMBA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CHEIA DE MANIAS/CARNAVAL BH 2023 - CHEIA DE MANIAS/CHEIA_DE_MANIAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CHEIA DE MANIAS/CARNAVAL BH 2023 - CHEIA DE MANIAS/CHEIA_DE_MANIAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CHEIA DE MANIAS/CARNAVAL BH 2024 - CHEIA DE MANIAS/CHEIA_DE_MANIAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CHEIA DE MANIAS/CARNAVAL BH 2024 - CHEIA DE MANIAS/CHEIA_DE_MANIAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CILADA/CARNAVAL BH 2023 - CILADA/CILADA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CILADA/CARNAVAL BH 2023 - CILADA/CILADA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CILADA/CARNAVAL BH 2024 - CILADA/CILADA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/CILADA/CARNAVAL BH 2024 - CILADA/CILADA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/MAL ACOSTUMADO/CARNAVAL BH 2023 - MAL ACOSTUMADO/MAL_ACOSTUMADO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/MAL ACOSTUMADO/CARNAVAL BH 2023 - MAL ACOSTUMADO/MAL_ACOSTUMADO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/MAL ACOSTUMADO/CARNAVAL BH 2024 - MAL ACOSTUMADO/MAL_ACOSTUMADO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PAGODES/MAL ACOSTUMADO/CARNAVAL BH 2024 - MAL ACOSTUMADO/MAL_ACOSTUMADO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PISEIRO/TA ROCHEDA/TA ROCHEDA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PISEIRO/TA ROCHEDA/TA ROCHEDA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PISEIRO/TAPAO NA RABA/TAPAO NA RABA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/PISEIRO/TAPAO NA RABA/TAPAO NA RABA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/ABRE ALAS/CARNAVAL BH 2023 - ABRE ALAS /ABRE_ALAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/ABRE ALAS/CARNAVAL BH 2023 - ABRE ALAS /ABRE_ALAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/ABRE ALAS/CARNAVAL BH 2024 - ABRE ALAS/ABRE_ALAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/ABRE ALAS/CARNAVAL BH 2024 - ABRE ALAS/ABRE_ALAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/ABRE ALAS/MADEIRA PIRATA - ABRE ALAS/ABRE_ALAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/ABRE ALAS/MADEIRA PIRATA - ABRE ALAS/ABRE_ALAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/BANDEIRA BRANCA/CARNAVAL BH 2023 - BANDEIRA BRANCA/BANDEIRA_BRANCA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/BANDEIRA BRANCA/CARNAVAL BH 2023 - BANDEIRA BRANCA/BANDEIRA_BRANCA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/BANDEIRA BRANCA/CARNAVAL BH 2024 - BANDEIRA BRANCA/BANDEIRA_BRANCA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/BANDEIRA BRANCA/CARNAVAL BH 2024 - BANDEIRA BRANCA/BANDEIRA_BRANCA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/CARINHOSO/CARNAVAL BH 2023 - CARINHOSO/CARINHOSO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/CARINHOSO/CARNAVAL BH 2023 - CARINHOSO/CARINHOSO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/CARINHOSO/CARNAVAL BH 2024 - CARINHOSO/CARINHOSO.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/CARINHOSO/CARNAVAL BH 2024 - CARINHOSO/CARINHOSO.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/EU QUERO É BOTAR MEU BLOCO NA RUA/CARNAVAL BH 2023 - BLOCO NA RUA/ERRADO_NA_RUA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/EU QUERO É BOTAR MEU BLOCO NA RUA/CARNAVAL BH 2023 - BLOCO NA RUA/ERRADO_NA_RUA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/EU QUERO É BOTAR MEU BLOCO NA RUA/CARNAVAL BH 2024 - BLOCO NA RUA/ERRADO_NA_RUA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/EU QUERO É BOTAR MEU BLOCO NA RUA/CARNAVAL BH 2024 - BLOCO NA RUA/ERRADO_NA_RUA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/MASCARA NEGRA (QUANTO RISO OH)/CARNAVAL BH 2023 - MASCARA NEGRA /MASCARA_NEGRA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/MASCARA NEGRA (QUANTO RISO OH)/CARNAVAL BH 2023 - MASCARA NEGRA /MASCARA_NEGRA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/MASCARA NEGRA (QUANTO RISO OH)/CARNAVAL BH 2024 - MASCARA NEGRA/MASCARA_NEGRA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/MASCARA NEGRA (QUANTO RISO OH)/CARNAVAL BH 2024 - MASCARA NEGRA/MASCARA_NEGRA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/NOITE DOS MASCARADOS (MAS É CARNAVAL)/CARNAVAL BH 2023 - NOITE DOS MASCARADOS/NOITE_DOS_MASCARADOS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/NOITE DOS MASCARADOS (MAS É CARNAVAL)/CARNAVAL BH 2023 - NOITE DOS MASCARADOS/NOITE_DOS_MASCARADOS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/PASTORINHAS/CARNAVAL BH 2023 - PASTORINHAS/AS_PASTORINHAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/PASTORINHAS/CARNAVAL BH 2023 - PASTORINHAS/AS_PASTORINHAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/PASTORINHAS/CARNAVAL BH 2024 - PASTORINHAS/AS_PASTORINHAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/PASTORINHAS/CARNAVAL BH 2024 - PASTORINHAS/AS_PASTORINHAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/TOURADAS EM MADRI/CARNAVAL BH 2023 - TOURADAS DE MADRI/TOURADAS_EM_MADRI.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/TOURADAS EM MADRI/CARNAVAL BH 2023 - TOURADAS DE MADRI/TOURADAS_EM_MADRI.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/TRISTEZA/CARNAVAL BH 2023 - TRISTEZA/TRISTEZA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/TRISTEZA/CARNAVAL BH 2023 - TRISTEZA/TRISTEZA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/TRISTEZA/CARNAVAL BH 2024 - TRISTEZA/TRISTEZA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/RANCHOS/TRISTEZA/CARNAVAL BH 2024 - TRISTEZA/TRISTEZA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ROCKS/PAINT IN BLACK/PAINT IT, BLACK EB C.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ROCKS/PAINT IN BLACK/PAINT IT, BLACK EB C.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ROCKS/PAINT IN BLACK/PAINT IT, BLACK.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ROCKS/PAINT IN BLACK/PAINT IT, BLACK.midi"
+    }
+  },
+  {
+    "message": "Duplicate arrangement rocks-paint-in-black-paint-in-black for song rocks-paint-in-black (paint in black)",
+    "meta": {
+      "absPath": "/Users/beise/Downloads/Partituras/ROCKS/PAINT IN BLACK/PAINT IT, BLACK.mscz",
+      "relPath": "ROCKS/PAINT IN BLACK/PAINT IT, BLACK.mscz",
+      "extension": ".mscz",
+      "arrId": "rocks-paint-in-black-paint-in-black",
+      "arrName": "paint in black",
+      "songId": "rocks-paint-in-black",
+      "songTitle": "paint in black",
+      "style": "rocks"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/APESAR DE VOCE/CARNAVAL BH 2023 - APESAR DE VOCÊ/APESAR_DE_VOCE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/APESAR DE VOCE/CARNAVAL BH 2023 - APESAR DE VOCÊ/APESAR_DE_VOCE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/APESAR DE VOCE/CARNAVAL BH 2024 - APESAR DE VOCÊ/APESAR_DE_VOCE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/APESAR DE VOCE/CARNAVAL BH 2024 - APESAR DE VOCÊ/APESAR_DE_VOCE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/CANTO DAS TRES RAÇAS/CARNAVAL BH 2023 - CANTO DAS TRÊS RAÇAS/CANTO_DAS_TRES_RACAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/CANTO DAS TRES RAÇAS/CARNAVAL BH 2023 - CANTO DAS TRÊS RAÇAS/CANTO_DAS_TRES_RACAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/CANTO DAS TRES RAÇAS/CARNAVAL BH 2024 - CANTO DAS TRÊS RAÇAS/CANTO_DAS_TRES_RACAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/CANTO DAS TRES RAÇAS/CARNAVAL BH 2024 - CANTO DAS TRÊS RAÇAS/CANTO_DAS_TRES_RACAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/JUIZO FINAL (O SOL)/CARNAVAL BH 2023 - JUIZO FINAL/JUÍZO_FINAL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/JUIZO FINAL (O SOL)/CARNAVAL BH 2023 - JUIZO FINAL/JUÍZO_FINAL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/JUIZO FINAL (O SOL)/CARNAVAL BH 2024 - JUIZO FINAL/JUÍZO_FINAL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/JUIZO FINAL (O SOL)/CARNAVAL BH 2024 - JUIZO FINAL/JUÍZO_FINAL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/NÃO DEIXE O SAMBA MORRER/CARNAVAL BH 2023 - NÃO DEIXE O SAMBA MORRER/NÃO_DEIXE_O_SAMBA_MORRER.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/NÃO DEIXE O SAMBA MORRER/CARNAVAL BH 2023 - NÃO DEIXE O SAMBA MORRER/NÃO_DEIXE_O_SAMBA_MORRER.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/NÃO DEIXE O SAMBA MORRER/CARNAVAL BH 2024 - NÃO DEIXE O SAMBA MORRER/NÃO_DEIXE_O_SAMBA_MORRER.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/NÃO DEIXE O SAMBA MORRER/CARNAVAL BH 2024 - NÃO DEIXE O SAMBA MORRER/NÃO_DEIXE_O_SAMBA_MORRER.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/O MORRO NÃO TEM VEZ/CARNAVAL BH 2023 - O MORRO NÃO TEM VEZ/O_MORRO_NÃO_TEM_VEZ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/O MORRO NÃO TEM VEZ/CARNAVAL BH 2023 - O MORRO NÃO TEM VEZ/O_MORRO_NÃO_TEM_VEZ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/O SOL NASCERÁ (A SORRIR)/CARNAVAL BH 2023 - O SOL NASCERÁ/O_SOL_NASCERÁ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/O SOL NASCERÁ (A SORRIR)/CARNAVAL BH 2023 - O SOL NASCERÁ/O_SOL_NASCERÁ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/O SOL NASCERÁ (A SORRIR)/CARNAVAL BH 2024 - O SOL NASCERÁ/O_SOL_NASCERÁ.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/O SOL NASCERÁ (A SORRIR)/CARNAVAL BH 2024 - O SOL NASCERÁ/O_SOL_NASCERÁ.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/RETALHOS DE CETIM (MAS CHEGOU, O CARNAVAL)/CARNAVAL BH 2023 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/RETALHOS DE CETIM (MAS CHEGOU, O CARNAVAL)/CARNAVAL BH 2023 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/RETALHOS DE CETIM (MAS CHEGOU, O CARNAVAL)/CARNAVAL BH 2024 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/SAMBAS/RETALHOS DE CETIM (MAS CHEGOU, O CARNAVAL)/CARNAVAL BH 2024 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/CHILDREN + CAN_T GET YOU OUT OF MY HEAD/CARNAVAL BH 2023 - CHILDREN + CAN_T GET YOU OUT OF MY HEAD/MEDLEY_TECHNOHELL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/CHILDREN + CAN_T GET YOU OUT OF MY HEAD/CARNAVAL BH 2023 - CHILDREN + CAN_T GET YOU OUT OF MY HEAD/MEDLEY_TECHNOHELL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/CHILDREN + CAN_T GET YOU OUT OF MY HEAD/CARNAVAL BH 2024 - CHILDREN + CAN_T GET YOU OUT OF MY HEAD/MEDLEY_TECHNOHELL.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/CHILDREN + CAN_T GET YOU OUT OF MY HEAD/CARNAVAL BH 2024 - CHILDREN + CAN_T GET YOU OUT OF MY HEAD/MEDLEY_TECHNOHELL.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/JESUS HUMILHA O SATANAS/JESUS_HUMILHA_SATANAS.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/JESUS HUMILHA O SATANAS/JESUS_HUMILHA_SATANAS.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/WHAT IS LOVE/CARNAVAL BH 2023 - WHAT IS LOVE/WHAT_IS_LOVE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/WHAT IS LOVE/CARNAVAL BH 2023 - WHAT IS LOVE/WHAT_IS_LOVE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/WHAT IS LOVE/CARNAVAL BH 2024 - WHAT IS LOVE/WHAT_IS_LOVE.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/TECHNOHELL/WHAT IS LOVE/CARNAVAL BH 2024 - WHAT IS LOVE/WHAT_IS_LOVE.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/EU SOU UM CORDEIRINHO/Eu_sou_um_cordeirinho.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/EU SOU UM CORDEIRINHO/Eu_sou_um_cordeirinho.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/NOIADOS DA ENCRUZILHADA/NOIADOS_DA_ENCRUZILHADA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/NOIADOS DA ENCRUZILHADA/NOIADOS_DA_ENCRUZILHADA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/SHOW DE CALOUROS (PEDRO DE LARA)/PEDRO_DE_LARA.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/SHOW DE CALOUROS (PEDRO DE LARA)/PEDRO_DE_LARA.midi"
+    }
+  },
+  {
+    "message": "No .metajson file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/UNDERERÊ/Undererê.metajson"
+    }
+  },
+  {
+    "message": "No .midi file found",
+    "meta": {
+      "assetPath": "/Users/beise/Downloads/Partituras/ZOEIRA/UNDERERÊ/Undererê.midi"
     }
   }
 ]
