@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Col, Dropdown, Form, Row } from "react-bootstrap";
+import { Button, ButtonGroup, Col, Dropdown, Form, Modal, Row } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
 import { Instrument, Song } from "../types";
@@ -7,6 +7,8 @@ import { Instrument, Song } from "../types";
 declare const window: any;
 
 const cm2pt = 28.3465;
+let filesToGenerate = 0
+let filesGenerated = 0
 
 // A5 page dimensions in points
 const pageWidth = 18 * cm2pt;
@@ -50,6 +52,8 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
       a.download = file_name;
       a.click();
       window.URL.revokeObjectURL(url);
+      filesGenerated++
+      if(filesGenerated == filesToGenerate) handleCloseModal()
     });
     doc.end();
   };
@@ -271,9 +275,9 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
     doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
     if (backNumber) doc.addPage();
     let reorderedSongs = addIndexPage(doc)
-    let styles = new Set(songs.map((song)=>song.style))
+    let styles = Array.from(new Set(songs.map((song)=>song.style)))
     const { outline } = doc
-    styles.forEach((style) => {
+    styles.sort().forEach((style) => {
       let topItem = outline.addItem(style.toUpperCase())
       stylesOutlines.set(style,topItem)
     })
@@ -283,6 +287,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
 
     const nonNullPromises = promises.filter((promise) => promise !== null);
     if (nonNullPromises.length > 0) {
+      filesToGenerate++
       await Promise.all(nonNullPromises);
       download(doc, createFileName(instrument));
     }
@@ -290,6 +295,7 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
 
   const generatePdf = (e: any, instrument: string = "all") => {
     e.preventDefault();
+    handleShowModal();
     let selectedInstruments = instruments;
     if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i);
@@ -302,12 +308,15 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
       alert("Digite um título para o caderninho!");
       return;
     }
+    filesGenerated = 0
+    filesToGenerate = 0
     const songbooks: any[] = selectedInstruments.map((instrument) => {
       createSongBook(instrument);
     });
-    Promise.all(songbooks).then(() => {
-      console.log("Terminei");
+    Promise.all(songbooks).then((promises) => {
+      console.log(promises);
     });
+
   };
 
   const [songbookTitle, setTitle] = useState("");
@@ -317,7 +326,13 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
   const onCheckBackNumber = ({ target: { checked } }: any) =>
     setBackNumber(checked);
 
+  const [show, setShowModal] = useState(false);
+
+  const handleCloseModal = () => setShowModal(false);
+  const handleShowModal = () => setShowModal(true);
+
   return (
+    <>
     <Row className="mt-4">
       <Form className="d-flex" onSubmit={generatePdf}>
         <Col sm={6}>
@@ -356,6 +371,19 @@ const PDFGenerator = ({ songs }: PdfGeneratorProps) => {
         </Col>
       </Form>
     </Row>
+    <Modal 
+      show={show} 
+      size="lg"
+      aria-labelledby="contained-modal-title-vcenter"
+      centered
+    >
+        <Modal.Body>
+          <p>
+            Gerando caderninhos
+          </p>
+        </Modal.Body>
+      </Modal>
+    </>
   );
 };
 
