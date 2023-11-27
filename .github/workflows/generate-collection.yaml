@@ -34,7 +34,7 @@ jobs:
       - name: Download .mscz files from Google Drive folder
         run: |
           echo ${{ secrets.GDRIVE_KEYFILE_BASE64 }} | base64 -d > /tmp/gdrive-api-key.json
-          npm run download-gdrive -- -i ${{ vars.GDRIVE_FOLDER_ID }} -o /tmp/collection -p '.*mscz' -k /tmp/gdrive-api-key.json -v
+          npm run download-gdrive -- -i ${{ vars.GDRIVE_FOLDER_ID }} -o /tmp/collection -p ".*mscz" -k /tmp/gdrive-api-key.json -v
       - name: Create MuseScore generator file
         shell: sh
         run: |

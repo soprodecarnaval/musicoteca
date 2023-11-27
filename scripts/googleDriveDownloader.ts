@@ -100,7 +100,7 @@ const main = async () => {
     dest: "output",
     help: "Output folder",
   });
-  argParser.add_argument("-g", "--pattern", {
+  argParser.add_argument("-p", "--pattern", {
     type: "str",
     dest: "pattern",
     help: "pattern pattern to match files",
