@@ -20,7 +20,7 @@ jobs:
       - name: Setup MuseScore AppImage
         run: |
           make download-musescore
-          /musescore.AppImage --appimage-extract
+          /musescore_3.6.2.AppImage --appimage-extract
       - name: Restore npm cache
         uses: actions/cache@v2
         with:
