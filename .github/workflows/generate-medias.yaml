@@ -1,7 +1,6 @@
 #
 name: Generate medias from Musescore files
 
-# Configures this workflow to run every time a change is pushed to the branch called `release`.
 on:
   workflow_dispatch:
 
@@ -49,6 +48,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # By default checkout action checks out the repository at the commit that triggered the workflow.
+          # `github.ref` holds the branch name or tag name that triggered the workflow,
+          # so we can use it to checkout the last commit of the branch.
+          ref: ${{ github.ref }}
+      - name: Run upterm for debugging
+        uses: lhotari/action-upterm@v1
       - name: Index collection
         run: |
           mv public/collection /tmp/collection
