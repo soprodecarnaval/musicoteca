@@ -9,12 +9,25 @@ jobs:
     permissions:
       contents: write
       packages: read
-    container:
-      image: ghcr.io/soprodecarnaval/musicoteca:main
-      options: --user root --workdir /app
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Get apt dependencies
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: jq libegl-dev libasound2 libjack0 librust-gobject-sys-dev libnss3 xvfb
+          version: 1.0
+      - name: Setup MuseScore AppImage
+        run: |
+          make download-musescore
+          /musescore.AppImage --appimage-extract
+      - name: Restore npm cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
       - name: Download .mscz files from Google Drive folder
         run: |
           echo ${{ secrets.GDRIVE_KEYFILE_BASE64 }} | base64 -d > /tmp/gdrive-api-key.json
