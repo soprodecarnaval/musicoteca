@@ -1,11 +1,10 @@
-#
-name: Generate collection from a Google Drive folder
+name: Generate collection from Google Drive
 
 on:
   workflow_dispatch:
 
 jobs:
-  generate-medias:
+  generate-collection:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -18,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Download .mscz files from Google Drive folder
         run: |
-          base64 -d <<< ${{ secrets.GDRIVE_KEYFILE_BASE64 }} > /tmp/gdrive-api-key.json
+          echo ${{ secrets.GDRIVE_KEYFILE_BASE64 }} | base64 -d > /tmp/gdrive-api-key.json
           npm run download-gdrive -- -i ${{ vars.GDRIVE_FOLDER_ID }} -o /tmp/collection -p '.*mscz' -k /tmp/gdrive-api-key.json -v
       - name: Create MuseScore generator file
         shell: sh
@@ -42,5 +41,3 @@ jobs:
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git add public/collection
           (git commit -m "[AUTO] Generated collection from ${{ vars.GDRIVE_FOLDER_ID }}" && git push) || exit 0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
