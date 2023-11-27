@@ -1,0 +1,46 @@
+#
+name: Generate collection from a Google Drive folder
+
+on:
+  workflow_dispatch:
+
+jobs:
+  generate-medias:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      packages: read
+    container:
+      image: ghcr.io/soprodecarnaval/musicoteca:main
+      options: --user root --workdir /app
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Download .mscz files from Google Drive folder
+        run: |
+          base64 -d <<< ${{ secrets.GDRIVE_KEYFILE_BASE64 }} > /tmp/gdrive-api-key.json
+          npm run download-gdrive -- -i ${{ vars.GDRIVE_FOLDER_ID }} -o /tmp/collection -p '.*mscz' -k /tmp/gdrive-api-key.json -v
+      - name: Create MuseScore generator file
+        shell: sh
+        run: |
+          find /tmp/collection/ -type f -name "*.mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
+          head media-generation.json
+      - name: Create svg, midi and metajson from mscz
+        shell: sh
+        run: |
+          xvfb-run /squashfs-root/AppRun -j media-generation.json
+          find /tmp/collection/ -type f -name "*.svg" -a -name "*.midi" | head
+      - name: Index collection
+        run: |
+          npm ci
+          npm run index-collection -- -i /tmp/collection -o public/collection
+      - name: Commit and push files
+        run: |
+          git config --global --add safe.directory /__w/musicoteca/musicoteca
+          git config --global user.email "musicoteca@github.com"
+          git config --global user.name "GitHub Actions"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add public/collection
+          (git commit -m "[AUTO] Generated collection from ${{ vars.GDRIVE_FOLDER_ID }}" && git push) || exit 0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
