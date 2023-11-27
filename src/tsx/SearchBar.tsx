@@ -1,31 +1,42 @@
 import { useState } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 
-import { Song } from "../types";
+import { SongArrangement } from "../types";
 import collection from "../collection";
 
 import Fuse from "fuse.js";
 
 interface SearchBarProps {
-  handleResults: (results: Song[]) => void;
+  handleResults: (results: SongArrangement[]) => void;
 }
 
 // index collection using Fuse.js
+const songArrangements = collection.songs.flatMap((song) => {
+  return song.arrangements.map((arrangement) => ({
+    song,
+    arrangement,
+  }));
+});
 
 // TODO: move index creation to build step
 const songIndex = Fuse.createIndex(
-  ["title", "composer", "arrangements.name", "arrangements.tags"],
-  collection.songs
+  ["song.title", "song.composer", "arrangement.name", "arrangement.tags"],
+  songArrangements
 );
 
 const fuse = new Fuse(
-  collection.songs,
+  songArrangements,
   {
-    keys: ["title", "composer", "arrangements.name", "arrangements.tags"],
+    keys: [
+      "song.title",
+      "song.composer",
+      "arrangement.name",
+      "arrangement.tags",
+    ],
     includeScore: true,
     shouldSort: true,
     threshold: 0.1,
-    useExtendedSearch: true
+    useExtendedSearch: true,
   },
   songIndex
 );
@@ -50,14 +61,7 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
     }
 
     const searchResult = fuse.search(searchInput);
-    const results = searchResult
-      .map((result) =>
-        result.item.arrangements.map((arrangement) => ({
-          ...result.item,
-          arrangements: [arrangement],
-        }))
-      )
-      .flat();
+    const results = searchResult.map((result) => result.item);
 
     handleResults(results);
   };

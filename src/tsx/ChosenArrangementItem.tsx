@@ -1,29 +1,27 @@
 import { useState } from "react";
 import { BsTriangleFill, BsFillTrashFill } from "react-icons/bs";
 
-import type { Arrangement, PlayingSong, Song } from "../types";
+import type { PlayingSong, SongArrangement } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
 
 interface ArrangementItemProps {
-  handleSelect: (song: Song, checked: boolean) => void;
+  handleSelect: (song: SongArrangement, checked: boolean) => void;
   handlePlayingSong: (song: PlayingSong) => void;
-  song: Song;
-  arrangement: Arrangement;
+  songArrangement: SongArrangement;
 }
 
 const ChosenArrangementItem = ({
   handleSelect,
-  song,
-  arrangement,
+  songArrangement: { song, arrangement },
   handlePlayingSong,
 }: ArrangementItemProps) => {
   const [expand, setExpand] = useState(false);
 
   const handleDelete = () => {
-    handleSelect({ ...song, arrangements: [arrangement] }, false);
-  }
+    handleSelect({ song, arrangement }, false);
+  };
 
   return (
     <>
@@ -37,7 +35,9 @@ const ChosenArrangementItem = ({
         <td onClick={() => setExpand(!expand)}>{song.title}</td>
         <td onClick={() => setExpand(!expand)}>{arrangement.name}</td>
         <td onClick={() => setExpand(!expand)}>{arrangement.tags}</td>
-        <td><BsFillTrashFill onClick={handleDelete} /></td>
+        <td>
+          <BsFillTrashFill onClick={handleDelete} />
+        </td>
       </tr>
       {expand &&
         arrangement.parts.map((part) => (
@@ -47,8 +47,7 @@ const ChosenArrangementItem = ({
             songName={song.title}
             arrangementName={arrangement.name}
           />
-        ))
-      }
+        ))}
     </>
   );
 };

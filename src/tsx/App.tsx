@@ -7,56 +7,61 @@ import { ArrangementsTable } from "./ArrangementsTable";
 import { ChosenArrangementsTable } from "./ChosenArrangementsTable";
 import { PDFGenerator } from "./PdfGenerator";
 import { sortByColumn } from "./helper/sorter";
-import { SongBar } from './SongBar';
+import { SongBar } from "./SongBar";
 
-import type { PlayingSong, Song } from "../types";
+import type { PlayingSong, SongArrangement } from "../types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";
 
 function App() {
-  const [results, setResults] = useState<Song[]>([]);
-  const [selectedResults, setSelectedResults] = useState<Song[]>([]);
+  const [results, setResults] = useState<SongArrangement[]>([]);
+  const [selectedResults, setSelectedResults] = useState<SongArrangement[]>([]);
   const [playingSong, setPlayingSong] = useState<PlayingSong>({
-    songName: '',
-    arrangementName: '',
-    partName: ''
+    songName: "",
+    arrangementName: "",
+    partName: "",
   });
 
-  const handleSelectSong = (song: Song, checked: boolean) => {
-    checked ? handleAddSong(song) : handleRemoveSong(song)
+  const handleSelectSong = (
+    songArrangement: SongArrangement,
+    checked: boolean
+  ) => {
+    checked
+      ? handleAddSong(songArrangement)
+      : handleRemoveSong(songArrangement);
   };
 
   const clearSelected = () => {
     setSelectedResults([]);
-  }
+  };
 
-  const handleAddSong = (song: Song) => {
-    setSelectedResults([...selectedResults, song]);
+  const handleAddSong = (songArrangement: SongArrangement) => {
+    setSelectedResults([...selectedResults, songArrangement]);
     const updatedRes = results.filter(
-      (r) => r.arrangements[0].id !== song.arrangements[0].id
+      (r) => r.arrangement.id !== songArrangement.arrangement.id
     );
 
     setResults(updatedRes);
-  }
+  };
 
-  const handleRemoveSong = (song: Song) => {
+  const handleRemoveSong = (songArrangement: SongArrangement) => {
     const updatedRes = selectedResults.filter(
-      (r) => r.arrangements[0].id !== song.arrangements[0].id
+      (r) => r.arrangement.id !== songArrangement.arrangement.id
     );
-    setResults([ song, ...results]);
+    setResults([songArrangement, ...results]);
     setSelectedResults(updatedRes);
-  }
+  };
 
-  const handleSelectedResultsSortBy = (column : string, direction: string) => {
-    const sorted = sortByColumn(selectedResults, column, direction)
-    setSelectedResults(sorted.slice())
-  }
+  const handleSelectedResultsSortBy = (column: string, direction: string) => {
+    const sorted = sortByColumn(selectedResults, column, direction);
+    setSelectedResults(sorted.slice());
+  };
 
   const handleResultsSortBy = (column: string, direction: string) => {
-    const sorted = sortByColumn(results, column, direction)
-    setResults(sorted.slice())
-  }
+    const sorted = sortByColumn(results, column, direction);
+    setResults(sorted.slice());
+  };
 
   return (
     <>
@@ -78,7 +83,7 @@ function App() {
             <SearchBar handleResults={setResults} />
           </Col>
           <Col sm={6}>
-            <PDFGenerator songs={selectedResults} />
+            <PDFGenerator songArrangements={selectedResults} />
           </Col>
         </Row>
         <SongBar info={playingSong} />
@@ -88,10 +93,12 @@ function App() {
               <>
                 <h3 className="results">Resultados</h3>
                 <Row>
-                  <Col sm="4"><Sort onSortBy={handleResultsSortBy} /></Col>
+                  <Col sm="4">
+                    <Sort onSortBy={handleResultsSortBy} />
+                  </Col>
                 </Row>
                 <ArrangementsTable
-                  songs={results}
+                  songArrangements={results}
                   handlePlayingSong={setPlayingSong}
                   handleSelect={handleSelectSong}
                 />
@@ -103,10 +110,12 @@ function App() {
               <>
                 <h3 className="results">Resultados selecionados</h3>
                 <Row>
-                  <Col sm="4"><Sort onSortBy={handleSelectedResultsSortBy} /></Col>
+                  <Col sm="4">
+                    <Sort onSortBy={handleSelectedResultsSortBy} />
+                  </Col>
                 </Row>
                 <ChosenArrangementsTable
-                  songs={selectedResults}
+                  songArrangements={selectedResults}
                   handlePlayingSong={setPlayingSong}
                   handleSelect={handleSelectSong}
                   handleClear={clearSelected}

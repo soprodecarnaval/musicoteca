@@ -1,31 +1,31 @@
 import { useState } from "react";
 import { BsTriangleFill } from "react-icons/bs";
 
-import type { Arrangement, PlayingSong, Song } from "../types";
+import type { Arrangement, PlayingSong, Song, SongArrangement } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
 
 interface ArrangementItemProps {
-  handleSelect: (song: Song, checked: boolean) => void;
+  handleSelect: (songArrnagement: SongArrangement, checked: boolean) => void;
   handlePlayingSong: (song: PlayingSong) => void;
-  song: Song;
-  arrangement: Arrangement;
+  songArrangement: SongArrangement;
 }
 
 const ArrangementItem = ({
   handleSelect,
-  song,
-  arrangement,
+  songArrangement,
   handlePlayingSong,
 }: ArrangementItemProps) => {
   const [expand, setExpand] = useState(false);
   const [checked, setChecked] = useState(false);
 
   const handleOnChange = () => {
-    handleSelect({ ...song, arrangements: [arrangement] }, !checked);
+    handleSelect(songArrangement, !checked);
     setChecked(!checked);
   };
+
+  const { song, arrangement } = songArrangement;
 
   return (
     <>
@@ -48,8 +48,7 @@ const ArrangementItem = ({
             songName={song.title}
             arrangementName={arrangement.name}
           />
-        ))
-      }
+        ))}
     </>
   );
 };

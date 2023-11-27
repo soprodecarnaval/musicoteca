@@ -20,6 +20,11 @@ export type Arrangement = {
   tags: Tag[];
 };
 
+export type SongArrangement = {
+  arrangement: Arrangement;
+  song: Song;
+};
+
 export type Tag = string;
 export type Style = Tag;
 
@@ -51,4 +56,4 @@ export type PlayingSong = {
   songName: string;
   arrangementName: string;
   partName: string;
-}
+};
