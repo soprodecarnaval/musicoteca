@@ -1,9 +1,126 @@
 [
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
+    "message": "Duplicate arrangement fanfarras-blue-cigano-blue-cigano for song fanfarras-blue-cigano (blue cigano)",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb-1.svg",
+      "absPath": "/tmp/collection/FANFARRAS/BLUE CIGANO/BLUES_CIGANO.mscz",
+      "relPath": "FANFARRAS/BLUE CIGANO/BLUES_CIGANO.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-blue-cigano-blue-cigano",
+      "arrName": "blue cigano",
+      "songId": "fanfarras-blue-cigano",
+      "songTitle": "blue cigano",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/tmp/collection/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2023 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/tmp/collection/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2023-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2023 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/tmp/collection/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS EBb2.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2024 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "Duplicate arrangement fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "absPath": "/tmp/collection/FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "relPath": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2024 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.mscz",
+      "extension": ".mscz",
+      "arrId": "fanfarras-nao-me-entrego-pros-caretas-carnaval-bh-2024-nao-me-entrego-pros-caretas",
+      "arrName": "carnaval bh 2024 - não me entrego pros caretas",
+      "songId": "fanfarras-nao-me-entrego-pros-caretas",
+      "songTitle": "não me entrego pros caretas",
+      "style": "fanfarras"
+    }
+  },
+  {
+    "message": "Duplicate arrangement manifestacao-bella-ciao-bella-ciao for song manifestacao-bella-ciao (bella ciao)",
+    "meta": {
+      "absPath": "/tmp/collection/MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.mscz",
+      "relPath": "MANIFESTAÇÃO/BELLA CIAO/BELLA_CIAO.mscz",
+      "extension": ".mscz",
+      "arrId": "manifestacao-bella-ciao-bella-ciao",
+      "arrName": "bella ciao",
+      "songId": "manifestacao-bella-ciao",
+      "songTitle": "bella ciao",
+      "style": "manifestação"
+    }
+  },
+  {
+    "message": "Duplicate arrangement manifestacao-ta-escrito-ta-escrito for song manifestacao-ta-escrito (tá escrito)",
+    "meta": {
+      "absPath": "/tmp/collection/MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.mscz",
+      "relPath": "MANIFESTAÇÃO/TÁ ESCRITO/T_escrito.mscz",
+      "extension": ".mscz",
+      "arrId": "manifestacao-ta-escrito-ta-escrito",
+      "arrName": "tá escrito",
+      "songId": "manifestacao-ta-escrito",
+      "songTitle": "tá escrito",
+      "style": "manifestação"
+    }
+  },
+  {
+    "message": "Duplicate arrangement odaras-emorio-carnaval-bh-2024-emorio for song odaras-emorio (emoriô)",
+    "meta": {
+      "absPath": "/tmp/collection/ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ.mscz",
+      "relPath": "ODARAS/EMORIÔ/CARNAVAL BH 2024 - EMORIÔ/EMORIÔ.mscz",
+      "extension": ".mscz",
+      "arrId": "odaras-emorio-carnaval-bh-2024-emorio",
+      "arrName": "carnaval bh 2024 - emoriô",
+      "songId": "odaras-emorio",
+      "songTitle": "emoriô",
+      "style": "odaras"
+    }
+  },
+  {
+    "message": "Duplicate arrangement rocks-paint-in-black-paint-in-black for song rocks-paint-in-black (paint in black)",
+    "meta": {
+      "absPath": "/tmp/collection/ROCKS/PAINT IN BLACK/PAINT IT, BLACK.mscz",
+      "relPath": "ROCKS/PAINT IN BLACK/PAINT IT, BLACK.mscz",
+      "extension": ".mscz",
+      "arrId": "rocks-paint-in-black-paint-in-black",
+      "arrName": "paint in black",
+      "songId": "rocks-paint-in-black",
+      "songTitle": "paint in black",
+      "style": "rocks"
+    }
+  },
+  {
+    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb-1.svg",
+      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -13,10 +130,10 @@
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
+    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb.midi",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Bb.midi",
+      "absPath": "/tmp/collection/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb.midi",
+      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Bb.midi",
       "extension": ".midi",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -26,10 +143,10 @@
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
+    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF-1.svg",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF-1.svg",
+      "absPath": "/tmp/collection/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF-1.svg",
+      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -39,10 +156,10 @@
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
+    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF.midi",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_C_clavF.midi",
+      "absPath": "/tmp/collection/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF.midi",
+      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_C_clavF.midi",
       "extension": ".midi",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -52,10 +169,10 @@
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
+    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb-1.svg",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb-1.svg",
+      "absPath": "/tmp/collection/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb-1.svg",
+      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -65,10 +182,10 @@
     }
   },
   {
-    "message": "No instrument found for brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
+    "message": "No instrument found for BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb.midi",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
-      "relPath": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja_Eb.midi",
+      "absPath": "/tmp/collection/BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb.midi",
+      "relPath": "BRAZUKAS/CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA_Eb.midi",
       "extension": ".midi",
       "arrId": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
       "arrName": "chuva suor e cerveja",
@@ -78,10 +195,10 @@
     }
   },
   {
-    "message": "No instrument found for brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
+    "message": "No instrument found for BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set-1.svg",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
-      "relPath": "brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set-1.svg",
+      "absPath": "/tmp/collection/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set-1.svg",
+      "relPath": "BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set-1.svg",
       "extension": ".svg",
       "arrId": "brazukas-forasteiro-sopra-que-sara-forasteiro",
       "arrName": "sopra que sara - forasteiro",
@@ -91,10 +208,10 @@
     }
   },
   {
-    "message": "No instrument found for brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
+    "message": "No instrument found for BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set.midi",
     "meta": {
-      "absPath": "/tmp/collection/brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
-      "relPath": "brazukas/forasteiro/sopra que sara - forasteiro/sopra que sara - forasteiro_Drum_set.midi",
+      "absPath": "/tmp/collection/BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set.midi",
+      "relPath": "BRAZUKAS/FORASTEIRO/SOPRA QUE SARA - FORASTEIRO /FORASTEIRO_Drum_set.midi",
       "extension": ".midi",
       "arrId": "brazukas-forasteiro-sopra-que-sara-forasteiro",
       "arrName": "sopra que sara - forasteiro",

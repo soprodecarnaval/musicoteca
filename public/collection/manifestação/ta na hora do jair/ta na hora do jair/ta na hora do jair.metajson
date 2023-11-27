@@ -13,8 +13,41 @@
         "twosided": "true",
         "width": 297
     },
-    "pages": 1,
+    "pages": 5,
     "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.flutes.flute",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Flute",
+            "program": 73
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.alto",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Alto Saxophone",
+            "program": 65
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.tenor",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tenor Saxophone",
+            "program": 66
+        },
         {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
@@ -25,13 +58,24 @@
             "lyricCount": 0,
             "name": "B♭ Trumpet",
             "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trombone",
+            "program": 57
         }
     ],
     "poet": "",
     "previousSource": "",
     "subtitle": "",
-    "tempo": 120,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 120</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
@@ -40,7 +84,6 @@
         "subtitles": [
         ],
         "titles": [
-            "Tá na Hora do Jair"
         ]
     },
     "timesig": "4/4",
