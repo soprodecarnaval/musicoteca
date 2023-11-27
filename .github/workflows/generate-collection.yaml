@@ -43,7 +43,7 @@ jobs:
       - name: Create svg, midi and metajson from mscz
         shell: sh
         run: |
-          xvfb-run /squashfs-root/AppRun -j media-generation.json
+          xvfb-run squashfs-root/AppRun -j media-generation.json
           find /tmp/collection/ -type f -name "*.svg" -a -name "*.midi" | head
       - name: Index collection
         run: |
