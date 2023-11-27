@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { BsTriangleFill } from "react-icons/bs";
 
-import type { Arrangement, PlayingSong, Song, SongArrangement } from "../types";
+import type { PlayingSong, SongArrangement } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
