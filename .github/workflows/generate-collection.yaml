@@ -28,6 +28,9 @@ jobs:
           key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
           restore-keys: |
             ${{ runner.os }}-node-
+      - name: Install npm dependencies
+        run: |
+          npm ci
       - name: Download .mscz files from Google Drive folder
         run: |
           echo ${{ secrets.GDRIVE_KEYFILE_BASE64 }} | base64 -d > /tmp/gdrive-api-key.json
@@ -44,7 +47,6 @@ jobs:
           find /tmp/collection/ -type f -name "*.svg" -a -name "*.midi" | head
       - name: Index collection
         run: |
-          npm ci
           npm run index-collection -- -i /tmp/collection -o public/collection
       - name: Commit and push files
         run: |
