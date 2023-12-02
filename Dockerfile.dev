@@ -1,0 +1,11 @@
+FROM node:18.18.2-bullseye-slim
+
+WORKDIR /musicoteca
+
+RUN apt-get update -y && apt-get install -y git
+
+COPY . /musicoteca/
+
+EXPOSE 5173
+
+RUN npm install
