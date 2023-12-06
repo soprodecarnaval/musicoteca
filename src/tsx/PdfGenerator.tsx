@@ -271,7 +271,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
 
   const formattedImgName = () => songbookImg.imgName.slice(0, -4).slice(0, 25).toLowerCase();
 
-  const formattedImgSize = () => (songbookImg.imgSize * Math.pow(10, -6)).toFixed(2);
+  const formattedImgSize = () => (parseInt(songbookImg.imgSize) * Math.pow(10, -6)).toFixed(2);
 
   const createSongBook = async (instrument: Instrument) => {
     const doc = createDoc();
