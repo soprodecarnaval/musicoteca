@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Col, Dropdown, Form, Row } from "react-bootstrap";
+import { Button, ButtonGroup, Col, Container, Dropdown, Form, Row, CloseButton } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
 import { Instrument, SongArrangement } from "../types";
@@ -71,38 +71,37 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       .catch(console.error.bind(console));
   };
 
-  // const loadImage = (url: string) => {
-  //     return new Promise((resolve, reject) => {
-  //         let img = new Image()
-  //         img.crossOrigin = "Anonymous"
+  const loadImage = (url: string) => {
+    return new Promise((resolve, reject) => {
+      let img = new Image();
+      img.crossOrigin = "Anonymous";
 
-  //         img.onload = () => {
-  //             // resolve(img)
-  //             const canvas = document.createElement('canvas');
-  //             const ctx = canvas.getContext('2d');
-  //             canvas.height = 2409;
-  //             canvas.width = 4208;
-  //             ctx?.drawImage(img, 0, 0);
-  //             const dataUrl = canvas.toDataURL();
-  //             resolve(dataUrl)
-  //         }
+      img.onload = () => {
+        // resolve(img)
+        const canvas = document.createElement('canvas');
+        const ctx = canvas.getContext('2d');
+        canvas.height = img.naturalHeight;
+        canvas.width = img.naturalWidth;
+        ctx?.drawImage(img, 0, 0);
+        const dataUrl = canvas.toDataURL();
+        resolve(dataUrl)
+      }
 
-  //         img.onerror = () => {
-  //             reject(new Error(`Failed to load image's URL: ${url}`))
-  //         }
-  //         img.src = url
-  //     })
-  // }
+      img.onerror = () => {
+        reject(new Error(`Failed to load image's URL: ${url}`))
+      }
+      img.src = url
+    })
+  }
 
-  // const drawImage = (doc : any, img_url : string, page: number) => {
-  //     return loadImage(img_url).then((img: any) => {
-  //         doc.switchToPage(page)
-  //         doc.image(img, 50, 100, {
-  //             width: 500,
-  //             height: 300
-  //         });
-  //     }).catch((error)=>{console.log(error)})
-  // }
+  const drawCover = (doc : any, coverOptions : any) => {
+    return loadImage(coverOptions.imgUrl).then((img: any) => {
+      doc.switchToPage(0);
+      doc.image(img, 5, -65, { fit: [500, 500], align: 'center', valign: 'center' })
+        .fontSize(25).text(coverOptions.songbookTitle.toUpperCase(), 120, 100)
+        .fontSize(22).text(coverOptions.instrument.toUpperCase(), 120, 125);
+    }).catch((error)=>{console.log(error)})
+  }
 
   const createDoc = () => {
     return new window.PDFDocument(documentOptions);
@@ -268,10 +267,15 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     return reorderedSongs;
   };
 
+  const removeSongbookImg = () => (setImg({ imgName: "", imgSize: "", imgUrl: "" }))
+
+  const formattedImgName = () => songbookImg.imgName.slice(0, -4).slice(0, 25).toLowerCase();
+
+  const formattedImgSize = () => (songbookImg.imgSize * Math.pow(10, -6)).toFixed(2);
+
   const createSongBook = async (instrument: Instrument) => {
     const doc = createDoc();
-    doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
-    doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
+    await drawCover(doc, { imgUrl: songbookImg.imgUrl, songbookTitle, instrument });
     if (backNumber) doc.addPage();
     let reorderedSongs = addIndexPage(doc);
     let styles = new Set(songArrangements.map(({ song }) => song.style));
@@ -314,51 +318,82 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
   };
 
   const [songbookTitle, setTitle] = useState("");
-  const onInput = ({ target: { value } }: any) => setTitle(value);
+  const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
+
+  const [songbookImg, setImg] = useState({ imgUrl: "", imgName: "", imgSize: "" });
+  const onInputSongbookImg = ({ target: { files } }: any) => setImg({ imgUrl: URL.createObjectURL(files[0]), imgName: files[0].name , imgSize: files[0].size });
 
   const [backNumber, setBackNumber] = useState(false);
-  const onCheckBackNumber = ({ target: { checked } }: any) =>
-    setBackNumber(checked);
+  const onCheckBackNumber = ({ target: { checked } }: any) => setBackNumber(checked);
 
   return (
-    <Row className="mt-4">
-      <Form className="d-flex" onSubmit={generatePdf}>
-        <Col sm={6}>
-          <Form.Control
-            type="text"
-            onChange={onInput}
-            value={songbookTitle}
-            placeholder="Título do caderninho"
-          />
-        </Col>
-        <Col sm={3}>
-          <Dropdown as={ButtonGroup}>
-            <Button type="submit">Gerar todos</Button>
+    <Form className="d-flex p-0" onSubmit={generatePdf}>
+      <Container className="mt-4">
+        <Row className="mt-0">
+          <Col xs={12} sm={6} className="p-0 mt-2">
+            <Form.Control
+              type="text"
+              onChange={onInputSongbookTitle}
+              value={songbookTitle}
+              placeholder="Título do caderninho"
+            />
+          </Col>
+          <Col xs={12} sm={6} className="p-0 mt-2">
+            <Form.Group controlId="formFileImg" className="mb-1">
+              <Form.Label
+                className={ songbookImg.imgUrl !== "" ? "btn btn-success w-100 container mb-0" : "btn btn-primary w-100 mb-0" }
+                style={{ wordWrap: "break-word", display: "flex", justifyContent: "space-between", paddingRight: "5px" }}
+              >
+                {
+                  songbookImg.imgUrl !== "" ?
+                  <span>{`${ formattedImgName() } - ${ formattedImgSize() } MB`}</span> :
+                  <span>Imagem da capa</span>
+                }
+                <CloseButton
+                  hidden={songbookImg.imgUrl === ""}
+                  onClick={removeSongbookImg}
+                  variant="white"
+                />
+              </Form.Label>
+              <Form.Control
+                type="file"
+                hidden={true}
+                onChange={onInputSongbookImg}
+                accept="image/png,image/jpeg"
+              />
+            </Form.Group>
+          </Col>
+        </Row>
+        <Row className="mt-2">
+          <Col xs={6} className="p-0">
+            <Form.Check
+              type="switch"
+              id="back-number"
+              label="Número no verso"
+              onChange={onCheckBackNumber}
+            />
+          </Col>
+          <Col xs={6} className="ps-1 pe-0 mt-0">
+            <Dropdown as={ButtonGroup} style={{ float: "right" }}>
+              <Button type="submit">Gerar todos</Button>
 
-            <Dropdown.Toggle split id="dropdown-split-basic" />
+              <Dropdown.Toggle split id="dropdown-split-basic" />
 
-            <Dropdown.Menu>
-              {instruments.map((instrument) => (
-                <Dropdown.Item
-                  key={instrument}
-                  onClick={(event) => generatePdf(event, instrument)}
-                >
-                  {instrument.toUpperCase()}
-                </Dropdown.Item>
-              ))}
-            </Dropdown.Menu>
-          </Dropdown>
-        </Col>
-        <Col sm={4}>
-          <Form.Check
-            type="switch"
-            id="back-number"
-            label="Número no verso"
-            onChange={onCheckBackNumber}
-          />
-        </Col>
-      </Form>
-    </Row>
+              <Dropdown.Menu>
+                {instruments.map((instrument) => (
+                  <Dropdown.Item
+                    key={instrument}
+                    onClick={(event) => generatePdf(event, instrument)}
+                  >
+                    {instrument.toUpperCase()}
+                  </Dropdown.Item>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+          </Col>
+        </Row>
+      </Container>
+    </Form>
   );
 };
 
