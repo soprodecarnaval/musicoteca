@@ -71,24 +71,24 @@ function App() {
         bg="dark"
         data-bs-theme="dark"
       >
-        <Container>
+        <Container fluid="md">
           <Navbar.Brand className="nav-bar-title" href="#">
             Cadern.in
           </Navbar.Brand>
         </Container>
       </Navbar>
-      <Container>
+      <Container fluid="md">
         <Row>
-          <Col sm={6}>
+          <Col xs={12} sm={6}>
             <SearchBar handleResults={setResults} />
           </Col>
-          <Col sm={6}>
+          <Col xs={12} sm={6}>
             <PDFGenerator songArrangements={selectedResults} />
           </Col>
         </Row>
         <SongBar info={playingSong} />
         <Row className="mt-4">
-          <Col sm={6}>
+          <Col xs={12} sm={6}>
             {results.length > 0 && (
               <>
                 <h3 className="results">Resultados</h3>
@@ -105,7 +105,7 @@ function App() {
               </>
             )}
           </Col>
-          <Col sm={6}>
+          <Col xs={12} sm={6}>
             {(selectedResults.length > 0 || results.length > 0) && (
               <>
                 <h3 className="results">Resultados selecionados</h3>
