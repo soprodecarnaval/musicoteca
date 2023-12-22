@@ -1,9 +1,8 @@
 import { SongArrangement } from "../../types";
 
-
 const fixedStyleOrder = [
   "marchinhas", "ranchos", "beagá", "axés", "frevos", "sambas", "pagodes",
-  "latinas", "funks", "brazucas", "odaras", "fanfarras", "technohell"
+  "latinas", "funks", "brazukas", "odaras", "fanfarras", "technohell"
 ]
 
 export const sortByColumn = (

@@ -108,7 +108,7 @@ function App() {
                   </Col>
                   <Col sm="2"/>
                   <Col sm="4">
-                    <AddAllSongsButton onAddAllSongs={handleAddAllSongs} />
+                    <AddAllSongsButton count={results.length} onAddAllSongs={handleAddAllSongs} />
                   </Col>
                 </Row>
                 <ArrangementsTable
