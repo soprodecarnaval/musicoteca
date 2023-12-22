@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Col, Container, Navbar, Row } from "react-bootstrap";
+import { Col, Container, Navbar, Row, Badge } from "react-bootstrap";
 
 import { Sort } from "./Sort";
 import { SearchBar } from "./SearchBar";
@@ -126,6 +126,11 @@ function App() {
                 <Row>
                   <Col sm="4">
                     <Sort onSortBy={handleSelectedResultsSortBy} />
+                  </Col>
+                  <Col sm="8">
+                    <Badge pill bg="info">
+                      Total: {selectedResults.length}
+                    </Badge>
                   </Col>
                 </Row>
                 <ChosenArrangementsTable
