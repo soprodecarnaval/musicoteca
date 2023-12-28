@@ -48,11 +48,13 @@ jobs:
       - name: Index collection
         run: |
           npm run index-collection -- -i /tmp/collection -o public/collection
-      - name: Commit and push files
-        run: |
-          git config --global --add safe.directory /__w/musicoteca/musicoteca
-          git config --global user.email "musicoteca@github.com"
-          git config --global user.name "GitHub Actions"
-          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git add public/collection
-          (git commit -m "[AUTO] Generated collection from ${{ vars.GDRIVE_FOLDER_ID }}" && git push) || exit 0
+      - name: Create PR with changes
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore: renerate collection (${{github.run_number}})"
+          branch: chore/generate-collection-${{github.run_number}}
+          title: "chore: generate collection (${{github.run_number}})"
+          body: |
+            Regenerated collection from Google Drive folder ${{ vars.GDRIVE_FOLDER_ID }}
+          labels: "automated"
