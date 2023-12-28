@@ -31,6 +31,8 @@ jobs:
       - name: Install npm dependencies
         run: |
           npm ci
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
       - name: Download .mscz files from Google Drive folder
         run: |
           echo ${{ secrets.GDRIVE_KEYFILE_BASE64 }} | base64 -d > /tmp/gdrive-api-key.json
