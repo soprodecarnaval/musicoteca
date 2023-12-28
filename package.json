@@ -9,8 +9,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "index-collection": "ts-node --esm scripts/collectionIndexer.ts",
-    "download-gdrive": "ts-node --esm scripts/googleDriveDownloader.ts"
+    "index-collection": "tsx scripts/collectionIndexer.ts",
+    "download-gdrive": "tsx scripts/googleDriveDownloader.ts"
   },
   "dependencies": {
     "@types/jest": "^29.5.3",
@@ -52,6 +52,7 @@
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6",
     "vite": "^4.4.0",
-    "vite-plugin-node-polyfills": "^0.15.0"
+    "vite-plugin-node-polyfills": "^0.15.0",
+    "tsx": "^4.7.0"
   }
 }
