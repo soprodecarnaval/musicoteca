@@ -1,19 +1,19 @@
 {
     "composer": "Araketu",
-    "duration": 134,
+    "duration": 158,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -4,
     "lyrics": "",
-    "measures": 35,
+    "measures": 39,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "true",
         "width": 297
     },
-    "pages": 7,
+    "pages": 6,
     "parts": [
         {
             "harmonyCount": 0,
