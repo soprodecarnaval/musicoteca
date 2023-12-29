@@ -1,6 +1,6 @@
 {
     "composer": "Lucky Chops",
-    "duration": 72,
+    "duration": 74,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -13,40 +13,18 @@
         "twosided": "true",
         "width": 297
     },
-    "pages": 7,
+    "pages": 8,
     "parts": [
         {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
+            "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
             "name": "",
-            "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "wind.reed.saxophone.tenor",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Tenor Saxophone",
-            "program": 66
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.tuba",
-            "isVisible": "false",
-            "lyricCount": 0,
-            "name": "",
-            "program": 58
+            "program": 73
         },
         {
             "harmonyCount": 0,
@@ -64,11 +42,11 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.flutes.flute",
+            "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
             "name": "",
-            "program": 73
+            "program": 66
         },
         {
             "harmonyCount": 0,
@@ -80,6 +58,28 @@
             "lyricCount": 0,
             "name": "",
             "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 58
         }
     ],
     "poet": "",

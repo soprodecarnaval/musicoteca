@@ -1,12 +1,12 @@
 {
     "composer": "Ludmilla",
-    "duration": 50,
+    "duration": 34,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -5,
     "lyrics": "",
-    "measures": 43,
+    "measures": 39,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,

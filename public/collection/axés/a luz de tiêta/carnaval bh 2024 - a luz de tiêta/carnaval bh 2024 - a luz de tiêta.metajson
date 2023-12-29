@@ -1,6 +1,6 @@
 {
     "composer": "Caetano Veloso",
-    "duration": 80,
+    "duration": 48,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
@@ -13,7 +13,7 @@
         "twosided": "false",
         "width": 297
     },
-    "pages": 3,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 16,

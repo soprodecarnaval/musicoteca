@@ -1,6 +1,6 @@
 {
     "composer": "Lamparina",
-    "duration": 92,
+    "duration": 50,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -32,7 +32,7 @@
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.clarinet.bflat",
-            "isVisible": "true",
+            "isVisible": "false",
             "lyricCount": 0,
             "name": "Clarineta",
             "program": 71
@@ -56,7 +56,7 @@
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Sax Tenor",
+            "name": "Tenor",
             "program": 66
         },
         {
@@ -67,7 +67,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete",
+            "name": "Pete",
             "program": 56
         },
         {
@@ -76,9 +76,9 @@
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "brass.euphonium",
-            "isVisible": "true",
+            "isVisible": "false",
             "lyricCount": 0,
-            "name": "Bombardino",
+            "name": "Bomb",
             "program": 58
         },
         {
@@ -89,7 +89,7 @@
             "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "Bone",
             "program": 57
         },
         {
@@ -98,7 +98,7 @@
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "brass.tuba",
-            "isVisible": "true",
+            "isVisible": "false",
             "lyricCount": 0,
             "name": "Tuba",
             "program": 58
@@ -109,27 +109,47 @@
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "pitched-percussion.xylophone",
-            "isVisible": "true",
+            "isVisible": "false",
             "lyricCount": 0,
             "name": "Xilofone",
             "program": 13
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.sousaphone",
+            "isVisible": "false",
+            "lyricCount": 0,
+            "name": "Tuba B♭",
+            "program": 58
         }
     ],
     "poet": "",
     "previousSource": "",
     "subtitle": "",
-    "tempo": 65,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 65</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
-            "Lamparina"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "NÃO ME ENTREGO PROS CARETAS"
         ]
     },
     "timesig": "2/4",
