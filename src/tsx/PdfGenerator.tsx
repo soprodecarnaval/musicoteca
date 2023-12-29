@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Col, Dropdown, Form, Row } from "react-bootstrap";
+import { Button, ButtonGroup, Col, Dropdown, Form, Row, OverlayTrigger, Tooltip, ListGroup } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
 import { Instrument, SongArrangement } from "../types";
@@ -58,7 +58,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     return fetch(url)
       .then((r) => r.text())
       .then((svg) => {
-        let pdfPage = backNumber ? 2 * page + 2 : page + 1;
+        let pdfPage = carnivalMode ? 2 * page + 4 : page + 1;
         doc.switchToPage(pdfPage);
         const width = 17.17 * cm2pt;
         const height = 9.82 * cm2pt;
@@ -273,6 +273,21 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     doc.fontSize(25).text(songbookTitle.toUpperCase(), 120, 100);
     doc.fontSize(22).text(instrument.toUpperCase(), 120, 125);
     if (backNumber) doc.addPage();
+    if (carnivalMode) { 
+      doc.addPage()
+        .fontSize(16)
+        .text(`Mussum Ipsum, cacilds vidis litro abertis.  Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Pra lá, depois divoltis porris, paradis. Viva Forevis aptent taciti sociosqu ad litora torquent. Pellentesque nec nulla ligula. Donec gravida turpis a vulputate ultricies.
+        Detraxit consequat et quo num tendi nada. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi. Per aumento de cachacis, eu reclamis. Interagi no mé, cursus quis, vehicula ac nisi.
+        Mauris nec dolor in eros commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Vehicula non. Ut sed ex eros. Vivamus sit amet nibh non tellus tristique interdum. Nulla id gravida magna, ut semper sapien. A ordem dos tratores não altera o pão duris.`,
+        1 * cm2pt,
+        3 * cm2pt,
+        {
+          width: 16 * cm2pt,
+          align: 'center'
+        })
+        .addPage();
+
+    }
     let reorderedSongs = addIndexPage(doc);
     let styles = new Set(songArrangements.map(({ song }) => song.style));
     const { outline } = doc;
@@ -316,9 +331,25 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
   const [songbookTitle, setTitle] = useState("");
   const onInput = ({ target: { value } }: any) => setTitle(value);
 
+  const [carnivalMode, setCarnivalMode] = useState(false)
+  const onCheckCarnivalMode = ({ target: { checked } }: any) => {
+    setBackNumber(checked)
+    setCarnivalMode(checked)
+  }
+
+  const carnivalModeTooltip = (
+    <Tooltip id="tooltip">
+      <ListGroup>
+        <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
+        <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
+        <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
+      </ListGroup>
+    </Tooltip>
+  );
+
   const [backNumber, setBackNumber] = useState(false);
-  const onCheckBackNumber = ({ target: { checked } }: any) =>
-    setBackNumber(checked);
+  // const onCheckBackNumber = ({ target: { checked } }: any) =>
+  //   setBackNumber(checked);
 
   return (
     <Row className="mt-4">
@@ -349,14 +380,17 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
             </Dropdown.Menu>
           </Dropdown>
         </Col>
-        <Col sm={4}>
-          <Form.Check
-            type="switch"
-            id="back-number"
-            label="Número no verso"
-            onChange={onCheckBackNumber}
-          />
-        </Col>
+        <OverlayTrigger placement="left" overlay={carnivalModeTooltip}>
+          <Col sm={4}>
+            <Form.Check
+              type="switch"
+              id="back-number"
+              label="Modo carnaval"
+              onChange={onCheckCarnivalMode}
+            />
+
+          </Col>
+        </OverlayTrigger>
       </Form>
     </Row>
   );
