@@ -186,7 +186,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     const styles = new Set(songArrangements.map(({ song }) => song.style));
     const stylesCount = styles.size;
     const containerWidth = 17.17 * cm2pt;
-    const containerHeight = 9.82 * cm2pt;
+    const containerHeight = 11.32 * cm2pt;
     const totalLineCount = songsCount + stylesCount * 2;
 
     let columnCount = 1;
@@ -205,7 +205,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     );
     const columnWidth = Math.floor(containerWidth / columnCount);
 
-    let cursorStartPosition = [0.44 * cm2pt, 2.55 * cm2pt];
+    let cursorStartPosition = [0.44 * cm2pt, 1.55 * cm2pt];
     let currentColumn = 0;
     let currentLine = 0;
     let itemCount = 0;
@@ -226,10 +226,10 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     let [currentX, currentY] = nextCursorPosition();
     let reorderedSongs: SongArrangement[] = [];
     doc
-      .addPage()
-      .fontSize(25)
-      .font("Helvetica-Bold")
-      .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
+      .addPage();
+      // .fontSize(25)
+      // .font("Helvetica-Bold")
+      // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
     [...styles].sort().forEach((style) => {
       songArrangements
         .filter(({ song }) => song.style == style)
@@ -259,6 +259,9 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
               currentY,
               {
                 goTo: songCount,
+                width: columnWidth - 0.3*cm2pt,
+                height: fontSize,
+                lineBreak: false
               }
             );
           [currentX, currentY] = nextCursorPosition();
