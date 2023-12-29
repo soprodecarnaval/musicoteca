@@ -1,7 +1,7 @@
 import { Button, ButtonGroup, Col, Dropdown, Form, Row, OverlayTrigger, Tooltip, ListGroup } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
-import { Instrument, Song, SongArrangement } from "../types";
+import { Instrument, SongArrangement } from "../types";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
