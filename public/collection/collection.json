@@ -4859,99 +4859,6 @@
           "tags": [
             "beagá"
           ]
-        },
-        {
-          "id": "beaga-filhos-de-tcha-tcha-carnaval-bh-2024-filhos-de-tcha-tcha",
-          "name": "carnaval bh 2024 - filhos de tcha tcha",
-          "assets": [
-            {
-              "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/filhos de tcha tcha/carnaval bh 2024 - filhos de tcha tcha/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "beagá"
-          ]
         }
       ],
       "style": "beagá"
@@ -8806,99 +8713,6 @@
                 },
                 {
                   "path": "brazukas/vaca profana/carnaval bh 2023 - vaca profana/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "brazukas"
-          ]
-        },
-        {
-          "id": "brazukas-vaca-profana-carnaval-bh-2024-vaca-profana",
-          "name": "carnaval bh 2024 - vaca profana",
-          "assets": [
-            {
-              "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/carnaval bh 2024 - vaca profana.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/carnaval bh 2024 - vaca profana.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/carnaval bh 2024 - vaca profana.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/vaca profana/carnaval bh 2024 - vaca profana/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -20531,99 +20345,6 @@
           "tags": [
             "marchinhas"
           ]
-        },
-        {
-          "id": "marchinhas-sassaricando-carnaval-bh-2024-sassaricando",
-          "name": "carnaval bh 2024 - sassaricando",
-          "assets": [
-            {
-              "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/carnaval bh 2024 - sassaricando.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/carnaval bh 2024 - sassaricando.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/carnaval bh 2024 - sassaricando.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marchinhas/sassaricando/carnaval bh 2024 - sassaricando/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "marchinhas"
-          ]
         }
       ],
       "style": "marchinhas"
@@ -22300,112 +22021,6 @@
       "style": "odaras"
     },
     {
-      "id": "odaras-somente-o-necessario",
-      "title": "somente o necessário",
-      "composer": "Phill Harris, Bruce Reitherman",
-      "sub": "",
-      "arrangements": [
-        {
-          "id": "odaras-somente-o-necessario-carnaval-bh-2024-somente-o-necessario",
-          "name": "carnaval bh 2024 - somente o necessario",
-          "assets": [
-            {
-              "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/carnaval bh 2024 - somente o necessario.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/carnaval bh 2024 - somente o necessario.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/carnaval bh 2024 - somente o necessario.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "odaras/somente o necessário/carnaval bh 2024 - somente o necessario/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "odaras"
-          ]
-        }
-      ],
-      "style": "odaras"
-    },
-    {
       "id": "odaras-suite-dos-pescadores",
       "title": "suíte dos pescadores",
       "composer": "Dorival Caymmi",
@@ -23580,120 +23195,6 @@
       "style": "pagodes"
     },
     {
-      "id": "pagodes-domingo",
-      "title": "domingo",
-      "composer": "SPC",
-      "sub": "",
-      "arrangements": [
-        {
-          "id": "pagodes-domingo-carnaval-bh-2024-domingo",
-          "name": "carnaval bh 2024 - domingo",
-          "assets": [
-            {
-              "path": "pagodes/domingo/carnaval bh 2024 - domingo/carnaval bh 2024 - domingo.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "pagodes/domingo/carnaval bh 2024 - domingo/carnaval bh 2024 - domingo.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "pagodes/domingo/carnaval bh 2024 - domingo/carnaval bh 2024 - domingo.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/domingo/carnaval bh 2024 - domingo/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "pagodes"
-          ]
-        }
-      ],
-      "style": "pagodes"
-    },
-    {
       "id": "pagodes-mal-acostumado",
       "title": "mal acostumado",
       "composer": "Araketu",
@@ -24103,19 +23604,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "piseiro-ameaca-ameaca",
-          "name": "ameaça",
+          "id": "piseiro-ameaca-carnaval-bh-2024-ameaca",
+          "name": "carnaval bh 2024 - ameaça",
           "assets": [
             {
-              "path": "piseiro/ameaça/ameaça/ameaça.mscz",
+              "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/carnaval bh 2024 - ameaça.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "piseiro/ameaça/ameaça/ameaça.metajson",
+              "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/carnaval bh 2024 - ameaça.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "piseiro/ameaça/ameaça/ameaça.midi",
+              "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/carnaval bh 2024 - ameaça.midi",
               "extension": ".midi"
             }
           ],
@@ -24125,11 +23626,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "piseiro/ameaça/ameaça/trombone.svg",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ameaça/ameaça/trombone.midi",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24139,11 +23640,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "piseiro/ameaça/ameaça/flauta.svg",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ameaça/ameaça/flauta.midi",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24153,11 +23654,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "piseiro/ameaça/ameaça/trompete.svg",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ameaça/ameaça/trompete.midi",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24167,11 +23668,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "piseiro/ameaça/ameaça/sax alto.svg",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ameaça/ameaça/sax alto.midi",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24181,11 +23682,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "piseiro/ameaça/ameaça/sax tenor.svg",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ameaça/ameaça/sax tenor.midi",
+                  "path": "piseiro/ameaça/carnaval bh 2024 - ameaça/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24205,19 +23706,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "piseiro-aquelas-coisas-aquelas-coisas",
-          "name": "aquelas coisas",
+          "id": "piseiro-aquelas-coisas-carnaval-bh-2024-aquelas-coisas",
+          "name": "carnaval bh 2024 - aquelas coisas",
           "assets": [
             {
-              "path": "piseiro/aquelas coisas/aquelas coisas/aquelas coisas.mscz",
+              "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/carnaval bh 2024 - aquelas coisas.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "piseiro/aquelas coisas/aquelas coisas/aquelas coisas.metajson",
+              "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/carnaval bh 2024 - aquelas coisas.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "piseiro/aquelas coisas/aquelas coisas/aquelas coisas.midi",
+              "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/carnaval bh 2024 - aquelas coisas.midi",
               "extension": ".midi"
             }
           ],
@@ -24227,11 +23728,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/trombone.svg",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/trombone.midi",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24241,11 +23742,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/flauta.svg",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/flauta.midi",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24255,11 +23756,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/trompete.svg",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/trompete.midi",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24269,11 +23770,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/sax alto.svg",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/sax alto.midi",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24283,11 +23784,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/sax tenor.svg",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/aquelas coisas/aquelas coisas/sax tenor.midi",
+                  "path": "piseiro/aquelas coisas/carnaval bh 2024 - aquelas coisas/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24511,19 +24012,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "piseiro-zona-de-perigo-zona-de-perigo",
-          "name": "zona de perigo",
+          "id": "piseiro-zona-de-perigo-carnaval-bh-2024-zona-de-perigo",
+          "name": "carnaval bh 2024 - zona de perigo",
           "assets": [
             {
-              "path": "piseiro/zona de perigo/zona de perigo/zona de perigo.mscz",
+              "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/carnaval bh 2024 - zona de perigo.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "piseiro/zona de perigo/zona de perigo/zona de perigo.metajson",
+              "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/carnaval bh 2024 - zona de perigo.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "piseiro/zona de perigo/zona de perigo/zona de perigo.midi",
+              "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/carnaval bh 2024 - zona de perigo.midi",
               "extension": ".midi"
             }
           ],
@@ -24533,11 +24034,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/trombone.svg",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/trombone.midi",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24547,11 +24048,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/flauta.svg",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/flauta.midi",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24561,11 +24062,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/trompete.svg",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/trompete.midi",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24575,11 +24076,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/sax alto.svg",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/sax alto.midi",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24589,11 +24090,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/sax tenor.svg",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/zona de perigo/zona de perigo/sax tenor.midi",
+                  "path": "piseiro/zona de perigo/carnaval bh 2024 - zona de perigo/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
