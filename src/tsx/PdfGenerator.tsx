@@ -1,7 +1,7 @@
 import { Button, ButtonGroup, Col, Dropdown, Form, Row, OverlayTrigger, Tooltip, ListGroup } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
-import { Instrument, SongArrangement } from "../types";
+import { Instrument, Song, SongArrangement } from "../types";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
@@ -11,6 +11,44 @@ const cm2pt = 28.3465;
 // A5 page dimensions in points
 const pageWidth = 18 * cm2pt;
 const pageHeight = 13 * cm2pt;
+
+const stylesOrder = [
+  'marcha rancho',  // 7
+  'marchinhas',     // 14
+  'odaras',         // 7
+  'beagá',          // 9
+  'fanfarras',      // 8
+  'latinas',        // 5
+  'pagodes',        // 6
+  'frevos',         // 4
+  
+  'axés',           // 15
+  'brazukas',       // 11
+  'funks',          // 14
+  'sambas',         // 13
+  'forrós',         // 4
+  'technohell'      // 3
+]
+
+const sortStyles = (a : string,b : string) => {
+  if(stylesOrder.indexOf(a) < stylesOrder.indexOf(b)){
+    return -1
+  } else if (stylesOrder.indexOf(a) > stylesOrder.indexOf(b)){
+    return 1
+  } else {
+    return 0
+  }
+}
+
+const sortSongs = (a : SongArrangement,b : SongArrangement) => {
+  if(a.song.title < b.song.title){
+    return -1
+  } else if (a.song.title > b.song.title){
+    return 1
+  } else {
+    return 0
+  }
+}
 
 let stylesOutlines = new Map();
 
@@ -58,7 +96,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     return fetch(url)
       .then((r) => r.text())
       .then((svg) => {
-        let pdfPage = carnivalMode ? 2 * page + 4 : page + 1;
+        let pdfPage = carnivalMode ? 2 * page + 5 : page + 1;
         doc.switchToPage(pdfPage);
         const width = 17.17 * cm2pt;
         const height = 9.82 * cm2pt;
@@ -186,8 +224,8 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     const styles = new Set(songArrangements.map(({ song }) => song.style));
     const stylesCount = styles.size;
     const containerWidth = 17.17 * cm2pt;
-    const containerHeight = 11.32 * cm2pt;
-    const totalLineCount = songsCount + stylesCount * 2;
+    const containerHeight = 11 * cm2pt;
+    let totalLineCount = carnivalMode ? 76 : songsCount + stylesCount * 2;
 
     let columnCount = 1;
     if (totalLineCount > 80) {
@@ -210,6 +248,13 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     let currentLine = 0;
     let itemCount = 0;
     let songCount = 0;
+    let firstPage = true;
+    const resetCursorPosition = () => {
+      cursorStartPosition = [0.44 * cm2pt, 1.55 * cm2pt];
+      currentColumn = 0;
+      currentLine = 0;
+      itemCount = 0;
+    }
     const nextCursorPosition = () => {
       if (itemCount == 0) {
         itemCount++;
@@ -230,26 +275,42 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       // .fontSize(25)
       // .font("Helvetica-Bold")
       // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
-    [...styles].sort().forEach((style) => {
-      songArrangements
+    let sortStyleFunc = carnivalMode ? sortStyles : undefined;
+    [...styles].sort(sortStyleFunc).forEach((style, styleIdx) => {
+      let filteredSongs = songArrangements
         .filter(({ song }) => song.style == style)
-        .forEach((songArrangement, i) => {
+
+      if(carnivalMode){
+        if(firstPage && songCount + (styleIdx+1)*2 + filteredSongs.length + 2 > totalLineCount){
+          firstPage = false
+          resetCursorPosition();
+          [currentX, currentY] = nextCursorPosition();
+          doc.addPage()
+        }
+      }
+
+      filteredSongs
+        .sort(sortSongs)
+        .forEach((songArrangement, songIdx) => {
           reorderedSongs.push(songArrangement);
-          if (i == 0) {
+          if (songIdx == 0) {
             if (currentLine == maxLinesPerColumn)
               [currentX, currentY] = nextCursorPosition();
             doc
               .font("Helvetica-Bold")
               .fontSize(fontSize - 2)
-              .text(`${style.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
+              .text(`${style.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
             [currentX, currentY] = nextCursorPosition();
           }
           doc
             .font("Helvetica-Bold")
             .fontSize(fontSize - 2)
-            .text(1 + songCount++, currentX - 0.3 * cm2pt, currentY, {
+            .text(1 + songCount++, 
+              currentX - 0.5 * cm2pt, 
+              currentY, 
+              {
               align: "right",
-              width: 0.5 * cm2pt,
+              width: 0.6 * cm2pt,
               goTo: songCount,
             }) // Número da página
             .font("Helvetica")
