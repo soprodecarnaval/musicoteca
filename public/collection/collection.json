@@ -16826,7 +16826,78 @@
               "extension": ".midi"
             }
           ],
-          "parts": [],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
           "tags": [
             "manifestação"
           ]
