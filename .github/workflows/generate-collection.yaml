@@ -58,3 +58,5 @@ jobs:
           body: |
             Regenerated collection from Google Drive folder ${{ vars.GDRIVE_FOLDER_ID }}
           labels: "automated"
+          add-paths: |
+            public/collection/**
