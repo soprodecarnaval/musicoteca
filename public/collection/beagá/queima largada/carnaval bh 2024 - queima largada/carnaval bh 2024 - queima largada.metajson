@@ -1,22 +1,22 @@
 {
-    "composer": "Thiago França (música incedental: Marcha do Caneco)",
-    "duration": 57,
+    "composer": "",
+    "duration": 108,
     "fileVersion": 302,
-    "hasHarmonies": "false",
+    "hasHarmonies": "true",
     "hasLyrics": "false",
-    "keysig": -1,
+    "keysig": -3,
     "lyrics": "",
-    "measures": 33,
+    "measures": 25,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 297,
         "twosided": "true",
-        "width": 297
+        "width": 210
     },
-    "pages": 2,
+    "pages": 4,
     "parts": [
         {
-            "harmonyCount": 0,
+            "harmonyCount": 38,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 38,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -38,7 +38,7 @@
             "program": 65
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 38,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -56,7 +56,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "B♭ Trumpet",
+            "name": "Trompete em B♭",
             "program": 56
         },
         {
@@ -69,17 +69,6 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.tuba",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Tuba",
-            "program": 58
         }
     ],
     "poet": "",
@@ -97,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "2/4",
-    "title": "A Banda Tá com Sede"
+    "timesig": "4/4",
+    "title": "QUEIMA LARGADA"
 }

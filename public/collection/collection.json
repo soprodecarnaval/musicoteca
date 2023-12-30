@@ -1583,6 +1583,99 @@
           "tags": [
             "axés"
           ]
+        },
+        {
+          "id": "axes-beleza-rara-hoje-sou-feliz-e-canto-carnaval-bh-2024-beleza-rara",
+          "name": "carnaval bh 2024 - beleza rara",
+          "assets": [
+            {
+              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "axés"
+          ]
         }
       ],
       "style": "axés"
@@ -2772,6 +2865,99 @@
                 },
                 {
                   "path": "axés/nada mal (terrasamba)/carnaval bh 2023 - nada mal/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "axés"
+          ]
+        },
+        {
+          "id": "axes-nada-mal-terrasamba-carnaval-bh-2024-nada-mal",
+          "name": "carnaval bh 2024 - nada mal",
+          "assets": [
+            {
+              "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/carnaval bh 2024 - nada mal.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/carnaval bh 2024 - nada mal.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/carnaval bh 2024 - nada mal.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -5646,7 +5832,7 @@
     {
       "id": "beaga-queima-largada",
       "title": "queima largada",
-      "composer": "Thiago França (música incedental: Marcha do Caneco)",
+      "composer": "",
       "sub": "",
       "arrangements": [
         {
@@ -5733,20 +5919,6 @@
                 },
                 {
                   "path": "beagá/queima largada/carnaval bh 2023 - queima largada/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "tuba",
-              "instrument": "tuba",
-              "assets": [
-                {
-                  "path": "beagá/queima largada/carnaval bh 2023 - queima largada/tuba.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/queima largada/carnaval bh 2023 - queima largada/tuba.midi",
                   "extension": ".midi"
                 }
               ]
@@ -5840,20 +6012,6 @@
                 },
                 {
                   "path": "beagá/queima largada/carnaval bh 2024 - queima largada/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "tuba",
-              "instrument": "tuba",
-              "assets": [
-                {
-                  "path": "beagá/queima largada/carnaval bh 2024 - queima largada/tuba.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/queima largada/carnaval bh 2024 - queima largada/tuba.midi",
                   "extension": ".midi"
                 }
               ]
@@ -6151,6 +6309,99 @@
                 },
                 {
                   "path": "brazukas/abra suas asas/carnaval bh 2023 - abra suas asas/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "brazukas"
+          ]
+        },
+        {
+          "id": "brazukas-abra-suas-asas-carnaval-bh-2024-abra-suas-asas",
+          "name": "carnaval bh 2024 - abra suas asas",
+          "assets": [
+            {
+              "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/carnaval bh 2024 - abra suas asas.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/carnaval bh 2024 - abra suas asas.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/carnaval bh 2024 - abra suas asas.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/abra suas asas/carnaval bh 2024 - abra suas asas/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8713,6 +8964,108 @@
                 },
                 {
                   "path": "brazukas/vaca profana/carnaval bh 2023 - vaca profana/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "brazukas"
+          ]
+        }
+      ],
+      "style": "brazukas"
+    },
+    {
+      "id": "brazukas-voando-pro-para",
+      "title": "voando pro pará",
+      "composer": "Joelma",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "brazukas-voando-pro-para-carnaval-bh-2024-voando-pro-para",
+          "name": "carnaval bh 2024 - voando pro pará",
+          "assets": [
+            {
+              "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/carnaval bh 2024 - voando pro pará.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/carnaval bh 2024 - voando pro pará.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/carnaval bh 2024 - voando pro pará.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14730,6 +15083,113 @@
           "tags": [
             "funks"
           ]
+        },
+        {
+          "id": "funks-se-ta-solteira-carnaval-bh-2024-se-ta-solteira",
+          "name": "carnaval bh 2024 - se tá solteira",
+          "assets": [
+            {
+              "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/carnaval bh 2024 - se tá solteira.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/carnaval bh 2024 - se tá solteira.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/carnaval bh 2024 - se tá solteira.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "tuba",
+              "instrument": "tuba",
+              "assets": [
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/se tá solteira/carnaval bh 2024 - se tá solteira/tuba.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "funks"
+          ]
         }
       ],
       "style": "funks"
@@ -16640,78 +17100,7 @@
               "extension": ".midi"
             }
           ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
+          "parts": [],
           "tags": [
             "manifestação"
           ]
@@ -22146,10 +22535,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "odaras/suíte dos pescadores/carnaval bh 2024 - suíte dos pescadores/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "odaras/suíte dos pescadores/carnaval bh 2024 - suíte dos pescadores/trombone.midi",
                   "extension": ".midi"
                 }
@@ -23802,6 +24187,108 @@
       "style": "piseiro"
     },
     {
+      "id": "piseiro-lovezinho",
+      "title": "lovezinho",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "piseiro-lovezinho-carnaval-bh-2024-lovezinho",
+          "name": "carnaval bh 2024 - lovezinho",
+          "assets": [
+            {
+              "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/carnaval bh 2024 - lovezinho.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/carnaval bh 2024 - lovezinho.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/carnaval bh 2024 - lovezinho.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "piseiro"
+          ]
+        }
+      ],
+      "style": "piseiro"
+    },
+    {
       "id": "piseiro-ta-rocheda",
       "title": "ta rocheda",
       "composer": "",
@@ -24711,6 +25198,108 @@
       "style": "sambas"
     },
     {
+      "id": "sambas-eu-e-voce-sempre",
+      "title": "eu e você sempre",
+      "composer": "jorge Aragão",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "sambas-eu-e-voce-sempre-carnaval-bh-2024-eu-e-voce-sempre",
+          "name": "carnaval bh 2024 - eu e você sempre",
+          "assets": [
+            {
+              "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/carnaval bh 2024 - eu e você sempre.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/carnaval bh 2024 - eu e você sempre.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/carnaval bh 2024 - eu e você sempre.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/eu e você sempre/carnaval bh 2024 - eu e você sempre/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "sambas"
+          ]
+        }
+      ],
+      "style": "sambas"
+    },
+    {
       "id": "sambas-juizo-final-o-sol-",
       "title": "juizo final (o sol)",
       "composer": "Nelson Cavaquinho",
@@ -24995,99 +25584,6 @@
                 },
                 {
                   "path": "sambas/não deixe o samba morrer/carnaval bh 2023 - não deixe o samba morrer/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "sambas"
-          ]
-        },
-        {
-          "id": "sambas-nao-deixe-o-samba-morrer-carnaval-bh-2024-nao-deixe-o-samba-morrer",
-          "name": "carnaval bh 2024 - não deixe o samba morrer",
-          "assets": [
-            {
-              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -25580,99 +26076,6 @@
                 },
                 {
                   "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "sambas"
-          ]
-        },
-        {
-          "id": "sambas-retalhos-de-cetim-mas-chegou-o-carnaval-carnaval-bh-2024-retalhos-de-cetim",
-          "name": "carnaval bh 2024 - retalhos de cetim",
-          "assets": [
-            {
-              "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/carnaval bh 2024 - retalhos de cetim.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/carnaval bh 2024 - retalhos de cetim.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/carnaval bh 2024 - retalhos de cetim.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2024 - retalhos de cetim/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
