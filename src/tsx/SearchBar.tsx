@@ -68,11 +68,12 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
 
   return (
     <Row className="mt-4">
-      <Col xs={12}>
-        <Form className="d-flex mt-2">
+      <Col sm={6}>
+        <Form className="d-flex">
           <Form.Control
             type="search"
             placeholder="Procurar por título, arranjo ou tags"
+            className="me-2"
             aria-label="Search"
             onKeyDown={handleKeyDown}
             value={searchInput}
