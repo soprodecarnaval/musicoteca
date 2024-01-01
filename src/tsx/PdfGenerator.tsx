@@ -416,6 +416,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
   const carnivalModeTooltip = (
     <Tooltip id="tooltip">
       <ListGroup>
+        <ListGroup.Item>Capa automática</ListGroup.Item>
         <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
         <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
         <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
