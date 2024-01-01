@@ -1,6 +1,6 @@
 {
     "composer": "Beth Carvalho",
-    "duration": 79,
+    "duration": 66,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "",
     "previousSource": "O MEU CORAÇÃO, HOJE TEM PAZ. DECEPÇÃO, FICOU PRA TRÁS ",
     "subtitle": "",
-    "tempo": 100,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> =100</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
