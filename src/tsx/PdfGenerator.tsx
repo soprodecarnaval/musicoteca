@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Col, Dropdown, Form, Row, OverlayTrigger, Tooltip, ListGroup, CloseButton } from "react-bootstrap";
+import { Button, ButtonGroup, Col, Dropdown, Form, Row, OverlayTrigger, Tooltip, ListGroup } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
 import { Instrument, SongArrangement } from "../types";
@@ -330,12 +330,6 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     return reorderedSongs;
   };
 
-  const removeSongbookImg = () => (setImg({ imgName: "", imgSize: "", imgUrl: "" }))
-
-  const formattedImgName = () => songbookImg.imgName.slice(0, -4).slice(0, 25).toLowerCase();
-
-  const formattedImgSize = () => (parseInt(songbookImg.imgSize) * Math.pow(10, -6)).toFixed(2);
-
   const createSongBook = async (instrument: Instrument) => {
     const doc = createDoc();
     if (carnivalMode) {
@@ -402,11 +396,12 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
   };
 
   const [songbookTitle, setTitle] = useState("");
+
   const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
 
   const [songbookImg, setImg] = useState({ imgUrl: "", imgName: "", imgSize: "" });
   const onInputSongbookImg = ({ target: { files } }: any) => setImg({ imgUrl: URL.createObjectURL(files[0]), imgName: files[0].name , imgSize: files[0].size });
-  
+
   const [carnivalMode, setCarnivalMode] = useState(false)
   const onCheckCarnivalMode = ({ target: { checked } }: any) => {
     setBackNumber(checked)
@@ -434,7 +429,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
         <Col sm={6}>
           <Form.Control
             type="text"
-            onChange={onInputSongbookTitle}
+            onChange={onInput}
             value={songbookTitle}
             placeholder="Título do caderninho"
           />
@@ -449,7 +444,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
               {instruments.map((instrument) => (
                 <Dropdown.Item
                   key={instrument}
-                  onClick={(event: any) => generatePdf(event, instrument)}
+                  onClick={(event) => generatePdf(event, instrument)}
                 >
                   {instrument.toUpperCase()}
                 </Dropdown.Item>
