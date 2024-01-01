@@ -1,19 +1,19 @@
 {
     "composer": "Gloria Groove",
-    "duration": 98,
+    "duration": 140,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 32,
+    "measures": 34,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "true",
         "width": 297
     },
-    "pages": 6,
+    "pages": 7,
     "parts": [
         {
             "harmonyCount": 0,
@@ -72,7 +72,7 @@
         }
     ],
     "poet": "",
-    "previousSource": "",
+    "previousSource": "PAIXÃO, FAZ UM TEMPO EU QUERO TE ENCONTRA. TOMANDO UM VINHO ",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",

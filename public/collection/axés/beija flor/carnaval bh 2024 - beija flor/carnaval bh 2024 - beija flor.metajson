@@ -1,19 +1,19 @@
 {
     "composer": "Xexeu e Ze Raimundo(Timbalada)",
-    "duration": 116,
+    "duration": 65,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 43,
+    "measures": 44,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 170,
         "twosided": "true",
         "width": 297
     },
-    "pages": 10,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 0,
@@ -72,10 +72,10 @@
         }
     ],
     "poet": "",
-    "previousSource": "",
+    "previousSource": "EU FUI EMBORA O MEU AMOR CHOROU. NO TIQUE-TIQUE TAQUE DO MEU CORAÇÃO",
     "subtitle": "",
-    "tempo": 150,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font> <b><font face=\"Edwin\"></font> = 100</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
@@ -86,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "12/8",
+    "timesig": "2/4",
     "title": "Beija Flor"
 }

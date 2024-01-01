@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Col, Container, Navbar, Row } from "react-bootstrap";
+import { Col, Container, Navbar, Row, Badge } from "react-bootstrap";
 
 import { Sort } from "./Sort";
 import { SearchBar } from "./SearchBar";
@@ -8,6 +8,7 @@ import { ChosenArrangementsTable } from "./ChosenArrangementsTable";
 import { PDFGenerator } from "./PdfGenerator";
 import { sortByColumn } from "./helper/sorter";
 import { SongBar } from "./SongBar";
+import { AddAllSongsButton } from "./AddAllSongsButton";
 
 import type { PlayingSong, SongArrangement } from "../types";
 
@@ -63,6 +64,15 @@ function App() {
     setResults(sorted.slice());
   };
 
+  const handleAddAllSongs = () => {
+    const newSelectedResults = [...selectedResults, ...results]
+    const newUniqueSelectedResults = newSelectedResults.filter((obj, index) => {
+      return index === newSelectedResults.findIndex((o) => obj.arrangement.id === o.arrangement.id);
+    });
+    setSelectedResults(newUniqueSelectedResults);
+    setResults([]);
+  };
+
   return (
     <>
       <Navbar
@@ -93,8 +103,12 @@ function App() {
               <>
                 <h3 className="results">Resultados</h3>
                 <Row>
-                  <Col sm="4">
+                  <Col sm="6">
                     <Sort onSortBy={handleResultsSortBy} />
+                  </Col>
+                  <Col sm="2"/>
+                  <Col sm="4">
+                    <AddAllSongsButton count={results.length} onAddAllSongs={handleAddAllSongs} />
                   </Col>
                 </Row>
                 <ArrangementsTable
@@ -112,6 +126,11 @@ function App() {
                 <Row>
                   <Col sm="4">
                     <Sort onSortBy={handleSelectedResultsSortBy} />
+                  </Col>
+                  <Col sm="8">
+                    <Badge pill bg="info">
+                      Total: {selectedResults.length}
+                    </Badge>
                   </Col>
                 </Row>
                 <ChosenArrangementsTable

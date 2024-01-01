@@ -4,7 +4,7 @@
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": -3,
     "lyrics": "",
     "measures": 10,
     "mscoreVersion": "3.6.2",
@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 297
     },
-    "pages": 4,
+    "pages": 3,
     "parts": [
         {
             "harmonyCount": 0,
@@ -72,7 +72,7 @@
         }
     ],
     "poet": "",
-    "previousSource": "",
+    "previousSource": "Ê EMORIÔ. Ê EMORIÔ. EMORIÔ DEVE SER UMA PALAVRA NAGÔ",
     "subtitle": "",
     "tempo": 120,
     "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 120</b>",

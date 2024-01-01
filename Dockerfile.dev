@@ -1,0 +1,22 @@
+#
+# Build and Run a development container:
+#
+# docker build -t musicoteca-dev -f Dockerfile.dev .
+# docker run --name musicoteca-dev -p 127.0.0.1:5173:5173 -v $(pwd):/musicoteca -v /musicoteca/node_modules -w "/musicoteca" -it musicoteca-dev
+#
+# Or:
+#
+# docker compose up
+#
+
+FROM node:18.18.2-bullseye-slim
+
+WORKDIR /musicoteca
+
+COPY . /musicoteca/
+
+EXPOSE 5173
+
+RUN npm install
+
+CMD npm run dev-docker

@@ -1,5 +1,10 @@
 import { SongArrangement } from "../../types";
 
+const fixedStyleOrder = [
+  "marchinhas", "ranchos", "beagá", "axés", "frevos", "sambas", "pagodes",
+  "latinas", "funks", "brazukas", "odaras", "fanfarras", "technohell"
+]
+
 export const sortByColumn = (
   arrayToSort: SongArrangement[],
   columnToSort: string,
@@ -12,6 +17,11 @@ export const sortByColumn = (
       return a.arrangement.name.localeCompare(b.arrangement.name);
     } else if (columnToSort === "tags") {
       return a.arrangement.tags[0].localeCompare(b.arrangement.tags[0]);
+    } else if (columnToSort === "style") {
+      if (a.song.style === b.song.style) {
+        return a.song.title.localeCompare(b.song.title);
+      }
+      return fixedStyleOrder.indexOf(a.song.style) - fixedStyleOrder.indexOf(b.song.style);
     }
   });
 

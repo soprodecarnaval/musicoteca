@@ -1,12 +1,12 @@
 {
     "composer": "Ludmilla",
-    "duration": 50,
+    "duration": 34,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -5,
     "lyrics": "",
-    "measures": 43,
+    "measures": 39,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
@@ -72,7 +72,7 @@
         }
     ],
     "poet": "",
-    "previousSource": "",
+    "previousSource": "EU FIZ UM PÉ, LÁ NO MEU QUINTAL. TÔ VENDENDO A GRAMA DA VERDINHA A UM REAL",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",

@@ -400,11 +400,14 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
     );
   } else {
     let composer = "";
+    let sub = "";
     if (metajsonAsset) {
       const readMetaJsonResult = readJsonFile(metajsonAsset.absPath);
       if (readMetaJsonResult.ok) {
         const { composer: metajsonComposer } = readMetaJsonResult.value;
+        const { previousSource: metajsonSub } = readMetaJsonResult.value;
         composer = metajsonComposer;
+        sub = metajsonSub;
       } else {
         warnings.push(...readMetaJsonResult.warnings);
       }
@@ -414,7 +417,7 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
       id: songId,
       title: songTitle,
       composer,
-      sub: "", // TODO: figure out a way to read this
+      sub, // TODO: figure out a way to read this
       arrangementIds: [arrId],
       style,
     };

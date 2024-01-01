@@ -6,7 +6,7 @@
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 26,
+    "measures": 38,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
@@ -16,7 +16,7 @@
     "pages": 3,
     "parts": [
         {
-            "harmonyCount": 28,
+            "harmonyCount": 29,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 28,
+            "harmonyCount": 29,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,7 +49,7 @@
             "program": 56
         },
         {
-            "harmonyCount": 28,
+            "harmonyCount": 29,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -72,7 +72,7 @@
         }
     ],
     "poet": "",
-    "previousSource": "",
+    "previousSource": "EU VOU LADEIRA ABAIXO..",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -86,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "4/4",
+    "timesig": "2/4",
     "title": "LADEIRA_ABAIXO"
 }

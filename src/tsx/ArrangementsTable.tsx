@@ -17,12 +17,12 @@ const ArrangementsTable = ({
   handleSelect,
   handlePlayingSong,
 }: ArrangementsTableProps) => {
-  const [currentPage, setCurrentPagee] = useState(1);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const maxNumberPages = Math.round(songArrangements.length / 10) + 1;
 
   const handlePageChange = (pageNumber: number) => {
-    setCurrentPagee(pageNumber);
+    setCurrentPage(pageNumber);
   };
 
   return (
