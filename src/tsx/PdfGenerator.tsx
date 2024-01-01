@@ -1,4 +1,4 @@
-import { Button, ButtonGroup, Col, Dropdown, Form, Row, OverlayTrigger, Tooltip, ListGroup } from "react-bootstrap";
+import { Button, ButtonGroup, Col, Dropdown, Form, Row, OverlayTrigger, Tooltip, ListGroup, CloseButton } from "react-bootstrap";
 import SVGtoPDF from "svg-to-pdfkit";
 import { useState } from "react";
 import { Instrument, SongArrangement } from "../types";
@@ -96,7 +96,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     return fetch(url)
       .then((r) => r.text())
       .then((svg) => {
-        let pdfPage = carnivalMode ? 2 * page + 11 : page + 1;
+        let pdfPage = carnivalMode ? 2 * page + 10 : page + 1;
         doc.switchToPage(pdfPage);
         const width = 17.17 * cm2pt;
         const height = 9.82 * cm2pt;
@@ -330,6 +330,12 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
     return reorderedSongs;
   };
 
+  const removeSongbookImg = () => (setImg({ imgName: "", imgSize: "", imgUrl: "" }))
+
+  const formattedImgName = () => songbookImg.imgName.slice(0, -4).slice(0, 25).toLowerCase();
+
+  const formattedImgSize = () => (parseInt(songbookImg.imgSize) * Math.pow(10, -6)).toFixed(2);
+
   const createSongBook = async (instrument: Instrument) => {
     const doc = createDoc();
     if (carnivalMode) {
@@ -353,7 +359,6 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       await drawImage(doc, 'assets/anti_assedio_2024_1.png',6)
       await drawImage(doc, 'assets/anti_assedio_2024_2.png',8)
       await drawImage(doc, 'assets/anti_assedio_2024_3.png',10)
-      doc.addPage()
     }
 
     let styles = new Set(songArrangements.map(({ song }) => song.style));
@@ -429,7 +434,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
         <Col sm={6}>
           <Form.Control
             type="text"
-            onChange={onInput}
+            onChange={onInputSongbookTitle}
             value={songbookTitle}
             placeholder="Título do caderninho"
           />
@@ -444,7 +449,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
               {instruments.map((instrument) => (
                 <Dropdown.Item
                   key={instrument}
-                  onClick={(event) => generatePdf(event, instrument)}
+                  onClick={(event: any) => generatePdf(event, instrument)}
                 >
                   {instrument.toUpperCase()}
                 </Dropdown.Item>
