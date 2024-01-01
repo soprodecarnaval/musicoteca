@@ -426,7 +426,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
         <Col sm={6}>
           <Form.Control
             type="text"
-            onChange={onInput}
+            onChange={onInputSongbookTitle}
             value={songbookTitle}
             placeholder="Título do caderninho"
           />
@@ -441,7 +441,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
               {instruments.map((instrument) => (
                 <Dropdown.Item
                   key={instrument}
-                  onClick={(event) => generatePdf(event, instrument)}
+                  onClick={(event: any) => generatePdf(event, instrument)}
                 >
                   {instrument.toUpperCase()}
                 </Dropdown.Item>
@@ -457,7 +457,9 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
               label="Modo carnaval"
               onChange={onCheckCarnivalMode}
             />
-            <Form.Group controlId="formFileImg" className="mb-1">
+          </Col>
+        </OverlayTrigger>
+        <Form.Group controlId="formFileImg" className="mb-1">
               <Form.Label
                 className={ songbookImg.imgUrl !== "" ? "btn btn-success w-100 container mb-0" : "btn btn-primary w-100 mb-0" }
                 style={{ wordWrap: "break-word", display: "flex", justifyContent: "space-between", paddingRight: "5px" }}
@@ -480,8 +482,6 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
                 accept="image/png,image/jpeg"
               />
             </Form.Group>
-          </Col>
-        </OverlayTrigger>
       </Form>
     </Row>
   );
