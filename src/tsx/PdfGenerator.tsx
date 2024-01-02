@@ -13,19 +13,20 @@ const pageWidth = 18 * cm2pt;
 const pageHeight = 13 * cm2pt;
 
 const stylesOrder = [
-  'marcha rancho',  // 7
   'marchinhas',     // 14
-  'odaras',         // 7
   'beagá',          // 9
   'fanfarras',      // 8
-  'latinas',        // 5
   'pagodes',        // 6
-  'frevos',         // 4
+  'odaras',         // 7
+  'marcha ranchos',  // 7
+  'latinas',        // 5
+  'piseiro',
   
   'axés',           // 15
-  'brazukas',       // 11
   'funks',          // 14
   'sambas',         // 13
+  'brazukas',       // 11
+  'frevos',         // 4
   'forrós',         // 4
   'technohell'      // 3
 ]
