@@ -4089,6 +4089,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trombone.midi",
                   "extension": ".midi"
                 }
@@ -4112,6 +4116,10 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
+                {
+                  "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trompete.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trompete.svg",
                   "extension": ".svg"
@@ -6523,19 +6531,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-chuva-suor-e-cerveja-chuva-suor-e-cerveja",
-          "name": "chuva suor e cerveja",
+          "id": "brazukas-chuva-suor-e-cerveja-carnaval-bh-2023-chuva-suor-e-cerveja",
+          "name": "carnaval bh 2023 - chuva suor e cerveja",
           "assets": [
             {
-              "path": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja.mscz",
+              "path": "brazukas/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja.metajson",
+              "path": "brazukas/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/chuva suor e cerveja/chuva suor e cerveja/chuva suor e cerveja.midi",
+              "path": "brazukas/chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja/carnaval bh 2023 - chuva suor e cerveja.midi",
               "extension": ".midi"
             }
           ],
@@ -6554,19 +6562,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-cotidiano-cotidiano",
-          "name": "cotidiano",
+          "id": "brazukas-cotidiano-carnaval-bh-2023-cotidiano",
+          "name": "carnaval bh 2023 - cotidiano",
           "assets": [
             {
-              "path": "brazukas/cotidiano/cotidiano/cotidiano.mscz",
+              "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/carnaval bh 2023 - cotidiano.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/cotidiano/cotidiano/cotidiano.metajson",
+              "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/carnaval bh 2023 - cotidiano.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/cotidiano/cotidiano/cotidiano.midi",
+              "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/carnaval bh 2023 - cotidiano.midi",
               "extension": ".midi"
             }
           ],
@@ -6576,11 +6584,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/cotidiano/cotidiano/trombone.svg",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/cotidiano/cotidiano/trombone.midi",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -6590,11 +6598,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/cotidiano/cotidiano/flauta.svg",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/cotidiano/cotidiano/flauta.midi",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -6604,11 +6612,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/cotidiano/cotidiano/trompete.svg",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/cotidiano/cotidiano/trompete.midi",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -6618,11 +6626,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/cotidiano/cotidiano/sax alto.svg",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/cotidiano/cotidiano/sax alto.midi",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -6632,11 +6640,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/cotidiano/cotidiano/sax tenor.svg",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/cotidiano/cotidiano/sax tenor.midi",
+                  "path": "brazukas/cotidiano/carnaval bh 2023 - cotidiano/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -6705,10 +6713,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "brazukas/descobridor dos sete mares/carnaval bh 2024 - descobridor do sete mares/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "brazukas/descobridor dos sete mares/carnaval bh 2024 - descobridor do sete mares/trompete.svg",
                   "extension": ".svg"
@@ -6918,6 +6922,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "brazukas/evidências/carnaval bh 2024 - evidências/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "brazukas/evidências/carnaval bh 2024 - evidências/trompete.midi",
                   "extension": ".midi"
                 }
@@ -6966,19 +6974,19 @@
       "sub": "https://flat.io/score/62e4725aa5e06700143ff603-fe-cega-faca-amolada",
       "arrangements": [
         {
-          "id": "brazukas-fe-cega-faca-amolada-fe-cega-faca-amolada",
-          "name": "fe cega faca amolada",
+          "id": "brazukas-fe-cega-faca-amolada-carnaval-bh-2023-fe-cega-faca-amolada",
+          "name": "carnaval bh 2023 - fe cega faca amolada",
           "assets": [
             {
-              "path": "brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada.mscz",
+              "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada.metajson",
+              "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/fe cega faca amolada/fe cega faca amolada/fe cega faca amolada.midi",
+              "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada.midi",
               "extension": ".midi"
             }
           ],
@@ -6988,11 +6996,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/trombone.svg",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/trombone.midi",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7002,11 +7010,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/flauta.svg",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/flauta.midi",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7016,11 +7024,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/trompete.svg",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/trompete.midi",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7030,11 +7038,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/sax alto.svg",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/sax alto.midi",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7044,11 +7052,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/sax tenor.svg",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/sax tenor.midi",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7058,11 +7066,11 @@
               "instrument": "tuba",
               "assets": [
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/tuba.svg",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/tuba.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/fe cega faca amolada/fe cega faca amolada/tuba.midi",
+                  "path": "brazukas/fe cega faca amolada/carnaval bh 2023 - fe cega faca amolada/tuba.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7364,19 +7372,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-lennon-and-mccartney-lennon-and-mccartney",
-          "name": "lennon and mccartney",
+          "id": "brazukas-lennon-and-mccartney-carnaval-bh-2023-lennon-and-mccartney",
+          "name": "carnaval bh 2023 - lennon and mccartney",
           "assets": [
             {
-              "path": "brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney.mscz",
+              "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/carnaval bh 2023 - lennon and mccartney.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney.metajson",
+              "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/carnaval bh 2023 - lennon and mccartney.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/lennon and mccartney/lennon and mccartney/lennon and mccartney.midi",
+              "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/carnaval bh 2023 - lennon and mccartney.midi",
               "extension": ".midi"
             }
           ],
@@ -7386,11 +7394,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/trombone.svg",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/trombone.midi",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7400,11 +7408,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/flauta.svg",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/flauta.midi",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7414,11 +7422,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/trompete.svg",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/trompete.midi",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7428,11 +7436,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/sax alto.svg",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/sax alto.midi",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7442,11 +7450,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/sax tenor.svg",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/lennon and mccartney/lennon and mccartney/sax tenor.midi",
+                  "path": "brazukas/lennon and mccartney/carnaval bh 2023 - lennon and mccartney/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7661,19 +7669,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-mamae-oxum-mamae-oxum",
-          "name": "mamãe oxum",
+          "id": "brazukas-mamae-oxum-carnaval-bh-2023-mamae-oxum",
+          "name": "carnaval bh 2023 - mamãe oxum",
           "assets": [
             {
-              "path": "brazukas/mamãe oxum/mamãe oxum/mamãe oxum.mscz",
+              "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/carnaval bh 2023 - mamãe oxum.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/mamãe oxum/mamãe oxum/mamãe oxum.metajson",
+              "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/carnaval bh 2023 - mamãe oxum.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/mamãe oxum/mamãe oxum/mamãe oxum.midi",
+              "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/carnaval bh 2023 - mamãe oxum.midi",
               "extension": ".midi"
             }
           ],
@@ -7683,11 +7691,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/trombone.svg",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/trombone.midi",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7697,11 +7705,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/flauta.svg",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/flauta.midi",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7711,11 +7719,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/trompete.svg",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/trompete.midi",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7725,11 +7733,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/sax alto.svg",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/sax alto.midi",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7739,11 +7747,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/sax tenor.svg",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/mamãe oxum/mamãe oxum/sax tenor.midi",
+                  "path": "brazukas/mamãe oxum/carnaval bh 2023 - mamãe oxum/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7763,19 +7771,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-nao-enche-nao-enche",
-          "name": "nao enche",
+          "id": "brazukas-nao-enche-carnaval-bh-2023-nao-enche",
+          "name": "carnaval bh 2023 - não enche",
           "assets": [
             {
-              "path": "brazukas/nao enche/nao enche/nao enche.mscz",
+              "path": "brazukas/nao enche/carnaval bh 2023 - não enche/carnaval bh 2023 - não enche.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/nao enche/nao enche/nao enche.metajson",
+              "path": "brazukas/nao enche/carnaval bh 2023 - não enche/carnaval bh 2023 - não enche.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/nao enche/nao enche/nao enche.midi",
+              "path": "brazukas/nao enche/carnaval bh 2023 - não enche/carnaval bh 2023 - não enche.midi",
               "extension": ".midi"
             }
           ],
@@ -7785,11 +7793,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/nao enche/nao enche/trombone.svg",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/nao enche/nao enche/trombone.midi",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7799,11 +7807,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/nao enche/nao enche/flauta.svg",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/nao enche/nao enche/flauta.midi",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7813,11 +7821,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/nao enche/nao enche/trompete.svg",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/nao enche/nao enche/trompete.midi",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7827,11 +7835,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/nao enche/nao enche/sax alto.svg",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/nao enche/nao enche/sax alto.midi",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7841,11 +7849,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/nao enche/nao enche/sax tenor.svg",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/nao enche/nao enche/sax tenor.midi",
+                  "path": "brazukas/nao enche/carnaval bh 2023 - não enche/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8060,19 +8068,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-ombrim-ombrim",
-          "name": "ombrim",
+          "id": "brazukas-ombrim-carnaval-bh-2023-ombrim",
+          "name": "carnaval bh 2023 - ombrim",
           "assets": [
             {
-              "path": "brazukas/ombrim/ombrim/ombrim.mscz",
+              "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/carnaval bh 2023 - ombrim.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/ombrim/ombrim/ombrim.metajson",
+              "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/carnaval bh 2023 - ombrim.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/ombrim/ombrim/ombrim.midi",
+              "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/carnaval bh 2023 - ombrim.midi",
               "extension": ".midi"
             }
           ],
@@ -8082,11 +8090,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/ombrim/ombrim/trombone.svg",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/ombrim/ombrim/trombone.midi",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8096,11 +8104,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/ombrim/ombrim/flauta.svg",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/ombrim/ombrim/flauta.midi",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8110,11 +8118,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/ombrim/ombrim/trompete.svg",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/ombrim/ombrim/trompete.midi",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8124,11 +8132,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/ombrim/ombrim/sax alto.svg",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/ombrim/ombrim/sax alto.midi",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8138,11 +8146,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/ombrim/ombrim/sax tenor.svg",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/ombrim/ombrim/sax tenor.midi",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8152,11 +8160,11 @@
               "instrument": "tuba",
               "assets": [
                 {
-                  "path": "brazukas/ombrim/ombrim/tuba.svg",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/tuba.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/ombrim/ombrim/tuba.midi",
+                  "path": "brazukas/ombrim/carnaval bh 2023 - ombrim/tuba.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8371,19 +8379,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-reconvexo-reconvexo",
-          "name": "reconvexo",
+          "id": "brazukas-reconvexo-carnaval-bh-2023-reconvexo",
+          "name": "carnaval bh 2023 - reconvexo",
           "assets": [
             {
-              "path": "brazukas/reconvexo/reconvexo/reconvexo.mscz",
+              "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/carnaval bh 2023 - reconvexo.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/reconvexo/reconvexo/reconvexo.metajson",
+              "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/carnaval bh 2023 - reconvexo.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/reconvexo/reconvexo/reconvexo.midi",
+              "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/carnaval bh 2023 - reconvexo.midi",
               "extension": ".midi"
             }
           ],
@@ -8393,11 +8401,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/reconvexo/reconvexo/trombone.svg",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/reconvexo/reconvexo/trombone.midi",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8407,11 +8415,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/reconvexo/reconvexo/flauta.svg",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/reconvexo/reconvexo/flauta.midi",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8421,11 +8429,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/reconvexo/reconvexo/trompete.svg",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/reconvexo/reconvexo/trompete.midi",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8435,11 +8443,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/reconvexo/reconvexo/sax alto.svg",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/reconvexo/reconvexo/sax alto.midi",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8449,11 +8457,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/reconvexo/reconvexo/sax tenor.svg",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/reconvexo/reconvexo/sax tenor.midi",
+                  "path": "brazukas/reconvexo/carnaval bh 2023 - reconvexo/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8473,19 +8481,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-sujeito-de-sorte-sujeito-de-sorte",
-          "name": "sujeito de sorte",
+          "id": "brazukas-sujeito-de-sorte-carnaval-bh-2023-sujeito-de-sorte",
+          "name": "carnaval bh 2023 - sujeito de sorte",
           "assets": [
             {
-              "path": "brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte.mscz",
+              "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/carnaval bh 2023 - sujeito de sorte.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte.metajson",
+              "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/carnaval bh 2023 - sujeito de sorte.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/sujeito de sorte/sujeito de sorte/sujeito de sorte.midi",
+              "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/carnaval bh 2023 - sujeito de sorte.midi",
               "extension": ".midi"
             }
           ],
@@ -8495,11 +8503,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/trombone.svg",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/trombone.midi",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8509,11 +8517,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/flauta.svg",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/flauta.midi",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8523,11 +8531,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/trompete.svg",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/trompete.midi",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8537,11 +8545,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/sax alto.svg",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/sax alto.midi",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8551,11 +8559,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/sax tenor.svg",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/sujeito de sorte/sujeito de sorte/sax tenor.midi",
+                  "path": "brazukas/sujeito de sorte/carnaval bh 2023 - sujeito de sorte/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8731,6 +8739,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/trompete.midi",
                   "extension": ".midi"
                 }
@@ -8740,6 +8752,10 @@
               "name": "sax alto",
               "instrument": "sax alto",
               "assets": [
+                {
+                  "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/sax alto.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/sax alto.svg",
                   "extension": ".svg"
@@ -8779,19 +8795,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "brazukas-tudo-o-que-voce-podia-ser-tudo-o-que-voce-podia-ser",
-          "name": "tudo o que voce podia ser",
+          "id": "brazukas-tudo-o-que-voce-podia-ser-carnaval-bh-2023-tudo-o-que-voce-podia-ser",
+          "name": "carnaval bh 2023 - tudo o que voce podia ser",
           "assets": [
             {
-              "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser.mscz",
+              "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser.metajson",
+              "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/tudo o que voce podia ser.midi",
+              "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser.midi",
               "extension": ".midi"
             }
           ],
@@ -8801,11 +8817,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/trombone.svg",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/trombone.midi",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8815,11 +8831,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/flauta.svg",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/flauta.midi",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8829,11 +8845,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/trompete.svg",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/trompete.midi",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8843,11 +8859,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/sax alto.svg",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/sax alto.midi",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8857,11 +8873,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/sax tenor.svg",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/tudo o que voce podia ser/tudo o que voce podia ser/sax tenor.midi",
+                  "path": "brazukas/tudo o que voce podia ser/carnaval bh 2023 - tudo o que voce podia ser/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9280,19 +9296,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "fanfarras-blue-cigano-blue-cigano",
-          "name": "blue cigano",
+          "id": "fanfarras-blue-cigano-carnaval-bh-2023-blue-cigano",
+          "name": "carnaval bh 2023 - blue cigano",
           "assets": [
             {
-              "path": "fanfarras/blue cigano/blue cigano/blue cigano.mscz",
+              "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/carnaval bh 2023 - blue cigano.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "fanfarras/blue cigano/blue cigano/blue cigano.metajson",
+              "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/carnaval bh 2023 - blue cigano.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "fanfarras/blue cigano/blue cigano/blue cigano.midi",
+              "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/carnaval bh 2023 - blue cigano.midi",
               "extension": ".midi"
             }
           ],
@@ -9302,11 +9318,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/trombone.svg",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/trombone.midi",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9316,11 +9332,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/flauta.svg",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/flauta.midi",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9330,11 +9346,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/trompete.svg",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/trompete.midi",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9344,11 +9360,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/sax alto.svg",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/sax alto.midi",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9358,11 +9374,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/sax tenor.svg",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "fanfarras/blue cigano/blue cigano/sax tenor.midi",
+                  "path": "fanfarras/blue cigano/carnaval bh 2023 - blue cigano/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -12897,6 +12913,14 @@
                 {
                   "path": "funks/amor de que/carnaval bh 2023 - amor de que/trombone.midi",
                   "extension": ".midi"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/trombone.midi",
+                  "extension": ".midi"
                 }
               ]
             },
@@ -12904,6 +12928,14 @@
               "name": "flauta",
               "instrument": "flauta",
               "assets": [
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/flauta.midi",
+                  "extension": ".midi"
+                },
                 {
                   "path": "funks/amor de que/carnaval bh 2023 - amor de que/flauta.svg",
                   "extension": ".svg"
@@ -12925,6 +12957,14 @@
                 {
                   "path": "funks/amor de que/carnaval bh 2023 - amor de que/trompete.midi",
                   "extension": ".midi"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/trompete.midi",
+                  "extension": ".midi"
                 }
               ]
             },
@@ -12939,6 +12979,14 @@
                 {
                   "path": "funks/amor de que/carnaval bh 2023 - amor de que/sax alto.midi",
                   "extension": ".midi"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/sax alto.midi",
+                  "extension": ".midi"
                 }
               ]
             },
@@ -12946,6 +12994,14 @@
               "name": "sax tenor",
               "instrument": "sax tenor",
               "assets": [
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/amor de que/carnaval bh 2023 - amor de que/sax tenor.midi",
+                  "extension": ".midi"
+                },
                 {
                   "path": "funks/amor de que/carnaval bh 2023 - amor de que/sax tenor.svg",
                   "extension": ".svg"
@@ -12971,19 +13027,19 @@
       "sub": "https://flat.io/score/5de3d4ba0389fa48cbafbcb6-baile-de-favela",
       "arrangements": [
         {
-          "id": "funks-baile-de-favela-baile-de-favela",
-          "name": "baile de favela",
+          "id": "funks-baile-de-favela-carnaval-bh-2023-baile-de-favela",
+          "name": "carnaval bh 2023 - baile de favela",
           "assets": [
             {
-              "path": "funks/baile de favela/baile de favela/baile de favela.mscz",
+              "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/carnaval bh 2023 - baile de favela.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/baile de favela/baile de favela/baile de favela.metajson",
+              "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/carnaval bh 2023 - baile de favela.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/baile de favela/baile de favela/baile de favela.midi",
+              "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/carnaval bh 2023 - baile de favela.midi",
               "extension": ".midi"
             }
           ],
@@ -12993,11 +13049,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/baile de favela/baile de favela/trombone.svg",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/baile de favela/baile de favela/trombone.midi",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13007,11 +13063,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/baile de favela/baile de favela/flauta.svg",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/baile de favela/baile de favela/flauta.midi",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13021,11 +13077,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/baile de favela/baile de favela/trompete.svg",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/baile de favela/baile de favela/trompete.midi",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13035,11 +13091,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/baile de favela/baile de favela/sax alto.svg",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/baile de favela/baile de favela/sax alto.midi",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13049,11 +13105,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/baile de favela/baile de favela/sax tenor.svg",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/baile de favela/baile de favela/sax tenor.midi",
+                  "path": "funks/baile de favela/carnaval bh 2023 - baile de favela/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13249,116 +13305,6 @@
                 },
                 {
                   "path": "funks/cheguei/carnaval bh 2024 - cheguei/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "funks"
-          ]
-        }
-      ],
-      "style": "funks"
-    },
-    {
-      "id": "funks-combatchy",
-      "title": "combatchy",
-      "composer": "",
-      "sub": "AGORA VAI COMEÇAR O COMBATE. QUICA, QUICA, BATE, BATE ",
-      "arrangements": [
-        {
-          "id": "funks-combatchy-carnaval-bh-2024-combatchy",
-          "name": "carnaval bh 2024 - combatchy",
-          "assets": [
-            {
-              "path": "funks/combatchy/carnaval bh 2024 - combatchy/carnaval bh 2024 - combatchy.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "funks/combatchy/carnaval bh 2024 - combatchy/carnaval bh 2024 - combatchy.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "funks/combatchy/carnaval bh 2024 - combatchy/carnaval bh 2024 - combatchy.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "funks/combatchy/carnaval bh 2024 - combatchy/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13582,19 +13528,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-endereco-dos-bailes-endereco-dos-bailes",
-          "name": "endereco dos bailes",
+          "id": "funks-endereco-dos-bailes-carnaval-bh-2023-endereco-dos-bailes",
+          "name": "carnaval bh 2023 - endereco dos bailes",
           "assets": [
             {
-              "path": "funks/endereco dos bailes/endereco dos bailes/endereco dos bailes.mscz",
+              "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/carnaval bh 2023 - endereco dos bailes.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/endereco dos bailes/endereco dos bailes/endereco dos bailes.metajson",
+              "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/carnaval bh 2023 - endereco dos bailes.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/endereco dos bailes/endereco dos bailes/endereco dos bailes.midi",
+              "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/carnaval bh 2023 - endereco dos bailes.midi",
               "extension": ".midi"
             }
           ],
@@ -13604,11 +13550,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/trombone.svg",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/trombone.midi",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13618,11 +13564,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/flauta.svg",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/flauta.midi",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13632,11 +13578,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/trompete.svg",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/trompete.midi",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13646,11 +13592,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/sax alto.svg",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/sax alto.midi",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13660,11 +13606,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/sax tenor.svg",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/endereco dos bailes/endereco dos bailes/sax tenor.midi",
+                  "path": "funks/endereco dos bailes/carnaval bh 2023 - endereco dos bailes/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14068,25 +14014,25 @@
       "style": "funks"
     },
     {
-      "id": "funks-meu-jeito-de-amar-vai-descendo-devagar-",
-      "title": "meu jeito de amar (vai descendo devagar)",
+      "id": "funks-meu-jeito-de-amar",
+      "title": "meu jeito de amar",
       "composer": "Duda Beat",
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-meu-jeito-de-amar-vai-descendo-devagar-carnaval-bh-2023-meu-jeito-de-amar",
+          "id": "funks-meu-jeito-de-amar-carnaval-bh-2023-meu-jeito-de-amar",
           "name": "carnaval bh 2023 - meu jeito de amar",
           "assets": [
             {
-              "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.mscz",
+              "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.metajson",
+              "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.midi",
+              "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/carnaval bh 2023 - meu jeito de amar.midi",
               "extension": ".midi"
             }
           ],
@@ -14096,11 +14042,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/trombone.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/trombone.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14110,11 +14056,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/flauta.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/flauta.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14124,11 +14070,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/trompete.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/trompete.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14138,11 +14084,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/sax alto.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/sax alto.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14152,11 +14098,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/sax tenor.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2023 - meu jeito de amar/sax tenor.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2023 - meu jeito de amar/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14167,19 +14113,19 @@
           ]
         },
         {
-          "id": "funks-meu-jeito-de-amar-vai-descendo-devagar-carnaval-bh-2024-meu-jeito-de-amar",
+          "id": "funks-meu-jeito-de-amar-carnaval-bh-2024-meu-jeito-de-amar",
           "name": "carnaval bh 2024 - meu jeito de amar",
           "assets": [
             {
-              "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/carnaval bh 2024 - meu jeito de amar.mscz",
+              "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/carnaval bh 2024 - meu jeito de amar.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/carnaval bh 2024 - meu jeito de amar.metajson",
+              "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/carnaval bh 2024 - meu jeito de amar.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/carnaval bh 2024 - meu jeito de amar.midi",
+              "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/carnaval bh 2024 - meu jeito de amar.midi",
               "extension": ".midi"
             }
           ],
@@ -14189,15 +14135,15 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/trombone.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/trombone.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/trombone.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14207,11 +14153,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/flauta.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/flauta.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14221,11 +14167,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/trompete.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/trompete.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14235,11 +14181,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/sax alto.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/sax alto.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14249,11 +14195,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/sax tenor.svg",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar (vai descendo devagar)/carnaval bh 2024 - meu jeito de amar/sax tenor.midi",
+                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14375,19 +14321,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-oh-juliana-oh-juliana",
-          "name": "oh juliana",
+          "id": "funks-oh-juliana-carnaval-bh-2023-oh-juliana",
+          "name": "carnaval bh 2023 - oh juliana",
           "assets": [
             {
-              "path": "funks/oh juliana/oh juliana/oh juliana.mscz",
+              "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/carnaval bh 2023 - oh juliana.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/oh juliana/oh juliana/oh juliana.metajson",
+              "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/carnaval bh 2023 - oh juliana.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/oh juliana/oh juliana/oh juliana.midi",
+              "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/carnaval bh 2023 - oh juliana.midi",
               "extension": ".midi"
             }
           ],
@@ -14397,11 +14343,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/oh juliana/oh juliana/trombone.svg",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/oh juliana/oh juliana/trombone.midi",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14411,11 +14357,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/oh juliana/oh juliana/flauta.svg",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/oh juliana/oh juliana/flauta.midi",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14425,11 +14371,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/oh juliana/oh juliana/trompete.svg",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/oh juliana/oh juliana/trompete.midi",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14439,11 +14385,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/oh juliana/oh juliana/sax alto.svg",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/oh juliana/oh juliana/sax alto.midi",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14453,11 +14399,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/oh juliana/oh juliana/sax tenor.svg",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/oh juliana/oh juliana/sax tenor.midi",
+                  "path": "funks/oh juliana/carnaval bh 2023 - oh juliana/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14774,19 +14720,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-rap-das-armas-rap-das-armas",
-          "name": "rap das armas",
+          "id": "funks-rap-das-armas-carnaval-bh-2023-rap-das-armas",
+          "name": "carnaval bh 2023 - rap das armas",
           "assets": [
             {
-              "path": "funks/rap das armas/rap das armas/rap das armas.mscz",
+              "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/carnaval bh 2023 - rap das armas.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/rap das armas/rap das armas/rap das armas.metajson",
+              "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/carnaval bh 2023 - rap das armas.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/rap das armas/rap das armas/rap das armas.midi",
+              "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/carnaval bh 2023 - rap das armas.midi",
               "extension": ".midi"
             }
           ],
@@ -14796,11 +14742,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/rap das armas/rap das armas/trombone.svg",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap das armas/rap das armas/trombone.midi",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14810,11 +14756,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/rap das armas/rap das armas/flauta.svg",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap das armas/rap das armas/flauta.midi",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14824,11 +14770,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/rap das armas/rap das armas/trompete.svg",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap das armas/rap das armas/trompete.midi",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14838,11 +14784,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/rap das armas/rap das armas/sax alto.svg",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap das armas/rap das armas/sax alto.midi",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14852,11 +14798,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/rap das armas/rap das armas/sax tenor.svg",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap das armas/rap das armas/sax tenor.midi",
+                  "path": "funks/rap das armas/carnaval bh 2023 - rap das armas/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15201,19 +15147,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-tedio-tedio",
-          "name": "tedio",
+          "id": "funks-tedio-carnaval-bh-2023-tedio",
+          "name": "carnaval bh 2023 - tedio",
           "assets": [
             {
-              "path": "funks/tedio/tedio/tedio.mscz",
+              "path": "funks/tedio/carnaval bh 2023 - tedio/carnaval bh 2023 - tedio.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/tedio/tedio/tedio.metajson",
+              "path": "funks/tedio/carnaval bh 2023 - tedio/carnaval bh 2023 - tedio.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/tedio/tedio/tedio.midi",
+              "path": "funks/tedio/carnaval bh 2023 - tedio/carnaval bh 2023 - tedio.midi",
               "extension": ".midi"
             }
           ],
@@ -15223,11 +15169,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/tedio/tedio/trombone.svg",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/tedio/tedio/trombone.midi",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15237,11 +15183,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/tedio/tedio/flauta.svg",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/tedio/tedio/flauta.midi",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15251,11 +15197,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/tedio/tedio/trompete.svg",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/tedio/tedio/trompete.midi",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15265,11 +15211,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/tedio/tedio/sax alto.svg",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/tedio/tedio/sax alto.midi",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15279,11 +15225,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/tedio/tedio/sax tenor.svg",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/tedio/tedio/sax tenor.midi",
+                  "path": "funks/tedio/carnaval bh 2023 - tedio/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15498,19 +15444,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-um-morto-muito-louco-um-morto-muito-louco",
-          "name": "um morto muito louco",
+          "id": "funks-um-morto-muito-louco-carnaval-bh-2023-um-morto-muito-louco",
+          "name": "carnaval bh 2023 - um morto muito louco",
           "assets": [
             {
-              "path": "funks/um morto muito louco/um morto muito louco/um morto muito louco.mscz",
+              "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/carnaval bh 2023 - um morto muito louco.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/um morto muito louco/um morto muito louco/um morto muito louco.metajson",
+              "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/carnaval bh 2023 - um morto muito louco.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/um morto muito louco/um morto muito louco/um morto muito louco.midi",
+              "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/carnaval bh 2023 - um morto muito louco.midi",
               "extension": ".midi"
             }
           ],
@@ -15520,11 +15466,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/trombone.svg",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/trombone.midi",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15534,11 +15480,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/flauta.svg",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/flauta.midi",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15548,11 +15494,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/trompete.svg",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/trompete.midi",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15562,11 +15508,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/sax alto.svg",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/sax alto.midi",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15576,11 +15522,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/sax tenor.svg",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/um morto muito louco/um morto muito louco/sax tenor.midi",
+                  "path": "funks/um morto muito louco/carnaval bh 2023 - um morto muito louco/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16109,10 +16055,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trombone.midi",
                   "extension": ".midi"
                 }
@@ -16577,6 +16519,201 @@
       "style": "latinas"
     },
     {
+      "id": "latinas-chorando-se-foi",
+      "title": "chorando se foi",
+      "composer": "Los Kjarkas",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "latinas-chorando-se-foi-carnaval-bh-2023-llorando-se-fue",
+          "name": "carnaval bh 2023 - llorando se fue",
+          "assets": [
+            {
+              "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2023 - llorando se fue/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "latinas"
+          ]
+        },
+        {
+          "id": "latinas-chorando-se-foi-carnaval-bh-2024-llorando-se-fue",
+          "name": "carnaval bh 2024 - llorando se fue",
+          "assets": [
+            {
+              "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/carnaval bh 2024 - llorando se fue.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/carnaval bh 2024 - llorando se fue.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/carnaval bh 2024 - llorando se fue.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "latinas/chorando se foi/carnaval bh 2024 - llorando se fue/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "latinas"
+          ]
+        }
+      ],
+      "style": "latinas"
+    },
+    {
       "id": "latinas-cumbia-en-do-menor",
       "title": "cumbia en do menor",
       "composer": "Lito Barrientos",
@@ -16666,201 +16803,6 @@
                 },
                 {
                   "path": "latinas/cumbia en do menor/carnaval bh 2024 - cumbia en dó menor/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "latinas"
-          ]
-        }
-      ],
-      "style": "latinas"
-    },
-    {
-      "id": "latinas-llorando-se-fue-chorando-se-foi-",
-      "title": "llorando se fue (chorando se foi)",
-      "composer": "Los Kjarkas",
-      "sub": "",
-      "arrangements": [
-        {
-          "id": "latinas-llorando-se-fue-chorando-se-foi-carnaval-bh-2023-llorando-se-fue",
-          "name": "carnaval bh 2023 - llorando se fue",
-          "assets": [
-            {
-              "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/carnaval bh 2023 - llorando se fue.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2023 - llorando se fue/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "latinas"
-          ]
-        },
-        {
-          "id": "latinas-llorando-se-fue-chorando-se-foi-carnaval-bh-2024-llorando-se-fue",
-          "name": "carnaval bh 2024 - llorando se fue",
-          "assets": [
-            {
-              "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/carnaval bh 2024 - llorando se fue.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/carnaval bh 2024 - llorando se fue.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/carnaval bh 2024 - llorando se fue.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "latinas/llorando se fue (chorando se foi)/carnaval bh 2024 - llorando se fue/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16978,23 +16920,23 @@
     {
       "id": "manifestacao-bella-ciao",
       "title": "bella ciao",
-      "composer": "Trad. Italiana",
+      "composer": "",
       "sub": "",
       "arrangements": [
         {
-          "id": "manifestacao-bella-ciao-bella-ciao",
-          "name": "bella ciao",
+          "id": "manifestacao-bella-ciao-carnaval-bh-2023-bella-ciao",
+          "name": "carnaval bh 2023 - bella ciao",
           "assets": [
             {
-              "path": "manifestação/bella ciao/bella ciao/bella ciao.mscz",
+              "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/carnaval bh 2023 - bella ciao.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "manifestação/bella ciao/bella ciao/bella ciao.metajson",
+              "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/carnaval bh 2023 - bella ciao.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "manifestação/bella ciao/bella ciao/bella ciao.midi",
+              "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/carnaval bh 2023 - bella ciao.midi",
               "extension": ".midi"
             }
           ],
@@ -17004,11 +16946,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "manifestação/bella ciao/bella ciao/trombone.svg",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/bella ciao/bella ciao/trombone.midi",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17018,11 +16960,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "manifestação/bella ciao/bella ciao/flauta.svg",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/bella ciao/bella ciao/flauta.midi",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17032,11 +16974,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "manifestação/bella ciao/bella ciao/trompete.svg",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/bella ciao/bella ciao/trompete.midi",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17046,11 +16988,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "manifestação/bella ciao/bella ciao/sax alto.svg",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/bella ciao/bella ciao/sax alto.midi",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17060,11 +17002,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "manifestação/bella ciao/bella ciao/sax tenor.svg",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/bella ciao/bella ciao/sax tenor.midi",
+                  "path": "manifestação/bella ciao/carnaval bh 2023 - bella ciao/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17084,19 +17026,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "manifestacao-ta-na-hora-do-jair-ta-na-hora-do-jair",
-          "name": "ta na hora do jair",
+          "id": "manifestacao-ta-na-hora-do-jair-carnaval-bh-2023-ta-na-hora-do-jair",
+          "name": "carnaval bh 2023 - ta na hora do jair",
           "assets": [
             {
-              "path": "manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.mscz",
+              "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/carnaval bh 2023 - ta na hora do jair.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.metajson",
+              "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/carnaval bh 2023 - ta na hora do jair.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "manifestação/ta na hora do jair/ta na hora do jair/ta na hora do jair.midi",
+              "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/carnaval bh 2023 - ta na hora do jair.midi",
               "extension": ".midi"
             }
           ],
@@ -17106,11 +17048,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trombone.svg",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trombone.midi",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17120,11 +17062,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/flauta.svg",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/flauta.midi",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17134,11 +17076,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trompete.svg",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/trompete.midi",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17148,11 +17090,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax alto.svg",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax alto.midi",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17162,11 +17104,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax tenor.svg",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/ta na hora do jair/ta na hora do jair/sax tenor.midi",
+                  "path": "manifestação/ta na hora do jair/carnaval bh 2023 - ta na hora do jair/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17186,19 +17128,19 @@
       "sub": "http://musescore.com/user/12625836/scores/6214851",
       "arrangements": [
         {
-          "id": "manifestacao-ta-escrito-ta-escrito",
-          "name": "tá escrito",
+          "id": "manifestacao-ta-escrito-carnaval-bh-2023-ta-escrito",
+          "name": "carnaval bh 2023 - tá escrito",
           "assets": [
             {
-              "path": "manifestação/tá escrito/tá escrito/tá escrito.mscz",
+              "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/carnaval bh 2023 - tá escrito.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "manifestação/tá escrito/tá escrito/tá escrito.metajson",
+              "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/carnaval bh 2023 - tá escrito.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "manifestação/tá escrito/tá escrito/tá escrito.midi",
+              "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/carnaval bh 2023 - tá escrito.midi",
               "extension": ".midi"
             }
           ],
@@ -17208,11 +17150,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "manifestação/tá escrito/tá escrito/trombone.svg",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/tá escrito/tá escrito/trombone.midi",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17222,11 +17164,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "manifestação/tá escrito/tá escrito/flauta.svg",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/tá escrito/tá escrito/flauta.midi",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17236,11 +17178,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "manifestação/tá escrito/tá escrito/trompete.svg",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/tá escrito/tá escrito/trompete.midi",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17250,11 +17192,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "manifestação/tá escrito/tá escrito/sax alto.svg",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/tá escrito/tá escrito/sax alto.midi",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17264,11 +17206,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "manifestação/tá escrito/tá escrito/sax tenor.svg",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/tá escrito/tá escrito/sax tenor.midi",
+                  "path": "manifestação/tá escrito/carnaval bh 2023 - tá escrito/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17288,19 +17230,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "manifestacao-vermelho-vermelho",
-          "name": "vermelho",
+          "id": "manifestacao-vermelho-carnaval-bh-2023-vermelho-vermelhaco",
+          "name": "carnaval bh 2023 - vermelho vermelhaço",
           "assets": [
             {
-              "path": "manifestação/vermelho/vermelho/vermelho.mscz",
+              "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/carnaval bh 2023 - vermelho vermelhaço.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "manifestação/vermelho/vermelho/vermelho.metajson",
+              "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/carnaval bh 2023 - vermelho vermelhaço.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "manifestação/vermelho/vermelho/vermelho.midi",
+              "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/carnaval bh 2023 - vermelho vermelhaço.midi",
               "extension": ".midi"
             }
           ],
@@ -17310,11 +17252,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "manifestação/vermelho/vermelho/trombone.svg",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/vermelho/vermelho/trombone.midi",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17324,11 +17266,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "manifestação/vermelho/vermelho/flauta.svg",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/vermelho/vermelho/flauta.midi",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17338,11 +17280,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "manifestação/vermelho/vermelho/trompete.svg",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/vermelho/vermelho/trompete.midi",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17352,11 +17294,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "manifestação/vermelho/vermelho/sax alto.svg",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/vermelho/vermelho/sax alto.midi",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -17366,11 +17308,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "manifestação/vermelho/vermelho/sax tenor.svg",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "manifestação/vermelho/vermelho/sax tenor.midi",
+                  "path": "manifestação/vermelho/carnaval bh 2023 - vermelho vermelhaço/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -20963,6 +20905,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "marchinhas/taí/carnaval bh 2024 - taí/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "marchinhas/taí/carnaval bh 2024 - taí/trompete.midi",
                   "extension": ".midi"
                 }
@@ -23846,108 +23792,6 @@
       "style": "pagodes"
     },
     {
-      "id": "pagodes-me-apaixonei-pela-pessoa-errada",
-      "title": "me apaixonei pela pessoa errada",
-      "composer": "",
-      "sub": "EU NÃO TENHO CULPA DE ESTAR TE AMANDO. DE FICAR PENSANDO EM VOCÊ TODA HORA",
-      "arrangements": [
-        {
-          "id": "pagodes-me-apaixonei-pela-pessoa-errada-carnaval-bh-2024-me-apaixonei-pela-pessoa-errada",
-          "name": "carnaval bh 2024 - me apaixonei pela pessoa errada",
-          "assets": [
-            {
-              "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "pagodes"
-          ]
-        }
-      ],
-      "style": "pagodes"
-    },
-    {
       "id": "pagodes-temporal",
       "title": "temporal",
       "composer": "ART POPULAR",
@@ -24366,19 +24210,19 @@
       "sub": "https://flat.io/score/60ba5644175f70803bcf5455-ta-rocheda-fanfarra",
       "arrangements": [
         {
-          "id": "piseiro-ta-rocheda-ta-rocheda",
-          "name": "ta rocheda",
+          "id": "piseiro-ta-rocheda-carnaval-bh-2023-ta-rocheda",
+          "name": "carnaval bh 2023 - tá rocheda",
           "assets": [
             {
-              "path": "piseiro/ta rocheda/ta rocheda/ta rocheda.mscz",
+              "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/carnaval bh 2023 - tá rocheda.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "piseiro/ta rocheda/ta rocheda/ta rocheda.metajson",
+              "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/carnaval bh 2023 - tá rocheda.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "piseiro/ta rocheda/ta rocheda/ta rocheda.midi",
+              "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/carnaval bh 2023 - tá rocheda.midi",
               "extension": ".midi"
             }
           ],
@@ -24388,11 +24232,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/trombone.svg",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/trombone.midi",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24402,11 +24246,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/flauta.svg",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/flauta.midi",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24416,11 +24260,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/trompete.svg",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/trompete.midi",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24430,11 +24274,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/sax alto.svg",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/sax alto.midi",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24444,11 +24288,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/sax tenor.svg",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/ta rocheda/ta rocheda/sax tenor.midi",
+                  "path": "piseiro/ta rocheda/carnaval bh 2023 - tá rocheda/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24468,19 +24312,19 @@
       "sub": "Scanned sheet music",
       "arrangements": [
         {
-          "id": "piseiro-tapao-na-raba-tapao-na-raba",
-          "name": "tapao na raba",
+          "id": "piseiro-tapao-na-raba-carnaval-bh-2023-tapao-na-raba",
+          "name": "carnaval bh 2023 - tapao na raba",
           "assets": [
             {
-              "path": "piseiro/tapao na raba/tapao na raba/tapao na raba.mscz",
+              "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/carnaval bh 2023 - tapao na raba.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "piseiro/tapao na raba/tapao na raba/tapao na raba.metajson",
+              "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/carnaval bh 2023 - tapao na raba.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "piseiro/tapao na raba/tapao na raba/tapao na raba.midi",
+              "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/carnaval bh 2023 - tapao na raba.midi",
               "extension": ".midi"
             }
           ],
@@ -24490,11 +24334,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/trombone.svg",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/trombone.midi",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24504,11 +24348,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/flauta.svg",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/flauta.midi",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24518,11 +24362,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/trompete.svg",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/trompete.midi",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24532,11 +24376,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/sax alto.svg",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/sax alto.midi",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24546,11 +24390,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/sax tenor.svg",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/tapao na raba/tapao na raba/sax tenor.midi",
+                  "path": "piseiro/tapao na raba/carnaval bh 2023 - tapao na raba/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24672,19 +24516,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "rocks-paint-in-black-paint-in-black",
-          "name": "paint in black",
+          "id": "rocks-paint-in-black-carnaval-bh-2023-paint-in-black",
+          "name": "carnaval bh 2023 - paint in black",
           "assets": [
             {
-              "path": "rocks/paint in black/paint in black/paint in black.mscz",
+              "path": "rocks/paint in black/carnaval bh 2023 - paint in black/carnaval bh 2023 - paint in black.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "rocks/paint in black/paint in black/paint in black.metajson",
+              "path": "rocks/paint in black/carnaval bh 2023 - paint in black/carnaval bh 2023 - paint in black.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "rocks/paint in black/paint in black/paint in black.midi",
+              "path": "rocks/paint in black/carnaval bh 2023 - paint in black/carnaval bh 2023 - paint in black.midi",
               "extension": ".midi"
             }
           ],
@@ -24694,11 +24538,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "rocks/paint in black/paint in black/trombone.svg",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/paint in black/paint in black/trombone.midi",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24708,11 +24552,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "rocks/paint in black/paint in black/flauta.svg",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/paint in black/paint in black/flauta.midi",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24722,11 +24566,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "rocks/paint in black/paint in black/trompete.svg",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/paint in black/paint in black/trompete.midi",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24736,11 +24580,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "rocks/paint in black/paint in black/sax alto.svg",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/paint in black/paint in black/sax alto.midi",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24750,11 +24594,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "rocks/paint in black/paint in black/sax tenor.svg",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/paint in black/paint in black/sax tenor.midi",
+                  "path": "rocks/paint in black/carnaval bh 2023 - paint in black/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -25663,6 +25507,196 @@
           "tags": [
             "sambas"
           ]
+        },
+        {
+          "id": "sambas-nao-deixe-o-samba-morrer-carnaval-bh-2024-nao-deixe-o-samba-morrer",
+          "name": "carnaval bh 2024 - não deixe o samba morrer",
+          "assets": [
+            {
+              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/carnaval bh 2024 - não deixe o samba morrer/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "sambas"
+          ]
+        },
+        {
+          "id": "sambas-nao-deixe-o-samba-morrer-nao-deixe-o-samba-morrer",
+          "name": "não deixe o samba morrer",
+          "assets": [
+            {
+              "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/não deixe o samba morrer.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/não deixe o samba morrer.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/não deixe o samba morrer.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/não deixe o samba morrer/não deixe o samba morrer/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "sambas"
+          ]
         }
       ],
       "style": "sambas"
@@ -26058,25 +26092,25 @@
       "style": "sambas"
     },
     {
-      "id": "sambas-retalhos-de-cetim-mas-chegou-o-carnaval-",
-      "title": "retalhos de cetim (mas chegou, o carnaval)",
+      "id": "sambas-retalhos-de-cetim",
+      "title": "retalhos de cetim",
       "composer": "Benito de Paula",
       "sub": "",
       "arrangements": [
         {
-          "id": "sambas-retalhos-de-cetim-mas-chegou-o-carnaval-carnaval-bh-2023-retalhos-de-cetim",
+          "id": "sambas-retalhos-de-cetim-carnaval-bh-2023-retalhos-de-cetim",
           "name": "carnaval bh 2023 - retalhos de cetim",
           "assets": [
             {
-              "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.mscz",
+              "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.metajson",
+              "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.midi",
+              "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/carnaval bh 2023 - retalhos de cetim.midi",
               "extension": ".midi"
             }
           ],
@@ -26086,11 +26120,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/trombone.svg",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/trombone.midi",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -26100,11 +26134,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/flauta.svg",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/flauta.midi",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -26114,11 +26148,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/trompete.svg",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/trompete.midi",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -26128,11 +26162,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/sax alto.svg",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/sax alto.midi",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -26142,11 +26176,104 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/sax tenor.svg",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "sambas/retalhos de cetim (mas chegou, o carnaval)/carnaval bh 2023 - retalhos de cetim/sax tenor.midi",
+                  "path": "sambas/retalhos de cetim/carnaval bh 2023 - retalhos de cetim/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "sambas"
+          ]
+        },
+        {
+          "id": "sambas-retalhos-de-cetim-carnaval-bh-2024-retalhos-de-cetim",
+          "name": "carnaval bh 2024 - retalhos de cetim",
+          "assets": [
+            {
+              "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/carnaval bh 2024 - retalhos de cetim.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/carnaval bh 2024 - retalhos de cetim.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/carnaval bh 2024 - retalhos de cetim.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "sambas/retalhos de cetim/carnaval bh 2024 - retalhos de cetim/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -26567,303 +26694,6 @@
       "style": "sambas"
     },
     {
-      "id": "sambas-vou-festejar",
-      "title": "vou festejar",
-      "composer": "",
-      "sub": "CHORA, NÃO VOU LIGAR. NÃO VOU LIGAR",
-      "arrangements": [
-        {
-          "id": "sambas-vou-festejar-carnaval-bh-2024-vou-festejar",
-          "name": "carnaval bh 2024 - vou festejar",
-          "assets": [
-            {
-              "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/carnaval bh 2024 - vou festejar.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/carnaval bh 2024 - vou festejar.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/carnaval bh 2024 - vou festejar.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "sambas"
-          ]
-        }
-      ],
-      "style": "sambas"
-    },
-    {
-      "id": "technohell-children-can-t-get-you-out-of-my-head",
-      "title": "children + can't get you out of my head",
-      "composer": "",
-      "sub": "",
-      "arrangements": [
-        {
-          "id": "technohell-children-can-t-get-you-out-of-my-head-carnaval-bh-2023-children-can-t-get-you-out-of-my-head",
-          "name": "carnaval bh 2023 - children + can't get you out of my head",
-          "assets": [
-            {
-              "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2023 - children + can't get you out of my head/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "technohell"
-          ]
-        },
-        {
-          "id": "technohell-children-can-t-get-you-out-of-my-head-carnaval-bh-2024-children-can-t-get-you-out-of-my-head",
-          "name": "carnaval bh 2024 - children + can_t get you out of my head",
-          "assets": [
-            {
-              "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "technohell/children + can't get you out of my head/carnaval bh 2024 - children + can_t get you out of my head/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "technohell"
-          ]
-        }
-      ],
-      "style": "technohell"
-    },
-    {
       "id": "technohell-jesus-humilha-o-satanas",
       "title": "jesus humilha o satanas",
       "composer": "J. Bertoli / L. Palmiro / Tony Varone",
@@ -26953,6 +26783,201 @@
                 },
                 {
                   "path": "technohell/jesus humilha o satanas/jesus humilha o satanas/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "technohell"
+          ]
+        }
+      ],
+      "style": "technohell"
+    },
+    {
+      "id": "technohell-medley-technohell",
+      "title": "medley technohell",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "technohell-medley-technohell-carnaval-bh-2023-medley-technohell",
+          "name": "carnaval bh 2023 - medley technohell",
+          "assets": [
+            {
+              "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/carnaval bh 2023 - medley technohell.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/carnaval bh 2023 - medley technohell.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/carnaval bh 2023 - medley technohell.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2023 - medley technohell/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "technohell"
+          ]
+        },
+        {
+          "id": "technohell-medley-technohell-carnaval-bh-2024-children-can-t-get-you-out-of-my-head",
+          "name": "carnaval bh 2024 - children + can_t get you out of my head",
+          "assets": [
+            {
+              "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27167,19 +27192,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "zoeira-eu-sou-um-cordeirinho-eu-sou-um-cordeirinho",
-          "name": "eu sou um cordeirinho",
+          "id": "zoeira-eu-sou-um-cordeirinho-carnaval-bh-2023-eu-sou-um-cordeirinho",
+          "name": "carnaval bh 2023 - eu sou um cordeirinho",
           "assets": [
             {
-              "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho.mscz",
+              "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho.metajson",
+              "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/eu sou um cordeirinho.midi",
+              "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho.midi",
               "extension": ".midi"
             }
           ],
@@ -27189,11 +27214,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/trombone.svg",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/trombone.midi",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27203,11 +27228,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/flauta.svg",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/flauta.midi",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27217,11 +27242,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/trompete.svg",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/trompete.midi",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27231,11 +27256,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/sax alto.svg",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/sax alto.midi",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27245,11 +27270,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/sax tenor.svg",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/eu sou um cordeirinho/eu sou um cordeirinho/sax tenor.midi",
+                  "path": "zoeira/eu sou um cordeirinho/carnaval bh 2023 - eu sou um cordeirinho/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27269,19 +27294,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "zoeira-noiados-da-encruzilhada-noiados-da-encruzilhada",
-          "name": "noiados da encruzilhada",
+          "id": "zoeira-noiados-da-encruzilhada-carnaval-bh-2023-noiados-da-encruzilhada",
+          "name": "carnaval bh 2023 - noiados da encruzilhada",
           "assets": [
             {
-              "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada.mscz",
+              "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada.metajson",
+              "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/noiados da encruzilhada.midi",
+              "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada.midi",
               "extension": ".midi"
             }
           ],
@@ -27291,11 +27316,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/trombone.svg",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/trombone.midi",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27305,11 +27330,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/flauta.svg",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/flauta.midi",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27319,11 +27344,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/trompete.svg",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/trompete.midi",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27333,11 +27358,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/sax alto.svg",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/sax alto.midi",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27347,11 +27372,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/sax tenor.svg",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/noiados da encruzilhada/noiados da encruzilhada/sax tenor.midi",
+                  "path": "zoeira/noiados da encruzilhada/carnaval bh 2023 - noiados da encruzilhada/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27371,19 +27396,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "zoeira-show-de-calouros-pedro-de-lara-show-de-calouros-pedro-de-lara-",
-          "name": "show de calouros (pedro de lara)",
+          "id": "zoeira-show-de-calouros-pedro-de-lara-carnaval-bh-2023-show-de-calouros",
+          "name": "carnaval bh 2023 - show de calouros",
           "assets": [
             {
-              "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara).mscz",
+              "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/carnaval bh 2023 - show de calouros.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara).metajson",
+              "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/carnaval bh 2023 - show de calouros.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/show de calouros (pedro de lara).midi",
+              "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/carnaval bh 2023 - show de calouros.midi",
               "extension": ".midi"
             }
           ],
@@ -27393,11 +27418,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/trombone.svg",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/trombone.midi",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27407,11 +27432,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/flauta.svg",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/flauta.midi",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27421,11 +27446,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/trompete.svg",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/trompete.midi",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27435,11 +27460,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/sax alto.svg",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/sax alto.midi",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27449,11 +27474,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/sax tenor.svg",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/show de calouros (pedro de lara)/show de calouros (pedro de lara)/sax tenor.midi",
+                  "path": "zoeira/show de calouros (pedro de lara)/carnaval bh 2023 - show de calouros/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27473,19 +27498,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "zoeira-underere-underere",
-          "name": "undererê",
+          "id": "zoeira-underere-carnaval-bh-2023-underere",
+          "name": "carnaval bh 2023 - undererê",
           "assets": [
             {
-              "path": "zoeira/undererê/undererê/undererê.mscz",
+              "path": "zoeira/undererê/carnaval bh 2023 - undererê/carnaval bh 2023 - undererê.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "zoeira/undererê/undererê/undererê.metajson",
+              "path": "zoeira/undererê/carnaval bh 2023 - undererê/carnaval bh 2023 - undererê.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "zoeira/undererê/undererê/undererê.midi",
+              "path": "zoeira/undererê/carnaval bh 2023 - undererê/carnaval bh 2023 - undererê.midi",
               "extension": ".midi"
             }
           ],
@@ -27495,11 +27520,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "zoeira/undererê/undererê/trombone.svg",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/undererê/undererê/trombone.midi",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27509,11 +27534,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "zoeira/undererê/undererê/flauta.svg",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/undererê/undererê/flauta.midi",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27523,11 +27548,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "zoeira/undererê/undererê/trompete.svg",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/undererê/undererê/trompete.midi",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27537,11 +27562,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "zoeira/undererê/undererê/sax alto.svg",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/undererê/undererê/sax alto.midi",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -27551,11 +27576,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "zoeira/undererê/undererê/sax tenor.svg",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "zoeira/undererê/undererê/sax tenor.midi",
+                  "path": "zoeira/undererê/carnaval bh 2023 - undererê/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]

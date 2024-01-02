@@ -1,19 +1,19 @@
 {
     "composer": "F. Nilo, M. Moreira\ne Pepeu Gomes",
-    "duration": 94,
+    "duration": 70,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 34,
+    "measures": 26,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "false",
         "width": 297
     },
-    "pages": 3,
+    "pages": 2,
     "parts": [
         {
             "harmonyCount": 0,

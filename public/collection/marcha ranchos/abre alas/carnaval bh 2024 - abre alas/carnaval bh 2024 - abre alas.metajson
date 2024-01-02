@@ -1,22 +1,22 @@
 {
     "composer": "Chiquinha Gonzaga",
-    "duration": 32,
+    "duration": 28,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
     "keysig": -2,
     "lyrics": "",
-    "measures": 16,
+    "measures": 12,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "false",
         "width": 297
     },
-    "pages": 2,
+    "pages": 1,
     "parts": [
         {
-            "harmonyCount": 10,
+            "harmonyCount": 7,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 10,
+            "harmonyCount": 7,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,7 +49,7 @@
             "program": 56
         },
         {
-            "harmonyCount": 10,
+            "harmonyCount": 7,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",

@@ -1,19 +1,19 @@
 {
     "composer": "Guio Rodrigues e Silvio (Banda Eva)",
-    "duration": 87,
+    "duration": 79,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 2,
+    "keysig": 0,
     "lyrics": "",
-    "measures": 18,
+    "measures": 33,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 5,
+    "pages": 3,
     "parts": [
         {
             "harmonyCount": 0,
@@ -74,8 +74,8 @@
     "poet": "",
     "previousSource": "QUANDO EU TE VEJO, PARO LOGO EM SEU OLHAR / VEM MEU AMOR ME TIRAR DA SOLIDÃO",
     "subtitle": "",
-    "tempo": 120,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font> <b><font face=\"Edwin\"></font> = 80</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
@@ -86,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "12/8",
+    "timesig": "2/4",
     "title": "Vem Meu Amor"
 }
