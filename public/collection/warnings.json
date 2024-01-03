@@ -84,6 +84,76 @@
     }
   },
   {
+    "message": "Inconsistent sub for song axes-araketu-e-bom-demais (araketu é bom demais)",
+    "meta": {
+      "song": "https://flat.io/score/639401eea2c41a6b37f85ef9-araketu-e-bom-demais",
+      "arr": "NÃO DÁ PRA ESCONDER, O QUE EU SINTO POR VOCÊ, ARA"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song axes-arere-e-e (arerê-ê-ê)",
+    "meta": {
+      "song": "https://flat.io/score/6393eb40111ba8c0801deb07-arere",
+      "arr": "O QUE MAIS QUERO NESSA VIDA, TODA VIDA, É AMAR VOCÊ"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song axes-beleza-rara-hoje-sou-feliz-e-canto- (beleza rara (hoje sou feliz e canto))",
+    "meta": {
+      "song": "https://flat.io/score/6394a0f5bc10eab1c00a026c-beleza-rara",
+      "arr": "EU NÃO POSSO DEIXAR QUE O TEMPO TE LEVE JAMAIS PARA LONGE DE MIM"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song axes-deusa-do-amor (deusa do amor)",
+    "meta": {
+      "song": "https://flat.io/score/6394a0a7be60617b7e941125-deusa-do-amor",
+      "arr": "TUDO FICA MAIS BONITO QUANDO VOCÊ ESTÁ POR PERTO"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song axes-haja-amor (haja amor)",
+    "meta": {
+      "song": "/tmp/audiveris-72346435b8d48310658a89641f4d9cd6/score.pdf",
+      "arr": "EU QUERIA SER UMA ABELHA PRA POUSAR NA SUA FLOR"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song axes-nada-mal-terrasamba- (nada mal (terrasamba))",
+    "meta": {
+      "song": "https://flat.io/score/6394a056111ba8c08029c55f-nada-mal-liberar-geral",
+      "arr": "NADA MAL! CURTIR O TERRA SAMBA NÃO É NADA MAL"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song axes-sou-100-voce-le-le- (sou 100% você (lê-lê))",
+    "meta": {
+      "song": "https://flat.io/score/6394a1c13728efc710ce2e66-100-voce",
+      "arr": "LÊ LÊ. LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ. UM CÉU SEM ESTRELAS. UMA PRAIA SEM MAR"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song brazukas-abra-suas-asas (abra suas asas)",
+    "meta": {
+      "song": "http://musescore.com/user/34498573/scores/6999585",
+      "arr": "ABRA SUAS ASAS. SOLTE SUAS FERAS. CAIA NA GANDAIA. ENTRE NESSA FESTA"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song forros-anunciacao (anunciação)",
+    "meta": {
+      "song": "NA BRUMA LEVE DAS PAIXÕES QUE VÊM DE DENTRO",
+      "arr": ""
+    }
+  },
+  {
+    "message": "Inconsistent sub for song forros-morena-tropicana (morena tropicana)",
+    "meta": {
+      "song": "https://flat.io/score/629804e563df85001296c470-morena-tropicana",
+      "arr": "DA MANGA ROSA QUERO GOSTO E O SUMO. MORENA TROPICANA EU QUERO SEU CALOR"
+    }
+  },
+  {
     "message": "Duplicate arrangement funks-amor-de-que-carnaval-bh-2023-amor-de-que for song funks-amor-de-que (amor de que)",
     "meta": {
       "absPath": "/tmp/collection/FUNKS/AMOR DE QUE/CARNAVAL BH 2023 - AMOR DE QUE/GLAMUROSA.mscz",
@@ -94,6 +164,41 @@
       "songId": "funks-amor-de-que",
       "songTitle": "amor de que",
       "style": "funks"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song funks-glamurosa (glamurosa)",
+    "meta": {
+      "song": "https://flat.io/score/63922f290d81bade4134167a-glamurosa",
+      "arr": "GLAMUROSA, RAINHA DO FUNK. PODEROSA, OLHAR DE DIAMANTE"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song marcha-ranchos-abre-alas (abre alas)",
+    "meta": {
+      "song": "Ô ABRE ALAS! QUE EU QUERO PASSAR",
+      "arr": ""
+    }
+  },
+  {
+    "message": "Inconsistent sub for song odaras-varias-queixas (varias queixas)",
+    "meta": {
+      "song": "https://flat.io/score/6393cf8bc5c2303f65004236-varias-queixas",
+      "arr": "VÁRIAS QUEIXAS DE VOCÊ, POR QUE FEZ ISSO COMIGO?"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song odaras-e-d-oxum (é d'oxum)",
+    "meta": {
+      "song": "https://flat.io/score/6393b9dfc5c2303f65fef37a-e-d-oxum",
+      "arr": "NESSA CIDADE TODO MUNDO É D'OXUM"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song pagodes-mal-acostumado (mal acostumado)",
+    "meta": {
+      "song": "https://flat.io/score/63949fb462a40c8b7309d5e5-mal-acostumado",
+      "arr": "AMOR DE VERDADE EU SÓ SENTI, FOI COM VOCÊ, MEU BEM. COMIGO?"
     }
   },
   {
