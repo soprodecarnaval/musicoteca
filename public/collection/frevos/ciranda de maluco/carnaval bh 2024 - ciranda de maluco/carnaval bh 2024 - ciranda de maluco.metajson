@@ -1,6 +1,6 @@
 {
     "composer": "Otto",
-    "duration": 135,
+    "duration": 157,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -85,8 +85,8 @@
     "poet": "",
     "previousSource": "CIRANDA DE MALUCO, AQUI EM PERNAMBUCO É BOM DEMAIS",
     "subtitle": "",
-    "tempo": 140,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"FreeSerif\"></font> = 140</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
