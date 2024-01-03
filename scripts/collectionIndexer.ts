@@ -421,6 +421,7 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
 }
 
 /**
+ * The composer and sub field are extracted from the arrangement mscz,
  * but belong to the song. This can create some weird situations, in which
  * two arrangements to the same song have different composers or subs.
  * We'll just use the first one we find.
