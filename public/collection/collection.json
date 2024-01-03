@@ -5354,99 +5354,6 @@
           "tags": [
             "beagá"
           ]
-        },
-        {
-          "id": "beaga-mama-na-vaca-carnaval-bh-2024-mama-na-vaca",
-          "name": "carnaval bh 2024 - mamá na vaca",
-          "assets": [
-            {
-              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "beagá"
-          ]
         }
       ],
       "style": "beagá"
@@ -8882,6 +8789,112 @@
                 },
                 {
                   "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "brazukas"
+          ]
+        }
+      ],
+      "style": "brazukas"
+    },
+    {
+      "id": "brazukas-toda-forma-de-amor",
+      "title": "toda forma de amor",
+      "composer": "Compositor / arranjador",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "brazukas-toda-forma-de-amor-garota-2024-toda-forma-de-amor",
+          "name": "garota 2024 - toda forma de amor",
+          "assets": [
+            {
+              "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/garota 2024 - toda forma de amor.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/garota 2024 - toda forma de amor.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/garota 2024 - toda forma de amor.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -24267,10 +24280,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "pagodes/me apaixonei pela pessoa errada/carnaval bh 2024 - me apaixonei pela pessoa errada/trompete.svg",
                   "extension": ".svg"
