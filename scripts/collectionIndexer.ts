@@ -421,6 +421,18 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
 }
 
 /**
+ * Assert that sub is a non-empty string that isn't a file path or a URL.
+ */
+function isValidSub(sub: any): boolean {
+  return (
+    typeof sub == "string" &&
+    sub.length > 0 &&
+    !sub.startsWith("http") &&
+    !sub.startsWith("/")
+  );
+}
+
+/**
  * The composer and sub field are extracted from the arrangement mscz,
  * but belong to the song. This can create some weird situations, in which
  * two arrangements to the same song have different composers or subs.
@@ -440,7 +452,7 @@ function enrichSongWithArrangementMetaJson(
 
   const { composer, previousSource: sub } = readMetaJsonResult.value;
 
-  if (!song.composer && composer != "") {
+  if (song.composer == "" && composer != "") {
     console.debug(
       `[enrichSongWithArrangementMetaJson] adding composer '${composer}' to song ${song.id}`
     );
@@ -454,16 +466,25 @@ function enrichSongWithArrangementMetaJson(
     );
   }
 
-  if (!song.sub && sub != "") {
-    console.debug(
-      `[enrichSongWithArrangementMetaJson] adding sub '${sub}' to song ${song.id}`
-    );
-    song.sub = sub;
-  } else if (song.sub != sub) {
+  if (isValidSub(sub)) {
+    if (song.sub == "") {
+      console.debug(
+        `[enrichSongWithArrangementMetaJson] adding sub '${sub}' to song ${song.id}`
+      );
+      song.sub = sub;
+    } else if (song.sub != sub) {
+      warnings.push(
+        warning(`Inconsistent sub for song ${song.id} (${song.title})`, {
+          song: song.sub,
+          arr: sub,
+        })
+      );
+    }
+  } else {
     warnings.push(
-      warning(`Inconsistent sub for song ${song.id} (${song.title})`, {
-        song: song.sub,
-        arr: sub,
+      warning(`Invalid sub for song ${song.id} (${song.title})`, {
+        sub,
+        metajsonAsset: metajsonAsset.relPath,
       })
     );
   }
