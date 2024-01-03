@@ -340,7 +340,9 @@ function isArrangementEntry(entry: Entry): boolean {
 
 function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
   const { arrMap, songMap, warnings } = collDraft;
-  console.debug(`[_indexScoreFileEntry] indexing entry ${scoreEntry}`);
+  console.debug(
+    `[_indexScoreFileEntry] indexing entry ${JSON.stringify(scoreEntry)}`
+  );
 
   const { arrId, arrName, songId, songTitle, style } = scoreEntry;
   const arr: ArrangementDraft = {
@@ -392,43 +394,85 @@ function indexScoreEntry(scoreEntry: Entry, collDraft: CollectionDraft) {
   }
   arrMap[arrId] = arr;
 
-  if (songMap[songId]) {
-    const song = songMap[songId];
+  let song = songMap[songId];
+  if (song) {
     song.arrangementIds.push(arrId);
     console.debug(
       `[indexScoreFileEntry] added arrangement ${arrId} to song ${songId}`
     );
   } else {
-    let composer = "";
-    let sub = "";
-    if (metajsonAsset) {
-      const readMetaJsonResult = readJsonFile(metajsonAsset.absPath);
-      if (readMetaJsonResult.ok) {
-        const { composer: metajsonComposer } = readMetaJsonResult.value;
-        const { previousSource: metajsonSub } = readMetaJsonResult.value;
-        composer = metajsonComposer;
-        sub = metajsonSub;
-      } else {
-        warnings.push(...readMetaJsonResult.warnings);
-      }
-    }
-
-    songMap[songId] = {
+    song = {
       id: songId,
       title: songTitle,
-      composer,
-      sub, // TODO: figure out a way to read this
       arrangementIds: [arrId],
+      composer: "",
+      sub: "",
       style,
     };
+    songMap[songId] = song;
     console.debug(
       `[indexScoreFileEntry] created song ${songId} with arrangement ${arrId}`
+    );
+  }
+
+  if (metajsonAsset) {
+    enrichSongWithArrangementMetaJson(song, metajsonAsset, warnings);
+  }
+}
+
+/**
+ * The composer and sub field are extracted from the arrangement mscz,
+ * but belong to the song. This can create some weird situations, in which
+ * two arrangements to the same song have different composers or subs.
+ * We'll just use the first one we find.
+ * If one of the fields is still missing, we'll try to read it from the
+ * next arrangement's metajson file.
+ */
+function enrichSongWithArrangementMetaJson(
+  song: SongDraft,
+  metajsonAsset: AssetDraft,
+  warnings: Warning[]
+) {
+  const readMetaJsonResult = readJsonFile(metajsonAsset.absPath);
+  if (!readMetaJsonResult.ok) {
+    return;
+  }
+
+  const { composer, previousSource: sub } = readMetaJsonResult.value;
+
+  if (!song.composer && composer != "") {
+    console.debug(
+      `[enrichSongWithArrangementMetaJson] adding composer '${composer}' to song ${song.id}`
+    );
+    song.composer = composer;
+  } else if (song.composer != composer) {
+    warnings.push(
+      warning(`Inconsistent composer for song ${song.id} (${song.title})`, {
+        song: song.composer,
+        arr: composer,
+      })
+    );
+  }
+
+  if (!song.sub && sub != "") {
+    console.debug(
+      `[enrichSongWithArrangementMetaJson] adding sub '${sub}' to song ${song.id}`
+    );
+    song.sub = sub;
+  } else if (song.sub != sub) {
+    warnings.push(
+      warning(`Inconsistent sub for song ${song.id} (${song.title})`, {
+        song: song.sub,
+        arr: sub,
+      })
     );
   }
 }
 
 function indexPartAsset(partEntry: Entry, collDraft: CollectionDraft) {
-  console.debug(`[indexPartAssetEntry] adding part ${partEntry}`);
+  console.debug(
+    `[indexPartAssetEntry] adding part ${JSON.stringify(partEntry)}`
+  );
   const arr = collDraft.arrMap[partEntry.arrId];
   if (!arr) {
     collDraft.warnings.push(
