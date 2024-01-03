@@ -1,40 +1,40 @@
 {
-    "composer": "Bloco Mamá na Vaca",
-    "duration": 32,
+    "composer": "Compositor / arranjador",
+    "duration": 184,
     "fileVersion": 302,
-    "hasHarmonies": "true",
+    "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -2,
+    "keysig": 3,
     "lyrics": "",
-    "measures": 27,
+    "measures": 62,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
-        "twosided": "false",
-        "width": 210
+        "height": 210,
+        "twosided": "true",
+        "width": 297
     },
-    "pages": 1,
+    "pages": 8,
     "parts": [
         {
-            "harmonyCount": 39,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "C clavG",
+            "name": "Flauta",
             "program": 73
         },
         {
-            "harmonyCount": 40,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Eb",
+            "name": "Alto Saxophone",
             "program": 65
         },
         {
@@ -42,21 +42,10 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet",
+            "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Bb - Pirata",
-            "program": 56
-        },
-        {
-            "harmonyCount": 40,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Bb",
+            "name": "Trompete",
             "program": 56
         },
         {
@@ -64,15 +53,26 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone.tenor",
+            "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "C clavF",
+            "name": "Trombone",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.tenor",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Saxofone Tenor",
+            "program": 66
         }
     ],
     "poet": "",
-    "previousSource": "MAMÁ NA VACA. MAMÁ NA VACA. MAMÁ NA VACA. QUEM NAO",
+    "previousSource": "",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "MAMA_NA_VACA"
+    "title": "Toda Forma de Amor"
 }
