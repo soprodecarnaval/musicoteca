@@ -84,73 +84,612 @@
     }
   },
   {
-    "message": "Inconsistent sub for song axes-araketu-e-bom-demais (araketu é bom demais)",
+    "message": "Invalid sub for song axes-a-luz-de-tieta (a luz de tiêta)",
     "meta": {
-      "song": "https://flat.io/score/639401eea2c41a6b37f85ef9-araketu-e-bom-demais",
-      "arr": "NÃO DÁ PRA ESCONDER, O QUE EU SINTO POR VOCÊ, ARA"
+      "sub": "",
+      "metajsonAsset": "AXÉS/A LUZ DE TIÊTA/CARNAVAL BH 2023 - A LUZ DE TIÊTA/A_LUZ_DE_TIETA.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song axes-arere-e-e (arerê-ê-ê)",
+    "message": "Invalid sub for song axes-a-roda (a roda)",
     "meta": {
-      "song": "https://flat.io/score/6393eb40111ba8c0801deb07-arere",
-      "arr": "O QUE MAIS QUERO NESSA VIDA, TODA VIDA, É AMAR VOCÊ"
+      "sub": "",
+      "metajsonAsset": "AXÉS/A RODA/CARNAVAL BH 2023 - A RODA/A_RODA.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song axes-beleza-rara-hoje-sou-feliz-e-canto- (beleza rara (hoje sou feliz e canto))",
+    "message": "Invalid sub for song axes-alo-paixao (alo paixao)",
     "meta": {
-      "song": "https://flat.io/score/6394a0f5bc10eab1c00a026c-beleza-rara",
-      "arr": "EU NÃO POSSO DEIXAR QUE O TEMPO TE LEVE JAMAIS PARA LONGE DE MIM"
+      "sub": "",
+      "metajsonAsset": "AXÉS/ALO PAIXAO/CARNAVAL BH 2023 - ALO PAIXAO/ALO_PAIXAO.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song axes-deusa-do-amor (deusa do amor)",
+    "message": "Invalid sub for song axes-apocalipse-do-amor (apocalipse do amor)",
     "meta": {
-      "song": "https://flat.io/score/6394a0a7be60617b7e941125-deusa-do-amor",
-      "arr": "TUDO FICA MAIS BONITO QUANDO VOCÊ ESTÁ POR PERTO"
+      "sub": "",
+      "metajsonAsset": "AXÉS/APOCALIPSE DO AMOR/CARNAVAL BH 2023 - APOCALIPSE DO AMOR/Apocalipse_do_Amor.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song axes-haja-amor (haja amor)",
+    "message": "Invalid sub for song axes-araketu-e-bom-demais (araketu é bom demais)",
     "meta": {
-      "song": "/tmp/audiveris-72346435b8d48310658a89641f4d9cd6/score.pdf",
-      "arr": "EU QUERIA SER UMA ABELHA PRA POUSAR NA SUA FLOR"
+      "sub": "https://flat.io/score/639401eea2c41a6b37f85ef9-araketu-e-bom-demais",
+      "metajsonAsset": "AXÉS/ARAKETU É BOM DEMAIS/CARNAVAL BH 2023 - ARAKETU É BOM DEMAIS/ARAKETU_É_BOM_DEMAIS.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song axes-nada-mal-terrasamba- (nada mal (terrasamba))",
+    "message": "Invalid sub for song axes-arere-e-e (arerê-ê-ê)",
     "meta": {
-      "song": "https://flat.io/score/6394a056111ba8c08029c55f-nada-mal-liberar-geral",
-      "arr": "NADA MAL! CURTIR O TERRA SAMBA NÃO É NADA MAL"
+      "sub": "https://flat.io/score/6393eb40111ba8c0801deb07-arere",
+      "metajsonAsset": "AXÉS/ARERÊ-Ê-Ê/CARNAVAL BH 2023 - ARERE-Ê-Ê/ARERÊ.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song axes-sou-100-voce-le-le- (sou 100% você (lê-lê))",
+    "message": "Invalid sub for song axes-avisa-la-o-o-nossa-gente- (avisa la ô-ô (nossa gente))",
     "meta": {
-      "song": "https://flat.io/score/6394a1c13728efc710ce2e66-100-voce",
-      "arr": "LÊ LÊ. LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ. UM CÉU SEM ESTRELAS. UMA PRAIA SEM MAR"
+      "sub": "https://flat.io/score/63949fe35c6c49839acef320-nossa-gente-avisa-la",
+      "metajsonAsset": "AXÉS/AVISA LA Ô-Ô (NOSSA GENTE)/CARNAVAL BH 2023 - NOSSA GENTE/AVISA_LA_O_O.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song brazukas-abra-suas-asas (abra suas asas)",
+    "message": "Invalid sub for song axes-baianidade-nago (baianidade nagô)",
     "meta": {
-      "song": "http://musescore.com/user/34498573/scores/6999585",
-      "arr": "ABRA SUAS ASAS. SOLTE SUAS FERAS. CAIA NA GANDAIA. ENTRE NESSA FESTA"
+      "sub": "",
+      "metajsonAsset": "AXÉS/BAIANIDADE NAGÔ/CARNAVAL BH 2023 - BAIANIDADE NAGÔ/BAIANIDADE_NAGO.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song forros-anunciacao (anunciação)",
+    "message": "Invalid sub for song axes-beija-flor (beija flor)",
     "meta": {
-      "song": "NA BRUMA LEVE DAS PAIXÕES QUE VÊM DE DENTRO",
-      "arr": ""
+      "sub": "",
+      "metajsonAsset": "AXÉS/BEIJA FLOR/CARNAVAL BH 2023 - BEIJA FLOR/BEIJA_FLOR.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song forros-morena-tropicana (morena tropicana)",
+    "message": "Invalid sub for song axes-beijo-na-boca (beijo na boca)",
     "meta": {
-      "song": "https://flat.io/score/629804e563df85001296c470-morena-tropicana",
-      "arr": "DA MANGA ROSA QUERO GOSTO E O SUMO. MORENA TROPICANA EU QUERO SEU CALOR"
+      "sub": "",
+      "metajsonAsset": "AXÉS/BEIJO NA BOCA/CARNAVAL BH 2023 - BEIJO NA BOCA/BEIJO_NA_BOCA_.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-beleza-rara-hoje-sou-feliz-e-canto- (beleza rara (hoje sou feliz e canto))",
+    "meta": {
+      "sub": "https://flat.io/score/6394a0f5bc10eab1c00a026c-beleza-rara",
+      "metajsonAsset": "AXÉS/BELEZA RARA (HOJE SOU FELIZ E CANTO)/CARNAVAL BH 2023 - BELEZA RARA/BELEZA_RARA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-carrinho-de-mao (carrinho de mao)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/CARRINHO DE MAO/CARNAVAL BH 2023 - CARRINHO DE MÃO/CARRINHO_DE_MAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-chuva-suor-e-cerveja (chuva suor e cerveja)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/CHUVA SUOR E CERVEJA/CARNAVAL BH 2023 - CHUVA SUOR E CERVEJA/CHUVA_SUOR_E_CERVEJA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-danca-do-vampiro (danca do vampiro)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/DANCA DO VAMPIRO/CARNAVAL BH 2023 - DANÇA DO VAMPIRO/DANCA_D0_VAMPIRO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-deusa-do-amor (deusa do amor)",
+    "meta": {
+      "sub": "https://flat.io/score/6394a0a7be60617b7e941125-deusa-do-amor",
+      "metajsonAsset": "AXÉS/DEUSA DO AMOR/CARNAVAL BH 2023 - DEUSA DO AMOR/DEUSA_DO_AMOR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-eu-tambem-quero-beijar (eu tambem quero beijar)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/EU TAMBEM QUERO BEIJAR/CARNAVAL BH 2023 - EU TAMBEM QUERO BEIJAR/EU_TAMBEM_QUERO_BEIJAR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-farao (farao)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/FARAO/CARNAVAL BH 2023 - FARAO/FARAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-flores (flores)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/FLORES/CARNAVAL BH 2023 - FLORES/Flores.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-haja-amor (haja amor)",
+    "meta": {
+      "sub": "/tmp/audiveris-72346435b8d48310658a89641f4d9cd6/score.pdf",
+      "metajsonAsset": "AXÉS/HAJA AMOR/CARNAVAL BH 2023 - HAJA AMOR/HAJA AMOR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-nada-mal-terrasamba- (nada mal (terrasamba))",
+    "meta": {
+      "sub": "https://flat.io/score/6394a056111ba8c08029c55f-nada-mal-liberar-geral",
+      "metajsonAsset": "AXÉS/NADA MAL (TERRASAMBA)/CARNAVAL BH 2023 - NADA MAL /NADA_MAL_TERRASAMBA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-olha-a-onda (olha a onda)",
+    "meta": {
+      "sub": "https://flat.io/score/6393f2514016b1e56dc1b18d-olha-onda",
+      "metajsonAsset": "AXÉS/OLHA A ONDA/CARNAVAL BH 2023 - OLHA A ONDA /OLHA_A_ONDA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-pequena-eva (pequena eva)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/PEQUENA EVA/CARNAVAL BH 2023 - PEQUENA EVA /MINHA_PEQUENA_EVA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-prefixo-de-verao (prefixo de verão)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/PREFIXO DE VERÃO/CARNAVAL BH 2023 - PREFIXO DE VERÃO /PREFIXO_DE_VERAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-requebra (requebra)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/REQUEBRA/CARNAVAL BH 2023 - REQUEBRA/Requebra.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-sou-100-voce-le-le- (sou 100% você (lê-lê))",
+    "meta": {
+      "sub": "https://flat.io/score/6394a1c13728efc710ce2e66-100-voce",
+      "metajsonAsset": "AXÉS/SOU 100% VOCÊ (LÊ-LÊ)/CARNAVAL BH 2023 - 100% VOCÊ /CEM_POR_CENTO_VOCÊ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-toda-menina-baiana (toda menina baiana)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/TODA MENINA BAIANA/CARNAVAL BH 2023 - TODA MENINA BAIANA/TODA_MENINA_BAIANA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song axes-vem-meu-amor (vem meu amor)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "AXÉS/VEM MEU AMOR/CARNAVAL BH 2023 - VEM MEU AMOR/VEM_MEU_AMOR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-aflorou (aflorou)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/AFLOROU/CARNAVAL BH 2023 - AFLOROU/AFLOROU.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-alcova-libertina (alcova libertina)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/ALCOVA LIBERTINA/CARNAVAL BH 2023 - ALCOVA LIBERTINA/ALCOVA_LIBERTINA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-bloco-do-peixoto (bloco do peixoto)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/BLOCO DO PEIXOTO/CARNAVAL BH 2023 - BLOCO DO PEIXOTO/BLOCO_DO_PEIXOTO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-como-te-lhama (como te lhama)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/COMO TE LHAMA/CARNAVAL BH 2023 - COMO TE LHAMA/COMO_TE_LHAMA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-corte-devassa (corte devassa)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/CORTE DEVASSA/CARNAVAL BH 2023 - CORTE DEVASSA/CORTE_DEVASSA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-filhos-de-tcha-tcha (filhos de tcha tcha)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/FILHOS DE TCHA TCHA/CARNAVAL BH 2023 - FILHOS DE TCHA TCHA/FILHOS_DE_TCHA_TCHA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-ladeira-abaixo (ladeira abaixo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/LADEIRA ABAIXO/CARNAVAL BH 2023 - LADEIRA ABAIXO/LADEIRA_ABAIXO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-mama-na-vaca (mamá na vaca)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/MAMÁ NA VACA/CARNAVAL BH 2023 - MAMÁ NA VACA/MAMA_NA_VACA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-manjericao (manjericão)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/MANJERICÃO/CARNAVAL BH 2023 - MANJERICÃO/MANJERICAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-praia-da-estacao (praia da estação)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/PRAIA DA ESTAÇÃO/CARNAVAL BH 2023 - PRAIA DA ESTAÇÃO/PRAIA_DA_ESTACAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-queima-largada (queima largada)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/QUEIMA LARGADA/CARNAVAL BH 2023 - QUEIMA LARGADA/QUEIMA_LARGADA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-queima-largada (queima largada)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/QUEIMA LARGADA/CARNAVAL BH 2024 - QUEIMA LARGADA/QUEIMA_LARGADA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song beaga-tete-a-santa (tetê a santa)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BEAGÁ/TETÊ A SANTA/CARNAVAL BH 2023 - TETÊ A SANTA/TETE_A_SANTA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-abra-suas-asas (abra suas asas)",
+    "meta": {
+      "sub": "http://musescore.com/user/34498573/scores/6999585",
+      "metajsonAsset": "BRAZUKAS/ABRA SUAS ASAS/CARNAVAL BH 2023 - ABRA SUAS ASAS /ABRA_SUAS_ASAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-chuva-suor-e-cerveja (chuva suor e cerveja)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/CHUVA SUOR E CERVEJA/CARNAVAL BH 2023 - CHUVA SUOR E CERVEJA/CHUVA SUOR E CERVEJA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-cotidiano (cotidiano)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/COTIDIANO/CARNAVAL BH 2023 - COTIDIANO/COTIDIANO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-de-repente-california (de repente califórnia)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/DE REPENTE CALIFÓRNIA/GAROTA 2024 - DE REPENTE CALIFÓRNIA/DE REPENTE CALIFORNIA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-divino-maravilhoso (divino maravilhoso)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/DIVINO MARAVILHOSO/CARNAVAL BH 2023 - DIVINO MARAVILHOSO /DIVINO_MARAVILHOSO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-fe-cega-faca-amolada (fe cega faca amolada)",
+    "meta": {
+      "sub": "https://flat.io/score/62e4725aa5e06700143ff603-fe-cega-faca-amolada",
+      "metajsonAsset": "BRAZUKAS/FE CEGA FACA AMOLADA/CARNAVAL BH 2023 - FE CEGA FACA AMOLADA/FE CEGA FACA AMOLADA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-lennon-and-mccartney (lennon and mccartney)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/LENNON AND MCCARTNEY/CARNAVAL BH 2023 - LENNON AND MCCARTNEY/Lennon_and_McCartney.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-lucro (lucro)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/LUCRO/CARNAVAL BH 2023 - LUCRO /LUCRO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-mamae-oxum (mamãe oxum)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/MAMÃE OXUM/CARNAVAL BH 2023 - MAMÃE OXUM/Mamãe_Oxum.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-nao-enche (nao enche)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/NAO ENCHE/CARNAVAL BH 2023 - NÃO ENCHE/NAO_ENCHE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-nao-quero-dinheiro-so-quero-amar- (não quero dinheiro (só quero amar))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/NÃO QUERO DINHEIRO (SÓ QUERO AMAR)/CARNAVAL BH 2023 - NÃO QUERO DINHEIRO /NÃO_QUERO_DINHEIRO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-ombrim (ombrim)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/OMBRIM/CARNAVAL BH 2023 - OMBRIM/OMBRIM.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-pais-tropical (pais tropical)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/PAIS TROPICAL/CARNAVAL BH 2023 - PAIS TROPICAL/PAIS_TROPICAL.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-reconvexo (reconvexo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/RECONVEXO/CARNAVAL BH 2023 - RECONVEXO/Reconvexo.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-sujeito-de-sorte (sujeito de sorte)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/SUJEITO DE SORTE/CARNAVAL BH 2023 - SUJEITO DE SORTE/Sujeito_de_Sorte.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-toda-forma-de-amor (toda forma de amor)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/TODA FORMA DE AMOR/GAROTA 2024 - TODA FORMA DE AMOR/TODA FORMA DE AMOR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-tudo-o-que-voce-podia-ser (tudo o que voce podia ser)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/TUDO O QUE VOCE PODIA SER/CARNAVAL BH 2023 - TUDO O QUE VOCE PODIA SER/Tudo_o_que_você_podia_ser.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-uma-brasileira (uma brasileira)",
+    "meta": {
+      "sub": "http://musescore.com/user/14572821/scores/5353261",
+      "metajsonAsset": "BRAZUKAS/UMA BRASILEIRA/UMA BRASILEIRA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-vaca-profana (vaca profana)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/VACA PROFANA/CARNAVAL BH 2023 - VACA PROFANA /VACA_PROFANA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-a-banda-ta-com-sede (a banda tá com sede)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /A BANDA TÁ COM SEDE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-blue-cigano (blue cigano)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/BLUE CIGANO/CARNAVAL BH 2023 - BLUE CIGANO/BLUES_CIGANO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-buyo (buyo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/BUYO/CARNAVAL BH 2023 - BUYO/BUYO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-buyo (buyo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/BUYO/CARNAVAL BH 2024 - BUYO/BUYO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-montserrat-serrat (montserrat, serrat)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/MONTSERRAT, SERRAT/CARNAVAL BH 2023 - MONTSERRAT SERRAT /MONTSERRAT_SERRAT.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-montserrat-serrat (montserrat, serrat)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/MONTSERRAT, SERRAT/CARNAVAL BH 2024 - MONTSERRAT SERRAT/MONTSERRAT_SERRAT.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-nao-me-entrego-pros-caretas (não me entrego pros caretas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/NÃO ME ENTREGO PROS CARETAS/CARNAVAL BH 2023 - NÃO ME ENTREGO PROS CARETAS/NÃO ME ENTREGO PROS CARETAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-nao-e-mole-nao-guadaloupe (não é mole não + guadaloupe)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/NÃO É MOLE NÃO + GUADALOUPE/CARNAVAL BH 2023 - NAO É MOLE NÃO + GUADALUPE/NAO_É_MOLE_NÃO_E_GUADALUPE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-oswaldo-o-pombo (oswaldo, o pombo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/OSWALDO, O POMBO/CARNAVAL BH 2023 - OSWALDO, O POMBO /OSWALDO_O_POMBO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-oswaldo-o-pombo (oswaldo, o pombo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/OSWALDO, O POMBO/CARNAVAL BH 2024 - OSWALDO, O POMBO/OSWALDO_O_POMBO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-soul-finger (soul finger)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/SOUL FINGER/CARNAVAL BH 2023 - SOUL FINGER/SOUL_FINGER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-soul-finger (soul finger)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/SOUL FINGER/CARNAVAL BH 2024 - SOUL FINGER/SOUL_FINGER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-soul-finger (soul finger)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/SOUL FINGER/MADEIRA PIRATA - SOUL FINGER/SOUL_FINGER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-tom-jerry-em-guca (tom & jerry em guca)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/TOM & JERRY EM GUCA/CARNAVAL BH 2023 - TOM & JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-tom-jerry-em-guca (tom & jerry em guca)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/TOM & JERRY EM GUCA/CARNAVAL BH 2024 - TOM _ JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song forros-anunciacao (anunciação)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FORRÓS/ANUNCIAÇÃO/CARNAVAL BH 2023 - ANUNCIAÇÃO /ANUNCIAÇÃO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song forros-anunciacao (anunciação)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FORRÓS/ANUNCIAÇÃO/MADEIRA PIRATA - ANUNCIAÇÃO/ANUNCIAÇÃO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song forros-eu-so-quero-um-xodo (eu só quero um xodó)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FORRÓS/EU SÓ QUERO UM XODÓ/CARNAVAL BH 2023 - EU SÓ QUERO UM XODÓ/EU_SÓ_QUERO_UM_XODÓ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song forros-morena-tropicana (morena tropicana)",
+    "meta": {
+      "sub": "https://flat.io/score/629804e563df85001296c470-morena-tropicana",
+      "metajsonAsset": "FORRÓS/MORENA TROPICANA/CARNAVAL BH 2023 - MORENA TROPICANA/MORENA_TROPICANA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song forros-pagode-russo (pagode russo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FORRÓS/PAGODE RUSSO/CARNAVAL BH 2023 - PAGODE RUSSO/PAGODE_RUSSO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song frevos-cabelo-de-fogo (cabelo de fogo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FREVOS/CABELO DE FOGO/CARNAVAL BH 2023 - CABELO DE FOGO /CABELO_DE_FOGO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song frevos-ciranda-de-maluco (ciranda de maluco)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FREVOS/CIRANDA DE MALUCO/CARNAVAL BH 2023 - CIRANDA DE MALUCO /CIRANDA_DE_MALUCO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song frevos-frevo-mulher (frevo mulher)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FREVOS/FREVO MULHER/CARNAVAL BH 2023 - FREVO MULHER /FREVO_MULHER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song frevos-hino-do-elefante-de-olinda (hino do elefante de olinda)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FREVOS/HINO DO ELEFANTE DE OLINDA/CARNAVAL BH 2023 - HINO DO ELEFANTE DE OLINDA/HINO_DO_ELEFANTE_DE_OLINDA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song frevos-nago-nago (nagô nagô)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FREVOS/NAGÔ NAGÔ/CARNAVAL BH 2023 - NAGO NAGO/Nago_Nago.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song frevos-vassourinhas (vassourinhas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FREVOS/VASSOURINHAS/CARNAVAL BH 2023 - VASSOURINHAS /VASSOURINHAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-agora-vai-sentar (agora vai sentar)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/AGORA VAI SENTAR/CARNAVAL BH 2023 - AGORA VAI SENTAR/AGORA_VAI_SENTAR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-amor-de-que (amor de que)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/AMOR DE QUE/CARNAVAL BH 2023 - AMOR DE QUE/AMOR_DE_QUE.metajson"
     }
   },
   {
@@ -167,38 +706,577 @@
     }
   },
   {
-    "message": "Inconsistent sub for song funks-glamurosa (glamurosa)",
+    "message": "Invalid sub for song funks-baile-de-favela (baile de favela)",
     "meta": {
-      "song": "https://flat.io/score/63922f290d81bade4134167a-glamurosa",
-      "arr": "GLAMUROSA, RAINHA DO FUNK. PODEROSA, OLHAR DE DIAMANTE"
+      "sub": "https://flat.io/score/5de3d4ba0389fa48cbafbcb6-baile-de-favela",
+      "metajsonAsset": "FUNKS/BAILE DE FAVELA/CARNAVAL BH 2023 - BAILE DE FAVELA/BAILE_DE_FAVELA.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song marcha-ranchos-abre-alas (abre alas)",
+    "message": "Invalid sub for song funks-cheguei (cheguei)",
     "meta": {
-      "song": "Ô ABRE ALAS! QUE EU QUERO PASSAR",
-      "arr": ""
+      "sub": "",
+      "metajsonAsset": "FUNKS/CHEGUEI/CARNAVAL BH 2023 - CHEGUEI/CHEGUEI.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song odaras-varias-queixas (varias queixas)",
+    "message": "Invalid sub for song funks-din-din-din-pode-dar-em-cima-de-mim- (din din din (pode dar em cima de mim))",
     "meta": {
-      "song": "https://flat.io/score/6393cf8bc5c2303f65004236-varias-queixas",
-      "arr": "VÁRIAS QUEIXAS DE VOCÊ, POR QUE FEZ ISSO COMIGO?"
+      "sub": "https://flat.io/score/63929bee3d52882e4b526493-din-dind-in",
+      "metajsonAsset": "FUNKS/DIN DIN DIN (PODE DAR EM CIMA DE MIM)/CARNAVAL BH 2023 - DIN DIN DIN/DIN_DIN_DIN.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song odaras-e-d-oxum (é d'oxum)",
+    "message": "Invalid sub for song funks-endereco-dos-bailes (endereco dos bailes)",
     "meta": {
-      "song": "https://flat.io/score/6393b9dfc5c2303f65fef37a-e-d-oxum",
-      "arr": "NESSA CIDADE TODO MUNDO É D'OXUM"
+      "sub": "",
+      "metajsonAsset": "FUNKS/ENDERECO DOS BAILES/CARNAVAL BH 2023 - ENDERECO DOS BAILES/ENDERECO_DOS_BAILES.metajson"
     }
   },
   {
-    "message": "Inconsistent sub for song pagodes-mal-acostumado (mal acostumado)",
+    "message": "Invalid sub for song funks-feira-de-acari (feira de acari)",
     "meta": {
-      "song": "https://flat.io/score/63949fb462a40c8b7309d5e5-mal-acostumado",
-      "arr": "AMOR DE VERDADE EU SÓ SENTI, FOI COM VOCÊ, MEU BEM. COMIGO?"
+      "sub": "",
+      "metajsonAsset": "FUNKS/FEIRA DE ACARI/CARNAVAL BH 2023 - FEIRA DE ACARI/FEIRA_DE_ACARI.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-glamurosa (glamurosa)",
+    "meta": {
+      "sub": "https://flat.io/score/63922f290d81bade4134167a-glamurosa",
+      "metajsonAsset": "FUNKS/GLAMUROSA/CARNAVAL BH 2023 - GLAMUROSA/GLAMUROSA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-meu-jeito-de-amar (meu jeito de amar)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/MEU JEITO DE AMAR/CARNAVAL BH 2023 - MEU JEITO DE AMAR/MEU_JEITO_DE_AMAR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-miss-beleza-universal (miss beleza universal)",
+    "meta": {
+      "sub": "https://flat.io/score/6285948fe8ea2c0012e6ecab-miss-beleza-universal",
+      "metajsonAsset": "FUNKS/MISS BELEZA UNIVERSAL/CARNAVAL BH 2023 - MISS BELEZA UNIVERSAL/MISS_BELEZA_UNIVERSAL.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-oh-juliana (oh juliana)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/OH JULIANA/CARNAVAL BH 2023 - OH JULIANA/OH_JULIANA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-parados-no-bailao (parados no bailão)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/PARADOS NO BAILÃO/CARNAVAL BH 2023 - PARADOS NO BAILÃO/PARADO_NO_BAILAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-rap-da-felicidade-eu-so-quero-e-ser-feliz- (rap da felicidade (eu só quero é ser feliz))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/RAP DA FELICIDADE (EU SÓ QUERO É SER FELIZ)/CARNAVAL BH 2023 - RAP DA FELICIDADE/RAP_DA_FELICIDADE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-rap-das-armas (rap das armas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/RAP DAS ARMAS/CARNAVAL BH 2023 - RAP DAS ARMAS/RAP_DAS_ARMAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-se-ta-solteira (se tá solteira)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/SE TÁ SOLTEIRA/CARNAVAL BH 2023 - SE TÁ SOLTEIRA/SE_TÁ_SOLTEIRA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-tedio (tedio)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/TEDIO/CARNAVAL BH 2023 - TEDIO/TEDIO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-tu-ta-na-gaiola (tú tá na gaiola)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/TÚ TÁ NA GAIOLA/CARNAVAL BH 2023 - TÚ TÁ NA GAIOLA/TU_TA_NA_GAIOLA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-um-morto-muito-louco (um morto muito louco)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/UM MORTO MUITO LOUCO/CARNAVAL BH 2023 - UM MORTO MUITO LOUCO/UM_MORTO_MUITO_LOUCO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-vai-malandra (vai malandra)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/VAI MALANDRA/CARNAVAL BH 2023 - VAI MALANDRA/VAI_MALANDRA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-verdinha (verdinha)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/VERDINHA/CARNAVAL BH 2023 - VERDINHA/VERDINHA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song funks-vermelho-groove- (vermelho (groove))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/VERMELHO (GROOVE)/CARNAVAL BH 2023 - VERMELHO/VERMELHO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song latinas-besame-mucho (besame mucho)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "LATINAS/BESAME MUCHO/CARNAVAL BH 2023 - BESAME MUCHO/BESAME_MUCHO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song latinas-carinito (cariñito)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "LATINAS/CARIÑITO/CARNAVAL BH 2023 - CARIÑITO/CARINITO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song latinas-chorando-se-foi (chorando se foi)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "LATINAS/CHORANDO SE FOI/CARNAVAL BH 2023 - LLORANDO SE FUE/CHORANDO_SE_FOI.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song latinas-cumbia-en-do-menor (cumbia en do menor)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "LATINAS/CUMBIA EN DO MENOR/CARNAVAL BH 2024 - CUMBIA EN DÓ MENOR/CUMBIA_EN_DO_MENOR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song latinas-sonido-amazonico (sonido amazonico)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "LATINAS/SONIDO AMAZONICO/CARNAVAL BH 2024 - SONIDO AMAZÔNICO/SONIDO AMAZONICO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song manifestacao-bella-ciao (bella ciao)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MANIFESTAÇÃO/BELLA CIAO/CARNAVAL BH 2023 - BELLA CIAO/BELLA_CIAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song manifestacao-ta-na-hora-do-jair (ta na hora do jair)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MANIFESTAÇÃO/TA NA HORA DO JAIR/CARNAVAL BH 2023 - TA NA HORA DO JAIR/Tá_na_Hora_do_Jair.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song manifestacao-ta-escrito (tá escrito)",
+    "meta": {
+      "sub": "http://musescore.com/user/12625836/scores/6214851",
+      "metajsonAsset": "MANIFESTAÇÃO/TÁ ESCRITO/CARNAVAL BH 2023 - TÁ ESCRITO/TA_ESCRITO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song manifestacao-vermelho (vermelho)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MANIFESTAÇÃO/VERMELHO/CARNAVAL BH 2023 - VERMELHO VERMELHAÇO/Vermelho.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-abre-alas (abre alas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/ABRE ALAS/CARNAVAL BH 2023 - ABRE ALAS /ABRE_ALAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-abre-alas (abre alas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/ABRE ALAS/MADEIRA PIRATA - ABRE ALAS/ABRE_ALAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-bandeira-branca (bandeira branca)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/BANDEIRA BRANCA/CARNAVAL BH 2023 - BANDEIRA BRANCA/BANDEIRA_BRANCA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-carinhoso (carinhoso)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/CARINHOSO/CARNAVAL BH 2023 - CARINHOSO/CARINHOSO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-eu-quero-e-botar-meu-bloco-na-rua (eu quero é botar meu bloco na rua)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/EU QUERO É BOTAR MEU BLOCO NA RUA/CARNAVAL BH 2023 - BLOCO NA RUA/ERRADO_NA_RUA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-mascara-negra-quanto-riso-oh- (mascara negra (quanto riso oh))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/MASCARA NEGRA (QUANTO RISO OH)/CARNAVAL BH 2023 - MASCARA NEGRA /MASCARA_NEGRA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-noite-dos-mascarados-mas-e-carnaval- (noite dos mascarados (mas é carnaval))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/NOITE DOS MASCARADOS (MAS É CARNAVAL)/CARNAVAL BH 2023 - NOITE DOS MASCARADOS/NOITE_DOS_MASCARADOS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-pastorinhas (pastorinhas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/PASTORINHAS/CARNAVAL BH 2023 - PASTORINHAS/AS_PASTORINHAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-touradas-em-madri (touradas em madri)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/TOURADAS EM MADRI/CARNAVAL BH 2023 - TOURADAS DE MADRI/TOURADAS_EM_MADRI.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-alala-o (alala-ô)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/ALALA-Ô.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-balance (balancê)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/BALANCÊ/CARNAVAL BH 2023 - BALANCÊ /BALANCÊ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-cabeleira-do-ed-marte (cabeleira do ed marte)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/CABELEIRA DO ED MARTE/CARNAVAL BH 2023 - CABELEIRA DO ED MARTE/CABELEIRA_DO_ZEZE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-cachaca (cachaça)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/CACHAÇA/CARNAVAL BH 2023 - CACHAÇA/CACHAÇA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-jardineira (jardineira)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/JARDINEIRA/CARNAVAL BH 2023 - JARDINEIRA /JARDINEIRA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-mamae-eu-quero (mamãe eu quero)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/MAMÃE EU QUERO/CARNAVAL BH 2023 - MAMÃE EU QUERO /MAMÃE EU QUERO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-marcha-do-remador (marcha do remador)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/MARCHA DO REMADOR/CARNAVAL BH 2023 - MARCHA DO REMADOR /MARCHA DO REMADOR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-quem-sabe-sabe (quem sabe, sabe)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/QUEM SABE, SABE/CARNAVAL BH 2023  - QUEM SABE SABE  /QUEM SABE SABE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-saca-rolhas (saca rolhas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/SACA ROLHAS/CARNAVAL BH 2023 - SACA ROLHAS /SACA ROLHA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-sassaricando (sassaricando)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/SASSARICANDO/CARNAVAL BH 2023 - SASSARICANDO/SASSARICANDO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-tai (taí)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/TAÍ/CARNAVAL BH 2023 - TAÍ /TAÍ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-tem-nego-bebo-ai (tem nego bêbo aí)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/TEM NEGO BÊBO AÍ/CARNAVAL BH 2023 - TEM NEGO BEBO AI/TEM_NEGO_BEBO_AI.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-turma-do-funil (turma do funil)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/TURMA DO FUNIL/CARNAVAL BH 2023 - TURMA DO FUNIL/TURMA DO FUNIL.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-vai-com-jeito (vai com jeito)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/VAI COM JEITO/CARNAVAL BH 2023 - VAI COM JEITO /VAI COM JEITO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-canto-de-xango (canto de xango)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/CANTO DE XANGO/CARNAVAL BH 2023 - CANTO DE XANGO/CANTO_DE_XANGO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-cordeiro-de-nana (cordeiro de nana)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/CORDEIRO DE NANA/CARNAVAL BH 2023 - CORDEIRO DE NANA/CORDEIRO_DE_NANA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-deixa-a-gira-girar (deixa a gira girar)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/DEIXA A GIRA GIRAR/CARNAVAL BH 2023 - DEIXA A GIRA GIRAR/DEIXA_A_GIRA_GIRAR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-emorio (emoriô)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/EMORIÔ/CARNAVAL BH 2023 - EMORIÔ/EMORIÔ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-maresia (maresia)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/MARESIA/CARNAVAL BH 2023 - MARESIA/Maresia.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-odara (odara)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/ODARA/CARNAVAL BH 2023 - ODARA/Odara.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-suite-dos-pescadores (suíte dos pescadores)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/SUÍTE DOS PESCADORES/CARNAVAL BH 2023 - SUÍTE DOS PESCADORES /SUITE_DOS_PESCADORES.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-varias-queixas (varias queixas)",
+    "meta": {
+      "sub": "https://flat.io/score/6393cf8bc5c2303f65004236-varias-queixas",
+      "metajsonAsset": "ODARAS/VARIAS QUEIXAS/CARNAVAL BH 2023 - VARIAS QUEIXAS/VARIAS_QUEIXAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-e-d-oxum (é d'oxum)",
+    "meta": {
+      "sub": "https://flat.io/score/6393b9dfc5c2303f65fef37a-e-d-oxum",
+      "metajsonAsset": "ODARAS/É D'OXUM/CARNAVAL BH 2023 - É D'OXUM/É_D_OXUM.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song pagodes-cacamba (caçamba)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "PAGODES/CAÇAMBA/CARNAVAL BH 2023 - CAÇAMBA/CAÇAMBA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song pagodes-cheia-de-manias (cheia de manias)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "PAGODES/CHEIA DE MANIAS/CARNAVAL BH 2023 - CHEIA DE MANIAS/CHEIA_DE_MANIAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song pagodes-cilada (cilada)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "PAGODES/CILADA/CARNAVAL BH 2023 - CILADA/CILADA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song pagodes-mal-acostumado (mal acostumado)",
+    "meta": {
+      "sub": "https://flat.io/score/63949fb462a40c8b7309d5e5-mal-acostumado",
+      "metajsonAsset": "PAGODES/MAL ACOSTUMADO/CARNAVAL BH 2023 - MAL ACOSTUMADO/MAL_ACOSTUMADO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song piseiro-ta-rocheda (ta rocheda)",
+    "meta": {
+      "sub": "https://flat.io/score/60ba5644175f70803bcf5455-ta-rocheda-fanfarra",
+      "metajsonAsset": "PISEIRO/TA ROCHEDA/CARNAVAL BH 2023 - TÁ ROCHEDA/TA ROCHEDA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-paint-in-black (paint in black)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/PAINT IN BLACK/CARNAVAL BH 2023 - PAINT IN BLACK/PAINT IT, BLACK.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-apesar-de-voce (apesar de voce)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/APESAR DE VOCE/CARNAVAL BH 2023 - APESAR DE VOCÊ/APESAR_DE_VOCE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-canto-das-tres-racas (canto das tres raças)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/CANTO DAS TRES RAÇAS/CARNAVAL BH 2023 - CANTO DAS TRÊS RAÇAS/CANTO_DAS_TRES_RACAS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-juizo-final-o-sol- (juizo final (o sol))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/JUIZO FINAL (O SOL)/CARNAVAL BH 2023 - JUIZO FINAL/JUÍZO_FINAL.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-nao-deixe-o-samba-morrer (não deixe o samba morrer)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/NÃO DEIXE O SAMBA MORRER/CARNAVAL BH 2023 - NÃO DEIXE O SAMBA MORRER/NÃO_DEIXE_O_SAMBA_MORRER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-nao-deixe-o-samba-morrer (não deixe o samba morrer)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/NÃO DEIXE O SAMBA MORRER/CARNAVAL BH 2024 - NÃO DEIXE O SAMBA MORRER/NÃO_DEIXE_O_SAMBA_MORRER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-o-morro-nao-tem-vez (o morro não tem vez)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/O MORRO NÃO TEM VEZ/CARNAVAL BH 2023 - O MORRO NÃO TEM VEZ/O_MORRO_NÃO_TEM_VEZ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-o-sol-nascera-a-sorrir- (o sol nascerá (a sorrir))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/O SOL NASCERÁ (A SORRIR)/CARNAVAL BH 2023 - O SOL NASCERÁ/O_SOL_NASCERÁ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-retalhos-de-cetim (retalhos de cetim)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/RETALHOS DE CETIM/CARNAVAL BH 2023 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-retalhos-de-cetim (retalhos de cetim)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/RETALHOS DE CETIM/CARNAVAL BH 2024 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song sambas-tristeza (tristeza)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "SAMBAS/TRISTEZA/CARNAVAL BH 2023 - TRISTEZA/TRISTEZA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song technohell-medley-technohell (medley technohell)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "TECHNOHELL/MEDLEY TECHNOHELL/CARNAVAL BH 2023 - MEDLEY TECHNOHELL/MEDLEY_TECHNOHELL.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song technohell-what-is-love (what is love)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "TECHNOHELL/WHAT IS LOVE/CARNAVAL BH 2023 - WHAT IS LOVE/WHAT_IS_LOVE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song zoeira-eu-sou-um-cordeirinho (eu sou um cordeirinho)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ZOEIRA/EU SOU UM CORDEIRINHO/CARNAVAL BH 2023 - EU SOU UM CORDEIRINHO/Eu_sou_um_cordeirinho.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song zoeira-noiados-da-encruzilhada (noiados da encruzilhada)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ZOEIRA/NOIADOS DA ENCRUZILHADA/CARNAVAL BH 2023 - NOIADOS DA ENCRUZILHADA/NOIADOS_DA_ENCRUZILHADA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song zoeira-show-de-calouros-pedro-de-lara- (show de calouros (pedro de lara))",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ZOEIRA/SHOW DE CALOUROS (PEDRO DE LARA)/CARNAVAL BH 2023 - SHOW DE CALOUROS/PEDRO_DE_LARA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song zoeira-underere (undererê)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ZOEIRA/UNDERERÊ/CARNAVAL BH 2023 - UNDERERÊ/Undererê.metajson"
     }
   },
   {
