@@ -340,13 +340,22 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
   const createSongBook = async (instrument: Instrument) => {
     const doc = createDoc();
     if (carnivalMode) {
-      await drawImage(doc, 'assets/capa_2024.png',0);
+      await drawImage(doc, 'assets/capa_2024.jpeg',0);
+      doc
+        .font("Helvetica")
+        .fontSize(14)
+        // .rect(142, 213, 220, 15)
+        // .fill("red")
+        .text(instrument.toUpperCase(), 142, 214, {
+          width: 220,
+          align: 'center'
+        });
     } else if (songbookImg.imgUrl != "") {
       await drawImage(doc, songbookImg.imgUrl,0);
+      doc
+      .fontSize(25).text(songbookTitle.toUpperCase(), 120, 100)
+      .fontSize(22).text(instrument.toUpperCase(), 120, 125);
     }
-    doc
-    .fontSize(25).text(songbookTitle.toUpperCase(), 120, 100)
-    .fontSize(22).text(instrument.toUpperCase(), 120, 125);
 
     if(carnivalMode) doc.addPage()
     let reorderedSongs = addIndexPage(doc);
