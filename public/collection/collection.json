@@ -3912,10 +3912,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/flauta.midi",
                   "extension": ".midi"
                 }
@@ -3953,10 +3949,6 @@
               "name": "sax tenor",
               "instrument": "sax tenor",
               "assets": [
-                {
-                  "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/sax tenor.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/sax tenor.svg",
                   "extension": ".svg"
@@ -4031,10 +4023,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trompete.svg",
                   "extension": ".svg"

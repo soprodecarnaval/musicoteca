@@ -5,7 +5,7 @@
     "hasHarmonies": "false",
     "hasLyrics": "true",
     "keysig": -1,
-    "lyrics": "a banda tá com sede quem vai trazer goró pra gente não vai ter mais poropopo se ninguem trouxer goró \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro",
+    "lyrics": "a banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro \n\na banda tá com sede quem vai trazer goró pra gente não vai ter mais poropopo se ninguem trouxer goró \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro",
     "measures": 17,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
@@ -22,7 +22,7 @@
             "hasTabStaff": "false",
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
-            "lyricCount": 0,
+            "lyricCount": 31,
             "name": "Flauta Transversal",
             "program": 73
         },
@@ -33,7 +33,7 @@
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
-            "lyricCount": 0,
+            "lyricCount": 31,
             "name": "Saxofone Alto",
             "program": 65
         },
@@ -44,7 +44,7 @@
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
-            "lyricCount": 0,
+            "lyricCount": 31,
             "name": "Saxofone Tenor",
             "program": 66
         },
