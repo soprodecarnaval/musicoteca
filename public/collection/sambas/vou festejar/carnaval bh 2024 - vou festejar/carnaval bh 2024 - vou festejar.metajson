@@ -1,19 +1,19 @@
 {
     "composer": "",
-    "duration": 79,
+    "duration": 132,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 61,
+    "measures": 56,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "true",
         "width": 297
     },
-    "pages": 4,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
@@ -56,7 +56,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "",
+            "name": "Trompete em B♭",
             "program": 56
         },
         {

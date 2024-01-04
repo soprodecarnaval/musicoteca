@@ -508,99 +508,6 @@
       "sub": "NÃO DÁ PRA ESCONDER, O QUE EU SINTO POR VOCÊ, ARA",
       "arrangements": [
         {
-          "id": "axes-araketu-e-bom-demais-carnaval-bh-2023-araketu-e-bom-demais",
-          "name": "carnaval bh 2023 - araketu é bom demais",
-          "assets": [
-            {
-              "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/carnaval bh 2023 - araketu é bom demais.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "axés/araketu é bom demais/carnaval bh 2023 - araketu é bom demais/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "axés"
-          ]
-        },
-        {
           "id": "axes-araketu-e-bom-demais-carnaval-bh-2024-araketu-e-bom-demais",
           "name": "carnaval bh 2024 - araketu é bom demais",
           "assets": [
@@ -5260,7 +5167,7 @@
       "id": "beaga-mama-na-vaca",
       "title": "mamá na vaca",
       "composer": "Bloco Mamá na Vaca",
-      "sub": "",
+      "sub": "MAMÁ NA VACA. MAMÁ NA VACA. MAMÁ NA VACA. QUEM NAO",
       "arrangements": [
         {
           "id": "beaga-mama-na-vaca-carnaval-bh-2023-mama-na-vaca",
@@ -5346,6 +5253,99 @@
                 },
                 {
                   "path": "beagá/mamá na vaca/carnaval bh 2023 - mamá na vaca/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "beagá"
+          ]
+        },
+        {
+          "id": "beaga-mama-na-vaca-carnaval-bh-2024-mama-na-vaca",
+          "name": "carnaval bh 2024 - mamá na vaca",
+          "assets": [
+            {
+              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/carnaval bh 2024 - mamá na vaca.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "beagá/mamá na vaca/carnaval bh 2024 - mamá na vaca/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -6572,7 +6572,7 @@
       "id": "brazukas-de-repente-california",
       "title": "de repente califórnia",
       "composer": "Composer",
-      "sub": "",
+      "sub": "GAROTA, EU VOU PRA CALIFÓRNIA",
       "arrangements": [
         {
           "id": "brazukas-de-repente-california-garota-2024-de-repente-california",
@@ -8805,7 +8805,7 @@
       "id": "brazukas-toda-forma-de-amor",
       "title": "toda forma de amor",
       "composer": "Compositor / arranjador",
-      "sub": "",
+      "sub": "EU NÃO PEDI PRA NASCER, EU NÃO NASCI PRA PERDER",
       "arrangements": [
         {
           "id": "brazukas-toda-forma-de-amor-garota-2024-toda-forma-de-amor",
@@ -9013,22 +9013,22 @@
       "id": "brazukas-uma-brasileira",
       "title": "uma brasileira",
       "composer": "Criolo",
-      "sub": "",
+      "sub": "RODAS EM SOL, TROVAS EM DÓ, UMA BRASILEIRA Ô",
       "arrangements": [
         {
-          "id": "brazukas-uma-brasileira-uma-brasileira",
-          "name": "uma brasileira",
+          "id": "brazukas-uma-brasileira-garota-2024-uma-brasileira",
+          "name": "garota 2024 - uma brasileira",
           "assets": [
             {
-              "path": "brazukas/uma brasileira/uma brasileira/uma brasileira.mscz",
+              "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/garota 2024 - uma brasileira.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/uma brasileira/uma brasileira/uma brasileira.metajson",
+              "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/garota 2024 - uma brasileira.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/uma brasileira/uma brasileira/uma brasileira.midi",
+              "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/garota 2024 - uma brasileira.midi",
               "extension": ".midi"
             }
           ],
@@ -9038,11 +9038,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/trombone.svg",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/trombone.midi",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9052,11 +9052,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/flauta.svg",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/flauta.midi",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9066,11 +9066,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/trompete.svg",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/trompete.midi",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9080,11 +9080,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/sax alto.svg",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/sax alto.midi",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -9094,11 +9094,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/sax tenor.svg",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/uma brasileira/uma brasileira/sax tenor.midi",
+                  "path": "brazukas/uma brasileira/garota 2024 - uma brasileira/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -25045,6 +25045,116 @@
       "style": "piseiro"
     },
     {
+      "id": "rocks-californication",
+      "title": "californication",
+      "composer": "",
+      "sub": "DREAM OF CALIFORNICATION",
+      "arrangements": [
+        {
+          "id": "rocks-californication-garota-2024-californication",
+          "name": "garota 2024 - californication",
+          "assets": [
+            {
+              "path": "rocks/californication/garota 2024 - californication/garota 2024 - californication.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "rocks/californication/garota 2024 - californication/garota 2024 - californication.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "rocks/californication/garota 2024 - californication/garota 2024 - californication.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "rocks/californication/garota 2024 - californication/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/californication/garota 2024 - californication/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "rocks/californication/garota 2024 - californication/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/californication/garota 2024 - californication/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/californication/garota 2024 - californication/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "rocks/californication/garota 2024 - californication/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/californication/garota 2024 - californication/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/californication/garota 2024 - californication/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "rocks/californication/garota 2024 - californication/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/californication/garota 2024 - californication/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "rocks/californication/garota 2024 - californication/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/californication/garota 2024 - californication/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "rocks"
+          ]
+        }
+      ],
+      "style": "rocks"
+    },
+    {
       "id": "rocks-paint-in-black",
       "title": "paint in black",
       "composer": "",
@@ -27187,10 +27297,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "sambas/vou festejar/carnaval bh 2024 - vou festejar/trompete.svg",
                   "extension": ".svg"

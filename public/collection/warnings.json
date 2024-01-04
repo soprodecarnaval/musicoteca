@@ -112,23 +112,16 @@
     }
   },
   {
-    "message": "Invalid sub for song axes-araketu-e-bom-demais (araketu é bom demais)",
-    "meta": {
-      "sub": "https://flat.io/score/639401eea2c41a6b37f85ef9-araketu-e-bom-demais",
-      "metajsonAsset": "AXÉS/ARAKETU É BOM DEMAIS/CARNAVAL BH 2023 - ARAKETU É BOM DEMAIS/ARAKETU_É_BOM_DEMAIS.metajson"
-    }
-  },
-  {
     "message": "Invalid sub for song axes-arere-e-e (arerê-ê-ê)",
     "meta": {
-      "sub": "https://flat.io/score/6393eb40111ba8c0801deb07-arere",
+      "sub": "",
       "metajsonAsset": "AXÉS/ARERÊ-Ê-Ê/CARNAVAL BH 2023 - ARERE-Ê-Ê/ARERÊ.metajson"
     }
   },
   {
     "message": "Invalid sub for song axes-avisa-la-o-o-nossa-gente- (avisa la ô-ô (nossa gente))",
     "meta": {
-      "sub": "https://flat.io/score/63949fe35c6c49839acef320-nossa-gente-avisa-la",
+      "sub": "",
       "metajsonAsset": "AXÉS/AVISA LA Ô-Ô (NOSSA GENTE)/CARNAVAL BH 2023 - NOSSA GENTE/AVISA_LA_O_O.metajson"
     }
   },
@@ -156,7 +149,7 @@
   {
     "message": "Invalid sub for song axes-beleza-rara-hoje-sou-feliz-e-canto- (beleza rara (hoje sou feliz e canto))",
     "meta": {
-      "sub": "https://flat.io/score/6394a0f5bc10eab1c00a026c-beleza-rara",
+      "sub": "",
       "metajsonAsset": "AXÉS/BELEZA RARA (HOJE SOU FELIZ E CANTO)/CARNAVAL BH 2023 - BELEZA RARA/BELEZA_RARA.metajson"
     }
   },
@@ -184,7 +177,7 @@
   {
     "message": "Invalid sub for song axes-deusa-do-amor (deusa do amor)",
     "meta": {
-      "sub": "https://flat.io/score/6394a0a7be60617b7e941125-deusa-do-amor",
+      "sub": "",
       "metajsonAsset": "AXÉS/DEUSA DO AMOR/CARNAVAL BH 2023 - DEUSA DO AMOR/DEUSA_DO_AMOR.metajson"
     }
   },
@@ -212,21 +205,21 @@
   {
     "message": "Invalid sub for song axes-haja-amor (haja amor)",
     "meta": {
-      "sub": "/tmp/audiveris-72346435b8d48310658a89641f4d9cd6/score.pdf",
+      "sub": "",
       "metajsonAsset": "AXÉS/HAJA AMOR/CARNAVAL BH 2023 - HAJA AMOR/HAJA AMOR.metajson"
     }
   },
   {
     "message": "Invalid sub for song axes-nada-mal-terrasamba- (nada mal (terrasamba))",
     "meta": {
-      "sub": "https://flat.io/score/6394a056111ba8c08029c55f-nada-mal-liberar-geral",
+      "sub": "",
       "metajsonAsset": "AXÉS/NADA MAL (TERRASAMBA)/CARNAVAL BH 2023 - NADA MAL /NADA_MAL_TERRASAMBA.metajson"
     }
   },
   {
     "message": "Invalid sub for song axes-olha-a-onda (olha a onda)",
     "meta": {
-      "sub": "https://flat.io/score/6393f2514016b1e56dc1b18d-olha-onda",
+      "sub": "",
       "metajsonAsset": "AXÉS/OLHA A ONDA/CARNAVAL BH 2023 - OLHA A ONDA /OLHA_A_ONDA.metajson"
     }
   },
@@ -254,7 +247,7 @@
   {
     "message": "Invalid sub for song axes-sou-100-voce-le-le- (sou 100% você (lê-lê))",
     "meta": {
-      "sub": "https://flat.io/score/6394a1c13728efc710ce2e66-100-voce",
+      "sub": "",
       "metajsonAsset": "AXÉS/SOU 100% VOCÊ (LÊ-LÊ)/CARNAVAL BH 2023 - 100% VOCÊ /CEM_POR_CENTO_VOCÊ.metajson"
     }
   },
@@ -366,7 +359,7 @@
   {
     "message": "Invalid sub for song brazukas-abra-suas-asas (abra suas asas)",
     "meta": {
-      "sub": "http://musescore.com/user/34498573/scores/6999585",
+      "sub": "",
       "metajsonAsset": "BRAZUKAS/ABRA SUAS ASAS/CARNAVAL BH 2023 - ABRA SUAS ASAS /ABRA_SUAS_ASAS.metajson"
     }
   },
@@ -385,13 +378,6 @@
     }
   },
   {
-    "message": "Invalid sub for song brazukas-de-repente-california (de repente califórnia)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "BRAZUKAS/DE REPENTE CALIFÓRNIA/GAROTA 2024 - DE REPENTE CALIFÓRNIA/DE REPENTE CALIFORNIA.metajson"
-    }
-  },
-  {
     "message": "Invalid sub for song brazukas-divino-maravilhoso (divino maravilhoso)",
     "meta": {
       "sub": "",
@@ -401,7 +387,7 @@
   {
     "message": "Invalid sub for song brazukas-fe-cega-faca-amolada (fe cega faca amolada)",
     "meta": {
-      "sub": "https://flat.io/score/62e4725aa5e06700143ff603-fe-cega-faca-amolada",
+      "sub": "",
       "metajsonAsset": "BRAZUKAS/FE CEGA FACA AMOLADA/CARNAVAL BH 2023 - FE CEGA FACA AMOLADA/FE CEGA FACA AMOLADA.metajson"
     }
   },
@@ -469,24 +455,10 @@
     }
   },
   {
-    "message": "Invalid sub for song brazukas-toda-forma-de-amor (toda forma de amor)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "BRAZUKAS/TODA FORMA DE AMOR/GAROTA 2024 - TODA FORMA DE AMOR/TODA FORMA DE AMOR.metajson"
-    }
-  },
-  {
     "message": "Invalid sub for song brazukas-tudo-o-que-voce-podia-ser (tudo o que voce podia ser)",
     "meta": {
       "sub": "",
       "metajsonAsset": "BRAZUKAS/TUDO O QUE VOCE PODIA SER/CARNAVAL BH 2023 - TUDO O QUE VOCE PODIA SER/Tudo_o_que_você_podia_ser.metajson"
-    }
-  },
-  {
-    "message": "Invalid sub for song brazukas-uma-brasileira (uma brasileira)",
-    "meta": {
-      "sub": "http://musescore.com/user/14572821/scores/5353261",
-      "metajsonAsset": "BRAZUKAS/UMA BRASILEIRA/UMA BRASILEIRA.metajson"
     }
   },
   {
@@ -625,7 +597,7 @@
   {
     "message": "Invalid sub for song forros-morena-tropicana (morena tropicana)",
     "meta": {
-      "sub": "https://flat.io/score/629804e563df85001296c470-morena-tropicana",
+      "sub": "",
       "metajsonAsset": "FORRÓS/MORENA TROPICANA/CARNAVAL BH 2023 - MORENA TROPICANA/MORENA_TROPICANA.metajson"
     }
   },
@@ -722,7 +694,7 @@
   {
     "message": "Invalid sub for song funks-din-din-din-pode-dar-em-cima-de-mim- (din din din (pode dar em cima de mim))",
     "meta": {
-      "sub": "https://flat.io/score/63929bee3d52882e4b526493-din-dind-in",
+      "sub": "",
       "metajsonAsset": "FUNKS/DIN DIN DIN (PODE DAR EM CIMA DE MIM)/CARNAVAL BH 2023 - DIN DIN DIN/DIN_DIN_DIN.metajson"
     }
   },
@@ -741,13 +713,6 @@
     }
   },
   {
-    "message": "Invalid sub for song funks-glamurosa (glamurosa)",
-    "meta": {
-      "sub": "https://flat.io/score/63922f290d81bade4134167a-glamurosa",
-      "metajsonAsset": "FUNKS/GLAMUROSA/CARNAVAL BH 2023 - GLAMUROSA/GLAMUROSA.metajson"
-    }
-  },
-  {
     "message": "Invalid sub for song funks-meu-jeito-de-amar (meu jeito de amar)",
     "meta": {
       "sub": "",
@@ -757,7 +722,7 @@
   {
     "message": "Invalid sub for song funks-miss-beleza-universal (miss beleza universal)",
     "meta": {
-      "sub": "https://flat.io/score/6285948fe8ea2c0012e6ecab-miss-beleza-universal",
+      "sub": "",
       "metajsonAsset": "FUNKS/MISS BELEZA UNIVERSAL/CARNAVAL BH 2023 - MISS BELEZA UNIVERSAL/MISS_BELEZA_UNIVERSAL.metajson"
     }
   },
@@ -890,7 +855,7 @@
   {
     "message": "Invalid sub for song manifestacao-ta-escrito (tá escrito)",
     "meta": {
-      "sub": "http://musescore.com/user/12625836/scores/6214851",
+      "sub": "",
       "metajsonAsset": "MANIFESTAÇÃO/TÁ ESCRITO/CARNAVAL BH 2023 - TÁ ESCRITO/TA_ESCRITO.metajson"
     }
   },
@@ -1114,14 +1079,14 @@
   {
     "message": "Invalid sub for song odaras-varias-queixas (varias queixas)",
     "meta": {
-      "sub": "https://flat.io/score/6393cf8bc5c2303f65004236-varias-queixas",
+      "sub": "",
       "metajsonAsset": "ODARAS/VARIAS QUEIXAS/CARNAVAL BH 2023 - VARIAS QUEIXAS/VARIAS_QUEIXAS.metajson"
     }
   },
   {
     "message": "Invalid sub for song odaras-e-d-oxum (é d'oxum)",
     "meta": {
-      "sub": "https://flat.io/score/6393b9dfc5c2303f65fef37a-e-d-oxum",
+      "sub": "",
       "metajsonAsset": "ODARAS/É D'OXUM/CARNAVAL BH 2023 - É D'OXUM/É_D_OXUM.metajson"
     }
   },
@@ -1149,14 +1114,14 @@
   {
     "message": "Invalid sub for song pagodes-mal-acostumado (mal acostumado)",
     "meta": {
-      "sub": "https://flat.io/score/63949fb462a40c8b7309d5e5-mal-acostumado",
+      "sub": "",
       "metajsonAsset": "PAGODES/MAL ACOSTUMADO/CARNAVAL BH 2023 - MAL ACOSTUMADO/MAL_ACOSTUMADO.metajson"
     }
   },
   {
     "message": "Invalid sub for song piseiro-ta-rocheda (ta rocheda)",
     "meta": {
-      "sub": "https://flat.io/score/60ba5644175f70803bcf5455-ta-rocheda-fanfarra",
+      "sub": "",
       "metajsonAsset": "PISEIRO/TA ROCHEDA/CARNAVAL BH 2023 - TÁ ROCHEDA/TA ROCHEDA.metajson"
     }
   },

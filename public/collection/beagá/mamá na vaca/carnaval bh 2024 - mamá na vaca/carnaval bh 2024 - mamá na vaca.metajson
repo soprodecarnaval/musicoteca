@@ -1,40 +1,40 @@
 {
-    "composer": "Araketu",
-    "duration": 134,
+    "composer": "Bloco Mamá na Vaca",
+    "duration": 30,
     "fileVersion": 302,
-    "hasHarmonies": "false",
+    "hasHarmonies": "true",
     "hasLyrics": "false",
-    "keysig": -4,
+    "keysig": -2,
     "lyrics": "",
-    "measures": 35,
+    "measures": 22,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
-        "twosided": "true",
-        "width": 297
+        "height": 297,
+        "twosided": "false",
+        "width": 210
     },
-    "pages": 7,
+    "pages": 1,
     "parts": [
         {
-            "harmonyCount": 0,
+            "harmonyCount": 32,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Transversal",
+            "name": "C clavG",
             "program": 73
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 32,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Eb",
             "program": 65
         },
         {
@@ -42,21 +42,21 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.reed.saxophone.tenor",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
-            "program": 66
+            "name": "Bb - Pirata",
+            "program": 56
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 32,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.cornet.soprano",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "B♭ Trumpet",
+            "name": "Bb",
             "program": 56
         },
         {
@@ -64,15 +64,15 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
+            "instrumentId": "brass.trombone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "C clavF",
             "program": 57
         }
     ],
     "poet": "",
-    "previousSource": "https://flat.io/score/639401eea2c41a6b37f85ef9-araketu-e-bom-demais",
+    "previousSource": "MAMÁ NA VACA. MAMÁ NA VACA. MAMÁ NA VACA. QUEM NAO",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "Araketu é Bom Demais"
+    "title": "MAMA_NA_VACA"
 }
