@@ -180,10 +180,10 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       .rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt)
       .fillAndStroke(); // Retângulo do trecho da letra
     doc
-      .fontSize(10)
+      .fontSize(9)
       .fillColor("white")
-      .text(song.sub.toUpperCase(), 0.5 * cm2pt, 2.2 * cm2pt); // Trecho da letra
-    doc.text(song.composer.toUpperCase(), 0.44 * cm2pt, 2.2 * cm2pt, {
+      .text(song.sub.toUpperCase(), 0.5 * cm2pt, 2.21 * cm2pt); // Trecho da letra
+    doc.text(song.composer.toUpperCase(), 0.44 * cm2pt, 2.21 * cm2pt, {
       align: "right",
       width: 17.1 * cm2pt,
     }); // Compositor
@@ -236,10 +236,10 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
 
     const maxLinesPerColumn = Math.floor(totalLineCount / columnCount);
     const fontSize = Math.min(
-      Math.floor(containerHeight / maxLinesPerColumn),
+      Math.floor(containerHeight / maxLinesPerColumn)-2,
       15
     );
-    const columnWidth = Math.floor(containerWidth / columnCount);
+    const columnWidth = Math.ceil(containerWidth / columnCount);
 
     let cursorStartPosition = [0.44 * cm2pt, 1.55 * cm2pt];
     let currentColumn = 0;
