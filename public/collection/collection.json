@@ -3912,6 +3912,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/flauta.midi",
                   "extension": ".midi"
                 }
@@ -3949,6 +3953,10 @@
               "name": "sax tenor",
               "instrument": "sax tenor",
               "assets": [
+                {
+                  "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/sax tenor.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "axés/vem meu amor/carnaval bh 2024 - vem meu amor/sax tenor.svg",
                   "extension": ".svg"
@@ -3995,10 +4003,6 @@
               "name": "trombone",
               "instrument": "trombone",
               "assets": [
-                {
-                  "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trombone.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "axés/xibom bombom/carnaval bh 2024 - xibom bombom/trombone.svg",
                   "extension": ".svg"
@@ -9319,7 +9323,7 @@
       "id": "fanfarras-a-banda-ta-com-sede",
       "title": "a banda tá com sede",
       "composer": "Thiago França (música incedental: Marcha do Caneco)",
-      "sub": "A BANDA TÁ COM SEDE. QUEM VAI TRAZER GORÓ PRA GENTE. NÃO VAI TER MAIS PORÓ-PÓ-PÓ. SE NINGUEM TROUXER GORÓ",
+      "sub": "",
       "arrangements": [
         {
           "id": "fanfarras-a-banda-ta-com-sede-carnaval-bh-2023-a-banda-ta-com-sede",

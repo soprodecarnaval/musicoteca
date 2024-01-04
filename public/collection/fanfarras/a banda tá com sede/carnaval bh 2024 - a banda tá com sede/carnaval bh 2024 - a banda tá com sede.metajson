@@ -1,12 +1,12 @@
 {
     "composer": "Thiago França (música incedental: Marcha do Caneco)",
-    "duration": 41,
+    "duration": 33,
     "fileVersion": 302,
     "hasHarmonies": "false",
-    "hasLyrics": "false",
+    "hasLyrics": "true",
     "keysig": -1,
-    "lyrics": "",
-    "measures": 25,
+    "lyrics": "a banda tá com sede quem vai trazer goró pra gente não vai ter mais poropopo se ninguem trouxer goró \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro",
+    "measures": 17,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
@@ -55,7 +55,7 @@
             "hasTabStaff": "false",
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
-            "lyricCount": 0,
+            "lyricCount": 31,
             "name": "B♭ Trumpet",
             "program": 56
         },
@@ -66,7 +66,7 @@
             "hasTabStaff": "false",
             "instrumentId": "brass.trombone",
             "isVisible": "true",
-            "lyricCount": 0,
+            "lyricCount": 31,
             "name": "Trombone",
             "program": 57
         },
@@ -83,7 +83,7 @@
         }
     ],
     "poet": "",
-    "previousSource": "A BANDA TÁ COM SEDE. QUEM VAI TRAZER GORÓ PRA GENTE. NÃO VAI TER MAIS PORÓ-PÓ-PÓ. SE NINGUEM TROUXER GORÓ",
+    "previousSource": "",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
