@@ -355,6 +355,10 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       doc
       .fontSize(25).text(songbookTitle.toUpperCase(), 120, 100)
       .fontSize(22).text(instrument.toUpperCase(), 120, 125);
+    } else {
+      doc
+      .fontSize(25).text(songbookTitle.toUpperCase(), 120, 100)
+      .fontSize(22).text(instrument.toUpperCase(), 120, 125);
     }
 
     if(carnivalMode) doc.addPage()
