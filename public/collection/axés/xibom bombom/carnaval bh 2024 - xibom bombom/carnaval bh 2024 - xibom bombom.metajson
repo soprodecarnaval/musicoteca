@@ -1,19 +1,19 @@
 {
     "composer": "Composer",
-    "duration": 88,
+    "duration": 48,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 1,
     "lyrics": "",
-    "measures": 42,
+    "measures": 38,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 5,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 0,
