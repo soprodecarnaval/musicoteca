@@ -636,10 +636,10 @@
     }
   },
   {
-    "message": "Invalid sub for song funks-din-din-din-pode-dar-em-cima-de-mim- (din din din (pode dar em cima de mim))",
+    "message": "Invalid sub for song funks-din-din-din (din din din)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "FUNKS/DIN DIN DIN (PODE DAR EM CIMA DE MIM)/CARNAVAL BH 2023 - DIN DIN DIN/DIN_DIN_DIN.metajson"
+      "metajsonAsset": "FUNKS/DIN DIN DIN /CARNAVAL BH 2023 - DIN DIN DIN/DIN_DIN_DIN.metajson"
     }
   },
   {
@@ -685,10 +685,10 @@
     }
   },
   {
-    "message": "Invalid sub for song funks-rap-da-felicidade-eu-so-quero-e-ser-feliz- (rap da felicidade (eu só quero é ser feliz))",
+    "message": "Invalid sub for song funks-rap-da-felicidade (rap da felicidade)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "FUNKS/RAP DA FELICIDADE (EU SÓ QUERO É SER FELIZ)/CARNAVAL BH 2023 - RAP DA FELICIDADE/RAP_DA_FELICIDADE.metajson"
+      "metajsonAsset": "FUNKS/RAP DA FELICIDADE /CARNAVAL BH 2023 - RAP DA FELICIDADE/RAP_DA_FELICIDADE.metajson"
     }
   },
   {
