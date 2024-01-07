@@ -2836,10 +2836,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "axés/nada mal (terrasamba)/carnaval bh 2024 - nada mal/trompete.midi",
                   "extension": ".midi"
                 }
@@ -13970,25 +13966,25 @@
       "style": "funks"
     },
     {
-      "id": "funks-din-din-din-pode-dar-em-cima-de-mim-",
-      "title": "din din din (pode dar em cima de mim)",
+      "id": "funks-din-din-din",
+      "title": "din din din",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-din-din-din-pode-dar-em-cima-de-mim-carnaval-bh-2023-din-din-din",
+          "id": "funks-din-din-din-carnaval-bh-2023-din-din-din",
           "name": "carnaval bh 2023 - din din din",
           "assets": [
             {
-              "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.mscz",
+              "path": "funks/din din din/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.metajson",
+              "path": "funks/din din din/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.midi",
+              "path": "funks/din din din/carnaval bh 2023 - din din din/carnaval bh 2023 - din din din.midi",
               "extension": ".midi"
             }
           ],
@@ -13998,11 +13994,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/trombone.svg",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/trombone.midi",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14012,11 +14008,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/flauta.svg",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/flauta.midi",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14026,11 +14022,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/trompete.svg",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/trompete.midi",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14040,11 +14036,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/sax alto.svg",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/sax alto.midi",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14054,11 +14050,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/sax tenor.svg",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/din din din (pode dar em cima de mim)/carnaval bh 2023 - din din din/sax tenor.midi",
+                  "path": "funks/din din din/carnaval bh 2023 - din din din/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14791,10 +14787,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "funks/meu jeito de amar/carnaval bh 2024 - meu jeito de amar/trombone.midi",
                   "extension": ".midi"
                 }
@@ -15264,25 +15256,25 @@
       "style": "funks"
     },
     {
-      "id": "funks-rap-da-felicidade-eu-so-quero-e-ser-feliz-",
-      "title": "rap da felicidade (eu só quero é ser feliz)",
+      "id": "funks-rap-da-felicidade",
+      "title": "rap da felicidade",
       "composer": "Cidinho e Doca",
       "sub": "",
       "arrangements": [
         {
-          "id": "funks-rap-da-felicidade-eu-so-quero-e-ser-feliz-carnaval-bh-2023-rap-da-felicidade",
+          "id": "funks-rap-da-felicidade-carnaval-bh-2023-rap-da-felicidade",
           "name": "carnaval bh 2023 - rap da felicidade",
           "assets": [
             {
-              "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.mscz",
+              "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.metajson",
+              "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.midi",
+              "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/carnaval bh 2023 - rap da felicidade.midi",
               "extension": ".midi"
             }
           ],
@@ -15292,11 +15284,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/trombone.svg",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/trombone.midi",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15306,11 +15298,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/flauta.svg",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/flauta.midi",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15320,11 +15312,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/trompete.svg",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/trompete.midi",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15334,11 +15326,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/sax alto.svg",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/sax alto.midi",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15348,11 +15340,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/sax tenor.svg",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/rap da felicidade (eu só quero é ser feliz)/carnaval bh 2023 - rap da felicidade/sax tenor.midi",
+                  "path": "funks/rap da felicidade/carnaval bh 2023 - rap da felicidade/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -21659,10 +21651,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "marchinhas/taí/carnaval bh 2024 - taí/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "marchinhas/taí/carnaval bh 2024 - taí/trompete.midi",
                   "extension": ".midi"
                 }
@@ -24796,10 +24784,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "pagodes/temporal/carnaval bh 2024 - temporal/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "pagodes/temporal/carnaval bh 2024 - temporal/trompete.svg",
                   "extension": ".svg"
