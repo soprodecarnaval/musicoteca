@@ -28115,19 +28115,19 @@
           ]
         },
         {
-          "id": "technohell-medley-technohell-carnaval-bh-2024-children-can-t-get-you-out-of-my-head",
-          "name": "carnaval bh 2024 - children + can_t get you out of my head",
+          "id": "technohell-medley-technohell-carnaval-bh-2024-medley-technohell",
+          "name": "carnaval bh 2024 - medley technohell",
           "assets": [
             {
-              "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.mscz",
+              "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/carnaval bh 2024 - medley technohell.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.metajson",
+              "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/carnaval bh 2024 - medley technohell.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/carnaval bh 2024 - children + can_t get you out of my head.midi",
+              "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/carnaval bh 2024 - medley technohell.midi",
               "extension": ".midi"
             }
           ],
@@ -28137,11 +28137,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trombone.svg",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trombone.midi",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -28151,11 +28151,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/flauta.svg",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/flauta.midi",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -28165,11 +28165,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trompete.svg",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/trompete.midi",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -28179,11 +28179,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax alto.svg",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax alto.midi",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -28193,11 +28193,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax tenor.svg",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "technohell/medley technohell/carnaval bh 2024 - children + can_t get you out of my head/sax tenor.midi",
+                  "path": "technohell/medley technohell/carnaval bh 2024 - medley technohell/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
