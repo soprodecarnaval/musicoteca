@@ -11869,10 +11869,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "forrós/morena tropicana/carnaval bh 2024 - morena tropicana/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "forrós/morena tropicana/carnaval bh 2024 - morena tropicana/flauta.midi",
                   "extension": ".midi"
                 }
@@ -25143,10 +25139,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "piseiro/lovezinho/carnaval bh 2024 - lovezinho/sax tenor.midi",
                   "extension": ".midi"
                 }
@@ -27601,10 +27593,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "sambas/trem das onze/carnaval bh 2024 - trem das onze/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "sambas/trem das onze/carnaval bh 2024 - trem das onze/flauta.midi",
                   "extension": ".midi"
                 }
@@ -27628,10 +27616,6 @@
               "name": "sax alto",
               "instrument": "sax alto",
               "assets": [
-                {
-                  "path": "sambas/trem das onze/carnaval bh 2024 - trem das onze/sax alto.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "sambas/trem das onze/carnaval bh 2024 - trem das onze/sax alto.svg",
                   "extension": ".svg"
