@@ -287,6 +287,13 @@
     }
   },
   {
+    "message": "Invalid sub for song brazukas-como-uma-onda-no-mar (como uma onda no mar)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/COMO UMA ONDA NO MAR/GAROTA 2024 - COMO UMA ONDA NO MAR/COMO UMA ONDA NO MAR.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song brazukas-cotidiano (cotidiano)",
     "meta": {
       "sub": "",
@@ -368,6 +375,20 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "BRAZUKAS/SUJEITO DE SORTE/CARNAVAL BH 2023 - SUJEITO DE SORTE/Sujeito_de_Sorte.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-tapao-na-raba (tapao na raba)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/TAPAO NA RABA/GAROTA 2024 - TAPAO NA RABA/TAPAO NA RABA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-toda-forma-de-amor (toda forma de amor)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/TODA FORMA DE AMOR/GAROTA 2024 - TODA FORMA DE AMOR/TODA FORMA DE AMOR.metajson"
     }
   },
   {
@@ -986,6 +1007,20 @@
     }
   },
   {
+    "message": "Inconsistent composer for song odaras-maresia (maresia)",
+    "meta": {
+      "song": "Rachel Reis",
+      "arr": ""
+    }
+  },
+  {
+    "message": "Invalid sub for song odaras-maresia (maresia)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ODARAS/MARESIA/GAROTA 2024 - MARESIA/MARESIA.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song odaras-odara (odara)",
     "meta": {
       "sub": "",
@@ -1046,6 +1081,20 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "PISEIRO/TA ROCHEDA/CARNAVAL BH 2023 - TÁ ROCHEDA/TA ROCHEDA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-california-dreamin (california dreamin)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/CALIFORNIA DREAMIN/GAROTA 2024 - CALIFORNIA DREAMIN/CALIFORNIA DREAMIN.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-california-gurls (california gurls)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/CALIFORNIA GURLS/GAROTA 2024 - CALIFORNIA GURLS/CALIFORNIA GURLS.metajson"
     }
   },
   {
