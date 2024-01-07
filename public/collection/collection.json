@@ -3472,25 +3472,25 @@
       "style": "axés"
     },
     {
-      "id": "axes-sou-100-voce-le-le-",
-      "title": "sou 100% você (lê-lê)",
+      "id": "axes-sou-cem-por-cento-voce",
+      "title": "sou cem por cento você",
       "composer": "Chiclete com Banana",
       "sub": "LÊ LÊ. LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ. UM CÉU SEM ESTRELAS. UMA PRAIA SEM MAR",
       "arrangements": [
         {
-          "id": "axes-sou-100-voce-le-le-carnaval-bh-2023-100-voce",
-          "name": "carnaval bh 2023 - 100% você",
+          "id": "axes-sou-cem-por-cento-voce-carnaval-bh-2023-sou-cem-por-cento-voce",
+          "name": "carnaval bh 2023 - sou cem por cento você",
           "assets": [
             {
-              "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/carnaval bh 2023 - 100% você.mscz",
+              "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/carnaval bh 2023 - sou cem por cento você.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/carnaval bh 2023 - 100% você.metajson",
+              "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/carnaval bh 2023 - sou cem por cento você.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/carnaval bh 2023 - 100% você.midi",
+              "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/carnaval bh 2023 - sou cem por cento você.midi",
               "extension": ".midi"
             }
           ],
@@ -3500,11 +3500,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/trombone.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/trombone.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3514,11 +3514,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/flauta.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/flauta.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3528,11 +3528,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/trompete.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/trompete.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3542,11 +3542,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/sax alto.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/sax alto.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3556,11 +3556,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/sax tenor.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2023 - 100% você/sax tenor.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2023 - sou cem por cento você/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3571,19 +3571,19 @@
           ]
         },
         {
-          "id": "axes-sou-100-voce-le-le-carnaval-bh-2024-100-voce",
-          "name": "carnaval bh 2024 - 100% você",
+          "id": "axes-sou-cem-por-cento-voce-carnaval-bh-2024-sou-cem-por-cento-voce",
+          "name": "carnaval bh 2024 - sou cem por cento você",
           "assets": [
             {
-              "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/carnaval bh 2024 - 100% você.mscz",
+              "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/carnaval bh 2024 - sou cem por cento você.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/carnaval bh 2024 - 100% você.metajson",
+              "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/carnaval bh 2024 - sou cem por cento você.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/carnaval bh 2024 - 100% você.midi",
+              "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/carnaval bh 2024 - sou cem por cento você.midi",
               "extension": ".midi"
             }
           ],
@@ -3593,11 +3593,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/trombone.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/trombone.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3607,11 +3607,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/flauta.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/flauta.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3621,11 +3621,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/trompete.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/trompete.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3635,11 +3635,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/sax alto.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/sax alto.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -3649,11 +3649,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/sax tenor.svg",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/sou 100% você (lê-lê)/carnaval bh 2024 - 100% você/sax tenor.midi",
+                  "path": "axés/sou cem por cento você/carnaval bh 2024 - sou cem por cento você/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16562,25 +16562,25 @@
       "style": "funks"
     },
     {
-      "id": "funks-vermelho-groove-",
-      "title": "vermelho (groove)",
+      "id": "funks-vermelho",
+      "title": "vermelho",
       "composer": "Gloria Groove",
       "sub": "PAIXÃO, FAZ UM TEMPO EU QUERO TE ENCONTRA. TOMANDO UM VINHO ",
       "arrangements": [
         {
-          "id": "funks-vermelho-groove-carnaval-bh-2023-vermelho",
+          "id": "funks-vermelho-carnaval-bh-2023-vermelho",
           "name": "carnaval bh 2023 - vermelho",
           "assets": [
             {
-              "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/carnaval bh 2023 - vermelho.mscz",
+              "path": "funks/vermelho/carnaval bh 2023 - vermelho/carnaval bh 2023 - vermelho.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/carnaval bh 2023 - vermelho.metajson",
+              "path": "funks/vermelho/carnaval bh 2023 - vermelho/carnaval bh 2023 - vermelho.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/carnaval bh 2023 - vermelho.midi",
+              "path": "funks/vermelho/carnaval bh 2023 - vermelho/carnaval bh 2023 - vermelho.midi",
               "extension": ".midi"
             }
           ],
@@ -16590,11 +16590,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/trombone.svg",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/trombone.midi",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16604,11 +16604,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/flauta.svg",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/flauta.midi",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16618,11 +16618,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/trompete.svg",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/trompete.midi",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16632,11 +16632,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/sax alto.svg",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/sax alto.midi",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16646,11 +16646,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/sax tenor.svg",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2023 - vermelho/sax tenor.midi",
+                  "path": "funks/vermelho/carnaval bh 2023 - vermelho/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16661,19 +16661,19 @@
           ]
         },
         {
-          "id": "funks-vermelho-groove-carnaval-bh-2024-vermelho",
+          "id": "funks-vermelho-carnaval-bh-2024-vermelho",
           "name": "carnaval bh 2024 - vermelho",
           "assets": [
             {
-              "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/carnaval bh 2024 - vermelho.mscz",
+              "path": "funks/vermelho/carnaval bh 2024 - vermelho/carnaval bh 2024 - vermelho.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/carnaval bh 2024 - vermelho.metajson",
+              "path": "funks/vermelho/carnaval bh 2024 - vermelho/carnaval bh 2024 - vermelho.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/carnaval bh 2024 - vermelho.midi",
+              "path": "funks/vermelho/carnaval bh 2024 - vermelho/carnaval bh 2024 - vermelho.midi",
               "extension": ".midi"
             }
           ],
@@ -16683,11 +16683,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trombone.svg",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trombone.midi",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16697,11 +16697,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/flauta.svg",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/flauta.midi",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16711,11 +16711,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trompete.svg",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trompete.midi",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16725,11 +16725,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/sax alto.svg",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/sax alto.midi",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -16739,11 +16739,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/sax tenor.svg",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/sax tenor.midi",
+                  "path": "funks/vermelho/carnaval bh 2024 - vermelho/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]

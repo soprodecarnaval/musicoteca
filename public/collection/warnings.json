@@ -161,10 +161,10 @@
     }
   },
   {
-    "message": "Invalid sub for song axes-sou-100-voce-le-le- (sou 100% você (lê-lê))",
+    "message": "Invalid sub for song axes-sou-cem-por-cento-voce (sou cem por cento você)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "AXÉS/SOU 100% VOCÊ (LÊ-LÊ)/CARNAVAL BH 2023 - 100% VOCÊ /CEM_POR_CENTO_VOCÊ.metajson"
+      "metajsonAsset": "AXÉS/SOU CEM POR CENTO VOCÊ/CARNAVAL BH 2023 - SOU CEM POR CENTO VOCÊ/CEM_POR_CENTO_VOCÊ.metajson"
     }
   },
   {
@@ -741,10 +741,10 @@
     }
   },
   {
-    "message": "Invalid sub for song funks-vermelho-groove- (vermelho (groove))",
+    "message": "Invalid sub for song funks-vermelho (vermelho)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "FUNKS/VERMELHO (GROOVE)/CARNAVAL BH 2023 - VERMELHO/VERMELHO.metajson"
+      "metajsonAsset": "FUNKS/VERMELHO /CARNAVAL BH 2023 - VERMELHO/VERMELHO.metajson"
     }
   },
   {
