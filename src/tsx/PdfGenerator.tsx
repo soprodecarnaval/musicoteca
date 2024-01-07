@@ -31,6 +31,89 @@ const stylesOrder = [
   'technohell'      // 3
 ]
 
+const californiaOrder = [
+  'bandeira branca',
+  'mascara negra (quanto riso oh)',
+  'alala-ô',
+  'cachaça',
+  'turma do funil',
+  'saca rolhas',
+  'cabeleira do ed marte',
+  'jardineira',
+  'não quero dinheiro (só quero amar)', // ? (9)
+  'balancê',
+  'taí', // ? (11)
+  'marcha do remador',
+  'eu quero é botar meu bloco na rua',
+  'abre alas',
+  'tempos modernos',
+  'cheguei',
+  'não quero dinheiro (só quero amar)',
+  'pais tropical',
+  'varias queixas',
+  'deusa do amor',
+  'a luz de tiêta',
+  '', // ? (22)
+  'californication',
+  '', // ? (24),
+  'ombrim',
+  'não me entrego pros caretas',
+  'maresia',
+  'de repente califórnia',
+  'toda forma de amor',
+  'vai malandra',
+  'se tá solteira',
+  'pequena eva',
+  'arerê-ê-ê',
+  'vou festejar',
+  'eu e você sempre',
+  'mal acostumado',
+  'cheia de manias',
+  'uma brasileira',
+  'ando meio desligado',
+  'cariñito',
+  'emoriô',
+  "é d'Oxum",
+  '', // ? (43),
+  'andança',
+  'vem meu amor',
+  'araketu é bom demais',
+  'baianidade nagô',
+  'feira de acari',
+  'vermelho (groove)',
+  'tapao na raba',
+  'farao', // (51),
+  'carinhoso',
+  'a banda tá com sede',
+  'prefixo de verão',
+  'alo paixao',
+  'beleza rara (hoje sou feliz e canto)',
+  'retalhos de cetim',
+  'temporal',
+  'juizo final (o sol)',
+  'o sol nascerá (a sorrir)',
+  'cordeiro de nana',
+  'suíte dos pescadores',
+  'deixa a gira girar',
+  'besame mucho',
+  'glamurosa',
+  'ela só pensa em beijar',
+  'não deixe o samba morrer',
+  'canto das tres raças',
+  'praia da estação', // ? (69)
+  'manjericão',
+  'mamá na vaca',
+  'corte devassa',
+  'meu jeito de amar',
+  '', // ? (74)
+  'parados no bailão',
+  'não é mole não + guadaloupe',
+  'evidências',
+  'montserrat, serrat',
+  'tom & jerry em guca',
+  'de repente califórnia',
+]
+
 const sortStyles = (a : string,b : string) => {
   if(stylesOrder.indexOf(a) < stylesOrder.indexOf(b)){
     return -1
@@ -41,10 +124,10 @@ const sortStyles = (a : string,b : string) => {
   }
 }
 
-const sortSongs = (a : SongArrangement,b : SongArrangement) => {
-  if(a.song.title < b.song.title){
+const sortSongs = (a : SongArrangement, b : SongArrangement) => {
+  if(californiaOrder.indexOf(a.song.title) < californiaOrder.indexOf(b.song.title)){
     return -1
-  } else if (a.song.title > b.song.title){
+  } else if (californiaOrder.indexOf(a.song.title) > californiaOrder.indexOf(b.song.title)){
     return 1
   } else {
     return 0
@@ -274,20 +357,20 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       // .font("Helvetica-Bold")
       // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
     let sortStyleFunc = carnivalMode ? sortStyles : undefined;
-    [...styles].sort(sortStyleFunc).forEach((style, styleIdx) => {
-      let filteredSongs = songArrangements
-        .filter(({ song }) => song.style == style)
+    // [...styles].sort(sortStyleFunc).forEach((style, styleIdx) => {
+    //   let filteredSongs = songArrangements
+    //     .filter(({ song }) => song.style == style)
 
-      if(carnivalMode){
-        if(firstPage && songCount + (styleIdx+1)*2 + filteredSongs.length + 2 > totalLineCount){
-          firstPage = false
-          resetCursorPosition();
-          [currentX, currentY] = nextCursorPosition();
-          doc.addPage().addPage()
-        }
-      }
+    //   if(carnivalMode){
+    //     if(firstPage && songCount + (styleIdx+1)*2 + filteredSongs.length + 2 > totalLineCount){
+    //       firstPage = false
+    //       resetCursorPosition();
+    //       [currentX, currentY] = nextCursorPosition();
+    //       doc.addPage().addPage()
+    //     }
+    //   }
 
-      filteredSongs
+    songArrangements
         .sort(sortSongs)
         .forEach((songArrangement, songIdx) => {
           reorderedSongs.push(songArrangement);
@@ -297,7 +380,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
             doc
               .font("Helvetica-Bold")
               .fontSize(fontSize - 2)
-              .text(`${style.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
+              .text(`Índice`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
             [currentX, currentY] = nextCursorPosition();
           }
           doc
@@ -326,7 +409,7 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
           [currentX, currentY] = nextCursorPosition();
         });
       if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
-    });
+    // });
     if (carnivalMode) doc.addPage()
     return reorderedSongs;
   };
