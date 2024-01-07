@@ -7025,10 +7025,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/evidências/carnaval bh 2024 - evidências/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "brazukas/evidências/carnaval bh 2024 - evidências/trompete.midi",
                   "extension": ".midi"
                 }
@@ -8948,10 +8944,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/trompete.midi",
                   "extension": ".midi"
                 }
@@ -8961,10 +8953,6 @@
               "name": "sax alto",
               "instrument": "sax alto",
               "assets": [
-                {
-                  "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/sax alto.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "brazukas/tempos modernos/carnaval bh 2024 - tempos modernos/sax alto.svg",
                   "extension": ".svg"
@@ -16722,10 +16710,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "funks/vermelho (groove)/carnaval bh 2024 - vermelho/trompete.svg",
                   "extension": ".svg"
