@@ -18437,6 +18437,201 @@
       "style": "marcha ranchos"
     },
     {
+      "id": "marcha-ranchos-bloco-na-rua",
+      "title": "bloco na rua",
+      "composer": "Sérgio Sampaio",
+      "sub": "EU QUERO É BOTAR MEU BLOCO NA RUA, BRINCAR, BOTAR PRA GEMER",
+      "arrangements": [
+        {
+          "id": "marcha-ranchos-bloco-na-rua-carnaval-bh-2023-bloco-na-rua",
+          "name": "carnaval bh 2023 - bloco na rua",
+          "assets": [
+            {
+              "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2023 - bloco na rua/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "marcha ranchos"
+          ]
+        },
+        {
+          "id": "marcha-ranchos-bloco-na-rua-carnaval-bh-2024-bloco-na-rua",
+          "name": "carnaval bh 2024 - bloco na rua",
+          "assets": [
+            {
+              "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marcha ranchos/bloco na rua/carnaval bh 2024 - bloco na rua/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "marcha ranchos"
+          ]
+        }
+      ],
+      "style": "marcha ranchos"
+    },
+    {
       "id": "marcha-ranchos-carinhoso",
       "title": "carinhoso",
       "composer": "Pixinguinha",
@@ -18632,220 +18827,25 @@
       "style": "marcha ranchos"
     },
     {
-      "id": "marcha-ranchos-eu-quero-e-botar-meu-bloco-na-rua",
-      "title": "eu quero é botar meu bloco na rua",
-      "composer": "Sérgio Sampaio",
-      "sub": "EU QUERO É BOTAR MEU BLOCO NA RUA, BRINCAR, BOTAR PRA GEMER",
-      "arrangements": [
-        {
-          "id": "marcha-ranchos-eu-quero-e-botar-meu-bloco-na-rua-carnaval-bh-2023-bloco-na-rua",
-          "name": "carnaval bh 2023 - bloco na rua",
-          "assets": [
-            {
-              "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/carnaval bh 2023 - bloco na rua.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2023 - bloco na rua/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "marcha ranchos"
-          ]
-        },
-        {
-          "id": "marcha-ranchos-eu-quero-e-botar-meu-bloco-na-rua-carnaval-bh-2024-bloco-na-rua",
-          "name": "carnaval bh 2024 - bloco na rua",
-          "assets": [
-            {
-              "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/carnaval bh 2024 - bloco na rua.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "marcha ranchos/eu quero é botar meu bloco na rua/carnaval bh 2024 - bloco na rua/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "marcha ranchos"
-          ]
-        }
-      ],
-      "style": "marcha ranchos"
-    },
-    {
-      "id": "marcha-ranchos-mascara-negra-quanto-riso-oh-",
-      "title": "mascara negra (quanto riso oh)",
+      "id": "marcha-ranchos-mascara-negra",
+      "title": "mascara negra",
       "composer": "Zé Keti e Pereira Matos",
       "sub": "QUANTO RISO, OH! QUANTA ALEGRAIA! MAIS DE MIL PALHAÇOS",
       "arrangements": [
         {
-          "id": "marcha-ranchos-mascara-negra-quanto-riso-oh-carnaval-bh-2023-mascara-negra",
+          "id": "marcha-ranchos-mascara-negra-carnaval-bh-2023-mascara-negra",
           "name": "carnaval bh 2023 - mascara negra",
           "assets": [
             {
-              "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.mscz",
+              "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.metajson",
+              "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.midi",
+              "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/carnaval bh 2023 - mascara negra.midi",
               "extension": ".midi"
             }
           ],
@@ -18855,11 +18855,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/trombone.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/trombone.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18869,11 +18869,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/flauta.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/flauta.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18883,11 +18883,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/trompete.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/trompete.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18897,11 +18897,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/sax alto.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/sax alto.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18911,11 +18911,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/sax tenor.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2023 - mascara negra/sax tenor.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2023 - mascara negra/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18926,19 +18926,19 @@
           ]
         },
         {
-          "id": "marcha-ranchos-mascara-negra-quanto-riso-oh-carnaval-bh-2024-mascara-negra",
+          "id": "marcha-ranchos-mascara-negra-carnaval-bh-2024-mascara-negra",
           "name": "carnaval bh 2024 - mascara negra",
           "assets": [
             {
-              "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/carnaval bh 2024 - mascara negra.mscz",
+              "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/carnaval bh 2024 - mascara negra.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/carnaval bh 2024 - mascara negra.metajson",
+              "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/carnaval bh 2024 - mascara negra.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/carnaval bh 2024 - mascara negra.midi",
+              "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/carnaval bh 2024 - mascara negra.midi",
               "extension": ".midi"
             }
           ],
@@ -18948,11 +18948,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/trombone.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/trombone.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18962,11 +18962,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/flauta.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/flauta.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18976,11 +18976,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/trompete.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/trompete.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -18990,11 +18990,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/sax alto.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/sax alto.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -19004,11 +19004,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/sax tenor.svg",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/mascara negra (quanto riso oh)/carnaval bh 2024 - mascara negra/sax tenor.midi",
+                  "path": "marcha ranchos/mascara negra/carnaval bh 2024 - mascara negra/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -19022,25 +19022,25 @@
       "style": "marcha ranchos"
     },
     {
-      "id": "marcha-ranchos-noite-dos-mascarados-mas-e-carnaval-",
-      "title": "noite dos mascarados (mas é carnaval)",
+      "id": "marcha-ranchos-noite-dos-mascarados",
+      "title": "noite dos mascarados",
       "composer": "Chico Buarque",
       "sub": "",
       "arrangements": [
         {
-          "id": "marcha-ranchos-noite-dos-mascarados-mas-e-carnaval-carnaval-bh-2023-noite-dos-mascarados",
+          "id": "marcha-ranchos-noite-dos-mascarados-carnaval-bh-2023-noite-dos-mascarados",
           "name": "carnaval bh 2023 - noite dos mascarados",
           "assets": [
             {
-              "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.mscz",
+              "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.metajson",
+              "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.midi",
+              "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/carnaval bh 2023 - noite dos mascarados.midi",
               "extension": ".midi"
             }
           ],
@@ -19050,11 +19050,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/trombone.svg",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/trombone.midi",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -19064,11 +19064,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/flauta.svg",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/flauta.midi",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -19078,11 +19078,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/trompete.svg",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/trompete.midi",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -19092,11 +19092,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/sax alto.svg",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/sax alto.midi",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -19106,11 +19106,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/sax tenor.svg",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/noite dos mascarados (mas é carnaval)/carnaval bh 2023 - noite dos mascarados/sax tenor.midi",
+                  "path": "marcha ranchos/noite dos mascarados/carnaval bh 2023 - noite dos mascarados/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]

@@ -832,6 +832,13 @@
     }
   },
   {
+    "message": "Invalid sub for song marcha-ranchos-bloco-na-rua (bloco na rua)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/BLOCO NA RUA/CARNAVAL BH 2023 - BLOCO NA RUA/ERRADO_NA_RUA.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song marcha-ranchos-carinhoso (carinhoso)",
     "meta": {
       "sub": "",
@@ -839,24 +846,17 @@
     }
   },
   {
-    "message": "Invalid sub for song marcha-ranchos-eu-quero-e-botar-meu-bloco-na-rua (eu quero é botar meu bloco na rua)",
+    "message": "Invalid sub for song marcha-ranchos-mascara-negra (mascara negra)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "MARCHA RANCHOS/EU QUERO É BOTAR MEU BLOCO NA RUA/CARNAVAL BH 2023 - BLOCO NA RUA/ERRADO_NA_RUA.metajson"
+      "metajsonAsset": "MARCHA RANCHOS/MASCARA NEGRA/CARNAVAL BH 2023 - MASCARA NEGRA /MASCARA_NEGRA.metajson"
     }
   },
   {
-    "message": "Invalid sub for song marcha-ranchos-mascara-negra-quanto-riso-oh- (mascara negra (quanto riso oh))",
+    "message": "Invalid sub for song marcha-ranchos-noite-dos-mascarados (noite dos mascarados)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "MARCHA RANCHOS/MASCARA NEGRA (QUANTO RISO OH)/CARNAVAL BH 2023 - MASCARA NEGRA /MASCARA_NEGRA.metajson"
-    }
-  },
-  {
-    "message": "Invalid sub for song marcha-ranchos-noite-dos-mascarados-mas-e-carnaval- (noite dos mascarados (mas é carnaval))",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "MARCHA RANCHOS/NOITE DOS MASCARADOS (MAS É CARNAVAL)/CARNAVAL BH 2023 - NOITE DOS MASCARADOS/NOITE_DOS_MASCARADOS.metajson"
+      "metajsonAsset": "MARCHA RANCHOS/NOITE DOS MASCARADOS/CARNAVAL BH 2023 - NOITE DOS MASCARADOS/NOITE_DOS_MASCARADOS.metajson"
     }
   },
   {
