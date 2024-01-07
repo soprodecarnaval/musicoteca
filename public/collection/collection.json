@@ -6459,6 +6459,108 @@
       "style": "brazukas"
     },
     {
+      "id": "brazukas-como-uma-onda-no-mar",
+      "title": "como uma onda no mar",
+      "composer": "Composer",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "brazukas-como-uma-onda-no-mar-garota-2024-como-uma-onda-no-mar",
+          "name": "garota 2024 - como uma onda no mar",
+          "assets": [
+            {
+              "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/garota 2024 - como uma onda no mar.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/garota 2024 - como uma onda no mar.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/garota 2024 - como uma onda no mar.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "brazukas"
+          ]
+        }
+      ],
+      "style": "brazukas"
+    },
+    {
       "id": "brazukas-cotidiano",
       "title": "cotidiano",
       "composer": "Chico Buarque",
@@ -8684,6 +8786,112 @@
       "style": "brazukas"
     },
     {
+      "id": "brazukas-tapao-na-raba",
+      "title": "tapao na raba",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "brazukas-tapao-na-raba-garota-2024-tapao-na-raba",
+          "name": "garota 2024 - tapao na raba",
+          "assets": [
+            {
+              "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/garota 2024 - tapao na raba.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/garota 2024 - tapao na raba.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/garota 2024 - tapao na raba.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "brazukas"
+          ]
+        }
+      ],
+      "style": "brazukas"
+    },
+    {
       "id": "brazukas-tempos-modernos",
       "title": "tempos modernos",
       "composer": "",
@@ -8797,7 +9005,7 @@
       "id": "brazukas-toda-forma-de-amor",
       "title": "toda forma de amor",
       "composer": "Compositor / arranjador",
-      "sub": "EU NÃO PEDI PRA NASCER, EU NÃO NASCI PRA PERDER",
+      "sub": "",
       "arrangements": [
         {
           "id": "brazukas-toda-forma-de-amor-garota-2024-toda-forma-de-amor",
@@ -8816,82 +9024,7 @@
               "extension": ".midi"
             }
           ],
-          "parts": [
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
+          "parts": [],
           "tags": [
             "brazukas"
           ]
@@ -9295,6 +9428,108 @@
                 },
                 {
                   "path": "brazukas/voando pro pará/carnaval bh 2024 - voando pro pará/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "brazukas"
+          ]
+        }
+      ],
+      "style": "brazukas"
+    },
+    {
+      "id": "brazukas-voce-partiu-meu-coracao",
+      "title": "você partiu meu coração",
+      "composer": "Nego do Borel",
+      "sub": "VOCÊ PARTIU MEU CORAÇÃO! MAS MEU AMOR, NÃO TEM PROBLEMA. NÃO, NÃO",
+      "arrangements": [
+        {
+          "id": "brazukas-voce-partiu-meu-coracao-carnaval-bh-2020-voce-partiu-meu-coracao",
+          "name": "carnaval bh 2020 - você partiu meu coração",
+          "assets": [
+            {
+              "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/carnaval bh 2020 - você partiu meu coração.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/carnaval bh 2020 - você partiu meu coração.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/carnaval bh 2020 - você partiu meu coração.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/você partiu meu coração/carnaval bh 2020 - você partiu meu coração/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -20681,6 +20916,108 @@
       "style": "marchinhas"
     },
     {
+      "id": "marchinhas-me-da-um-dinheiro-ai",
+      "title": "me dá um dinheiro aí",
+      "composer": "Ivan Ferreira, Homero Ferreira\ne Glauco Ferreira",
+      "sub": "EI! VOCÊ AÍ! ME DÁ UM DINHEIRO AÍ! ME DÁ UM DINHEIRO AÍ!",
+      "arrangements": [
+        {
+          "id": "marchinhas-me-da-um-dinheiro-ai-carnaval-bh-2020-me-da-um-dinheiro-ai",
+          "name": "carnaval bh 2020 - me dá um dinheiro aí",
+          "assets": [
+            {
+              "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "marchinhas/me dá um dinheiro aí/carnaval bh 2020 - me dá um dinheiro aí/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "marchinhas"
+          ]
+        }
+      ],
+      "style": "marchinhas"
+    },
+    {
       "id": "marchinhas-quem-sabe-sabe",
       "title": "quem sabe, sabe",
       "composer": "Joel de Almeida e Carvalhinho",
@@ -22733,6 +23070,99 @@
                 },
                 {
                   "path": "odaras/maresia/carnaval bh 2023 - maresia/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "odaras"
+          ]
+        },
+        {
+          "id": "odaras-maresia-garota-2024-maresia",
+          "name": "garota 2024 - maresia",
+          "assets": [
+            {
+              "path": "odaras/maresia/garota 2024 - maresia/garota 2024 - maresia.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "odaras/maresia/garota 2024 - maresia/garota 2024 - maresia.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "odaras/maresia/garota 2024 - maresia/garota 2024 - maresia.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "odaras/maresia/garota 2024 - maresia/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -25037,6 +25467,210 @@
       "style": "piseiro"
     },
     {
+      "id": "rocks-california-dreamin",
+      "title": "california dreamin",
+      "composer": "John & Michelle Phillips",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "rocks-california-dreamin-garota-2024-california-dreamin",
+          "name": "garota 2024 - california dreamin",
+          "assets": [
+            {
+              "path": "rocks/california dreamin/garota 2024 - california dreamin/garota 2024 - california dreamin.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "rocks/california dreamin/garota 2024 - california dreamin/garota 2024 - california dreamin.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "rocks/california dreamin/garota 2024 - california dreamin/garota 2024 - california dreamin.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "rocks"
+          ]
+        }
+      ],
+      "style": "rocks"
+    },
+    {
+      "id": "rocks-california-gurls",
+      "title": "california gurls",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "rocks-california-gurls-garota-2024-california-gurls",
+          "name": "garota 2024 - california gurls",
+          "assets": [
+            {
+              "path": "rocks/california gurls/garota 2024 - california gurls/garota 2024 - california gurls.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "rocks/california gurls/garota 2024 - california gurls/garota 2024 - california gurls.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "rocks/california gurls/garota 2024 - california gurls/garota 2024 - california gurls.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/california gurls/garota 2024 - california gurls/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "rocks"
+          ]
+        }
+      ],
+      "style": "rocks"
+    },
+    {
       "id": "rocks-californication",
       "title": "californication",
       "composer": "",
@@ -25083,10 +25717,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/californication/garota 2024 - californication/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "rocks/californication/garota 2024 - californication/flauta.midi",
                   "extension": ".midi"
                 }
@@ -25096,10 +25726,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "rocks/californication/garota 2024 - californication/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "rocks/californication/garota 2024 - californication/trompete.svg",
                   "extension": ".svg"
