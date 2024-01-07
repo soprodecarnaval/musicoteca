@@ -208,13 +208,13 @@
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="4054.54,658.709 4085.74,658.709"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="2322.38,658.709 2353.58,658.709"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="1251.46,658.709 1282.66,658.709"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="3831.28,1359.11 3862.48,1359.11"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="3631.25,1359.11 3662.45,1359.11"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="777.143,1359.11 808.343,1359.11"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="4046.37,1359.11 4077.57,1359.11"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="777.143,1359.11 808.343,1359.11"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="3631.25,1359.11 3662.45,1359.11"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="3831.28,1359.11 3862.48,1359.11"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="1553.59,1359.11 1584.79,1359.11"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="2338.25,2080.53 2369.45,2080.53"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="2988,2080.53 3019.2,2080.53"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="1579.85,2080.53 1611.05,2080.53"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="2988,2080.53 3019.2,2080.53"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="5.85" stroke-linejoin="bevel" points="2338.25,2080.53 2369.45,2080.53"/>
 <path class="NoteDot" transform="matrix(1.56,0,0,1.56,3003.92,439.308)" d="M0,0 C0,2.76563 2.23438,5 5,5 C7.76563,5 10,2.76563 10,0 C10,-2.76563 7.76563,-5 5,-5 C2.23438,-5 0,-2.76563 0,0"/>
 </svg>
