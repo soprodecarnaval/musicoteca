@@ -1,19 +1,19 @@
 {
     "composer": "Arr: Felipe Reinhold",
-    "duration": 104,
+    "duration": 88,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -1,
+    "keysig": 0,
     "lyrics": "",
-    "measures": 24,
+    "measures": 21,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "true",
         "width": 297
     },
-    "pages": 5,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 0,
