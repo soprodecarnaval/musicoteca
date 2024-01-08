@@ -25,6 +25,11 @@ export type SongArrangement = {
   song: Song;
 };
 
+export type SongArrangementSection = {
+  title: string;
+  songArrangements: SongArrangement[];
+};
+
 export type Tag = string;
 export type Style = Tag;
 

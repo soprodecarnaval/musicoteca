@@ -11,7 +11,7 @@ import {
   CloseButton,
 } from "react-bootstrap";
 import { useState } from "react";
-import { Instrument, SongArrangement } from "../types";
+import { Instrument, SongArrangement, SongArrangementSection } from "../types";
 import { createSongBook } from "../createSongBook";
 
 const instruments: Instrument[] = [
@@ -31,6 +31,30 @@ const instruments: Instrument[] = [
 interface PdfGeneratorProps {
   songArrangements: SongArrangement[];
 }
+
+// GUS-TODO: sort sections alphabetically feature
+// GUS-TODO: sort songs alphabetically feature
+// GUS-TODO: persist songbook
+
+// GUS-TODO: apply carnival section order feature
+const sectionOrder = [
+  "marchinhas", // 14
+  "beagá", // 9
+  "fanfarras", // 8
+  "pagodes", // 6
+  "odaras", // 7
+  "marcha ranchos", // 7
+  "latinas", // 5
+  "piseiro",
+
+  "axés", // 15
+  "funks", // 14
+  "sambas", // 13
+  "brazukas", // 11
+  "frevos", // 4
+  "forrós", // 4
+  "technohell", // 3
+];
 
 const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
   const [songbookTitle, setTitle] = useState("");
@@ -91,10 +115,23 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       alert("Digite um título para o caderninho!");
       return;
     }
+    const sectionMap = new Map<string, SongArrangementSection>();
+    songArrangements.forEach((sa: SongArrangement) => {
+      const title = sa.song.style;
+      if (sectionMap.has(title)) {
+        const section = sectionMap.get(title);
+        section?.songArrangements.push(sa);
+      } else {
+        sectionMap.set(title, {
+          title,
+          songArrangements: [sa],
+        });
+      }
+    });
     const songbooks: any[] = selectedInstruments.map((instrument) => {
       createSongBook({
         instrument,
-        songArrangements,
+        sections: Array.from(sectionMap.values()),
         title: songbookTitle,
         coverImageUrl: songbookImg.imgUrl,
         carnivalMode,

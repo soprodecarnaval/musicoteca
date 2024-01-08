@@ -1,5 +1,5 @@
 import SVGtoPDF from "svg-to-pdfkit";
-import { Instrument, SongArrangement } from "./types";
+import { Instrument, SongArrangement, SongArrangementSection } from "./types";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
@@ -10,29 +10,10 @@ const cm2pt = 28.3465;
 const pageWidth = 18 * cm2pt;
 const pageHeight = 13 * cm2pt;
 
-const stylesOrder = [
-  "marchinhas", // 14
-  "beagá", // 9
-  "fanfarras", // 8
-  "pagodes", // 6
-  "odaras", // 7
-  "marcha ranchos", // 7
-  "latinas", // 5
-  "piseiro",
-
-  "axés", // 15
-  "funks", // 14
-  "sambas", // 13
-  "brazukas", // 11
-  "frevos", // 4
-  "forrós", // 4
-  "technohell", // 3
-];
-
 export interface CreateSongBookOptions {
   title: string;
   instrument: Instrument;
-  songArrangements: SongArrangement[];
+  sections: SongArrangementSection[];
   coverImageUrl: string;
   backSheetPageNumber: boolean;
   carnivalMode: boolean;
@@ -40,8 +21,7 @@ export interface CreateSongBookOptions {
 
 export const createSongBook = async (opts: CreateSongBookOptions) => {
   const doc = createDoc();
-  const { title, instrument, songArrangements, coverImageUrl, carnivalMode } =
-    opts;
+  const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
   if (carnivalMode) {
     await drawImage(doc, "assets/capa_2024.jpeg", 0);
     doc
@@ -82,11 +62,10 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     await drawImage(doc, "assets/anti_assedio_2024_3.png", 10);
   }
 
-  let styles = new Set(songArrangements.map(({ song }) => song.style));
   const { outline } = doc;
-  styles.forEach((style) => {
-    let topItem = outline.addItem(style.toUpperCase());
-    stylesOutlines.set(style, topItem);
+  sections.forEach(({ title }) => {
+    let topItem = outline.addItem(title.toUpperCase());
+    sectionTitleOutlines.set(title, topItem);
   });
   const promises = reorderedSongs.map((song, songIdx) => {
     return addSongPage(doc, song, songIdx + 1, opts);
@@ -99,27 +78,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   }
 };
 
-const sortStyles = (a: string, b: string) => {
-  if (stylesOrder.indexOf(a) < stylesOrder.indexOf(b)) {
-    return -1;
-  } else if (stylesOrder.indexOf(a) > stylesOrder.indexOf(b)) {
-    return 1;
-  } else {
-    return 0;
-  }
-};
-
-const sortSongs = (a: SongArrangement, b: SongArrangement) => {
-  if (a.song.title < b.song.title) {
-    return -1;
-  } else if (a.song.title > b.song.title) {
-    return 1;
-  } else {
-    return 0;
-  }
-};
-
-let stylesOutlines = new Map();
+let sectionTitleOutlines = new Map();
 
 const a = document.createElement("a");
 document.body.appendChild(a);
@@ -230,7 +189,7 @@ const addSongPage = (
       }); // Título do verso
   }
   doc.addPage();
-  stylesOutlines.get(song.style).addItem(song.title.toUpperCase());
+  sectionTitleOutlines.get(song.style).addItem(song.title.toUpperCase());
   doc
     .font("Helvetica-Bold")
     .fontSize(22)
@@ -278,14 +237,16 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { songArrangements, carnivalMode }: CreateSongBookOptions
+  { sections, carnivalMode }: CreateSongBookOptions
 ) => {
-  const songsCount = songArrangements.length;
-  const styles = new Set(songArrangements.map(({ song }) => song.style));
-  const stylesCount = styles.size;
+  const totalSongCount = sections.reduce(
+    (acc, { songArrangements }) => acc + songArrangements.length,
+    0
+  );
+  const sectionCount = sections.length;
   const containerWidth = 17.17 * cm2pt;
   const containerHeight = 11 * cm2pt;
-  let totalLineCount = carnivalMode ? 76 : songsCount + stylesCount * 2;
+  let totalLineCount = carnivalMode ? 76 : totalSongCount + sectionCount * 2;
 
   let columnCount = 1;
   if (totalLineCount > 80) {
@@ -334,16 +295,11 @@ const addIndexPage = (
   // .fontSize(25)
   // .font("Helvetica-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
-  let sortStyleFunc = carnivalMode ? sortStyles : undefined;
-  [...styles].sort(sortStyleFunc).forEach((style, styleIdx) => {
-    let filteredSongs = songArrangements.filter(
-      ({ song }) => song.style == style
-    );
-
+  sections.forEach(({ title, songArrangements }, styleIdx) => {
     if (carnivalMode) {
       if (
         firstPage &&
-        songCount + (styleIdx + 1) * 2 + filteredSongs.length + 2 >
+        songCount + (styleIdx + 1) * 2 + songArrangements.length + 2 >
           totalLineCount
       ) {
         firstPage = false;
@@ -353,7 +309,7 @@ const addIndexPage = (
       }
     }
 
-    filteredSongs.sort(sortSongs).forEach((songArrangement, songIdx) => {
+    songArrangements.forEach((songArrangement, songIdx) => {
       reorderedSongs.push(songArrangement);
       if (songIdx == 0) {
         if (currentLine == maxLinesPerColumn)
@@ -361,7 +317,7 @@ const addIndexPage = (
         doc
           .font("Helvetica-Bold")
           .fontSize(fontSize - 2)
-          .text(`${style.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
+          .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
         [currentX, currentY] = nextCursorPosition();
       }
       doc
