@@ -378,10 +378,10 @@
     }
   },
   {
-    "message": "Invalid sub for song brazukas-nao-quero-dinheiro-so-quero-amar- (não quero dinheiro (só quero amar))",
+    "message": "Invalid sub for song brazukas-nao-quero-dinheiro (não quero dinheiro)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "BRAZUKAS/NÃO QUERO DINHEIRO (SÓ QUERO AMAR)/CARNAVAL BH 2023 - NÃO QUERO DINHEIRO /NÃO_QUERO_DINHEIRO.metajson"
+      "metajsonAsset": "BRAZUKAS/NÃO QUERO DINHEIRO/CARNAVAL BH 2023 - NÃO QUERO DINHEIRO /NÃO_QUERO_DINHEIRO.metajson"
     }
   },
   {

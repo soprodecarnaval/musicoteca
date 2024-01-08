@@ -7966,25 +7966,25 @@
       "style": "brazukas"
     },
     {
-      "id": "brazukas-nao-quero-dinheiro-so-quero-amar-",
-      "title": "não quero dinheiro (só quero amar)",
+      "id": "brazukas-nao-quero-dinheiro",
+      "title": "não quero dinheiro",
       "composer": "Tim Maia",
       "sub": "VOU PEDIR PRA VOCÊ FICAR. VOU PEDIR PRA VOCÊ VOLTAR. EU TE AMO. EU TE QUERO BEM",
       "arrangements": [
         {
-          "id": "brazukas-nao-quero-dinheiro-so-quero-amar-carnaval-bh-2023-nao-quero-dinheiro",
+          "id": "brazukas-nao-quero-dinheiro-carnaval-bh-2023-nao-quero-dinheiro",
           "name": "carnaval bh 2023 - não quero dinheiro",
           "assets": [
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.mscz",
+              "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.metajson",
+              "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.midi",
+              "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/carnaval bh 2023 - não quero dinheiro.midi",
               "extension": ".midi"
             }
           ],
@@ -7994,11 +7994,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/trombone.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/trombone.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8008,11 +8008,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/flauta.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/flauta.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8022,11 +8022,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/trompete.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/trompete.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8036,11 +8036,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/sax alto.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/sax alto.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8050,11 +8050,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/sax tenor.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2023 - não quero dinheiro/sax tenor.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2023 - não quero dinheiro/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8065,19 +8065,19 @@
           ]
         },
         {
-          "id": "brazukas-nao-quero-dinheiro-so-quero-amar-carnaval-bh-2024-nao-quero-dinheiro",
+          "id": "brazukas-nao-quero-dinheiro-carnaval-bh-2024-nao-quero-dinheiro",
           "name": "carnaval bh 2024 - não quero dinheiro",
           "assets": [
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.mscz",
+              "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.metajson",
+              "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.midi",
+              "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/carnaval bh 2024 - não quero dinheiro.midi",
               "extension": ".midi"
             }
           ],
@@ -8087,11 +8087,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/trombone.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/trombone.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8101,11 +8101,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/flauta.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/flauta.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8115,11 +8115,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/trompete.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/trompete.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8129,11 +8129,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/sax alto.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/sax alto.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -8143,11 +8143,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/sax tenor.svg",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/não quero dinheiro (só quero amar)/carnaval bh 2024 - não quero dinheiro/sax tenor.midi",
+                  "path": "brazukas/não quero dinheiro/carnaval bh 2024 - não quero dinheiro/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
