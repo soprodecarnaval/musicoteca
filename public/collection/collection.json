@@ -1393,25 +1393,25 @@
       "style": "axés"
     },
     {
-      "id": "axes-beleza-rara-hoje-sou-feliz-e-canto-",
-      "title": "beleza rara (hoje sou feliz e canto)",
+      "id": "axes-beleza-rara",
+      "title": "beleza rara",
       "composer": "Banda Eva",
       "sub": "EU NÃO POSSO DEIXAR QUE O TEMPO TE LEVE JAMAIS PARA LONGE DE MIM",
       "arrangements": [
         {
-          "id": "axes-beleza-rara-hoje-sou-feliz-e-canto-carnaval-bh-2023-beleza-rara",
+          "id": "axes-beleza-rara-carnaval-bh-2023-beleza-rara",
           "name": "carnaval bh 2023 - beleza rara",
           "assets": [
             {
-              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.mscz",
+              "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.metajson",
+              "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.midi",
+              "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/carnaval bh 2023 - beleza rara.midi",
               "extension": ".midi"
             }
           ],
@@ -1421,11 +1421,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/trombone.svg",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/trombone.midi",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1435,11 +1435,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/flauta.svg",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/flauta.midi",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1449,11 +1449,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/trompete.svg",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/trompete.midi",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1463,11 +1463,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/sax alto.svg",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/sax alto.midi",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1477,11 +1477,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/sax tenor.svg",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2023 - beleza rara/sax tenor.midi",
+                  "path": "axés/beleza rara/carnaval bh 2023 - beleza rara/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1492,19 +1492,19 @@
           ]
         },
         {
-          "id": "axes-beleza-rara-hoje-sou-feliz-e-canto-carnaval-bh-2024-beleza-rara",
+          "id": "axes-beleza-rara-carnaval-bh-2024-beleza-rara",
           "name": "carnaval bh 2024 - beleza rara",
           "assets": [
             {
-              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.mscz",
+              "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.metajson",
+              "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.midi",
+              "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/carnaval bh 2024 - beleza rara.midi",
               "extension": ".midi"
             }
           ],
@@ -1514,11 +1514,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trombone.svg",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trombone.midi",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1528,11 +1528,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/flauta.svg",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/flauta.midi",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1542,11 +1542,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trompete.svg",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/trompete.midi",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1556,11 +1556,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax alto.svg",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax alto.midi",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -1570,11 +1570,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax tenor.svg",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/beleza rara (hoje sou feliz e canto)/carnaval bh 2024 - beleza rara/sax tenor.midi",
+                  "path": "axés/beleza rara/carnaval bh 2024 - beleza rara/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
