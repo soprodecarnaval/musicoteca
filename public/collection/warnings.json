@@ -56,6 +56,13 @@
     }
   },
   {
+    "message": "Inconsistent composer for song axes-beija-flor (beija flor)",
+    "meta": {
+      "song": "Xexeu e Ze Raimundo(Timbalada)",
+      "arr": "Timbalada"
+    }
+  },
+  {
     "message": "Invalid sub for song axes-beijo-na-boca (beijo na boca)",
     "meta": {
       "sub": "",
@@ -182,6 +189,13 @@
     }
   },
   {
+    "message": "Inconsistent composer for song axes-vem-meu-amor (vem meu amor)",
+    "meta": {
+      "song": "Guio Rodrigues e Silvio (Banda Eva)",
+      "arr": "Banda Eva"
+    }
+  },
+  {
     "message": "Invalid sub for song beaga-aflorou (aflorou)",
     "meta": {
       "sub": "",
@@ -280,6 +294,13 @@
     }
   },
   {
+    "message": "Inconsistent composer for song brazukas-abra-suas-asas (abra suas asas)",
+    "meta": {
+      "song": "Composer",
+      "arr": "AS FRENÉTICAS"
+    }
+  },
+  {
     "message": "Invalid sub for song brazukas-chuva-suor-e-cerveja (chuva suor e cerveja)",
     "meta": {
       "sub": "",
@@ -312,6 +333,20 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "BRAZUKAS/FE CEGA FACA AMOLADA/CARNAVAL BH 2023 - FE CEGA FACA AMOLADA/FE CEGA FACA AMOLADA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song brazukas-forasteiro (forasteiro)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "BRAZUKAS/FORASTEIRO/CARNAVAL BH 2024 - FORASTEIRO/FORASTEIRO.metajson"
+    }
+  },
+  {
+    "message": "Inconsistent composer for song brazukas-forasteiro (forasteiro)",
+    "meta": {
+      "song": "BaianaSystem",
+      "arr": "BAIANASYSTEM"
     }
   },
   {
@@ -497,6 +532,13 @@
     }
   },
   {
+    "message": "Inconsistent composer for song fanfarras-soul-finger (soul finger)",
+    "meta": {
+      "song": "The Bar-Kays\n",
+      "arr": ""
+    }
+  },
+  {
     "message": "Invalid sub for song fanfarras-soul-finger (soul finger)",
     "meta": {
       "sub": "",
@@ -636,6 +678,13 @@
     }
   },
   {
+    "message": "Inconsistent composer for song funks-cheguei (cheguei)",
+    "meta": {
+      "song": "Wallace Vianna e Andŕe Vieira (Ludmila)",
+      "arr": "Ludmila"
+    }
+  },
+  {
     "message": "Invalid sub for song funks-din-din-din (din din din)",
     "meta": {
       "sub": "",
@@ -654,6 +703,13 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "FUNKS/FEIRA DE ACARI/CARNAVAL BH 2023 - FEIRA DE ACARI/FEIRA_DE_ACARI.metajson"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song funks-glamurosa (glamurosa)",
+    "meta": {
+      "song": "GLAMUROSA, RAINHA DO FUNK. PODEROSA, OLHAR DE DIAMANTE",
+      "arr": "GLAMUROSA, RAINHA DO FUNK"
     }
   },
   {
@@ -1133,13 +1189,6 @@
     }
   },
   {
-    "message": "Invalid sub for song sambas-nao-deixe-o-samba-morrer (não deixe o samba morrer)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "SAMBAS/NÃO DEIXE O SAMBA MORRER/CARNAVAL BH 2024 - NÃO DEIXE O SAMBA MORRER/NÃO_DEIXE_O_SAMBA_MORRER.metajson"
-    }
-  },
-  {
     "message": "Invalid sub for song sambas-o-morro-nao-tem-vez (o morro não tem vez)",
     "meta": {
       "sub": "",
@@ -1158,13 +1207,6 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "SAMBAS/RETALHOS DE CETIM/CARNAVAL BH 2023 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.metajson"
-    }
-  },
-  {
-    "message": "Invalid sub for song sambas-retalhos-de-cetim (retalhos de cetim)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "SAMBAS/RETALHOS DE CETIM/CARNAVAL BH 2024 - RETALHOS DE CETIM/RETALHOS_DE_CETIM.metajson"
     }
   },
   {
