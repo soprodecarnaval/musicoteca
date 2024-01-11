@@ -63,18 +63,23 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   }
 
   const { outline } = doc;
+  let promises: Promise<any>[] = [];
+  let pageNumber = 0;
   for (const { title, songArrangements } of sections) {
     let topItem = outline.addItem(title.toUpperCase());
     sectionTitleOutlines.set(title, topItem);
 
-    const promises = songArrangements.map((song, songIdx) => {
-      return addSongPage(doc, song, songIdx + 1, title, opts);
-    });
-    const nonNullPromises = promises.filter((promise) => promise !== null);
-    if (nonNullPromises.length > 0) {
-      await Promise.all(nonNullPromises);
-      download(doc, createFileName(opts));
-    }
+    promises.push(
+      ...songArrangements.map((song) => {
+        pageNumber++;
+        return addSongPage(doc, song, pageNumber, title, opts);
+      })
+    );
+  }
+  const nonNullPromises = promises.filter((promise) => promise !== null);
+  if (nonNullPromises.length > 0) {
+    await Promise.all(nonNullPromises);
+    download(doc, createFileName(opts));
   }
 };
 
@@ -105,6 +110,7 @@ const drawSvg = async (
     const resp = await fetch(url);
     const svg = await resp.text();
     let pdfPage = carnivalMode ? 2 * page + 10 : page + 1;
+    console.log(pdfPage);
     doc.switchToPage(pdfPage);
     const width = 17.17 * cm2pt;
     const height = 9.82 * cm2pt;
@@ -216,10 +222,15 @@ const addSongPage = async (
     .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
   doc
     .fontSize(9)
-    .text(`${song.style.toUpperCase()}   ${page}`, 0.44 * cm2pt, 12.5 * cm2pt, {
-      align: "right",
-      width: 17.1 * cm2pt,
-    }); // Estilo + Número
+    .text(
+      `${sectionTitle.toUpperCase()}   ${page}`,
+      0.44 * cm2pt,
+      12.5 * cm2pt,
+      {
+        align: "right",
+        width: 17.1 * cm2pt,
+      }
+    ); // Estilo + Número
   // TODO: Pensar em quando tiver mais de um arranjo
   let svgUrl = "";
   try {

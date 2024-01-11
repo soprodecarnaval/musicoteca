@@ -63,6 +63,7 @@ const sectionOrder = [
 ];
 
 const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
+  console.log("songBookRows", songBookRows);
   const songArrangements = songBookRows.filter(
     (r: SongBookRow) => !isSongBookRowSection(r)
   ) as SongArrangement[];
@@ -125,6 +126,7 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
       alert("Digite um título para o caderninho!");
       return;
     }
+
     // Create sections from songbook rows
     const sections: SongArrangementSection[] = [];
     let currentSection: SongArrangementSection | null = null;
@@ -147,10 +149,8 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
         currentSection.songArrangements.push(row);
       }
     }
-    // add last section
-    if (currentSection && currentSection.songArrangements.length > 0) {
-      sections.push(currentSection);
-    }
+
+    console.log(sections);
 
     // TODO: add button to autogenerate sections in UI
     // songArrangements.forEach((sa: SongArrangement) => {
