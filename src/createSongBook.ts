@@ -49,7 +49,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   }
 
   if (carnivalMode) doc.addPage();
-  let reorderedSongs = addIndexPage(doc, opts);
+  addIndexPage(doc, opts);
 
   if (carnivalMode) {
     doc.addPage();
@@ -63,18 +63,18 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   }
 
   const { outline } = doc;
-  sections.forEach(({ title }) => {
+  for (const { title, songArrangements } of sections) {
     let topItem = outline.addItem(title.toUpperCase());
     sectionTitleOutlines.set(title, topItem);
-  });
-  const promises = reorderedSongs.map((song, songIdx) => {
-    return addSongPage(doc, song, songIdx + 1, opts);
-  });
 
-  const nonNullPromises = promises.filter((promise) => promise !== null);
-  if (nonNullPromises.length > 0) {
-    await Promise.all(nonNullPromises);
-    download(doc, createFileName(opts));
+    const promises = songArrangements.map((song, songIdx) => {
+      return addSongPage(doc, song, songIdx + 1, title, opts);
+    });
+    const nonNullPromises = promises.filter((promise) => promise !== null);
+    if (nonNullPromises.length > 0) {
+      await Promise.all(nonNullPromises);
+      download(doc, createFileName(opts));
+    }
   }
 };
 
@@ -95,26 +95,27 @@ const download = (doc: any, file_name: string) => {
   doc.end();
 };
 
-const drawSvg = (
+const drawSvg = async (
   doc: any,
   url: string,
   page: number,
   carnivalMode: boolean
 ) => {
-  return fetch(url)
-    .then((r) => r.text())
-    .then((svg) => {
-      let pdfPage = carnivalMode ? 2 * page + 10 : page + 1;
-      doc.switchToPage(pdfPage);
-      const width = 17.17 * cm2pt;
-      const height = 9.82 * cm2pt;
-      SVGtoPDF(doc, svg, 0.44 * cm2pt, 2.55 * cm2pt, {
-        width: width,
-        height: height,
-        preserveAspectRatio: `${width}x${height}`,
-      });
-    })
-    .catch(console.error.bind(console));
+  try {
+    const resp = await fetch(url);
+    const svg = await resp.text();
+    let pdfPage = carnivalMode ? 2 * page + 10 : page + 1;
+    doc.switchToPage(pdfPage);
+    const width = 17.17 * cm2pt;
+    const height = 9.82 * cm2pt;
+    SVGtoPDF(doc, svg, 0.44 * cm2pt, 2.55 * cm2pt, {
+      width: width,
+      height: height,
+      preserveAspectRatio: `${width}x${height}`,
+    });
+  } catch (e) {
+    console.error(e);
+  }
 };
 
 const loadImage = (url: string) => {
@@ -164,10 +165,11 @@ const createDoc = () => {
   });
 };
 
-const addSongPage = (
+const addSongPage = async (
   doc: any,
   { song, arrangement }: SongArrangement,
   page: number,
+  sectionTitle: string,
   { instrument, backSheetPageNumber, carnivalMode }: CreateSongBookOptions
 ) => {
   if (backSheetPageNumber) {
@@ -189,7 +191,7 @@ const addSongPage = (
       }); // Título do verso
   }
   doc.addPage();
-  sectionTitleOutlines.get(song.style).addItem(song.title.toUpperCase());
+  sectionTitleOutlines.get(sectionTitle).addItem(song.title.toUpperCase());
   doc
     .font("Helvetica-Bold")
     .fontSize(22)

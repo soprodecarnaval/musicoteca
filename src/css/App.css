@@ -5,3 +5,10 @@
 .results {
   margin-bottom: 1em;
 }
+
+.section-title {
+  font-weight: 600;
+  margin-bottom: 0.5em;
+  --bs-table-bg: darkgray;
+  --bs-table-color-state: white;
+}

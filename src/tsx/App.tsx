@@ -4,26 +4,30 @@ import { Col, Container, Navbar, Row, Badge } from "react-bootstrap";
 import { Sort } from "./Sort";
 import { SearchBar } from "./SearchBar";
 import { ArrangementsTable } from "./ArrangementsTable";
-import { ChosenArrangementsTable } from "./ChosenArrangementsTable";
+import { SongBookTable } from "./SongBookTable";
 import { PDFGenerator } from "./PdfGenerator";
 import { sortByColumn } from "./helper/sorter";
 import { SongBar } from "./SongBar";
 import { AddAllSongsButton } from "./AddAllSongsButton";
 
-import type { PlayingSong, SongArrangement } from "../types";
+import {
+  isSongBookRowSection,
+  type PlayingSong,
+  type SongArrangement,
+  type SongBookRow,
+} from "../types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";
 
 function App() {
   const [results, setResults] = useState<SongArrangement[]>([]);
-  const [selectedResults, setSelectedResults] = useState<SongArrangement[]>([]);
+  const [songBookRows, setSongBookRows] = useState<SongBookRow[]>([]);
   const [playingSong, setPlayingSong] = useState<PlayingSong>({
     songName: "",
     arrangementName: "",
     partName: "",
   });
-
   const handleSelectSong = (
     songArrangement: SongArrangement,
     checked: boolean
@@ -34,11 +38,11 @@ function App() {
   };
 
   const clearSelected = () => {
-    setSelectedResults([]);
+    setSongBookRows([]);
   };
 
   const handleAddSong = (songArrangement: SongArrangement) => {
-    setSelectedResults([...selectedResults, songArrangement]);
+    setSongBookRows([...songBookRows, songArrangement]);
     const updatedRes = results.filter(
       (r) => r.arrangement.id !== songArrangement.arrangement.id
     );
@@ -47,16 +51,37 @@ function App() {
   };
 
   const handleRemoveSong = (songArrangement: SongArrangement) => {
-    const updatedRes = selectedResults.filter(
-      (r) => r.arrangement.id !== songArrangement.arrangement.id
+    const updatedRes = songBookRows.filter(
+      (r) =>
+        isSongBookRowSection(r) ||
+        r.arrangement.id !== songArrangement.arrangement.id
     );
+
     setResults([songArrangement, ...results]);
-    setSelectedResults(updatedRes);
+    setSongBookRows(updatedRes);
   };
 
-  const handleSelectedResultsSortBy = (column: string, direction: string) => {
-    const sorted = sortByColumn(selectedResults, column, direction);
-    setSelectedResults(sorted.slice());
+  const handleSongBookRowsSortBy = (column: string, direction: string) => {
+    // sort slices of songs delimited by sections
+    const sorted = [];
+    let slice = [];
+    for (const row of songBookRows) {
+      if (isSongBookRowSection(row)) {
+        if (slice.length > 0) {
+          sorted.push(...sortByColumn(slice, column, direction));
+        }
+        sorted.push(row);
+        slice = [];
+      } else {
+        slice.push(row);
+      }
+    }
+    // sort last slice
+    if (slice.length > 0) {
+      sorted.push(...sortByColumn(slice, column, direction));
+    }
+
+    setSongBookRows(sorted);
   };
 
   const handleResultsSortBy = (column: string, direction: string) => {
@@ -65,11 +90,21 @@ function App() {
   };
 
   const handleAddAllSongs = () => {
-    const newSelectedResults = [...selectedResults, ...results]
-    const newUniqueSelectedResults = newSelectedResults.filter((obj, index) => {
-      return index === newSelectedResults.findIndex((o) => obj.arrangement.id === o.arrangement.id);
+    const newSongBookRows = [...songBookRows, ...results];
+    const newUniqueSelectedResults = newSongBookRows.filter((row, index) => {
+      return (
+        // include sections
+        isSongBookRowSection(row) ||
+        // include first occurrence of song
+        index ===
+          newSongBookRows.findIndex(
+            (o) =>
+              !isSongBookRowSection(o) &&
+              row.arrangement.id === o.arrangement.id
+          )
+      );
     });
-    setSelectedResults(newUniqueSelectedResults);
+    setSongBookRows(newUniqueSelectedResults);
     setResults([]);
   };
 
@@ -93,7 +128,7 @@ function App() {
             <SearchBar handleResults={setResults} />
           </Col>
           <Col sm={6}>
-            <PDFGenerator songArrangements={selectedResults} />
+            <PDFGenerator songBookRows={songBookRows} />
           </Col>
         </Row>
         <SongBar info={playingSong} />
@@ -106,9 +141,12 @@ function App() {
                   <Col sm="6">
                     <Sort onSortBy={handleResultsSortBy} />
                   </Col>
-                  <Col sm="2"/>
+                  <Col sm="2" />
                   <Col sm="4">
-                    <AddAllSongsButton count={results.length} onAddAllSongs={handleAddAllSongs} />
+                    <AddAllSongsButton
+                      count={results.length}
+                      onAddAllSongs={handleAddAllSongs}
+                    />
                   </Col>
                 </Row>
                 <ArrangementsTable
@@ -120,27 +158,26 @@ function App() {
             )}
           </Col>
           <Col sm={6}>
-            {(selectedResults.length > 0 || results.length > 0) && (
-              <>
-                <h3 className="results">Resultados selecionados</h3>
-                <Row>
-                  <Col sm="4">
-                    <Sort onSortBy={handleSelectedResultsSortBy} />
-                  </Col>
-                  <Col sm="8">
-                    <Badge pill bg="info">
-                      Total: {selectedResults.length}
-                    </Badge>
-                  </Col>
-                </Row>
-                <ChosenArrangementsTable
-                  songArrangements={selectedResults}
-                  handlePlayingSong={setPlayingSong}
-                  handleSelect={handleSelectSong}
-                  handleClear={clearSelected}
-                />
-              </>
-            )}
+            <>
+              <h3 className="results">Resultados selecionados</h3>
+              <Row>
+                <Col sm="4">
+                  <Sort onSortBy={handleSongBookRowsSortBy} />
+                </Col>
+                <Col sm="8">
+                  <Badge pill bg="info">
+                    Total: {songBookRows.length}
+                  </Badge>
+                </Col>
+              </Row>
+              <SongBookTable
+                rows={songBookRows}
+                setRows={setSongBookRows}
+                handlePlayingSong={setPlayingSong}
+                handleSelect={handleSelectSong}
+                handleClear={clearSelected}
+              />
+            </>
           </Col>
         </Row>
       </Container>
