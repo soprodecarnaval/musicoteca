@@ -38,32 +38,8 @@ interface PdfGeneratorProps {
   songBookRows: SongBookRow[];
 }
 
-// GUS-TODO: sort sections alphabetically feature
-// GUS-TODO: sort songs alphabetically feature
 // GUS-TODO: persist songbook
-
-// GUS-TODO: apply carnival section order feature
-const sectionOrder = [
-  "marchinhas", // 14
-  "beagá", // 9
-  "fanfarras", // 8
-  "pagodes", // 6
-  "odaras", // 7
-  "marcha ranchos", // 7
-  "latinas", // 5
-  "piseiro",
-
-  "axés", // 15
-  "funks", // 14
-  "sambas", // 13
-  "brazukas", // 11
-  "frevos", // 4
-  "forrós", // 4
-  "technohell", // 3
-];
-
 const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
-  console.log("songBookRows", songBookRows);
   const songArrangements = songBookRows.filter(
     (r: SongBookRow) => !isSongBookRowSection(r)
   ) as SongArrangement[];

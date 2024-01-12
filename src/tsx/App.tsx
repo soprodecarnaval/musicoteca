@@ -61,29 +61,6 @@ function App() {
     setSongBookRows(updatedRes);
   };
 
-  const handleSongBookRowsSortBy = (column: string, direction: string) => {
-    // sort slices of songs delimited by sections
-    const sorted = [];
-    let slice = [];
-    for (const row of songBookRows) {
-      if (isSongBookRowSection(row)) {
-        if (slice.length > 0) {
-          sorted.push(...sortByColumn(slice, column, direction));
-        }
-        sorted.push(row);
-        slice = [];
-      } else {
-        slice.push(row);
-      }
-    }
-    // sort last slice
-    if (slice.length > 0) {
-      sorted.push(...sortByColumn(slice, column, direction));
-    }
-
-    setSongBookRows(sorted);
-  };
-
   const handleResultsSortBy = (column: string, direction: string) => {
     const sorted = sortByColumn(results, column, direction);
     setResults(sorted.slice());
@@ -159,17 +136,7 @@ function App() {
           </Col>
           <Col sm={6}>
             <>
-              <h3 className="results">Resultados selecionados</h3>
-              <Row>
-                <Col sm="4">
-                  <Sort onSortBy={handleSongBookRowsSortBy} />
-                </Col>
-                <Col sm="8">
-                  <Badge pill bg="info">
-                    Total: {songBookRows.length}
-                  </Badge>
-                </Col>
-              </Row>
+              <h3 className="results">Caderninho</h3>
               <SongBookTable
                 rows={songBookRows}
                 setRows={setSongBookRows}

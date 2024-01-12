@@ -1,4 +1,13 @@
-import { Button, Col, Form, Row, Table } from "react-bootstrap";
+import {
+  Button,
+  Col,
+  Form,
+  ListGroup,
+  OverlayTrigger,
+  Row,
+  Table,
+  Tooltip,
+} from "react-bootstrap";
 
 import {
   isSongBookRowSection,
@@ -10,6 +19,15 @@ import {
 import { SongBookArrangementRow } from "./SongBookArrangementRow";
 import { SongBookSectionRow } from "./SongBookSectionRow";
 import { useState } from "react";
+import { Sort } from "./Sort";
+import {
+  carnivalSectionOrder,
+  deleteRow,
+  generateCarnivalSections,
+  generateSectionsByStyle,
+  moveRow,
+  sortSongsWithinSections,
+} from "./helper/songBookRows";
 
 interface SongBookTableProps {
   rows: SongBookRow[];
@@ -26,7 +44,7 @@ const SongBookTable = ({
   handleClear,
   handlePlayingSong,
 }: SongBookTableProps) => {
-  const [newSection, setNewSection] = useState<string>("Adicionar seção");
+  const [newSection, setNewSection] = useState<string>("");
 
   const onInputNewSection = ({ target: { value } }: any) =>
     setNewSection(value);
@@ -38,32 +56,23 @@ const SongBookTable = ({
     setNewSection("");
   };
 
-  // moves a row up or down, swapping it with the row in the new position
-  const moveRow = (idx: number, steps: number) => {
-    if (idx + steps < 0 || idx + steps >= rows.length) {
-      return;
-    }
-
-    // move the rows
-    const newRows = [...rows];
-    const temp = newRows[idx];
-    newRows[idx] = newRows[idx + steps];
-    newRows[idx + steps] = temp;
-    setRows(newRows);
-  };
-
-  const deleteRow = (idx: number) => {
-    const newRows = [...rows];
-    newRows.splice(idx, 1);
-    setRows(newRows);
-  };
+  const carnivalSectionsTooltip = (
+    <Tooltip id="tooltip">
+      Reorganiza seções como no caderninho do carnaval:
+      <ListGroup>
+        {carnivalSectionOrder.map((section) => (
+          <ListGroup.Item>{section}</ListGroup.Item>
+        ))}
+      </ListGroup>
+    </Tooltip>
+  );
 
   const renderRow = (row: SongBookRow, idx: number) => {
     if (isSongBookRowSection(row)) {
       return (
         <SongBookSectionRow
-          handleDelete={() => deleteRow(idx)}
-          handleMove={(steps) => moveRow(idx, steps)}
+          handleDelete={() => setRows(deleteRow(rows, idx))}
+          handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
           title={row}
           key={row}
         />
@@ -75,25 +84,35 @@ const SongBookTable = ({
         songArrangement={row}
         key={row.arrangement.name}
         handlePlayingSong={handlePlayingSong}
-        handleMove={(steps) => moveRow(idx, steps)}
+        handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
       />
     );
   };
 
   return (
     <>
-      <Form className="d-flex" onSubmit={onCreateSection}>
-        <Row>
-          <Col>
-            <Form.Control
-              type="text"
-              onChange={onInputNewSection}
-              value={newSection}
-              placeholder="Adicionar seção"
-            />
-          </Col>
-        </Row>
-      </Form>
+      <Row>
+        <Col sm="4">
+          <Sort
+            onSortBy={(col, dir) => sortSongsWithinSections(rows, col, dir)}
+          />
+        </Col>
+        <Col>
+          <Form className="d-flex" onSubmit={onCreateSection}>
+            <Col>
+              <Form.Control
+                type="text"
+                onChange={onInputNewSection}
+                value={newSection}
+                placeholder="Adicionar seção"
+              />
+            </Col>
+            <Col>
+              <Button onClick={onCreateSection}>+ seção</Button>
+            </Col>
+          </Form>
+        </Col>
+      </Row>
       <Table striped borderless hover>
         <thead>
           <tr>
@@ -106,8 +125,30 @@ const SongBookTable = ({
         <tbody>{rows.map((row, idx) => renderRow(row, idx))}</tbody>
       </Table>
       <Row className="mt-4">
-        <Col sm={2}>
-          <Button onClick={handleClear}>Limpar</Button>
+        <Col>
+          <p>
+            {rows.filter(isSongBookRowSection).length} seções e{" "}
+            {rows.filter((r: any) => !isSongBookRowSection(r)).length} músicas
+          </p>
+        </Col>
+        <Col>
+          <Button onClick={handleClear}>Limpar tudo</Button>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Button onClick={() => setRows(generateSectionsByStyle(rows))}>
+            Gerar seções por estilo
+          </Button>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <OverlayTrigger placement="left" overlay={carnivalSectionsTooltip}>
+            <Button onClick={() => setRows(generateCarnivalSections(rows))}>
+              Aplicar ordenação do carnaval
+            </Button>
+          </OverlayTrigger>
         </Col>
       </Row>
     </>
