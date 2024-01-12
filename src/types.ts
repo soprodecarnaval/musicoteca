@@ -25,6 +25,11 @@ export type SongArrangement = {
   song: Song;
 };
 
+export type SongArrangementSection = {
+  title: string;
+  songArrangements: SongArrangement[];
+};
+
 export type Tag = string;
 export type Style = Tag;
 
@@ -56,4 +61,13 @@ export type PlayingSong = {
   songName: string;
   arrangementName: string;
   partName: string;
+};
+
+export type SongBookSection = string;
+export type SongBookRow = SongArrangement | SongBookSection;
+
+export const isSongBookRowSection = (
+  row: SongBookRow
+): row is SongBookSection => {
+  return typeof row === "string";
 };

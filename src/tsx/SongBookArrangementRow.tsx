@@ -1,26 +1,33 @@
 import { useState } from "react";
-import { BsTriangleFill, BsFillTrashFill } from "react-icons/bs";
+import {
+  BsTriangleFill,
+  BsArrowDown,
+  BsArrowUp,
+  BsFillTrashFill,
+} from "react-icons/bs";
 
 import type { PlayingSong, SongArrangement } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
 
-interface ArrangementItemProps {
-  handleSelect: (song: SongArrangement, checked: boolean) => void;
+interface SongBookArrangementRowProps {
+  handleDelete: (song: SongArrangement, checked: boolean) => void;
   handlePlayingSong: (song: PlayingSong) => void;
+  handleMove: (steps: number) => void;
   songArrangement: SongArrangement;
 }
 
-const ChosenArrangementItem = ({
-  handleSelect,
+const SongBookArrangementRow = ({
+  handleDelete,
   songArrangement: { song, arrangement },
   handlePlayingSong,
-}: ArrangementItemProps) => {
+  handleMove,
+}: SongBookArrangementRowProps) => {
   const [expand, setExpand] = useState(false);
 
-  const handleDelete = () => {
-    handleSelect({ song, arrangement }, false);
+  const onDelete = () => {
+    handleDelete({ song, arrangement }, false);
   };
 
   return (
@@ -36,7 +43,13 @@ const ChosenArrangementItem = ({
         <td onClick={() => setExpand(!expand)}>{arrangement.name}</td>
         <td onClick={() => setExpand(!expand)}>{arrangement.tags}</td>
         <td>
-          <BsFillTrashFill onClick={handleDelete} />
+          <BsArrowUp onClick={() => handleMove(-1)} />
+        </td>
+        <td>
+          <BsArrowDown onClick={() => handleMove(1)} />
+        </td>
+        <td>
+          <BsFillTrashFill onClick={onDelete} />
         </td>
       </tr>
       {expand &&
@@ -52,4 +65,4 @@ const ChosenArrangementItem = ({
   );
 };
 
-export { ChosenArrangementItem };
+export { SongBookArrangementRow };

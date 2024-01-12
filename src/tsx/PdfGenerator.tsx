@@ -11,7 +11,13 @@ import {
   CloseButton,
 } from "react-bootstrap";
 import { useState } from "react";
-import { Instrument, SongArrangement } from "../types";
+import {
+  Instrument,
+  SongArrangement,
+  SongArrangementSection,
+  SongBookRow,
+  isSongBookRowSection,
+} from "../types";
 import { createSongBook } from "../createSongBook";
 
 const instruments: Instrument[] = [
@@ -29,10 +35,15 @@ const instruments: Instrument[] = [
 ];
 
 interface PdfGeneratorProps {
-  songArrangements: SongArrangement[];
+  songBookRows: SongBookRow[];
 }
 
-const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
+// GUS-TODO: persist songbook
+const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
+  const songArrangements = songBookRows.filter(
+    (r: SongBookRow) => !isSongBookRowSection(r)
+  ) as SongArrangement[];
+
   const [songbookTitle, setTitle] = useState("");
 
   const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
@@ -91,10 +102,50 @@ const PDFGenerator = ({ songArrangements }: PdfGeneratorProps) => {
       alert("Digite um título para o caderninho!");
       return;
     }
+
+    // Create sections from songbook rows
+    const sections: SongArrangementSection[] = [];
+    let currentSection: SongArrangementSection | null = null;
+
+    for (const row of songBookRows) {
+      if (isSongBookRowSection(row)) {
+        currentSection = {
+          title: row,
+          songArrangements: [],
+        };
+        sections.push(currentSection);
+      } else {
+        // Create empty section if no row exists
+        if (!currentSection) {
+          currentSection = {
+            title: "",
+            songArrangements: [],
+          };
+        }
+        currentSection.songArrangements.push(row);
+      }
+    }
+
+    console.log(sections);
+
+    // TODO: add button to autogenerate sections in UI
+    // songArrangements.forEach((sa: SongArrangement) => {
+    //   const title = sa.song.style;
+    //   if (sectionMap.has(title)) {
+    //     const section = sectionMap.get(title);
+    //     section?.songArrangements.push(sa);
+    //   } else {
+    //     sectionMap.set(title, {
+    //       title,
+    //       songArrangements: [sa],
+    //     });
+    //   }
+    // });
+
     const songbooks: any[] = selectedInstruments.map((instrument) => {
       createSongBook({
         instrument,
-        songArrangements,
+        sections,
         title: songbookTitle,
         coverImageUrl: songbookImg.imgUrl,
         carnivalMode,
