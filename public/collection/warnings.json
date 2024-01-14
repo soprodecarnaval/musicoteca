@@ -444,14 +444,21 @@
     "message": "Invalid sub for song fanfarras-a-banda-ta-com-sede (a banda tá com sede)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /A BANDA TÁ COM SEDE.metajson"
+      "metajsonAsset": "FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2023 - A BANDA TÁ COM SEDE /A_BANDA_TA_COM_SEDE.metajson"
     }
   },
   {
     "message": "Invalid sub for song fanfarras-a-banda-ta-com-sede (a banda tá com sede)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2024 - A BANDA TÁ COM SEDE/A BANDA TÁ COM SEDE.metajson"
+      "metajsonAsset": "FANFARRAS/A BANDA TÁ COM SEDE/CARNAVAL BH 2024 - A BANDA TÁ COM SEDE/A_BANDA_TA_COM_SEDE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-a-banda-ta-com-sede (a banda tá com sede)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/A BANDA TÁ COM SEDE/QUEIMANDO 2024 - A BANDA TÁ COM SEDE/A_BANDA_TA_COM_SEDE.metajson"
     }
   },
   {
@@ -518,6 +525,13 @@
     }
   },
   {
+    "message": "Invalid sub for song fanfarras-oswaldo-o-pombo (oswaldo, o pombo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/OSWALDO, O POMBO/QUEIMANDO 2024 - OSWALDO, O POMBO/OSWALDO_O_POMBO.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song fanfarras-soul-finger (soul finger)",
     "meta": {
       "sub": "",
@@ -546,17 +560,150 @@
     }
   },
   {
-    "message": "Invalid sub for song fanfarras-tom-jerry-em-guca (tom & jerry em guca)",
+    "message": "Invalid sub for song fanfarras-tom-e-jerry-em-guca (tom e jerry em guca)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "FANFARRAS/TOM & JERRY EM GUCA/CARNAVAL BH 2023 - TOM & JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+      "metajsonAsset": "FANFARRAS/TOM E JERRY EM GUCA/CARNAVAL BH 2023 - TOM E JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
     }
   },
   {
-    "message": "Invalid sub for song fanfarras-tom-jerry-em-guca (tom & jerry em guca)",
+    "message": "Invalid sub for song fanfarras-tom-e-jerry-em-guca (tom e jerry em guca)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "FANFARRAS/TOM & JERRY EM GUCA/CARNAVAL BH 2024 - TOM _ JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+      "metajsonAsset": "FANFARRAS/TOM E JERRY EM GUCA/CARNAVAL BH 2024 - TOM E JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-tom-e-jerry-em-guca (tom e jerry em guca)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/TOM E JERRY EM GUCA/QUEIMANDO 2024 - TOM E JERRY EM GUCA/TOM_JERRY_EM_GUCA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song fanfarras-videoshow (videoshow)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FANFARRAS/VIDEOSHOW/QUEIMANDO 2024 - VIDEOSHOW/VIDEOSHOW.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-a-praca-e-nossa (a praça é nossa)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/A PRAÇA É NOSSA/QUEIMANDO 2024 - A PRAÇA É NOSSA/A_PRACA_E_NOSSA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-batman (batman)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/BATMAN/QUEIMANDO 2024 - BATMAN/BATMAN.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-carinito-e-darth-vader (carinito e darth vader)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/CARINITO E DARTH VADER/QUEIMANDO 2024 - CARINITO E DARTH VADER/CARINITO_E_DARTH_VADER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-familia-addams (familia addams)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/FAMILIA ADDAMS/QUEIMANDO 2024 - FAMILIA ADDAMS/FAMILIA_ADDAMS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-flinstones (flinstones)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/FLINSTONES/QUEIMANDO 2024 - FLINSTONES/FLINSTONES.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-ghostbusters (ghostbusters)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/GHOSTBUSTERS/QUEIMANDO 2024 - GHOSTBUSTERS/GHOSTBUSTERS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-indiana-jones (indiana jones)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/INDIANA JONES/QUEIMANDO 2024 - INDIANA JONES/INDIANA_JONES.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-o-pulo-da-gaita (o pulo da gaita)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/O PULO DA GAITA/QUEIMANDO 2024 - O PULO DA GAITA/O_PULO_DA_GAITA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-pantera-cor-de-rosa (pantera cor de rosa)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/PANTERA COR DE ROSA/QUEIMANDO 2024 - PANTERA COR DE ROSA/PANTERA_COR_DE_ROSA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-poderoso-chefao (poderoso chefão)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/PODEROSO CHEFÃO/QUEIMANDO 2024 - PODEROSO CHEFÃO/PODEROSO_CHEFAO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-pulp-fiction (pulp fiction)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/PULP FICTION/QUEIMANDO 2024 - PULP FICTION/PULP_FICTION.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-rocky-balboa (rocky balboa)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/ROCKY BALBOA/QUEIMANDO 2024 - ROCKY BALBOA/ROCKY BALBOA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-sete-anoes (sete anões)",
+    "meta": {
+      "sub": "https://flat.io/score/5e1d29dbd215555dca34aff5-branca-de-neve-e-os-sete-anoes",
+      "metajsonAsset": "FILME/SETE ANÕES/QUEIMANDO 2024 - SETE ANÕES/SETE_ANOES.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-spider-man (spider man)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-um-morto-muito-louco (um morto muito louco)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/UM MORTO MUITO LOUCO/QUEIMANDO 2024 - UM MORTO MUITO LOUCO/UM_MORTO_MUITO_LOUCO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-uma-odisseia-no-espaco (uma odisséia no espaço)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/UMA ODISSÉIA NO ESPAÇO/QUEIMANDO 2024 - 2001 UMA ODISSÉIA NO ESPAÇO/UMA_ODISSEIA_NO_ESPAÇO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song filme-vinheta-fox (vinheta fox)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/VINHETA FOX/QUEIMANDO 2024 - VINHETA FOX/20TH_CENTURY_FOX.metajson"
     }
   },
   {
@@ -685,6 +832,13 @@
     }
   },
   {
+    "message": "Inconsistent composer for song funks-cheguei (cheguei)",
+    "meta": {
+      "song": "Wallace Vianna e Andŕe Vieira (Ludmila)",
+      "arr": "Ludmila"
+    }
+  },
+  {
     "message": "Invalid sub for song funks-din-din-din (din din din)",
     "meta": {
       "sub": "",
@@ -703,6 +857,13 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "FUNKS/FEIRA DE ACARI/CARNAVAL BH 2023 - FEIRA DE ACARI/FEIRA_DE_ACARI.metajson"
+    }
+  },
+  {
+    "message": "Inconsistent sub for song funks-glamurosa (glamurosa)",
+    "meta": {
+      "song": "GLAMUROSA, RAINHA DO FUNK. PODEROSA, OLHAR DE DIAMANTE",
+      "arr": "GLAMUROSA, RAINHA DO FUNK"
     }
   },
   {
@@ -846,6 +1007,13 @@
     }
   },
   {
+    "message": "Invalid sub for song manifestacao-bella-ciao (bella ciao)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MANIFESTAÇÃO/BELLA CIAO/QUEIMANDO 2024 - BELLA CIAO/BELLA_CIAO.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song manifestacao-ta-na-hora-do-jair (ta na hora do jair)",
     "meta": {
       "sub": "",
@@ -902,10 +1070,10 @@
     }
   },
   {
-    "message": "Invalid sub for song marcha-ranchos-mascara-negra (mascara negra)",
+    "message": "Invalid sub for song marcha-ranchos-mascara-negra (máscara negra)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "MARCHA RANCHOS/MASCARA NEGRA/CARNAVAL BH 2023 - MASCARA NEGRA /MASCARA_NEGRA.metajson"
+      "metajsonAsset": "MARCHA RANCHOS/MÁSCARA NEGRA/CARNAVAL BH 2023 - MASCARA NEGRA /MASCARA_NEGRA.metajson"
     }
   },
   {
@@ -923,10 +1091,17 @@
     }
   },
   {
-    "message": "Invalid sub for song marcha-ranchos-touradas-em-madri (touradas em madri)",
+    "message": "Invalid sub for song marcha-ranchos-touradas-de-madri (touradas de madri)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "MARCHA RANCHOS/TOURADAS EM MADRI/CARNAVAL BH 2023 - TOURADAS DE MADRI/TOURADAS_EM_MADRI.metajson"
+      "metajsonAsset": "MARCHA RANCHOS/TOURADAS DE MADRI/CARNAVAL BH 2023 - TOURADAS DE MADRI/TOURADAS_EM_MADRI.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marcha-ranchos-touradas-de-madri (touradas de madri)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHA RANCHOS/TOURADAS DE MADRI/QUEIMANDO 2024 - TOURADAS DE MADRI/TOURADAS_EM_MADRI.metajson"
     }
   },
   {
@@ -934,6 +1109,13 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "MARCHINHAS/ALALA-Ô/CARNAVAL BH 2023 - ALALA-Ô/ALALA-Ô.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-aurora (aurora)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/AURORA/QUEIMANDO 2024 - AURORA/AURORA.metajson"
     }
   },
   {
@@ -1000,6 +1182,13 @@
     }
   },
   {
+    "message": "Invalid sub for song marchinhas-sassaricando (sassaricando)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/SASSARICANDO/QUEIMANDO 2024 - SASSARICANDO/SASSARICANDO.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song marchinhas-tai (taí)",
     "meta": {
       "sub": "",
@@ -1014,6 +1203,20 @@
     }
   },
   {
+    "message": "Invalid sub for song marchinhas-touradas-de-madri (touradas de madri)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/TOURADAS DE MADRI/CARNAVAL BH 2023 - TOURADAS DE MADRI/TOURADAS_DE_MADRI.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-touradas-de-madri (touradas de madri)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/TOURADAS DE MADRI/QUEIMANDO 2024 - TOURADAS DE MADRI/TOURADAS_DE_MADRI.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song marchinhas-turma-do-funil (turma do funil)",
     "meta": {
       "sub": "",
@@ -1025,6 +1228,13 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "MARCHINHAS/VAI COM JEITO/CARNAVAL BH 2023 - VAI COM JEITO /VAI COM JEITO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song marchinhas-ze-pereira (zé pereira)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MARCHINHAS/ZÉ PEREIRA/CARNAVAL BH 2023 - ZÉ PEREIRA /ZE PEREIRA.metajson"
     }
   },
   {
@@ -1360,6 +1570,32 @@
       "songId": "brazukas-forasteiro",
       "songTitle": "forasteiro",
       "style": "brazukas"
+    }
+  },
+  {
+    "message": "No instrument found for FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO-1.svg",
+    "meta": {
+      "absPath": "/tmp/collection/FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO-1.svg",
+      "relPath": "FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO-1.svg",
+      "extension": ".svg",
+      "arrId": "filme-spider-man-queimando-2024-spider-man",
+      "arrName": "queimando 2024 - spider man",
+      "songId": "filme-spider-man",
+      "songTitle": "spider man",
+      "style": "filme"
+    }
+  },
+  {
+    "message": "No instrument found for FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO.midi",
+    "meta": {
+      "absPath": "/tmp/collection/FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO.midi",
+      "relPath": "FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO.midi",
+      "extension": ".midi",
+      "arrId": "filme-spider-man-queimando-2024-spider-man",
+      "arrName": "queimando 2024 - spider man",
+      "songId": "filme-spider-man",
+      "songTitle": "spider man",
+      "style": "filme"
     }
   }
 ]
