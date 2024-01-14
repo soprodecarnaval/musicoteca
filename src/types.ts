@@ -71,3 +71,7 @@ export const isSongBookRowSection = (
 ): row is SongBookSection => {
   return typeof row === "string";
 };
+
+export type SongBook = {
+  rows: SongBookRow[];
+};

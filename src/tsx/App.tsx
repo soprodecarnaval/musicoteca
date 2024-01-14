@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Col, Container, Navbar, Row } from "react-bootstrap";
+import { Col, Container, Navbar, Row, Modal } from "react-bootstrap";
 
 import { Sort } from "./Sort";
 import { SearchBar } from "./SearchBar";
@@ -9,9 +9,11 @@ import { PDFGenerator } from "./PdfGenerator";
 import { sortByColumn } from "./helper/sorter";
 import { SongBar } from "./SongBar";
 import { AddAllSongsButton } from "./AddAllSongsButton";
+import { BsFillSave2Fill } from "react-icons/bs";
 
 import {
   isSongBookRowSection,
+  SongBook,
   type PlayingSong,
   type SongArrangement,
   type SongBookRow,
@@ -19,10 +21,12 @@ import {
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";
+import SaveLoadModal from "./SaveLoadModal";
 
 function App() {
   const [results, setResults] = useState<SongArrangement[]>([]);
   const [songBookRows, setSongBookRows] = useState<SongBookRow[]>([]);
+  const [showSaveLoadModal, setShowSaveLoadModal] = useState(false);
   const [playingSong, setPlayingSong] = useState<PlayingSong>({
     songName: "",
     arrangementName: "",
@@ -85,6 +89,18 @@ function App() {
     setResults([]);
   };
 
+  // GUS-TODO: load all songbook fields (title, etc) instead of just rows
+  const loadSongBook = (songBook: SongBook) => {
+    // GUS-TODO: how to handle errors?
+    // GUS-TODO: reset results from search bar?
+    setSongBookRows(songBook.rows);
+    return true;
+  };
+
+  const songBook = {
+    rows: songBookRows,
+  };
+
   return (
     <>
       <Navbar
@@ -136,7 +152,10 @@ function App() {
           </Col>
           <Col sm={6}>
             <>
-              <h3 className="results">Caderninho</h3>
+              <h3 className="results">
+                Caderninho
+                <BsFillSave2Fill onClick={() => setShowSaveLoadModal(true)} />
+              </h3>
               <SongBookTable
                 rows={songBookRows}
                 setRows={setSongBookRows}
@@ -148,6 +167,12 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <SaveLoadModal
+        songBook={songBook}
+        onLoad={loadSongBook}
+        onHide={() => setShowSaveLoadModal(false)}
+        show={showSaveLoadModal}
+      />
     </>
   );
 }

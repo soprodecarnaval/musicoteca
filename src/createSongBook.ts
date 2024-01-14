@@ -10,6 +10,7 @@ const cm2pt = 28.3465;
 const pageWidth = 18 * cm2pt;
 const pageHeight = 13 * cm2pt;
 
+// TODO: use SongBook type instead of CreateSongBookOptions
 export interface CreateSongBookOptions {
   title: string;
   instrument: Instrument;
