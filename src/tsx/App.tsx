@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Col, Container, Navbar, Row, Modal } from "react-bootstrap";
+import { Col, Container, Navbar, Row } from "react-bootstrap";
 
 import { Sort } from "./Sort";
 import { SearchBar } from "./SearchBar";
