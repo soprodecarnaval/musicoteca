@@ -651,6 +651,13 @@
     }
   },
   {
+    "message": "Invalid sub for song filme-plantao-globo (plantão globo)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/PLANTÃO GLOBO/QUEIMANDO 2024 - PLANTÃO GLOBO/PLANTAO_GLOBO.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song filme-poderoso-chefao (poderoso chefão)",
     "meta": {
       "sub": "",

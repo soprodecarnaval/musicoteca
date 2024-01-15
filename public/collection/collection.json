@@ -13660,6 +13660,108 @@
       "style": "filme"
     },
     {
+      "id": "filme-plantao-globo",
+      "title": "plantão globo",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "filme-plantao-globo-queimando-2024-plantao-globo",
+          "name": "queimando 2024 - plantão globo",
+          "assets": [
+            {
+              "path": "filme/plantão globo/queimando 2024 - plantão globo/queimando 2024 - plantão globo.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "filme/plantão globo/queimando 2024 - plantão globo/queimando 2024 - plantão globo.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "filme/plantão globo/queimando 2024 - plantão globo/queimando 2024 - plantão globo.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/plantão globo/queimando 2024 - plantão globo/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "filme"
+          ]
+        }
+      ],
+      "style": "filme"
+    },
+    {
       "id": "filme-poderoso-chefao",
       "title": "poderoso chefão",
       "composer": "Nino Rota",
