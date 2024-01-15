@@ -5,6 +5,7 @@ import {
   BsArrowUp,
   BsFillTrashFill,
 } from "react-icons/bs";
+import { SiMidi } from "react-icons/si";
 
 import type { PlayingSong, SongArrangement } from "../types";
 import { PartItem } from "./PartItem";
@@ -30,6 +31,10 @@ const SongBookArrangementRow = ({
     handleDelete({ song, arrangement }, false);
   };
 
+  const arrangementMidiAsset = arrangement.assets.find(
+    (asset) => asset.extension == ".midi"
+  );
+
   return (
     <>
       <tr className="cursor">
@@ -50,6 +55,13 @@ const SongBookArrangementRow = ({
         </td>
         <td>
           <BsFillTrashFill onClick={onDelete} />
+        </td>
+        <td>
+          {arrangementMidiAsset && (
+            <a href={`collection/${arrangementMidiAsset.path}`} target="_blank">
+              <SiMidi />
+            </a>
+          )}
         </td>
       </tr>
       {expand &&
