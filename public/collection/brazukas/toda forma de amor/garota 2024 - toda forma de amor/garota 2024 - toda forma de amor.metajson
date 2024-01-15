@@ -13,8 +13,30 @@
         "twosided": "true",
         "width": 297
     },
-    "pages": 1,
+    "pages": 7,
     "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.flutes.flute",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Flauta Transversal",
+            "program": 73
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.alto",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Saxofone Alto",
+            "program": 65
+        },
         {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
@@ -25,6 +47,28 @@
             "lyricCount": 0,
             "name": "Saxofone Tenor",
             "program": 66
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trompete em B♭",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trombone",
+            "program": 57
         }
     ],
     "poet": "",
