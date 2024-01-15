@@ -846,13 +846,6 @@
     }
   },
   {
-    "message": "Inconsistent composer for song funks-cheguei (cheguei)",
-    "meta": {
-      "song": "Wallace Vianna e Andŕe Vieira (Ludmila)",
-      "arr": "Ludmila"
-    }
-  },
-  {
     "message": "Invalid sub for song funks-din-din-din (din din din)",
     "meta": {
       "sub": "",
@@ -1214,20 +1207,6 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "MARCHINHAS/TEM NEGO BÊBO AÍ/CARNAVAL BH 2023 - TEM NEGO BEBO AI/TEM_NEGO_BEBO_AI.metajson"
-    }
-  },
-  {
-    "message": "Invalid sub for song marchinhas-touradas-de-madri (touradas de madri)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "MARCHINHAS/TOURADAS DE MADRI/CARNAVAL BH 2023 - TOURADAS DE MADRI/TOURADAS_DE_MADRI.metajson"
-    }
-  },
-  {
-    "message": "Invalid sub for song marchinhas-touradas-de-madri (touradas de madri)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "MARCHINHAS/TOURADAS DE MADRI/QUEIMANDO 2024 - TOURADAS DE MADRI/TOURADAS_DE_MADRI.metajson"
     }
   },
   {
