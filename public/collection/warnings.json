@@ -832,20 +832,6 @@
     }
   },
   {
-    "message": "Invalid sub for song funks-cheguei (cheguei)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "FUNKS/CHEGUEI/CARNAVAL BH 2023 - CHEGUEI/CHEGUEI.metajson"
-    }
-  },
-  {
-    "message": "Inconsistent composer for song funks-cheguei (cheguei)",
-    "meta": {
-      "song": "Wallace Vianna e Andŕe Vieira (Ludmila)",
-      "arr": "Ludmila"
-    }
-  },
-  {
     "message": "Invalid sub for song funks-din-din-din (din din din)",
     "meta": {
       "sub": "",
