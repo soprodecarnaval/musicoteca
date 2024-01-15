@@ -5,6 +5,7 @@ import type { PlayingSong, SongArrangement } from "../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
+import { SiMidi } from "react-icons/si";
 
 interface ArrangementItemProps {
   handleSelect: (songArrnagement: SongArrangement, checked: boolean) => void;
@@ -27,6 +28,10 @@ const ArrangementItem = ({
 
   const { song, arrangement } = songArrangement;
 
+  const arrangementMidiAsset = arrangement.assets.find(
+    (asset) => asset.extension == ".midi"
+  );
+
   return (
     <>
       <tr className="cursor">
@@ -39,6 +44,13 @@ const ArrangementItem = ({
         <td onClick={handleOnChange}>{song.title}</td>
         <td onClick={handleOnChange}>{arrangement.name}</td>
         <td onClick={handleOnChange}>{arrangement.tags}</td>
+        <td>
+          {arrangementMidiAsset && (
+            <a href={`collection/${arrangementMidiAsset.path}`} target="_blank">
+              <SiMidi />
+            </a>
+          )}
+        </td>
       </tr>
       {expand &&
         arrangement.parts.map((part) => (
