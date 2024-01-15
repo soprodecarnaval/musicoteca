@@ -10031,7 +10031,78 @@
               "extension": ".midi"
             }
           ],
-          "parts": [],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
           "tags": [
             "brazukas"
           ]
