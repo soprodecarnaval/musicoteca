@@ -1550,31 +1550,5 @@
       "songTitle": "forasteiro",
       "style": "brazukas"
     }
-  },
-  {
-    "message": "No instrument found for FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO-1.svg",
-    "meta": {
-      "absPath": "/tmp/collection/FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO-1.svg",
-      "relPath": "FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO-1.svg",
-      "extension": ".svg",
-      "arrId": "filme-spider-man-queimando-2024-spider-man",
-      "arrName": "queimando 2024 - spider man",
-      "songId": "filme-spider-man",
-      "songTitle": "spider man",
-      "style": "filme"
-    }
-  },
-  {
-    "message": "No instrument found for FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO.midi",
-    "meta": {
-      "absPath": "/tmp/collection/FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO.midi",
-      "relPath": "FILME/SPIDER MAN/QUEIMANDO 2024 - SPIDER MAN/SPIDER_MAN_SAX_TENO.midi",
-      "extension": ".midi",
-      "arrId": "filme-spider-man-queimando-2024-spider-man",
-      "arrName": "queimando 2024 - spider man",
-      "songId": "filme-spider-man",
-      "songTitle": "spider man",
-      "style": "filme"
-    }
   }
 ]
