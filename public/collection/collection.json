@@ -14174,6 +14174,108 @@
       "style": "filme"
     },
     {
+      "id": "filme-sitio-do-picapau-amarelo",
+      "title": "sitio do picapau amarelo",
+      "composer": "Gilberto Gil",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "filme-sitio-do-picapau-amarelo-queimando-2024-sitio-do-picapau-amarelo",
+          "name": "queimando 2024 - sítio do picapau amarelo",
+          "assets": [
+            {
+              "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/queimando 2024 - sítio do picapau amarelo.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/queimando 2024 - sítio do picapau amarelo.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/queimando 2024 - sítio do picapau amarelo.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/sitio do picapau amarelo/queimando 2024 - sítio do picapau amarelo/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "filme"
+          ]
+        }
+      ],
+      "style": "filme"
+    },
+    {
       "id": "filme-spider-man",
       "title": "spider man",
       "composer": "",
@@ -18058,6 +18160,99 @@
                 },
                 {
                   "path": "funks/feira de acari/carnaval bh 2024 - feira de acari/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "funks"
+          ]
+        },
+        {
+          "id": "funks-feira-de-acari-queimando-2024-feira-de-acari",
+          "name": "queimando 2024 - feira de acari",
+          "assets": [
+            {
+              "path": "funks/feira de acari/queimando 2024 - feira de acari/queimando 2024 - feira de acari.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "funks/feira de acari/queimando 2024 - feira de acari/queimando 2024 - feira de acari.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "funks/feira de acari/queimando 2024 - feira de acari/queimando 2024 - feira de acari.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "funks/feira de acari/queimando 2024 - feira de acari/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]

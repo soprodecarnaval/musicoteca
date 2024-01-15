@@ -679,6 +679,13 @@
     }
   },
   {
+    "message": "Invalid sub for song filme-sitio-do-picapau-amarelo (sitio do picapau amarelo)",
+    "meta": {
+      "sub": "http://musescore.com/user/29328569/scores/6330319",
+      "metajsonAsset": "FILME/SITIO DO PICAPAU AMARELO/QUEIMANDO 2024 - SÍTIO DO PICAPAU AMARELO/SITIO_PICAPAU_AMARELO.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song filme-spider-man (spider man)",
     "meta": {
       "sub": "",
