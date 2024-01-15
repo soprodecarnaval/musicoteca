@@ -1,6 +1,6 @@
 {
     "composer": "",
-    "duration": 35,
+    "duration": 50,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "",
     "previousSource": "",
     "subtitle": "",
-    "tempo": 172,
-    "tempoText": "<sym>metNoteQuarterUp</sym> = 172",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],

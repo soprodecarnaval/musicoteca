@@ -13822,10 +13822,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "filme/poderoso chefão/queimando 2024 - poderoso chefão/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "filme/poderoso chefão/queimando 2024 - poderoso chefão/trompete.midi",
                   "extension": ".midi"
                 }
@@ -14453,6 +14449,20 @@
                 },
                 {
                   "path": "filme/spider man/queimando 2024 - spider man/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "filme/spider man/queimando 2024 - spider man/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/spider man/queimando 2024 - spider man/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
