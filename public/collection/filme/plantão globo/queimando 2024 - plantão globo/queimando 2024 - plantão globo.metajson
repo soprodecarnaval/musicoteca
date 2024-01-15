@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 210
     },
-    "pages": 1,
+    "pages": 2,
     "parts": [
         {
             "harmonyCount": 0,
@@ -84,7 +84,6 @@
         "subtitles": [
         ],
         "titles": [
-            "Plantão da Globo"
         ]
     },
     "timesig": "4/4",
