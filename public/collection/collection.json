@@ -9861,10 +9861,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trompete.midi",
                   "extension": ".midi"
                 }
@@ -10064,10 +10060,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
                   "extension": ".svg"
@@ -32586,10 +32578,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/california dreamin/garota 2024 - california dreamin/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "rocks/california dreamin/garota 2024 - california dreamin/trompete.midi",
                   "extension": ".midi"
                 }
@@ -32793,10 +32781,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "rocks/californication/garota 2024 - californication/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "rocks/californication/garota 2024 - californication/trompete.svg",
                   "extension": ".svg"
