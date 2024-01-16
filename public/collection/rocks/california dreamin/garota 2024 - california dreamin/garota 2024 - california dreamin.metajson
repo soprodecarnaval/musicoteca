@@ -1,6 +1,6 @@
 {
     "composer": "John & Michelle Phillips",
-    "duration": 65,
+    "duration": 72,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -94,10 +94,10 @@
         }
     ],
     "poet": "",
-    "previousSource": "",
+    "previousSource": "ALL THE LEAVES ARE BROWN AND THE SKY IS GRAY",
     "subtitle": "",
-    "tempo": 0,
-    "tempoText": "",
+    "tempo": 108,
+    "tempoText": "<font face=\"ScoreText\"></font><font face=\"MuseJazz Text\"></font> = 108\n",
     "textFramesData": {
         "composers": [
         ],

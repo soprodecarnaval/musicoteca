@@ -7108,8 +7108,8 @@
     {
       "id": "brazukas-como-uma-onda-no-mar",
       "title": "como uma onda no mar",
-      "composer": "Composer",
-      "sub": "",
+      "composer": "LULU SANTOS",
+      "sub": "NADA DO QUE FOI SERÁ, DE NOVO DO JEITO QUE JÁ FOI UM DIA",
       "arrangements": [
         {
           "id": "brazukas-como-uma-onda-no-mar-garota-2024-como-uma-onda-no-mar",
@@ -7312,7 +7312,7 @@
     {
       "id": "brazukas-de-repente-california",
       "title": "de repente califórnia",
-      "composer": "Composer",
+      "composer": "LULU SANTOS",
       "sub": "GAROTA, EU VOU PRA CALIFÓRNIA",
       "arrangements": [
         {
@@ -9803,8 +9803,8 @@
     {
       "id": "brazukas-tapao-na-raba",
       "title": "tapao na raba",
-      "composer": "",
-      "sub": "",
+      "composer": "RAÍ SOARES",
+      "sub": "É PUXÃO DE CABELO, É TAPÃO NA RABA",
       "arrangements": [
         {
           "id": "brazukas-tapao-na-raba-garota-2024-tapao-na-raba",
@@ -9856,6 +9856,10 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
+                {
+                  "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trompete.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "brazukas/tapao na raba/garota 2024 - tapao na raba/trompete.svg",
                   "extension": ".svg"
@@ -10007,8 +10011,8 @@
     {
       "id": "brazukas-toda-forma-de-amor",
       "title": "toda forma de amor",
-      "composer": "Compositor / arranjador",
-      "sub": "",
+      "composer": "LULU SANTOS",
+      "sub": "CONSIDERAMOS JUSTA, TODA FORMA DE AMOR",
       "arrangements": [
         {
           "id": "brazukas-toda-forma-de-amor-garota-2024-toda-forma-de-amor",
@@ -10060,6 +10064,10 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
+                {
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
                   "extension": ".svg"
@@ -29857,7 +29865,7 @@
       "id": "odaras-maresia",
       "title": "maresia",
       "composer": "Rachel Reis",
-      "sub": "",
+      "sub": "NA MARESIA A GENTE VAI COLADINHO",
       "arrangements": [
         {
           "id": "odaras-maresia-carnaval-bh-2023-maresia",
@@ -32521,7 +32529,7 @@
       "id": "rocks-california-dreamin",
       "title": "california dreamin",
       "composer": "John & Michelle Phillips",
-      "sub": "",
+      "sub": "ALL THE LEAVES ARE BROWN AND THE SKY IS GRAY",
       "arrangements": [
         {
           "id": "rocks-california-dreamin-garota-2024-california-dreamin",
@@ -32578,6 +32586,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "rocks/california dreamin/garota 2024 - california dreamin/trompete.midi",
                   "extension": ".midi"
                 }
@@ -32622,8 +32634,8 @@
     {
       "id": "rocks-california-gurls",
       "title": "california gurls",
-      "composer": "",
-      "sub": "",
+      "composer": "KATY PERRY",
+      "sub": "CALIFORNIA GIRLS, WE'RE UNFORGETTABLE",
       "arrangements": [
         {
           "id": "rocks-california-gurls-garota-2024-california-gurls",
@@ -32724,7 +32736,7 @@
     {
       "id": "rocks-californication",
       "title": "californication",
-      "composer": "",
+      "composer": "RED HOT CHILI PEPPERS",
       "sub": "DREAM OF CALIFORNICATION",
       "arrangements": [
         {
@@ -32768,6 +32780,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "rocks/californication/garota 2024 - californication/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "rocks/californication/garota 2024 - californication/flauta.midi",
                   "extension": ".midi"
                 }
@@ -32777,6 +32793,10 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
+                {
+                  "path": "rocks/californication/garota 2024 - californication/trompete.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "rocks/californication/garota 2024 - californication/trompete.svg",
                   "extension": ".svg"
