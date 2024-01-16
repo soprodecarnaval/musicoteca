@@ -1,6 +1,6 @@
 {
     "composer": "RED HOT CHILI PEPPERS",
-    "duration": 340,
+    "duration": 272,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -85,8 +85,8 @@
     "poet": "",
     "previousSource": "DREAM OF CALIFORNICATION",
     "subtitle": "",
-    "tempo": 96,
-    "tempoText": "<sym>metNoteQuarterUp</sym> = 96",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
