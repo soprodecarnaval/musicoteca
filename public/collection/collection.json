@@ -7166,6 +7166,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trompete.midi",
                   "extension": ".midi"
                 }
@@ -23157,6 +23161,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax alto.midi",
                   "extension": ".midi"
                 }
@@ -23166,6 +23174,10 @@
               "name": "sax tenor",
               "instrument": "sax tenor",
               "assets": [
+                {
+                  "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax tenor.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax tenor.svg",
                   "extension": ".svg"
@@ -32550,6 +32562,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "rocks/california dreamin/garota 2024 - california dreamin/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "rocks/california dreamin/garota 2024 - california dreamin/trombone.midi",
                   "extension": ".midi"
                 }
@@ -32763,10 +32779,6 @@
               "name": "flauta",
               "instrument": "flauta",
               "assets": [
-                {
-                  "path": "rocks/californication/garota 2024 - californication/flauta.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "rocks/californication/garota 2024 - californication/flauta.svg",
                   "extension": ".svg"

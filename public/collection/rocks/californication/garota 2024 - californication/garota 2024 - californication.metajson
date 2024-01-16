@@ -1,19 +1,19 @@
 {
     "composer": "RED HOT CHILI PEPPERS",
-    "duration": 272,
+    "duration": 112,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 60,
+    "measures": 36,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 279,
         "twosided": "true",
         "width": 216
     },
-    "pages": 9,
+    "pages": 6,
     "parts": [
         {
             "harmonyCount": 0,
