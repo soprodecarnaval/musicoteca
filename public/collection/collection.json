@@ -392,7 +392,7 @@
     },
     {
       "id": "axes-alo-paixao",
-      "title": "alo paixao",
+      "title": "alô paixao",
       "composer": "Jorge Xareu (Banda Eva)",
       "sub": "",
       "arrangements": [
@@ -401,15 +401,15 @@
           "name": "carnaval bh 2023 - alo paixao",
           "assets": [
             {
-              "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.mscz",
+              "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.metajson",
+              "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.midi",
+              "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/carnaval bh 2023 - alo paixao.midi",
               "extension": ".midi"
             }
           ],
@@ -419,11 +419,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/trombone.svg",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/trombone.midi",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -433,11 +433,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/flauta.svg",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/flauta.midi",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -447,11 +447,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/trompete.svg",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/trompete.midi",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -461,11 +461,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/sax alto.svg",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/sax alto.midi",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -475,11 +475,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/sax tenor.svg",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "axés/alo paixao/carnaval bh 2023 - alo paixao/sax tenor.midi",
+                  "path": "axés/alô paixao/carnaval bh 2023 - alo paixao/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -7161,10 +7161,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "brazukas/como uma onda no mar/garota 2024 - como uma onda no mar/trompete.svg",
                   "extension": ".svg"
