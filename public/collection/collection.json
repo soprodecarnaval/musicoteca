@@ -393,8 +393,8 @@
     {
       "id": "axes-alo-paixao",
       "title": "alô paixao",
-      "composer": "Jorge Xareu (Banda Eva)",
-      "sub": "",
+      "composer": "BANDA EVA",
+      "sub": "EU NÃO VOU PERDER VOCÊ. FAZ PARTE DESSA HISTÓRIA",
       "arrangements": [
         {
           "id": "axes-alo-paixao-carnaval-bh-2023-alo-paixao",
@@ -23157,10 +23157,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax alto.midi",
                   "extension": ".midi"
                 }
@@ -23170,10 +23166,6 @@
               "name": "sax tenor",
               "instrument": "sax tenor",
               "assets": [
-                {
-                  "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax tenor.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "marcha ranchos/bandeira branca/carnaval bh 2024 - bandeira branca/sax tenor.svg",
                   "extension": ".svg"
