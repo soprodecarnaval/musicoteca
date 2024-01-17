@@ -1,6 +1,6 @@
 {
     "composer": "Olodum",
-    "duration": 90,
+    "duration": 75,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "",
     "previousSource": "",
     "subtitle": "",
-    "tempo": 100,
-    "tempoText": "<sym>metNoteQuarterUp</sym> = 100",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
