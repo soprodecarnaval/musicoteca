@@ -10011,19 +10011,19 @@
       "sub": "EU NÃO PEDI PRA NASCER. EU NÃO NASCI PRA PERDER",
       "arrangements": [
         {
-          "id": "brazukas-toda-forma-de-amor-toda-forma-de-amor",
-          "name": "toda forma de amor",
+          "id": "brazukas-toda-forma-de-amor-garota-2024-toda-forma-de-amor",
+          "name": "garota 2024 - toda forma de amor",
           "assets": [
             {
-              "path": "brazukas/toda forma de amor/toda forma de amor/toda forma de amor.mscz",
+              "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/garota 2024 - toda forma de amor.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "brazukas/toda forma de amor/toda forma de amor/toda forma de amor.metajson",
+              "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/garota 2024 - toda forma de amor.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "brazukas/toda forma de amor/toda forma de amor/toda forma de amor.midi",
+              "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/garota 2024 - toda forma de amor.midi",
               "extension": ".midi"
             }
           ],
@@ -10033,11 +10033,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/trombone.svg",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/trombone.midi",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -10047,11 +10047,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/flauta.svg",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/flauta.midi",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -10061,11 +10061,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/trompete.svg",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/trompete.midi",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -10075,11 +10075,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/sax alto.svg",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/sax alto.midi",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -10089,11 +10089,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/sax tenor.svg",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "brazukas/toda forma de amor/toda forma de amor/sax tenor.midi",
+                  "path": "brazukas/toda forma de amor/garota 2024 - toda forma de amor/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -12709,7 +12709,7 @@
     {
       "id": "fanfarras-videoshow",
       "title": "videoshow",
-      "composer": "Michael Jackson",
+      "composer": "MICHAEL JACKSON",
       "sub": "",
       "arrangements": [
         {
@@ -13121,19 +13121,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "filme-caca-fantasmas-queimando-2024-ghostbusters",
-          "name": "queimando 2024 - ghostbusters",
+          "id": "filme-caca-fantasmas-queimando-2024-caca-fantasmas",
+          "name": "queimando 2024 - caça-fantasmas",
           "assets": [
             {
-              "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/queimando 2024 - ghostbusters.mscz",
+              "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/queimando 2024 - caça-fantasmas.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/queimando 2024 - ghostbusters.metajson",
+              "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/queimando 2024 - caça-fantasmas.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/queimando 2024 - ghostbusters.midi",
+              "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/queimando 2024 - caça-fantasmas.midi",
               "extension": ".midi"
             }
           ],
@@ -13143,11 +13143,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/trombone.svg",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/trombone.midi",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13157,11 +13157,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/flauta.svg",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/flauta.midi",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13171,11 +13171,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/trompete.svg",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/trompete.midi",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13185,11 +13185,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/sax alto.svg",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/sax alto.midi",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -13199,11 +13199,25 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/sax tenor.svg",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "filme/caça-fantasmas/queimando 2024 - ghostbusters/sax tenor.midi",
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "tuba",
+              "instrument": "tuba",
+              "assets": [
+                {
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/tuba.midi",
                   "extension": ".midi"
                 }
               ]
@@ -14239,8 +14253,8 @@
     {
       "id": "filme-show-de-calouros",
       "title": "show de calouros",
-      "composer": "Boris Fomin",
-      "sub": "PEDRO DE LARA LÁ! LÁ LÁ LÁ LÁ LÁ LÁ",
+      "composer": "GENE RASKIN",
+      "sub": "PEDRO DE LARA LÁ. LÁ LÁ LÁ LÁ-RÁ-LÁ",
       "arrangements": [
         {
           "id": "filme-show-de-calouros-queimando-2024-show-de-calouros",

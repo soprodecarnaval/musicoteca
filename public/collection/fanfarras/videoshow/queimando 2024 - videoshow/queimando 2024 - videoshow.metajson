@@ -1,30 +1,52 @@
 {
-    "composer": "Michael Jackson",
-    "duration": 140,
+    "composer": "MICHAEL JACKSON",
+    "duration": 136,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -3,
     "lyrics": "",
-    "measures": 25,
+    "measures": 24,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 210,
         "twosided": "false",
-        "width": 210
+        "width": 297
     },
-    "pages": 12,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.flutes.flute",
+            "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "C ClavG",
-            "program": 73
+            "name": "Saxofone Tenor",
+            "program": 66
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 57
         },
         {
             "harmonyCount": 0,
@@ -34,7 +56,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Eb",
+            "name": "",
             "program": 65
         },
         {
@@ -42,33 +64,11 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet",
+            "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trumpet in Bb",
-            "program": 56
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Bb",
-            "program": 56
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trombone.tenor",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "C ClavF",
-            "program": 57
+            "name": "",
+            "program": 73
         }
     ],
     "poet": "",
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "Don't Stop 'Til You Get Enough"
+    "title": "VIDEOSHOW"
 }
