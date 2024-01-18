@@ -1,19 +1,19 @@
 {
     "composer": "",
-    "duration": 82,
+    "duration": 70,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 26,
+    "measures": 24,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 4,
+    "pages": 7,
     "parts": [
         {
             "harmonyCount": 0,
@@ -76,7 +76,7 @@
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "brass.tuba",
-            "isVisible": "false",
+            "isVisible": "true",
             "lyricCount": 0,
             "name": "Tuba",
             "program": 58

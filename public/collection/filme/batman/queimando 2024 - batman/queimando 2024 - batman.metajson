@@ -4,7 +4,7 @@
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": -1,
     "lyrics": "",
     "measures": 14,
     "mscoreVersion": "3.6.2",
@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 210
     },
-    "pages": 3,
+    "pages": 2,
     "parts": [
         {
             "harmonyCount": 0,
@@ -23,7 +23,7 @@
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Transversal",
+            "name": "Flute",
             "program": 73
         },
         {
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Alto Saxophone",
             "program": 65
         },
         {
@@ -45,7 +45,7 @@
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
+            "name": "Tenor Saxophone",
             "program": 66
         },
         {
@@ -56,7 +56,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete em B♭",
+            "name": "B♭ Trumpet",
             "program": 56
         },
         {
