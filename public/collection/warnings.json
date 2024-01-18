@@ -581,6 +581,13 @@
     }
   },
   {
+    "message": "Invalid sub for song filme-caca-fantasmas (caça-fantasmas)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FILME/CAÇA-FANTASMAS/QUEIMANDO 2024 - GHOSTBUSTERS/GHOSTBUSTERS.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song filme-familia-addams (familia addams)",
     "meta": {
       "sub": "",
@@ -592,13 +599,6 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "FILME/FLINSTONES/QUEIMANDO 2024 - FLINSTONES/FLINSTONES.metajson"
-    }
-  },
-  {
-    "message": "Invalid sub for song filme-ghostbusters (ghostbusters)",
-    "meta": {
-      "sub": "",
-      "metajsonAsset": "FILME/GHOSTBUSTERS/QUEIMANDO 2024 - GHOSTBUSTERS/GHOSTBUSTERS.metajson"
     }
   },
   {
