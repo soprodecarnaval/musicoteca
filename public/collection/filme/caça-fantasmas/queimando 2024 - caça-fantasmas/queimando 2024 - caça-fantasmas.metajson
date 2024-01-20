@@ -1,19 +1,19 @@
 {
     "composer": "",
-    "duration": 70,
+    "duration": 106,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 24,
+    "measures": 30,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 7,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,17 +69,6 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.tuba",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Tuba",
-            "program": 58
         }
     ],
     "poet": "",

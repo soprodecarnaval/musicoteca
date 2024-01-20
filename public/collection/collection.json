@@ -13207,20 +13207,6 @@
                   "extension": ".midi"
                 }
               ]
-            },
-            {
-              "name": "tuba",
-              "instrument": "tuba",
-              "assets": [
-                {
-                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/tuba.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "filme/caça-fantasmas/queimando 2024 - caça-fantasmas/tuba.midi",
-                  "extension": ".midi"
-                }
-              ]
             }
           ],
           "tags": [
