@@ -32518,25 +32518,25 @@
       "style": "piseiro"
     },
     {
-      "id": "projetos-besourinhos",
-      "title": "besourinhos",
+      "id": "rocks-a-hard-days-night",
+      "title": "a hard days night",
       "composer": "",
       "sub": "",
       "arrangements": [
         {
-          "id": "projetos-besourinhos-besourinhos",
-          "name": "besourinhos",
+          "id": "rocks-a-hard-days-night-besourinhos-2024-a-hard-days-night",
+          "name": "besourinhos 2024 - a hard days night",
           "assets": [
             {
-              "path": "projetos/besourinhos/besourinhos/besourinhos.mscz",
+              "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/besourinhos 2024 - a hard days night.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "projetos/besourinhos/besourinhos/besourinhos.metajson",
+              "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/besourinhos 2024 - a hard days night.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "projetos/besourinhos/besourinhos/besourinhos.midi",
+              "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/besourinhos 2024 - a hard days night.midi",
               "extension": ".midi"
             }
           ],
@@ -32546,19 +32546,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "projetos/besourinhos/besourinhos/trombone.svg",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "projetos/besourinhos/besourinhos/trombone.midi",
-                  "extension": ".midi"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/trombone.midi",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -32568,19 +32560,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "projetos/besourinhos/besourinhos/flauta.svg",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "projetos/besourinhos/besourinhos/flauta.midi",
-                  "extension": ".midi"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/flauta.midi",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -32590,19 +32574,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "projetos/besourinhos/besourinhos/trompete.svg",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "projetos/besourinhos/besourinhos/trompete.midi",
-                  "extension": ".midi"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/trompete.midi",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -32612,19 +32588,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "projetos/besourinhos/besourinhos/sax alto.svg",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "projetos/besourinhos/besourinhos/sax alto.midi",
-                  "extension": ".midi"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/sax alto.midi",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -32634,30 +32602,124 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "projetos/besourinhos/besourinhos/sax tenor.svg",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "projetos/besourinhos/besourinhos/sax tenor.midi",
-                  "extension": ".midi"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "projetos/besourinhos/besourinhos/sax tenor.midi",
+                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
             }
           ],
           "tags": [
-            "projetos"
+            "rocks"
           ]
         }
       ],
-      "style": "projetos"
+      "style": "rocks"
+    },
+    {
+      "id": "rocks-all-my-loving",
+      "title": "all my loving",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "rocks-all-my-loving-besourinhos-2024-all-my-loving",
+          "name": "besourinhos 2024 - all my loving",
+          "assets": [
+            {
+              "path": "rocks/all my loving/besourinhos 2024 - all my loving/besourinhos 2024 - all my loving.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "rocks/all my loving/besourinhos 2024 - all my loving/besourinhos 2024 - all my loving.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "rocks/all my loving/besourinhos 2024 - all my loving/besourinhos 2024 - all my loving.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "rocks/all my loving/besourinhos 2024 - all my loving/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "rocks"
+          ]
+        }
+      ],
+      "style": "rocks"
     },
     {
       "id": "rocks-california-dreamin",

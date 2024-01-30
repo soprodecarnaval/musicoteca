@@ -1294,23 +1294,17 @@
     }
   },
   {
-    "message": "Invalid sub for song projetos-besourinhos (besourinhos)",
+    "message": "Invalid sub for song rocks-a-hard-days-night (a hard days night)",
     "meta": {
       "sub": "",
-      "metajsonAsset": "Projetos/Besourinhos/A_hard_days_night.metajson"
+      "metajsonAsset": "ROCKS/A HARD DAYS NIGHT/BESOURINHOS 2024 - A HARD DAYS NIGHT/A_HARD_DAYS_NIGHT.metajson"
     }
   },
   {
-    "message": "Duplicate arrangement projetos-besourinhos-besourinhos for song projetos-besourinhos (besourinhos)",
+    "message": "Invalid sub for song rocks-all-my-loving (all my loving)",
     "meta": {
-      "absPath": "/tmp/collection/Projetos/Besourinhos/All_my_loving.mscz",
-      "relPath": "Projetos/Besourinhos/All_my_loving.mscz",
-      "extension": ".mscz",
-      "arrId": "projetos-besourinhos-besourinhos",
-      "arrName": "besourinhos",
-      "songId": "projetos-besourinhos",
-      "songTitle": "besourinhos",
-      "style": "projetos"
+      "sub": "",
+      "metajsonAsset": "ROCKS/ALL MY LOVING/BESOURINHOS 2024 - ALL MY LOVING/ALL_MY_LOVING.metajson"
     }
   },
   {
