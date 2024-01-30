@@ -1,83 +1,5 @@
 [
   {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT.metajson"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT.midi"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT.mscz"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_BONE_PIRATA-1.svg"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_BONE_PIRATA.midi"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_FLAUTA-1.svg"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_FLAUTA.midi"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_PETE_PIRATA-1.svg"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_PETE_PIRATA.midi"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_SAX_ALTO-1.svg"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_SAX_ALTO.midi"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_SAX_TENOR-1.svg"
-    }
-  },
-  {
-    "message": "Unsupported file structure",
-    "meta": {
-      "relPath": "BESOURINHO/A_HARD_DAYS_NIGHT_SAX_TENOR.midi"
-    }
-  },
-  {
     "message": "Invalid sub for song axes-a-luz-de-tieta (a luz de tiêta)",
     "meta": {
       "sub": "",
@@ -1369,6 +1291,26 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "PISEIRO/TA ROCHEDA/CARNAVAL BH 2023 - TÁ ROCHEDA/TA ROCHEDA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song projetos-besourinhos (besourinhos)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "Projetos/Besourinhos/A_hard_days_night.metajson"
+    }
+  },
+  {
+    "message": "Duplicate arrangement projetos-besourinhos-besourinhos for song projetos-besourinhos (besourinhos)",
+    "meta": {
+      "absPath": "/tmp/collection/Projetos/Besourinhos/All_my_loving.mscz",
+      "relPath": "Projetos/Besourinhos/All_my_loving.mscz",
+      "extension": ".mscz",
+      "arrId": "projetos-besourinhos-besourinhos",
+      "arrName": "besourinhos",
+      "songId": "projetos-besourinhos",
+      "songTitle": "besourinhos",
+      "style": "projetos"
     }
   },
   {
