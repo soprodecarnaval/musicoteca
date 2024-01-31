@@ -1308,10 +1308,136 @@
     }
   },
   {
+    "message": "Invalid sub for song rocks-all-you-need-is-love (all you need is love)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/ALL YOU NEED IS LOVE/BESOURINHOS - ALL YOU NEED IS LOVE/ALL_YOU_NEED_IS_LOVE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-come-together (come together)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/COME TOGETHER/BESOURINHOS 2024 - COME TOGETHER/COME_TOGETHER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-don-t-let-me-down (don't let me down)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/DON'T LET ME DOWN/BESOURINHOS 2024 - DON'T LET ME DOWN/DONT_LET_ME_DOWN.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-got-to-get-into-my-life (got to get into my life)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/GOT TO GET INTO MY LIFE/BESOURINHOS 2024 - GOT TO GET INTO MY LIFE/GOT_TO_GET_INTO_MY_LIFE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-help (help)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/HELP/BESOURINHOS 2024 - HELP/HELP.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-hey-jude (hey jude)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/HEY JUDE/BESOURINHOS 2024 - HEY JUDE/HEY_JUDE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-i-am-the-walrus (i am the walrus)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/I AM THE WALRUS/BESOURINHOS - I AM THE WALRUS/I_AM_THE_WALRUS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-i-saw-her-standing-there (i saw her standing there)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/I SAW HER STANDING THERE/I_SAW_HER_STANDING_THERE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-i-wanna-hold-your-hand (i wanna hold your hand)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/I WANNA HOLD YOUR HAND/BESOURINHOS 2024 - I WANNA HOLD YOUR HAND/I_WANNA_HOLD_YOUR_HAND.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-love-me-do (love me do)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/LOVE ME DO/BESOURINHOS 2024 - LOVE ME DO/LOVE_ME_DO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-lucy-in-the-sky (lucy in the sky)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/LUCY IN THE SKY/BESOURINHOS 2024 - LUCY IN THE SKY/LUCY_IN_THE_SKY.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-obladi-oblada (obladi oblada)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/OBLADI OBLADA/BESOURINHOS 2024 - OBLADI OBLADA/OBLADI_OBLADA.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song rocks-paint-in-black (paint in black)",
     "meta": {
       "sub": "",
       "metajsonAsset": "ROCKS/PAINT IN BLACK/CARNAVAL BH 2023 - PAINT IN BLACK/PAINT IT, BLACK.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-sargent-peppers (sargent peppers)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/SARGENT PEPPERS/BESOURINHOS 2024 - SARGENT PEPPERS/SARGENT_PEPPERS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-she-loves-you (she loves you)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/SHE LOVES YOU/BESOURINHOS 2024 - SHE LOVES YOU/SHE_LOVES_YOU.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-strawberry-fields-forever (strawberry fields forever)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/STRAWBERRY FIELDS FOREVER/BESOURINHOS 2024 - STRAWBERRY FIELDS FOREVER/STRAWBERRY_FIELDS_FOREVER.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-twist-and-shout (twist and shout)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/TWIST AND SHOUT/BESOURINHOS 2024 - TWIST AND SHOUT/TWIST_AND_SHOUT.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-with-a-little-help-from-my-friends (with a little help from my friends)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/WITH A LITTLE HELP FROM MY FRIENDS/BESOURINHOS - WITH A LITTLE HELP FROM MY FRIENDS/WITH_A_LITTLE_HELP_FROM_MY_FRIENDS.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song rocks-yellow-submarine (yellow submarine)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "ROCKS/YELLOW SUBMARINE/BESOURINHOS 2024 - YELLOW SUBMARINE/YELLOW_SUBMARINE.metajson"
     }
   },
   {
