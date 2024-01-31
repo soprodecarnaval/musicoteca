@@ -33748,19 +33748,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "rocks-i-saw-her-standing-there-i-saw-her-standing-there",
-          "name": "i saw her standing there",
+          "id": "rocks-i-saw-her-standing-there-besourinhos-2024-i-saw-her-standing-there",
+          "name": "besourinhos 2024 - i saw her standing there",
           "assets": [
             {
-              "path": "rocks/i saw her standing there/i saw her standing there/i saw her standing there.mscz",
+              "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/besourinhos 2024 - i saw her standing there.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "rocks/i saw her standing there/i saw her standing there/i saw her standing there.metajson",
+              "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/besourinhos 2024 - i saw her standing there.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "rocks/i saw her standing there/i saw her standing there/i saw her standing there.midi",
+              "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/besourinhos 2024 - i saw her standing there.midi",
               "extension": ".midi"
             }
           ],
@@ -33770,11 +33770,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/trombone.svg",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/trombone.midi",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33784,11 +33784,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/flauta.svg",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/flauta.midi",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33798,11 +33798,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/trompete.svg",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/trompete.midi",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33812,11 +33812,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/sax alto.svg",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/sax alto.midi",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33826,11 +33826,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/sax tenor.svg",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i saw her standing there/i saw her standing there/sax tenor.midi",
+                  "path": "rocks/i saw her standing there/besourinhos 2024 - i saw her standing there/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33927,10 +33927,6 @@
               "name": "sax tenor",
               "instrument": "sax tenor",
               "assets": [
-                {
-                  "path": "rocks/i wanna hold your hand/besourinhos 2024 - i wanna hold your hand/sax tenor.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "rocks/i wanna hold your hand/besourinhos 2024 - i wanna hold your hand/sax tenor.svg",
                   "extension": ".svg"
@@ -34209,10 +34205,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "rocks/obladi oblada/besourinhos 2024 - obladi oblada/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "rocks/obladi oblada/besourinhos 2024 - obladi oblada/trompete.svg",
                   "extension": ".svg"
@@ -34714,10 +34706,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/twist and shout/besourinhos 2024 - twist and shout/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "rocks/twist and shout/besourinhos 2024 - twist and shout/flauta.midi",
                   "extension": ".midi"
                 }
@@ -34903,10 +34891,6 @@
               "name": "trombone",
               "instrument": "trombone",
               "assets": [
-                {
-                  "path": "rocks/yellow submarine/besourinhos 2024 - yellow submarine/trombone.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "rocks/yellow submarine/besourinhos 2024 - yellow submarine/trombone.svg",
                   "extension": ".svg"
