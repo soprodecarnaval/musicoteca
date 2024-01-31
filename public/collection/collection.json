@@ -32552,14 +32552,6 @@
                 {
                   "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trombone.midi",
                   "extension": ".midi"
-                },
-                {
-                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trombone.midi",
-                  "extension": ".midi"
                 }
               ]
             },
@@ -32581,14 +32573,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trompete.midi",
-                  "extension": ".midi"
-                },
                 {
                   "path": "rocks/a hard days night/besourinhos 2024 - a hard days night/trompete.svg",
                   "extension": ".svg"
