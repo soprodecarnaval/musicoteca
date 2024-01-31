@@ -33646,19 +33646,19 @@
       "sub": "",
       "arrangements": [
         {
-          "id": "rocks-i-am-the-walrus-besourinhos-i-am-the-walrus",
-          "name": "besourinhos - i am the walrus",
+          "id": "rocks-i-am-the-walrus-besourinhos-2024-i-am-the-walrus",
+          "name": "besourinhos 2024 - i am the walrus",
           "assets": [
             {
-              "path": "rocks/i am the walrus/besourinhos - i am the walrus/besourinhos - i am the walrus.mscz",
+              "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/besourinhos 2024 - i am the walrus.mscz",
               "extension": ".mscz"
             },
             {
-              "path": "rocks/i am the walrus/besourinhos - i am the walrus/besourinhos - i am the walrus.metajson",
+              "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/besourinhos 2024 - i am the walrus.metajson",
               "extension": ".metajson"
             },
             {
-              "path": "rocks/i am the walrus/besourinhos - i am the walrus/besourinhos - i am the walrus.midi",
+              "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/besourinhos 2024 - i am the walrus.midi",
               "extension": ".midi"
             }
           ],
@@ -33668,11 +33668,11 @@
               "instrument": "trombone",
               "assets": [
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/trombone.svg",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/trombone.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/trombone.midi",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/trombone.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33682,11 +33682,11 @@
               "instrument": "flauta",
               "assets": [
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/flauta.svg",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/flauta.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/flauta.midi",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/flauta.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33696,11 +33696,11 @@
               "instrument": "trompete",
               "assets": [
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/trompete.svg",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/trompete.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/trompete.midi",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33710,11 +33710,11 @@
               "instrument": "sax alto",
               "assets": [
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/sax alto.svg",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/sax alto.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/sax alto.midi",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/sax alto.midi",
                   "extension": ".midi"
                 }
               ]
@@ -33724,11 +33724,11 @@
               "instrument": "sax tenor",
               "assets": [
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/sax tenor.svg",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/sax tenor.svg",
                   "extension": ".svg"
                 },
                 {
-                  "path": "rocks/i am the walrus/besourinhos - i am the walrus/sax tenor.midi",
+                  "path": "rocks/i am the walrus/besourinhos 2024 - i am the walrus/sax tenor.midi",
                   "extension": ".midi"
                 }
               ]
