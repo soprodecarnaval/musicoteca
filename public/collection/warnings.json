@@ -846,6 +846,13 @@
     }
   },
   {
+    "message": "Invalid sub for song funks-meu-jeito-de-amar (meu jeito de amar)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FUNKS/MEU JEITO DE AMAR/CARNAVAL BH 2024 - MEU JEITO DE AMAR/MEU_JEITO_DE_AMAR.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song funks-miss-beleza-universal (miss beleza universal)",
     "meta": {
       "sub": "",
@@ -1186,6 +1193,118 @@
     "meta": {
       "sub": "",
       "metajsonAsset": "MARCHINHAS/ZÉ PEREIRA/CARNAVAL BH 2023 - ZÉ PEREIRA /ZE PEREIRA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-a-cigarra-e-a-formiga (a cigarra e a formiga)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/A CIGARRA E A FORMIGA/MAMÁ VAQUINHA 2024 - A CIGARRA E A FORMIGA/A_CIGARRA_E_A_FORMIGA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-a-dona-aranha (a dona aranha)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/A DONA ARANHA/MAMÁ VAQUINHA 2024 - A DONA ARANHA/A_DONA_ARANHA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-alecrim-dourado (alecrim dourado)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/ALECRIM DOURADO/MAMÁ VAQUINHA 2024 - ALECRIM DOURADO/ALECRIM_DOURADO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-atirei-o-pau-no-gato (atirei o pau no gato)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/ATIREI O PAU NO GATO/MAMÁ VAQUINHA 2024 - ATIREI O PAU NO GATO/ATIREI_O_PAU_NO_GATO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-borboletinha (borboletinha)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/BORBOLETINHA/MAMÁ VAQUINHA 2024 - BORBOLETINHA/BORBOLETINHA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-careca-do-vovo (careca do vovô)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/CARECA DO VOVÔ/MAMÁ VAQUINHA 2024 - CARECA DO VOVÔ/CARECA_DO_VOVÔ.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-ilarie (ilariê)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/ILARIÊ/MAMÁ VAQUINHA 2024 - ILARIÊ/ILARIE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-meu-lanchinho (meu lanchinho)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/MEU LANCHINHO/MAMÁ VAQUINHA 2024 - MEU LANCHINHO/MEU_LANCHINHO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-meu-pintinho-amarelinho (meu pintinho amarelinho)",
+    "meta": {
+      "sub": "/tmp/audiveris-be01db513ffeb62175db329d6ce6e6cd/score.pdf",
+      "metajsonAsset": "MÚSICA INFANTIL/MEU PINTINHO AMARELINHO/MAMÁ VAQUINHA 2024 - MEU PINTINHO AMARELINHO/MEU_PINTINHO_AMARELINHO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-o-sapo-nao-lava-o-pe (o sapo não lava o pé)",
+    "meta": {
+      "sub": "/tmp/audiveris-51d4dc0c4232d97df62b3a1773aa2bc8/score.pdf",
+      "metajsonAsset": "MÚSICA INFANTIL/O SAPO NÃO LAVA O PÉ/MAMÁ VAQUINHA 2024 - O SAPO NÃO LAVA O PÉ/O_SAPO_NAO_LAVA_O_PE.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-peixe-vivo (peixe vivo)",
+    "meta": {
+      "sub": "/tmp/audiveris-29b7ba8ad3b9a369f690cbeee56efb67/score.pdf",
+      "metajsonAsset": "MÚSICA INFANTIL/PEIXE VIVO/MAMÁ VAQUINHA 2024 - PEIXE VIVO/PEIXE VIVO.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-pela-estrada-fora (pela estrada fora)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/PELA ESTRADA FORA/MAMÁ VAQUINHA 2024 - PELA ESTRADA FORA/PELA_ESTRADA_A_FORA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-pula-pula-pipoquinha (pula pula pipoquinha)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/PULA PULA PIPOQUINHA/MAMÁ VAQUINHA 2024 - PULA PULA PIPOQUINHA/PULA_PULA_PIPOQUINHA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-quem-te-ensinou-a-nadar (quem te ensinou a nadar)",
+    "meta": {
+      "sub": "/tmp/audiveris-81e59627bafdf569eff0d9fe7a731660.pdf",
+      "metajsonAsset": "MÚSICA INFANTIL/QUEM TE ENSINOU A NADAR/MAMÁ VAQUINHA 2024 - QUEM TE ENSINOU A NADAR/QUEM TE ENSINOU A NADAR.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-tem-gato-na-tuba (tem gato na tuba)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "MÚSICA INFANTIL/TEM GATO NA TUBA/MAMÁ VAQUINHA 2024 - TEM GATO NA TUBA/TEM_GATO_NA_TUBA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song musica-infantil-yellow-submarine (yellow submarine)",
+    "meta": {
+      "sub": "/tmp/audiveris-e43456a80ed8bfe215d8bd9cd7dc7b6c/score.pdf",
+      "metajsonAsset": "MÚSICA INFANTIL/YELLOW SUBMARINE/MAMÁ VAQUINHA 2024 - YELLOW SUBMARINE/YELLOW SUBMARINE.metajson"
     }
   },
   {
