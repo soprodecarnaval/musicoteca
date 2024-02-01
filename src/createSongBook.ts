@@ -181,12 +181,19 @@ const addSongPage = async (
 ) => {
   if (backSheetPageNumber) {
     doc.addPage();
+    drawImage(doc,'assets/patrocinio_verso.png',2 * page + 9);
+    let fontSize = 9 * cm2pt
+    if (page >= 10){
+      fontSize = 8 * cm2pt
+    } else if ( page >= 100) {
+      fontSize = 3 * cm2pt
+    }
     doc
       .font("Helvetica-Bold")
-      .fontSize(9 * cm2pt)
-      .text(page, 0, 2.14 * cm2pt, {
+      .fontSize(fontSize)
+      .text(page, 8 * cm2pt, 2.14 * cm2pt, {
         align: "center",
-        width: 18 * cm2pt,
+        width: 10 * cm2pt,
         height: 9 * cm2pt,
       }); // Número do verso
     doc
