@@ -1,22 +1,22 @@
 {
     "composer": "",
-    "duration": 92,
+    "duration": 108,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
     "keysig": -3,
     "lyrics": "",
-    "measures": 23,
+    "measures": 25,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 3,
+    "pages": 4,
     "parts": [
         {
-            "harmonyCount": 35,
+            "harmonyCount": 38,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 35,
+            "harmonyCount": 38,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -38,7 +38,7 @@
             "program": 65
         },
         {
-            "harmonyCount": 35,
+            "harmonyCount": 38,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",

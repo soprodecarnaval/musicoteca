@@ -1,12 +1,12 @@
 {
     "composer": "Duda Beat",
-    "duration": 82,
+    "duration": 128,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -4,
     "lyrics": "",
-    "measures": 26,
+    "measures": 30,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
@@ -72,7 +72,7 @@
         }
     ],
     "poet": "",
-    "previousSource": "EU FUI PRO BAILE. TAVA CARENTE, PRECISANDO .. VAI DESCENDO DEVAGAR",
+    "previousSource": "",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
