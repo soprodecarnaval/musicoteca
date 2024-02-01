@@ -24,13 +24,13 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   const doc = createDoc();
   const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
   if (carnivalMode) {
-    await drawImage(doc, "assets/capa_2024.jpeg", 0);
+    await drawImage(doc, "assets/capa_carnaval_2024.jpeg", 0);
     doc
       .font("Helvetica")
       .fontSize(14)
       // .rect(142, 213, 220, 15)
       // .fill("red")
-      .text(instrument.toUpperCase(), 142, 214, {
+      .text(instrument.toUpperCase(), 142, 208.5, {
         width: 220,
         align: "center",
       });
