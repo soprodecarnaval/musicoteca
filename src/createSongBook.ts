@@ -193,6 +193,7 @@ const addSongPage = async (
     } else if ( page >= 10) {
       fontSize = 8 * cm2pt
       titleSpacing = 6 * cm2pt
+      numberSpacing = 1 * cm2pt
     }
     doc
       .font("Helvetica-Bold")
