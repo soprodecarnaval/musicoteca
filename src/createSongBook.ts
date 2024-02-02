@@ -1,3 +1,4 @@
+import { fonts } from "pdfkit/js/page";
 import SVGtoPDF from "svg-to-pdfkit";
 import { Instrument, SongArrangement, SongArrangementSection } from "./types";
 
@@ -183,25 +184,26 @@ const addSongPage = async (
     doc.addPage();
     drawImage(doc,'assets/patrocinio_verso.png',2 * page + 9);
     let fontSize = 9 * cm2pt
-    if (page >= 10){
+    if (page >= 100){
+      fontSize = 5 * cm2pt
+    } else if ( page >= 10) {
       fontSize = 8 * cm2pt
-    } else if ( page >= 100) {
-      fontSize = 3 * cm2pt
     }
     doc
       .font("Helvetica-Bold")
       .fontSize(fontSize)
-      .text(page, 8 * cm2pt, 2.14 * cm2pt, {
+      .text(page, 7.5 * cm2pt, 1.14 * cm2pt, {
         align: "center",
-        width: 10 * cm2pt,
-        height: 9 * cm2pt,
+        width: 10.5 * cm2pt,
+        height: fontSize,
       }); // Número do verso
     doc
       .font("Helvetica")
       .fontSize(1 * cm2pt)
-      .text(song.title.toUpperCase(), 0 * cm2pt, 10.5 * cm2pt, {
+      .text(song.title.toUpperCase(), 8.2 * cm2pt, 9.14 * cm2pt, {
         align: "center",
-        width: 18 * cm2pt,
+        width: 9.5 * cm2pt,
+        height: 9 * cm2pt
       }); // Título do verso
   }
   doc.addPage();
@@ -228,6 +230,18 @@ const addSongPage = async (
     .fontSize(9)
     .fillColor("black")
     .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
+  doc
+    .fontSize(1.2*cm2pt)
+    .text(
+      `${page}`,
+      0.44 * cm2pt,
+      0.93 * cm2pt,
+      {
+        align: "right",
+        width: 17.1 * cm2pt,
+      }
+    ); // Número topo página
+
   doc
     .fontSize(9)
     .text(
