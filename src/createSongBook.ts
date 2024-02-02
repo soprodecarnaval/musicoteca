@@ -1,3 +1,4 @@
+import { fonts } from "pdfkit/js/page";
 import SVGtoPDF from "svg-to-pdfkit";
 import { Instrument, SongArrangement, SongArrangementSection } from "./types";
 
@@ -30,7 +31,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
       .fontSize(14)
       // .rect(142, 213, 220, 15)
       // .fill("red")
-      .text(instrument.toUpperCase(), 142, 208.5, {
+      .text(instrument.toUpperCase(), 142, 203, {
         width: 220,
         align: "center",
       });
@@ -181,20 +182,34 @@ const addSongPage = async (
 ) => {
   if (backSheetPageNumber) {
     doc.addPage();
+    drawImage(doc,'assets/patrocinio_verso.png',2 * page + 9);
+    let fontSize = 9 * cm2pt
+    let titleSpacing = 6 * cm2pt
+    let numberSpacing = 0
+    if (page >= 100){
+      fontSize = 5 * cm2pt
+      titleSpacing = 6 * cm2pt
+      numberSpacing = 2 * cm2pt
+    } else if ( page >= 10) {
+      fontSize = 8 * cm2pt
+      titleSpacing = 6 * cm2pt
+      numberSpacing = 1 * cm2pt
+    }
     doc
       .font("Helvetica-Bold")
-      .fontSize(9 * cm2pt)
-      .text(page, 0, 2.14 * cm2pt, {
+      .fontSize(fontSize)
+      .text(page, 7.5 * cm2pt, 1.14 * cm2pt + numberSpacing, {
         align: "center",
-        width: 18 * cm2pt,
-        height: 9 * cm2pt,
+        width: 10.5 * cm2pt,
+        height: fontSize,
       }); // Número do verso
     doc
       .font("Helvetica")
       .fontSize(1 * cm2pt)
-      .text(song.title.toUpperCase(), 0 * cm2pt, 10.5 * cm2pt, {
+      .text(song.title.toUpperCase(), 8.2 * cm2pt, 3.14 * cm2pt + titleSpacing, {
         align: "center",
-        width: 18 * cm2pt,
+        width: 9.5 * cm2pt,
+        height: 9 * cm2pt
       }); // Título do verso
   }
   doc.addPage();
@@ -221,6 +236,18 @@ const addSongPage = async (
     .fontSize(9)
     .fillColor("black")
     .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
+  doc
+    .fontSize(1.2*cm2pt)
+    .text(
+      `${page}`,
+      0.44 * cm2pt,
+      0.93 * cm2pt,
+      {
+        align: "right",
+        width: 17.1 * cm2pt,
+      }
+    ); // Número topo página
+
   doc
     .fontSize(9)
     .text(
@@ -259,7 +286,7 @@ const addIndexPage = (
   );
   const sectionCount = sections.length;
   const containerWidth = 17.17 * cm2pt;
-  const containerHeight = 11 * cm2pt;
+  const containerHeight = 13 * cm2pt;
   let totalLineCount = carnivalMode ? 76 : totalSongCount + sectionCount * 2;
 
   let columnCount = 1;
@@ -271,21 +298,21 @@ const addIndexPage = (
     columnCount = 2;
   }
 
-  const maxLinesPerColumn = Math.floor(totalLineCount / columnCount);
+  const maxLinesPerColumn = Math.floor(totalLineCount / columnCount)+2;
   const fontSize = Math.min(
-    Math.floor(containerHeight / maxLinesPerColumn) - 2,
+    Math.floor(containerHeight / maxLinesPerColumn) - 3,
     15
   );
   const columnWidth = Math.ceil(containerWidth / columnCount);
 
-  let cursorStartPosition = [0.44 * cm2pt, 1.55 * cm2pt];
+  let cursorStartPosition = [1.44 * cm2pt, 1.55 * cm2pt];
   let currentColumn = 0;
   let currentLine = 0;
   let itemCount = 0;
   let songCount = 0;
   let firstPage = true;
   const resetCursorPosition = () => {
-    cursorStartPosition = [0.44 * cm2pt, 1.55 * cm2pt];
+    cursorStartPosition = [1.44 * cm2pt, 1.55 * cm2pt];
     currentColumn = 0;
     currentLine = 0;
     itemCount = 0;
@@ -299,7 +326,7 @@ const addIndexPage = (
     currentColumn = Math.ceil((itemCount + 1) / (maxLinesPerColumn + 1)) - 1; //Math.max(Math.ceil((itemCount+1)/maxLinesPerColumn),1)
     itemCount++;
     return [
-      cursorStartPosition[0] + currentColumn * columnWidth,
+      cursorStartPosition[0] + currentColumn * columnWidth + 1,
       cursorStartPosition[1] + currentLine * fontSize,
     ];
   };
