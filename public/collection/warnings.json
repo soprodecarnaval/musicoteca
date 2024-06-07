@@ -707,6 +707,20 @@
     }
   },
   {
+    "message": "Invalid sub for song forros-esperando-na-janela (esperando na janela)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FORRÓS/ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA.metajson"
+    }
+  },
+  {
+    "message": "Invalid sub for song forros-espumas-ao-vento (espumas ao vento)",
+    "meta": {
+      "sub": "",
+      "metajsonAsset": "FORRÓS/ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO.metajson"
+    }
+  },
+  {
     "message": "Invalid sub for song forros-eu-so-quero-um-xodo (eu só quero um xodó)",
     "meta": {
       "sub": "",

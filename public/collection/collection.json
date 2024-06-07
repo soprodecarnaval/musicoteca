@@ -14849,6 +14849,214 @@
       "style": "filme"
     },
     {
+      "id": "forros-abri-a-porta",
+      "title": "abri a porta",
+      "composer": "Dominguinhos e Gilberto Gil",
+      "sub": "Abri a porta / Apareci / Isso é a vida / É a vida, sim",
+      "arrangements": [
+        {
+          "id": "forros-abri-a-porta-festa-junina-2024-abri-a-porta",
+          "name": "festa junina 2024 - abri a porta",
+          "assets": [
+            {
+              "path": "forrós/abri a porta/festa junina 2024 - abri a porta/festa junina 2024 - abri a porta.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/abri a porta/festa junina 2024 - abri a porta/festa junina 2024 - abri a porta.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/abri a porta/festa junina 2024 - abri a porta/festa junina 2024 - abri a porta.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-ai-que-saudade-doce",
+      "title": "ai que saudade doce",
+      "composer": "Vital Farias",
+      "sub": "Não se admire se um dia\n/ um beija-flor invadir\n/ a porta da tua casa",
+      "arrangements": [
+        {
+          "id": "forros-ai-que-saudade-doce-festa-junina-2024-ai-que-saudade-doce",
+          "name": "festa junina 2024 - ai que saudade doce",
+          "assets": [
+            {
+              "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/festa junina 2024 - ai que saudade doce.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/festa junina 2024 - ai que saudade doce.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/festa junina 2024 - ai que saudade doce.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
       "id": "forros-anunciacao",
       "title": "anunciação",
       "composer": "Alceu Valença",
@@ -15230,6 +15438,552 @@
       "style": "forrós"
     },
     {
+      "id": "forros-asa-branca",
+      "title": "asa branca",
+      "composer": "Luiz Gonzaga e Humberto Teixeira",
+      "sub": "Quando olhei a terra ardendo / com a fogueira de São João",
+      "arrangements": [
+        {
+          "id": "forros-asa-branca-festa-junina-2024-asa-branca",
+          "name": "festa junina 2024 - asa branca",
+          "assets": [
+            {
+              "path": "forrós/asa branca/festa junina 2024 - asa branca/festa junina 2024 - asa branca.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/asa branca/festa junina 2024 - asa branca/festa junina 2024 - asa branca.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/asa branca/festa junina 2024 - asa branca/festa junina 2024 - asa branca.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "tuba",
+              "instrument": "tuba",
+              "assets": [
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/asa branca/festa junina 2024 - asa branca/tuba.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-assum-preto",
+      "title": "assum preto",
+      "composer": "Luiz Gonzaga e Humberto Teixeira",
+      "sub": "Tudo em volta é só beleza / Sol de abril e a mata em flor",
+      "arrangements": [
+        {
+          "id": "forros-assum-preto-festa-junina-2024-assum-preto",
+          "name": "festa junina 2024 - assum preto",
+          "assets": [
+            {
+              "path": "forrós/assum preto/festa junina 2024 - assum preto/festa junina 2024 - assum preto.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/assum preto/festa junina 2024 - assum preto/festa junina 2024 - assum preto.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/assum preto/festa junina 2024 - assum preto/festa junina 2024 - assum preto.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/assum preto/festa junina 2024 - assum preto/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-cajuina",
+      "title": "cajuína",
+      "composer": "Caetano Veloso",
+      "sub": "Existirmos: A que será que se destina?",
+      "arrangements": [
+        {
+          "id": "forros-cajuina-festa-junina-2024-cajuina",
+          "name": "festa junina 2024 - cajuína",
+          "assets": [
+            {
+              "path": "forrós/cajuína/festa junina 2024 - cajuína/festa junina 2024 - cajuína.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/cajuína/festa junina 2024 - cajuína/festa junina 2024 - cajuína.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/cajuína/festa junina 2024 - cajuína/festa junina 2024 - cajuína.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/cajuína/festa junina 2024 - cajuína/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-esperando-na-janela",
+      "title": "esperando na janela",
+      "composer": "",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "forros-esperando-na-janela-festa-junina-2024-esperando-na-janela",
+          "name": "festa junina 2024 - esperando na janela",
+          "assets": [
+            {
+              "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/festa junina 2024 - esperando na janela.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/festa junina 2024 - esperando na janela.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/festa junina 2024 - esperando na janela.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "tuba",
+              "instrument": "tuba",
+              "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/tuba.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-espumas-ao-vento",
+      "title": "espumas ao vento",
+      "composer": "José Accioly Cavalcante Neto",
+      "sub": "",
+      "arrangements": [
+        {
+          "id": "forros-espumas-ao-vento-festa-junina-2024-espumas-ao-vento",
+          "name": "festa junina 2024 - espumas ao vento",
+          "assets": [
+            {
+              "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/festa junina 2024 - espumas ao vento.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/festa junina 2024 - espumas ao vento.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/festa junina 2024 - espumas ao vento.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/espumas ao vento/festa junina 2024 - espumas ao vento/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
       "id": "forros-eu-so-quero-um-xodo",
       "title": "eu só quero um xodó",
       "composer": "Dominguinhos e Gil",
@@ -15319,6 +16073,210 @@
                 },
                 {
                   "path": "forrós/eu só quero um xodó/carnaval bh 2023 - eu só quero um xodó/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-festa-do-interior",
+      "title": "festa do interior",
+      "composer": "Moraes Moreira e Abel Silva\n",
+      "sub": "Fagulhas / pontas de agulhas / brilham estrelas / de São João",
+      "arrangements": [
+        {
+          "id": "forros-festa-do-interior-festa-junina-2024-festa-do-interior",
+          "name": "festa junina 2024 - festa do interior",
+          "assets": [
+            {
+              "path": "forrós/festa do interior/festa junina 2024 - festa do interior/festa junina 2024 - festa do interior.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/festa do interior/festa junina 2024 - festa do interior/festa junina 2024 - festa do interior.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/festa do interior/festa junina 2024 - festa do interior/festa junina 2024 - festa do interior.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/festa do interior/festa junina 2024 - festa do interior/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-la-belle-de-jour",
+      "title": "la belle de jour",
+      "composer": "Alceu Valença",
+      "sub": "Eu lembro da moça bonita da praia de Boa viagem",
+      "arrangements": [
+        {
+          "id": "forros-la-belle-de-jour-festa-junina-2024-la-belle-de-jour",
+          "name": "festa junina 2024 - la belle de jour",
+          "assets": [
+            {
+              "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/festa junina 2024 - la belle de jour.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/festa junina 2024 - la belle de jour.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/festa junina 2024 - la belle de jour.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15527,6 +16485,312 @@
       "style": "forrós"
     },
     {
+      "id": "forros-nosso-xote",
+      "title": "nosso xote",
+      "composer": "Bicho de Pé",
+      "sub": "Moreno me convidou para dançar um xote ",
+      "arrangements": [
+        {
+          "id": "forros-nosso-xote-festa-junina-2024-nosso-xote",
+          "name": "festa junina 2024 - nosso xote",
+          "assets": [
+            {
+              "path": "forrós/nosso xote/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/nosso xote/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/nosso xote/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/nosso xote/festa junina 2024 - nosso xote/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-o-sanfoneiro-so-tocava-isso",
+      "title": "o sanfoneiro só tocava isso",
+      "composer": "Haroldo Lobo e Geraldo Medeiros",
+      "sub": "Aquela música de quadrilha",
+      "arrangements": [
+        {
+          "id": "forros-o-sanfoneiro-so-tocava-isso-festa-junina-2024-o-sanfoneiro-so-tocava-isso",
+          "name": "festa junina 2024 - o sanfoneiro só tocava isso",
+          "assets": [
+            {
+              "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/o sanfoneiro só tocava isso/festa junina 2024 - o sanfoneiro só tocava isso/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-olha-pro-ceu",
+      "title": "olha pro céu",
+      "composer": "Luiz Gonzaga",
+      "sub": "Olha pro céu,  meu amor / Vê como ele está lindo",
+      "arrangements": [
+        {
+          "id": "forros-olha-pro-ceu-festa-junina-2024-olha-pro-ceu",
+          "name": "festa junina 2024 - olha pro céu",
+          "assets": [
+            {
+              "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/festa junina 2024 - olha pro céu.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/festa junina 2024 - olha pro céu.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/festa junina 2024 - olha pro céu.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/olha pro céu/festa junina 2024 - olha pro céu/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
       "id": "forros-pagode-russo",
       "title": "pagode russo",
       "composer": "Luiz Gonzaga",
@@ -15722,6 +16986,130 @@
       "style": "forrós"
     },
     {
+      "id": "forros-pula-a-fogueira",
+      "title": "pula a fogueira",
+      "composer": "Joao Bastos Filho e Getulio Marinho",
+      "sub": "Pula a fogueira, iaiá / Pula a fogueira, ioiô",
+      "arrangements": [
+        {
+          "id": "forros-pula-a-fogueira-festa-junina-2024-pula-a-fogueira",
+          "name": "festa junina 2024 - pula a fogueira",
+          "assets": [
+            {
+              "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/festa junina 2024 - pula a fogueira.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/festa junina 2024 - pula a fogueira.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/festa junina 2024 - pula a fogueira.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "tuba",
+              "instrument": "tuba",
+              "assets": [
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/tuba.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/tuba.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
       "id": "forros-qui-nem-jilo",
       "title": "qui nem jiló",
       "composer": "LUIZ GONZAGA",
@@ -15811,6 +17199,108 @@
                 },
                 {
                   "path": "forrós/qui nem jiló/carnaval bh 2024 - qui nem jiló/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-sanfona-sentida",
+      "title": "sanfona sentida",
+      "composer": "Dominguinhos",
+      "sub": "Vem amor,  vem cantar / pois meus olhos ficam querendo chorar",
+      "arrangements": [
+        {
+          "id": "forros-sanfona-sentida-festa-junina-2024-sanfona-sentida",
+          "name": "festa junina 2024 - sanfona sentida",
+          "assets": [
+            {
+              "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/festa junina 2024 - sanfona sentida.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/festa junina 2024 - sanfona sentida.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/festa junina 2024 - sanfona sentida.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/sanfona sentida/festa junina 2024 - sanfona sentida/trompete.midi",
                   "extension": ".midi"
                 }
               ]
