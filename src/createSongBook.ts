@@ -1,4 +1,3 @@
-import { fonts } from "pdfkit/js/page";
 import SVGtoPDF from "svg-to-pdfkit";
 import { Instrument, SongArrangement, SongArrangementSection } from "./types";
 
@@ -75,7 +74,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
       ...songArrangements.map((song) => {
         pageNumber++;
         return addSongPage(doc, song, pageNumber, title, opts);
-      })
+      }),
     );
   }
   const nonNullPromises = promises.filter((promise) => promise !== null);
@@ -106,7 +105,7 @@ const drawSvg = async (
   doc: any,
   url: string,
   page: number,
-  carnivalMode: boolean
+  carnivalMode: boolean,
 ) => {
   try {
     const resp = await fetch(url);
@@ -178,22 +177,22 @@ const addSongPage = async (
   { song, arrangement }: SongArrangement,
   page: number,
   sectionTitle: string,
-  { instrument, backSheetPageNumber, carnivalMode }: CreateSongBookOptions
+  { instrument, backSheetPageNumber, carnivalMode }: CreateSongBookOptions,
 ) => {
   if (backSheetPageNumber) {
     doc.addPage();
-    drawImage(doc,'assets/patrocinio_verso.png',2 * page + 9);
-    let fontSize = 9 * cm2pt
-    let titleSpacing = 6 * cm2pt
-    let numberSpacing = 0
-    if (page >= 100){
-      fontSize = 5 * cm2pt
-      titleSpacing = 6 * cm2pt
-      numberSpacing = 2 * cm2pt
-    } else if ( page >= 10) {
-      fontSize = 8 * cm2pt
-      titleSpacing = 6 * cm2pt
-      numberSpacing = 1 * cm2pt
+    drawImage(doc, "assets/patrocinio_verso.png", 2 * page + 9);
+    let fontSize = 9 * cm2pt;
+    let titleSpacing = 6 * cm2pt;
+    let numberSpacing = 0;
+    if (page >= 100) {
+      fontSize = 5 * cm2pt;
+      titleSpacing = 6 * cm2pt;
+      numberSpacing = 2 * cm2pt;
+    } else if (page >= 10) {
+      fontSize = 8 * cm2pt;
+      titleSpacing = 6 * cm2pt;
+      numberSpacing = 1 * cm2pt;
     }
     doc
       .font("Helvetica-Bold")
@@ -206,11 +205,16 @@ const addSongPage = async (
     doc
       .font("Helvetica")
       .fontSize(1 * cm2pt)
-      .text(song.title.toUpperCase(), 8.2 * cm2pt, 3.14 * cm2pt + titleSpacing, {
-        align: "center",
-        width: 9.5 * cm2pt,
-        height: 9 * cm2pt
-      }); // Título do verso
+      .text(
+        song.title.toUpperCase(),
+        8.2 * cm2pt,
+        3.14 * cm2pt + titleSpacing,
+        {
+          align: "center",
+          width: 9.5 * cm2pt,
+          height: 9 * cm2pt,
+        },
+      ); // Título do verso
   }
   doc.addPage();
   sectionTitleOutlines.get(sectionTitle).addItem(song.title.toUpperCase());
@@ -236,17 +240,10 @@ const addSongPage = async (
     .fontSize(9)
     .fillColor("black")
     .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
-  doc
-    .fontSize(1.2*cm2pt)
-    .text(
-      `${page}`,
-      0.44 * cm2pt,
-      0.93 * cm2pt,
-      {
-        align: "right",
-        width: 17.1 * cm2pt,
-      }
-    ); // Número topo página
+  doc.fontSize(1.2 * cm2pt).text(`${page}`, 0.44 * cm2pt, 0.93 * cm2pt, {
+    align: "right",
+    width: 17.1 * cm2pt,
+  }); // Número topo página
 
   doc
     .fontSize(9)
@@ -257,7 +254,7 @@ const addSongPage = async (
       {
         align: "right",
         width: 17.1 * cm2pt,
-      }
+      },
     ); // Estilo + Número
   // TODO: Pensar em quando tiver mais de um arranjo
   let svgUrl = "";
@@ -278,11 +275,11 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode }: CreateSongBookOptions
+  { sections, carnivalMode }: CreateSongBookOptions,
 ) => {
   const totalSongCount = sections.reduce(
     (acc, { songArrangements }) => acc + songArrangements.length,
-    0
+    0,
   );
   const sectionCount = sections.length;
   const containerWidth = 17.17 * cm2pt;
@@ -298,10 +295,10 @@ const addIndexPage = (
     columnCount = 2;
   }
 
-  const maxLinesPerColumn = Math.floor(totalLineCount / columnCount)+2;
+  const maxLinesPerColumn = Math.floor(totalLineCount / columnCount) + 2;
   const fontSize = Math.min(
     Math.floor(containerHeight / maxLinesPerColumn) - 3,
-    15
+    15,
   );
   const columnWidth = Math.ceil(containerWidth / columnCount);
 
@@ -379,7 +376,7 @@ const addIndexPage = (
             width: columnWidth - 0.3 * cm2pt,
             height: fontSize,
             lineBreak: false,
-          }
+          },
         );
       [currentX, currentY] = nextCursorPosition();
     });
