@@ -11,11 +11,11 @@ interface SaveLoadModalProps {
   show: boolean;
 }
 
-const songBookToBase64 = (songBook: SongBook): string => {
-  return btoa(JSON.stringify(songBook));
+const songBookToJson = (songBook: SongBook): string => {
+  return JSON.stringify(songBook);
 };
 
-type Base64ToSongBookResult =
+type JsonToSongBookResult =
   | {
       songBook: SongBook;
       error?: undefined;
@@ -25,9 +25,9 @@ type Base64ToSongBookResult =
       error: any;
     };
 
-const base64ToSongBook = (base64: string): Base64ToSongBookResult => {
+const jsonToSongBook = (base64: string): JsonToSongBookResult => {
   try {
-    return { songBook: JSON.parse(atob(base64)) };
+    return { songBook: JSON.parse(base64) };
   } catch (e: any) {
     return { error: e };
   }
@@ -42,7 +42,7 @@ const base64ToSongBook = (base64: string): Base64ToSongBookResult => {
 // The onLoad callback returns true if the songbook was loaded successfully
 const SaveLoadModal = (props: SaveLoadModalProps) => {
   const { songBook, onLoad, onHide, show } = props;
-  const initialSongBookData = songBookToBase64(songBook);
+  const initialSongBookData = songBookToJson(songBook);
 
   const [songBookData, setSongBookData] = useState(initialSongBookData);
   const [errorMessage, setErrorMessage] = useState("");
@@ -55,7 +55,7 @@ const SaveLoadModal = (props: SaveLoadModalProps) => {
 
   const handleLoad = () => {
     try {
-      const result = base64ToSongBook(songBookData);
+      const result = jsonToSongBook(songBookData);
       if (result.error) {
         setErrorMessage(result.error.message);
       } else if (result.songBook && onLoad(result.songBook)) {
