@@ -14937,10 +14937,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "forrós/abri a porta/festa junina 2024 - abri a porta/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "forrós/abri a porta/festa junina 2024 - abri a porta/trompete.midi",
                   "extension": ".midi"
                 }
@@ -15044,6 +15040,99 @@
                 },
                 {
                   "path": "forrós/ai que saudade doce/festa junina 2024 - ai que saudade doce/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        },
+        {
+          "id": "forros-ai-que-saudade-doce-festa-junina-2024-nosso-xote",
+          "name": "festa junina 2024 - nosso xote",
+          "assets": [
+            {
+              "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trompete.midi",
                   "extension": ".midi"
                 }
               ]
@@ -15764,8 +15853,8 @@
     {
       "id": "forros-esperando-na-janela",
       "title": "esperando na janela",
-      "composer": "",
-      "sub": "",
+      "composer": "Gilberto Gil",
+      "sub": "Ainda me lembro do seu caminhar / Seu jeito de olhar, eu me lembro bem",
       "arrangements": [
         {
           "id": "forros-esperando-na-janela-festa-junina-2024-esperando-na-janela",
@@ -15789,6 +15878,10 @@
               "name": "flauta",
               "instrument": "flauta",
               "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/flauta.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/flauta.svg",
                   "extension": ".svg"
@@ -15822,6 +15915,10 @@
                   "extension": ".svg"
                 },
                 {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
                   "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax tenor.midi",
                   "extension": ".midi"
                 }
@@ -15845,6 +15942,10 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
+                {
+                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trompete.svg",
+                  "extension": ".svg"
+                },
                 {
                   "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trompete.svg",
                   "extension": ".svg"
@@ -16292,9 +16393,102 @@
     {
       "id": "forros-morena-tropicana",
       "title": "morena tropicana",
-      "composer": "ALCEU VALENÇA",
-      "sub": "DA MANGA ROSA QUERO GOSTO E O SUMO",
+      "composer": "Bicho de Pé",
+      "sub": "Moreno me convidou para dançar um xote ",
       "arrangements": [
+        {
+          "id": "forros-morena-tropicana-festa-junina-2024-nosso-xote",
+          "name": "festa junina 2024 - nosso xote",
+          "assets": [
+            {
+              "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morena tropicana/festa junina 2024 - nosso xote/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        },
         {
           "id": "forros-morena-tropicana-carnaval-bh-2023-morena-tropicana",
           "name": "carnaval bh 2023 - morena tropicana",

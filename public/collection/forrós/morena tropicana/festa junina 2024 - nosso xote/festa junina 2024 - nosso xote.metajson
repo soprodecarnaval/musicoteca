@@ -1,12 +1,12 @@
 {
-    "composer": "Gilberto Gil",
-    "duration": 60,
+    "composer": "Bicho de Pé",
+    "duration": 82,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 4,
+    "keysig": -3,
     "lyrics": "",
-    "measures": 34,
+    "measures": 22,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
@@ -15,6 +15,17 @@
     },
     "pages": 5,
     "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.flutes.flute",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Flauta Transversal",
+            "program": 73
+        },
         {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
@@ -31,22 +42,11 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.tuba",
+            "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Tuba",
-            "program": 58
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Trombone",
-            "program": 57
+            "name": "Saxofone Tenor",
+            "program": 66
         },
         {
             "harmonyCount": 0,
@@ -64,29 +64,18 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.flutes.flute",
+            "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Transversal",
-            "program": 73
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "wind.reed.saxophone.tenor",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Saxofone Tenor",
-            "program": 66
+            "name": "Trombone",
+            "program": 57
         }
     ],
     "poet": "",
-    "previousSource": "Ainda me lembro do seu caminhar / Seu jeito de olhar, eu me lembro bem",
+    "previousSource": "Moreno me convidou para dançar um xote ",
     "subtitle": "",
-    "tempo": 80,
-    "tempoText": "<sym>metNoteQuarterUp</sym> = 80",
+    "tempo": 70,
+    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 70</b>",
     "textFramesData": {
         "composers": [
         ],
@@ -97,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "2/4",
-    "title": "Esperando Na Janela"
+    "timesig": "4/4",
+    "title": "Nosso Xote"
 }
