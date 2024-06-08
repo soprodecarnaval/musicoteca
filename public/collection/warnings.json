@@ -1,5 +1,1175 @@
 [
   {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Flute-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Flute.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Saxofone_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Saxofone_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Saxofone_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Saxofone_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Trompete_em_Bb-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ABRI A PORTA / FESTA JUNINA 2024 - ABRI A PORTA/ABRI A PORTA_Trompete_em_Bb.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Flauta-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Flauta.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Sax_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Sax_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Sax_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Sax_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Trombone_Pirata-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Trombone_Pirata.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Trompete_Pirata-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /AI QUE SAUDADE DOCE / FESTA JUNINA 2024 - AI QUE SAUDADE DOCE/AI QUE SAUDADE DOCE_Trompete_Pirata.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Flauta_Transversal-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Flauta_Transversal.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Saxofone_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Saxofone_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Saxofone_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Saxofone_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Trompete_em_Bb-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Trompete_em_Bb.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Tuba-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Tuba-2.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASA BRANCA / FESTA JUNINA 2024 - ASA BRANCA/ASA BRANCA_Tuba.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Alto_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Alto_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Bb_Trumpet-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Bb_Trumpet.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Flute-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Flute.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Tenor_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Tenor_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ASSUM PRETO / FESTA JUNINA 2024 - ASSUM PRETO/ASSUM PRETO_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Flauta-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Flauta.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Sax_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Sax_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Sax_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Sax_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Trompete-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /CAJUÍNA / FESTA JUNINA 2024 - CAJUÍNA/CAJUÍNA_Trompete.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Flauta-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Flauta-2.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Flauta.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Saxofone_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Saxofone_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Saxofone_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Saxofone_Tenor-2.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Saxofone_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Trompete_em_Bb-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Trompete_em_Bb-2.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Trompete_em_Bb.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Tuba-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Tuba-2.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPERANDO NA JANELA / FESTA JUNINA 2024 - ESPERANDO NA JANELA/ESPERANDO NA JANELA_Tuba.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Alto_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Alto_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Bb_Trumpet-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Bb_Trumpet.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Flute-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Flute.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Tenor_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Tenor_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /ESPUMAS AO VENTO / FESTA JUNINA 2024 - ESPUMAS AO VENTO/ESPUMAS AO VENTO_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Alto_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Alto_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Flute-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Flute.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Tenor_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Tenor_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Trumpet-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /FESTA DO INTERIOR / FESTA JUNINA 2024 - FESTA DO INTERIOR/FESTA DO INTERIOR_Trumpet.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Flauta_Transversal-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Flauta_Transversal.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Saxofone_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Saxofone_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Saxofone_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Saxofone_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Trompete-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /LA BELLE DE JOUR / FESTA JUNINA 2024 - LA BELLE DE JOUR/LA BELLE DE JOUR_Trompete.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Flauta_Transversal-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Flauta_Transversal.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Saxofone_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Saxofone_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Saxofone_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Saxofone_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Trompete_em_Bb-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /NOSSO XOTE / FESTA JUNINA 2024 - NOSSO XOTE/NOSSO XOTE_Trompete_em_Bb.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Alto_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Alto_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Bb_Trumpet-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Bb_Trumpet.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Flute-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Flute.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Tenor_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Tenor_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /O SANFONEIRO SÓ TOCAVA ISSO / FESTA JUNINA 2024 - O SANFONEIRO SÓ TOCAVA ISSO/O SANFONEIRO SÓ TOCAVA ISSO_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Flauta_Transversal-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Flauta_Transversal.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Saxofone_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Saxofone_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Saxofone_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Saxofone_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Trompete_em_Bb-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /OLHA PRO CÉU / FESTA JUNINA 2024 - OLHA PRO CÉU/OLHA PRO CÉU_Trompete_em_Bb.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Flauta-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Flauta.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Saxofone_Alto-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Saxofone_Alto.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Saxofone_Tenor-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Saxofone_Tenor.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Trompete_em_Bb-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Trompete_em_Bb-2.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Trompete_em_Bb.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Tuba-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Tuba-2.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /PULA A FOGUEIRA / FESTA JUNINA 2024 - PULA A FOGUEIRA/PULA A FOGUEIRA_Tuba.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA.metajson"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA.mscz"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Alto_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Alto_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Flute-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Flute.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Tenor_Saxophone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Tenor_Saxophone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Trombone-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Trombone.midi"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Trumpet-1.svg"
+    }
+  },
+  {
+    "message": "Unsupported file structure",
+    "meta": {
+      "relPath": "FORRÓS/AI QUE SAUDADE DOCE /SANFONA SENTIDA / FESTA JUNINA 2024 - SANFONA SENTIDA/SANFONA SENTIDA_Trumpet.midi"
+    }
+  },
+  {
     "message": "Invalid sub for song axes-a-luz-de-tieta (a luz de tiêta)",
     "meta": {
       "sub": "",
