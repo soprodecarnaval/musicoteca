@@ -22,11 +22,13 @@ export interface CreateSongBookOptions {
 
 export const createSongBook = async (opts: CreateSongBookOptions) => {
   const doc = createDoc();
+  await loadFonts(doc);
+
   const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
   if (carnivalMode) {
     await drawImage(doc, "assets/capa_carnaval_2024.jpeg", 0);
     doc
-      .font("Helvetica")
+      .font("Roboto-Medium")
       .fontSize(14)
       // .rect(142, 213, 220, 15)
       // .fill("red")
@@ -172,6 +174,15 @@ const createDoc = () => {
   });
 };
 
+const loadFonts = async (doc: any) => {
+  const fonts = ["Roboto-Medium", "Roboto-Bold"];
+  for (const font of fonts) {
+    const resp = await fetch(`${font}.ttf`);
+    const buffer = await resp.arrayBuffer();
+    doc.registerFont(font, buffer);
+  }
+};
+
 const addSongPage = async (
   doc: any,
   { song, arrangement }: SongArrangement,
@@ -195,7 +206,7 @@ const addSongPage = async (
       numberSpacing = 1 * cm2pt;
     }
     doc
-      .font("Helvetica-Bold")
+      .font("Roboto-Bold")
       .fontSize(fontSize)
       .text(page, 7.5 * cm2pt, 1.14 * cm2pt + numberSpacing, {
         align: "center",
@@ -203,7 +214,7 @@ const addSongPage = async (
         height: fontSize,
       }); // Número do verso
     doc
-      .font("Helvetica")
+      .font("Roboto-Medium")
       .fontSize(1 * cm2pt)
       .text(
         song.title.toUpperCase(),
@@ -219,7 +230,7 @@ const addSongPage = async (
   doc.addPage();
   sectionTitleOutlines.get(sectionTitle).addItem(song.title.toUpperCase());
   doc
-    .font("Helvetica-Bold")
+    .font("Roboto-Bold")
     .fontSize(22)
     .text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt, {
       destination: page,
@@ -331,7 +342,7 @@ const addIndexPage = (
   let reorderedSongs: SongArrangement[] = [];
   doc.addPage();
   // .fontSize(25)
-  // .font("Helvetica-Bold")
+  // .font("Roboto-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
   sections.forEach(({ title, songArrangements }, styleIdx) => {
     if (carnivalMode) {
@@ -353,20 +364,20 @@ const addIndexPage = (
         if (currentLine == maxLinesPerColumn)
           [currentX, currentY] = nextCursorPosition();
         doc
-          .font("Helvetica-Bold")
+          .font("Roboto-Bold")
           .fontSize(fontSize - 2)
           .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
         [currentX, currentY] = nextCursorPosition();
       }
       doc
-        .font("Helvetica-Bold")
+        .font("Roboto-Bold")
         .fontSize(fontSize - 2)
         .text(1 + songCount++, currentX - 0.5 * cm2pt, currentY, {
           align: "right",
           width: 0.6 * cm2pt,
           goTo: songCount,
         }) // Número da página
-        .font("Helvetica")
+        .font("Roboto-Medium")
         .text(
           `${songArrangement.song.title.toUpperCase()}`,
           currentX + 0.3 * cm2pt,
