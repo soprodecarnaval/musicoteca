@@ -12,7 +12,6 @@ import { AddAllSongsButton } from "./AddAllSongsButton";
 import { BsFillSave2Fill } from "react-icons/bs";
 
 import {
-  isSongBookRowSection,
   SongBook,
   type PlayingSong,
   type SongArrangement,
@@ -34,7 +33,7 @@ function App() {
   });
   const handleSelectSong = (
     songArrangement: SongArrangement,
-    checked: boolean
+    checked: boolean,
   ) => {
     checked
       ? handleAddSong(songArrangement)
@@ -48,7 +47,7 @@ function App() {
   const handleAddSong = (songArrangement: SongArrangement) => {
     setSongBookRows([...songBookRows, songArrangement]);
     const updatedRes = results.filter(
-      (r) => r.arrangement.id !== songArrangement.arrangement.id
+      (r) => r.arrangement.id !== songArrangement.arrangement.id,
     );
 
     setResults(updatedRes);
@@ -57,8 +56,9 @@ function App() {
   const handleRemoveSong = (songArrangement: SongArrangement) => {
     const updatedRes = songBookRows.filter(
       (r) =>
-        isSongBookRowSection(r) ||
-        r.arrangement.id !== songArrangement.arrangement.id
+        r.type == "section" ||
+        (r.type == "arrangement" &&
+          r.data.arrangement.id !== songArrangement.arrangement.id),
     );
 
     setResults([songArrangement, ...results]);
@@ -75,13 +75,14 @@ function App() {
     const newUniqueSelectedResults = newSongBookRows.filter((row, index) => {
       return (
         // include sections
-        isSongBookRowSection(row) ||
+        row.type == "section" ||
         // include first occurrence of song
         index ===
           newSongBookRows.findIndex(
             (o) =>
-              !isSongBookRowSection(o) &&
-              row.arrangement.id === o.arrangement.id
+              row.type == "arrangement" &&
+              o.type == "arrangement" &&
+              row.data.arrangement.id === o.data.arrangement.id,
           )
       );
     });

@@ -4,13 +4,11 @@ import "../css/ArrangementItem.css";
 
 interface SongBookSectionRowProps {
   handleDelete: () => void;
-  handleMove: (steps: number) => void;
   title: string;
 }
 
 const SongBookSectionRow = ({
   handleDelete,
-  handleMove,
   title,
 }: SongBookSectionRowProps) => {
   return (
@@ -20,12 +18,6 @@ const SongBookSectionRow = ({
         <td></td>
         <td></td>
         <td></td>
-        <td>
-          <BsArrowUp onClick={() => handleMove(-1)} />
-        </td>
-        <td>
-          <BsArrowDown onClick={() => handleMove(1)} />
-        </td>
         <td>
           <BsFillTrashFill onClick={handleDelete} />
         </td>

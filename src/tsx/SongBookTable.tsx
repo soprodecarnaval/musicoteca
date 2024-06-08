@@ -10,7 +10,26 @@ import {
 } from "react-bootstrap";
 
 import {
-  isSongBookRowSection,
+  closestCenter,
+  DndContext,
+  DragEndEvent,
+  DragOverlay,
+  DragStartEvent,
+  KeyboardSensor,
+  MouseSensor,
+  TouchSensor,
+  UniqueIdentifier,
+  useSensor,
+  useSensors,
+} from "@dnd-kit/core";
+import { restrictToVerticalAxis } from "@dnd-kit/modifiers";
+import {
+  arrayMove,
+  SortableContext,
+  verticalListSortingStrategy,
+} from "@dnd-kit/sortable";
+
+import {
   type PlayingSong,
   type SongArrangement,
   type SongBookRow,
@@ -44,12 +63,13 @@ const SongBookTable = ({
   handleClear,
   handlePlayingSong,
 }: SongBookTableProps) => {
+  const [activeId, setActiveId] = useState<null | UniqueIdentifier>(null);
   const [newSection, setNewSection] = useState<string>("");
 
-  const onInputNewSection = ({ target: { value } }: any) =>
+  const onInputNewSection = ({ target: { value } }: React.ChangeEvent) =>
     setNewSection(value);
 
-  const onCreateSection = (e: any) => {
+  const onCreateSection = (e: React.FormEvent) => {
     e.preventDefault();
     const newRows = [...rows, newSection];
     setRows(newRows);
@@ -67,91 +87,121 @@ const SongBookTable = ({
     </Tooltip>
   );
 
-  const renderRow = (row: SongBookRow, idx: number) => {
-    if (isSongBookRowSection(row)) {
+  const handleDragStart = (event: DragStartEvent) => {
+    setActiveId(event.active.id);
+  };
+
+  const handleDragEnd = (event: DragEndEvent) => {
+    const { active, over } = event;
+    if (active?.id && over?.id && active.id !== over.id) {
+      const oldIndex = rows.findIndex((r) => r.id === active.id);
+      const newIndex = rows.findIndex((r) => r.id === over.id);
+      const newRows = arrayMove(rows, oldIndex, newIndex);
+      setRows(newRows);
+    }
+
+    setActiveId(null);
+  };
+
+  const handleDragCancel = () => {
+    setActiveId(null);
+  };
+
+  const sensors = useSensors(
+    useSensor(MouseSensor, {}),
+    useSensor(TouchSensor, {}),
+    useSensor(KeyboardSensor, {}),
+  );
+
+  const activeRow = activeId ? rows.find((r) => r.id === activeId) : null;
+
+  const renderRow = (row: SongBookRow) => {
+    if (row.type === "section") {
       return (
         <SongBookSectionRow
-          handleDelete={() => setRows(deleteRow(rows, idx))}
-          handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
-          title={row}
-          key={row}
+          handleDelete={() => setRows(deleteRow(rows, row.id))}
+          title={row.data.title}
+          key={row.id}
         />
       );
     }
     return (
       <SongBookArrangementRow
         handleDelete={handleSelect}
-        songArrangement={row}
-        key={row.arrangement.name}
+        songArrangement={row.data}
+        key={row.id}
         handlePlayingSong={handlePlayingSong}
-        handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
       />
     );
   };
 
   return (
-    <>
-      <Row>
-        <Col sm="4">
-          <Sort
-            onSortBy={(col, dir) => sortSongsWithinSections(rows, col, dir)}
-          />
-        </Col>
-        <Col>
-          <Form className="d-flex" onSubmit={onCreateSection}>
-            <Col>
-              <Form.Control
-                type="text"
-                onChange={onInputNewSection}
-                value={newSection}
-                placeholder="Adicionar seção"
-              />
-            </Col>
-            <Col>
-              <Button onClick={onCreateSection}>+ seção</Button>
-            </Col>
-          </Form>
-        </Col>
-      </Row>
-      <Table striped borderless hover>
-        <thead>
-          <tr>
-            <th></th>
-            <th>Título</th>
-            <th>Arranjo</th>
-            <th>Tags</th>
-          </tr>
-        </thead>
-        <tbody>{rows.map((row, idx) => renderRow(row, idx))}</tbody>
-      </Table>
-      <Row className="mt-4">
-        <Col>
-          <p>
-            {rows.filter(isSongBookRowSection).length} seções e{" "}
-            {rows.filter((r: any) => !isSongBookRowSection(r)).length} músicas
-          </p>
-        </Col>
-        <Col>
-          <Button onClick={handleClear}>Limpar tudo</Button>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <Button onClick={() => setRows(generateSectionsByStyle(rows))}>
-            Gerar seções por estilo
-          </Button>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <OverlayTrigger placement="left" overlay={carnivalSectionsTooltip}>
-            <Button onClick={() => setRows(generateCarnivalSections(rows))}>
-              Aplicar ordenação do carnaval
+    <DndContext
+      sensors={sensors}
+      onDragEnd={handleDragEnd}
+      onDragStart={handleDragStart}
+      onDragCancel={handleDragCancel}
+      collisionDetection={closestCenter}
+      modifiers={[restrictToVerticalAxis]}
+    >
+      <Table>
+        <Row>
+          <Col sm="4">
+            <Sort
+              onSortBy={(col, dir) => sortSongsWithinSections(rows, col, dir)}
+            />
+          </Col>
+          <Col>
+            <Form className="d-flex" onSubmit={onCreateSection}>
+              <Col>
+                <Form.Control
+                  type="text"
+                  onChange={onInputNewSection}
+                  value={newSection}
+                  placeholder="Adicionar seção"
+                />
+              </Col>
+              <Col>
+                <Button onClick={onCreateSection}>+ seção</Button>
+              </Col>
+            </Form>
+          </Col>
+        </Row>
+        <Table striped borderless hover>
+          {rows.map((row) => renderRow(row))}
+        </Table>
+        <Row className="mt-4">
+          <Col>
+            <p>
+              {rows.filter((r) => r.type == "section").length} seções e{" "}
+              {rows.filter((r) => r.type === "arrangement").length} músicas
+            </p>
+          </Col>
+          <Col>
+            <Button onClick={handleClear}>Limpar tudo</Button>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Button onClick={() => setRows(generateSectionsByStyle(rows))}>
+              Gerar seções por estilo
             </Button>
-          </OverlayTrigger>
-        </Col>
-      </Row>
-    </>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <OverlayTrigger placement="left" overlay={carnivalSectionsTooltip}>
+              <Button onClick={() => setRows(generateCarnivalSections(rows))}>
+                Aplicar ordenação do carnaval
+              </Button>
+            </OverlayTrigger>
+          </Col>
+        </Row>
+      </Table>
+      <DragOverlay>
+        {activeRow && <Table>{renderRow(activeRow)}</Table>}
+      </DragOverlay>
+    </DndContext>
   );
 };
 

@@ -63,14 +63,14 @@ export type PlayingSong = {
   partName: string;
 };
 
-export type SongBookSection = string;
-export type SongBookRow = SongArrangement | SongBookSection;
-
-export const isSongBookRowSection = (
-  row: SongBookRow
-): row is SongBookSection => {
-  return typeof row === "string";
-};
+export type SongBookSection = { title: string };
+export type SongBookRow =
+  | {
+      id: number;
+      type: "arrangement";
+      data: SongArrangement;
+    }
+  | { id: number; type: "section"; data: SongBookSection };
 
 export type SongBook = {
   rows: SongBookRow[];

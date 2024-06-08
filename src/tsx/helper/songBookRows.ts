@@ -1,40 +1,44 @@
-import {
-  SongArrangement,
-  SongBookRow,
-  isSongBookRowSection,
-} from "../../types";
+import { SongArrangement, SongBookRow } from "../../types";
 import { sortByColumn } from "./sorter";
 
-// moves a row up or down, swapping it with the row in the new position
-export const moveRow = (rows: SongBookRow[], idx: number, steps: number) => {
-  if (idx + steps < 0 || idx + steps >= rows.length) {
-    return rows;
-  }
+let id = new Date().getTime();
 
-  // move the rows
-  const newRows = [...rows];
-  const temp = newRows[idx];
-  newRows[idx] = newRows[idx + steps];
-  newRows[idx + steps] = temp;
-  return newRows;
+export const createArrangementRow = (
+  songArrangement: SongArrangement,
+): SongBookRow => {
+  return {
+    id: id++,
+    type: "arrangement",
+    data: songArrangement,
+  };
 };
 
-export const deleteRow = (rows: SongBookRow[], idx: number) => {
-  const newRows = [...rows];
-  newRows.splice(idx, 1);
-  return newRows;
+export const createSectionRow = (title: string): SongBookRow => {
+  return {
+    id: id++,
+    type: "section",
+    data: { title },
+  };
+};
+
+export const deleteRow = (rows: SongBookRow[], id: number) => {
+  const idx = rows.findIndex((r) => r.id === id);
+  if (idx) {
+    rows.splice(idx, 1);
+  }
+  return rows;
 };
 
 export const sortSongsWithinSections = (
   rows: SongBookRow[],
   column: string,
-  direction: string
+  direction: string,
 ) => {
   // sort slices of songs delimited by sections
   const sorted = [];
   let slice = [];
   for (const row of rows) {
-    if (isSongBookRowSection(row)) {
+    if (row.type == "section") {
       if (slice.length > 0) {
         sorted.push(...sortByColumn(slice, column, direction));
       }
@@ -54,16 +58,15 @@ export const sortSongsWithinSections = (
 
 export const generateSectionsByStyle = (rows: SongBookRow[]) => {
   // remove all sections
-  const newRows = rows.filter((r) => !isSongBookRowSection(r));
+  const newRows = rows.filter((r) => r.type !== "section");
 
   // create sections
   const sections = new Map<string, SongBookRow[]>();
   for (const row of newRows) {
-    // keep type system happy
-    if (isSongBookRowSection(row)) {
+    if (row.type !== "arrangement") {
       continue;
     }
-    const style = row.song.style;
+    const style = row.data.song.style;
     if (sections.has(style)) {
       sections.get(style)?.push(row);
     } else {
@@ -72,9 +75,9 @@ export const generateSectionsByStyle = (rows: SongBookRow[]) => {
   }
 
   // regenerate rows
-  const sorted = [];
+  const sorted: SongBookRow[] = [];
   for (const [key, value] of sections.entries()) {
-    sorted.push(key);
+    sorted.push(createSectionRow(key));
     sorted.push(...value);
   }
   return sorted;
@@ -107,7 +110,9 @@ export const generateCarnivalSections = (rows: SongBookRow[]) => {
   const newRows = [];
   for (const section of carnivalSectionOrder) {
     // find section index
-    const idx = rows.findIndex((r) => isSongBookRowSection(r) && r === section);
+    const idx = rows.findIndex(
+      (r) => r.type === "section" && r.data.title === section,
+    );
     if (idx === -1) {
       continue;
     }
@@ -115,10 +120,10 @@ export const generateCarnivalSections = (rows: SongBookRow[]) => {
     newRows.push(rows[idx]);
 
     // add all songs in section
-    const slice: SongArrangement[] = [];
+    const slice: SongBookRow[] = [];
     for (let i = idx + 1; i < rows.length; i++) {
       const row = rows[i];
-      if (isSongBookRowSection(row)) {
+      if (row.type == "section") {
         break;
       }
       slice.push(row);

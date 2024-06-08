@@ -40,9 +40,9 @@ interface PdfGeneratorProps {
 
 // GUS-TODO: persist songbook
 const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
-  const songArrangements = songBookRows.filter(
-    (r: SongBookRow) => !isSongBookRowSection(r)
-  ) as SongArrangement[];
+  const songArrangements = songBookRows
+    .filter((r: SongBookRow) => r.type == "arrangement")
+    .map((r) => r.data);
 
   const [songbookTitle, setTitle] = useState("");
 
@@ -108,9 +108,9 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
     let currentSection: SongArrangementSection | null = null;
 
     for (const row of songBookRows) {
-      if (isSongBookRowSection(row)) {
+      if (row.type == "section") {
         currentSection = {
-          title: row,
+          title: row.data.title,
           songArrangements: [],
         };
         sections.push(currentSection);
