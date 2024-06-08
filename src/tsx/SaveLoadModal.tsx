@@ -22,12 +22,12 @@ type JsonToSongBookResult =
     }
   | {
       songBook?: undefined;
-      error: any;
+      error: { message?: string };
     };
 
-const jsonToSongBook = (base64: string): JsonToSongBookResult => {
+const jsonToSongBook = (rawJson: string): JsonToSongBookResult => {
   try {
-    return { songBook: JSON.parse(base64) };
+    return { songBook: JSON.parse(rawJson) };
   } catch (e: any) {
     return { error: e };
   }
@@ -42,39 +42,47 @@ const jsonToSongBook = (base64: string): JsonToSongBookResult => {
 // The onLoad callback returns true if the songbook was loaded successfully
 const SaveLoadModal = (props: SaveLoadModalProps) => {
   const { songBook, onLoad, onHide, show } = props;
-  const initialSongBookData = songBookToJson(songBook);
 
-  const [songBookData, setSongBookData] = useState(initialSongBookData);
   const [errorMessage, setErrorMessage] = useState("");
-  const [isModified, setIsModified] = useState(false);
 
-  const handleInput = (event: React.ChangeEvent<HTMLInputElement>) => {
-    setSongBookData(event.target.value);
-    setIsModified(true);
+  const onFileInput = (e: React.ChangeEvent<HTMLInputElement>) => {
+    void (async () => {
+      try {
+        const rawJson = await e.target.files?.[0].text();
+        if (rawJson) {
+          const result = jsonToSongBook(rawJson);
+          if (result.error?.message) {
+            setErrorMessage(result.error.message);
+            return;
+          } else if (result.songBook && onLoad(result.songBook)) {
+            setErrorMessage("");
+            onHide();
+            return;
+          }
+        }
+      } catch (e) {
+        if (e instanceof Error) {
+          setErrorMessage(e.message);
+          return;
+        }
+      }
+      setErrorMessage("Erro carregando caderninho");
+    })();
   };
 
-  const handleLoad = () => {
-    try {
-      const result = jsonToSongBook(songBookData);
-      if (result.error) {
-        setErrorMessage(result.error.message);
-      } else if (result.songBook && onLoad(result.songBook)) {
-        setErrorMessage("");
-        setIsModified(false);
-        onHide();
-      } else {
-        // GUS-TODO: display error message
-        setErrorMessage("Erro carregando caderninho");
-      }
-    } catch (e: any) {
-      setErrorMessage(e.message);
-    }
+  const downloadSongBookJson = () => {
+    const json = songBookToJson(songBook);
+    const blob = new Blob([json], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${new Date().toISOString()}.cadernin.json`;
+    a.click();
+    URL.revokeObjectURL(url);
   };
 
   const handleHide = () => {
-    setSongBookData(initialSongBookData);
     setErrorMessage("");
-    setIsModified(false);
     onHide();
   };
 
@@ -84,27 +92,29 @@ const SaveLoadModal = (props: SaveLoadModalProps) => {
         <Modal.Title>Save/Load</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <input
-          className="form-control"
-          type="text"
-          value={isModified ? songBookData : initialSongBookData}
-          onChange={handleInput}
-        />
+        <div className="mb-3">
+          <label htmlFor="songBookFileInput" className="form-label">
+            Abrir coleção
+          </label>
+          <input
+            type="file"
+            className="form-control"
+            id="songBookFileInput"
+            accept=".json"
+            onChange={onFileInput}
+          />
+        </div>
+        <div className="mb-3">
+          <button className="btn btn-primary" onClick={downloadSongBookJson}>
+            Salvar coleção
+          </button>
+        </div>
         {errorMessage && (
           <div className="alert alert-danger mt-2" role="alert">
             {errorMessage}
           </div>
         )}
       </Modal.Body>
-      <Modal.Footer>
-        <button
-          className="btn btn-primary"
-          onClick={handleLoad}
-          disabled={!isModified}
-        >
-          Load
-        </button>
-      </Modal.Footer>
     </Modal>
   );
 };
