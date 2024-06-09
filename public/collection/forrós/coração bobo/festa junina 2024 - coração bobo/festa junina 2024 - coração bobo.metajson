@@ -1,22 +1,22 @@
 {
-    "composer": "Bicho de Pé",
-    "duration": 82,
+    "composer": "Alceu Valença",
+    "duration": 74,
     "fileVersion": 302,
-    "hasHarmonies": "false",
+    "hasHarmonies": "true",
     "hasLyrics": "false",
-    "keysig": -3,
+    "keysig": 1,
     "lyrics": "",
-    "measures": 22,
+    "measures": 36,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
-        "twosided": "true",
-        "width": 210
+        "height": 279,
+        "twosided": "false",
+        "width": 216
     },
-    "pages": 5,
+    "pages": 3,
     "parts": [
         {
-            "harmonyCount": 0,
+            "harmonyCount": 40,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 40,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -38,7 +38,7 @@
             "program": 65
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 40,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -72,10 +72,10 @@
         }
     ],
     "poet": "",
-    "previousSource": "Moreno me convidou para dançar um xote ",
+    "previousSource": "Meu coração tá batendo\n/ Como quem diz não tem jeito",
     "subtitle": "",
-    "tempo": 70,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 70</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
@@ -86,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "4/4",
-    "title": "Nosso Xote"
+    "timesig": "2/4",
+    "title": "Coração Bobo"
 }
