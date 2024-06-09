@@ -1,6 +1,6 @@
 {
     "composer": "Bicho de Pé",
-    "duration": 82,
+    "duration": 48,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "",
     "previousSource": "Moreno me convidou para dançar um xote ",
     "subtitle": "",
-    "tempo": 70,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 70</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
