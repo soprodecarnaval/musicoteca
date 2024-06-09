@@ -15892,10 +15892,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/flauta.midi",
                   "extension": ".midi"
                 }
@@ -15924,10 +15920,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/sax tenor.midi",
                   "extension": ".midi"
                 }
@@ -15951,10 +15943,6 @@
               "name": "trompete",
               "instrument": "trompete",
               "assets": [
-                {
-                  "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trompete.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "forrós/esperando na janela/festa junina 2024 - esperando na janela/trompete.svg",
                   "extension": ".svg"
@@ -17383,10 +17371,6 @@
                   "extension": ".svg"
                 },
                 {
-                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
                   "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/trompete.midi",
                   "extension": ".midi"
                 }
@@ -17396,10 +17380,6 @@
               "name": "tuba",
               "instrument": "tuba",
               "assets": [
-                {
-                  "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/tuba.svg",
-                  "extension": ".svg"
-                },
                 {
                   "path": "forrós/pula a fogueira/festa junina 2024 - pula a fogueira/tuba.svg",
                   "extension": ".svg"
