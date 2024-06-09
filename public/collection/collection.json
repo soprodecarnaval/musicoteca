@@ -15048,99 +15048,6 @@
           "tags": [
             "forrós"
           ]
-        },
-        {
-          "id": "forros-ai-que-saudade-doce-festa-junina-2024-nosso-xote",
-          "name": "festa junina 2024 - nosso xote",
-          "assets": [
-            {
-              "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.mscz",
-              "extension": ".mscz"
-            },
-            {
-              "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.metajson",
-              "extension": ".metajson"
-            },
-            {
-              "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/festa junina 2024 - nosso xote.midi",
-              "extension": ".midi"
-            }
-          ],
-          "parts": [
-            {
-              "name": "flauta",
-              "instrument": "flauta",
-              "assets": [
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/flauta.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/flauta.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax alto",
-              "instrument": "sax alto",
-              "assets": [
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax alto.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax alto.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "sax tenor",
-              "instrument": "sax tenor",
-              "assets": [
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax tenor.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/sax tenor.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trombone",
-              "instrument": "trombone",
-              "assets": [
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trombone.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trombone.midi",
-                  "extension": ".midi"
-                }
-              ]
-            },
-            {
-              "name": "trompete",
-              "instrument": "trompete",
-              "assets": [
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trompete.svg",
-                  "extension": ".svg"
-                },
-                {
-                  "path": "forrós/ai que saudade doce/festa junina 2024 - nosso xote/trompete.midi",
-                  "extension": ".midi"
-                }
-              ]
-            }
-          ],
-          "tags": [
-            "forrós"
-          ]
         }
       ],
       "style": "forrós"
@@ -15851,6 +15758,108 @@
       "style": "forrós"
     },
     {
+      "id": "forros-coracao-bobo",
+      "title": "coração bobo",
+      "composer": "Alceu Valença",
+      "sub": "Meu coração tá batendo\n/ Como quem diz não tem jeito",
+      "arrangements": [
+        {
+          "id": "forros-coracao-bobo-festa-junina-2024-coracao-bobo",
+          "name": "festa junina 2024 - coração bobo",
+          "assets": [
+            {
+              "path": "forrós/coração bobo/festa junina 2024 - coração bobo/festa junina 2024 - coração bobo.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/coração bobo/festa junina 2024 - coração bobo/festa junina 2024 - coração bobo.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/coração bobo/festa junina 2024 - coração bobo/festa junina 2024 - coração bobo.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/coração bobo/festa junina 2024 - coração bobo/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
       "id": "forros-esperando-na-janela",
       "title": "esperando na janela",
       "composer": "Gilberto Gil",
@@ -16378,6 +16387,112 @@
                 },
                 {
                   "path": "forrós/la belle de jour/festa junina 2024 - la belle de jour/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
+      "id": "forros-morango-do-nordeste",
+      "title": "morango do nordeste",
+      "composer": "Lairton e Seus Teclados",
+      "sub": "Estava tão tristonho quando ela apareceu\n/ Seus olhos que fascinam logo me estremeceu",
+      "arrangements": [
+        {
+          "id": "forros-morango-do-nordeste-festa-junina-2024-morango-do-nordeste",
+          "name": "festa junina 2024 - morango do nordeste",
+          "assets": [
+            {
+              "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/festa junina 2024 - morango do nordeste.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/festa junina 2024 - morango do nordeste.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/festa junina 2024 - morango do nordeste.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/morango do nordeste/festa junina 2024 - morango do nordeste/trompete.midi",
                   "extension": ".midi"
                 }
               ]
