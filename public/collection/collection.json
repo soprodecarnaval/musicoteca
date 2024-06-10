@@ -16286,6 +16286,108 @@
       "style": "forrós"
     },
     {
+      "id": "forros-homem-com-h",
+      "title": "homem com h",
+      "composer": "Ney Matogrosso",
+      "sub": "Nunca vi rastro de cobra / Nem couro de lobisomem",
+      "arrangements": [
+        {
+          "id": "forros-homem-com-h-festa-junina-2024-homem-com-h",
+          "name": "festa junina 2024 - homem com h",
+          "assets": [
+            {
+              "path": "forrós/homem com h/festa junina 2024 - homem com h/festa junina 2024 - homem com h.mscz",
+              "extension": ".mscz"
+            },
+            {
+              "path": "forrós/homem com h/festa junina 2024 - homem com h/festa junina 2024 - homem com h.metajson",
+              "extension": ".metajson"
+            },
+            {
+              "path": "forrós/homem com h/festa junina 2024 - homem com h/festa junina 2024 - homem com h.midi",
+              "extension": ".midi"
+            }
+          ],
+          "parts": [
+            {
+              "name": "flauta",
+              "instrument": "flauta",
+              "assets": [
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/flauta.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/flauta.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax alto",
+              "instrument": "sax alto",
+              "assets": [
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/sax alto.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/sax alto.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "sax tenor",
+              "instrument": "sax tenor",
+              "assets": [
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/sax tenor.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/sax tenor.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trombone",
+              "instrument": "trombone",
+              "assets": [
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/trombone.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/trombone.midi",
+                  "extension": ".midi"
+                }
+              ]
+            },
+            {
+              "name": "trompete",
+              "instrument": "trompete",
+              "assets": [
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/trompete.svg",
+                  "extension": ".svg"
+                },
+                {
+                  "path": "forrós/homem com h/festa junina 2024 - homem com h/trompete.midi",
+                  "extension": ".midi"
+                }
+              ]
+            }
+          ],
+          "tags": [
+            "forrós"
+          ]
+        }
+      ],
+      "style": "forrós"
+    },
+    {
       "id": "forros-la-belle-de-jour",
       "title": "la belle de jour",
       "composer": "Alceu Valença",
