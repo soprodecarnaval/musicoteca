@@ -10,7 +10,8 @@
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "index-collection": "tsx scripts/collectionIndexer.ts",
-    "download-gdrive": "tsx scripts/googleDriveDownloader.ts"
+    "download-gdrive": "tsx scripts/googleDriveDownloader.ts",
+    "migrate-collection": "tsx scripts/migrateCollection.ts"
   },
   "dependencies": {
     "@types/jest": "^29.5.3",
