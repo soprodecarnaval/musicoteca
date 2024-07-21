@@ -2,7 +2,7 @@ import {
   SongArrangement,
   SongBookRow,
   isSongBookRowSection,
-} from "../../types";
+} from "../../../types";
 import { sortByColumn } from "./sorter";
 
 // moves a row up or down, swapping it with the row in the new position

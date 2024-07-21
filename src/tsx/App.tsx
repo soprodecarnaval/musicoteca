@@ -17,7 +17,7 @@ import {
   type PlayingSong,
   type SongArrangement,
   type SongBookRow,
-} from "../types";
+} from "../../types";
 
 import "bootstrap/dist/css/bootstrap.css";
 import "../css/App.css";

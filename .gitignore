@@ -28,3 +28,6 @@ priv/
 
 # Binary
 musescore_*
+
+public/collection-old
+test/scripts/indexCollectionTestOutput

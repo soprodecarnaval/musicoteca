@@ -1,6 +1,6 @@
 import { Table } from "react-bootstrap";
 
-import type { PlayingSong, SongArrangement } from "../types";
+import type { PlayingSong, SongArrangement } from "../../types";
 
 import { ArrangementItem } from "./ArrangementItem";
 import { PaginationBar } from "./PaginationBar";

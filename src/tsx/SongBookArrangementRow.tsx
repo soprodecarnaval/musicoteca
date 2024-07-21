@@ -7,7 +7,7 @@ import {
 } from "react-icons/bs";
 import { SiMidi } from "react-icons/si";
 
-import type { PlayingSong, SongArrangement } from "../types";
+import type { PlayingSong, SongArrangement } from "../../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";

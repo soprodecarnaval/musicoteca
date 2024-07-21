@@ -17,7 +17,7 @@ import {
   SongArrangementSection,
   SongBookRow,
   isSongBookRowSection,
-} from "../types";
+} from "../../types";
 import { createSongBook } from "../createSongBook";
 
 const instruments: Instrument[] = [

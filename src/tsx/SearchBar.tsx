@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 
-import { SongArrangement } from "../types";
+import { SongArrangement } from "../../types";
 import collection from "../collection";
 
 import Fuse from "fuse.js";

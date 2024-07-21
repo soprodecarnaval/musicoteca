@@ -3,7 +3,7 @@ import { useState } from "react";
 import { BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
 
 import { PreviewModal } from "./PreviewModal";
-import { Part } from "../types";
+import { Part } from "../../types";
 
 import "../css/PartItem.css";
 import { Col, Row } from "react-bootstrap";

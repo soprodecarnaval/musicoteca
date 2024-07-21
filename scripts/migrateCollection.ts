@@ -2,26 +2,14 @@ import fs from "fs";
 import fsp from "fs/promises";
 import path from "path";
 import { ArgumentParser } from "argparse";
+import { Collection, Project, Song, Instrument } from "../types";
 
 export type Warning = {
   message: string;
   path: string;
 };
 
-type Instrument =
-  | "bombardino"
-  | "clarinete"
-  | "flauta"
-  | "sax alto"
-  | "sax soprano"
-  | "sax tenor"
-  | "trombone"
-  | "trombone pirata"
-  | "trompete"
-  | "trompete pirata"
-  | "tuba";
-
-type FileRef = {
+export type OldFileRef = {
   path: string;
   extension: string;
 };
@@ -29,12 +17,12 @@ type FileRef = {
 interface OldPart {
   name: string;
   instrument: Instrument;
-  assets: FileRef[];
+  assets: OldFileRef[];
 }
 
 interface OldArrangement {
   id: string;
-  assets: FileRef[];
+  assets: OldFileRef[];
   name: string;
   parts: OldPart[];
   tags: string[];
@@ -54,79 +42,43 @@ interface OldCollection {
   tags: string[];
 }
 
-type SourceFileRef = FileRef & {
-  checksum?: string;
-  updatedAt?: Date;
-};
-
-interface Part {
-  name: string;
-  instrument: Instrument;
-  svg?: FileRef;
-  midi?: FileRef;
-  mp3?: FileRef;
-}
-
-interface Song {
-  title: string;
-  composer: string;
-  sub: string;
-  mscz: SourceFileRef;
-  metajson?: FileRef;
-  midi?: FileRef;
-  mp3?: FileRef;
-  parts: Part[];
-}
-
-interface Project {
-  title: string;
-  songs: Song[];
-}
-
-interface Collection {
-  projects: Project[];
-  scrapedAt: Date;
-  version: 2;
-}
-
+// TODO: how to make the compiler happy about Promise<any>?
 const allPromises: Promise<any>[] = [];
 
 const migrateAsset = (
   srcDir: string,
-  assets: FileRef[],
-  ext: string,
+  assets: OldFileRef[],
   destDir: string,
-  basename: string,
-): FileRef | undefined => {
+  relDestPath: string,
+  ext: string
+): string => {
   const oldRef = assets.find(({ extension }) => extension === `.${ext}`);
   if (!oldRef) {
-    return undefined;
+    throw new Error(`Asset not found: ${ext}`);
   }
+  relDestPath += `.${ext}`;
   const srcPath = path.join(srcDir, oldRef.path);
-  const destPath = path.join(destDir, `${basename}.${ext}`);
+  const destPath = path.join(destDir, relDestPath);
   console.log(`migrateAsset: ${srcPath} -> ${destPath}`);
   allPromises.push(fsp.copyFile(srcPath, destPath));
-  return {
-    path: destPath,
-    extension: ext,
-  };
+  return relDestPath;
 };
 
 const migratePart = (
   srcDir: string,
   oldPart: OldPart,
-  arr: OldArrangement,
   song: Song,
   destDir: string,
+  songDirRelPath: string
 ) => {
   const partName = `${song.title} - ${oldPart.name}`;
+  const partRelPath = path.join(songDirRelPath, partName);
   console.log(`migratePart: '${partName}'`);
   const part = {
     name: partName,
     instrument: oldPart.instrument,
-    midi: migrateAsset(srcDir, oldPart.assets, "midi", destDir, partName),
-    svg: migrateAsset(srcDir, oldPart.assets, "svg", destDir, partName),
-    mp3: migrateAsset(srcDir, oldPart.assets, "mp3", destDir, partName),
+    midi: migrateAsset(srcDir, oldPart.assets, destDir, partRelPath, "midi"),
+    svg: migrateAsset(srcDir, oldPart.assets, destDir, partRelPath, "svg"),
   };
   song.parts.push(part);
 };
@@ -145,17 +97,19 @@ const migrateArrangement = (
   oldSong: OldSong,
   arr: OldArrangement,
   coll: Collection,
-  destDir: string,
+  destDir: string
 ) => {
   const songTitle = oldSong.title;
 
   const projectTitle = getProjectTitle(arr);
-  const songDir = path.join(destDir, projectTitle, songTitle);
+  const songDirRelPath = path.join(projectTitle, songTitle);
+  const songDir = path.join(destDir, songDirRelPath);
   console.log(`migrateArrangement: '${songDir}'`);
 
   fs.mkdirSync(songDir, { recursive: true });
 
-  const mscz = migrateAsset(srcDir, arr.assets, "mscz", songDir, songTitle);
+  const songRelPath = path.join(songDirRelPath, songTitle);
+  const mscz = migrateAsset(srcDir, arr.assets, destDir, songRelPath, "mscz");
   if (!mscz) {
     return;
   }
@@ -165,18 +119,24 @@ const migrateArrangement = (
     composer: oldSong.composer,
     sub: oldSong.sub,
     mscz,
-    metajson: migrateAsset(srcDir, arr.assets, "metajson", songDir, songTitle),
-    midi: migrateAsset(srcDir, arr.assets, "midi", songDir, songTitle),
-    mp3: migrateAsset(srcDir, arr.assets, "mp3", songDir, songTitle),
+    metajson: migrateAsset(
+      srcDir,
+      arr.assets,
+      destDir,
+      songRelPath,
+      "metajson"
+    ),
+    midi: migrateAsset(srcDir, arr.assets, destDir, songRelPath, "midi"),
     parts: [],
+    tags: [oldSong.style],
   };
 
   for (const oldPart of arr.parts) {
-    migratePart(srcDir, oldPart, arr, song, songDir);
+    migratePart(srcDir, oldPart, song, destDir, songDirRelPath);
   }
 
   const projectIdx = coll.projects.findIndex(
-    (project: Project) => project.title === projectTitle,
+    (project: Project) => project.title === projectTitle
   );
   if (projectIdx === -1) {
     coll.projects.push({
@@ -195,7 +155,7 @@ const migrateCollection = (srcDir: string, destDir: string) => {
     return;
   }
   const oldCollection = JSON.parse(
-    fs.readFileSync(collectionJsonPath, "utf8"),
+    fs.readFileSync(collectionJsonPath, "utf8")
   ) as OldCollection;
   const newCollection: Collection = {
     projects: [],
@@ -205,18 +165,18 @@ const migrateCollection = (srcDir: string, destDir: string) => {
   for (const oldSong of oldCollection.songs) {
     for (const arrangement of oldSong.arrangements) {
       console.log(
-        `migrateCollection: reading '${oldSong.title}/${arrangement.name}'`,
+        `migrateCollection: reading '${oldSong.title}/${arrangement.name}'`
       );
       migrateArrangement(srcDir, oldSong, arrangement, newCollection, destDir);
     }
   }
   fs.writeFileSync(
     path.join(destDir, "collection.json"),
-    JSON.stringify(newCollection, null, 2),
+    JSON.stringify(newCollection, null, 2)
   );
 };
 
-const main = async () => {
+const run = async (args: string[]) => {
   const argParser = new ArgumentParser({
     description: "Migrates v1 collections to v2 collections",
   });
@@ -232,9 +192,9 @@ const main = async () => {
     help: "Output folder",
   });
 
-  const args = argParser.parse_args();
+  const parseedArgs = argParser.parse_args(args);
 
-  let inputPath = args["input"] as string;
+  let inputPath = parseedArgs["input"] as string;
   if (!inputPath) {
     console.error("ERROR: Input folder is required");
     console.info(argParser.format_help());
@@ -242,7 +202,7 @@ const main = async () => {
   }
   inputPath = path.resolve(inputPath);
 
-  let outputPath = args["output"] as string;
+  let outputPath = parseedArgs["output"] as string;
   if (!outputPath) {
     console.error("ERROR: Output folder is required");
     console.info(argParser.format_help());
@@ -252,7 +212,7 @@ const main = async () => {
 
   if (fs.existsSync(outputPath)) {
     console.info(
-      `Output folder exists, removing all files inside '${outputPath}'`,
+      `Output folder exists, removing all files inside '${outputPath}'`
     );
     fs.rmSync(outputPath, { recursive: true });
   }
@@ -260,11 +220,11 @@ const main = async () => {
   fs.mkdirSync(outputPath);
 
   console.info(
-    `Indexing collection from '${inputPath}' into '${outputPath}'...`,
+    `Indexing collection from '${inputPath}' into '${outputPath}'...`
   );
 
   migrateCollection(inputPath, outputPath);
   await Promise.all(allPromises);
 };
 
-main();
+export default run;

@@ -1,5 +1,5 @@
 import SVGtoPDF from "svg-to-pdfkit";
-import { Instrument, SongArrangement, SongArrangementSection } from "./types";
+import { Instrument, SongArrangement, SongArrangementSection } from "../types";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
@@ -76,7 +76,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
       ...songArrangements.map((song) => {
         pageNumber++;
         return addSongPage(doc, song, pageNumber, title, opts);
-      }),
+      })
     );
   }
   const nonNullPromises = promises.filter((promise) => promise !== null);
@@ -107,7 +107,7 @@ const drawSvg = async (
   doc: any,
   url: string,
   page: number,
-  carnivalMode: boolean,
+  carnivalMode: boolean
 ) => {
   try {
     const resp = await fetch(url);
@@ -188,7 +188,7 @@ const addSongPage = async (
   { song, arrangement }: SongArrangement,
   page: number,
   sectionTitle: string,
-  { instrument, backSheetPageNumber, carnivalMode }: CreateSongBookOptions,
+  { instrument, backSheetPageNumber, carnivalMode }: CreateSongBookOptions
 ) => {
   if (backSheetPageNumber) {
     doc.addPage();
@@ -224,7 +224,7 @@ const addSongPage = async (
           align: "center",
           width: 9.5 * cm2pt,
           height: 9 * cm2pt,
-        },
+        }
       ); // Título do verso
   }
   doc.addPage();
@@ -265,7 +265,7 @@ const addSongPage = async (
       {
         align: "right",
         width: 17.1 * cm2pt,
-      },
+      }
     ); // Estilo + Número
   // TODO: Pensar em quando tiver mais de um arranjo
   let svgUrl = "";
@@ -286,11 +286,11 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode }: CreateSongBookOptions,
+  { sections, carnivalMode }: CreateSongBookOptions
 ) => {
   const totalSongCount = sections.reduce(
     (acc, { songArrangements }) => acc + songArrangements.length,
-    0,
+    0
   );
   const sectionCount = sections.length;
   const containerWidth = 17.17 * cm2pt;
@@ -309,7 +309,7 @@ const addIndexPage = (
   const maxLinesPerColumn = Math.floor(totalLineCount / columnCount) + 2;
   const fontSize = Math.min(
     Math.floor(containerHeight / maxLinesPerColumn) - 3,
-    15,
+    15
   );
   const columnWidth = Math.ceil(containerWidth / columnCount);
 
@@ -387,7 +387,7 @@ const addIndexPage = (
             width: columnWidth - 0.3 * cm2pt,
             height: fontSize,
             lineBreak: false,
-          },
+          }
         );
       [currentX, currentY] = nextCursorPosition();
     });

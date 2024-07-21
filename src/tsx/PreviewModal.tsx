@@ -1,6 +1,6 @@
 import { Modal, Image, Carousel } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import { Part, Asset } from "../types";
+import { Part, Asset } from "../../types";
 
 import "../css/PreviewModal.css";
 import RangeSlider from "react-bootstrap-range-slider";
@@ -34,40 +34,40 @@ const FilesCarousel = ({ files }: FilesCarouselProps) => {
 };
 
 const PreviewModal = ({ show, handleShow, part }: PreviewModalProps) => {
-  const [value, setValue] = useState(0)
-  
+  const [value, setValue] = useState(0);
+
   useEffect(() => {
     // @ts-ignore
-    removeToastPlayer()
-  })
+    removeToastPlayer();
+  });
 
   const handleClose = () => {
     handleShow(false);
     // @ts-ignore
-    Player.stop()
-  }
-  
+    Player.stop();
+  };
+
   const handlePlay = () => {
     // @ts-ignore
     playSong(
       part.name,
-      `collection/${part.assets[0].path .replace('svg', 'midi')}`,
-      '-preview',      
-    )
-  }
+      `collection/${part.assets[0].path.replace("svg", "midi")}`,
+      "-preview"
+    );
+  };
 
   const handlePause = () => {
     // @ts-ignore
     Player.pause();
-  }
+  };
 
-  const handleChange = (event : any) => {
-    setValue(event.currentTarget.valueAsNumber)
+  const handleChange = (event: any) => {
+    setValue(event.currentTarget.valueAsNumber);
     // @ts-ignore
-    Player.skipToPercent(event.currentTarget.valueAsNumber)
+    Player.skipToPercent(event.currentTarget.valueAsNumber);
     // @ts-ignore
-    Player.play()
-  }
+    Player.play();
+  };
 
   return (
     <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
@@ -75,9 +75,23 @@ const PreviewModal = ({ show, handleShow, part }: PreviewModalProps) => {
         <Modal.Title>{part.instrument}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <RangeSlider className="slider" id="play-track-preview" value={value} tooltip='off' onChange={handleChange} />
-        <BsPlayCircleFill className="play-icon" size={18} onClick={handlePlay} />
-        <BsFillPauseCircleFill className="pause-icon" size={18} onClick={handlePause} />
+        <RangeSlider
+          className="slider"
+          id="play-track-preview"
+          value={value}
+          tooltip="off"
+          onChange={handleChange}
+        />
+        <BsPlayCircleFill
+          className="play-icon"
+          size={18}
+          onClick={handlePlay}
+        />
+        <BsFillPauseCircleFill
+          className="pause-icon"
+          size={18}
+          onClick={handlePause}
+        />
         <small id="song-time-preview"></small>
         <FilesCarousel files={part.assets} />
       </Modal.Body>

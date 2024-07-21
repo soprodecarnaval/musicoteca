@@ -82,7 +82,7 @@ const downloadFolder = async (
   return promises;
 };
 
-const main = async () => {
+const run = async (args: string[]) => {
   const startTime = Date.now();
 
   const argParser = new ArgumentParser({
@@ -116,16 +116,16 @@ const main = async () => {
     help: "Path to the keyfile",
   });
 
-  const args = argParser.parse_args();
+  const parsedArgs = argParser.parse_args(args);
 
-  let folderId = args["folderId"];
+  let folderId = parsedArgs["folderId"];
   if (!folderId) {
     console.error("ERROR: Google Drive folder ID is required");
     console.info(argParser.format_help());
     return;
   }
 
-  let outputPath = args["output"];
+  let outputPath = parsedArgs["output"];
   if (!outputPath) {
     console.error("ERROR: Output folder is required");
     console.info(argParser.format_help());
@@ -133,15 +133,15 @@ const main = async () => {
   }
   outputPath = path.resolve(outputPath);
 
-  let keyFile = args["keyfile"];
+  let keyFile = parsedArgs["keyfile"];
   if (!keyFile) {
     console.error("ERROR: Keyfile is required");
     console.info(argParser.format_help());
     return;
   }
 
-  const pattern = args["pattern"] || ".*";
-  const verbose = args["verbose"] || false;
+  const pattern = parsedArgs["pattern"] || ".*";
+  const verbose = parsedArgs["verbose"] || false;
   if (!verbose) {
     console.debug = () => {};
   }
@@ -176,4 +176,4 @@ const main = async () => {
   console.info(`Done. Took ${elapsedTime / 1000}s`);
 };
 
-main();
+export default run;
