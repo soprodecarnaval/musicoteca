@@ -1681,18 +1681,6 @@
           ]
         },
         {
-          "title": "chuva suor e cerveja",
-          "composer": "CAETANO VELOSO",
-          "sub": "",
-          "mscz": "carnaval bh 2023/chuva suor e cerveja/chuva suor e cerveja.mscz",
-          "metajson": "carnaval bh 2023/chuva suor e cerveja/chuva suor e cerveja.metajson",
-          "midi": "carnaval bh 2023/chuva suor e cerveja/chuva suor e cerveja.midi",
-          "parts": [],
-          "tags": [
-            "brazukas"
-          ]
-        },
-        {
           "title": "cotidiano",
           "composer": "Chico Buarque",
           "sub": "",
@@ -4315,42 +4303,42 @@
           ]
         },
         {
-          "title": "vermelho",
+          "title": "vermelho vermelhaço",
           "composer": "Fafá de Belem",
           "sub": "",
-          "mscz": "carnaval bh 2023/vermelho/vermelho.mscz",
-          "metajson": "carnaval bh 2023/vermelho/vermelho.metajson",
-          "midi": "carnaval bh 2023/vermelho/vermelho.midi",
+          "mscz": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço.mscz",
+          "metajson": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço.metajson",
+          "midi": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço.midi",
           "parts": [
             {
-              "name": "vermelho - trombone",
+              "name": "vermelho vermelhaço - trombone",
               "instrument": "trombone",
-              "midi": "carnaval bh 2023/vermelho/vermelho - trombone.midi",
-              "svg": "carnaval bh 2023/vermelho/vermelho - trombone.svg"
+              "midi": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - trombone.midi",
+              "svg": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - trombone.svg"
             },
             {
-              "name": "vermelho - flauta",
+              "name": "vermelho vermelhaço - flauta",
               "instrument": "flauta",
-              "midi": "carnaval bh 2023/vermelho/vermelho - flauta.midi",
-              "svg": "carnaval bh 2023/vermelho/vermelho - flauta.svg"
+              "midi": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - flauta.midi",
+              "svg": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - flauta.svg"
             },
             {
-              "name": "vermelho - trompete",
+              "name": "vermelho vermelhaço - trompete",
               "instrument": "trompete",
-              "midi": "carnaval bh 2023/vermelho/vermelho - trompete.midi",
-              "svg": "carnaval bh 2023/vermelho/vermelho - trompete.svg"
+              "midi": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - trompete.midi",
+              "svg": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - trompete.svg"
             },
             {
-              "name": "vermelho - sax alto",
+              "name": "vermelho vermelhaço - sax alto",
               "instrument": "sax alto",
-              "midi": "carnaval bh 2023/vermelho/vermelho - sax alto.midi",
-              "svg": "carnaval bh 2023/vermelho/vermelho - sax alto.svg"
+              "midi": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - sax alto.midi",
+              "svg": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - sax alto.svg"
             },
             {
-              "name": "vermelho - sax tenor",
+              "name": "vermelho vermelhaço - sax tenor",
               "instrument": "sax tenor",
-              "midi": "carnaval bh 2023/vermelho/vermelho - sax tenor.midi",
-              "svg": "carnaval bh 2023/vermelho/vermelho - sax tenor.svg"
+              "midi": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - sax tenor.midi",
+              "svg": "carnaval bh 2023/vermelho vermelhaço/vermelho vermelhaço - sax tenor.svg"
             }
           ],
           "tags": [
@@ -18072,6 +18060,6 @@
       ]
     }
   ],
-  "scrapedAt": "2024-07-21T04:31:05.666Z",
+  "scrapedAt": "2024-07-21T14:55:09.416Z",
   "version": 2
 }

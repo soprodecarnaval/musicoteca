@@ -83,6 +83,32 @@ describe("indexCollection", () => {
         song.parts.sort((a, b) => a.name.localeCompare(b.name));
       });
     });
-    expect(inputCollection).toEqual(outputCollection);
+    expect(inputCollection.projects.length).toEqual(
+      outputCollection.projects.length
+    );
+
+    // assert project by project to get better error messages
+    for (let i = 0; i < inputCollection.projects.length; i++) {
+      const inputProject = inputCollection.projects[i];
+      const outputProject = outputCollection.projects[i];
+      expect(inputProject.title).toEqual(outputProject.title);
+      expect(inputProject.songs.map((s) => s.title)).toEqual(
+        outputProject.songs.map((s) => s.title)
+      );
+
+      // assert song by song to get better error messages
+      for (let j = 0; j < inputProject.songs.length; j++) {
+        const inputSong = inputProject.songs[j];
+        const outputSong = outputProject.songs[j];
+        expect(inputSong).toEqual(outputSong);
+
+        // assert part by part to get better error messages
+        for (let k = 0; k < inputSong.parts.length; k++) {
+          const inputPart = inputSong.parts[k];
+          const outputPart = outputSong.parts[k];
+          expect(inputPart).toEqual(outputPart);
+        }
+      }
+    }
   });
 });

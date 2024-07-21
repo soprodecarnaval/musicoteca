@@ -1,5 +1,4 @@
 import fs from "fs";
-import fsp from "fs/promises";
 import path from "path";
 import { ArgumentParser } from "argparse";
 import { Collection, Project, Song, Instrument } from "../types";
@@ -42,9 +41,6 @@ interface OldCollection {
   tags: string[];
 }
 
-// TODO: how to make the compiler happy about Promise<any>?
-const allPromises: Promise<any>[] = [];
-
 const migrateAsset = (
   srcDir: string,
   assets: OldFileRef[],
@@ -59,8 +55,8 @@ const migrateAsset = (
   relDestPath += `.${ext}`;
   const srcPath = path.join(srcDir, oldRef.path);
   const destPath = path.join(destDir, relDestPath);
-  console.log(`migrateAsset: ${srcPath} -> ${destPath}`);
-  allPromises.push(fsp.copyFile(srcPath, destPath));
+  console.debug(`migrateAsset: ${srcPath} -> ${destPath}`);
+  fs.copyFileSync(srcPath, destPath);
   return relDestPath;
 };
 
@@ -73,7 +69,7 @@ const migratePart = (
 ) => {
   const partName = `${song.title} - ${oldPart.name}`;
   const partRelPath = path.join(songDirRelPath, partName);
-  console.log(`migratePart: '${partName}'`);
+  console.debug(`migratePart: '${partName}'`);
   const part = {
     name: partName,
     instrument: oldPart.instrument,
@@ -104,7 +100,7 @@ const migrateArrangement = (
   const projectTitle = getProjectTitle(arr);
   const songDirRelPath = path.join(projectTitle, songTitle);
   const songDir = path.join(destDir, songDirRelPath);
-  console.log(`migrateArrangement: '${songDir}'`);
+  console.debug(`migrateArrangement: '${songDir}'`);
 
   fs.mkdirSync(songDir, { recursive: true });
 
@@ -130,6 +126,15 @@ const migrateArrangement = (
     parts: [],
     tags: [oldSong.style],
   };
+
+  // add style to metajson
+  if (song.metajson) {
+    const metajsonAbsPath = path.join(destDir, song.metajson);
+    const metajson = JSON.parse(fs.readFileSync(metajsonAbsPath, "utf8"));
+    metajson.tags = song.tags.join(",");
+    metajson.sub = metajson.previousSource;
+    fs.writeFileSync(metajsonAbsPath, JSON.stringify(metajson, null, 2));
+  }
 
   for (const oldPart of arr.parts) {
     migratePart(srcDir, oldPart, song, destDir, songDirRelPath);
@@ -164,7 +169,29 @@ const migrateCollection = (srcDir: string, destDir: string) => {
   };
   for (const oldSong of oldCollection.songs) {
     for (const arrangement of oldSong.arrangements) {
-      console.log(
+      // corner-case for 'brazukas-chuva-suor-e-cerveja-carnaval-bh-2023-chuva-suor-e-cerveja'
+      // there are two songs with the same title holding the same arrangement.
+      // one of them has an empty parts array, so we can ignore it.
+      if (arrangement.parts.length === 0) {
+        console.info(
+          `migrateCollection: ignoring arrangement with empty parts ${arrangement.id}`
+        );
+        continue;
+      }
+      // corner-case for 'manifestacao-vermelho-carnaval-bh-2023-vermelho-vermelhaco'
+      // it has the same song title as 'funks-vermelho-carnaval-bh-2023-vermelho'
+      // and both would land in the same project ('carnaval bh 2023'),
+      // so we need to rename the song title.
+      if (
+        arrangement.id ==
+        "manifestacao-vermelho-carnaval-bh-2023-vermelho-vermelhaco"
+      ) {
+        console.info(
+          `migrateCollection: renaming '${oldSong.title}' to 'vermelho vermelhaço', arrangement '${arrangement.id}'`
+        );
+        oldSong.title = "vermelho vermelhaço";
+      }
+      console.debug(
         `migrateCollection: reading '${oldSong.title}/${arrangement.name}'`
       );
       migrateArrangement(srcDir, oldSong, arrangement, newCollection, destDir);
@@ -223,8 +250,8 @@ const run = async (args: string[]) => {
     `Indexing collection from '${inputPath}' into '${outputPath}'...`
   );
 
+  console.debug = () => {};
   migrateCollection(inputPath, outputPath);
-  await Promise.all(allPromises);
 };
 
 export default run;

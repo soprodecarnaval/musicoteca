@@ -2,17 +2,9 @@ import fs from "fs";
 import path from "path";
 import { ArgumentParser } from "argparse";
 
-import {
-  Collection,
-  Instrument,
-  Project,
-  Song,
-  zInstrument,
-  zSong,
-} from "../types";
+import { Collection, Instrument, Project, Song, zSong } from "../types";
 import { Ok, Result, Warning, err, ok, warning } from "../src/result";
 import { parseInstrument } from "../src/instrument";
-import { z } from "zod";
 
 interface SongDirectory {
   absPath: string;
@@ -171,6 +163,7 @@ type MetajsonSongFields = {
   composer: string;
   sub: string;
   metajson: string;
+  tags?: string[];
 };
 
 /**
@@ -181,17 +174,17 @@ function scrapeMetaJson(
   entry: string
 ): MetajsonSongFields | {} {
   const metajson = path.join(songDirectory.absPath, entry);
-  // TODO: zod type
   const readMetaJsonResult = readJsonFile(metajson);
   if (!readMetaJsonResult.ok) {
     return {};
   }
 
-  const { composer, previousSource: sub } = readMetaJsonResult.value;
+  const { composer, sub, tags } = readMetaJsonResult.value;
   return {
     composer,
     sub: isValidSub(sub) ? sub : "",
     metajson,
+    tags: tags.split(",").map((t: string) => t.trim()),
   };
 }
 
