@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -3,
-  "lyrics": "",
+  "lyrics": "MINHA JANGADA VAI SAIR PRO MAR",
   "measures": 23,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "SUITE_DOS_PESCADORES",
-  "tags": "odaras",
-  "sub": "MINHA JANGADA VAI SAIR PRO MAR"
+  "tags": "odaras"
 }

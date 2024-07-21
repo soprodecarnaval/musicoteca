@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -2,
-  "lyrics": "",
+  "lyrics": "PEDRO DE LARA LÁ. LÁ LÁ LÁ LÁ-RÁ-LÁ",
   "measures": 18,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "SHOW_DE_CALOUROUS",
-  "tags": "filme",
-  "sub": "PEDRO DE LARA LÁ. LÁ LÁ LÁ LÁ-RÁ-LÁ"
+  "tags": "filme"
 }

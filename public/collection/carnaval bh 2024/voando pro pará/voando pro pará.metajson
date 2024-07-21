@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": 1,
-  "lyrics": "",
+  "lyrics": "EU VOU TOMAR UM TACACÁ / DANÇAR, CURTIR, FICAR DE BOA",
   "measures": 21,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "Voando Pro Pará",
-  "tags": "brazukas",
-  "sub": "EU VOU TOMAR UM TACACÁ / DANÇAR, CURTIR, FICAR DE BOA"
+  "tags": "brazukas"
 }

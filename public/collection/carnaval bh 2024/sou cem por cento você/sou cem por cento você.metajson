@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -1,
-  "lyrics": "",
+  "lyrics": "LÊ LÊ. LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ. UM CÉU SEM ESTRELAS. UMA PRAIA SEM MAR",
   "measures": 22,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "100% Você",
-  "tags": "axés",
-  "sub": "LÊ LÊ. LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ-LÊ. UM CÉU SEM ESTRELAS. UMA PRAIA SEM MAR"
+  "tags": "axés"
 }

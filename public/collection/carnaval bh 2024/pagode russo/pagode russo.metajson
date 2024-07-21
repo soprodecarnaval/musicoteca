@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -2,
-  "lyrics": "",
+  "lyrics": "ONTEM EU SONHEI QUE ESTAVA EM MOSCOU DANÇANDO PAGODE RUSSO",
   "measures": 39,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "PAGODE RUSSO",
-  "tags": "forrós",
-  "sub": "ONTEM EU SONHEI QUE ESTAVA EM MOSCOU DANÇANDO PAGODE RUSSO"
+  "tags": "forrós"
 }

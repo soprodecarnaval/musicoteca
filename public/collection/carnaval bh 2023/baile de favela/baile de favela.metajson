@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": 0,
-  "lyrics": "",
+  "lyrics": "https://flat.io/score/5de3d4ba0389fa48cbafbcb6-baile-de-favela",
   "measures": 8,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "Baile de Favela",
-  "tags": "funks",
-  "sub": "https://flat.io/score/5de3d4ba0389fa48cbafbcb6-baile-de-favela"
+  "tags": "funks"
 }

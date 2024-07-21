@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": 0,
-  "lyrics": "",
+  "lyrics": "CHORANDO SE FOI QUEM UM DIA SÓ ME FEZ CHORAR",
   "measures": 18,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "CHORANDO_SE_FOI",
-  "tags": "latinas",
-  "sub": "CHORANDO SE FOI QUEM UM DIA SÓ ME FEZ CHORAR"
+  "tags": "latinas"
 }

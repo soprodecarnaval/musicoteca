@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -1,
-  "lyrics": "",
+  "lyrics": "A NOSSA CORTE QUER BOTAR BLOCO NA RUA",
   "measures": 37,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "CORTE_DEVASSA",
-  "tags": "beagá",
-  "sub": "A NOSSA CORTE QUER BOTAR BLOCO NA RUA"
+  "tags": "beagá"
 }

@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -1,
-  "lyrics": "",
+  "lyrics": "AGORA VAI SENTAR, VAI SENTAR, VAI SENTAR",
   "measures": 26,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -95,6 +95,5 @@
   },
   "timesig": "4/4",
   "title": "Agora Vai Sentar",
-  "tags": "funks",
-  "sub": "AGORA VAI SENTAR, VAI SENTAR, VAI SENTAR"
+  "tags": "funks"
 }

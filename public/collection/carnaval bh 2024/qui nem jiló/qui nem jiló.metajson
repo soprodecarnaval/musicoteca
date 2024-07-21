@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -2,
-  "lyrics": "",
+  "lyrics": "SE A GENTE LEMBRA SÓ POR LEMBRAR",
   "measures": 23,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "QUI_NEM_JILÓ",
-  "tags": "forrós",
-  "sub": "SE A GENTE LEMBRA SÓ POR LEMBRAR"
+  "tags": "forrós"
 }

@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -4,
-  "lyrics": "",
+  "lyrics": "RODAS EM SOL, TROVAS EM DÓ, UMA BRASILEIRA Ô",
   "measures": 38,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "Bogota",
-  "tags": "brazukas",
-  "sub": "RODAS EM SOL, TROVAS EM DÓ, UMA BRASILEIRA Ô"
+  "tags": "brazukas"
 }

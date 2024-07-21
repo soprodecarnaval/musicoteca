@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -4,
-  "lyrics": "",
+  "lyrics": "AGORA VAI COMEÇAR O COMBATE. QUICA, QUICA, BATE, BATE ",
   "measures": 29,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "Combatchy",
-  "tags": "funks",
-  "sub": "AGORA VAI COMEÇAR O COMBATE. QUICA, QUICA, BATE, BATE "
+  "tags": "funks"
 }

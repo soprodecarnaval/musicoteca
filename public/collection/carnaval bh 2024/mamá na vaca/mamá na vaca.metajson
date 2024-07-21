@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -2,
-  "lyrics": "",
+  "lyrics": "MAMÁ NA VACA. MAMÁ NA VACA. MAMÁ NA VACA. QUEM NAO",
   "measures": 22,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "MAMA_NA_VACA",
-  "tags": "beagá",
-  "sub": "MAMÁ NA VACA. MAMÁ NA VACA. MAMÁ NA VACA. QUEM NAO"
+  "tags": "beagá"
 }

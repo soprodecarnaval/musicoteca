@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": 4,
-  "lyrics": "",
+  "lyrics": "Não se admire se um dia\n/ um beija-flor invadir\n/ a porta da tua casa",
   "measures": 24,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -95,6 +95,5 @@
   },
   "timesig": "2/4",
   "title": "Ai Que Saudade D'ocê",
-  "tags": "forrós",
-  "sub": "Não se admire se um dia\n/ um beija-flor invadir\n/ a porta da tua casa"
+  "tags": "forrós"
 }

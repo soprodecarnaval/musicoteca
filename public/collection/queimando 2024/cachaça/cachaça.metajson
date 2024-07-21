@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -3,
-  "lyrics": "",
+  "lyrics": "VOCÊ PENSA QUE CACHAÇA É ÁGUA?",
   "measures": 50,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "CACHAÇA",
-  "tags": "marchinhas",
-  "sub": "VOCÊ PENSA QUE CACHAÇA É ÁGUA?"
+  "tags": "marchinhas"
 }

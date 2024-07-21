@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -4,
-  "lyrics": "",
+  "lyrics": "CHEGOU A TURMA DO FUNIL, TODO MUNDO BEBE",
   "measures": 35,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "TURMA DO FUNIL",
-  "tags": "marchinhas",
-  "sub": "CHEGOU A TURMA DO FUNIL, TODO MUNDO BEBE"
+  "tags": "marchinhas"
 }

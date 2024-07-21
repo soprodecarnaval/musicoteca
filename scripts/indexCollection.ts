@@ -145,20 +145,6 @@ function readJsonFile(absPath: string): Result<any> {
   }
 }
 
-/**
- * We use the "sub" field to store lyrics, but some scores have other
- * things in it, like URLs. This function checks if the "sub" field is a valid
- * lyrics string.
- */
-function isValidSub(sub: any): boolean {
-  return (
-    typeof sub == "string" &&
-    sub.length > 0 &&
-    !sub.startsWith("http") &&
-    !sub.startsWith("/")
-  );
-}
-
 type MetajsonSongFields = {
   composer: string;
   sub: string;
@@ -179,10 +165,12 @@ function scrapeMetaJson(
     return {};
   }
 
-  const { composer, sub, tags } = readMetaJsonResult.value;
+  // some mscz files have lyrics in the previousSource field,
+  // we will just use it if there's no lyrics field
+  const { composer, previousSource, lyrics, tags } = readMetaJsonResult.value;
   return {
     composer,
-    sub: isValidSub(sub) ? sub : "",
+    sub: lyrics ? lyrics : previousSource,
     metajson,
     tags: tags.split(",").map((t: string) => t.trim()),
   };

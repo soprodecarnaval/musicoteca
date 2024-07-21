@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -5,
-  "lyrics": "",
+  "lyrics": "Scanned sheet music",
   "measures": 43,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -95,6 +95,5 @@
   },
   "timesig": "2/2",
   "title": "TAPAO NA RABA",
-  "tags": "piseiro",
-  "sub": "Scanned sheet music"
+  "tags": "piseiro"
 }

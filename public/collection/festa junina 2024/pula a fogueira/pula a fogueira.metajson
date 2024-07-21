@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": 0,
-  "lyrics": "",
+  "lyrics": "Pula a fogueira, iaiá / Pula a fogueira, ioiô",
   "measures": 34,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -95,6 +95,5 @@
   },
   "timesig": "2/4",
   "title": "Pula a Fogueira",
-  "tags": "forrós",
-  "sub": "Pula a fogueira, iaiá / Pula a fogueira, ioiô"
+  "tags": "forrós"
 }

@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "true",
   "keysig": -1,
-  "lyrics": "a banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro \n\na banda tá com sede quem vai trazer goró pra gente não vai ter mais poropopo se ninguem trouxer goró \n\na banda tá com sede quem vai tra zer go ró pra gen te não vai ter mais po ro po po se nin guem trou xer go ro",
+  "lyrics": "",
   "measures": 17,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -95,6 +95,5 @@
   },
   "timesig": "2/4",
   "title": "A Banda Tá com Sede",
-  "tags": "fanfarras",
-  "sub": ""
+  "tags": "fanfarras"
 }

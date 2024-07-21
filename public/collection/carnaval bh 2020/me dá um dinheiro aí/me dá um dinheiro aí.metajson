@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -1,
-  "lyrics": "",
+  "lyrics": "EI! VOCÊ AÍ! ME DÁ UM DINHEIRO AÍ! ME DÁ UM DINHEIRO AÍ!",
   "measures": 32,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "ME_DA_UM_DINHEIRO_AI",
-  "tags": "marchinhas",
-  "sub": "EI! VOCÊ AÍ! ME DÁ UM DINHEIRO AÍ! ME DÁ UM DINHEIRO AÍ!"
+  "tags": "marchinhas"
 }

@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -2,
-  "lyrics": "",
+  "lyrics": "NA MARESIA A GENTE VAI COLADINHO",
   "measures": 29,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -106,6 +106,5 @@
   },
   "timesig": "4/4",
   "title": "MARESIA",
-  "tags": "odaras",
-  "sub": "NA MARESIA A GENTE VAI COLADINHO"
+  "tags": "odaras"
 }

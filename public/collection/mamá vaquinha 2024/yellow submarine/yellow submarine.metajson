@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": 1,
-  "lyrics": "",
+  "lyrics": "/tmp/audiveris-e43456a80ed8bfe215d8bd9cd7dc7b6c/score.pdf",
   "measures": 10,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "YELLOW SUBMARINE",
-  "tags": "música infantil",
-  "sub": "/tmp/audiveris-e43456a80ed8bfe215d8bd9cd7dc7b6c/score.pdf"
+  "tags": "música infantil"
 }

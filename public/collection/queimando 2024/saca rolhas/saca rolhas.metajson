@@ -5,7 +5,7 @@
   "hasHarmonies": "true",
   "hasLyrics": "false",
   "keysig": -3,
-  "lyrics": "",
+  "lyrics": "AS ÁGUAS VÃO ROLAR. GARRAFA CHEIA EU NÃO QUERO VER SOBRAR",
   "measures": 36,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "SACA ROLHA",
-  "tags": "marchinhas",
-  "sub": "AS ÁGUAS VÃO ROLAR. GARRAFA CHEIA EU NÃO QUERO VER SOBRAR"
+  "tags": "marchinhas"
 }

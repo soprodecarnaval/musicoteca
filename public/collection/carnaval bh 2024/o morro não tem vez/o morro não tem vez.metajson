@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -1,
-  "lyrics": "",
+  "lyrics": "O MORRO NÃO TEM VEZ E O QUE ELE FEZ JÁ FOI DEMAIS",
   "measures": 17,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "O MORRO NÃO TEM VEZ",
-  "tags": "sambas",
-  "sub": "O MORRO NÃO TEM VEZ E O QUE ELE FEZ JÁ FOI DEMAIS"
+  "tags": "sambas"
 }

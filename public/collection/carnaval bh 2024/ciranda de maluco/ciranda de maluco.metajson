@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -2,
-  "lyrics": "",
+  "lyrics": "CIRANDA DE MALUCO, AQUI EM PERNAMBUCO É BOM DEMAIS",
   "measures": 70,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -95,6 +95,5 @@
   },
   "timesig": "2/4",
   "title": "Title",
-  "tags": "frevos",
-  "sub": "CIRANDA DE MALUCO, AQUI EM PERNAMBUCO É BOM DEMAIS"
+  "tags": "frevos"
 }

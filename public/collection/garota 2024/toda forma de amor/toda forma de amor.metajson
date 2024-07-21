@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -2,
-  "lyrics": "",
+  "lyrics": "EU NÃO PEDI PRA NASCER. EU NÃO NASCI PRA PERDER",
   "measures": 41,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "Toda Forma de Amor",
-  "tags": "brazukas",
-  "sub": "EU NÃO PEDI PRA NASCER. EU NÃO NASCI PRA PERDER"
+  "tags": "brazukas"
 }

@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -1,
-  "lyrics": "",
+  "lyrics": "ESTÁ TUDO AÍ. ESTÁ TUDO AÍ. QUE PAPO LEGAL. QUE PAPO LEGAL",
   "measures": 40,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "2/4",
   "title": "CAÇAMBA",
-  "tags": "pagodes",
-  "sub": "ESTÁ TUDO AÍ. ESTÁ TUDO AÍ. QUE PAPO LEGAL. QUE PAPO LEGAL"
+  "tags": "pagodes"
 }

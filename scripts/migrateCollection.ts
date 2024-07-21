@@ -112,8 +112,11 @@ const migrateArrangement = (
 
   const song: Song = {
     title: songTitle,
-    composer: oldSong.composer,
-    sub: oldSong.sub,
+    // don't use the sub and composer from oldSong, because it might have been
+    // backfilled from the song, instead of the arrangement's metajson.
+    // we'll grab it from the metajson later.
+    composer: "",
+    sub: "",
     mscz,
     metajson: migrateAsset(
       srcDir,
@@ -127,12 +130,18 @@ const migrateArrangement = (
     tags: [oldSong.style],
   };
 
-  // add style to metajson
+  // TODO: bake the data we overwrite in the metajson into the mscz,
+  //       otherwise it will be lost when the mscz is re-exported.
   if (song.metajson) {
     const metajsonAbsPath = path.join(destDir, song.metajson);
     const metajson = JSON.parse(fs.readFileSync(metajsonAbsPath, "utf8"));
+    // the new format doesn't have the style in the file path,
+    // so we'll add it to the metajson.tags.
     metajson.tags = song.tags.join(",");
-    metajson.sub = metajson.previousSource;
+    // the new format uses the lyrics field instead of previousSource.
+    metajson.lyrics = metajson.previousSource;
+    song.sub = metajson.lyrics;
+    song.composer = metajson.composer;
     fs.writeFileSync(metajsonAbsPath, JSON.stringify(metajson, null, 2));
   }
 

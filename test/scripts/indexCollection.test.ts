@@ -91,22 +91,22 @@ describe("indexCollection", () => {
     for (let i = 0; i < inputCollection.projects.length; i++) {
       const inputProject = inputCollection.projects[i];
       const outputProject = outputCollection.projects[i];
-      expect(inputProject.title).toEqual(outputProject.title);
-      expect(inputProject.songs.map((s) => s.title)).toEqual(
-        outputProject.songs.map((s) => s.title)
+      expect(outputProject.title).toEqual(inputProject.title);
+      expect(outputProject.songs.map((s) => s.title)).toEqual(
+        inputProject.songs.map((s) => s.title)
       );
 
       // assert song by song to get better error messages
       for (let j = 0; j < inputProject.songs.length; j++) {
         const inputSong = inputProject.songs[j];
         const outputSong = outputProject.songs[j];
-        expect(inputSong).toEqual(outputSong);
+        expect(outputSong).toEqual(inputSong);
 
         // assert part by part to get better error messages
         for (let k = 0; k < inputSong.parts.length; k++) {
           const inputPart = inputSong.parts[k];
           const outputPart = outputSong.parts[k];
-          expect(inputPart).toEqual(outputPart);
+          expect(outputPart).toEqual(inputPart);
         }
       }
     }

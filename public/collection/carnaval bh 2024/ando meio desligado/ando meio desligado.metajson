@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -1,
-  "lyrics": "",
+  "lyrics": "ANDO MEIO DESLIGADO. EU NEM SINTO MEUS PÉS NO CHÃO",
   "measures": 28,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "ANDO MEIO DESLIGADO",
-  "tags": "brazukas",
-  "sub": "ANDO MEIO DESLIGADO. EU NEM SINTO MEUS PÉS NO CHÃO"
+  "tags": "brazukas"
 }

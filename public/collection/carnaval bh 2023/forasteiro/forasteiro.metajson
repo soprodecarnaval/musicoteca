@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "true",
   "keysig": 0,
-  "lyrics": "",
+  "lyrics": "Scanned sheet music",
   "measures": 42,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -106,6 +106,5 @@
   },
   "timesig": "4/4",
   "title": "Forasteiro",
-  "tags": "brazukas",
-  "sub": "Scanned sheet music"
+  "tags": "brazukas"
 }

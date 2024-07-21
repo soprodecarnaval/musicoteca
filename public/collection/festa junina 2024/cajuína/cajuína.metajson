@@ -5,7 +5,7 @@
   "hasHarmonies": "false",
   "hasLyrics": "false",
   "keysig": -3,
-  "lyrics": "",
+  "lyrics": "Existirmos: A que será que se destina?",
   "measures": 17,
   "mscoreVersion": "3.6.2",
   "pageFormat": {
@@ -84,6 +84,5 @@
   },
   "timesig": "4/4",
   "title": "Cajuína",
-  "tags": "forrós",
-  "sub": "Existirmos: A que será que se destina?"
+  "tags": "forrós"
 }
