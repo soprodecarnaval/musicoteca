@@ -121,6 +121,7 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
             title: "",
             songArrangements: [],
           };
+          sections.push(currentSection);
         }
         currentSection.songArrangements.push(row);
       }
