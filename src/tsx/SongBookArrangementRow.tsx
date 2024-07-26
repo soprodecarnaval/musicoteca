@@ -5,7 +5,7 @@ import {
   BsArrowUp,
   BsFillTrashFill,
 } from "react-icons/bs";
-import { SiMidi } from "react-icons/si";
+import { SiMidi, SiMusescore } from "react-icons/si";
 
 import type { PlayingSong, SongArrangement } from "../../types";
 import { PartItem } from "./PartItem";
@@ -35,6 +35,10 @@ const SongBookArrangementRow = ({
     (asset) => asset.extension == ".midi"
   );
 
+  const arrangementMsczAsset = arrangement.assets.find(
+    (asset) => asset.extension == ".mscz"
+  );
+
   return (
     <>
       <tr className="cursor">
@@ -60,6 +64,13 @@ const SongBookArrangementRow = ({
           {arrangementMidiAsset && (
             <a href={`collection/${arrangementMidiAsset.path}`} target="_blank">
               <SiMidi />
+            </a>
+          )}
+        </td>
+        <td>
+          {arrangementMsczAsset && (
+            <a href={`collection/${arrangementMsczAsset.path}`} target="_blank">
+              <SiMusescore />
             </a>
           )}
         </td>

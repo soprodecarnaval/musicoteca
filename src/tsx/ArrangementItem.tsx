@@ -5,7 +5,7 @@ import type { PlayingSong, SongArrangement } from "../../types";
 import { PartItem } from "./PartItem";
 
 import "../css/ArrangementItem.css";
-import { SiMidi } from "react-icons/si";
+import { SiMidi, SiMusescore } from "react-icons/si";
 
 interface ArrangementItemProps {
   handleSelect: (songArrnagement: SongArrangement, checked: boolean) => void;
@@ -31,6 +31,9 @@ const ArrangementItem = ({
   const arrangementMidiAsset = arrangement.assets.find(
     (asset) => asset.extension == ".midi"
   );
+  const arrangementMsczAsset = arrangement.assets.find(
+    (asset) => asset.extension == ".mscz"
+  );
 
   return (
     <>
@@ -48,6 +51,13 @@ const ArrangementItem = ({
           {arrangementMidiAsset && (
             <a href={`collection/${arrangementMidiAsset.path}`} target="_blank">
               <SiMidi />
+            </a>
+          )}
+        </td>
+        <td>
+          {arrangementMsczAsset && (
+            <a href={`collection/${arrangementMsczAsset.path}`} target="_blank">
+              <SiMusescore />
             </a>
           )}
         </td>
