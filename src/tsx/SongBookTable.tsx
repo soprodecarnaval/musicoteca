@@ -10,15 +10,16 @@ import {
 } from "react-bootstrap";
 
 import {
-  isSongBookRowSection,
-  type PlayingSong,
-  type SongArrangement,
-  type SongBookRow,
-} from "../types";
+  isSongBookSection,
+  songBookSection,
+  PlayingPart,
+  SongBookItem,
+  Score,
+} from "../../types";
 
-import { SongBookArrangementRow } from "./SongBookArrangementRow";
+import { SongBookScoreRow } from "./SongBookScoreRow";
 import { SongBookSectionRow } from "./SongBookSectionRow";
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import { Sort } from "./Sort";
 import {
   carnivalSectionOrder,
@@ -26,63 +27,71 @@ import {
   generateCarnivalSections,
   generateSectionsByStyle,
   moveRow,
-  sortSongsWithinSections,
-} from "./helper/songBookRows";
+  sortSongsWithinSections as sortScoreWithSections,
+} from "../utils/songBookRows";
 
 interface SongBookTableProps {
-  rows: SongBookRow[];
-  setRows: (rows: SongBookRow[]) => void;
-  handleSelect: (song: SongArrangement, checked: boolean) => void;
-  handlePlayingSong: (song: PlayingSong) => void;
+  rows: SongBookItem[];
+  setItems: (rows: SongBookItem[]) => void;
+  handleSelect: (song: Score, checked: boolean) => void;
+  onSetPlayingPart: (song: PlayingPart) => void;
   handleClear: () => void;
+}
+
+interface SongBookTableRowProps {
+  row: SongBookItem;
+  idx: number;
 }
 
 const SongBookTable = ({
   rows,
-  setRows,
+  setItems: setRows,
   handleSelect,
   handleClear,
-  handlePlayingSong,
+  onSetPlayingPart: handlePlayingSong,
 }: SongBookTableProps) => {
   const [newSection, setNewSection] = useState<string>("");
 
-  const onInputNewSection = ({ target: { value } }: any) =>
-    setNewSection(value);
+  const onInputNewSection = (e: ChangeEvent<HTMLInputElement>) =>
+    setNewSection(e.target.value);
 
-  const onCreateSection = (e: any) => {
+  const onSubmitNewSection = (e: ChangeEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const newRows = [...rows, newSection];
+    createNewSection();
+  };
+
+  const createNewSection = () => {
+    const newRows = [...rows, songBookSection(newSection)];
     setRows(newRows);
     setNewSection("");
   };
 
-  const carnivalSectionsTooltip = (
+  const CarnivalSectionsToolTip = () => (
     <Tooltip id="tooltip">
       Reorganiza seções como no caderninho do carnaval:
       <ListGroup>
         {carnivalSectionOrder.map((section) => (
-          <ListGroup.Item>{section}</ListGroup.Item>
+          <ListGroup.Item key={`section-${section}`}>{section}</ListGroup.Item>
         ))}
       </ListGroup>
     </Tooltip>
   );
 
-  const renderRow = (row: SongBookRow, idx: number) => {
-    if (isSongBookRowSection(row)) {
+  const SongBookTableRow = ({ row, idx }: SongBookTableRowProps) => {
+    if (isSongBookSection(row)) {
       return (
         <SongBookSectionRow
           handleDelete={() => setRows(deleteRow(rows, idx))}
           handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
-          title={row}
-          key={row}
+          title={row.title}
         />
       );
     }
     return (
-      <SongBookArrangementRow
+      <SongBookScoreRow
+        score={row.score}
         handleDelete={handleSelect}
-        songArrangement={row}
-        key={row.arrangement.name}
+        key={row.score.id}
         handlePlayingSong={handlePlayingSong}
         handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
       />
@@ -94,11 +103,11 @@ const SongBookTable = ({
       <Row>
         <Col sm="4">
           <Sort
-            onSortBy={(col, dir) => sortSongsWithinSections(rows, col, dir)}
+            onSortBy={(col, dir) => sortScoreWithSections(rows, col, dir)}
           />
         </Col>
         <Col>
-          <Form className="d-flex" onSubmit={onCreateSection}>
+          <Form className="d-flex" onSubmit={onSubmitNewSection}>
             <Col>
               <Form.Control
                 type="text"
@@ -108,7 +117,7 @@ const SongBookTable = ({
               />
             </Col>
             <Col>
-              <Button onClick={onCreateSection}>+ seção</Button>
+              <Button onClick={createNewSection}>+ seção</Button>
             </Col>
           </Form>
         </Col>
@@ -122,13 +131,17 @@ const SongBookTable = ({
             <th>Tags</th>
           </tr>
         </thead>
-        <tbody>{rows.map((row, idx) => renderRow(row, idx))}</tbody>
+        <tbody>
+          {rows.map((row, idx) => (
+            <SongBookTableRow key={idx} row={row} idx={idx} />
+          ))}
+        </tbody>
       </Table>
       <Row className="mt-4">
         <Col>
           <p>
-            {rows.filter(isSongBookRowSection).length} seções e{" "}
-            {rows.filter((r: any) => !isSongBookRowSection(r)).length} músicas
+            {rows.filter(isSongBookSection).length} seções e{" "}
+            {rows.filter((r: any) => !isSongBookSection(r)).length} músicas
           </p>
         </Col>
         <Col>
@@ -144,7 +157,7 @@ const SongBookTable = ({
       </Row>
       <Row>
         <Col>
-          <OverlayTrigger placement="left" overlay={carnivalSectionsTooltip}>
+          <OverlayTrigger placement="left" overlay={CarnivalSectionsToolTip}>
             <Button onClick={() => setRows(generateCarnivalSections(rows))}>
               Aplicar ordenação do carnaval
             </Button>

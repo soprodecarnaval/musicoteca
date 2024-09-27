@@ -13,11 +13,12 @@ import {
 import { useState } from "react";
 import {
   Instrument,
-  SongArrangement,
-  SongArrangementSection,
-  SongBookRow,
-  isSongBookRowSection,
-} from "../types";
+  isSongBookSection,
+  Score,
+  SongBook,
+  SongBookItem,
+  SongBookScore,
+} from "../../types";
 import { createSongBook } from "../createSongBook";
 
 const instruments: Instrument[] = [
@@ -35,14 +36,30 @@ const instruments: Instrument[] = [
 ];
 
 interface PdfGeneratorProps {
-  songBookRows: SongBookRow[];
+  songBook: SongBook;
 }
 
+export type Section = {
+  title: string;
+  songs: Score[];
+};
+
+const CarnivalModeTooltip = () => (
+  <Tooltip id="tooltip">
+    <ListGroup>
+      <ListGroup.Item>Capa automática</ListGroup.Item>
+      <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
+      <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
+      <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
+    </ListGroup>
+  </Tooltip>
+);
+
 // GUS-TODO: persist songbook
-const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
-  const songArrangements = songBookRows.filter(
-    (r: SongBookRow) => !isSongBookRowSection(r)
-  ) as SongArrangement[];
+const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
+  const scores = songBook.items.filter(
+    (r: SongBookItem) => !isSongBookSection(r)
+  ) as SongBookScore[];
 
   const [songbookTitle, setTitle] = useState("");
 
@@ -75,17 +92,6 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
   const formattedImgSize = () =>
     (parseInt(songbookImg.imgSize) * Math.pow(10, -6)).toFixed(2);
 
-  const carnivalModeTooltip = (
-    <Tooltip id="tooltip">
-      <ListGroup>
-        <ListGroup.Item>Capa automática</ListGroup.Item>
-        <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
-        <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
-        <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
-      </ListGroup>
-    </Tooltip>
-  );
-
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
 
   const onGeneratePdfClicked = (e: any, instrument: string = "all") => {
@@ -94,8 +100,8 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
     if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i);
     }
-    if (songArrangements.length < 1) {
-      alert("Selecione ao menos 1 arranjo!");
+    if (scores.length < 1) {
+      alert("Selecione ao menos uma música!");
       return;
     }
     if (songbookTitle == "") {
@@ -104,14 +110,14 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
     }
 
     // Create sections from songbook rows
-    const sections: SongArrangementSection[] = [];
-    let currentSection: SongArrangementSection | null = null;
+    const sections: Section[] = [];
+    let currentSection: Section | null = null;
 
-    for (const row of songBookRows) {
-      if (isSongBookRowSection(row)) {
+    for (const item of songBook.items) {
+      if (isSongBookSection(item)) {
         currentSection = {
-          title: row,
-          songArrangements: [],
+          title: item.title,
+          songs: [],
         };
         sections.push(currentSection);
       } else {
@@ -119,29 +125,13 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
         if (!currentSection) {
           currentSection = {
             title: "",
-            songArrangements: [],
+            songs: [],
           };
           sections.push(currentSection);
         }
-        currentSection.songArrangements.push(row);
+        currentSection.songs.push(item.score);
       }
     }
-
-    console.log(sections);
-
-    // TODO: add button to autogenerate sections in UI
-    // songArrangements.forEach((sa: SongArrangement) => {
-    //   const title = sa.song.style;
-    //   if (sectionMap.has(title)) {
-    //     const section = sectionMap.get(title);
-    //     section?.songArrangements.push(sa);
-    //   } else {
-    //     sectionMap.set(title, {
-    //       title,
-    //       songArrangements: [sa],
-    //     });
-    //   }
-    // });
 
     const songbooks: any[] = selectedInstruments.map((instrument) => {
       createSongBook({
@@ -189,7 +179,7 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
             </Dropdown.Menu>
           </Dropdown>
         </Col>
-        <OverlayTrigger placement="left" overlay={carnivalModeTooltip}>
+        <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
           <Col sm={4}>
             <Form.Check
               type="switch"

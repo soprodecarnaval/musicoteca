@@ -1,10 +1,11 @@
 import { Modal, Image, Carousel } from "react-bootstrap";
 import { useEffect, useState } from "react";
-import { Part, Asset } from "../types";
+import { Part } from "../../types";
 
 import "../css/PreviewModal.css";
 import RangeSlider from "react-bootstrap-range-slider";
 import { BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
+import { midiPlayer, playMidiPart, removeToastPlayer } from "../utils/playMidi";
 
 interface PreviewModalProps {
   show: boolean;
@@ -12,11 +13,11 @@ interface PreviewModalProps {
   part: Part;
 }
 
-interface FilesCarouselProps {
-  files: Asset[];
+interface SvgCarouselProps {
+  svgs: string[];
 }
 
-const FilesCarousel = ({ files }: FilesCarouselProps) => {
+const FilesCarousel = ({ svgs }: SvgCarouselProps) => {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex: number) => {
@@ -24,9 +25,9 @@ const FilesCarousel = ({ files }: FilesCarouselProps) => {
   };
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
-      {files.map((file) => (
-        <Carousel.Item key={file.path}>
-          <Image src={`/collection/${file.path}`} />
+      {svgs.map((svg) => (
+        <Carousel.Item key={svg}>
+          <Image src={`/collection/${svg}`} />
         </Carousel.Item>
       ))}
     </Carousel>
@@ -34,40 +35,30 @@ const FilesCarousel = ({ files }: FilesCarouselProps) => {
 };
 
 const PreviewModal = ({ show, handleShow, part }: PreviewModalProps) => {
-  const [value, setValue] = useState(0)
-  
+  const [value, setValue] = useState(0);
+
   useEffect(() => {
-    // @ts-ignore
-    removeToastPlayer()
-  })
+    removeToastPlayer();
+  });
 
   const handleClose = () => {
     handleShow(false);
-    // @ts-ignore
-    Player.stop()
-  }
-  
-  const handlePlay = () => {
-    // @ts-ignore
-    playSong(
-      part.name,
-      `collection/${part.assets[0].path .replace('svg', 'midi')}`,
-      '-preview',      
-    )
-  }
+    midiPlayer?.stop();
+  };
+
+  const handlePlay = async () => {
+    await playMidiPart(`collection/${part.midi}`, part.instrument);
+  };
 
   const handlePause = () => {
-    // @ts-ignore
-    Player.pause();
-  }
+    midiPlayer?.pause();
+  };
 
-  const handleChange = (event : any) => {
-    setValue(event.currentTarget.valueAsNumber)
-    // @ts-ignore
-    Player.skipToPercent(event.currentTarget.valueAsNumber)
-    // @ts-ignore
-    Player.play()
-  }
+  const handleChange = (event: any) => {
+    setValue(event.currentTarget.valueAsNumber);
+    midiPlayer?.skipToPercent(event.currentTarget.valueAsNumber);
+    midiPlayer?.play();
+  };
 
   return (
     <Modal show={show} onHide={handleClose} backdrop="static" keyboard={false}>
@@ -75,11 +66,25 @@ const PreviewModal = ({ show, handleShow, part }: PreviewModalProps) => {
         <Modal.Title>{part.instrument}</Modal.Title>
       </Modal.Header>
       <Modal.Body>
-        <RangeSlider className="slider" id="play-track-preview" value={value} tooltip='off' onChange={handleChange} />
-        <BsPlayCircleFill className="play-icon" size={18} onClick={handlePlay} />
-        <BsFillPauseCircleFill className="pause-icon" size={18} onClick={handlePause} />
+        <RangeSlider
+          className="slider"
+          id="play-track-preview"
+          value={value}
+          tooltip="off"
+          onChange={handleChange}
+        />
+        <BsPlayCircleFill
+          className="play-icon"
+          size={18}
+          onClick={handlePlay}
+        />
+        <BsFillPauseCircleFill
+          className="pause-icon"
+          size={18}
+          onClick={handlePause}
+        />
         <small id="song-time-preview"></small>
-        <FilesCarousel files={part.assets} />
+        <FilesCarousel svgs={[part.svg]} />
       </Modal.Body>
     </Modal>
   );

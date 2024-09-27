@@ -3,48 +3,35 @@ import { useState } from "react";
 import { BsFillPauseCircleFill, BsPlayCircleFill } from "react-icons/bs";
 
 import { PreviewModal } from "./PreviewModal";
-import { Part } from "../types";
+import { Part, PlayingPart, Score } from "../../types";
 
 import "../css/PartItem.css";
 import { Col, Row } from "react-bootstrap";
 import { SiMidi } from "react-icons/si";
+import { midiPlayer, playMidiPart } from "../utils/playMidi";
 
 interface PartItemProps {
+  score: Score;
   part: Part;
-  handlePlayingSong: (info: any) => void;
-  songName: string;
-  arrangementName: string;
+  handlePlayingSong: (info: PlayingPart) => void;
 }
 
-const PartItem = ({
-  part,
-  handlePlayingSong,
-  songName,
-  arrangementName,
-}: PartItemProps) => {
+const PartItem = ({ score, part, handlePlayingSong }: PartItemProps) => {
   const [showPreview, setShowPreview] = useState(false);
 
-  const isSvg = part.assets[0].extension === ".svg";
+  const hasSvg = part.svg != "";
 
-  const handlePlay = () => {
-    handlePlayingSong({ partName: part.name, songName, arrangementName });
-    // @ts-ignore
-    playSong(
-      part.name,
-      `collection/${part.assets[0].path.replace("svg", "midi")}`,
-      ""
-    );
+  const handlePlay = async () => {
+    handlePlayingSong({ score, part });
+    await playMidiPart(`collection/${part.midi}`, part.instrument);
   };
 
   const handleStop = () => {
-    // @ts-ignore
-    Player.stop();
+    midiPlayer?.stop();
   };
 
-  const partMidiAsset = part.assets.find((asset) => asset.extension == ".midi");
-
   return (
-    isSvg && (
+    hasSvg && (
       <tr className="instrument cursor">
         <td colSpan={4}>
           <Row>
@@ -61,8 +48,8 @@ const PartItem = ({
                 className="pause-icon-part"
                 onClick={handleStop}
               />
-              {partMidiAsset && (
-                <a href={`collection/${partMidiAsset.path}`} target="_blank">
+              {part.midi != "" && (
+                <a href={`collection/${part.midi}`} target="_blank">
                   <SiMidi />
                 </a>
               )}

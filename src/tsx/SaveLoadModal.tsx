@@ -1,5 +1,5 @@
 import { Modal } from "react-bootstrap";
-import { SongBook } from "../types";
+import { SongBook } from "../../types";
 import { useState } from "react";
 
 // GUS-TODO: save whole songbook instead of just rows
