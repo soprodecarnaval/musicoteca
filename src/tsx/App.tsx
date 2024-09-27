@@ -6,16 +6,17 @@ import { SearchBar } from "./SearchBar";
 import { ArrangementsTable } from "./ArrangementsTable";
 import { SongBookTable } from "./SongBookTable";
 import { PDFGenerator } from "./PdfGenerator";
-import { sortByColumn } from "./helper/sorter";
+import { sortByColumn, SortColumn, SortDirection } from "./helper/sorter";
 import { SongBar } from "./SongBar";
 import { AddAllSongsButton } from "./AddAllSongsButton";
 import { BsFillSave2Fill } from "react-icons/bs";
 
 import {
   isSongBookRowSection,
+  Song,
   SongBook,
+  songBookRowSong,
   type PlayingSong,
-  type SongArrangement,
   type SongBookRow,
 } from "../../types";
 
@@ -24,54 +25,51 @@ import "../css/App.css";
 import SaveLoadModal from "./SaveLoadModal";
 
 function App() {
-  const [results, setResults] = useState<SongArrangement[]>([]);
-  const [songBookRows, setSongBookRows] = useState<SongBookRow[]>([]);
+  const [results, setResults] = useState<Song[]>([]);
+  const [rows, setRows] = useState<SongBookRow[]>([]);
   const [showSaveLoadModal, setShowSaveLoadModal] = useState(false);
   const [playingSong, setPlayingSong] = useState<PlayingSong>({
     songName: "",
     arrangementName: "",
     partName: "",
   });
-  const handleSelectSong = (
-    songArrangement: SongArrangement,
-    checked: boolean
-  ) => {
-    checked
-      ? handleAddSong(songArrangement)
-      : handleRemoveSong(songArrangement);
+  const handleSelectSong = (song: Song, checked: boolean) => {
+    checked ? handleAddSong(song) : handleRemoveSong(song);
   };
 
   const clearSelected = () => {
-    setSongBookRows([]);
+    setRows([]);
   };
 
-  const handleAddSong = (songArrangement: SongArrangement) => {
-    setSongBookRows([...songBookRows, songArrangement]);
-    const updatedRes = results.filter(
-      (r) => r.arrangement.id !== songArrangement.arrangement.id
-    );
+  const handleAddSong = (song: Song) => {
+    setRows([...rows, songBookRowSong(song)]);
+    const updatedRes = results.filter((r) => r.id !== song.id);
 
     setResults(updatedRes);
   };
 
-  const handleRemoveSong = (songArrangement: SongArrangement) => {
-    const updatedRes = songBookRows.filter(
-      (r) =>
-        isSongBookRowSection(r) ||
-        r.arrangement.id !== songArrangement.arrangement.id
+  const handleRemoveSong = (song: Song) => {
+    const updatedRes = rows.filter(
+      (r) => isSongBookRowSection(r) || r.song.id !== song.id
     );
 
-    setResults([songArrangement, ...results]);
-    setSongBookRows(updatedRes);
+    setResults([song, ...results]);
+    setRows(updatedRes);
   };
 
-  const handleResultsSortBy = (column: string, direction: string) => {
+  const handleResultsSortBy = (
+    column: SortColumn,
+    direction: SortDirection
+  ) => {
     const sorted = sortByColumn(results, column, direction);
     setResults(sorted.slice());
   };
 
   const handleAddAllSongs = () => {
-    const newSongBookRows = [...songBookRows, ...results];
+    const newSongBookRows: SongBookRow[] = [
+      ...rows,
+      ...results.map(songBookRowSong),
+    ];
     const newUniqueSelectedResults = newSongBookRows.filter((row, index) => {
       return (
         // include sections
@@ -79,13 +77,11 @@ function App() {
         // include first occurrence of song
         index ===
           newSongBookRows.findIndex(
-            (o) =>
-              !isSongBookRowSection(o) &&
-              row.arrangement.id === o.arrangement.id
+            (o) => !isSongBookRowSection(o) && row.song.id === o.song.id
           )
       );
     });
-    setSongBookRows(newUniqueSelectedResults);
+    setRows(newUniqueSelectedResults);
     setResults([]);
   };
 
@@ -93,12 +89,12 @@ function App() {
   const loadSongBook = (songBook: SongBook) => {
     // GUS-TODO: how to handle errors?
     // GUS-TODO: reset results from search bar?
-    setSongBookRows(songBook.rows);
+    setRows(songBook.rows);
     return true;
   };
 
   const songBook = {
-    rows: songBookRows,
+    rows: rows,
   };
 
   return (
@@ -121,7 +117,7 @@ function App() {
             <SearchBar handleResults={setResults} />
           </Col>
           <Col sm={6}>
-            <PDFGenerator songBookRows={songBookRows} />
+            <PDFGenerator songBookRows={rows} />
           </Col>
         </Row>
         <SongBar info={playingSong} />
@@ -157,8 +153,8 @@ function App() {
                 <BsFillSave2Fill onClick={() => setShowSaveLoadModal(true)} />
               </h3>
               <SongBookTable
-                rows={songBookRows}
-                setRows={setSongBookRows}
+                rows={rows}
+                setRows={setRows}
                 handlePlayingSong={setPlayingSong}
                 handleSelect={handleSelectSong}
                 handleClear={clearSelected}

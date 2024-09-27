@@ -1,4 +1,4 @@
-import { SongArrangement } from "../../../types";
+import { Song } from "../../../types";
 
 const fixedStyleOrder = [
   "marchinhas",
@@ -16,27 +16,34 @@ const fixedStyleOrder = [
   "technohell",
 ];
 
+export type SortColumn = "title" | "projectTitle" | "style" | "carnivalStyle";
+
+export type SortDirection = "asc" | "desc";
+
 export const sortByColumn = (
-  arrayToSort: SongArrangement[],
-  columnToSort: string,
-  directionToSort: string
-) => {
-  let sorted = arrayToSort.sort((a: any, b: any) => {
+  arrayToSort: Song[],
+  columnToSort: SortColumn,
+  directionToSort: SortDirection
+): Song[] => {
+  let sorted: Song[] = arrayToSort.sort((a: Song, b: Song) => {
     if (columnToSort === "title") {
-      return a.song.title.localeCompare(b.song.title);
-    } else if (columnToSort === "arrangements") {
-      return a.arrangement.name.localeCompare(b.arrangement.name);
-    } else if (columnToSort === "tags") {
-      return a.arrangement.tags[0].localeCompare(b.arrangement.tags[0]);
+      return a.title.localeCompare(b.title);
+    } else if (columnToSort === "projectTitle") {
+      return a.projectTitle.localeCompare(b.projectTitle);
     } else if (columnToSort === "style") {
-      if (a.song.style === b.song.style) {
-        return a.song.title.localeCompare(b.song.title);
+      if (a.tags[0] === b.tags[0]) {
+        return a.tags[0].localeCompare(b.tags[0]);
+      }
+    } else if (columnToSort === "carnivalStyle") {
+      if (a.tags[0] === b.tags[0]) {
+        return a.tags[0].localeCompare(b.tags[0]);
       }
       return (
-        fixedStyleOrder.indexOf(a.song.style) -
-        fixedStyleOrder.indexOf(b.song.style)
+        // TODO: use same fixed style array as in SongBook.tsx
+        fixedStyleOrder.indexOf(a.tags[0]) - fixedStyleOrder.indexOf(b.tags[0])
       );
     }
+    return 0;
   });
 
   if (directionToSort === "desc") sorted = sorted.reverse();

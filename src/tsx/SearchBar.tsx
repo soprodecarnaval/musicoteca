@@ -1,38 +1,30 @@
 import { useState } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 
-import { SongArrangement } from "../../types";
+import { Song } from "../../types";
 import collection from "../collection";
 
 import Fuse from "fuse.js";
 
 interface SearchBarProps {
-  handleResults: (results: SongArrangement[]) => void;
+  handleResults: (results: Song[]) => void;
 }
 
 // index collection using Fuse.js
-const songArrangements = collection.songs.flatMap((song) => {
-  return song.arrangements.map((arrangement) => ({
-    song,
-    arrangement,
-  }));
+const songArrangements = collection.projects.flatMap((project) => {
+  return project.songs;
 });
 
 // TODO: move index creation to build step
 const songIndex = Fuse.createIndex(
-  ["song.title", "song.composer", "arrangement.name", "arrangement.tags"],
+  ["song.title", "song.composer", "song.tags"],
   songArrangements
 );
 
 const fuse = new Fuse(
   songArrangements,
   {
-    keys: [
-      "song.title",
-      "song.composer",
-      "arrangement.name",
-      "arrangement.tags",
-    ],
+    keys: ["song.title", "song.composer", "song.tags"],
     includeScore: true,
     shouldSort: true,
     threshold: 0.1,

@@ -1,9 +1,11 @@
 import {
-  SongArrangement,
+  Song,
   SongBookRow,
   isSongBookRowSection,
+  songBookRowSection,
+  songBookRowSong,
 } from "../../../types";
-import { sortByColumn } from "./sorter";
+import { SortColumn, sortByColumn, SortDirection } from "./sorter";
 
 // moves a row up or down, swapping it with the row in the new position
 export const moveRow = (rows: SongBookRow[], idx: number, steps: number) => {
@@ -27,26 +29,32 @@ export const deleteRow = (rows: SongBookRow[], idx: number) => {
 
 export const sortSongsWithinSections = (
   rows: SongBookRow[],
-  column: string,
-  direction: string
+  column: SortColumn,
+  direction: SortDirection
 ) => {
   // sort slices of songs delimited by sections
-  const sorted = [];
-  let slice = [];
+  const sorted: SongBookRow[] = [];
+  let slice: Song[] = [];
   for (const row of rows) {
     if (isSongBookRowSection(row)) {
       if (slice.length > 0) {
-        sorted.push(...sortByColumn(slice, column, direction));
+        const sortedSongRows = sortByColumn(slice, column, direction).map(
+          songBookRowSong
+        );
+        sorted.push(...sortedSongRows);
       }
       sorted.push(row);
       slice = [];
     } else {
-      slice.push(row);
+      slice.push(row.song);
     }
   }
   // sort last slice
   if (slice.length > 0) {
-    sorted.push(...sortByColumn(slice, column, direction));
+    const sortedSongRows = sortByColumn(slice, column, direction).map(
+      songBookRowSong
+    );
+    sorted.push(...sortedSongRows);
   }
 
   return sorted;
@@ -63,7 +71,7 @@ export const generateSectionsByStyle = (rows: SongBookRow[]) => {
     if (isSongBookRowSection(row)) {
       continue;
     }
-    const style = row.song.style;
+    const style = row.song.tags[0];
     if (sections.has(style)) {
       sections.get(style)?.push(row);
     } else {
@@ -72,9 +80,9 @@ export const generateSectionsByStyle = (rows: SongBookRow[]) => {
   }
 
   // regenerate rows
-  const sorted = [];
+  const sorted: SongBookRow[] = [];
   for (const [key, value] of sections.entries()) {
-    sorted.push(key);
+    sorted.push(songBookRowSection(key));
     sorted.push(...value);
   }
   return sorted;
@@ -104,10 +112,12 @@ export const generateCarnivalSections = (rows: SongBookRow[]) => {
 
   // pick only carnival sections, keeping their order
   // ignore sections not in the order
-  const newRows = [];
+  const newRows: SongBookRow[] = [];
   for (const section of carnivalSectionOrder) {
     // find section index
-    const idx = rows.findIndex((r) => isSongBookRowSection(r) && r === section);
+    const idx = rows.findIndex(
+      (r) => isSongBookRowSection(r) && r.title === section
+    );
     if (idx === -1) {
       continue;
     }
@@ -115,16 +125,16 @@ export const generateCarnivalSections = (rows: SongBookRow[]) => {
     newRows.push(rows[idx]);
 
     // add all songs in section
-    const slice: SongArrangement[] = [];
+    const slice: Song[] = [];
     for (let i = idx + 1; i < rows.length; i++) {
       const row = rows[i];
       if (isSongBookRowSection(row)) {
         break;
       }
-      slice.push(row);
+      slice.push(row.song);
     }
     // push sorted slice
-    const sorted = sortByColumn(slice, "title", "asc");
+    const sorted = sortByColumn(slice, "title", "asc").map(songBookRowSong);
     newRows.push(...sorted);
   }
   return newRows;

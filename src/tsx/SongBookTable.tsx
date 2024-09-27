@@ -11,14 +11,15 @@ import {
 
 import {
   isSongBookRowSection,
+  songBookRowSection,
   type PlayingSong,
-  type SongArrangement,
+  type Song,
   type SongBookRow,
 } from "../../types";
 
 import { SongBookArrangementRow } from "./SongBookArrangementRow";
 import { SongBookSectionRow } from "./SongBookSectionRow";
-import { useState } from "react";
+import { ChangeEvent, FormEventHandler, useState } from "react";
 import { Sort } from "./Sort";
 import {
   carnivalSectionOrder,
@@ -32,7 +33,7 @@ import {
 interface SongBookTableProps {
   rows: SongBookRow[];
   setRows: (rows: SongBookRow[]) => void;
-  handleSelect: (song: SongArrangement, checked: boolean) => void;
+  handleSelect: (song: Song, checked: boolean) => void;
   handlePlayingSong: (song: PlayingSong) => void;
   handleClear: () => void;
 }
@@ -46,12 +47,12 @@ const SongBookTable = ({
 }: SongBookTableProps) => {
   const [newSection, setNewSection] = useState<string>("");
 
-  const onInputNewSection = ({ target: { value } }: any) =>
-    setNewSection(value);
+  const onInputNewSection = (e: ChangeEvent<HTMLInputElement>) =>
+    setNewSection(e.target.value);
 
-  const onCreateSection = (e: any) => {
+  const onCreateSection = (e: FormEventHandler<HTMLFormElement>) => {
     e.preventDefault();
-    const newRows = [...rows, newSection];
+    const newRows = [...rows, songBookRowSection(newSection)];
     setRows(newRows);
     setNewSection("");
   };
@@ -73,8 +74,8 @@ const SongBookTable = ({
         <SongBookSectionRow
           handleDelete={() => setRows(deleteRow(rows, idx))}
           handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
-          title={row}
-          key={row}
+          title={row.title}
+          key={row.title}
         />
       );
     }
@@ -82,7 +83,7 @@ const SongBookTable = ({
       <SongBookArrangementRow
         handleDelete={handleSelect}
         songArrangement={row}
-        key={row.arrangement.name}
+        key={row.song.id}
         handlePlayingSong={handlePlayingSong}
         handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
       />

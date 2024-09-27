@@ -80,9 +80,11 @@ const scrapeMediaAsset = (
 const indexSong = (songDirectory: SongDirectory): Result<Song> => {
   console.debug(`[scrapeSongDirectory] read ${songDirectory.absPath}`);
   let draft: any = {
+    id: path.join(songDirectory.project, songDirectory.song),
     title: songDirectory.song,
     parts: [],
     tags: [],
+    projectTitle: songDirectory.project,
   };
 
   for (const entry of fs.readdirSync(songDirectory.absPath)) {

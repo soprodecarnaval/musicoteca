@@ -111,6 +111,7 @@ const migrateArrangement = (
   }
 
   const song: Song = {
+    id: path.join(projectTitle, songTitle),
     title: songTitle,
     // don't use the sub and composer from oldSong, because it might have been
     // backfilled from the song, instead of the arrangement's metajson.
@@ -128,6 +129,7 @@ const migrateArrangement = (
     midi: migrateAsset(srcDir, arr.assets, destDir, songRelPath, "midi"),
     parts: [],
     tags: [oldSong.style],
+    projectTitle: projectTitle,
   };
 
   // TODO: bake the data we overwrite in the metajson into the mscz,

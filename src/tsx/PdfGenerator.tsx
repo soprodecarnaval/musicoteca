@@ -13,10 +13,11 @@ import {
 import { useState } from "react";
 import {
   Instrument,
-  SongArrangement,
-  SongArrangementSection,
-  SongBookRow,
   isSongBookRowSection,
+  Song,
+  SongBookRow,
+  SongBookRowSection,
+  SongBookRowSong,
 } from "../../types";
 import { createSongBook } from "../createSongBook";
 
@@ -38,11 +39,16 @@ interface PdfGeneratorProps {
   songBookRows: SongBookRow[];
 }
 
+export type Section = {
+  title: string;
+  songs: Song[];
+};
+
 // GUS-TODO: persist songbook
 const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
-  const songArrangements = songBookRows.filter(
+  const songs = songBookRows.filter(
     (r: SongBookRow) => !isSongBookRowSection(r)
-  ) as SongArrangement[];
+  ) as SongBookRowSong[];
 
   const [songbookTitle, setTitle] = useState("");
 
@@ -94,8 +100,8 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
     if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i);
     }
-    if (songArrangements.length < 1) {
-      alert("Selecione ao menos 1 arranjo!");
+    if (songs.length < 1) {
+      alert("Selecione ao menos uma música!");
       return;
     }
     if (songbookTitle == "") {
@@ -104,14 +110,14 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
     }
 
     // Create sections from songbook rows
-    const sections: SongArrangementSection[] = [];
-    let currentSection: SongArrangementSection | null = null;
+    const sections: Section[] = [];
+    let currentSection: Section | null = null;
 
     for (const row of songBookRows) {
       if (isSongBookRowSection(row)) {
         currentSection = {
-          title: row,
-          songArrangements: [],
+          title: row.title,
+          songs: [],
         };
         sections.push(currentSection);
       } else {
@@ -119,10 +125,10 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
         if (!currentSection) {
           currentSection = {
             title: "",
-            songArrangements: [],
+            songs: [],
           };
         }
-        currentSection.songArrangements.push(row);
+        currentSection.songs.push(row.song);
       }
     }
 
