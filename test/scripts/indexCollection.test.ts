@@ -1,4 +1,5 @@
 import fs from "fs";
+import fsp from "fs/promises";
 import crypto from "crypto";
 import path from "path";
 import { Collection } from "../../types";
@@ -42,73 +43,118 @@ const expectEqualDirs = (dir1: string, dir2: string, skip: Set<string>) => {
   });
 };
 
-describe("indexCollection", () => {
-  it("should be idempotent", () => {
-    indexCollection(["--input", inputDir, "--output", outputDir]);
-
-    // compare file structure recursively
-    const skip = new Set(["collection.json", ".DS_Store", "warnings.json"]);
-    expectEqualDirs(inputDir, outputDir, skip);
-
-    // compare collection.json
-    const inputCollectionPath = path.join(inputDir, "collection.json");
-    const outputCollectionPath = path.join(outputDir, "collection.json");
-
-    const inputCollection = JSON.parse(
-      fs.readFileSync(inputCollectionPath, "utf-8")
-    ) as Collection;
-    const outputCollection = JSON.parse(
-      fs.readFileSync(outputCollectionPath, "utf-8")
-    ) as Collection;
-    // do some things to ensure comparison works:
-    // - sort projects by title
-    // - sort songs by title
-    // - sort parts by name
-    // - sort tags
-    // - set sortedAt to the same value
-    inputCollection.scrapedAt = outputCollection.scrapedAt;
-    inputCollection.projects.sort((a, b) => a.title.localeCompare(b.title));
-    inputCollection.projects.forEach((project) => {
-      project.songs.sort((a, b) => a.title.localeCompare(b.title));
-      project.songs.forEach((song) => {
-        song.tags.sort();
-        song.parts.sort((a, b) => a.name.localeCompare(b.name));
-      });
+// do some things to ensure comparison works:
+// - sort projects by title
+// - sort scores by title
+// - sort parts by name
+// - sort tags
+// - set sortedAt to the same value
+const makeCollectionComparable = (inputCollection: Collection) => {
+  inputCollection.scrapedAt = new Date("2024-09-27T15:51:00.000Z");
+  inputCollection.projects.sort((a, b) => a.title.localeCompare(b.title));
+  inputCollection.projects.forEach((project) => {
+    project.scores.sort((a, b) => a.title.localeCompare(b.title));
+    project.scores.forEach((score) => {
+      score.tags.sort();
+      score.parts.sort((a, b) => a.name.localeCompare(b.name));
     });
-    outputCollection.projects.sort((a, b) => a.title.localeCompare(b.title));
-    outputCollection.projects.forEach((project) => {
-      project.songs.sort((a, b) => a.title.localeCompare(b.title));
-      project.songs.forEach((song) => {
-        song.tags.sort();
-        song.parts.sort((a, b) => a.name.localeCompare(b.name));
-      });
-    });
-    expect(inputCollection.projects.length).toEqual(
-      outputCollection.projects.length
+  });
+};
+
+const assertCollectionEquality = (
+  inputCollection: Collection,
+  outputCollection: Collection
+) => {
+  makeCollectionComparable(inputCollection);
+  makeCollectionComparable(outputCollection);
+
+  expect(inputCollection.projects.length).toEqual(
+    outputCollection.projects.length
+  );
+
+  // assert project by project to get better error messages
+  for (let i = 0; i < inputCollection.projects.length; i++) {
+    const inputProject = inputCollection.projects[i];
+    const outputProject = outputCollection.projects[i];
+    expect(outputProject.title).toEqual(inputProject.title);
+    expect(outputProject.scores.map((s) => s.title)).toEqual(
+      inputProject.scores.map((s) => s.title)
     );
 
-    // assert project by project to get better error messages
-    for (let i = 0; i < inputCollection.projects.length; i++) {
-      const inputProject = inputCollection.projects[i];
-      const outputProject = outputCollection.projects[i];
-      expect(outputProject.title).toEqual(inputProject.title);
-      expect(outputProject.songs.map((s) => s.title)).toEqual(
-        inputProject.songs.map((s) => s.title)
-      );
+    // assert score by score to get better error messages
+    for (let j = 0; j < inputProject.scores.length; j++) {
+      const inputScore = inputProject.scores[j];
+      const outputScore = outputProject.scores[j];
+      expect(outputScore).toEqual(inputScore);
 
-      // assert song by song to get better error messages
-      for (let j = 0; j < inputProject.songs.length; j++) {
-        const inputSong = inputProject.songs[j];
-        const outputSong = outputProject.songs[j];
-        expect(outputSong).toEqual(inputSong);
-
-        // assert part by part to get better error messages
-        for (let k = 0; k < inputSong.parts.length; k++) {
-          const inputPart = inputSong.parts[k];
-          const outputPart = outputSong.parts[k];
-          expect(outputPart).toEqual(inputPart);
-        }
+      // assert part by part to get better error messages
+      for (let k = 0; k < inputScore.parts.length; k++) {
+        const inputPart = inputScore.parts[k];
+        const outputPart = outputScore.parts[k];
+        expect(outputPart).toEqual(inputPart);
       }
     }
+  }
+};
+
+const compareCollections = (inputDir: string, outputDir: string) => {
+  // compare file structure recursively
+  const skip = new Set(["collection.json", ".DS_Store", "warnings.json"]);
+  expectEqualDirs(inputDir, outputDir, skip);
+
+  // compare collection.json
+  const inputCollectionPath = path.join(inputDir, "collection.json");
+  const outputCollectionPath = path.join(outputDir, "collection.json");
+
+  const inputCollection = JSON.parse(
+    fs.readFileSync(inputCollectionPath, "utf-8")
+  ) as Collection;
+  const outputCollection = JSON.parse(
+    fs.readFileSync(outputCollectionPath, "utf-8")
+  ) as Collection;
+
+  assertCollectionEquality(inputCollection, outputCollection);
+};
+
+describe("indexCollection", () => {
+  it("should be idempotent", () => {
+    if (fs.existsSync(outputDir)) {
+      fs.rmdirSync(outputDir, { recursive: true });
+    }
+    indexCollection(["--input", inputDir, "--output", outputDir]);
+    compareCollections(inputDir, outputDir);
+  });
+
+  it("should copy tags from an existing collection in the output directory", async () => {
+    // copy over the entire input collection to the output directory
+    if (fs.existsSync(outputDir)) {
+      fs.rmdirSync(outputDir, { recursive: true });
+    }
+    fs.cpSync(inputDir, outputDir, { recursive: true });
+
+    // make another copy that will serve as the input collection without tags
+    const inputDirNoTags = "test/scripts/indexCollectionTestInputNoTags";
+    fs.cpSync(inputDir, inputDirNoTags, { recursive: true });
+    fs.rmSync(path.join(inputDirNoTags, "collection.json"));
+
+    // remove tags from all .metajson files in that noTags dir
+    const metajsonFiles = fs
+      .readdirSync(inputDirNoTags, { withFileTypes: true })
+      .filter((dirent) => dirent.isFile() && dirent.name.endsWith(".metajson"));
+
+    await Promise.all(
+      metajsonFiles.map((dirent) => {
+        const metajsonPath = path.join(inputDirNoTags, dirent.name);
+        const metajson = JSON.parse(fs.readFileSync(metajsonPath, "utf-8"));
+        delete metajson.tags;
+        return fsp.writeFile(metajsonPath, JSON.stringify(metajson, null, 2));
+      })
+    );
+
+    // run indexCollection with the noTags dir
+    indexCollection(["--input", inputDirNoTags, "--output", outputDir]);
+
+    // compare the result with the original collection
+    compareCollections(inputDir, outputDir);
   });
 });

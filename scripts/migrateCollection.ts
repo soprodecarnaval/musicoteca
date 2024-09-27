@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import { ArgumentParser } from "argparse";
-import { Collection, Project, Song, Instrument } from "../types";
+import { Collection, Project, Score, Instrument } from "../types";
 
 export type Warning = {
   message: string;
@@ -63,12 +63,12 @@ const migrateAsset = (
 const migratePart = (
   srcDir: string,
   oldPart: OldPart,
-  song: Song,
+  score: Score,
   destDir: string,
-  songDirRelPath: string
+  scoreDirRelPath: string
 ) => {
-  const partName = `${song.title} - ${oldPart.name}`;
-  const partRelPath = path.join(songDirRelPath, partName);
+  const partName = `${score.title} - ${oldPart.name}`;
+  const partRelPath = path.join(scoreDirRelPath, partName);
   console.debug(`migratePart: '${partName}'`);
   const part = {
     name: partName,
@@ -76,7 +76,7 @@ const migratePart = (
     midi: migrateAsset(srcDir, oldPart.assets, destDir, partRelPath, "midi"),
     svg: migrateAsset(srcDir, oldPart.assets, destDir, partRelPath, "svg"),
   };
-  song.parts.push(part);
+  score.parts.push(part);
 };
 
 const getProjectTitle = (arr: OldArrangement) => {
@@ -110,7 +110,7 @@ const migrateArrangement = (
     return;
   }
 
-  const song: Song = {
+  const score: Score = {
     id: path.join(projectTitle, songTitle),
     title: songTitle,
     // don't use the sub and composer from oldSong, because it might have been
@@ -134,21 +134,21 @@ const migrateArrangement = (
 
   // TODO: bake the data we overwrite in the metajson into the mscz,
   //       otherwise it will be lost when the mscz is re-exported.
-  if (song.metajson) {
-    const metajsonAbsPath = path.join(destDir, song.metajson);
+  if (score.metajson) {
+    const metajsonAbsPath = path.join(destDir, score.metajson);
     const metajson = JSON.parse(fs.readFileSync(metajsonAbsPath, "utf8"));
     // the new format doesn't have the style in the file path,
     // so we'll add it to the metajson.tags.
-    metajson.tags = song.tags.join(",");
+    metajson.tags = score.tags.join(",");
     // the new format uses the lyrics field instead of previousSource.
     metajson.lyrics = metajson.previousSource;
-    song.sub = metajson.lyrics;
-    song.composer = metajson.composer;
+    score.sub = metajson.lyrics;
+    score.composer = metajson.composer;
     fs.writeFileSync(metajsonAbsPath, JSON.stringify(metajson, null, 2));
   }
 
   for (const oldPart of arr.parts) {
-    migratePart(srcDir, oldPart, song, destDir, songDirRelPath);
+    migratePart(srcDir, oldPart, score, destDir, songDirRelPath);
   }
 
   const projectIdx = coll.projects.findIndex(
@@ -157,10 +157,10 @@ const migrateArrangement = (
   if (projectIdx === -1) {
     coll.projects.push({
       title: projectTitle,
-      songs: [song],
+      scores: [score],
     });
   } else {
-    coll.projects[projectIdx].songs.push(song);
+    coll.projects[projectIdx].scores.push(score);
   }
 };
 

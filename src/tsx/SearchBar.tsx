@@ -1,36 +1,44 @@
 import { useState } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 
-import { Song } from "../../types";
+import { Score } from "../../types";
 import collection from "../collection";
 
 import Fuse from "fuse.js";
+import dropDiacritics from "../utils/dropDiacritics";
 
 interface SearchBarProps {
-  handleResults: (results: Song[]) => void;
+  handleResults: (results: Score[]) => void;
 }
 
-// index collection using Fuse.js
-const songArrangements = collection.projects.flatMap((project) => {
-  return project.songs;
+const allScores = collection.projects.flatMap((project) => {
+  return project.scores;
 });
 
+const searchKeys = ["title", "composer", "tags", "projectTitle"];
+
 // TODO: move index creation to build step
-const songIndex = Fuse.createIndex(
-  ["song.title", "song.composer", "song.tags"],
-  songArrangements
-);
+const scoreSearchIndex = Fuse.createIndex(searchKeys, allScores);
+Fuse.config.getFn = (obj, path) => {
+  var value = Fuse.config.getFn(obj, path);
+  if (Array.isArray(value)) {
+    return value.map((el) => dropDiacritics(el));
+  } else if (typeof value === "string") {
+    return dropDiacritics(value);
+  }
+  return value;
+};
 
 const fuse = new Fuse(
-  songArrangements,
+  allScores,
   {
-    keys: ["song.title", "song.composer", "song.tags"],
+    keys: searchKeys,
     includeScore: true,
     shouldSort: true,
     threshold: 0.1,
     useExtendedSearch: true,
   },
-  songIndex
+  scoreSearchIndex
 );
 
 const SearchBar = ({ handleResults }: SearchBarProps) => {

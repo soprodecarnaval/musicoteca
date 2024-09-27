@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "carnaval bh 2023",
-      "songs": [
+      "scores": [
         {
           "id": "carnaval bh 2023/a luz de tiêta",
           "title": "a luz de tiêta",
@@ -45,7 +45,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/a roda",
@@ -89,7 +90,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/alô paixao",
@@ -133,7 +135,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/apocalipse do amor",
@@ -177,7 +180,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/arerê-ê-ê",
@@ -221,7 +225,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/avisa la ô-ô (nossa gente)",
@@ -265,7 +270,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/baianidade nagô",
@@ -309,7 +315,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/beija flor",
@@ -353,7 +360,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/beijo na boca",
@@ -397,7 +405,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/beleza rara",
@@ -441,7 +450,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/carrinho de mao",
@@ -485,7 +495,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/chuva suor e cerveja",
@@ -529,7 +540,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/danca do vampiro",
@@ -573,7 +585,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/deusa do amor",
@@ -617,7 +630,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/eu tambem quero beijar",
@@ -661,7 +675,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/farao",
@@ -705,7 +720,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/flores",
@@ -749,7 +765,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/haja amor",
@@ -793,7 +810,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/nada mal (terrasamba)",
@@ -837,7 +855,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/olha a onda",
@@ -881,7 +900,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/pequena eva",
@@ -925,7 +945,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/prefixo de verão",
@@ -969,7 +990,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/requebra",
@@ -1013,7 +1035,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/sou cem por cento você",
@@ -1057,7 +1080,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/toda menina baiana",
@@ -1101,7 +1125,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/vem meu amor",
@@ -1145,7 +1170,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/aflorou",
@@ -1189,7 +1215,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/alcova libertina",
@@ -1233,7 +1260,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/bloco do peixoto",
@@ -1277,7 +1305,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/como te lhama",
@@ -1321,7 +1350,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/corte devassa",
@@ -1365,7 +1395,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/filhos de tcha tcha",
@@ -1409,7 +1440,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/ladeira abaixo",
@@ -1453,7 +1485,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/mamá na vaca",
@@ -1497,7 +1530,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/manjericão",
@@ -1541,7 +1575,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/praia da estação",
@@ -1585,7 +1620,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/queima largada",
@@ -1629,7 +1665,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tetê a santa",
@@ -1673,7 +1710,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/abra suas asas",
@@ -1717,7 +1755,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cotidiano",
@@ -1761,7 +1800,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/divino maravilhoso",
@@ -1805,7 +1845,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/fe cega faca amolada",
@@ -1855,7 +1896,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/forasteiro",
@@ -1899,7 +1941,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/lennon and mccartney",
@@ -1943,7 +1986,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/lucro",
@@ -1987,7 +2031,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/mamãe oxum",
@@ -2031,7 +2076,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/nao enche",
@@ -2075,7 +2121,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/não quero dinheiro",
@@ -2119,7 +2166,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/ombrim",
@@ -2169,7 +2217,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/pais tropical",
@@ -2213,7 +2262,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/reconvexo",
@@ -2257,7 +2307,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/sujeito de sorte",
@@ -2301,7 +2352,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tudo o que voce podia ser",
@@ -2345,7 +2397,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/vaca profana",
@@ -2389,7 +2442,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/a banda tá com sede",
@@ -2433,7 +2487,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/blue cigano",
@@ -2477,7 +2532,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/buyo",
@@ -2521,7 +2577,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/montserrat, serrat",
@@ -2565,7 +2622,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/não me entrego pros caretas",
@@ -2609,7 +2667,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/não é mole não + guadaloupe",
@@ -2659,7 +2718,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/oswaldo, o pombo",
@@ -2703,7 +2763,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/soul finger",
@@ -2753,7 +2814,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tom e jerry em guca",
@@ -2803,7 +2865,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/anunciação",
@@ -2847,7 +2910,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/eu só quero um xodó",
@@ -2891,7 +2955,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/morena tropicana",
@@ -2935,7 +3000,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/pagode russo",
@@ -2979,7 +3045,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cabelo de fogo",
@@ -3023,7 +3090,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/ciranda de maluco",
@@ -3073,7 +3141,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/frevo mulher",
@@ -3117,7 +3186,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/hino do elefante de olinda",
@@ -3161,7 +3231,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/nagô nagô",
@@ -3205,7 +3276,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/vassourinhas",
@@ -3249,7 +3321,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/agora vai sentar",
@@ -3293,7 +3366,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/amor de que",
@@ -3337,7 +3411,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/baile de favela",
@@ -3381,7 +3456,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/din din din",
@@ -3425,7 +3501,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/endereco dos bailes",
@@ -3469,7 +3546,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/feira de acari",
@@ -3513,7 +3591,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/glamurosa",
@@ -3557,7 +3636,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/meu jeito de amar",
@@ -3601,7 +3681,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/miss beleza universal",
@@ -3645,7 +3726,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/oh juliana",
@@ -3689,7 +3771,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/parados no bailão",
@@ -3733,7 +3816,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/rap da felicidade",
@@ -3777,7 +3861,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/rap das armas",
@@ -3821,7 +3906,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/se tá solteira",
@@ -3871,7 +3957,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tedio",
@@ -3915,7 +4002,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tú tá na gaiola",
@@ -3959,7 +4047,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/um morto muito louco",
@@ -4003,7 +4092,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/vai malandra",
@@ -4047,7 +4137,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/verdinha",
@@ -4091,7 +4182,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/vermelho",
@@ -4135,7 +4227,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/besame mucho",
@@ -4179,7 +4272,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cariñito",
@@ -4223,7 +4317,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/chorando se foi",
@@ -4267,7 +4362,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/bella ciao",
@@ -4311,7 +4407,8 @@
           ],
           "tags": [
             "manifestação"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/ta na hora do jair",
@@ -4355,7 +4452,8 @@
           ],
           "tags": [
             "manifestação"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tá escrito",
@@ -4399,7 +4497,8 @@
           ],
           "tags": [
             "manifestação"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/vermelho vermelhaço",
@@ -4443,7 +4542,8 @@
           ],
           "tags": [
             "manifestação"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/abre alas",
@@ -4487,7 +4587,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/bandeira branca",
@@ -4531,7 +4632,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/bloco na rua",
@@ -4575,7 +4677,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/carinhoso",
@@ -4619,7 +4722,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/máscara negra",
@@ -4663,7 +4767,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/noite dos mascarados",
@@ -4707,7 +4812,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/pastorinhas",
@@ -4751,7 +4857,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/touradas de madri",
@@ -4795,7 +4902,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/alala-ô",
@@ -4839,7 +4947,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/balancê",
@@ -4883,7 +4992,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cabeleira do ed marte",
@@ -4927,7 +5037,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cachaça",
@@ -4971,7 +5082,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/jardineira",
@@ -5015,7 +5127,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/mamãe eu quero",
@@ -5059,7 +5172,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/marcha do remador",
@@ -5103,7 +5217,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/quem sabe, sabe",
@@ -5147,7 +5262,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/saca rolhas",
@@ -5191,7 +5307,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/sassaricando",
@@ -5235,7 +5352,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/taí",
@@ -5279,7 +5397,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tem nego bêbo aí",
@@ -5323,7 +5442,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/turma do funil",
@@ -5367,7 +5487,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/vai com jeito",
@@ -5411,7 +5532,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/zé pereira",
@@ -5455,7 +5577,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/canto de xango",
@@ -5499,7 +5622,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cordeiro de nana",
@@ -5543,7 +5667,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/deixa a gira girar",
@@ -5587,7 +5712,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/emoriô",
@@ -5631,7 +5757,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/maresia",
@@ -5675,7 +5802,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/odara",
@@ -5719,7 +5847,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/suíte dos pescadores",
@@ -5763,7 +5892,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/varias queixas",
@@ -5807,7 +5937,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/é d'oxum",
@@ -5851,7 +5982,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/caçamba",
@@ -5895,7 +6027,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cheia de manias",
@@ -5939,7 +6072,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/cilada",
@@ -5983,7 +6117,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/mal acostumado",
@@ -6027,7 +6162,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/ta rocheda",
@@ -6071,7 +6207,8 @@
           ],
           "tags": [
             "piseiro"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tapao na raba",
@@ -6115,7 +6252,8 @@
           ],
           "tags": [
             "piseiro"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/paint in black",
@@ -6159,7 +6297,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/apesar de voce",
@@ -6203,7 +6342,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/canto das tres raças",
@@ -6247,7 +6387,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/juizo final (o sol)",
@@ -6291,7 +6432,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/não deixe o samba morrer",
@@ -6335,7 +6477,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/o morro não tem vez",
@@ -6379,7 +6522,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/o sol nascerá (a sorrir)",
@@ -6423,7 +6567,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/retalhos de cetim",
@@ -6467,7 +6612,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/tristeza",
@@ -6511,7 +6657,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/medley technohell",
@@ -6555,7 +6702,8 @@
           ],
           "tags": [
             "technohell"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/what is love",
@@ -6599,7 +6747,8 @@
           ],
           "tags": [
             "technohell"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/eu sou um cordeirinho",
@@ -6643,7 +6792,8 @@
           ],
           "tags": [
             "zoeira"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/noiados da encruzilhada",
@@ -6687,7 +6837,8 @@
           ],
           "tags": [
             "zoeira"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/show de calouros (pedro de lara)",
@@ -6731,7 +6882,8 @@
           ],
           "tags": [
             "zoeira"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         },
         {
           "id": "carnaval bh 2023/undererê",
@@ -6775,13 +6927,14 @@
           ],
           "tags": [
             "zoeira"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2023"
         }
       ]
     },
     {
       "title": "carnaval bh 2024",
-      "songs": [
+      "scores": [
         {
           "id": "carnaval bh 2024/a luz de tiêta",
           "title": "a luz de tiêta",
@@ -6824,7 +6977,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/araketu é bom demais",
@@ -6868,7 +7022,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/arerê-ê-ê",
@@ -6912,7 +7067,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/baianidade nagô",
@@ -6956,7 +7112,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/beija flor",
@@ -7000,7 +7157,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/beleza rara",
@@ -7044,7 +7202,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/deusa do amor",
@@ -7088,7 +7247,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/eu tambem quero beijar",
@@ -7132,7 +7292,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/haja amor",
@@ -7176,7 +7337,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/nada mal (terrasamba)",
@@ -7220,7 +7382,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/pequena eva",
@@ -7264,7 +7427,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/prefixo de verão",
@@ -7308,7 +7472,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/sou cem por cento você",
@@ -7352,7 +7517,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/vem meu amor",
@@ -7396,7 +7562,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/xibom bombom",
@@ -7440,7 +7607,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/alcova libertina",
@@ -7484,7 +7652,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/bloco do peixoto",
@@ -7528,7 +7697,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/corte devassa",
@@ -7572,7 +7742,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/ladeira abaixo",
@@ -7616,7 +7787,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/mamá na vaca",
@@ -7660,7 +7832,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/manjericão",
@@ -7704,7 +7877,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/praia da estação",
@@ -7748,7 +7922,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/queima largada",
@@ -7792,7 +7967,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/tetê a santa",
@@ -7836,7 +8012,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/abra suas asas",
@@ -7880,7 +8057,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/ando meio desligado",
@@ -7924,7 +8102,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/descobridor dos sete mares",
@@ -7968,7 +8147,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/evidências",
@@ -8012,7 +8192,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/forasteiro",
@@ -8056,7 +8237,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/lucro",
@@ -8100,7 +8282,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/não quero dinheiro",
@@ -8144,7 +8327,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/pais tropical",
@@ -8188,7 +8372,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/taj mahal",
@@ -8232,7 +8417,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/tempos modernos",
@@ -8276,7 +8462,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/voando pro pará",
@@ -8320,7 +8507,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/a banda tá com sede",
@@ -8364,7 +8552,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/buyo",
@@ -8414,7 +8603,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/montserrat, serrat",
@@ -8458,7 +8648,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/não me entrego pros caretas",
@@ -8502,7 +8693,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/não é mole não + guadaloupe",
@@ -8552,7 +8744,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/oswaldo, o pombo",
@@ -8596,7 +8789,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/soul finger",
@@ -8646,7 +8840,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/tom e jerry em guca",
@@ -8696,7 +8891,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/anunciação",
@@ -8740,7 +8936,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/morena tropicana",
@@ -8784,7 +8981,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/pagode russo",
@@ -8828,7 +9026,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/qui nem jiló",
@@ -8872,7 +9071,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cabelo de fogo",
@@ -8916,7 +9116,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/ciranda de maluco",
@@ -8966,7 +9167,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/frevo mulher",
@@ -9010,7 +9212,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/vassourinhas",
@@ -9054,7 +9257,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/agora vai sentar",
@@ -9098,7 +9302,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cheguei",
@@ -9142,7 +9347,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/combatchy",
@@ -9186,7 +9392,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/ela só pensa em beijar",
@@ -9230,7 +9437,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/feira de acari",
@@ -9274,7 +9482,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/glamurosa",
@@ -9318,7 +9527,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/meu jeito de amar",
@@ -9362,7 +9572,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/parados no bailão",
@@ -9406,7 +9617,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/rap do silva",
@@ -9450,7 +9662,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/se tá solteira",
@@ -9500,7 +9713,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/tú tá na gaiola",
@@ -9544,7 +9758,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/vai malandra",
@@ -9588,7 +9803,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/verdinha",
@@ -9632,7 +9848,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/vermelho",
@@ -9676,7 +9893,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/besame mucho",
@@ -9720,7 +9938,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cariñito",
@@ -9764,7 +9983,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/chorando se foi",
@@ -9808,7 +10028,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cumbia en do menor",
@@ -9852,7 +10073,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/sonido amazonico",
@@ -9896,7 +10118,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/abre alas",
@@ -9940,7 +10163,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/bandeira branca",
@@ -9984,7 +10208,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/bloco na rua",
@@ -10028,7 +10253,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/carinhoso",
@@ -10072,7 +10298,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/máscara negra",
@@ -10116,7 +10343,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/pastorinhas",
@@ -10160,7 +10388,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/alala-ô",
@@ -10204,7 +10433,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/balancê",
@@ -10248,7 +10478,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cabeleira do ed marte",
@@ -10292,7 +10523,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cachaça",
@@ -10336,7 +10568,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/chiquita bacana",
@@ -10380,7 +10613,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/jardineira",
@@ -10424,7 +10658,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/mamãe eu quero",
@@ -10468,7 +10703,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/marcha do remador",
@@ -10512,7 +10748,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/quem sabe, sabe",
@@ -10556,7 +10793,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/saca rolhas",
@@ -10600,7 +10838,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/taí",
@@ -10644,7 +10883,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/tem nego bêbo aí",
@@ -10688,7 +10928,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/turma do funil",
@@ -10732,7 +10973,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/vai com jeito",
@@ -10776,7 +11018,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cordeiro de nana",
@@ -10820,7 +11063,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/deixa a gira girar",
@@ -10864,7 +11108,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/emoriô",
@@ -10908,7 +11153,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/suíte dos pescadores",
@@ -10952,7 +11198,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/varias queixas",
@@ -10996,7 +11243,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/é d'oxum",
@@ -11040,7 +11288,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/caçamba",
@@ -11084,7 +11333,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cheia de manias",
@@ -11128,7 +11378,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/cilada",
@@ -11172,7 +11423,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/mal acostumado",
@@ -11216,7 +11468,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/me apaixonei pela pessoa errada",
@@ -11260,7 +11513,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/temporal",
@@ -11304,7 +11558,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/ameaça",
@@ -11348,7 +11603,8 @@
           ],
           "tags": [
             "piseiro"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/aquelas coisas",
@@ -11392,7 +11648,8 @@
           ],
           "tags": [
             "piseiro"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/lovezinho",
@@ -11436,7 +11693,8 @@
           ],
           "tags": [
             "piseiro"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/zona de perigo",
@@ -11480,7 +11738,8 @@
           ],
           "tags": [
             "piseiro"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/agua de chuva no mar",
@@ -11524,7 +11783,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/andança",
@@ -11568,7 +11828,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/canto das tres raças",
@@ -11612,7 +11873,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/eu e você sempre",
@@ -11656,7 +11918,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/juizo final (o sol)",
@@ -11700,7 +11963,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/não deixe o samba morrer",
@@ -11744,7 +12008,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/o morro não tem vez",
@@ -11788,7 +12053,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/o sol nascerá (a sorrir)",
@@ -11832,7 +12098,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/retalhos de cetim",
@@ -11876,7 +12143,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/tiro ao alvaro",
@@ -11920,7 +12188,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/trem das onze",
@@ -11964,7 +12233,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/tristeza",
@@ -12008,7 +12278,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/vou festejar",
@@ -12052,7 +12323,8 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/jesus humilha o satanas",
@@ -12096,7 +12368,8 @@
           ],
           "tags": [
             "technohell"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/medley technohell",
@@ -12140,7 +12413,8 @@
           ],
           "tags": [
             "technohell"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         },
         {
           "id": "carnaval bh 2024/what is love",
@@ -12184,13 +12458,14 @@
           ],
           "tags": [
             "technohell"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2024"
         }
       ]
     },
     {
       "title": "queimando 2024",
-      "songs": [
+      "scores": [
         {
           "id": "queimando 2024/a luz de tiêta",
           "title": "a luz de tiêta",
@@ -12233,7 +12508,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/baianidade nagô",
@@ -12277,7 +12553,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/pequena eva",
@@ -12321,7 +12598,8 @@
           ],
           "tags": [
             "axés"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/corte devassa",
@@ -12365,7 +12643,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/mamá na vaca",
@@ -12409,7 +12688,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/manjericão",
@@ -12453,7 +12733,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/praia da estação",
@@ -12497,7 +12778,8 @@
           ],
           "tags": [
             "beagá"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/lucro",
@@ -12541,7 +12823,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/não quero dinheiro",
@@ -12585,7 +12868,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/pais tropical",
@@ -12629,7 +12913,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/taj mahal",
@@ -12673,7 +12958,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/a banda tá com sede",
@@ -12717,7 +13003,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/oswaldo, o pombo",
@@ -12761,7 +13048,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/tom e jerry em guca",
@@ -12811,7 +13099,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/videoshow",
@@ -12855,7 +13144,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/a praça é nossa",
@@ -12899,7 +13189,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/batman",
@@ -12943,7 +13234,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/carinito e darth vader",
@@ -12987,7 +13279,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/caça-fantasmas",
@@ -13031,7 +13324,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/familia addams",
@@ -13075,7 +13369,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/flinstones",
@@ -13119,7 +13414,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/indiana jones",
@@ -13163,7 +13459,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/o pulo da gaita",
@@ -13207,7 +13504,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/pantera cor de rosa",
@@ -13251,7 +13549,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/plantão globo",
@@ -13295,7 +13594,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/poderoso chefão",
@@ -13339,7 +13639,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/pulp fiction",
@@ -13383,7 +13684,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/rocky balboa",
@@ -13427,7 +13729,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/sete anões",
@@ -13471,7 +13774,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/show de calouros",
@@ -13515,7 +13819,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/sitio do picapau amarelo",
@@ -13559,7 +13864,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/spider man",
@@ -13603,7 +13909,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/um morto muito louco",
@@ -13647,7 +13954,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/uma odisséia no espaço",
@@ -13691,7 +13999,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/vinheta fox",
@@ -13735,7 +14044,8 @@
           ],
           "tags": [
             "filme"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/anunciação",
@@ -13779,7 +14089,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/cabelo de fogo",
@@ -13823,7 +14134,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/frevo mulher",
@@ -13867,7 +14179,8 @@
           ],
           "tags": [
             "frevos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/feira de acari",
@@ -13911,7 +14224,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/glamurosa",
@@ -13955,7 +14269,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/meu jeito de amar",
@@ -13999,7 +14314,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/parados no bailão",
@@ -14043,7 +14359,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/se tá solteira",
@@ -14093,7 +14410,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/vai malandra",
@@ -14137,7 +14455,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/verdinha",
@@ -14181,7 +14500,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/vermelho",
@@ -14225,7 +14545,8 @@
           ],
           "tags": [
             "funks"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/besame mucho",
@@ -14269,7 +14590,8 @@
           ],
           "tags": [
             "latinas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/bella ciao",
@@ -14313,7 +14635,8 @@
           ],
           "tags": [
             "manifestação"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/abre alas",
@@ -14357,7 +14680,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/bandeira branca",
@@ -14401,7 +14725,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/bloco na rua",
@@ -14445,7 +14770,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/carinhoso",
@@ -14489,7 +14815,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/máscara negra",
@@ -14533,7 +14860,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/touradas de madri",
@@ -14577,7 +14905,8 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/alala-ô",
@@ -14621,7 +14950,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/aurora",
@@ -14665,7 +14995,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/balancê",
@@ -14709,7 +15040,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/cabeleira do ed marte",
@@ -14753,7 +15085,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/cachaça",
@@ -14797,7 +15130,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/jardineira",
@@ -14841,7 +15175,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/mamãe eu quero",
@@ -14885,7 +15220,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/marcha do remador",
@@ -14929,7 +15265,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/quem sabe, sabe",
@@ -14973,7 +15310,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/saca rolhas",
@@ -15017,7 +15355,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/sassaricando",
@@ -15061,7 +15400,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/taí",
@@ -15105,7 +15445,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/turma do funil",
@@ -15149,7 +15490,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/vai com jeito",
@@ -15193,7 +15535,8 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/cordeiro de nana",
@@ -15237,7 +15580,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/deixa a gira girar",
@@ -15281,7 +15625,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/emoriô",
@@ -15325,7 +15670,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/varias queixas",
@@ -15369,7 +15715,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/cilada",
@@ -15413,7 +15760,8 @@
           ],
           "tags": [
             "pagodes"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         },
         {
           "id": "queimando 2024/eu e você sempre",
@@ -15457,13 +15805,14 @@
           ],
           "tags": [
             "sambas"
-          ]
+          ],
+          "projectTitle": "queimando 2024"
         }
       ]
     },
     {
       "title": "garota 2024",
-      "songs": [
+      "scores": [
         {
           "id": "garota 2024/como uma onda no mar",
           "title": "como uma onda no mar",
@@ -15506,7 +15855,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/de repente califórnia",
@@ -15550,7 +15900,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/tapao na raba",
@@ -15594,7 +15945,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/toda forma de amor",
@@ -15638,7 +15990,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/uma brasileira",
@@ -15682,7 +16035,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/maresia",
@@ -15726,7 +16080,8 @@
           ],
           "tags": [
             "odaras"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/california dreamin",
@@ -15770,7 +16125,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/california gurls",
@@ -15814,7 +16170,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         },
         {
           "id": "garota 2024/californication",
@@ -15858,13 +16215,14 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "garota 2024"
         }
       ]
     },
     {
       "title": "sopra que sara",
-      "songs": [
+      "scores": [
         {
           "id": "sopra que sara/forasteiro",
           "title": "forasteiro",
@@ -15901,13 +16259,14 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "sopra que sara"
         }
       ]
     },
     {
       "title": "carnaval bh 2020",
-      "songs": [
+      "scores": [
         {
           "id": "carnaval bh 2020/você partiu meu coração",
           "title": "você partiu meu coração",
@@ -15950,7 +16309,8 @@
           ],
           "tags": [
             "brazukas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2020"
         },
         {
           "id": "carnaval bh 2020/me dá um dinheiro aí",
@@ -15994,13 +16354,14 @@
           ],
           "tags": [
             "marchinhas"
-          ]
+          ],
+          "projectTitle": "carnaval bh 2020"
         }
       ]
     },
     {
       "title": "madeira pirata",
-      "songs": [
+      "scores": [
         {
           "id": "madeira pirata/soul finger",
           "title": "soul finger",
@@ -16019,7 +16380,8 @@
           ],
           "tags": [
             "fanfarras"
-          ]
+          ],
+          "projectTitle": "madeira pirata"
         },
         {
           "id": "madeira pirata/anunciação",
@@ -16063,7 +16425,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "madeira pirata"
         },
         {
           "id": "madeira pirata/abre alas",
@@ -16107,13 +16470,14 @@
           ],
           "tags": [
             "marcha ranchos"
-          ]
+          ],
+          "projectTitle": "madeira pirata"
         }
       ]
     },
     {
       "title": "festa junina 2024",
-      "songs": [
+      "scores": [
         {
           "id": "festa junina 2024/abri a porta",
           "title": "abri a porta",
@@ -16156,7 +16520,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/ai que saudade doce",
@@ -16200,7 +16565,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/asa branca",
@@ -16250,7 +16616,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/assum preto",
@@ -16294,7 +16661,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/cajuína",
@@ -16338,7 +16706,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/coração bobo",
@@ -16382,7 +16751,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/esperando na janela",
@@ -16432,7 +16802,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/espumas ao vento",
@@ -16476,7 +16847,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/festa do interior",
@@ -16520,7 +16892,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/la belle de jour",
@@ -16564,7 +16937,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/morango do nordeste",
@@ -16608,7 +16982,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/morena tropicana",
@@ -16652,7 +17027,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/nosso xote",
@@ -16696,7 +17072,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/o sanfoneiro só tocava isso",
@@ -16740,7 +17117,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/olha pro céu",
@@ -16784,7 +17162,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/pula a fogueira",
@@ -16834,7 +17213,8 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         },
         {
           "id": "festa junina 2024/sanfona sentida",
@@ -16878,13 +17258,14 @@
           ],
           "tags": [
             "forrós"
-          ]
+          ],
+          "projectTitle": "festa junina 2024"
         }
       ]
     },
     {
       "title": "mamá vaquinha 2024",
-      "songs": [
+      "scores": [
         {
           "id": "mamá vaquinha 2024/a cigarra e a formiga",
           "title": "a cigarra e a formiga",
@@ -16927,7 +17308,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/a dona aranha",
@@ -16971,7 +17353,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/alecrim dourado",
@@ -17015,7 +17398,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/atirei o pau no gato",
@@ -17059,7 +17443,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/borboletinha",
@@ -17103,7 +17488,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/careca do vovô",
@@ -17147,7 +17533,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/ilariê",
@@ -17191,7 +17578,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/meu lanchinho",
@@ -17235,7 +17623,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/meu pintinho amarelinho",
@@ -17279,7 +17668,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/o sapo não lava o pé",
@@ -17323,7 +17713,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/peixe vivo",
@@ -17367,7 +17758,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/pela estrada fora",
@@ -17411,7 +17803,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/pula pula pipoquinha",
@@ -17455,7 +17848,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/quem te ensinou a nadar",
@@ -17499,7 +17893,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/tem gato na tuba",
@@ -17543,7 +17938,8 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         },
         {
           "id": "mamá vaquinha 2024/yellow submarine",
@@ -17587,13 +17983,14 @@
           ],
           "tags": [
             "música infantil"
-          ]
+          ],
+          "projectTitle": "mamá vaquinha 2024"
         }
       ]
     },
     {
       "title": "besourinhos 2024",
-      "songs": [
+      "scores": [
         {
           "id": "besourinhos 2024/a hard days night",
           "title": "a hard days night",
@@ -17636,7 +18033,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/all my loving",
@@ -17680,7 +18078,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/all you need is love",
@@ -17724,7 +18123,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/come together",
@@ -17768,7 +18168,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/don't let me down",
@@ -17812,7 +18213,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/got to get into my life",
@@ -17856,7 +18258,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/help",
@@ -17900,7 +18303,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/hey jude",
@@ -17944,7 +18348,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/i am the walrus",
@@ -17988,7 +18393,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/i saw her standing there",
@@ -18032,7 +18438,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/i wanna hold your hand",
@@ -18076,7 +18483,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/love me do",
@@ -18120,7 +18528,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/lucy in the sky",
@@ -18164,7 +18573,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/obladi oblada",
@@ -18208,7 +18618,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/sargent peppers",
@@ -18252,7 +18663,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/she loves you",
@@ -18296,7 +18708,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/strawberry fields forever",
@@ -18340,7 +18753,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/twist and shout",
@@ -18384,7 +18798,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/with a little help from my friends",
@@ -18428,7 +18843,8 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         },
         {
           "id": "besourinhos 2024/yellow submarine",
@@ -18472,11 +18888,12 @@
           ],
           "tags": [
             "rocks"
-          ]
+          ],
+          "projectTitle": "besourinhos 2024"
         }
       ]
     }
   ],
-  "scrapedAt": "2024-07-26T14:06:24.677Z",
+  "scrapedAt": "2024-09-27T18:31:04.659Z",
   "version": 2
 }

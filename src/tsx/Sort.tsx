@@ -1,6 +1,6 @@
 import { ChangeEventHandler } from "react";
 import { Form } from "react-bootstrap";
-import { SortColumn, SortDirection } from "./helper/sorter";
+import { SortColumn, SortDirection } from "../utils/sort";
 
 interface SortProps {
   onSortBy: (column: SortColumn, direction: SortDirection) => void;

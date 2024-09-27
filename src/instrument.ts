@@ -52,8 +52,6 @@ instrumentAliases.sort(
 
 export const parseInstrument = (raw: string): Instrument | undefined => {
   const normalized = raw.replace(/[_\-.]/g, " ");
-  const match = instrumentAliases.find(([alias, _]) =>
-    normalized.includes(alias)
-  );
+  const match = instrumentAliases.find(([alias]) => normalized.includes(alias));
   return match ? match[1] : undefined;
 };

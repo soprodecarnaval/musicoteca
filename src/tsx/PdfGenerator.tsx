@@ -13,11 +13,11 @@ import {
 import { useState } from "react";
 import {
   Instrument,
-  isSongBookRowSection,
-  Song,
-  SongBookRow,
-  SongBookRowSection,
-  SongBookRowSong,
+  isSongBookSection,
+  Score,
+  SongBook,
+  SongBookItem,
+  SongBookScore,
 } from "../../types";
 import { createSongBook } from "../createSongBook";
 
@@ -36,19 +36,30 @@ const instruments: Instrument[] = [
 ];
 
 interface PdfGeneratorProps {
-  songBookRows: SongBookRow[];
+  songBook: SongBook;
 }
 
 export type Section = {
   title: string;
-  songs: Song[];
+  songs: Score[];
 };
 
+const CarnivalModeTooltip = () => (
+  <Tooltip id="tooltip">
+    <ListGroup>
+      <ListGroup.Item>Capa automática</ListGroup.Item>
+      <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
+      <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
+      <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
+    </ListGroup>
+  </Tooltip>
+);
+
 // GUS-TODO: persist songbook
-const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
-  const songs = songBookRows.filter(
-    (r: SongBookRow) => !isSongBookRowSection(r)
-  ) as SongBookRowSong[];
+const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
+  const scores = songBook.items.filter(
+    (r: SongBookItem) => !isSongBookSection(r)
+  ) as SongBookScore[];
 
   const [songbookTitle, setTitle] = useState("");
 
@@ -81,17 +92,6 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
   const formattedImgSize = () =>
     (parseInt(songbookImg.imgSize) * Math.pow(10, -6)).toFixed(2);
 
-  const carnivalModeTooltip = (
-    <Tooltip id="tooltip">
-      <ListGroup>
-        <ListGroup.Item>Capa automática</ListGroup.Item>
-        <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
-        <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
-        <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
-      </ListGroup>
-    </Tooltip>
-  );
-
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
 
   const onGeneratePdfClicked = (e: any, instrument: string = "all") => {
@@ -100,7 +100,7 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
     if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i);
     }
-    if (songs.length < 1) {
+    if (scores.length < 1) {
       alert("Selecione ao menos uma música!");
       return;
     }
@@ -113,10 +113,10 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
     const sections: Section[] = [];
     let currentSection: Section | null = null;
 
-    for (const row of songBookRows) {
-      if (isSongBookRowSection(row)) {
+    for (const item of songBook.items) {
+      if (isSongBookSection(item)) {
         currentSection = {
-          title: row.title,
+          title: item.title,
           songs: [],
         };
         sections.push(currentSection);
@@ -127,26 +127,11 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
             title: "",
             songs: [],
           };
+          sections.push(currentSection);
         }
-        currentSection.songs.push(row.song);
+        currentSection.songs.push(item.score);
       }
     }
-
-    console.log(sections);
-
-    // TODO: add button to autogenerate sections in UI
-    // songArrangements.forEach((sa: SongArrangement) => {
-    //   const title = sa.song.style;
-    //   if (sectionMap.has(title)) {
-    //     const section = sectionMap.get(title);
-    //     section?.songArrangements.push(sa);
-    //   } else {
-    //     sectionMap.set(title, {
-    //       title,
-    //       songArrangements: [sa],
-    //     });
-    //   }
-    // });
 
     const songbooks: any[] = selectedInstruments.map((instrument) => {
       createSongBook({
@@ -194,7 +179,7 @@ const PDFGenerator = ({ songBookRows }: PdfGeneratorProps) => {
             </Dropdown.Menu>
           </Dropdown>
         </Col>
-        <OverlayTrigger placement="left" overlay={carnivalModeTooltip}>
+        <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
           <Col sm={4}>
             <Form.Check
               type="switch"

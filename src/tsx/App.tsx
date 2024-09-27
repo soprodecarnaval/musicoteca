@@ -3,21 +3,21 @@ import { Col, Container, Navbar, Row } from "react-bootstrap";
 
 import { Sort } from "./Sort";
 import { SearchBar } from "./SearchBar";
-import { ArrangementsTable } from "./ArrangementsTable";
+import { ScoreSearchResultTable } from "./ScoreSearchResultTable";
 import { SongBookTable } from "./SongBookTable";
 import { PDFGenerator } from "./PdfGenerator";
-import { sortByColumn, SortColumn, SortDirection } from "./helper/sorter";
-import { SongBar } from "./SongBar";
-import { AddAllSongsButton } from "./AddAllSongsButton";
+import { sortByColumn, SortColumn, SortDirection } from "../utils/sort";
+import { SongBar } from "./PlayerBar";
+import { AddAllSongsButton } from "./AddAllScoresButton";
 import { BsFillSave2Fill } from "react-icons/bs";
 
 import {
-  isSongBookRowSection,
-  Song,
+  isSongBookSection,
+  Score,
   SongBook,
-  songBookRowSong,
-  type PlayingSong,
-  type SongBookRow,
+  songBookScore,
+  PlayingPart,
+  SongBookItem,
 } from "../../types";
 
 import "bootstrap/dist/css/bootstrap.css";
@@ -25,36 +25,32 @@ import "../css/App.css";
 import SaveLoadModal from "./SaveLoadModal";
 
 function App() {
-  const [results, setResults] = useState<Song[]>([]);
-  const [rows, setRows] = useState<SongBookRow[]>([]);
+  const [results, setResults] = useState<Score[]>([]);
+  const [items, setItems] = useState<SongBookItem[]>([]);
   const [showSaveLoadModal, setShowSaveLoadModal] = useState(false);
-  const [playingSong, setPlayingSong] = useState<PlayingSong>({
-    songName: "",
-    arrangementName: "",
-    partName: "",
-  });
-  const handleSelectSong = (song: Song, checked: boolean) => {
-    checked ? handleAddSong(song) : handleRemoveSong(song);
+  const [playingPart, setPlayingPart] = useState<PlayingPart | null>(null);
+  const handleSelectSong = (song: Score, checked: boolean) => {
+    checked ? handleAddScore(song) : handleRemoveScore(song);
   };
 
   const clearSelected = () => {
-    setRows([]);
+    setItems([]);
   };
 
-  const handleAddSong = (song: Song) => {
-    setRows([...rows, songBookRowSong(song)]);
-    const updatedRes = results.filter((r) => r.id !== song.id);
+  const handleAddScore = (score: Score) => {
+    setItems([...items, songBookScore(score)]);
+    const updatedRes = results.filter((r) => r.id !== score.id);
 
     setResults(updatedRes);
   };
 
-  const handleRemoveSong = (song: Song) => {
-    const updatedRes = rows.filter(
-      (r) => isSongBookRowSection(r) || r.song.id !== song.id
+  const handleRemoveScore = (score: Score) => {
+    const updatedRes = items.filter(
+      (r) => isSongBookSection(r) || r.score.id !== score.id
     );
 
-    setResults([song, ...results]);
-    setRows(updatedRes);
+    setResults([score, ...results]);
+    setItems(updatedRes);
   };
 
   const handleResultsSortBy = (
@@ -66,36 +62,34 @@ function App() {
   };
 
   const handleAddAllSongs = () => {
-    const newSongBookRows: SongBookRow[] = [
-      ...rows,
-      ...results.map(songBookRowSong),
+    const newSongBookItems: SongBookItem[] = [
+      ...items,
+      ...results.map(songBookScore),
     ];
-    const newUniqueSelectedResults = newSongBookRows.filter((row, index) => {
+    const newUniqueSelectedResults = newSongBookItems.filter((row, index) => {
       return (
         // include sections
-        isSongBookRowSection(row) ||
+        isSongBookSection(row) ||
         // include first occurrence of song
         index ===
-          newSongBookRows.findIndex(
-            (o) => !isSongBookRowSection(o) && row.song.id === o.song.id
+          newSongBookItems.findIndex(
+            (o) => !isSongBookSection(o) && row.score.id === o.score.id
           )
       );
     });
-    setRows(newUniqueSelectedResults);
+    setItems(newUniqueSelectedResults);
     setResults([]);
   };
 
-  // GUS-TODO: load all songbook fields (title, etc) instead of just rows
+  // TODO: load all songbook fields (title, etc) instead of just rows
   const loadSongBook = (songBook: SongBook) => {
-    // GUS-TODO: how to handle errors?
-    // GUS-TODO: reset results from search bar?
-    setRows(songBook.rows);
+    // TODO: how to handle errors?
+    // TODO: reset results from search bar?
+    setItems(songBook.items);
     return true;
   };
 
-  const songBook = {
-    rows: rows,
-  };
+  const songBook: SongBook = { items };
 
   return (
     <>
@@ -117,10 +111,10 @@ function App() {
             <SearchBar handleResults={setResults} />
           </Col>
           <Col sm={6}>
-            <PDFGenerator songBookRows={rows} />
+            <PDFGenerator songBook={songBook} />
           </Col>
         </Row>
-        <SongBar info={playingSong} />
+        <SongBar info={playingPart} />
         <Row className="mt-4">
           <Col sm={6}>
             {results.length > 0 && (
@@ -134,13 +128,13 @@ function App() {
                   <Col sm="4">
                     <AddAllSongsButton
                       count={results.length}
-                      onAddAllSongs={handleAddAllSongs}
+                      onAddAllScores={handleAddAllSongs}
                     />
                   </Col>
                 </Row>
-                <ArrangementsTable
-                  songArrangements={results}
-                  handlePlayingSong={setPlayingSong}
+                <ScoreSearchResultTable
+                  songs={results}
+                  onSetPlayingPart={setPlayingPart}
                   handleSelect={handleSelectSong}
                 />
               </>
@@ -153,9 +147,9 @@ function App() {
                 <BsFillSave2Fill onClick={() => setShowSaveLoadModal(true)} />
               </h3>
               <SongBookTable
-                rows={rows}
-                setRows={setRows}
-                handlePlayingSong={setPlayingSong}
+                rows={items}
+                setItems={setItems}
+                onSetPlayingPart={setPlayingPart}
                 handleSelect={handleSelectSong}
                 handleClear={clearSelected}
               />

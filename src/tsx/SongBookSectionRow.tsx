@@ -1,6 +1,6 @@
 import { BsArrowDown, BsArrowUp, BsFillTrashFill } from "react-icons/bs";
 
-import "../css/ArrangementItem.css";
+import "../css/ScoreRow.css";
 
 interface SongBookSectionRowProps {
   handleDelete: () => void;
@@ -8,7 +8,7 @@ interface SongBookSectionRowProps {
   title: string;
 }
 
-const SongBookSectionRow = ({
+const SongBookSectionTableRow = ({
   handleDelete,
   handleMove,
   title,
@@ -34,4 +34,4 @@ const SongBookSectionRow = ({
   );
 };
 
-export { SongBookSectionRow };
+export { SongBookSectionTableRow as SongBookSectionRow };

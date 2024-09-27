@@ -9,8 +9,8 @@
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "index-collection": "tsx scripts collectionIndexer",
-    "download-gdrive": "tsx scripts googleDriveDownloader",
+    "index-collection": "tsx scripts indexCollection",
+    "download-gdrive": "tsx scripts downloadGoogleDrive",
     "migrate-collection": "tsx scripts migrateCollection",
     "test": "vitest"
   },
@@ -29,6 +29,7 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.10.1",
+    "soundfont-player": "^0.12.0",
     "svg-to-pdfkit": "^0.1.8",
     "zod": "^3.23.8"
   },

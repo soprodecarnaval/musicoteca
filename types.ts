@@ -23,7 +23,7 @@ export const zPart = z.object({
 });
 export type Part = z.infer<typeof zPart>;
 
-export const zSong = z.object({
+export const zScore = z.object({
   id: z.string(),
   title: z.string(),
   composer: z.string(),
@@ -35,51 +35,51 @@ export const zSong = z.object({
   tags: z.array(z.string()),
   projectTitle: z.string(),
 });
-export type Song = z.infer<typeof zSong>;
+export type Score = z.infer<typeof zScore>;
 
 export interface Project {
   title: string;
-  songs: Song[];
+  scores: Score[];
 }
 
-export interface Collection {
-  projects: Project[];
-  scrapedAt: Date;
-  version: 2;
-}
+export const zCollection = z.object({
+  projects: z.array(z.object({ title: z.string(), scores: z.array(zScore) })),
+  scrapedAt: z.string().transform((s) => new Date(s)),
+  version: z.literal(2),
+});
 
-export type PlayingSong = {
-  songName: string;
-  arrangementName: string;
-  partName: string;
+export type Collection = z.infer<typeof zCollection>;
+
+export type PlayingPart = {
+  score: Score;
+  part: Part;
 };
 
-export type SongBook = {
-  rows: SongBookRow[];
+export type SongBookScore = {
+  type: "score";
+  score: Score;
 };
 
-export type SongBookRowSong = {
-  type: "song";
-  song: Song;
-};
-
-export type SongBookRowSection = {
+export type SongBookSection = {
   type: "section";
   title: string;
 };
 
-export type SongBookRow = SongBookRowSong | SongBookRowSection;
+export type SongBookItem = SongBookScore | SongBookSection;
 
-export const isSongBookRowSection = (
-  row: SongBookRow
-): row is SongBookRowSection => row.type === "section";
+export type SongBook = {
+  items: SongBookItem[];
+};
 
-export const songBookRowSong = (song: Song): SongBookRowSong => ({
-  type: "song",
-  song,
+export const isSongBookSection = (row: SongBookItem): row is SongBookSection =>
+  row.type === "section";
+
+export const songBookScore = (score: Score): SongBookScore => ({
+  type: "score",
+  score: score,
 });
 
-export const songBookRowSection = (title: string): SongBookRowSection => ({
+export const songBookSection = (title: string): SongBookSection => ({
   type: "section",
   title,
 });

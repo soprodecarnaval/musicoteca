@@ -1,5 +1,6 @@
 import SVGtoPDF from "svg-to-pdfkit";
-import { Instrument, SongArrangement, SongArrangementSection } from "../types";
+import { Instrument, Score } from "../types";
+import { Section } from "./tsx/PdfGenerator";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
@@ -14,7 +15,7 @@ const pageHeight = 13 * cm2pt;
 export interface CreateSongBookOptions {
   title: string;
   instrument: Instrument;
-  sections: SongArrangementSection[];
+  sections: Section[];
   coverImageUrl: string;
   backSheetPageNumber: boolean;
   carnivalMode: boolean;
@@ -68,12 +69,12 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   const { outline } = doc;
   let promises: Promise<any>[] = [];
   let pageNumber = 0;
-  for (const { title, songArrangements } of sections) {
+  for (const { title, songs } of sections) {
     let topItem = outline.addItem(title.toUpperCase());
     sectionTitleOutlines.set(title, topItem);
 
     promises.push(
-      ...songArrangements.map((song) => {
+      ...songs.map((song) => {
         pageNumber++;
         return addSongPage(doc, song, pageNumber, title, opts);
       })
@@ -185,7 +186,7 @@ const loadFonts = async (doc: any) => {
 
 const addSongPage = async (
   doc: any,
-  { song, arrangement }: SongArrangement,
+  song: Score,
   page: number,
   sectionTitle: string,
   { instrument, backSheetPageNumber, carnivalMode }: CreateSongBookOptions
@@ -270,9 +271,7 @@ const addSongPage = async (
   // TODO: Pensar em quando tiver mais de um arranjo
   let svgUrl = "";
   try {
-    svgUrl = arrangement.parts
-      .filter((part) => part.instrument == instrument)[0]
-      .assets.filter((file) => file.extension == ".svg")[0].path;
+    svgUrl = song.parts.filter((part) => part.instrument == instrument)[0].svg;
   } catch (error) {
     console.log(`No part for ${instrument} in ${song.title}.`);
     return null;
@@ -289,7 +288,7 @@ const addIndexPage = (
   { sections, carnivalMode }: CreateSongBookOptions
 ) => {
   const totalSongCount = sections.reduce(
-    (acc, { songArrangements }) => acc + songArrangements.length,
+    (acc, { songs }) => acc + songs.length,
     0
   );
   const sectionCount = sections.length;
@@ -339,17 +338,16 @@ const addIndexPage = (
     ];
   };
   let [currentX, currentY] = nextCursorPosition();
-  let reorderedSongs: SongArrangement[] = [];
+  let reorderedSongs: Score[] = [];
   doc.addPage();
   // .fontSize(25)
   // .font("Roboto-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
-  sections.forEach(({ title, songArrangements }, styleIdx) => {
+  sections.forEach(({ title, songs }, styleIdx) => {
     if (carnivalMode) {
       if (
         firstPage &&
-        songCount + (styleIdx + 1) * 2 + songArrangements.length + 2 >
-          totalLineCount
+        songCount + (styleIdx + 1) * 2 + songs.length + 2 > totalLineCount
       ) {
         firstPage = false;
         resetCursorPosition();
@@ -358,8 +356,8 @@ const addIndexPage = (
       }
     }
 
-    songArrangements.forEach((songArrangement, songIdx) => {
-      reorderedSongs.push(songArrangement);
+    songs.forEach((song, songIdx) => {
+      reorderedSongs.push(song);
       if (songIdx == 0) {
         if (currentLine == maxLinesPerColumn)
           [currentX, currentY] = nextCursorPosition();
@@ -378,17 +376,12 @@ const addIndexPage = (
           goTo: songCount,
         }) // Número da página
         .font("Roboto-Medium")
-        .text(
-          `${songArrangement.song.title.toUpperCase()}`,
-          currentX + 0.3 * cm2pt,
-          currentY,
-          {
-            goTo: songCount,
-            width: columnWidth - 0.3 * cm2pt,
-            height: fontSize,
-            lineBreak: false,
-          }
-        );
+        .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
+          goTo: songCount,
+          width: columnWidth - 0.3 * cm2pt,
+          height: fontSize,
+          lineBreak: false,
+        });
       [currentX, currentY] = nextCursorPosition();
     });
     if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
