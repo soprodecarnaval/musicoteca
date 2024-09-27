@@ -74,7 +74,7 @@ const playMidiPart = async (midiUrl: string, instrument: Instrument) => {
           return;
         }
         if (event.name == "Note on") {
-          instrumentPlayers[instrument].play(event.noteName, ac.currentTime, {
+          instrumentPlayers[instrument]?.play(event.noteName, ac.currentTime, {
             gain: event.velocity / 100,
           });
         }

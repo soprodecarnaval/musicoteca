@@ -12,7 +12,6 @@ import {
 } from "../types";
 import { Ok, Result, Warning, err, ok, warning } from "../src/result";
 import { parseInstrument } from "../src/instrument";
-import { output } from "pdfkit";
 
 interface ScoreDirectory {
   absPath: string;
