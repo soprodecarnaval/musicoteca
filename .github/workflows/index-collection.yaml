@@ -58,4 +58,4 @@ jobs:
           git config --global user.name "cadern.in indexer"
           git add public/collection
           git commit -m "chore: regenerate collection (${{github.run_number}})"
-          git push origin HEAD
+          git push origin ${{ github.ref }}
