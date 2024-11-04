@@ -2,6 +2,10 @@ name: Generate collection from Google Drive
 
 on:
   workflow_dispatch:
+  # run on every pull request that changes the collection
+  pull_request:
+    paths:
+      - "public/collection/**"
 
 jobs:
   generate-collection:
@@ -32,10 +36,9 @@ jobs:
       - name: Install npm dependencies
         run: |
           npm ci
-      - name: Download .mscz files from Google Drive folder
+      - name: Copy current collection to temporary folder
         run: |
-          echo ${{ secrets.GDRIVE_KEYFILE_BASE64 }} | base64 -d > /tmp/gdrive-api-key.json
-          npm run download-gdrive -- -i ${{ vars.GDRIVE_FOLDER_ID }} -o /tmp/collection -p ".*mscz" -k /tmp/gdrive-api-key.json -v
+          cp -r public/collection /tmp/collection
       - name: Create MuseScore generator file
         shell: sh
         run: |
@@ -49,15 +52,10 @@ jobs:
       - name: Index collection
         run: |
           npm run index-collection -- -i /tmp/collection -o public/collection
-      - name: Create PR with changes
-        uses: peter-evans/create-pull-request@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: renerate collection (${{github.run_number}})"
-          branch: chore/generate-collection-${{github.run_number}}
-          title: "chore: generate collection (${{github.run_number}})"
-          body: |
-            Regenerated collection from Google Drive folder ${{ vars.GDRIVE_FOLDER_ID }}
-          labels: "automated"
-          add-paths: |
-            public/collection/**
+      - name: Commit changes
+        run: |
+          git config --global user.email "indexer@cadern.in"
+          git config --global user.name "cadern.in indexer"
+          git add public/collection
+          git commit -m "chore: regenerate collection (${{github.run_number}})"
+          git push origin HEAD
