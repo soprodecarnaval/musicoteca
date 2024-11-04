@@ -32,9 +32,13 @@ const listScoreDirectories = (inputDir: string): ScoreDirectory[] => {
       for (const songTitle of fs.readdirSync(projectDir)) {
         const msczPath = path.join(projectDir, songTitle);
         if (fs.statSync(msczPath).isFile() && msczPath.endsWith(".mscz")) {
-          const newSongDir = path.join(projectDir, songTitle.replace(".mscz", ""));
+          const newSongDir = path.join(
+            projectDir,
+            songTitle.replace(".mscz", "")
+          );
           fs.mkdirSync(newSongDir, { recursive: true });
           fs.renameSync(msczPath, path.join(newSongDir, songTitle));
+        }
       }
 
       // process each song folder
