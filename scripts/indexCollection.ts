@@ -27,6 +27,17 @@ const listScoreDirectories = (inputDir: string): ScoreDirectory[] => {
   for (const projectTitle of fs.readdirSync(inputDir)) {
     const projectDir = path.join(inputDir, projectTitle);
     if (fs.statSync(projectDir).isDirectory()) {
+      // TODO: refactor this to keep input dir unchanged
+      // create folders for each mscz file in the project folder, and move the mscz file to the new folder
+      for (const songTitle of fs.readdirSync(projectDir)) {
+        const msczPath = path.join(projectDir, songTitle);
+        if (fs.statSync(msczPath).isFile() && msczPath.endsWith(".mscz")) {
+          const newSongDir = path.join(projectDir, songTitle.replace(".mscz", ""));
+          fs.mkdirSync(newSongDir, { recursive: true });
+          fs.renameSync(msczPath, path.join(newSongDir, songTitle));
+      }
+
+      // process each song folder
       for (const songTitle of fs.readdirSync(projectDir)) {
         const scoreDir = path.join(projectDir, songTitle);
         if (fs.statSync(scoreDir).isDirectory()) {
