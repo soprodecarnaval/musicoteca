@@ -46,8 +46,8 @@ jobs:
               filename=$(basename "$file")
               base=$(basename "$filename" .mscz)
               if [ "$folder" != "${folder%$filename}/$base" ]; then
-                mkdir -v $folder/$base
-                mv -v $file $folder/$filename
+                mkdir -v "$folder/$base"
+                mv -v "$file" "$folder/$filename"
               fi
           done
       - name: Create MuseScore generator file
