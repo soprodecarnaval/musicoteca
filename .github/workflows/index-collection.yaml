@@ -44,6 +44,7 @@ jobs:
           find /tmp/collection -type f -name "*.mscz" | while read file; do
               filename=$(basename "$file")
               foldername=$(basename "$(dirname "$file")")
+              echo "Checking $filename in $foldername"
               if [ "$filename" != "$foldername.mscz" ]; then
                   base=$(basename "$file" .mscz)
                   mkdir -v "$(dirname "$file")/$foldername"
