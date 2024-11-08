@@ -1,4 +1,4 @@
-name: Generate collection from source MuseScore files
+name: Generate collection from MuseScore files
 
 on:
   workflow_dispatch:
@@ -38,6 +38,17 @@ jobs:
       - name: Copy current collection to temporary folder
         run: |
           cp -r public/collection /tmp/collection
+
+      - name: Make sure any mscz files are in folders with the same name
+        run: |
+          find /tmp/collection -type f -name "*.mscz" | while read file; do
+            dir=$(dirname "$file")
+            base=$(basename "$file" .mscz)
+            if [ ! -d "$dir/$base" ]; then
+              mkdir -v "$dir/$base"
+              mv -v "$file" "$dir/$base/$base.mscz"
+            fi
+          done
       - name: Create MuseScore generator file
         shell: sh
         run: |
@@ -54,7 +65,7 @@ jobs:
           npm run index-collection -- -i /tmp/collection -o public/collection
       - uses: EndBug/add-and-commit@v9
         with:
-          message: "chore: regenerate collection (${{github.run_number}})"
+          message: "chore: generate collection from mscz files (${{github.run_number}})"
           add: "public/collection"
           branch: ${{ github.ref }}
           push: true
