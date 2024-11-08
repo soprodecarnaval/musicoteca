@@ -19,6 +19,10 @@ jobs:
       - name: Skip if last commit was from the indexer
         run: |
           git log -1 --pretty=format:%ae ${{ github.event.before }} | grep -q "indexer@cadern.in"
+          if [ $? -eq 0 ]; then
+              echo "Last commit was from the indexer, skipping"
+              exit 78
+          fi
       - name: Get apt dependencies
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
