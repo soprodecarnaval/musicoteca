@@ -43,8 +43,9 @@ jobs:
       - name: Create MuseScore generator file
         shell: sh
         run: |
-          # git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.after }} | grep ".mscz" > changed-mscz-files.txt
-          find /tmp/collection/ -type f -name "*.mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
+          echo ${{ github.event.pull_request.base.sha }}
+          echo ${{ github.event.after }}
+          git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.after }} | grep ".mscz" | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
       - name: Create svg, midi and metajson from mscz
         shell: sh
