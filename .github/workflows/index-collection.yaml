@@ -44,11 +44,10 @@ jobs:
           find /tmp/collection -type f -name "*.mscz" | while read file; do
               filename=$(basename "$file")
               foldername=$(basename "$(dirname "$file")")
-              echo "Checking $filename in $foldername"
               if [ "$filename" != "$foldername.mscz" ]; then
                   base=$(basename "$file" .mscz)
-                  mkdir -v "$(dirname "$file")/$foldername"
-                  mv -v "$file" "$(dirname "$file")/$foldername/$filename"
+                  mkdir -v "$(dirname "$file")/$base"
+                  mv -v "$file" "$(dirname "$file")/$base/$filename"
               fi
           done
       - name: Create MuseScore generator file
