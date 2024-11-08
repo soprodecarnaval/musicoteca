@@ -54,13 +54,7 @@ jobs:
       - name: Index collection
         run: |
           npm run index-collection -- -i /tmp/collection -o public/collection
-      - name: Check if collection changed
-        id: changed
-        run: |
-          git diff --quiet public/collection
-          echo ::set-output name=changed::$(test $? -ne 0 && echo "true" || echo "false")
       - uses: EndBug/add-and-commit@v9
-        if: success() && steps.generate-collection.outputs.changed == 'true'
         with:
           message: "chore: regenerate collection (${{github.run_number}})"
           add: "public/collection"
