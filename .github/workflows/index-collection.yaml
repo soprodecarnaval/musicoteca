@@ -16,6 +16,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+      - name: Make sure the indexer is on the latest commit
+        run: |
+          git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
       - name: Skip if last commit was from the indexer
         run: |
           git log -1 --pretty=format:%ae ${{ github.event.before }} | grep -q "indexer@cadern.in"
@@ -60,7 +63,6 @@ jobs:
       - name: Create MuseScore generator file
         shell: sh
         run: |
-          git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
           git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.before }} | grep ".mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
       - name: Create svg, midi and metajson from mscz
