@@ -26,6 +26,7 @@ const listScoreDirectories = (inputDir: string): ScoreDirectory[] => {
   const result: ScoreDirectory[] = [];
   for (const projectTitle of fs.readdirSync(inputDir)) {
     const projectDir = path.join(inputDir, projectTitle);
+    if (fs.statSync(projectDir).isDirectory()) {
       for (const songTitle of fs.readdirSync(projectDir)) {
         const scoreDir = path.join(projectDir, songTitle);
         if (fs.statSync(scoreDir).isDirectory()) {
