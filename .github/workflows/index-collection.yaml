@@ -38,14 +38,10 @@ jobs:
       - name: Copy current collection to temporary folder
         run: |
           cp -r public/collection /tmp/collection
-      - name: Find mscz files that changed in the PR
-        run: |
       - name: Create MuseScore generator file
         shell: sh
         run: |
-          echo ${{ github.event.pull_request.base.sha }}
-          echo ${{ github.event.after }}
-          git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.after }} | grep ".mscz" | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
+          git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.after }} | grep ".mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
       - name: Create svg, midi and metajson from mscz
         shell: sh
