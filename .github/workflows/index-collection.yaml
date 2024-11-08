@@ -42,12 +42,12 @@ jobs:
       - name: Make sure any mscz files are in folders with the same name
         run: |
           find /tmp/collection -type f -name "*.mscz" | while read file; do
-              folder=$(dirname "$file")
               filename=$(basename "$file")
-              base=$(basename "$filename" .mscz)
-              if [ "$folder" != "${folder%$filename}/$base" ]; then
-                mkdir -v "$folder/$base"
-                mv -v "$file" "$folder/$filename"
+              foldername=$(basename "$(dirname "$file")")
+              if [ "$filename" != "$foldername.mscz" ]; then
+                  base=$(basename "$file" .mscz)
+                  mkdir -v "$(dirname "$file")/$foldername"
+                  mv -v "$file" "$(dirname "$file")/$foldername/$filename"
               fi
           done
       - name: Create MuseScore generator file
