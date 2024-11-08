@@ -2,7 +2,6 @@ name: Generate collection from Google Drive
 
 on:
   workflow_dispatch:
-  # run on every pull request that changes the collection
   pull_request:
     paths:
       - "public/collection/**"
@@ -39,9 +38,12 @@ jobs:
       - name: Copy current collection to temporary folder
         run: |
           cp -r public/collection /tmp/collection
+      - name: Find mscz files that changed in the PR
+        run: |
       - name: Create MuseScore generator file
         shell: sh
         run: |
+          # git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep ".mscz" > changed-mscz-files.txt
           find /tmp/collection/ -type f -name "*.mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
       - name: Create svg, midi and metajson from mscz
@@ -52,10 +54,17 @@ jobs:
       - name: Index collection
         run: |
           npm run index-collection -- -i /tmp/collection -o public/collection
-      - name: Commit changes
+      - name: Check if collection changed
+        id: changed
         run: |
-          git config --global user.email "indexer@cadern.in"
-          git config --global user.name "cadern.in indexer"
-          git add public/collection
-          git commit -m "chore: regenerate collection (${{github.run_number}})"
-          git push origin ${{ github.ref }}
+          git diff --quiet public/collection
+          echo ::set-output name=changed::$(test $? -ne 0 && echo "true" || echo "false")
+      - uses: EndBug/add-and-commit@v9
+        if: success() && steps.generate-collection.outputs.changed == 'true'
+        with:
+          message: "chore: regenerate collection (${{github.run_number}})"
+          add: "public/collection"
+          branch: ${{ github.ref }}
+          push: true
+          author_name: "cadern.in indexer"
+          author_email: "indexer@cadern.in"
