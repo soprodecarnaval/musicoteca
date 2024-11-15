@@ -57,7 +57,7 @@ jobs:
                   NEWFOLDER="$(dirname "$FILE")/$BASE"
                   NEWFILE="$(dirname "$FILE")/$BASE/$FILENAME"
                   mkdir -v "$NEWFOLDER"
-                  mv -v "$FILE" "$NEWFILE"
+                  git mv -v "$FILE" "$NEWFILE"
                   git add "$NEWFILE"
               fi
           done
