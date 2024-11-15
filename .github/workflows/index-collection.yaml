@@ -16,9 +16,10 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Make sure the indexer is on the latest commit
+      - name: Make sure the indexer is on the latest ref of the PR branch
         run: |
           git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
+          git checkout ${{ github.event.pull_request.head.ref }}
       - name: Skip if current commit is from the indexer
         run: |
           git log -1 --pretty=format:%ae ${{ github.event.after }} | grep -q "indexer@cadern.in"
@@ -26,6 +27,7 @@ jobs:
               echo "Last commit was from the indexer, skipping"
               exit 78
           fi
+          exit 0
       - name: Get apt dependencies
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
