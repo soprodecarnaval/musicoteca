@@ -57,9 +57,7 @@ jobs:
                   NEWFOLDER="$(dirname "$FILE")/$BASE"
                   NEWFILE="$(dirname "$FILE")/$BASE/$FILENAME"
                   mkdir -v "$NEWFOLDER"
-                  mv -v "$FILE" "$NEWFILE"
-                  git rm --cached "$FILE"
-                  git add "$NEWFILE"
+                  git mv -v "$FILE" "$NEWFILE"
               fi
           done
           # don't commit if there are no changes
