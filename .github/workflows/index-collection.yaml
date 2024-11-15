@@ -75,17 +75,17 @@ jobs:
           find /tmp/collection/ -type f -name "*.svg" -a -name "*.midi" | head
       - name: Index collection
         run: |
-          npm run index-collection -- -i /tmp/collection -o public/collection
+          npm run index-collection -- -i /tmp/collection -o public/collection --verbose
           echo $pwd
           git add .
-      - uses: EndBug/add-and-commit@v9
-        with:
-          message: "chore: generate collection from mscz files (${{github.run_number}})"
-          add: "public/collection"
-          push: true
-          author_name: "cadern.in indexer"
-          author_email: "indexer@cadern.in"
+      # - uses: EndBug/add-and-commit@v9
+      #   with:
+      #     message: "chore: generate collection from mscz files (${{github.run_number}})"
+      #     add: "public/collection"
+      #     push: true
+      #     author_name: "cadern.in indexer"
+      #     author_email: "indexer@cadern.in"
       - uses: lhotari/action-upterm@v1
-        if: failure()
+        # if: failure()
         with:
           wait-timeout-minutes: 5
