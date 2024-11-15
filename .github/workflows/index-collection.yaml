@@ -20,9 +20,8 @@ jobs:
         run: |
           git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
           git checkout ${{ github.event.pull_request.head.ref }}
+          git branch --set-upstream-to=origin/${{ github.event.pull_request.head.ref }}
       - name: Skip if current commit is from the indexer
-        # set -x flag in bash to print the commands being run
-
         run: |
           LAST_EMAIL=$(git log -1 --pretty=format:%ae)
           if [ "$LAST_EMAIL" = "indexer@cadern.in" ]; then
@@ -79,7 +78,6 @@ jobs:
         with:
           message: "chore: generate collection from mscz files (${{github.run_number}})"
           add: "public/collection"
-          branch: ${{ github.event.pull_request.head.ref }}
           push: true
           author_name: "cadern.in indexer"
           author_email: "indexer@cadern.in"
