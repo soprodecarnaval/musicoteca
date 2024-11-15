@@ -58,12 +58,15 @@ jobs:
                   NEWFILE="$(dirname "$FILE")/$BASE/$FILENAME"
                   mkdir -v "$NEWFOLDER"
                   mv -v "$FILE" "$NEWFILE"
+                  git add "$NEWFILE"
               fi
           done
+          # don't commit if there are no changes
+          git diff --quiet || git commit -m "chore: move mscz files to folders with the same name (${{github.run_number}})"
       - name: Create MuseScore generator file
         shell: sh
         run: |
-          git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.before }} | grep ".mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
+          git diff --name-only ${{ github.event.pull_request.base.sha }} HEAD | grep ".mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
           head media-generation.json
       - name: Create svg, midi and metajson from mscz
         shell: sh
