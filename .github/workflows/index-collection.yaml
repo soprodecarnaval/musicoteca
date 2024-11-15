@@ -19,9 +19,9 @@ jobs:
       - name: Make sure the indexer is on the latest commit
         run: |
           git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
-      - name: Skip if last commit was from the indexer
+      - name: Skip if current commit is from the indexer
         run: |
-          git log -1 --pretty=format:%ae ${{ github.event.before }} | grep -q "indexer@cadern.in"
+          git log -1 --pretty=format:%ae ${{ github.event.after }} | grep -q "indexer@cadern.in"
           if [ $? -eq 0 ]; then
               echo "Last commit was from the indexer, skipping"
               exit 78
@@ -48,7 +48,6 @@ jobs:
       - name: Copy current collection to temporary folder
         run: |
           cp -r public/collection /tmp/collection
-
       - name: Make sure any mscz files are in folders with the same name
         run: |
           find /tmp/collection -type f -name "*.mscz" | while read file; do
