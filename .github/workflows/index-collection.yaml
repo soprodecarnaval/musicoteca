@@ -21,13 +21,16 @@ jobs:
           git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
           git checkout ${{ github.event.pull_request.head.ref }}
       - name: Skip if current commit is from the indexer
+        # set -x flag in bash to print the commands being run
+
         run: |
           git log -1 --pretty=format:%ae ${{ github.event.after }} | grep -q "indexer@cadern.in"
-          if [ $? -eq 0 ]; then
-              echo "Last commit was from the indexer, skipping"
-              exit 78
-          fi
-          exit 0
+          echo $?
+          # if [ $? -eq 0 ]; then
+          #     echo "Last commit was from the indexer, skipping"
+          #     exit 78
+          # fi
+          # exit 0
       - name: Get apt dependencies
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
