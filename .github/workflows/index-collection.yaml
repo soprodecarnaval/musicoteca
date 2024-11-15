@@ -62,6 +62,8 @@ jobs:
               fi
           done
           # don't commit if there are no changes
+          git config --global user.email "indexer@cadern.in"
+          git config --global user.name "cadern.in indexer"
           git diff --quiet || git commit -m "chore: move mscz files to folders with the same name (${{github.run_number}})"
       - name: Create MuseScore generator file
         shell: sh
