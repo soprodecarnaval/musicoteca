@@ -81,3 +81,7 @@ jobs:
           push: true
           author_name: "cadern.in indexer"
           author_email: "indexer@cadern.in"
+      - uses: lhotari/action-upterm@v1
+        if: failure()
+        with:
+          wait-timeout-minutes: 5
