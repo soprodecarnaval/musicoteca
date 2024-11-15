@@ -57,8 +57,10 @@ jobs:
               foldername=$(basename "$(dirname "$file")")
               if [ "$filename" != "$foldername.mscz" ]; then
                   base=$(basename "$file" .mscz)
-                  mkdir -v "$(dirname "$file")/$base"
-                  mv -v "$file" "$(dirname "$file")/$base/$filename"
+                  newfolder="$(dirname "$file")/$base"
+                  newfile="$(dirname "$file")/$base/$filename"
+                  mkdir -v "$newfolder"
+                  mv -v "$file" "$newfile"
               fi
           done
       - name: Create MuseScore generator file
@@ -74,6 +76,7 @@ jobs:
       - name: Index collection
         run: |
           npm run index-collection -- -i /tmp/collection -o public/collection
+          git add .
       - uses: EndBug/add-and-commit@v9
         with:
           message: "chore: generate collection from mscz files (${{github.run_number}})"
