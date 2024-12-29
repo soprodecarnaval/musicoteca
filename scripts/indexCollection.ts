@@ -97,6 +97,10 @@ const scrapeMediaAsset = (
   return ok(undefined);
 };
 
+const normalizeSongTitle = (songTitle: string): string => {
+  return songTitle.replace(/_/g, " ");
+};
+
 const indexScore = (
   scoreDirectory: ScoreDirectory,
   previousCollection?: Collection
@@ -104,7 +108,7 @@ const indexScore = (
   console.debug(`[indexScore] read ${scoreDirectory.absPath}`);
   let draft: any = {
     id: path.join(scoreDirectory.projectTitle, scoreDirectory.songTitle),
-    title: scoreDirectory.songTitle,
+    title: normalizeSongTitle(scoreDirectory.songTitle),
     parts: [],
     tags: [],
     projectTitle: scoreDirectory.projectTitle,
