@@ -60,25 +60,16 @@ jobs:
                   git mv -v "$FILE" "$NEWFILE"
               fi
           done
-          # don't commit if there are no changes
           git config --global user.email "indexer@cadern.in"
           git config --global user.name "cadern.in indexer"
           git diff --staged --quiet || git commit -m "chore: move mscz files to folders with the same name (${{github.run_number}})"
-      - name: Create MuseScore generator file
+      - name: Generate svg, midi and metajson assets from mscz
         shell: sh
         run: |
-          git diff --name-only ${{ github.event.pull_request.base.sha }} HEAD | grep ".mscz" | jq -R -s 'split("\n") | map(select(.!="") | sub(".mscz";"") | {"in":"\(.).mscz", "out": [[ "\(.)_",".svg"],[ "\(.)_",".midi"],"\(.).midi","\(.).metajson"]})' > media-generation.json
-          head media-generation.json
-      - name: Create svg, midi and metajson from mscz
-        shell: sh
-        run: |
-          xvfb-run squashfs-root/AppRun -j media-generation.json
-          find /tmp/collection/ -type f -name "*.svg" -a -name "*.midi" | head
-      - name: Copy current collection to temporary folder
-        run: |
-          cp -r public/collection /tmp/collection
+          ./generateMsczAssets.sh ${{ github.event.pull_request.base.sha }} "xvfb-run squashfs-root/AppRun"
       - name: Index collection
         run: |
+          cp -r public/collection /tmp/collection
           npm run index-collection -- -i /tmp/collection -o public/collection --verbose
           git add -v public/collection
       - uses: EndBug/add-and-commit@v9
