@@ -61,13 +61,25 @@ const scrapeMediaAsset = (
   songDirectory: ScoreDirectory,
   entry: string,
   ext: string
-) => {
+): Result<void> => {
   const instrument = parseInstrumentInEntry(songDirectory, entry, ext);
   const entryPath = path.join(songDirectory.absPath, entry);
   const field = ext.replace(".", "");
   if (instrument) {
-    // part asset
-    const name = path.basename(entry, ext);
+    let name = path.basename(entry, ext);
+    // svg assets might have a page number suffix, we should remove it from the name, and only keep the first page
+    if (ext === ".svg" && name.match(/-\d+$/)) {
+      if (name.match(/-1$/)) {
+        name = name.replace(/-\d+$/, "");
+      } else {
+        return err(
+          warning(`Found a non-first page svg asset, ignoring it`, {
+            name,
+            entryPath,
+          })
+        );
+      }
+    }
     const partIdx = draft.parts.findIndex((p: any) => p.name === name);
     if (partIdx === -1) {
       draft.parts.push({
@@ -82,13 +94,14 @@ const scrapeMediaAsset = (
     // regular asset
     draft[field] = entryPath;
   }
+  return ok(undefined);
 };
 
 const indexScore = (
   scoreDirectory: ScoreDirectory,
   previousCollection?: Collection
 ): Result<Score> => {
-  console.debug(`[scrapeSongDirectory] read ${scoreDirectory.absPath}`);
+  console.debug(`[indexScore] read ${scoreDirectory.absPath}`);
   let draft: any = {
     id: path.join(scoreDirectory.projectTitle, scoreDirectory.songTitle),
     title: scoreDirectory.songTitle,
@@ -97,12 +110,16 @@ const indexScore = (
     projectTitle: scoreDirectory.projectTitle,
   };
 
+  const scrapeAssetErrors = [];
   for (const entry of fs.readdirSync(scoreDirectory.absPath)) {
     const ext = path.extname(entry);
     if (ext === ".metajson") {
       draft = { ...draft, ...scrapeMetaJson(scoreDirectory, entry) };
     } else if (ext === ".midi" || ext === ".svg" || ext === ".mscz") {
-      scrapeMediaAsset(draft, scoreDirectory, entry, ext);
+      const result = scrapeMediaAsset(draft, scoreDirectory, entry, ext);
+      if (!result.ok) {
+        scrapeAssetErrors.push(...result.warnings);
+      }
     }
   }
 
@@ -122,9 +139,8 @@ const indexScore = (
   // parse using strict schema and add warnings
   const result = zScore.safeParse(draft);
   if (result.success) {
-    return ok(result.data);
+    return ok(result.data, scrapeAssetErrors);
   }
-  console.log(result.error.errors);
   return err(
     warning("Invalid song", {
       errors: result.error.errors,
@@ -154,15 +170,14 @@ const indexProjects = (
       } else {
         projects[projectIdx].scores.push(score);
       }
-    } else {
-      warnings.push(...songResult.warnings);
     }
+    warnings.push(...songResult.warnings);
   }
   return ok(projects, warnings);
 };
 
 function readJsonFile(absPath: string): Result<any> {
-  console.debug(`[readJsonAsset] reading ${absPath}`);
+  console.debug(`[readJsonFile] reading ${absPath}`);
   if (!fs.existsSync(absPath)) {
     return err(warning(`No json file found`, { absPath }));
   }
@@ -197,12 +212,14 @@ function scrapeMetaJson(
   // some mscz files have lyrics in the previousSource field,
   // we will just use it if there's no lyrics field
   const { composer, previousSource, lyrics, tags } = readMetaJsonResult.value;
-  return {
+  const metadata = {
     composer,
     sub: lyrics ? lyrics : previousSource,
     metajson,
+    // FIXME: tags are not being exported by musescore
     tags: tags?.split(",").map((t: string) => t.trim()) ?? [],
   };
+  return metadata;
 }
 
 // copies the asset from the inputPath to the outputPath

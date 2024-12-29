@@ -32,8 +32,8 @@ const instrumentAliases: [string, Instrument][] = [
   ["trombone sem pirata", "trombone"],
   ["trombone pirata", "trombone pirata"],
   ["trombone", "trombone"],
-  ["bone sem pirata", "trombone"],
   ["bone com pirata", "trombone pirata"],
+  ["bone sem pirata", "trombone"],
   ["bone pirata", "trombone pirata"],
   ["bone", "trombone"],
   // trompete
@@ -55,11 +55,11 @@ const instrumentAliases: [string, Instrument][] = [
 // We will sort them by number of parts descending, so we're sure that
 // names with more parts will be matched before their subsets (e.g: 'trompete pirata' < 'trompete')
 instrumentAliases.sort(
-  (a, b) => a[0].split(" ").length - b[0].split(" ").length
+  (a, b) => b[0].split(" ").length - a[0].split(" ").length
 );
 
 export const parseInstrument = (raw: string): Instrument | undefined => {
-  const normalized = raw.replace(/[_\-.]/g, " ");
+  const normalized = raw.replace(/[_\-.]/g, " ").toLowerCase();
   const match = instrumentAliases.find(([alias]) => normalized.includes(alias));
   return match ? match[1] : undefined;
 };
