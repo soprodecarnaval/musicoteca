@@ -49,14 +49,14 @@ jobs:
           npm ci
       - name: Make sure any mscz files are in folders with the same name
         run: |
-          ./wrapMsczInFolder.sh "public/collection"
+          bash scripts/wrapMsczInFolder.sh "public/collection"
           git config --global user.email "indexer@cadern.in"
           git config --global user.name "cadern.in indexer"
           git diff --staged --quiet || git commit -m "chore: move mscz files to folders with the same name (${{github.run_number}})"
       - name: Generate svg, midi and metajson assets from mscz
         shell: sh
         run: |
-          ./generateMsczAssets.sh ${{ github.event.pull_request.base.sha }} "xvfb-run squashfs-root/AppRun"
+          bash scripts/generateMsczAssets.sh ${{ github.event.pull_request.base.sha }} "xvfb-run squashfs-root/AppRun"
       - name: Index collection
         run: |
           cp -r public/collection /tmp/collection
