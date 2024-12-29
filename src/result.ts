@@ -17,7 +17,9 @@ export type Err = {
 export type Result<T> = Ok<T> | Err;
 
 export function warning(message: string, meta: any = {}): Warning {
-  console.warn(message, meta);
+  console.warn("⚠️⚠️⚠️⚠️⚠️⚠️  WARNING  ⚠️⚠️⚠️⚠️⚠️⚠️");
+  console.warn(message);
+  console.warn(meta);
   return { message, meta };
 }
 
