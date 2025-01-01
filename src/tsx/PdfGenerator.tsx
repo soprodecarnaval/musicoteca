@@ -31,8 +31,6 @@ const instruments: Instrument[] = [
   "tuba",
   "bombardino",
   "clarinete",
-  "trombone pirata",
-  "trompete pirata",
 ];
 
 interface PdfGeneratorProps {
