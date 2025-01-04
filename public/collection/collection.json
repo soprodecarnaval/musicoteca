@@ -16498,7 +16498,7 @@
         {
           "id": "carnaval bh 2025/QUEIMA_LARGADA",
           "title": "QUEIMA LARGADA",
-          "composer": "Gabriel Fonseca",
+          "composer": "",
           "sub": "",
           "mscz": "carnaval bh 2025/QUEIMA_LARGADA/QUEIMA_LARGADA.mscz",
           "metajson": "carnaval bh 2025/QUEIMA_LARGADA/QUEIMA_LARGADA.metajson",
@@ -21973,6 +21973,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-04T21:32:54.113Z",
+  "scrapedAt": "2025-01-04T21:38:10.177Z",
   "version": 2
 }
