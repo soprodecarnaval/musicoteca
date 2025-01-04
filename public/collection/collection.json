@@ -16170,6 +16170,54 @@
       ]
     },
     {
+      "title": "carnaval bh 2025",
+      "scores": [
+        {
+          "id": "carnaval bh 2025/queima largada",
+          "title": "queima largada",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/queima largada/queima largada.mscz",
+          "metajson": "carnaval bh 2025/queima largada/queima largada.metajson",
+          "midi": "carnaval bh 2025/queima largada/queima largada.midi",
+          "parts": [
+            {
+              "name": "queima largada_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/queima largada/queima largada_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/queima largada/queima largada_BONE_PIRATA.midi"
+            },
+            {
+              "name": "queima largada_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/queima largada/queima largada_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/queima largada/queima largada_FLAUTA.midi"
+            },
+            {
+              "name": "queima largada_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/queima largada/queima largada_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/queima largada/queima largada_PETE_PIRATA.midi"
+            },
+            {
+              "name": "queima largada_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/queima largada/queima largada_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/queima largada/queima largada_SAX_ALTO.midi"
+            },
+            {
+              "name": "queima largada_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/queima largada/queima largada_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/queima largada/queima largada_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [],
+          "projectTitle": "carnaval bh 2025"
+        }
+      ]
+    },
+    {
       "title": "festa junina 2024",
       "scores": [
         {
@@ -21592,6 +21640,6 @@
       ]
     }
   ],
-  "scrapedAt": "2024-12-29T22:45:51.688Z",
+  "scrapedAt": "2025-01-04T02:01:24.490Z",
   "version": 2
 }
