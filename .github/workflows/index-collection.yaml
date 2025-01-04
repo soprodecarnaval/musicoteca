@@ -56,7 +56,7 @@ jobs:
       - name: Generate svg, midi and metajson assets from mscz
         shell: sh
         run: |
-          bash scripts/generateMsczAssets.sh ${{ github.event.pull_request.base.sha }} "xvfb-run squashfs-root/AppRun"
+          bash scripts/generateMsczAssets.sh main "xvfb-run squashfs-root/AppRun"
       - name: Index collection
         run: |
           cp -r public/collection /tmp/collection
