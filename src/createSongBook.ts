@@ -193,40 +193,26 @@ const addSongPage = async (
 ) => {
   if (backSheetPageNumber) {
     doc.addPage();
-    drawImage(doc, "assets/patrocinio_verso.png", 2 * page + 9);
-    let fontSize = 9 * cm2pt;
-    let titleSpacing = 6 * cm2pt;
-    let numberSpacing = 0;
-    if (page >= 100) {
-      fontSize = 5 * cm2pt;
-      titleSpacing = 6 * cm2pt;
-      numberSpacing = 2 * cm2pt;
-    } else if (page >= 10) {
-      fontSize = 8 * cm2pt;
-      titleSpacing = 6 * cm2pt;
-      numberSpacing = 1 * cm2pt;
-    }
+
+    const fontSize = 9 * cm2pt;
+    const titleSpacing = 6 * cm2pt;
+    const numberSpacing = 0;
     doc
       .font("Roboto-Bold")
       .fontSize(fontSize)
-      .text(page, 7.5 * cm2pt, 1.14 * cm2pt + numberSpacing, {
+      .text(page, 1 * cm2pt, 0.5 * cm2pt + numberSpacing, {
         align: "center",
-        width: 10.5 * cm2pt,
+        width: 16 * cm2pt,
         height: fontSize,
       }); // Número do verso
     doc
       .font("Roboto-Medium")
       .fontSize(1 * cm2pt)
-      .text(
-        song.title.toUpperCase(),
-        8.2 * cm2pt,
-        3.14 * cm2pt + titleSpacing,
-        {
-          align: "center",
-          width: 9.5 * cm2pt,
-          height: 9 * cm2pt,
-        }
-      ); // Título do verso
+      .text(song.title.toUpperCase(), 1 * cm2pt, 4 * cm2pt + titleSpacing, {
+        align: "center",
+        width: 16 * cm2pt,
+        height: 9 * cm2pt,
+      }); // Título do verso
   }
   doc.addPage();
   sectionTitleOutlines.get(sectionTitle).addItem(song.title.toUpperCase());

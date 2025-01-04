@@ -213,15 +213,18 @@ function scrapeMetaJson(
     return {};
   }
 
-  // some mscz files have lyrics in the previousSource field,
-  // we will just use it if there's no lyrics field
-  const { composer, previousSource, lyrics, tags } = readMetaJsonResult.value;
+  // Musescore V3 exports some score properties to the metajson.
+  // In parenthesis are the names of the properties in the metajson:
+  // - composer (composer)
+  // - source (previousSource)
+  // - lyricist (poet)
+  // The block below repurposes these fields to store other types of metadata
+  const { composer, previousSource, poet } = readMetaJsonResult.value;
   const metadata = {
     composer,
-    sub: lyrics ? lyrics : previousSource,
+    sub: previousSource,
     metajson,
-    // FIXME: tags are not being exported by musescore
-    tags: tags?.split(",").map((t: string) => t.trim()) ?? [],
+    tags: poet?.split(",").map((t: string) => t.trim()) ?? [],
   };
   return metadata;
 }
