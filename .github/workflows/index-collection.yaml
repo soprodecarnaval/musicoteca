@@ -19,6 +19,7 @@ jobs:
       - name: Make sure the indexer is on the latest ref of the PR branch
         run: |
           git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
+          git fetch origin main:main
           git checkout ${{ github.event.pull_request.head.ref }}
           git branch --set-upstream-to=origin/${{ github.event.pull_request.head.ref }}
       - name: Skip if current commit is from the indexer
