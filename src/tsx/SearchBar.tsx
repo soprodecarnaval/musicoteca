@@ -81,6 +81,9 @@ const SearchBar = ({ handleResults }: SearchBarProps) => {
           />
         </Form>
       </Col>
+      <small>
+        Para busca exata, use aspas e chapéuzinho (ex: "^carnaval bh 2024")
+      </small>
     </Row>
   );
 };
