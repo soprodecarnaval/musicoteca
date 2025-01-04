@@ -1,0 +1,50 @@
+[
+  {
+    "message": "Invalid song",
+    "meta": {
+      "errors": [
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "composer"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "sub"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "metajson"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "midi"
+          ],
+          "message": "Required"
+        }
+      ],
+      "songDirectory": {
+        "absPath": "/tmp/collection/carnaval bh 2025/ALALA_Ô_ZE_PEREIRA",
+        "songTitle": "ALALA_Ô_ZE_PEREIRA",
+        "projectTitle": "carnaval bh 2025"
+      }
+    }
+  }
+]
