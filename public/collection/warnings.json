@@ -1,50 +1,9 @@
 [
   {
-    "message": "Invalid song",
+    "message": "Found a non-first page svg asset, ignoring it",
     "meta": {
-      "errors": [
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "composer"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "sub"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "metajson"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "midi"
-          ],
-          "message": "Required"
-        }
-      ],
-      "songDirectory": {
-        "absPath": "/tmp/collection/carnaval bh 2025/SÓ_LOVE",
-        "songTitle": "SÓ_LOVE",
-        "projectTitle": "carnaval bh 2025"
-      }
+      "name": "É_TARDE_DEMAIS_PETE_PIRATA-2",
+      "entryPath": "/tmp/collection/carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_PETE_PIRATA-2.svg"
     }
   }
 ]
