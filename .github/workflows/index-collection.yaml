@@ -16,8 +16,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Make sure the indexer is on the latest ref of the PR branch
+      - name: Make sure all git refs and configs are there
         run: |
+          git config core.quotePath false
           git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
           git fetch origin main:main
           git checkout ${{ github.event.pull_request.head.ref }}
