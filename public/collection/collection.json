@@ -16271,6 +16271,141 @@
       "title": "carnaval bh 2025",
       "scores": [
         {
+          "id": "carnaval bh 2025/ABRE_ALAS",
+          "title": "ABRE ALAS",
+          "composer": "Chiquinha Gonzaga",
+          "sub": "Ô ABRE ALAS! QUE EU QUERO PASSAR",
+          "mscz": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS.mscz",
+          "metajson": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS.metajson",
+          "midi": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS.midi",
+          "parts": [
+            {
+              "name": "ABRE_ALAS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_BONE-1.svg",
+              "midi": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_BONE.midi"
+            },
+            {
+              "name": "ABRE_ALAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_FLAUTA.midi"
+            },
+            {
+              "name": "ABRE_ALAS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_PETE-1.svg",
+              "midi": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_PETE.midi"
+            },
+            {
+              "name": "ABRE_ALAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "ABRE_ALAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ABRE_ALAS/ABRE_ALAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/AGORA_VAI_SENTAR",
+          "title": "AGORA VAI SENTAR",
+          "composer": "Mc Jhowzinho e Mc Kadinho",
+          "sub": "AGORA VAI SENTAR, VAI SENTAR, VAI SENTAR",
+          "mscz": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR.mscz",
+          "metajson": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR.metajson",
+          "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR.midi",
+          "parts": [
+            {
+              "name": "AGORA_VAI_SENTAR_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_BONE_PIRATA.midi"
+            },
+            {
+              "name": "AGORA_VAI_SENTAR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_FLAUTA.midi"
+            },
+            {
+              "name": "AGORA_VAI_SENTAR_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_PETE_PIRATA.midi"
+            },
+            {
+              "name": "AGORA_VAI_SENTAR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_SAX_ALTO.midi"
+            },
+            {
+              "name": "AGORA_VAI_SENTAR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR",
+          "title": "AGUA DE CHUVA DO MAR",
+          "composer": "Beth Carvalho",
+          "sub": "O MEU CORAÇÃO, HOJE TEM PAZ. DECEPÇÃO, FICOU PRA TRÁS ",
+          "mscz": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR.mscz",
+          "metajson": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR.metajson",
+          "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR.midi",
+          "parts": [
+            {
+              "name": "AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA.midi"
+            },
+            {
+              "name": "AGUA_DE_CHUVA_DO_MAR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_FLAUTA.midi"
+            },
+            {
+              "name": "AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA.midi"
+            },
+            {
+              "name": "AGUA_DE_CHUVA_DO_MAR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_ALTO.midi"
+            },
+            {
+              "name": "AGUA_DE_CHUVA_DO_MAR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA",
           "title": "ALALA Ô ZE PEREIRA",
           "composer": "Nássara e Haroldo Lobo",
@@ -16316,6 +16451,186 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/ALCOVA_LIBERATINA",
+          "title": "ALCOVA LIBERATINA",
+          "composer": "Rafael Ludicanti\ne Bloco da Alcova",
+          "sub": "MAS NO CARNAVAL, A ALCOVA LIBERTINA VAI TRAZER O VENDAVAL",
+          "mscz": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA.mscz",
+          "metajson": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA.metajson",
+          "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA.midi",
+          "parts": [
+            {
+              "name": "ALCOVA_LIBERATINA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_BONE-1.svg",
+              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_BONE.midi"
+            },
+            {
+              "name": "ALCOVA_LIBERATINA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_FLAUTA.midi"
+            },
+            {
+              "name": "ALCOVA_LIBERATINA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_PETE-1.svg",
+              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_PETE.midi"
+            },
+            {
+              "name": "ALCOVA_LIBERATINA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_ALTO.midi"
+            },
+            {
+              "name": "ALCOVA_LIBERATINA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Forma: ABACBACBDE"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/ANDO_MEIO_DESLIGADO",
+          "title": "ANDO MEIO DESLIGADO",
+          "composer": "OS MUTANTES",
+          "sub": "ANDO MEIO DESLIGADO. EU NEM SINTO MEUS PÉS NO CHÃO",
+          "mscz": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO.mscz",
+          "metajson": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO.metajson",
+          "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO.midi",
+          "parts": [
+            {
+              "name": "ANDO_MEIO_DESLIGADO_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ANDO_MEIO_DESLIGADO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_FLAUTA.midi"
+            },
+            {
+              "name": "ANDO_MEIO_DESLIGADO_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ANDO_MEIO_DESLIGADO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_SAX_ALTO.midi"
+            },
+            {
+              "name": "ANDO_MEIO_DESLIGADO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS",
+          "title": "ARAKETU É BOM DEMAIS",
+          "composer": "Araketu",
+          "sub": "NÃO DÁ PRA ESCONDER, O QUE EU SINTO POR VOCÊ, ARA",
+          "mscz": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS.mscz",
+          "metajson": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS.metajson",
+          "midi": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS.midi",
+          "parts": [
+            {
+              "name": "ARAKETU_É_BOM_DEMAIS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_BONE-1.svg",
+              "midi": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_BONE.midi"
+            },
+            {
+              "name": "ARAKETU_É_BOM_DEMAIS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_FLAUTA.midi"
+            },
+            {
+              "name": "ARAKETU_É_BOM_DEMAIS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_PETE-1.svg",
+              "midi": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_PETE.midi"
+            },
+            {
+              "name": "ARAKETU_É_BOM_DEMAIS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_SAX_ALTO.midi"
+            },
+            {
+              "name": "ARAKETU_É_BOM_DEMAIS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ARAKETU_É_BOM_DEMAIS/ARAKETU_É_BOM_DEMAIS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/ARERÊ_Ê_Ê",
+          "title": "ARERÊ Ê Ê",
+          "composer": "Ivete Sangalo",
+          "sub": "O QUE MAIS QUERO NESSA VIDA, TODA VIDA, É AMAR VOCÊ",
+          "mscz": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê.mscz",
+          "metajson": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê.metajson",
+          "midi": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê.midi",
+          "parts": [
+            {
+              "name": "ARERÊ_Ê_Ê_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_BONE-1.svg",
+              "midi": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_BONE.midi"
+            },
+            {
+              "name": "ARERÊ_Ê_Ê_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_FLAUTA.midi"
+            },
+            {
+              "name": "ARERÊ_Ê_Ê_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_PETE-1.svg",
+              "midi": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_PETE.midi"
+            },
+            {
+              "name": "ARERÊ_Ê_Ê_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_SAX_ALTO.midi"
+            },
+            {
+              "name": "ARERÊ_Ê_Ê_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/AZUL",
           "title": "AZUL",
           "composer": "Gal Costa",
@@ -16353,6 +16668,231 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2025/AZUL/AZUL_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2025/AZUL/AZUL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE",
+          "title": "A BANDA TÁ COM SEDE",
+          "composer": "Thiago França (música incedental: Marcha do Caneco)",
+          "sub": "",
+          "mscz": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE.mscz",
+          "metajson": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE.metajson",
+          "midi": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE.midi",
+          "parts": [
+            {
+              "name": "A_BANDA_TÁ_COM_SEDE_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_BONE-1.svg",
+              "midi": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_BONE.midi"
+            },
+            {
+              "name": "A_BANDA_TÁ_COM_SEDE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_FLAUTA.midi"
+            },
+            {
+              "name": "A_BANDA_TÁ_COM_SEDE_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_PETE-1.svg",
+              "midi": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_PETE.midi"
+            },
+            {
+              "name": "A_BANDA_TÁ_COM_SEDE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_SAX_ALTO.midi"
+            },
+            {
+              "name": "A_BANDA_TÁ_COM_SEDE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/A_LUZ_DE_TIÊTA",
+          "title": "A LUZ DE TIÊTA",
+          "composer": "Caetano Veloso",
+          "sub": "TODO DIA É O MESMO DIA A VIDA É TÃO TACANHA NADA NOVO SOB O SOL",
+          "mscz": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA.mscz",
+          "metajson": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA.metajson",
+          "midi": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA.midi",
+          "parts": [
+            {
+              "name": "A_LUZ_DE_TIÊTA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_BONE-1.svg",
+              "midi": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_BONE.midi"
+            },
+            {
+              "name": "A_LUZ_DE_TIÊTA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_FLAUTA.midi"
+            },
+            {
+              "name": "A_LUZ_DE_TIÊTA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_PETE-1.svg",
+              "midi": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_PETE.midi"
+            },
+            {
+              "name": "A_LUZ_DE_TIÊTA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_SAX_ALTO.midi"
+            },
+            {
+              "name": "A_LUZ_DE_TIÊTA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/A_SORRIR",
+          "title": "A SORRIR",
+          "composer": "Cartola",
+          "sub": "A SORRIR EU PRETENDO LEVAR A VIDA",
+          "mscz": "carnaval bh 2025/A_SORRIR/A_SORRIR.mscz",
+          "metajson": "carnaval bh 2025/A_SORRIR/A_SORRIR.metajson",
+          "midi": "carnaval bh 2025/A_SORRIR/A_SORRIR.midi",
+          "parts": [
+            {
+              "name": "A_SORRIR_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/A_SORRIR/A_SORRIR_BONE-1.svg",
+              "midi": "carnaval bh 2025/A_SORRIR/A_SORRIR_BONE.midi"
+            },
+            {
+              "name": "A_SORRIR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/A_SORRIR/A_SORRIR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/A_SORRIR/A_SORRIR_FLAUTA.midi"
+            },
+            {
+              "name": "A_SORRIR_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/A_SORRIR/A_SORRIR_PETE-1.svg",
+              "midi": "carnaval bh 2025/A_SORRIR/A_SORRIR_PETE.midi"
+            },
+            {
+              "name": "A_SORRIR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/A_SORRIR/A_SORRIR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/A_SORRIR/A_SORRIR_SAX_ALTO.midi"
+            },
+            {
+              "name": "A_SORRIR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/A_SORRIR/A_SORRIR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/A_SORRIR/A_SORRIR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/BAIANIDADE_NAGÔ",
+          "title": "BAIANIDADE NAGÔ",
+          "composer": "Evandro Rodrigues",
+          "sub": "ÊO ÊO, LAIÁ. ÊO ÊO, LAIÁ. JÁ PINTOU O VERÃO, CALOR NO CORAÇÃO",
+          "mscz": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ.mscz",
+          "metajson": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ.metajson",
+          "midi": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ.midi",
+          "parts": [
+            {
+              "name": "BAIANIDADE_NAGÔ_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_BONE-1.svg",
+              "midi": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_BONE.midi"
+            },
+            {
+              "name": "BAIANIDADE_NAGÔ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_FLAUTA.midi"
+            },
+            {
+              "name": "BAIANIDADE_NAGÔ_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_PETE-1.svg",
+              "midi": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_PETE.midi"
+            },
+            {
+              "name": "BAIANIDADE_NAGÔ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_SAX_ALTO.midi"
+            },
+            {
+              "name": "BAIANIDADE_NAGÔ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/BALANCÊ",
+          "title": "BALANCÊ",
+          "composer": "João de Barro e Alberto Ribeiro",
+          "sub": "Ô BALANCÊ, BALANCÊ. QUERO DANÇAR COM VOCÊ",
+          "mscz": "carnaval bh 2025/BALANCÊ/BALANCÊ.mscz",
+          "metajson": "carnaval bh 2025/BALANCÊ/BALANCÊ.metajson",
+          "midi": "carnaval bh 2025/BALANCÊ/BALANCÊ.midi",
+          "parts": [
+            {
+              "name": "BALANCÊ_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/BALANCÊ/BALANCÊ_BONE-1.svg",
+              "midi": "carnaval bh 2025/BALANCÊ/BALANCÊ_BONE.midi"
+            },
+            {
+              "name": "BALANCÊ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/BALANCÊ/BALANCÊ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/BALANCÊ/BALANCÊ_FLAUTA.midi"
+            },
+            {
+              "name": "BALANCÊ_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/BALANCÊ/BALANCÊ_PETE-1.svg",
+              "midi": "carnaval bh 2025/BALANCÊ/BALANCÊ_PETE.midi"
+            },
+            {
+              "name": "BALANCÊ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/BALANCÊ/BALANCÊ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/BALANCÊ/BALANCÊ_SAX_ALTO.midi"
+            },
+            {
+              "name": "BALANCÊ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/BALANCÊ/BALANCÊ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/BALANCÊ/BALANCÊ_SAX_TENOR.midi"
             }
           ],
           "tags": [
@@ -16451,6 +16991,186 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/BELEZA_RARA",
+          "title": "BELEZA RARA",
+          "composer": "Banda Eva",
+          "sub": "EU NÃO POSSO DEIXAR QUE O TEMPO TE LEVE JAMAIS PARA LONGE DE MIM",
+          "mscz": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA.mscz",
+          "metajson": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA.metajson",
+          "midi": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA.midi",
+          "parts": [
+            {
+              "name": "BELEZA_RARA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_BONE-1.svg",
+              "midi": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_BONE.midi"
+            },
+            {
+              "name": "BELEZA_RARA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_FLAUTA.midi"
+            },
+            {
+              "name": "BELEZA_RARA_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "BELEZA_RARA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_SAX_ALTO.midi"
+            },
+            {
+              "name": "BELEZA_RARA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/BESAME_MUCHO",
+          "title": "BESAME MUCHO",
+          "composer": "Consuelito Velázquez",
+          "sub": "BÉSAME. BÉSAME MUCHO. COMO SI FUERA ESTA NOCHE LA ÚLTIMA VEZ",
+          "mscz": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO.mscz",
+          "metajson": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO.metajson",
+          "midi": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO.midi",
+          "parts": [
+            {
+              "name": "BESAME_MUCHO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_BONE-1.svg",
+              "midi": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_BONE.midi"
+            },
+            {
+              "name": "BESAME_MUCHO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_FLAUTA.midi"
+            },
+            {
+              "name": "BESAME_MUCHO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_PETE-1.svg",
+              "midi": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_PETE.midi"
+            },
+            {
+              "name": "BESAME_MUCHO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_SAX_ALTO.midi"
+            },
+            {
+              "name": "BESAME_MUCHO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/BESAME_MUCHO/BESAME_MUCHO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/BLOCO_DO_PEIXOTO",
+          "title": "BLOCO DO PEIXOTO",
+          "composer": "Bloco do Peixoto",
+          "sub": "SOLTE SEU SORRISO MAROTO, ESTÁ CHEGANDO O BLOCO DO PEIXOTO",
+          "mscz": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO.mscz",
+          "metajson": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO.metajson",
+          "midi": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO.midi",
+          "parts": [
+            {
+              "name": "BLOCO_DO_PEIXOTO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_BONE-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_BONE.midi"
+            },
+            {
+              "name": "BLOCO_DO_PEIXOTO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_FLAUTA.midi"
+            },
+            {
+              "name": "BLOCO_DO_PEIXOTO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_PETE-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_PETE.midi"
+            },
+            {
+              "name": "BLOCO_DO_PEIXOTO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_SAX_ALTO.midi"
+            },
+            {
+              "name": "BLOCO_DO_PEIXOTO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_DO_PEIXOTO/BLOCO_DO_PEIXOTO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/BLOCO_NA_RUA",
+          "title": "BLOCO NA RUA",
+          "composer": "Sérgio Sampaio",
+          "sub": "EU QUERO É BOTAR MEU BLOCO NA RUA, BRINCAR, BOTAR PRA GEMER",
+          "mscz": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA.mscz",
+          "metajson": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA.metajson",
+          "midi": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA.midi",
+          "parts": [
+            {
+              "name": "BLOCO_NA_RUA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_BONE-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_BONE.midi"
+            },
+            {
+              "name": "BLOCO_NA_RUA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_FLAUTA.midi"
+            },
+            {
+              "name": "BLOCO_NA_RUA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_PETE-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_PETE.midi"
+            },
+            {
+              "name": "BLOCO_NA_RUA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_SAX_ALTO.midi"
+            },
+            {
+              "name": "BLOCO_NA_RUA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/BLOCO_NA_RUA/BLOCO_NA_RUA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/CABELEIRA_DA_ED_MARTE",
           "title": "CABELEIRA DA ED MARTE",
           "composer": "João Roberto Kelly\ne Roberto Faissal",
@@ -16492,6 +17212,417 @@
           ],
           "tags": [
             "Marchinha"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CABELO_DE_FOGO",
+          "title": "CABELO DE FOGO",
+          "composer": "Maestro Nunes",
+          "sub": "PÁ-PÁ-PÁ-PÁ PÁ PÁ-PÁ-PÁ-PÁ PÁ PÁ-RÁ-RI-RÁ",
+          "mscz": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO.mscz",
+          "metajson": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO.metajson",
+          "midi": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO.midi",
+          "parts": [
+            {
+              "name": "CABELO_DE_FOGO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_BONE-1.svg",
+              "midi": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_BONE.midi"
+            },
+            {
+              "name": "CABELO_DE_FOGO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_FLAUTA.midi"
+            },
+            {
+              "name": "CABELO_DE_FOGO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_PETE-1.svg",
+              "midi": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_PETE.midi"
+            },
+            {
+              "name": "CABELO_DE_FOGO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_SAX_ALTO.midi"
+            },
+            {
+              "name": "CABELO_DE_FOGO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CABELO_DE_FOGO/CABELO_DE_FOGO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CACHAÇA",
+          "title": "CACHAÇA",
+          "composer": "Carmen Costa e Mirabeu Pinheiro",
+          "sub": "VOCÊ PENSA QUE CACHAÇA É ÁGUA?",
+          "mscz": "carnaval bh 2025/CACHAÇA/CACHAÇA.mscz",
+          "metajson": "carnaval bh 2025/CACHAÇA/CACHAÇA.metajson",
+          "midi": "carnaval bh 2025/CACHAÇA/CACHAÇA.midi",
+          "parts": [
+            {
+              "name": "CACHAÇA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CACHAÇA/CACHAÇA_BONE-1.svg",
+              "midi": "carnaval bh 2025/CACHAÇA/CACHAÇA_BONE.midi"
+            },
+            {
+              "name": "CACHAÇA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CACHAÇA/CACHAÇA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CACHAÇA/CACHAÇA_FLAUTA.midi"
+            },
+            {
+              "name": "CACHAÇA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CACHAÇA/CACHAÇA_PETE-1.svg",
+              "midi": "carnaval bh 2025/CACHAÇA/CACHAÇA_PETE.midi"
+            },
+            {
+              "name": "CACHAÇA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CACHAÇA/CACHAÇA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CACHAÇA/CACHAÇA_SAX_ALTO.midi"
+            },
+            {
+              "name": "CACHAÇA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CACHAÇA/CACHAÇA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CACHAÇA/CACHAÇA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CARINHOSO",
+          "title": "CARINHOSO",
+          "composer": "Pixinguinha",
+          "sub": "MEU CORAÇÃO, NÃO SEI POR QUÊ, BATE FELIZ QUANDO TE VÊ!",
+          "mscz": "carnaval bh 2025/CARINHOSO/CARINHOSO.mscz",
+          "metajson": "carnaval bh 2025/CARINHOSO/CARINHOSO.metajson",
+          "midi": "carnaval bh 2025/CARINHOSO/CARINHOSO.midi",
+          "parts": [
+            {
+              "name": "CARINHOSO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CARINHOSO/CARINHOSO_BONE-1.svg",
+              "midi": "carnaval bh 2025/CARINHOSO/CARINHOSO_BONE.midi"
+            },
+            {
+              "name": "CARINHOSO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CARINHOSO/CARINHOSO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CARINHOSO/CARINHOSO_FLAUTA.midi"
+            },
+            {
+              "name": "CARINHOSO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CARINHOSO/CARINHOSO_PETE-1.svg",
+              "midi": "carnaval bh 2025/CARINHOSO/CARINHOSO_PETE.midi"
+            },
+            {
+              "name": "CARINHOSO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CARINHOSO/CARINHOSO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CARINHOSO/CARINHOSO_SAX_ALTO.midi"
+            },
+            {
+              "name": "CARINHOSO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CARINHOSO/CARINHOSO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CARINHOSO/CARINHOSO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CARIÑITO",
+          "title": "CARIÑITO",
+          "composer": "Ángel Aníbal Rosado",
+          "sub": "LLORO POR QUERERTE. POR AMARTE Y POR DESEARTE",
+          "mscz": "carnaval bh 2025/CARIÑITO/CARIÑITO.mscz",
+          "metajson": "carnaval bh 2025/CARIÑITO/CARIÑITO.metajson",
+          "midi": "carnaval bh 2025/CARIÑITO/CARIÑITO.midi",
+          "parts": [
+            {
+              "name": "CARIÑITO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CARIÑITO/CARIÑITO_BONE-1.svg",
+              "midi": "carnaval bh 2025/CARIÑITO/CARIÑITO_BONE.midi"
+            },
+            {
+              "name": "CARIÑITO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CARIÑITO/CARIÑITO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CARIÑITO/CARIÑITO_FLAUTA.midi"
+            },
+            {
+              "name": "CARIÑITO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CARIÑITO/CARIÑITO_PETE-1.svg",
+              "midi": "carnaval bh 2025/CARIÑITO/CARIÑITO_PETE.midi"
+            },
+            {
+              "name": "CARIÑITO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CARIÑITO/CARIÑITO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CARIÑITO/CARIÑITO_SAX_ALTO.midi"
+            },
+            {
+              "name": "CARIÑITO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CARIÑITO/CARIÑITO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CARIÑITO/CARIÑITO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CAÇAMBA",
+          "title": "CAÇAMBA",
+          "composer": "MOLEJO",
+          "sub": "ESTÁ TUDO AÍ. ESTÁ TUDO AÍ. QUE PAPO LEGAL. QUE PAPO LEGAL",
+          "mscz": "carnaval bh 2025/CAÇAMBA/CAÇAMBA.mscz",
+          "metajson": "carnaval bh 2025/CAÇAMBA/CAÇAMBA.metajson",
+          "midi": "carnaval bh 2025/CAÇAMBA/CAÇAMBA.midi",
+          "parts": [
+            {
+              "name": "CAÇAMBA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_BONE-1.svg",
+              "midi": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_BONE.midi"
+            },
+            {
+              "name": "CAÇAMBA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_FLAUTA.midi"
+            },
+            {
+              "name": "CAÇAMBA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_PETE-1.svg",
+              "midi": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_PETE.midi"
+            },
+            {
+              "name": "CAÇAMBA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_SAX_ALTO.midi"
+            },
+            {
+              "name": "CAÇAMBA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CAÇAMBA/CAÇAMBA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CHEGUEI",
+          "title": "CHEGUEI",
+          "composer": "Ludmila",
+          "sub": "CHEGUEI, CHEGUEI CHEGANDO BAGUNÇANDO A ZORRA TODA",
+          "mscz": "carnaval bh 2025/CHEGUEI/CHEGUEI.mscz",
+          "metajson": "carnaval bh 2025/CHEGUEI/CHEGUEI.metajson",
+          "midi": "carnaval bh 2025/CHEGUEI/CHEGUEI.midi",
+          "parts": [
+            {
+              "name": "CHEGUEI_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CHEGUEI/CHEGUEI_BONE-1.svg",
+              "midi": "carnaval bh 2025/CHEGUEI/CHEGUEI_BONE.midi"
+            },
+            {
+              "name": "CHEGUEI_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CHEGUEI/CHEGUEI_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CHEGUEI/CHEGUEI_FLAUTA.midi"
+            },
+            {
+              "name": "CHEGUEI_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CHEGUEI/CHEGUEI_PETE-1.svg",
+              "midi": "carnaval bh 2025/CHEGUEI/CHEGUEI_PETE.midi"
+            },
+            {
+              "name": "CHEGUEI_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CHEGUEI/CHEGUEI_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CHEGUEI/CHEGUEI_SAX_ALTO.midi"
+            },
+            {
+              "name": "CHEGUEI_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CHEGUEI/CHEGUEI_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CHEGUEI/CHEGUEI_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CHEIA_DE_MANIAS",
+          "title": "CHEIA DE MANIAS",
+          "composer": "Raça Negra",
+          "sub": "CHEIA DE MANIAS. TODA DENGOSA. MENINA BONITA",
+          "mscz": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS.mscz",
+          "metajson": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS.metajson",
+          "midi": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS.midi",
+          "parts": [
+            {
+              "name": "CHEIA_DE_MANIAS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_BONE-1.svg",
+              "midi": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_BONE.midi"
+            },
+            {
+              "name": "CHEIA_DE_MANIAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_FLAUTA.midi"
+            },
+            {
+              "name": "CHEIA_DE_MANIAS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_PETE-1.svg",
+              "midi": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_PETE.midi"
+            },
+            {
+              "name": "CHEIA_DE_MANIAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "CHEIA_DE_MANIAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CHEIA_DE_MANIAS/CHEIA_DE_MANIAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CILADA",
+          "title": "CILADA",
+          "composer": "Molejo\n",
+          "sub": "NÃO ERA AMOR, ÔH ÔH! NÃO ERA! NÃO ERA AMOR, ERA CILADA",
+          "mscz": "carnaval bh 2025/CILADA/CILADA.mscz",
+          "metajson": "carnaval bh 2025/CILADA/CILADA.metajson",
+          "midi": "carnaval bh 2025/CILADA/CILADA.midi",
+          "parts": [
+            {
+              "name": "CILADA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CILADA/CILADA_BONE-1.svg",
+              "midi": "carnaval bh 2025/CILADA/CILADA_BONE.midi"
+            },
+            {
+              "name": "CILADA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CILADA/CILADA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CILADA/CILADA_FLAUTA.midi"
+            },
+            {
+              "name": "CILADA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CILADA/CILADA_PETE-1.svg",
+              "midi": "carnaval bh 2025/CILADA/CILADA_PETE.midi"
+            },
+            {
+              "name": "CILADA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CILADA/CILADA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CILADA/CILADA_SAX_ALTO.midi"
+            },
+            {
+              "name": "CILADA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CILADA/CILADA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CILADA/CILADA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CIRANDA_DE_MALUCO",
+          "title": "CIRANDA DE MALUCO",
+          "composer": "Otto",
+          "sub": "CIRANDA DE MALUCO, AQUI EM PERNAMBUCO É BOM DEMAIS",
+          "mscz": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO.mscz",
+          "metajson": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO.metajson",
+          "midi": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO.midi",
+          "parts": [
+            {
+              "name": "CIRANDA_DE_MALUCO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_BONE-1.svg",
+              "midi": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_BONE.midi"
+            },
+            {
+              "name": "CIRANDA_DE_MALUCO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_FLAUTA.midi"
+            },
+            {
+              "name": "CIRANDA_DE_MALUCO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_PETE-1.svg",
+              "midi": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_PETE.midi"
+            },
+            {
+              "name": "CIRANDA_DE_MALUCO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_SAX_ALTO.midi"
+            },
+            {
+              "name": "CIRANDA_DE_MALUCO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_SAX_TENOR.midi"
+            },
+            {
+              "name": "CIRANDA_DE_MALUCO_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_TUBA-1.svg",
+              "midi": "carnaval bh 2025/CIRANDA_DE_MALUCO/CIRANDA_DE_MALUCO_TUBA.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -16541,6 +17672,141 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/CORDEIRO_DE_NANÃ",
+          "title": "CORDEIRO DE NANÃ",
+          "composer": "Matheus Aleluia e Dadinho\n(Os Tincoãs)",
+          "sub": "SOU DE NANÃ, EUÁ, EUÁ, EUÁ, Ê",
+          "mscz": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ.mscz",
+          "metajson": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ.metajson",
+          "midi": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ.midi",
+          "parts": [
+            {
+              "name": "CORDEIRO_DE_NANÃ_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_BONE-1.svg",
+              "midi": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_BONE.midi"
+            },
+            {
+              "name": "CORDEIRO_DE_NANÃ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_FLAUTA.midi"
+            },
+            {
+              "name": "CORDEIRO_DE_NANÃ_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_PETE-1.svg",
+              "midi": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_PETE.midi"
+            },
+            {
+              "name": "CORDEIRO_DE_NANÃ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_SAX_ALTO.midi"
+            },
+            {
+              "name": "CORDEIRO_DE_NANÃ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CORDEIRO_DE_NANÃ/CORDEIRO_DE_NANÃ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/CORTE_DEVASSA",
+          "title": "CORTE DEVASSA",
+          "composer": "Bloco Corte Devassa",
+          "sub": "A NOSSA CORTE QUER BOTAR BLOCO NA RUA",
+          "mscz": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA.mscz",
+          "metajson": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA.metajson",
+          "midi": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA.midi",
+          "parts": [
+            {
+              "name": "CORTE_DEVASSA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_BONE-1.svg",
+              "midi": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_BONE.midi"
+            },
+            {
+              "name": "CORTE_DEVASSA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_FLAUTA.midi"
+            },
+            {
+              "name": "CORTE_DEVASSA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_PETE-1.svg",
+              "midi": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_PETE.midi"
+            },
+            {
+              "name": "CORTE_DEVASSA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_SAX_ALTO.midi"
+            },
+            {
+              "name": "CORTE_DEVASSA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CORTE_DEVASSA/CORTE_DEVASSA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR",
+          "title": "DEIXA A GIRA GIRAR",
+          "composer": "Os Tincoãs",
+          "sub": "MEU PAI VEIO DE ARUANDA E A NOSSA MÃE É IANSÃ",
+          "mscz": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR.mscz",
+          "metajson": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR.metajson",
+          "midi": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR.midi",
+          "parts": [
+            {
+              "name": "DEIXA_A_GIRA_GIRAR_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_BONE-1.svg",
+              "midi": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_BONE.midi"
+            },
+            {
+              "name": "DEIXA_A_GIRA_GIRAR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_FLAUTA.midi"
+            },
+            {
+              "name": "DEIXA_A_GIRA_GIRAR_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_PETE-1.svg",
+              "midi": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_PETE.midi"
+            },
+            {
+              "name": "DEIXA_A_GIRA_GIRAR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_SAX_ALTO.midi"
+            },
+            {
+              "name": "DEIXA_A_GIRA_GIRAR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/DEIXA_A_GIRA_GIRAR/DEIXA_A_GIRA_GIRAR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/DEIXA_DE_ONDA",
           "title": "DEIXA DE ONDA",
           "composer": "Ludmilla",
@@ -16578,6 +17844,51 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2025/DEIXA_DE_ONDA/DEIXA_DE_ONDA_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2025/DEIXA_DE_ONDA/DEIXA_DE_ONDA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/DEUSA_DO_AMOR",
+          "title": "DEUSA DO AMOR",
+          "composer": "Olodum",
+          "sub": "TUDO FICA MAIS BONITO QUANDO VOCÊ ESTÁ POR PERTO",
+          "mscz": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR.mscz",
+          "metajson": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR.metajson",
+          "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR.midi",
+          "parts": [
+            {
+              "name": "DEUSA_DO_AMOR_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_BONE_PIRATA.midi"
+            },
+            {
+              "name": "DEUSA_DO_AMOR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_FLAUTA.midi"
+            },
+            {
+              "name": "DEUSA_DO_AMOR_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_PETE_PIRATA.midi"
+            },
+            {
+              "name": "DEUSA_DO_AMOR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_SAX_ALTO.midi"
+            },
+            {
+              "name": "DEUSA_DO_AMOR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_SAX_TENOR.midi"
             }
           ],
           "tags": [
@@ -16631,6 +17942,321 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/EMORIÔ",
+          "title": "EMORIÔ",
+          "composer": "João Donato",
+          "sub": "Ê EMORIÔ. Ê EMORIÔ. EMORIÔ DEVE SER UMA PALAVRA NAGÔ",
+          "mscz": "carnaval bh 2025/EMORIÔ/EMORIÔ.mscz",
+          "metajson": "carnaval bh 2025/EMORIÔ/EMORIÔ.metajson",
+          "midi": "carnaval bh 2025/EMORIÔ/EMORIÔ.midi",
+          "parts": [
+            {
+              "name": "EMORIÔ_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/EMORIÔ/EMORIÔ_BONE-1.svg",
+              "midi": "carnaval bh 2025/EMORIÔ/EMORIÔ_BONE.midi"
+            },
+            {
+              "name": "EMORIÔ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/EMORIÔ/EMORIÔ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/EMORIÔ/EMORIÔ_FLAUTA.midi"
+            },
+            {
+              "name": "EMORIÔ_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/EMORIÔ/EMORIÔ_PETE-1.svg",
+              "midi": "carnaval bh 2025/EMORIÔ/EMORIÔ_PETE.midi"
+            },
+            {
+              "name": "EMORIÔ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/EMORIÔ/EMORIÔ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/EMORIÔ/EMORIÔ_SAX_ALTO.midi"
+            },
+            {
+              "name": "EMORIÔ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/EMORIÔ/EMORIÔ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/EMORIÔ/EMORIÔ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE",
+          "title": "EU E VOCÊ SEMPRE",
+          "composer": "jorge Aragão",
+          "sub": "LOGO, LOGO, ASSIM QUE PUDER / POR ENQUANTO TÁ DOENDO",
+          "mscz": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE.mscz",
+          "metajson": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE.metajson",
+          "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE.midi",
+          "parts": [
+            {
+              "name": "EU_E_VOCÊ_SEMPRE_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_BONE_PIRATA.midi"
+            },
+            {
+              "name": "EU_E_VOCÊ_SEMPRE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_FLAUTA.midi"
+            },
+            {
+              "name": "EU_E_VOCÊ_SEMPRE_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_PETE_PIRATA.midi"
+            },
+            {
+              "name": "EU_E_VOCÊ_SEMPRE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_SAX_ALTO.midi"
+            },
+            {
+              "name": "EU_E_VOCÊ_SEMPRE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR",
+          "title": "EU TAMBÉM QUEIRO BEIJAR",
+          "composer": "F. Nilo, M. Moreira\ne Pepeu Gomes",
+          "sub": "A FLOR DO DESEJO E DO MARACUJÁ. EU TAMBÉM QUERO BEIJAR",
+          "mscz": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR.mscz",
+          "metajson": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR.metajson",
+          "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR.midi",
+          "parts": [
+            {
+              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_BONE-1.svg",
+              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_BONE.midi"
+            },
+            {
+              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_FLAUTA.midi"
+            },
+            {
+              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_PETE-1.svg",
+              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_PETE.midi"
+            },
+            {
+              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_ALTO.midi"
+            },
+            {
+              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/FORASTEIRO",
+          "title": "FORASTEIRO",
+          "composer": "BaianaSystem",
+          "sub": "",
+          "mscz": "carnaval bh 2025/FORASTEIRO/FORASTEIRO.mscz",
+          "metajson": "carnaval bh 2025/FORASTEIRO/FORASTEIRO.metajson",
+          "midi": "carnaval bh 2025/FORASTEIRO/FORASTEIRO.midi",
+          "parts": [
+            {
+              "name": "FORASTEIRO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_BONE-1.svg",
+              "midi": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_BONE.midi"
+            },
+            {
+              "name": "FORASTEIRO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_FLAUTA.midi"
+            },
+            {
+              "name": "FORASTEIRO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_PETE-1.svg",
+              "midi": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_PETE.midi"
+            },
+            {
+              "name": "FORASTEIRO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_SAX_ALTO.midi"
+            },
+            {
+              "name": "FORASTEIRO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/FORASTEIRO/FORASTEIRO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/FREVO_MULHER",
+          "title": "FREVO MULHER",
+          "composer": "Zé Ramalho",
+          "sub": "QUANTOS AQUI OUVEM, OS OLHOS ERAM DE FÉ .. É QUANTO O TEMPO SACODE ",
+          "mscz": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER.mscz",
+          "metajson": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER.metajson",
+          "midi": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER.midi",
+          "parts": [
+            {
+              "name": "FREVO_MULHER_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_BONE-1.svg",
+              "midi": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_BONE.midi"
+            },
+            {
+              "name": "FREVO_MULHER_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_FLAUTA.midi"
+            },
+            {
+              "name": "FREVO_MULHER_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_PETE-1.svg",
+              "midi": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_PETE.midi"
+            },
+            {
+              "name": "FREVO_MULHER_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_SAX_ALTO.midi"
+            },
+            {
+              "name": "FREVO_MULHER_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/FREVO_MULHER/FREVO_MULHER_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/HAJA_AMOR",
+          "title": "HAJA AMOR",
+          "composer": "",
+          "sub": "EU QUERIA SER UMA ABELHA PRA POUSAR NA SUA FLOR",
+          "mscz": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR.mscz",
+          "metajson": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR.metajson",
+          "midi": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR.midi",
+          "parts": [
+            {
+              "name": "HAJA_AMOR_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_BONE-1.svg",
+              "midi": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_BONE.midi"
+            },
+            {
+              "name": "HAJA_AMOR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_FLAUTA.midi"
+            },
+            {
+              "name": "HAJA_AMOR_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_PETE-1.svg",
+              "midi": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_PETE.midi"
+            },
+            {
+              "name": "HAJA_AMOR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_SAX_ALTO.midi"
+            },
+            {
+              "name": "HAJA_AMOR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/HAJA_AMOR/HAJA_AMOR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/JARDINEIRA",
+          "title": "JARDINEIRA",
+          "composer": "Benedito Lacerdo e Humberto Porto",
+          "sub": "O JARDINEIRA POR QUE ESTÁS TÃO TRISTE",
+          "mscz": "carnaval bh 2025/JARDINEIRA/JARDINEIRA.mscz",
+          "metajson": "carnaval bh 2025/JARDINEIRA/JARDINEIRA.metajson",
+          "midi": "carnaval bh 2025/JARDINEIRA/JARDINEIRA.midi",
+          "parts": [
+            {
+              "name": "JARDINEIRA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_BONE-1.svg",
+              "midi": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_BONE.midi"
+            },
+            {
+              "name": "JARDINEIRA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_FLAUTA.midi"
+            },
+            {
+              "name": "JARDINEIRA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_PETE-1.svg",
+              "midi": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_PETE.midi"
+            },
+            {
+              "name": "JARDINEIRA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_SAX_ALTO.midi"
+            },
+            {
+              "name": "JARDINEIRA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/JARDINEIRA/JARDINEIRA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/JARDINS_DA_BABILÔNIA",
           "title": "JARDINS DA BABILÔNIA",
           "composer": "Rita Lee",
@@ -16668,6 +18294,141 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2025/JARDINS_DA_BABILÔNIA/JARDINS_DA_BABILÔNIA_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2025/JARDINS_DA_BABILÔNIA/JARDINS_DA_BABILÔNIA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/JUIZO_FINAL",
+          "title": "JUIZO FINAL",
+          "composer": "Nelson Cavaquinho",
+          "sub": "O SOL HÁ DE BRILHAR MAIS UMA VEZ",
+          "mscz": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL.mscz",
+          "metajson": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL.metajson",
+          "midi": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL.midi",
+          "parts": [
+            {
+              "name": "JUIZO_FINAL_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_BONE-1.svg",
+              "midi": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_BONE.midi"
+            },
+            {
+              "name": "JUIZO_FINAL_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_FLAUTA.midi"
+            },
+            {
+              "name": "JUIZO_FINAL_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_PETE-1.svg",
+              "midi": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_PETE.midi"
+            },
+            {
+              "name": "JUIZO_FINAL_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_SAX_ALTO.midi"
+            },
+            {
+              "name": "JUIZO_FINAL_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/JUIZO_FINAL/JUIZO_FINAL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/LADEIRA_ABAIXO",
+          "title": "LADEIRA ABAIXO",
+          "composer": "Gabriel Fonseca",
+          "sub": "EU VOU LADEIRA ABAIXO..",
+          "mscz": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO.mscz",
+          "metajson": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO.metajson",
+          "midi": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO.midi",
+          "parts": [
+            {
+              "name": "LADEIRA_ABAIXO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_BONE-1.svg",
+              "midi": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_BONE.midi"
+            },
+            {
+              "name": "LADEIRA_ABAIXO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_FLAUTA.midi"
+            },
+            {
+              "name": "LADEIRA_ABAIXO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_PETE-1.svg",
+              "midi": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_PETE.midi"
+            },
+            {
+              "name": "LADEIRA_ABAIXO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_SAX_ALTO.midi"
+            },
+            {
+              "name": "LADEIRA_ABAIXO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/LADEIRA_ABAIXO/LADEIRA_ABAIXO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/LUCRO",
+          "title": "LUCRO",
+          "composer": "BaianaSystem",
+          "sub": "TIIIRE AS CONSTRUÇÕES DA MINHA PRAIA. NÃO CONSIGO RESPIRAR",
+          "mscz": "carnaval bh 2025/LUCRO/LUCRO.mscz",
+          "metajson": "carnaval bh 2025/LUCRO/LUCRO.metajson",
+          "midi": "carnaval bh 2025/LUCRO/LUCRO.midi",
+          "parts": [
+            {
+              "name": "LUCRO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/LUCRO/LUCRO_BONE-1.svg",
+              "midi": "carnaval bh 2025/LUCRO/LUCRO_BONE.midi"
+            },
+            {
+              "name": "LUCRO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/LUCRO/LUCRO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/LUCRO/LUCRO_FLAUTA.midi"
+            },
+            {
+              "name": "LUCRO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/LUCRO/LUCRO_PETE-1.svg",
+              "midi": "carnaval bh 2025/LUCRO/LUCRO_PETE.midi"
+            },
+            {
+              "name": "LUCRO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/LUCRO/LUCRO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/LUCRO/LUCRO_SAX_ALTO.midi"
+            },
+            {
+              "name": "LUCRO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/LUCRO/LUCRO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/LUCRO/LUCRO_SAX_TENOR.midi"
             }
           ],
           "tags": [
@@ -16721,6 +18482,687 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/MAL_ACOSTUMADO",
+          "title": "MAL ACOSTUMADO",
+          "composer": "Araketu",
+          "sub": "AMOR DE VERDADE EU SÓ SENTI, FOI COM VOCÊ, MEU BEM. COMIGO?",
+          "mscz": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO.mscz",
+          "metajson": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO.metajson",
+          "midi": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO.midi",
+          "parts": [
+            {
+              "name": "MAL_ACOSTUMADO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_BONE-1.svg",
+              "midi": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_BONE.midi"
+            },
+            {
+              "name": "MAL_ACOSTUMADO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_FLAUTA.midi"
+            },
+            {
+              "name": "MAL_ACOSTUMADO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_PETE-1.svg",
+              "midi": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_PETE.midi"
+            },
+            {
+              "name": "MAL_ACOSTUMADO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_SAX_ALTO.midi"
+            },
+            {
+              "name": "MAL_ACOSTUMADO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MAL_ACOSTUMADO/MAL_ACOSTUMADO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/MAMÁ_NA_VACA",
+          "title": "MAMÁ NA VACA",
+          "composer": "Bloco Mamá na Vaca",
+          "sub": "MAMÁ NA VACA. MAMÁ NA VACA. MAMÁ NA VACA. QUEM NAO",
+          "mscz": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA.mscz",
+          "metajson": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA.metajson",
+          "midi": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA.midi",
+          "parts": [
+            {
+              "name": "MAMÁ_NA_VACA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_BONE-1.svg",
+              "midi": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_BONE.midi"
+            },
+            {
+              "name": "MAMÁ_NA_VACA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_FLAUTA.midi"
+            },
+            {
+              "name": "MAMÁ_NA_VACA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_PETE-1.svg",
+              "midi": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_PETE.midi"
+            },
+            {
+              "name": "MAMÁ_NA_VACA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_SAX_ALTO.midi"
+            },
+            {
+              "name": "MAMÁ_NA_VACA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MAMÁ_NA_VACA/MAMÁ_NA_VACA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/MAMÃE_EU_QUERO",
+          "title": "MAMÃE EU QUERO",
+          "composer": "Vicente Paiva e Jararaca",
+          "sub": "MAMÃE EU QUERO, MAMÃE EU QUERO, MAMÃE EU QUERO MAMAR",
+          "mscz": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO.mscz",
+          "metajson": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO.metajson",
+          "midi": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO.midi",
+          "parts": [
+            {
+              "name": "MAMÃE_EU_QUERO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_BONE-1.svg",
+              "midi": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_BONE.midi"
+            },
+            {
+              "name": "MAMÃE_EU_QUERO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_FLAUTA.midi"
+            },
+            {
+              "name": "MAMÃE_EU_QUERO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_PETE-1.svg",
+              "midi": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_PETE.midi"
+            },
+            {
+              "name": "MAMÃE_EU_QUERO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_SAX_ALTO.midi"
+            },
+            {
+              "name": "MAMÃE_EU_QUERO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MAMÃE_EU_QUERO/MAMÃE_EU_QUERO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/MANJERICÃO",
+          "title": "MANJERICÃO",
+          "composer": "Bloco do Manjerição",
+          "sub": "NÃO VOU COMPRAR MAJERICÃO. EU VOU PLANTAR NO MEU JARDIM",
+          "mscz": "carnaval bh 2025/MANJERICÃO/MANJERICÃO.mscz",
+          "metajson": "carnaval bh 2025/MANJERICÃO/MANJERICÃO.metajson",
+          "midi": "carnaval bh 2025/MANJERICÃO/MANJERICÃO.midi",
+          "parts": [
+            {
+              "name": "MANJERICÃO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_BONE-1.svg",
+              "midi": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_BONE.midi"
+            },
+            {
+              "name": "MANJERICÃO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_FLAUTA.midi"
+            },
+            {
+              "name": "MANJERICÃO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_PETE-1.svg",
+              "midi": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_PETE.midi"
+            },
+            {
+              "name": "MANJERICÃO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_SAX_ALTO.midi"
+            },
+            {
+              "name": "MANJERICÃO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MANJERICÃO/MANJERICÃO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/MARCHA_DO_REMADOR",
+          "title": "MARCHA DO REMADOR",
+          "composer": "A. Almeida e O. Magalhães",
+          "sub": "SE A CANOA NÃO VIRAR, OLÊ! OLÊ! OLÁ! EU CHEGO LÁ!",
+          "mscz": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR.mscz",
+          "metajson": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR.metajson",
+          "midi": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR.midi",
+          "parts": [
+            {
+              "name": "MARCHA_DO_REMADOR_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_BONE-1.svg",
+              "midi": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_BONE.midi"
+            },
+            {
+              "name": "MARCHA_DO_REMADOR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_FLAUTA.midi"
+            },
+            {
+              "name": "MARCHA_DO_REMADOR_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_PETE-1.svg",
+              "midi": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_PETE.midi"
+            },
+            {
+              "name": "MARCHA_DO_REMADOR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_SAX_ALTO.midi"
+            },
+            {
+              "name": "MARCHA_DO_REMADOR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MARCHA_DO_REMADOR/MARCHA_DO_REMADOR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/MONTSERRAT_SERRAT",
+          "title": "MONTSERRAT SERRAT",
+          "composer": "Hungry March Band",
+          "sub": "",
+          "mscz": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT.mscz",
+          "metajson": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT.metajson",
+          "midi": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT.midi",
+          "parts": [
+            {
+              "name": "MONTSERRAT_SERRAT_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_BONE-1.svg",
+              "midi": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_BONE.midi"
+            },
+            {
+              "name": "MONTSERRAT_SERRAT_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_FLAUTA.midi"
+            },
+            {
+              "name": "MONTSERRAT_SERRAT_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_PETE-1.svg",
+              "midi": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_PETE.midi"
+            },
+            {
+              "name": "MONTSERRAT_SERRAT_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_SAX_ALTO.midi"
+            },
+            {
+              "name": "MONTSERRAT_SERRAT_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MONTSERRAT_SERRAT/MONTSERRAT_SERRAT_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/MORENA_TROPICANA",
+          "title": "MORENA TROPICANA",
+          "composer": "ALCEU VALENÇA",
+          "sub": "DA MANGA ROSA QUERO GOSTO E O SUMO",
+          "mscz": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA.mscz",
+          "metajson": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA.metajson",
+          "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA.midi",
+          "parts": [
+            {
+              "name": "MORENA_TROPICANA_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "MORENA_TROPICANA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_FLAUTA.midi"
+            },
+            {
+              "name": "MORENA_TROPICANA_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "MORENA_TROPICANA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_SAX_ALTO.midi"
+            },
+            {
+              "name": "MORENA_TROPICANA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/MÁSCARA_NEGRA",
+          "title": "MÁSCARA NEGRA",
+          "composer": "Zé Keti e Pereira Matos",
+          "sub": "QUANTO RISO, OH! QUANTA ALEGRAIA! MAIS DE MIL PALHAÇOS",
+          "mscz": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA.mscz",
+          "metajson": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA.metajson",
+          "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA.midi",
+          "parts": [
+            {
+              "name": "MÁSCARA_NEGRA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_BONE-1.svg",
+              "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_BONE.midi"
+            },
+            {
+              "name": "MÁSCARA_NEGRA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_FLAUTA.midi"
+            },
+            {
+              "name": "MÁSCARA_NEGRA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_PETE-1.svg",
+              "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_PETE.midi"
+            },
+            {
+              "name": "MÁSCARA_NEGRA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_SAX_ALTO.midi"
+            },
+            {
+              "name": "MÁSCARA_NEGRA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/NADA_MAL",
+          "title": "NADA MAL",
+          "composer": "Terrasamba",
+          "sub": "NADA MAL! CURTIR O TERRA SAMBA NÃO É NADA MAL",
+          "mscz": "carnaval bh 2025/NADA_MAL/NADA_MAL.mscz",
+          "metajson": "carnaval bh 2025/NADA_MAL/NADA_MAL.metajson",
+          "midi": "carnaval bh 2025/NADA_MAL/NADA_MAL.midi",
+          "parts": [
+            {
+              "name": "NADA_MAL_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/NADA_MAL/NADA_MAL_BONE-1.svg",
+              "midi": "carnaval bh 2025/NADA_MAL/NADA_MAL_BONE.midi"
+            },
+            {
+              "name": "NADA_MAL_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/NADA_MAL/NADA_MAL_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/NADA_MAL/NADA_MAL_FLAUTA.midi"
+            },
+            {
+              "name": "NADA_MAL_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/NADA_MAL/NADA_MAL_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/NADA_MAL/NADA_MAL_PETE_PIRATA.midi"
+            },
+            {
+              "name": "NADA_MAL_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/NADA_MAL/NADA_MAL_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/NADA_MAL/NADA_MAL_SAX_ALTO.midi"
+            },
+            {
+              "name": "NADA_MAL_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/NADA_MAL/NADA_MAL_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/NADA_MAL/NADA_MAL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER",
+          "title": "NÃO DEIXE O SAMBA MORRER",
+          "composer": "Edson Conceição e Aloísio Silva",
+          "sub": "QUANDO EU NÃO PUDER PISAR MAIS NA AVENIDA",
+          "mscz": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER.mscz",
+          "metajson": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER.metajson",
+          "midi": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER.midi",
+          "parts": [
+            {
+              "name": "NÃO_DEIXE_O_SAMBA_MORRER_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_BONE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_BONE.midi"
+            },
+            {
+              "name": "NÃO_DEIXE_O_SAMBA_MORRER_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_FLAUTA.midi"
+            },
+            {
+              "name": "NÃO_DEIXE_O_SAMBA_MORRER_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_PETE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_PETE.midi"
+            },
+            {
+              "name": "NÃO_DEIXE_O_SAMBA_MORRER_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_SAX_ALTO.midi"
+            },
+            {
+              "name": "NÃO_DEIXE_O_SAMBA_MORRER_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/NÃO_DEIXE_O_SAMBA_MORRER/NÃO_DEIXE_O_SAMBA_MORRER_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS",
+          "title": "NÃO ME ENTREGO PROS CARETAS",
+          "composer": "Lamparina",
+          "sub": "DERRAMEI. TU VAIS ME ACHAR. QUE ESSE POVO É RASO, AMOR",
+          "mscz": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS.mscz",
+          "metajson": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS.metajson",
+          "midi": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS.midi",
+          "parts": [
+            {
+              "name": "NÃO_ME_ENTREGO_PROS_CARETAS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_BONE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_BONE.midi"
+            },
+            {
+              "name": "NÃO_ME_ENTREGO_PROS_CARETAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_FLAUTA.midi"
+            },
+            {
+              "name": "NÃO_ME_ENTREGO_PROS_CARETAS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_PETE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_PETE.midi"
+            },
+            {
+              "name": "NÃO_ME_ENTREGO_PROS_CARETAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "NÃO_ME_ENTREGO_PROS_CARETAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/NÃO_ME_ENTREGO_PROS_CARETAS/NÃO_ME_ENTREGO_PROS_CARETAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/NÃO_QUERO_DINHEIRO",
+          "title": "NÃO QUERO DINHEIRO",
+          "composer": "Tim Maia",
+          "sub": "VOU PEDIR PRA VOCÊ FICAR. VOU PEDIR PRA VOCÊ VOLTAR. EU TE AMO. EU TE QUERO BEM",
+          "mscz": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO.mscz",
+          "metajson": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO.metajson",
+          "midi": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO.midi",
+          "parts": [
+            {
+              "name": "NÃO_QUERO_DINHEIRO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_BONE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_BONE.midi"
+            },
+            {
+              "name": "NÃO_QUERO_DINHEIRO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_FLAUTA.midi"
+            },
+            {
+              "name": "NÃO_QUERO_DINHEIRO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_PETE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_PETE.midi"
+            },
+            {
+              "name": "NÃO_QUERO_DINHEIRO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_SAX_ALTO.midi"
+            },
+            {
+              "name": "NÃO_QUERO_DINHEIRO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/NÃO_QUERO_DINHEIRO/NÃO_QUERO_DINHEIRO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE",
+          "title": "NÃO É MOLE NÃO GUADALUPE",
+          "composer": "",
+          "sub": "PÃ-PÃ-PÃ-RÃ-PÃ-PÃ-RÃ-RÃ NÃO É MOLE NÃO!",
+          "mscz": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE.mscz",
+          "metajson": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE.metajson",
+          "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE.midi",
+          "parts": [
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE.midi"
+            },
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_FLAUTA.midi"
+            },
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE.midi"
+            },
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_SAX_ALTO.midi"
+            },
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_SAX_TENOR.midi"
+            },
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_TUBA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_TUBA.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/OSWALDO_O_POMBO",
+          "title": "OSWALDO O POMBO",
+          "composer": "Fanfarra Black Clube",
+          "sub": "",
+          "mscz": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO.mscz",
+          "metajson": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO.metajson",
+          "midi": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO.midi",
+          "parts": [
+            {
+              "name": "OSWALDO_O_POMBO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_BONE-1.svg",
+              "midi": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_BONE.midi"
+            },
+            {
+              "name": "OSWALDO_O_POMBO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_FLAUTA.midi"
+            },
+            {
+              "name": "OSWALDO_O_POMBO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_PETE-1.svg",
+              "midi": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_PETE.midi"
+            },
+            {
+              "name": "OSWALDO_O_POMBO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_SAX_ALTO.midi"
+            },
+            {
+              "name": "OSWALDO_O_POMBO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/OSWALDO_O_POMBO/OSWALDO_O_POMBO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ",
+          "title": "O MORRO NÃO TEM VEZ",
+          "composer": "Vinicius de Moraes",
+          "sub": "O MORRO NÃO TEM VEZ E O QUE ELE FEZ JÁ FOI DEMAIS",
+          "mscz": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ.mscz",
+          "metajson": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ.metajson",
+          "midi": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ.midi",
+          "parts": [
+            {
+              "name": "O_MORRO_NÃO_TEM_VEZ_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_BONE-1.svg",
+              "midi": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_BONE.midi"
+            },
+            {
+              "name": "O_MORRO_NÃO_TEM_VEZ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_FLAUTA.midi"
+            },
+            {
+              "name": "O_MORRO_NÃO_TEM_VEZ_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_PETE-1.svg",
+              "midi": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_PETE.midi"
+            },
+            {
+              "name": "O_MORRO_NÃO_TEM_VEZ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_SAX_ALTO.midi"
+            },
+            {
+              "name": "O_MORRO_NÃO_TEM_VEZ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/O_MORRO_NÃO_TEM_VEZ/O_MORRO_NÃO_TEM_VEZ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/O_SEU_NOME_EU_ESCREVI",
           "title": "O SEU NOME EU ESCREVI",
           "composer": "",
@@ -16758,6 +19200,186 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2025/O_SEU_NOME_EU_ESCREVI/O_SEU_NOME_EU_ESCREVI_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2025/O_SEU_NOME_EU_ESCREVI/O_SEU_NOME_EU_ESCREVI_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/PAGODE_RUSSO",
+          "title": "PAGODE RUSSO",
+          "composer": "Luiz Gonzaga",
+          "sub": "ONTEM EU SONHEI QUE ESTAVA EM MOSCOU DANÇANDO PAGODE RUSSO",
+          "mscz": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO.mscz",
+          "metajson": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO.metajson",
+          "midi": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO.midi",
+          "parts": [
+            {
+              "name": "PAGODE_RUSSO_Flute",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Flute-1.svg",
+              "midi": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Flute.midi"
+            },
+            {
+              "name": "PAGODE_RUSSO_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Saxofone_Alto.midi"
+            },
+            {
+              "name": "PAGODE_RUSSO_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "PAGODE_RUSSO_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Trombone-1.svg",
+              "midi": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Trombone.midi"
+            },
+            {
+              "name": "PAGODE_RUSSO_Trompete_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Trompete_Bb-1.svg",
+              "midi": "carnaval bh 2025/PAGODE_RUSSO/PAGODE_RUSSO_Trompete_Bb.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/PARADOS_NO_BAILÃO",
+          "title": "PARADOS NO BAILÃO",
+          "composer": "Mc L Da Vinte e Mc Gury",
+          "sub": "É QUE EU QUERIA MUITO ELA. ELA NÃO ME DAVA ATENÇÃO",
+          "mscz": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO.mscz",
+          "metajson": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO.metajson",
+          "midi": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO.midi",
+          "parts": [
+            {
+              "name": "PARADOS_NO_BAILÃO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_BONE-1.svg",
+              "midi": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_BONE.midi"
+            },
+            {
+              "name": "PARADOS_NO_BAILÃO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_FLAUTA.midi"
+            },
+            {
+              "name": "PARADOS_NO_BAILÃO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_PETE-1.svg",
+              "midi": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_PETE.midi"
+            },
+            {
+              "name": "PARADOS_NO_BAILÃO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_SAX_ALTO.midi"
+            },
+            {
+              "name": "PARADOS_NO_BAILÃO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/PARADOS_NO_BAILÃO/PARADOS_NO_BAILÃO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/PASTORINHAS",
+          "title": "PASTORINHAS",
+          "composer": "Noel Rosa e João De Barro",
+          "sub": "A ESTRELA D'ALVA NO CÉU DESPONTA",
+          "mscz": "carnaval bh 2025/PASTORINHAS/PASTORINHAS.mscz",
+          "metajson": "carnaval bh 2025/PASTORINHAS/PASTORINHAS.metajson",
+          "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS.midi",
+          "parts": [
+            {
+              "name": "PASTORINHAS_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_BONE_PIRATA.midi"
+            },
+            {
+              "name": "PASTORINHAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_FLAUTA.midi"
+            },
+            {
+              "name": "PASTORINHAS_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_PETE_PIRATA.midi"
+            },
+            {
+              "name": "PASTORINHAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "PASTORINHAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO",
+          "title": "PRAIA DA ESTAÇÃO",
+          "composer": "Ommar Motta",
+          "sub": "FUI ME BANHAR NA PRAIA DA ESTAÇÃO, MAS ESQUECI O MEU FILTRO SOLAR",
+          "mscz": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO.mscz",
+          "metajson": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO.metajson",
+          "midi": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO.midi",
+          "parts": [
+            {
+              "name": "PRAIA_DA_ESTAÇÃO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_BONE-1.svg",
+              "midi": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_BONE.midi"
+            },
+            {
+              "name": "PRAIA_DA_ESTAÇÃO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_FLAUTA.midi"
+            },
+            {
+              "name": "PRAIA_DA_ESTAÇÃO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_PETE-1.svg",
+              "midi": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_PETE.midi"
+            },
+            {
+              "name": "PRAIA_DA_ESTAÇÃO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_SAX_ALTO.midi"
+            },
+            {
+              "name": "PRAIA_DA_ESTAÇÃO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO/PRAIA_DA_ESTAÇÃO_SAX_TENOR.midi"
             }
           ],
           "tags": [
@@ -16811,6 +19433,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/PREFIXO_DO_VERÃO",
+          "title": "PREFIXO DO VERÃO",
+          "composer": "Beto Silva",
+          "sub": "AE, AE, AE, AE. Ê, Ê, Ê. Ô-Ô-Ô. QUANDO VOCÊ CHEGAR..",
+          "mscz": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO.mscz",
+          "metajson": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO.metajson",
+          "midi": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO.midi",
+          "parts": [
+            {
+              "name": "PREFIXO_DO_VERÃO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_BONE-1.svg",
+              "midi": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_BONE.midi"
+            },
+            {
+              "name": "PREFIXO_DO_VERÃO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_FLAUTA.midi"
+            },
+            {
+              "name": "PREFIXO_DO_VERÃO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_PETE-1.svg",
+              "midi": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_PETE.midi"
+            },
+            {
+              "name": "PREFIXO_DO_VERÃO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_SAX_ALTO.midi"
+            },
+            {
+              "name": "PREFIXO_DO_VERÃO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/PREFIXO_DO_VERÃO/PREFIXO_DO_VERÃO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/QUEIMA_LARGADA",
           "title": "QUEIMA LARGADA",
           "composer": "",
@@ -16852,6 +19519,186 @@
           ],
           "tags": [
             "Beagá"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/QUEM_SABE_SABE",
+          "title": "QUEM SABE SABE",
+          "composer": "Joel de Almeida e Carvalhinho",
+          "sub": "SE A CANOA NÃO VIRAR, OLÊ! OLÊ! OLÁ! EU CHEGO LÁ!",
+          "mscz": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE.mscz",
+          "metajson": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE.metajson",
+          "midi": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE.midi",
+          "parts": [
+            {
+              "name": "QUEM_SABE_SABE_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_BONE-1.svg",
+              "midi": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_BONE.midi"
+            },
+            {
+              "name": "QUEM_SABE_SABE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_FLAUTA.midi"
+            },
+            {
+              "name": "QUEM_SABE_SABE_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_PETE-1.svg",
+              "midi": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_PETE.midi"
+            },
+            {
+              "name": "QUEM_SABE_SABE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_SAX_ALTO.midi"
+            },
+            {
+              "name": "QUEM_SABE_SABE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/RAP_DO_SILVA",
+          "title": "RAP DO SILVA",
+          "composer": "",
+          "sub": "TODO MUNDO DEVIA NESSA HISTÓRIA SE LIGAR ",
+          "mscz": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA.mscz",
+          "metajson": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA.metajson",
+          "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA.midi",
+          "parts": [
+            {
+              "name": "RAP_DO_SILVA_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "RAP_DO_SILVA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_FLAUTA.midi"
+            },
+            {
+              "name": "RAP_DO_SILVA_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "RAP_DO_SILVA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_SAX_ALTO.midi"
+            },
+            {
+              "name": "RAP_DO_SILVA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/RETALHOS_DE_CETIM",
+          "title": "RETALHOS DE CETIM",
+          "composer": "Benito de Paula",
+          "sub": "ENSAIEI MEU SAMBA O ANO INTIRO, AMOR / MAS CHEGOU O CARNAVAL",
+          "mscz": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM.mscz",
+          "metajson": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM.metajson",
+          "midi": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM.midi",
+          "parts": [
+            {
+              "name": "RETALHOS_DE_CETIM_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_BONE-1.svg",
+              "midi": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_BONE.midi"
+            },
+            {
+              "name": "RETALHOS_DE_CETIM_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_FLAUTA.midi"
+            },
+            {
+              "name": "RETALHOS_DE_CETIM_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_PETE-1.svg",
+              "midi": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_PETE.midi"
+            },
+            {
+              "name": "RETALHOS_DE_CETIM_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_SAX_ALTO.midi"
+            },
+            {
+              "name": "RETALHOS_DE_CETIM_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/RETALHOS_DE_CETIM/RETALHOS_DE_CETIM_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/SACA_ROLHAS",
+          "title": "SACA ROLHAS",
+          "composer": "Zé da Zilda, Zilda do Zé\ne Waldir Machado",
+          "sub": "AS ÁGUAS VÃO ROLAR. GARRAFA CHEIA EU NÃO QUERO VER SOBRAR",
+          "mscz": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS.mscz",
+          "metajson": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS.metajson",
+          "midi": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS.midi",
+          "parts": [
+            {
+              "name": "SACA_ROLHAS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_BONE-1.svg",
+              "midi": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_BONE.midi"
+            },
+            {
+              "name": "SACA_ROLHAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_FLAUTA.midi"
+            },
+            {
+              "name": "SACA_ROLHAS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_PETE-1.svg",
+              "midi": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_PETE.midi"
+            },
+            {
+              "name": "SACA_ROLHAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "SACA_ROLHAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/SACA_ROLHAS/SACA_ROLHAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -16946,6 +19793,237 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/TAÍ",
+          "title": "TAÍ",
+          "composer": "Joubert de Carvalho",
+          "sub": "TAÍ! EU FIZ TUDO PRA VOCÊ GOSTAR DE MIM",
+          "mscz": "carnaval bh 2025/TAÍ/TAÍ.mscz",
+          "metajson": "carnaval bh 2025/TAÍ/TAÍ.metajson",
+          "midi": "carnaval bh 2025/TAÍ/TAÍ.midi",
+          "parts": [
+            {
+              "name": "TAÍ_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/TAÍ/TAÍ_BONE-1.svg",
+              "midi": "carnaval bh 2025/TAÍ/TAÍ_BONE.midi"
+            },
+            {
+              "name": "TAÍ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TAÍ/TAÍ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TAÍ/TAÍ_FLAUTA.midi"
+            },
+            {
+              "name": "TAÍ_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/TAÍ/TAÍ_PETE-1.svg",
+              "midi": "carnaval bh 2025/TAÍ/TAÍ_PETE.midi"
+            },
+            {
+              "name": "TAÍ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TAÍ/TAÍ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TAÍ/TAÍ_SAX_ALTO.midi"
+            },
+            {
+              "name": "TAÍ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TAÍ/TAÍ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TAÍ/TAÍ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/TEMPORAL",
+          "title": "TEMPORAL",
+          "composer": "ART POPULAR",
+          "sub": "FAZ TEMPO QUE A GENTE NÃO É AQUELE MESMO PAAAAR ",
+          "mscz": "carnaval bh 2025/TEMPORAL/TEMPORAL.mscz",
+          "metajson": "carnaval bh 2025/TEMPORAL/TEMPORAL.metajson",
+          "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL.midi",
+          "parts": [
+            {
+              "name": "TEMPORAL_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/TEMPORAL/TEMPORAL_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL_BONE_PIRATA.midi"
+            },
+            {
+              "name": "TEMPORAL_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TEMPORAL/TEMPORAL_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL_FLAUTA.midi"
+            },
+            {
+              "name": "TEMPORAL_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/TEMPORAL/TEMPORAL_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL_PETE_PIRATA.midi"
+            },
+            {
+              "name": "TEMPORAL_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TEMPORAL/TEMPORAL_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL_SAX_ALTO.midi"
+            },
+            {
+              "name": "TEMPORAL_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TEMPORAL/TEMPORAL_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/TEMPOS_MODERNOS",
+          "title": "TEMPOS MODERNOS",
+          "composer": "LULU SANTOS",
+          "sub": "EU VEJO A VIDA MELHOR NO FUTURO ",
+          "mscz": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS.mscz",
+          "metajson": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS.metajson",
+          "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS.midi",
+          "parts": [
+            {
+              "name": "TEMPOS_MODERNOS_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_BONE_PIRATA.midi"
+            },
+            {
+              "name": "TEMPOS_MODERNOS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_FLAUTA.midi"
+            },
+            {
+              "name": "TEMPOS_MODERNOS_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_PETE_PIRATA.midi"
+            },
+            {
+              "name": "TEMPOS_MODERNOS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_SAX_ALTO.midi"
+            },
+            {
+              "name": "TEMPOS_MODERNOS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/TETÊ_A_SANTA",
+          "title": "TETÊ A SANTA",
+          "composer": "Miguel Javaral",
+          "sub": "DIZEM QUE A TETÊ É UMA SANTA, QUE FAZ MILAGRE E COISA E TAL",
+          "mscz": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA.mscz",
+          "metajson": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA.metajson",
+          "midi": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA.midi",
+          "parts": [
+            {
+              "name": "TETÊ_A_SANTA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_BONE-1.svg",
+              "midi": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_BONE.midi"
+            },
+            {
+              "name": "TETÊ_A_SANTA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_FLAUTA.midi"
+            },
+            {
+              "name": "TETÊ_A_SANTA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_PETE-1.svg",
+              "midi": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_PETE.midi"
+            },
+            {
+              "name": "TETÊ_A_SANTA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_SAX_ALTO.midi"
+            },
+            {
+              "name": "TETÊ_A_SANTA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TETÊ_A_SANTA/TETÊ_A_SANTA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA",
+          "title": "TOM E JERRY EM GUCA",
+          "composer": "Adapt. de Arr. de Thiago França",
+          "sub": "",
+          "mscz": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA.mscz",
+          "metajson": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA.metajson",
+          "midi": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA.midi",
+          "parts": [
+            {
+              "name": "TOM_E_JERRY_EM_GUCA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_BONE-1.svg",
+              "midi": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_BONE.midi"
+            },
+            {
+              "name": "TOM_E_JERRY_EM_GUCA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_FLAUTA.midi"
+            },
+            {
+              "name": "TOM_E_JERRY_EM_GUCA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_PETE-1.svg",
+              "midi": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_PETE.midi"
+            },
+            {
+              "name": "TOM_E_JERRY_EM_GUCA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_SAX_ALTO.midi"
+            },
+            {
+              "name": "TOM_E_JERRY_EM_GUCA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_SAX_TENOR.midi"
+            },
+            {
+              "name": "TOM_E_JERRY_EM_GUCA_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_TUBA-1.svg",
+              "midi": "carnaval bh 2025/TOM_E_JERRY_EM_GUCA/TOM_E_JERRY_EM_GUCA_TUBA.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/TREMENDO_VACILÃO",
           "title": "TREMENDO VACILÃO",
           "composer": "",
@@ -16983,6 +20061,141 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/TRISTEZA",
+          "title": "TRISTEZA",
+          "composer": "Haroldo Lobo e Niltinho",
+          "sub": "TRISTEEEÊZA, POR FAVOR VAI EMBORA!",
+          "mscz": "carnaval bh 2025/TRISTEZA/TRISTEZA.mscz",
+          "metajson": "carnaval bh 2025/TRISTEZA/TRISTEZA.metajson",
+          "midi": "carnaval bh 2025/TRISTEZA/TRISTEZA.midi",
+          "parts": [
+            {
+              "name": "TRISTEZA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/TRISTEZA/TRISTEZA_BONE-1.svg",
+              "midi": "carnaval bh 2025/TRISTEZA/TRISTEZA_BONE.midi"
+            },
+            {
+              "name": "TRISTEZA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TRISTEZA/TRISTEZA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TRISTEZA/TRISTEZA_FLAUTA.midi"
+            },
+            {
+              "name": "TRISTEZA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/TRISTEZA/TRISTEZA_PETE-1.svg",
+              "midi": "carnaval bh 2025/TRISTEZA/TRISTEZA_PETE.midi"
+            },
+            {
+              "name": "TRISTEZA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TRISTEZA/TRISTEZA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TRISTEZA/TRISTEZA_SAX_ALTO.midi"
+            },
+            {
+              "name": "TRISTEZA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TRISTEZA/TRISTEZA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TRISTEZA/TRISTEZA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/TURMA_DO_FUNIL",
+          "title": "TURMA DO FUNIL",
+          "composer": "Mirabeau, M. de Oliveira e U. de Castro",
+          "sub": "CHEGOU A TURMA DO FUNIL, TODO MUNDO BEBE",
+          "mscz": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL.mscz",
+          "metajson": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL.metajson",
+          "midi": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL.midi",
+          "parts": [
+            {
+              "name": "TURMA_DO_FUNIL_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_BONE-1.svg",
+              "midi": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_BONE.midi"
+            },
+            {
+              "name": "TURMA_DO_FUNIL_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_FLAUTA.midi"
+            },
+            {
+              "name": "TURMA_DO_FUNIL_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_PETE-1.svg",
+              "midi": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_PETE.midi"
+            },
+            {
+              "name": "TURMA_DO_FUNIL_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_SAX_ALTO.midi"
+            },
+            {
+              "name": "TURMA_DO_FUNIL_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TURMA_DO_FUNIL/TURMA_DO_FUNIL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/VAI_COM_JEITO",
+          "title": "VAI COM JEITO",
+          "composer": "João de Barro",
+          "sub": "VAI! COM JEITO, VAI! SENÃO, UM DIA. A CASA CAI",
+          "mscz": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO.mscz",
+          "metajson": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO.metajson",
+          "midi": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO.midi",
+          "parts": [
+            {
+              "name": "VAI_COM_JEITO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_BONE-1.svg",
+              "midi": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_BONE.midi"
+            },
+            {
+              "name": "VAI_COM_JEITO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_FLAUTA.midi"
+            },
+            {
+              "name": "VAI_COM_JEITO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_PETE-1.svg",
+              "midi": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_PETE.midi"
+            },
+            {
+              "name": "VAI_COM_JEITO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_SAX_ALTO.midi"
+            },
+            {
+              "name": "VAI_COM_JEITO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VAI_COM_JEITO/VAI_COM_JEITO_SAX_TENOR.midi"
             }
           ],
           "tags": [
@@ -17032,6 +20245,321 @@
           ],
           "tags": [
             "Axé"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/VARIAS_QUEIXAS",
+          "title": "VARIAS QUEIXAS",
+          "composer": "Gilsons",
+          "sub": "VÁRIAS QUEIXAS DE VOCÊ, POR QUE FEZ ISSO COMIGO?",
+          "mscz": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS.mscz",
+          "metajson": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS.metajson",
+          "midi": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS.midi",
+          "parts": [
+            {
+              "name": "VARIAS_QUEIXAS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_BONE-1.svg",
+              "midi": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_BONE.midi"
+            },
+            {
+              "name": "VARIAS_QUEIXAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_FLAUTA.midi"
+            },
+            {
+              "name": "VARIAS_QUEIXAS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_PETE-1.svg",
+              "midi": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_PETE.midi"
+            },
+            {
+              "name": "VARIAS_QUEIXAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "VARIAS_QUEIXAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/VASSOURINHAS",
+          "title": "VASSOURINHAS",
+          "composer": "Matias da Rocha e Joana B. Ramos",
+          "sub": "PÁÁÁ-RÁ-RÁ-RÁ-RÁ RÁ-RÁ",
+          "mscz": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS.mscz",
+          "metajson": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS.metajson",
+          "midi": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS.midi",
+          "parts": [
+            {
+              "name": "VASSOURINHAS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_BONE-1.svg",
+              "midi": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_BONE.midi"
+            },
+            {
+              "name": "VASSOURINHAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_FLAUTA.midi"
+            },
+            {
+              "name": "VASSOURINHAS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_PETE-1.svg",
+              "midi": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_PETE.midi"
+            },
+            {
+              "name": "VASSOURINHAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "VASSOURINHAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VASSOURINHAS/VASSOURINHAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/VEM_MEU_AMOR",
+          "title": "VEM MEU AMOR",
+          "composer": "Banda Eva",
+          "sub": "QUANDO EU TE VEJO, PARO LOGO EM SEU OLHAR ",
+          "mscz": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR.mscz",
+          "metajson": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR.metajson",
+          "midi": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR.midi",
+          "parts": [
+            {
+              "name": "VEM_MEU_AMOR_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_BONE-1.svg",
+              "midi": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_BONE.midi"
+            },
+            {
+              "name": "VEM_MEU_AMOR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_FLAUTA.midi"
+            },
+            {
+              "name": "VEM_MEU_AMOR_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_PETE-1.svg",
+              "midi": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_PETE.midi"
+            },
+            {
+              "name": "VEM_MEU_AMOR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_SAX_ALTO.midi"
+            },
+            {
+              "name": "VEM_MEU_AMOR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VEM_MEU_AMOR/VEM_MEU_AMOR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/VERMELHO",
+          "title": "VERMELHO",
+          "composer": "Gloria Groove",
+          "sub": "PAIXÃO, FAZ UM TEMPO EU QUERO TE ENCONTRA. TOMANDO UM VINHO ",
+          "mscz": "carnaval bh 2025/VERMELHO/VERMELHO.mscz",
+          "metajson": "carnaval bh 2025/VERMELHO/VERMELHO.metajson",
+          "midi": "carnaval bh 2025/VERMELHO/VERMELHO.midi",
+          "parts": [
+            {
+              "name": "VERMELHO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/VERMELHO/VERMELHO_BONE-1.svg",
+              "midi": "carnaval bh 2025/VERMELHO/VERMELHO_BONE.midi"
+            },
+            {
+              "name": "VERMELHO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VERMELHO/VERMELHO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VERMELHO/VERMELHO_FLAUTA.midi"
+            },
+            {
+              "name": "VERMELHO_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/VERMELHO/VERMELHO_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/VERMELHO/VERMELHO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "VERMELHO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VERMELHO/VERMELHO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VERMELHO/VERMELHO_SAX_ALTO.midi"
+            },
+            {
+              "name": "VERMELHO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VERMELHO/VERMELHO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VERMELHO/VERMELHO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/VOANDO_PRO_PARÁ",
+          "title": "VOANDO PRO PARÁ",
+          "composer": "Joelma",
+          "sub": "EU VOU TOMAR UM TACACÁ / DANÇAR, CURTIR, FICAR DE BOA",
+          "mscz": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ.mscz",
+          "metajson": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ.metajson",
+          "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ.midi",
+          "parts": [
+            {
+              "name": "VOANDO_PRO_PARÁ_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_BONE_PIRATA.midi"
+            },
+            {
+              "name": "VOANDO_PRO_PARÁ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_FLAUTA.midi"
+            },
+            {
+              "name": "VOANDO_PRO_PARÁ_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_PETE_PIRATA.midi"
+            },
+            {
+              "name": "VOANDO_PRO_PARÁ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_SAX_ALTO.midi"
+            },
+            {
+              "name": "VOANDO_PRO_PARÁ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/VOU_FESTEJAR",
+          "title": "VOU FESTEJAR",
+          "composer": "Beth Carvalho",
+          "sub": "CHORA, NÃO VOU LIGAR. NÃO VOU LIGAR",
+          "mscz": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR.mscz",
+          "metajson": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR.metajson",
+          "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR.midi",
+          "parts": [
+            {
+              "name": "VOU_FESTEJAR_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_BONE_PIRATA.midi"
+            },
+            {
+              "name": "VOU_FESTEJAR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_FLAUTA.midi"
+            },
+            {
+              "name": "VOU_FESTEJAR_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_PETE_PIRATA.midi"
+            },
+            {
+              "name": "VOU_FESTEJAR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_SAX_ALTO.midi"
+            },
+            {
+              "name": "VOU_FESTEJAR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/É_DOXUM",
+          "title": "É DOXUM",
+          "composer": "Geronimo Santana",
+          "sub": "NESSA CIDADE TODO MUNDO É D'OXUM",
+          "mscz": "carnaval bh 2025/É_DOXUM/É_DOXUM.mscz",
+          "metajson": "carnaval bh 2025/É_DOXUM/É_DOXUM.metajson",
+          "midi": "carnaval bh 2025/É_DOXUM/É_DOXUM.midi",
+          "parts": [
+            {
+              "name": "É_DOXUM_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/É_DOXUM/É_DOXUM_BONE-1.svg",
+              "midi": "carnaval bh 2025/É_DOXUM/É_DOXUM_BONE.midi"
+            },
+            {
+              "name": "É_DOXUM_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/É_DOXUM/É_DOXUM_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/É_DOXUM/É_DOXUM_FLAUTA.midi"
+            },
+            {
+              "name": "É_DOXUM_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/É_DOXUM/É_DOXUM_PETE-1.svg",
+              "midi": "carnaval bh 2025/É_DOXUM/É_DOXUM_PETE.midi"
+            },
+            {
+              "name": "É_DOXUM_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/É_DOXUM/É_DOXUM_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/É_DOXUM/É_DOXUM_SAX_ALTO.midi"
+            },
+            {
+              "name": "É_DOXUM_SAX_TERNOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/É_DOXUM/É_DOXUM_SAX_TERNOR-1.svg",
+              "midi": "carnaval bh 2025/É_DOXUM/É_DOXUM_SAX_TERNOR.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -22513,6 +26041,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-06T02:05:37.744Z",
+  "scrapedAt": "2025-01-06T02:47:42.343Z",
   "version": 2
 }
