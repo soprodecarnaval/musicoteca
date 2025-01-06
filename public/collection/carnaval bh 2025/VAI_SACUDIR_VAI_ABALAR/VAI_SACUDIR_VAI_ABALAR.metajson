@@ -1,19 +1,19 @@
 {
-    "composer": "Claudinho e Buchecha",
+    "composer": "Cheiro de Amor",
     "duration": 188,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": -2,
     "lyrics": "",
-    "measures": 40,
+    "measures": 39,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
-        "twosided": "false",
+        "twosided": "true",
         "width": 210
     },
-    "pages": 6,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Alto Saxophone",
             "program": 65
         },
         {
@@ -45,7 +45,7 @@
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
+            "name": "Tenor Saxophone",
             "program": 66
         },
         {
@@ -56,7 +56,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete em B♭",
+            "name": "B♭ Trumpet",
             "program": 56
         },
         {
@@ -71,8 +71,8 @@
             "program": 57
         }
     ],
-    "poet": "Funk",
-    "previousSource": "Quero de novo com você.\nMe atracar com gosto. Corpo, alma e coração, oh oh oh",
+    "poet": "Axé",
+    "previousSource": "Vai sacudir. Vai abalar. Quando o meu amor passar",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "SÓ_LOVE"
+    "title": "Vai Sacudir, Vai Abalar"
 }
