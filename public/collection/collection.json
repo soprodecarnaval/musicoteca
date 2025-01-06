@@ -16271,6 +16271,51 @@
       "title": "carnaval bh 2025",
       "scores": [
         {
+          "id": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA",
+          "title": "ALALA Ô ZE PEREIRA",
+          "composer": "Nássara e Haroldo Lobo",
+          "sub": "ALLAH-LÁ-Ô, Ô Ô Ô Ô Ô Ô. MAS QUE CALOR Ô Ô Ô Ô Ô Ô",
+          "mscz": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA.mscz",
+          "metajson": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA.metajson",
+          "midi": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA.midi",
+          "parts": [
+            {
+              "name": "ALALA_Ô_ZE_PEREIRA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_BONE-1.svg",
+              "midi": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_BONE.midi"
+            },
+            {
+              "name": "ALALA_Ô_ZE_PEREIRA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_FLAUTA.midi"
+            },
+            {
+              "name": "ALALA_Ô_ZE_PEREIRA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_PETE-1.svg",
+              "midi": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_PETE.midi"
+            },
+            {
+              "name": "ALALA_Ô_ZE_PEREIRA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_SAX_ALTO.midi"
+            },
+            {
+              "name": "ALALA_Ô_ZE_PEREIRA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ALALA_Ô_ZE_PEREIRA/ALALA_Ô_ZE_PEREIRA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Marchinha"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/BANHO_DE_FOLHAS",
           "title": "BANHO DE FOLHAS",
           "composer": "Luedji Luna e Emillie Lapa",
@@ -16537,6 +16582,96 @@
           ],
           "tags": [
             "Beagá"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/SÓ_LOVE",
+          "title": "SÓ LOVE",
+          "composer": "",
+          "sub": "/tmp/audiveris-a4cefe8915ac4e60d0b65e62032a99ad/score.pdf",
+          "mscz": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE.mscz",
+          "metajson": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE.metajson",
+          "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE.midi",
+          "parts": [
+            {
+              "name": "SÓ_LOVE_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_BONE_PIRATA.midi"
+            },
+            {
+              "name": "SÓ_LOVE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_FLAUTA.midi"
+            },
+            {
+              "name": "SÓ_LOVE_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_PETE_PIRATA.midi"
+            },
+            {
+              "name": "SÓ_LOVE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_SAX_ALTO.midi"
+            },
+            {
+              "name": "SÓ_LOVE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/É_TARDE_DEMAIS",
+          "title": "É TARDE DEMAIS",
+          "composer": "Raça Negra",
+          "sub": "Olha só você .. Hoje é você quem está sofrendo, amor .. Você jogou fora ",
+          "mscz": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS.mscz",
+          "metajson": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS.metajson",
+          "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS.midi",
+          "parts": [
+            {
+              "name": "É_TARDE_DEMAIS_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_BONE_PIRATA.midi"
+            },
+            {
+              "name": "É_TARDE_DEMAIS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_FLAUTA.midi"
+            },
+            {
+              "name": "É_TARDE_DEMAIS_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_PETE_PIRATA.midi"
+            },
+            {
+              "name": "É_TARDE_DEMAIS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_SAX_ALTO.midi"
+            },
+            {
+              "name": "É_TARDE_DEMAIS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Pagode"
           ],
           "projectTitle": "carnaval bh 2025"
         }
@@ -21973,6 +22108,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-05T00:02:15.950Z",
+  "scrapedAt": "2025-01-06T01:48:00.138Z",
   "version": 2
 }
