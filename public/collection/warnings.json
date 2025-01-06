@@ -1,0 +1,16 @@
+[
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "voce_me_vira_a_cabeca_Bb_Trumpet-2",
+      "entryPath": "/tmp/collection/zagateile/voce_me_vira_a_cabeca/voce_me_vira_a_cabeca_Bb_Trumpet-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "voce_me_vira_a_cabeca_Trombone-2",
+      "entryPath": "/tmp/collection/zagateile/voce_me_vira_a_cabeca/voce_me_vira_a_cabeca_Trombone-2.svg"
+    }
+  }
+]
