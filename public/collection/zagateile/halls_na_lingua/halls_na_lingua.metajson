@@ -89,14 +89,12 @@
     "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 140</b>",
     "textFramesData": {
         "composers": [
-            "Gordão do PC"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "Halls na Língua"
         ]
     },
     "timesig": "4/4",

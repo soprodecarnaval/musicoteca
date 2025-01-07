@@ -9,7 +9,7 @@
     "measures": 21,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 170,
         "twosided": "true",
         "width": 297
     },
@@ -84,7 +84,6 @@
         "subtitles": [
         ],
         "titles": [
-            "Abaixa que eh tiro"
         ]
     },
     "timesig": "4/4",

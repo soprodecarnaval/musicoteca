@@ -89,14 +89,12 @@
     "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 110</b>",
     "textFramesData": {
         "composers": [
-            "Alcione"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "Você me Vira a Cabeça"
         ]
     },
     "timesig": "4/4",

@@ -9,9 +9,9 @@
     "measures": 24,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 170,
         "twosided": "true",
-        "width": 210
+        "width": 297
     },
     "pages": 4,
     "parts": [
@@ -78,14 +78,12 @@
     "tempoText": "",
     "textFramesData": {
         "composers": [
-            "Ivete Sangalo"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "Macetando"
         ]
     },
     "timesig": "4/4",

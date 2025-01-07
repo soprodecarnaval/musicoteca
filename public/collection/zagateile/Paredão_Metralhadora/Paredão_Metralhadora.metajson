@@ -9,9 +9,9 @@
     "measures": 41,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 170,
         "twosided": "true",
-        "width": 210
+        "width": 297
     },
     "pages": 3,
     "parts": [
@@ -89,14 +89,12 @@
     "tempoText": "",
     "textFramesData": {
         "composers": [
-            "Vingadora"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "Paredão Metralhadora"
         ]
     },
     "timesig": "2/4",

@@ -9,9 +9,9 @@
     "measures": 38,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 170,
         "twosided": "true",
-        "width": 210
+        "width": 297
     },
     "pages": 5,
     "parts": [
@@ -89,14 +89,12 @@
     "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 115</b>",
     "textFramesData": {
         "composers": [
-            "Wesley Safadao"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "Camarote"
         ]
     },
     "timesig": "4/4",

@@ -9,9 +9,9 @@
     "measures": 10,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 170,
         "twosided": "true",
-        "width": 210
+        "width": 297
     },
     "pages": 2,
     "parts": [
@@ -111,14 +111,12 @@
     "tempoText": "",
     "textFramesData": {
         "composers": [
-            "Leo Santana"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "Vai dar PT"
         ]
     },
     "timesig": "4/4",

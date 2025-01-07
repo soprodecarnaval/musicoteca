@@ -9,11 +9,11 @@
     "measures": 23,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 170,
         "twosided": "true",
-        "width": 210
+        "width": 297
     },
-    "pages": 8,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
@@ -111,14 +111,12 @@
     "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 110</b>",
     "textFramesData": {
         "composers": [
-            "Harmonia do Samba"
         ],
         "poets": [
         ],
         "subtitles": [
         ],
         "titles": [
-            "Daquele Jeito"
         ]
     },
     "timesig": "4/4",
