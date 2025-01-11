@@ -18707,6 +18707,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/MISIRLOU",
+          "title": "MISIRLOU",
+          "composer": "Michalis Patrinos\nArr. William Alves",
+          "sub": "I LOVE YOU, PUMPKIN. I LOVE YOU, HONEY BUNNY",
+          "mscz": "carnaval bh 2025/MISIRLOU/MISIRLOU.mscz",
+          "metajson": "carnaval bh 2025/MISIRLOU/MISIRLOU.metajson",
+          "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU.midi",
+          "parts": [
+            {
+              "name": "MISIRLOU_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/MISIRLOU/MISIRLOU_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU_BONE_PIRATA.midi"
+            },
+            {
+              "name": "MISIRLOU_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MISIRLOU/MISIRLOU_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU_FLAUTA.midi"
+            },
+            {
+              "name": "MISIRLOU_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/MISIRLOU/MISIRLOU_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU_PETE_PIRATA.midi"
+            },
+            {
+              "name": "MISIRLOU_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MISIRLOU/MISIRLOU_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU_SAX_ALTO.midi"
+            },
+            {
+              "name": "MISIRLOU_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MISIRLOU/MISIRLOU_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Moments"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/MONTSERRAT_SERRAT",
           "title": "MONTSERRAT SERRAT",
           "composer": "Hungry March Band",
@@ -26787,6 +26832,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T00:15:42.269Z",
+  "scrapedAt": "2025-01-11T01:09:20.277Z",
   "version": 2
 }
