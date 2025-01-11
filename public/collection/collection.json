@@ -18707,6 +18707,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/MALHA_FUNK",
+          "title": "MALHA FUNK",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.mscz",
+          "metajson": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.metajson",
+          "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.midi",
+          "parts": [
+            {
+              "name": "MALHA_FUNK_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_BONE_PIRATA.midi"
+            },
+            {
+              "name": "MALHA_FUNK_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_FLAUTA.midi"
+            },
+            {
+              "name": "MALHA_FUNK_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_PETE_PIRATA.midi"
+            },
+            {
+              "name": "MALHA_FUNK_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_SAX_ALTO.midi"
+            },
+            {
+              "name": "MALHA_FUNK_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/MAL_ACOSTUMADO",
           "title": "MAL ACOSTUMADO",
           "composer": "Araketu",
@@ -27147,6 +27192,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T04:43:56.093Z",
+  "scrapedAt": "2025-01-11T05:17:32.075Z",
   "version": 2
 }
