@@ -19793,6 +19793,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/RECONVEXO",
+          "title": "RECONVEXO",
+          "composer": "Caetano Veloso",
+          "sub": "",
+          "mscz": "carnaval bh 2025/RECONVEXO/RECONVEXO.mscz",
+          "metajson": "carnaval bh 2025/RECONVEXO/RECONVEXO.metajson",
+          "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO.midi",
+          "parts": [
+            {
+              "name": "RECONVEXO_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_BONE-1.svg",
+              "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_BONE.midi"
+            },
+            {
+              "name": "RECONVEXO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_FLAUTA.midi"
+            },
+            {
+              "name": "RECONVEXO_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_PETE-1.svg",
+              "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_PETE.midi"
+            },
+            {
+              "name": "RECONVEXO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_SAX_ALTO.midi"
+            },
+            {
+              "name": "RECONVEXO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/RETALHOS_DE_CETIM",
           "title": "RETALHOS DE CETIM",
           "composer": "Benito de Paula",
@@ -26967,6 +27012,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T02:56:42.145Z",
+  "scrapedAt": "2025-01-11T03:37:56.519Z",
   "version": 2
 }
