@@ -20288,6 +20288,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/SEXY_YEMANJÁ",
+          "title": "SEXY YEMANJÁ",
+          "composer": "Pepeu Gomes",
+          "sub": "http://musescore.com/user/26619051/scores/10431844",
+          "mscz": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ.mscz",
+          "metajson": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ.metajson",
+          "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ.midi",
+          "parts": [
+            {
+              "name": "SEXY_YEMANJÁ_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_BONE_PIRATA.midi"
+            },
+            {
+              "name": "SEXY_YEMANJÁ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_FLAUTA.midi"
+            },
+            {
+              "name": "SEXY_YEMANJÁ_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_PETE_PIRATA.midi"
+            },
+            {
+              "name": "SEXY_YEMANJÁ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_SAX_ALTO.midi"
+            },
+            {
+              "name": "SEXY_YEMANJÁ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/SINA",
           "title": "SINA",
           "composer": "Djavan",
@@ -27417,6 +27462,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T15:44:15.342Z",
+  "scrapedAt": "2025-01-11T16:13:54.590Z",
   "version": 2
 }
