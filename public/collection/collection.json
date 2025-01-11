@@ -20474,6 +20474,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/TOURADAS_DE_MADRI",
+          "title": "TOURADAS DE MADRI",
+          "composer": "João de Barro",
+          "sub": "",
+          "mscz": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.mscz",
+          "metajson": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.metajson",
+          "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.midi",
+          "parts": [
+            {
+              "name": "TOURADAS_DE_MADRI_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_BONE-1.svg",
+              "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_BONE.midi"
+            },
+            {
+              "name": "TOURADAS_DE_MADRI_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_FLAUTA.midi"
+            },
+            {
+              "name": "TOURADAS_DE_MADRI_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_PETE-1.svg",
+              "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_PETE.midi"
+            },
+            {
+              "name": "TOURADAS_DE_MADRI_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_SAX_ALTO.midi"
+            },
+            {
+              "name": "TOURADAS_DE_MADRI_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/TREMENDO_VACILÃO",
           "title": "TREMENDO VACILÃO",
           "composer": "",
@@ -27237,6 +27282,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T13:15:31.110Z",
+  "scrapedAt": "2025-01-11T14:32:21.779Z",
   "version": 2
 }
