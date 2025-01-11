@@ -19973,6 +19973,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/POCHETE",
+          "title": "POCHETE",
+          "composer": "Lamparina",
+          "sub": "",
+          "mscz": "carnaval bh 2025/POCHETE/POCHETE.mscz",
+          "metajson": "carnaval bh 2025/POCHETE/POCHETE.metajson",
+          "midi": "carnaval bh 2025/POCHETE/POCHETE.midi",
+          "parts": [
+            {
+              "name": "POCHETE_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/POCHETE/POCHETE_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/POCHETE/POCHETE_BONE_PIRATA.midi"
+            },
+            {
+              "name": "POCHETE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/POCHETE/POCHETE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/POCHETE/POCHETE_FLAUTA.midi"
+            },
+            {
+              "name": "POCHETE_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/POCHETE/POCHETE_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/POCHETE/POCHETE_PETE_PIRATA.midi"
+            },
+            {
+              "name": "POCHETE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/POCHETE/POCHETE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/POCHETE/POCHETE_SAX_ALTO.midi"
+            },
+            {
+              "name": "POCHETE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/POCHETE/POCHETE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/POCHETE/POCHETE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO",
           "title": "PRAIA DA ESTAÇÃO",
           "composer": "Ommar Motta",
@@ -27642,6 +27687,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T20:14:10.459Z",
+  "scrapedAt": "2025-01-11T20:40:45.953Z",
   "version": 2
 }
