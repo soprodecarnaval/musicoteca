@@ -19883,6 +19883,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/PAÍS_TROPICAL",
+          "title": "PAÍS TROPICAL",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL.mscz",
+          "metajson": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL.metajson",
+          "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL.midi",
+          "parts": [
+            {
+              "name": "PAÍS_TROPICAL_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_BONE_PIRATA.midi"
+            },
+            {
+              "name": "PAÍS_TROPICAL_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_FLAUTA.midi"
+            },
+            {
+              "name": "PAÍS_TROPICAL_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_PETE_PIRATA.midi"
+            },
+            {
+              "name": "PAÍS_TROPICAL_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_SAX_ALTO.midi"
+            },
+            {
+              "name": "PAÍS_TROPICAL_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/PEQUENA_EVA",
           "title": "PEQUENA EVA",
           "composer": "Umberto Tozzi/Banda Eva",
@@ -27597,6 +27642,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T19:56:35.261Z",
+  "scrapedAt": "2025-01-11T20:14:10.459Z",
   "version": 2
 }
