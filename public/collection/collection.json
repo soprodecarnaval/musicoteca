@@ -18347,6 +18347,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/HOTSTEPPER",
+          "title": "HOTSTEPPER",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER.mscz",
+          "metajson": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER.metajson",
+          "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER.midi",
+          "parts": [
+            {
+              "name": "HOTSTEPPER_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_BONE_PIRATA.midi"
+            },
+            {
+              "name": "HOTSTEPPER_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_FLAUTA.midi"
+            },
+            {
+              "name": "HOTSTEPPER_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_PETE_PIRATA.midi"
+            },
+            {
+              "name": "HOTSTEPPER_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_SAX_ALTO.midi"
+            },
+            {
+              "name": "HOTSTEPPER_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/JARDINEIRA",
           "title": "JARDINEIRA",
           "composer": "Benedito Lacerdo e Humberto Porto",
@@ -27057,6 +27102,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T03:54:29.361Z",
+  "scrapedAt": "2025-01-11T04:15:35.757Z",
   "version": 2
 }
