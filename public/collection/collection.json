@@ -18077,6 +18077,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/DO_WHATCHA_WANNA",
+          "title": "DO WHATCHA WANNA",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA.mscz",
+          "metajson": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA.metajson",
+          "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA.midi",
+          "parts": [
+            {
+              "name": "DO_WHATCHA_WANNA_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "DO_WHATCHA_WANNA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_FLAUTA.midi"
+            },
+            {
+              "name": "DO_WHATCHA_WANNA_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "DO_WHATCHA_WANNA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_SAX_ALTO.midi"
+            },
+            {
+              "name": "DO_WHATCHA_WANNA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/ELA_É_TOP",
           "title": "ELA É TOP",
           "composer": "Mc Bola, DJ Gao",
@@ -27327,6 +27372,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T14:55:47.028Z",
+  "scrapedAt": "2025-01-11T15:40:30.439Z",
   "version": 2
 }
