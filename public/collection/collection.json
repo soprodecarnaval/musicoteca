@@ -19883,6 +19883,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/PEQUENA_EVA",
+          "title": "PEQUENA EVA",
+          "composer": "Umberto Tozzi/Banda Eva",
+          "sub": "MEU AMOR, OLHA SÓ HOJE O SOL NÃO APARECEU",
+          "mscz": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA.mscz",
+          "metajson": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA.metajson",
+          "midi": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA.midi",
+          "parts": [
+            {
+              "name": "PEQUENA_EVA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_BONE-1.svg",
+              "midi": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_BONE.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_FLAUTA.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_PETE-1.svg",
+              "midi": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_PETE.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_SAX_ALTO.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_TENOR-1.svg",
+              "midi": "carnaval bh 2025/PEQUENA_EVA/PEQUENA_EVA_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/PRAIA_DA_ESTAÇÃO",
           "title": "PRAIA DA ESTAÇÃO",
           "composer": "Ommar Motta",
@@ -27507,6 +27552,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T18:59:51.149Z",
+  "scrapedAt": "2025-01-11T19:24:52.838Z",
   "version": 2
 }
