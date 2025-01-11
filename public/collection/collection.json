@@ -18437,6 +18437,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/KILARIÔ",
+          "title": "KILARIÔ",
+          "composer": "KILARIO",
+          "sub": "",
+          "mscz": "carnaval bh 2025/KILARIÔ/KILARIÔ.mscz",
+          "metajson": "carnaval bh 2025/KILARIÔ/KILARIÔ.metajson",
+          "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ.midi",
+          "parts": [
+            {
+              "name": "KILARIÔ_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/KILARIÔ/KILARIÔ_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ_BONE_PIRATA.midi"
+            },
+            {
+              "name": "KILARIÔ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/KILARIÔ/KILARIÔ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ_FLAUTA.midi"
+            },
+            {
+              "name": "KILARIÔ_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/KILARIÔ/KILARIÔ_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ_PETE_PIRATA.midi"
+            },
+            {
+              "name": "KILARIÔ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/KILARIÔ/KILARIÔ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ_SAX_ALTO.midi"
+            },
+            {
+              "name": "KILARIÔ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/KILARIÔ/KILARIÔ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/LADEIRA_ABAIXO",
           "title": "LADEIRA ABAIXO",
           "composer": "Gabriel Fonseca",
@@ -26922,6 +26967,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T02:39:49.857Z",
+  "scrapedAt": "2025-01-11T02:56:42.145Z",
   "version": 2
 }
