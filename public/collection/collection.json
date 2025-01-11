@@ -19112,6 +19112,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA",
+          "title": "ME ABRAÇA E ME BEIJA",
+          "composer": "Ivete Sangalo",
+          "sub": "QUANDO VOCÊ PASSA EU SINTO O SEU CHEIRO",
+          "mscz": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA.mscz",
+          "metajson": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA.metajson",
+          "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA.midi",
+          "parts": [
+            {
+              "name": "ME_ABRAÇA_E_ME_BEIJA_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ME_ABRAÇA_E_ME_BEIJA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_FLAUTA.midi"
+            },
+            {
+              "name": "ME_ABRAÇA_E_ME_BEIJA_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ME_ABRAÇA_E_ME_BEIJA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_SAX_ALTO.midi"
+            },
+            {
+              "name": "ME_ABRAÇA_E_ME_BEIJA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Axé"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/MISIRLOU",
           "title": "MISIRLOU",
           "composer": "Michalis Patrinos\nArr. William Alves",
@@ -27372,6 +27417,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T15:40:30.439Z",
+  "scrapedAt": "2025-01-11T15:44:15.342Z",
   "version": 2
 }
