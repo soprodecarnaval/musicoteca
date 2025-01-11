@@ -17852,6 +17852,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO",
+          "title": "CORONÉ ANTÔNIO BENTO",
+          "composer": "João do Vale e Luiz Wanderley",
+          "sub": "http://musescore.com/user/72615103/scores/12610786",
+          "mscz": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO.mscz",
+          "metajson": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO.metajson",
+          "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO.midi",
+          "parts": [
+            {
+              "name": "CORONÉ_ANTÔNIO_BENTO_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_BONE_PIRATA.midi"
+            },
+            {
+              "name": "CORONÉ_ANTÔNIO_BENTO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_FLAUTA.midi"
+            },
+            {
+              "name": "CORONÉ_ANTÔNIO_BENTO_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "CORONÉ_ANTÔNIO_BENTO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_SAX_ALTO.midi"
+            },
+            {
+              "name": "CORONÉ_ANTÔNIO_BENTO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/CORTE_DEVASSA",
           "title": "CORTE DEVASSA",
           "composer": "Bloco Corte Devassa",
@@ -27192,6 +27237,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T05:17:32.075Z",
+  "scrapedAt": "2025-01-11T05:24:11.862Z",
   "version": 2
 }
