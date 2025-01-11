@@ -18167,6 +18167,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/ENTÃO_BRILHA",
+          "title": "ENTÃO BRILHA",
+          "composer": "",
+          "sub": "UM RAIO DE LUZ / SE ABRIU NO CLARÃO / ESTRELA DA MANHÃ / ME DÊ A MÃO",
+          "mscz": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA.mscz",
+          "metajson": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA.metajson",
+          "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA.midi",
+          "parts": [
+            {
+              "name": "ENTÃO_BRILHA_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ENTÃO_BRILHA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_FLAUTA.midi"
+            },
+            {
+              "name": "ENTÃO_BRILHA_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ENTÃO_BRILHA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_SAX_ALTO.midi"
+            },
+            {
+              "name": "ENTÃO_BRILHA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE",
           "title": "EU E VOCÊ SEMPRE",
           "composer": "jorge Aragão",
@@ -27282,6 +27327,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T14:32:21.779Z",
+  "scrapedAt": "2025-01-11T14:55:47.028Z",
   "version": 2
 }
