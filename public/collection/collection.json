@@ -20468,6 +20468,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/SÓ_FÉ",
+          "title": "SÓ FÉ",
+          "composer": "Arranjo: Mychel M D Pereira",
+          "sub": "http://musescore.com/user/66962335/scores/20335609",
+          "mscz": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ.mscz",
+          "metajson": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ.metajson",
+          "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ.midi",
+          "parts": [
+            {
+              "name": "SÓ_FÉ_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_BONE_PIRATA.midi"
+            },
+            {
+              "name": "SÓ_FÉ_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_FLAUTA.midi"
+            },
+            {
+              "name": "SÓ_FÉ_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_PETE_PIRATA.midi"
+            },
+            {
+              "name": "SÓ_FÉ_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_SAX_ALTO.midi"
+            },
+            {
+              "name": "SÓ_FÉ_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Grelo"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/SÓ_LOVE",
           "title": "SÓ LOVE",
           "composer": "Claudinho e Buchecha",
@@ -27552,6 +27597,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T19:24:52.838Z",
+  "scrapedAt": "2025-01-11T19:56:35.261Z",
   "version": 2
 }
