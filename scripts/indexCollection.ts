@@ -98,7 +98,7 @@ const scrapeMediaAsset = (
 };
 
 const normalizeSongTitle = (songTitle: string): string => {
-  return songTitle.replace(/_/g, " ");
+  return songTitle.toLowerCase().replace(/_/g, " ");
 };
 
 const indexScore = (
