@@ -1,19 +1,19 @@
 {
     "composer": "Bon Jovi",
-    "duration": 128,
+    "duration": 112,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -5,
     "lyrics": "",
-    "measures": 29,
+    "measures": 25,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 5,
+    "pages": 3,
     "parts": [
         {
             "harmonyCount": 0,
