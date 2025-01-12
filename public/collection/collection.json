@@ -18527,6 +18527,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA",
+          "title": "FILHOS DE TCHA TCHA",
+          "composer": "LG Lopes, JL Braga,\nF. Mafra e Y. Vellasco",
+          "sub": "",
+          "mscz": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA.mscz",
+          "metajson": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA.metajson",
+          "midi": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA.midi",
+          "parts": [
+            {
+              "name": "FILHOS_DE_TCHA_TCHA_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_BONE-1.svg",
+              "midi": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_BONE.midi"
+            },
+            {
+              "name": "FILHOS_DE_TCHA_TCHA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_FLAUTA.midi"
+            },
+            {
+              "name": "FILHOS_DE_TCHA_TCHA_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_PETE-1.svg",
+              "midi": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_PETE.midi"
+            },
+            {
+              "name": "FILHOS_DE_TCHA_TCHA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_SAX_ALTO.midi"
+            },
+            {
+              "name": "FILHOS_DE_TCHA_TCHA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA/FILHOS_DE_TCHA_TCHA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/FORASTEIRO",
           "title": "FORASTEIRO",
           "composer": "BaianaSystem",
@@ -27971,6 +28016,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-12T01:43:58.981Z",
+  "scrapedAt": "2025-01-12T02:50:20.228Z",
   "version": 2
 }
