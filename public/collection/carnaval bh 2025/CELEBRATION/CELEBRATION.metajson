@@ -1,11 +1,11 @@
 {
     "composer": "Kool & the Gang",
-    "duration": 74,
+    "duration": 138,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "true",
     "keysig": -4,
-    "lyrics": "Celebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a dedication a \n\nCelebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a dedication a \n\nCelebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a dedication a \n\nCelebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a",
+    "lyrics": "Celebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a dedication a \n\nCelebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a dedication a \n\nCelebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a dedication a \n\nCelebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a \n\nCelebrate good times, come on! Let's celebrate! Celebrate good times, come on! Let's celebrate! There's a party goin' on right here, a celebration to last throughout the years. So bring your good times and your laughter too, we gonn' celebrate your party with you. Come on, now! Celebration! Let's all celebrate and have a good time. Celebration! We're gonna celebrate and have a good time. It's time to come together, it's up to you, what's your pleasure? Everyone around the world, come on! a dedication a",
     "measures": 35,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
@@ -16,7 +16,7 @@
     "pages": 3,
     "parts": [
         {
-            "harmonyCount": 2,
+            "harmonyCount": 6,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 2,
+            "harmonyCount": 6,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -38,7 +38,7 @@
             "program": 65
         },
         {
-            "harmonyCount": 6,
+            "harmonyCount": 10,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,7 +49,7 @@
             "program": 66
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 4,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -60,13 +60,13 @@
             "program": 56
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 10,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "brass.trombone",
             "isVisible": "true",
-            "lyricCount": 0,
+            "lyricCount": 124,
             "name": "Trombone",
             "program": 57
         }
