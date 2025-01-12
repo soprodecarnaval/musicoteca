@@ -20783,6 +20783,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/SOUL_FINGER",
+          "title": "SOUL FINGER",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER.mscz",
+          "metajson": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER.metajson",
+          "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER.midi",
+          "parts": [
+            {
+              "name": "SOUL_FINGER_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_BONE_PIRATA.midi"
+            },
+            {
+              "name": "SOUL_FINGER_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_FLAUTA.midi"
+            },
+            {
+              "name": "SOUL_FINGER_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_PETE_PIRATA.midi"
+            },
+            {
+              "name": "SOUL_FINGER_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_SAX_ALTO.midi"
+            },
+            {
+              "name": "SOUL_FINGER_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/SÓ_FÉ",
           "title": "SÓ FÉ",
           "composer": "É o Grelo",
@@ -27926,6 +27971,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-12T01:25:37.004Z",
+  "scrapedAt": "2025-01-12T01:43:58.981Z",
   "version": 2
 }
