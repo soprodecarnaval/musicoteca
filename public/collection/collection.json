@@ -20740,8 +20740,8 @@
         {
           "id": "carnaval bh 2025/SÓ_FÉ",
           "title": "SÓ FÉ",
-          "composer": "Arranjo: Mychel M D Pereira",
-          "sub": "http://musescore.com/user/66962335/scores/20335609",
+          "composer": "É o Grelo",
+          "sub": "LAVEI MEU ROSTO NAS ÁGUAS SAGRADAS DA PIA",
           "mscz": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ.mscz",
           "metajson": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ.metajson",
           "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ.midi",
@@ -20778,7 +20778,7 @@
             }
           ],
           "tags": [
-            "Grelo"
+            "Odara"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -27881,6 +27881,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-12T01:12:49.833Z",
+  "scrapedAt": "2025-01-12T01:22:23.987Z",
   "version": 2
 }
