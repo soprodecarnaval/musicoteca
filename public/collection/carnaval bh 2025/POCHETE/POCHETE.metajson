@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 210
     },
-    "pages": 8,
+    "pages": 6,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,21 +69,10 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.tuba",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Tuba",
-            "program": 58
         }
     ],
     "poet": "EBb",
-    "previousSource": "",
+    "previousSource": "VOCÊ SEMPRE DISSE QUE POR MIM FAZIA",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
