@@ -21644,6 +21644,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/VIDEOSHOW",
+          "title": "VIDEOSHOW",
+          "composer": "Michael Jackson",
+          "sub": "",
+          "mscz": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW.mscz",
+          "metajson": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW.metajson",
+          "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW.midi",
+          "parts": [
+            {
+              "name": "VIDEOSHOW_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_BONE_PIRATA.midi"
+            },
+            {
+              "name": "VIDEOSHOW_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_FLAUTA.midi"
+            },
+            {
+              "name": "VIDEOSHOW_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_PETE_PIRATA.midi"
+            },
+            {
+              "name": "VIDEOSHOW_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_SAX_ALTO.midi"
+            },
+            {
+              "name": "VIDEOSHOW_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/VOANDO_PRO_PARÁ",
           "title": "VOANDO PRO PARÁ",
           "composer": "Joelma",
@@ -28016,6 +28061,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-12T02:50:20.228Z",
+  "scrapedAt": "2025-01-12T03:37:06.928Z",
   "version": 2
 }
