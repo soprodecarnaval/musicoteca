@@ -17261,6 +17261,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/BUYO",
+          "title": "BUYO",
+          "composer": "Lucky Chops",
+          "sub": "",
+          "mscz": "carnaval bh 2025/BUYO/BUYO.mscz",
+          "metajson": "carnaval bh 2025/BUYO/BUYO.metajson",
+          "midi": "carnaval bh 2025/BUYO/BUYO.midi",
+          "parts": [
+            {
+              "name": "BUYO_BONE_PIRATA",
+              "instrument": "trombone pirata",
+              "svg": "carnaval bh 2025/BUYO/BUYO_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/BUYO/BUYO_BONE_PIRATA.midi"
+            },
+            {
+              "name": "BUYO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/BUYO/BUYO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/BUYO/BUYO_FLAUTA.midi"
+            },
+            {
+              "name": "BUYO_PETE_PIRATA",
+              "instrument": "trompete pirata",
+              "svg": "carnaval bh 2025/BUYO/BUYO_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/BUYO/BUYO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "BUYO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/BUYO/BUYO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/BUYO/BUYO_SAX_ALTO.midi"
+            },
+            {
+              "name": "BUYO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/BUYO/BUYO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/BUYO/BUYO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "EBb"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/CABELEIRA_DA_ED_MARTE",
           "title": "CABELEIRA DA ED MARTE",
           "composer": "João Roberto Kelly\ne Roberto Faissal",
@@ -27881,6 +27926,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-12T01:22:23.987Z",
+  "scrapedAt": "2025-01-12T01:25:37.004Z",
   "version": 2
 }
