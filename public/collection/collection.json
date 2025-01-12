@@ -919,7 +919,7 @@
           "parts": [
             {
               "name": "a_banda_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/a_banda/a_banda_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/a_banda/a_banda_BONE_COM_PIRATA.midi"
             },
@@ -937,7 +937,7 @@
             },
             {
               "name": "a_banda_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/a_banda/a_banda_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/a_banda/a_banda_PETE_COM_PIRATA.midi"
             },
@@ -976,7 +976,7 @@
           "parts": [
             {
               "name": "a_filha_da_chiquita_bacana_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/a_filha_da_chiquita_bacana/a_filha_da_chiquita_bacana_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/a_filha_da_chiquita_bacana/a_filha_da_chiquita_bacana_BONE_COM_PIRATA.midi"
             },
@@ -994,7 +994,7 @@
             },
             {
               "name": "a_filha_da_chiquita_bacana_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/a_filha_da_chiquita_bacana/a_filha_da_chiquita_bacana_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/a_filha_da_chiquita_bacana/a_filha_da_chiquita_bacana_PETE_COM_PIRATA.midi"
             },
@@ -1033,7 +1033,7 @@
           "parts": [
             {
               "name": "a_luz_de_tieta_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/a_luz_de_tieta/a_luz_de_tieta_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/a_luz_de_tieta/a_luz_de_tieta_BONE_COM_PIRATA.midi"
             },
@@ -1051,7 +1051,7 @@
             },
             {
               "name": "a_luz_de_tieta_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/a_luz_de_tieta/a_luz_de_tieta_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/a_luz_de_tieta/a_luz_de_tieta_PETE_COM_PIRATA.midi"
             },
@@ -1090,7 +1090,7 @@
           "parts": [
             {
               "name": "a_rita_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/a_rita/a_rita_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/a_rita/a_rita_BONE_COM_PIRATA.midi"
             },
@@ -1108,7 +1108,7 @@
             },
             {
               "name": "a_rita_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/a_rita/a_rita_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/a_rita/a_rita_PETE_COM_PIRATA.midi"
             },
@@ -1147,7 +1147,7 @@
           "parts": [
             {
               "name": "alegria_alegria_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/alegria_alegria/alegria_alegria_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/alegria_alegria/alegria_alegria_BONE_COM_PIRATA.midi"
             },
@@ -1165,7 +1165,7 @@
             },
             {
               "name": "alegria_alegria_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/alegria_alegria/alegria_alegria_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/alegria_alegria/alegria_alegria_PETE_COM_PIRATA.midi"
             },
@@ -1204,7 +1204,7 @@
           "parts": [
             {
               "name": "amor_barato_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/amor_barato/amor_barato_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/amor_barato/amor_barato_BONE_COM_PIRATA.midi"
             },
@@ -1222,7 +1222,7 @@
             },
             {
               "name": "amor_barato_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/amor_barato/amor_barato_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/amor_barato/amor_barato_PETE_COM_PIRATA.midi"
             },
@@ -1261,7 +1261,7 @@
           "parts": [
             {
               "name": "apesar_de_voce_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/apesar_de_voce/apesar_de_voce_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/apesar_de_voce/apesar_de_voce_BONE_COM_PIRATA.midi"
             },
@@ -1279,7 +1279,7 @@
             },
             {
               "name": "apesar_de_voce_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/apesar_de_voce/apesar_de_voce_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/apesar_de_voce/apesar_de_voce_PETE_COM_PIRATA.midi"
             },
@@ -1318,7 +1318,7 @@
           "parts": [
             {
               "name": "beleza_pura_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/beleza_pura/beleza_pura_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/beleza_pura/beleza_pura_BONE_COM_PIRATA.midi"
             },
@@ -1336,7 +1336,7 @@
             },
             {
               "name": "beleza_pura_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/beleza_pura/beleza_pura_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/beleza_pura/beleza_pura_PETE_COM_PIRATA.midi"
             },
@@ -1375,7 +1375,7 @@
           "parts": [
             {
               "name": "cajuina_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/cajuina/cajuina_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/cajuina/cajuina_BONE_COM_PIRATA.midi"
             },
@@ -1393,7 +1393,7 @@
             },
             {
               "name": "cajuina_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/cajuina/cajuina_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/cajuina/cajuina_PETE_COM_PIRATA.midi"
             },
@@ -1432,7 +1432,7 @@
           "parts": [
             {
               "name": "canto_de_afoxe_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/canto_de_afoxe/canto_de_afoxe_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/canto_de_afoxe/canto_de_afoxe_BONE_COM_PIRATA.midi"
             },
@@ -1450,7 +1450,7 @@
             },
             {
               "name": "canto_de_afoxe_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/canto_de_afoxe/canto_de_afoxe_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/canto_de_afoxe/canto_de_afoxe_PETE_COM_PIRATA.midi"
             },
@@ -1489,7 +1489,7 @@
           "parts": [
             {
               "name": "chuva_suor_cerveja_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/chuva_suor_cerveja/chuva_suor_cerveja_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/chuva_suor_cerveja/chuva_suor_cerveja_BONE_COM_PIRATA.midi"
             },
@@ -1507,7 +1507,7 @@
             },
             {
               "name": "chuva_suor_cerveja_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/chuva_suor_cerveja/chuva_suor_cerveja_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/chuva_suor_cerveja/chuva_suor_cerveja_PETE_COM_PIRATA.midi"
             },
@@ -1546,7 +1546,7 @@
           "parts": [
             {
               "name": "cotidiano_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/cotidiano/cotidiano_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/cotidiano/cotidiano_BONE_COM_PIRATA.midi"
             },
@@ -1564,7 +1564,7 @@
             },
             {
               "name": "cotidiano_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/cotidiano/cotidiano_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/cotidiano/cotidiano_PETE_COM_PIRATA.midi"
             },
@@ -1603,7 +1603,7 @@
           "parts": [
             {
               "name": "desde_que_o_samba_e_samba_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/desde_que_o_samba_e_samba/desde_que_o_samba_e_samba_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/desde_que_o_samba_e_samba/desde_que_o_samba_e_samba_BONE_COM_PIRATA.midi"
             },
@@ -1621,7 +1621,7 @@
             },
             {
               "name": "desde_que_o_samba_e_samba_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/desde_que_o_samba_e_samba/desde_que_o_samba_e_samba_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/desde_que_o_samba_e_samba/desde_que_o_samba_e_samba_PETE_COM_PIRATA.midi"
             },
@@ -1660,7 +1660,7 @@
           "parts": [
             {
               "name": "deusa_do_amor_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/deusa_do_amor/deusa_do_amor_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/deusa_do_amor/deusa_do_amor_BONE_COM_PIRATA.midi"
             },
@@ -1678,7 +1678,7 @@
             },
             {
               "name": "deusa_do_amor_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/deusa_do_amor/deusa_do_amor_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/deusa_do_amor/deusa_do_amor_PETE_COM_PIRATA.midi"
             },
@@ -1717,7 +1717,7 @@
           "parts": [
             {
               "name": "ela_desatinou_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/ela_desatinou/ela_desatinou_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/ela_desatinou/ela_desatinou_BONE_COM_PIRATA.midi"
             },
@@ -1735,7 +1735,7 @@
             },
             {
               "name": "ela_desatinou_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/ela_desatinou/ela_desatinou_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/ela_desatinou/ela_desatinou_PETE_COM_PIRATA.midi"
             },
@@ -1774,7 +1774,7 @@
           "parts": [
             {
               "name": "gema_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/gema/gema_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/gema/gema_BONE_COM_PIRATA.midi"
             },
@@ -1792,7 +1792,7 @@
             },
             {
               "name": "gema_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/gema/gema_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/gema/gema_PETE_COM_PIRATA.midi"
             },
@@ -1831,7 +1831,7 @@
           "parts": [
             {
               "name": "injuriado_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/injuriado/injuriado_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/injuriado/injuriado_BONE_COM_PIRATA.midi"
             },
@@ -1849,7 +1849,7 @@
             },
             {
               "name": "injuriado_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/injuriado/injuriado_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/injuriado/injuriado_PETE_COM_PIRATA.midi"
             },
@@ -1888,7 +1888,7 @@
           "parts": [
             {
               "name": "irene_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/irene/irene_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/irene/irene_BONE_COM_PIRATA.midi"
             },
@@ -1906,7 +1906,7 @@
             },
             {
               "name": "irene_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/irene/irene_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/irene/irene_PETE_COM_PIRATA.midi"
             },
@@ -1951,7 +1951,7 @@
           "parts": [
             {
               "name": "joao_e_maria_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/joao_e_maria/joao_e_maria_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/joao_e_maria/joao_e_maria_BONE_COM_PIRATA.midi"
             },
@@ -1969,7 +1969,7 @@
             },
             {
               "name": "joao_e_maria_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/joao_e_maria/joao_e_maria_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/joao_e_maria/joao_e_maria_PETE_COM_PIRATA.midi"
             },
@@ -2008,7 +2008,7 @@
           "parts": [
             {
               "name": "leaozinho_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/leaozinho/leaozinho_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/leaozinho/leaozinho_BONE_COM_PIRATA.midi"
             },
@@ -2026,7 +2026,7 @@
             },
             {
               "name": "leaozinho_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/leaozinho/leaozinho_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/leaozinho/leaozinho_PETE_COM_PIRATA.midi"
             },
@@ -2065,7 +2065,7 @@
           "parts": [
             {
               "name": "london_london_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/london_london/london_london_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/london_london/london_london_BONE_COM_PIRATA.midi"
             },
@@ -2083,7 +2083,7 @@
             },
             {
               "name": "london_london_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/london_london/london_london_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/london_london/london_london_PETE_COM_PIRATA.midi"
             },
@@ -2122,7 +2122,7 @@
           "parts": [
             {
               "name": "lua_de_sao_jorge_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/lua_de_sao_jorge/lua_de_sao_jorge_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/lua_de_sao_jorge/lua_de_sao_jorge_BONE_COM_PIRATA.midi"
             },
@@ -2140,7 +2140,7 @@
             },
             {
               "name": "lua_de_sao_jorge_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/lua_de_sao_jorge/lua_de_sao_jorge_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/lua_de_sao_jorge/lua_de_sao_jorge_PETE_COM_PIRATA.midi"
             },
@@ -2179,7 +2179,7 @@
           "parts": [
             {
               "name": "mambembe_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/mambembe/mambembe_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/mambembe/mambembe_BONE_COM_PIRATA.midi"
             },
@@ -2197,7 +2197,7 @@
             },
             {
               "name": "mambembe_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/mambembe/mambembe_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/mambembe/mambembe_PETE_COM_PIRATA.midi"
             },
@@ -2236,7 +2236,7 @@
           "parts": [
             {
               "name": "nao_enche_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/nao_enche/nao_enche_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/nao_enche/nao_enche_BONE_COM_PIRATA.midi"
             },
@@ -2254,7 +2254,7 @@
             },
             {
               "name": "nao_enche_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/nao_enche/nao_enche_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/nao_enche/nao_enche_PETE_COM_PIRATA.midi"
             },
@@ -2293,7 +2293,7 @@
           "parts": [
             {
               "name": "noite_dos_mascarados_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/noite_dos_mascarados/noite_dos_mascarados_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/noite_dos_mascarados/noite_dos_mascarados_BONE_COM_PIRATA.midi"
             },
@@ -2311,7 +2311,7 @@
             },
             {
               "name": "noite_dos_mascarados_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/noite_dos_mascarados/noite_dos_mascarados_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/noite_dos_mascarados/noite_dos_mascarados_PETE_COM_PIRATA.midi"
             },
@@ -2350,7 +2350,7 @@
           "parts": [
             {
               "name": "o_meu_guri_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/o_meu_guri/o_meu_guri_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/o_meu_guri/o_meu_guri_BONE_COM_PIRATA.midi"
             },
@@ -2368,7 +2368,7 @@
             },
             {
               "name": "o_meu_guri_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/o_meu_guri/o_meu_guri_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/o_meu_guri/o_meu_guri_PETE_COM_PIRATA.midi"
             },
@@ -2407,7 +2407,7 @@
           "parts": [
             {
               "name": "ole_ola_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/ole_ola/ole_ola_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/ole_ola/ole_ola_BONE_COM_PIRATA.midi"
             },
@@ -2425,7 +2425,7 @@
             },
             {
               "name": "ole_ola_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/ole_ola/ole_ola_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/ole_ola/ole_ola_PETE_COM_PIRATA.midi"
             },
@@ -2464,7 +2464,7 @@
           "parts": [
             {
               "name": "onde_andaras_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/onde_andaras/onde_andaras_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/onde_andaras/onde_andaras_BONE_COM_PIRATA.midi"
             },
@@ -2482,7 +2482,7 @@
             },
             {
               "name": "onde_andaras_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/onde_andaras/onde_andaras_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/onde_andaras/onde_andaras_PETE_COM_PIRATA.midi"
             },
@@ -2521,7 +2521,7 @@
           "parts": [
             {
               "name": "oracao_ao_tempo_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/oracao_ao_tempo/oracao_ao_tempo_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/oracao_ao_tempo/oracao_ao_tempo_BONE_COM_PIRATA.midi"
             },
@@ -2539,7 +2539,7 @@
             },
             {
               "name": "oracao_ao_tempo_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/oracao_ao_tempo/oracao_ao_tempo_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/oracao_ao_tempo/oracao_ao_tempo_PETE_COM_PIRATA.midi"
             },
@@ -2578,7 +2578,7 @@
           "parts": [
             {
               "name": "qualquer_coisa_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/qualquer_coisa/qualquer_coisa_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/qualquer_coisa/qualquer_coisa_BONE_COM_PIRATA.midi"
             },
@@ -2596,7 +2596,7 @@
             },
             {
               "name": "qualquer_coisa_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/qualquer_coisa/qualquer_coisa_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/qualquer_coisa/qualquer_coisa_PETE_COM_PIRATA.midi"
             },
@@ -2635,7 +2635,7 @@
           "parts": [
             {
               "name": "queixa_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/queixa/queixa_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/queixa/queixa_BONE_COM_PIRATA.midi"
             },
@@ -2653,7 +2653,7 @@
             },
             {
               "name": "queixa_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/queixa/queixa_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/queixa/queixa_PETE_COM_PIRATA.midi"
             },
@@ -2692,7 +2692,7 @@
           "parts": [
             {
               "name": "quem_cochicha_o_rabo_espicha_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/quem_cochicha_o_rabo_espicha/quem_cochicha_o_rabo_espicha_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/quem_cochicha_o_rabo_espicha/quem_cochicha_o_rabo_espicha_BONE_COM_PIRATA.midi"
             },
@@ -2710,7 +2710,7 @@
             },
             {
               "name": "quem_cochicha_o_rabo_espicha_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/quem_cochicha_o_rabo_espicha/quem_cochicha_o_rabo_espicha_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/quem_cochicha_o_rabo_espicha/quem_cochicha_o_rabo_espicha_PETE_COM_PIRATA.midi"
             },
@@ -2749,7 +2749,7 @@
           "parts": [
             {
               "name": "quem_te_viu_quem_te_ve_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/quem_te_viu_quem_te_ve/quem_te_viu_quem_te_ve_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/quem_te_viu_quem_te_ve/quem_te_viu_quem_te_ve_BONE_COM_PIRATA.midi"
             },
@@ -2767,7 +2767,7 @@
             },
             {
               "name": "quem_te_viu_quem_te_ve_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/quem_te_viu_quem_te_ve/quem_te_viu_quem_te_ve_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/quem_te_viu_quem_te_ve/quem_te_viu_quem_te_ve_PETE_COM_PIRATA.midi"
             },
@@ -2806,7 +2806,7 @@
           "parts": [
             {
               "name": "reconvexo_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/reconvexo/reconvexo_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/reconvexo/reconvexo_BONE_COM_PIRATA.midi"
             },
@@ -2824,7 +2824,7 @@
             },
             {
               "name": "reconvexo_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/reconvexo/reconvexo_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/reconvexo/reconvexo_PETE_COM_PIRATA.midi"
             },
@@ -2863,7 +2863,7 @@
           "parts": [
             {
               "name": "retrato_em_branco_e_preto_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/retrato_em_branco_e_preto/retrato_em_branco_e_preto_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/retrato_em_branco_e_preto/retrato_em_branco_e_preto_BONE_COM_PIRATA.midi"
             },
@@ -2881,7 +2881,7 @@
             },
             {
               "name": "retrato_em_branco_e_preto_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/retrato_em_branco_e_preto/retrato_em_branco_e_preto_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/retrato_em_branco_e_preto/retrato_em_branco_e_preto_PETE_COM_PIRATA.midi"
             },
@@ -2920,7 +2920,7 @@
           "parts": [
             {
               "name": "roda_viva_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/roda_viva/roda_viva_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/roda_viva/roda_viva_BONE_COM_PIRATA.midi"
             },
@@ -2938,7 +2938,7 @@
             },
             {
               "name": "roda_viva_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/roda_viva/roda_viva_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/roda_viva/roda_viva_PETE_COM_PIRATA.midi"
             },
@@ -2977,7 +2977,7 @@
           "parts": [
             {
               "name": "samba_do_grande_amor_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/samba_do_grande_amor/samba_do_grande_amor_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/samba_do_grande_amor/samba_do_grande_amor_BONE_COM_PIRATA.midi"
             },
@@ -2995,7 +2995,7 @@
             },
             {
               "name": "samba_do_grande_amor_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/samba_do_grande_amor/samba_do_grande_amor_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/samba_do_grande_amor/samba_do_grande_amor_PETE_COM_PIRATA.midi"
             },
@@ -3034,7 +3034,7 @@
           "parts": [
             {
               "name": "sampa_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/sampa/sampa_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/sampa/sampa_BONE_COM_PIRATA.midi"
             },
@@ -3052,7 +3052,7 @@
             },
             {
               "name": "sampa_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/sampa/sampa_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/sampa/sampa_PETE_COM_PIRATA.midi"
             },
@@ -3091,7 +3091,7 @@
           "parts": [
             {
               "name": "sem_samba_nao_da_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/sem_samba_nao_da/sem_samba_nao_da_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/sem_samba_nao_da/sem_samba_nao_da_BONE_COM_PIRATA.midi"
             },
@@ -3109,7 +3109,7 @@
             },
             {
               "name": "sem_samba_nao_da_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/sem_samba_nao_da/sem_samba_nao_da_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/sem_samba_nao_da/sem_samba_nao_da_PETE_COM_PIRATA.midi"
             },
@@ -3148,7 +3148,7 @@
           "parts": [
             {
               "name": "sonho_de_um_carnaval_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/sonho_de_um_carnaval/sonho_de_um_carnaval_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/sonho_de_um_carnaval/sonho_de_um_carnaval_BONE_COM_PIRATA.midi"
             },
@@ -3166,7 +3166,7 @@
             },
             {
               "name": "sonho_de_um_carnaval_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/sonho_de_um_carnaval/sonho_de_um_carnaval_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/sonho_de_um_carnaval/sonho_de_um_carnaval_PETE_COM_PIRATA.midi"
             },
@@ -3205,7 +3205,7 @@
           "parts": [
             {
               "name": "soy_loco_por_ti_america_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/soy_loco_por_ti_america/soy_loco_por_ti_america_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/soy_loco_por_ti_america/soy_loco_por_ti_america_BONE_COM_PIRATA.midi"
             },
@@ -3223,7 +3223,7 @@
             },
             {
               "name": "soy_loco_por_ti_america_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/soy_loco_por_ti_america/soy_loco_por_ti_america_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/soy_loco_por_ti_america/soy_loco_por_ti_america_PETE_COM_PIRATA.midi"
             },
@@ -3262,7 +3262,7 @@
           "parts": [
             {
               "name": "tem_mais_samba_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/tem_mais_samba/tem_mais_samba_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/tem_mais_samba/tem_mais_samba_BONE_COM_PIRATA.midi"
             },
@@ -3280,7 +3280,7 @@
             },
             {
               "name": "tem_mais_samba_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/tem_mais_samba/tem_mais_samba_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/tem_mais_samba/tem_mais_samba_PETE_COM_PIRATA.midi"
             },
@@ -3319,7 +3319,7 @@
           "parts": [
             {
               "name": "trem_das_cores_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/trem_das_cores/trem_das_cores_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/trem_das_cores/trem_das_cores_BONE_COM_PIRATA.midi"
             },
@@ -3337,7 +3337,7 @@
             },
             {
               "name": "trem_das_cores_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/trem_das_cores/trem_das_cores_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/trem_das_cores/trem_das_cores_PETE_COM_PIRATA.midi"
             },
@@ -3376,7 +3376,7 @@
           "parts": [
             {
               "name": "trilhos_urbanos_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/trilhos_urbanos/trilhos_urbanos_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/trilhos_urbanos/trilhos_urbanos_BONE_COM_PIRATA.midi"
             },
@@ -3394,7 +3394,7 @@
             },
             {
               "name": "trilhos_urbanos_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/trilhos_urbanos/trilhos_urbanos_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/trilhos_urbanos/trilhos_urbanos_PETE_COM_PIRATA.midi"
             },
@@ -3433,7 +3433,7 @@
           "parts": [
             {
               "name": "tropicalia_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/tropicalia/tropicalia_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/tropicalia/tropicalia_BONE_COM_PIRATA.midi"
             },
@@ -3451,7 +3451,7 @@
             },
             {
               "name": "tropicalia_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/tropicalia/tropicalia_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/tropicalia/tropicalia_PETE_COM_PIRATA.midi"
             },
@@ -3490,7 +3490,7 @@
           "parts": [
             {
               "name": "vaca_profana_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/vaca_profana/vaca_profana_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/vaca_profana/vaca_profana_BONE_COM_PIRATA.midi"
             },
@@ -3508,7 +3508,7 @@
             },
             {
               "name": "vaca_profana_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/vaca_profana/vaca_profana_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/vaca_profana/vaca_profana_PETE_COM_PIRATA.midi"
             },
@@ -3547,7 +3547,7 @@
           "parts": [
             {
               "name": "vai_levando_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/vai_levando/vai_levando_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/vai_levando/vai_levando_BONE_COM_PIRATA.midi"
             },
@@ -3565,7 +3565,7 @@
             },
             {
               "name": "vai_levando_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/vai_levando/vai_levando_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/vai_levando/vai_levando_PETE_COM_PIRATA.midi"
             },
@@ -3604,7 +3604,7 @@
           "parts": [
             {
               "name": "vai_passar_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/vai_passar/vai_passar_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/vai_passar/vai_passar_BONE_COM_PIRATA.midi"
             },
@@ -3622,7 +3622,7 @@
             },
             {
               "name": "vai_passar_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/vai_passar/vai_passar_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/vai_passar/vai_passar_PETE_COM_PIRATA.midi"
             },
@@ -3661,7 +3661,7 @@
           "parts": [
             {
               "name": "voce_nao_entende_nada_BONE_COM_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "blocae/voce_nao_entende_nada/voce_nao_entende_nada_BONE_COM_PIRATA-1.svg",
               "midi": "blocae/voce_nao_entende_nada/voce_nao_entende_nada_BONE_COM_PIRATA.midi"
             },
@@ -3679,7 +3679,7 @@
             },
             {
               "name": "voce_nao_entende_nada_PETE_COM_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "blocae/voce_nao_entende_nada/voce_nao_entende_nada_PETE_COM_PIRATA-1.svg",
               "midi": "blocae/voce_nao_entende_nada/voce_nao_entende_nada_PETE_COM_PIRATA.midi"
             },
@@ -16326,7 +16326,7 @@
           "parts": [
             {
               "name": "AGORA_VAI_SENTAR_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_BONE_PIRATA.midi"
             },
@@ -16338,7 +16338,7 @@
             },
             {
               "name": "AGORA_VAI_SENTAR_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/AGORA_VAI_SENTAR/AGORA_VAI_SENTAR_PETE_PIRATA.midi"
             },
@@ -16371,7 +16371,7 @@
           "parts": [
             {
               "name": "AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA.midi"
             },
@@ -16383,7 +16383,7 @@
             },
             {
               "name": "AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA.midi"
             },
@@ -16506,7 +16506,7 @@
           "parts": [
             {
               "name": "ANDO_MEIO_DESLIGADO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_BONE_PIRATA.midi"
             },
@@ -16518,7 +16518,7 @@
             },
             {
               "name": "ANDO_MEIO_DESLIGADO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_PETE_PIRATA.midi"
             },
@@ -16641,7 +16641,7 @@
           "parts": [
             {
               "name": "AZUL_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/AZUL/AZUL_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/AZUL/AZUL_BONE_PIRATA.midi"
             },
@@ -16653,7 +16653,7 @@
             },
             {
               "name": "AZUL_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/AZUL/AZUL_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/AZUL/AZUL_PETE_PIRATA.midi"
             },
@@ -16911,7 +16911,7 @@
           "parts": [
             {
               "name": "BALKILLA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/BALKILLA/BALKILLA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BALKILLA/BALKILLA_BONE_PIRATA.midi"
             },
@@ -16923,7 +16923,7 @@
             },
             {
               "name": "BALKILLA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/BALKILLA/BALKILLA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BALKILLA/BALKILLA_PETE_PIRATA.midi"
             },
@@ -16956,7 +16956,7 @@
           "parts": [
             {
               "name": "BANHO_DE_CHEIRO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/BANHO_DE_CHEIRO/BANHO_DE_CHEIRO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BANHO_DE_CHEIRO/BANHO_DE_CHEIRO_BONE_PIRATA.midi"
             },
@@ -16968,7 +16968,7 @@
             },
             {
               "name": "BANHO_DE_CHEIRO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/BANHO_DE_CHEIRO/BANHO_DE_CHEIRO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BANHO_DE_CHEIRO/BANHO_DE_CHEIRO_PETE_PIRATA.midi"
             },
@@ -17001,7 +17001,7 @@
           "parts": [
             {
               "name": "BANHO_DE_FOLHAS_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/BANHO_DE_FOLHAS/BANHO_DE_FOLHAS_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BANHO_DE_FOLHAS/BANHO_DE_FOLHAS_BONE_PIRATA.midi"
             },
@@ -17013,7 +17013,7 @@
             },
             {
               "name": "BANHO_DE_FOLHAS_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/BANHO_DE_FOLHAS/BANHO_DE_FOLHAS_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BANHO_DE_FOLHAS/BANHO_DE_FOLHAS_PETE_PIRATA.midi"
             },
@@ -17046,7 +17046,7 @@
           "parts": [
             {
               "name": "BANZEIRO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/BANZEIRO/BANZEIRO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BANZEIRO/BANZEIRO_BONE_PIRATA.midi"
             },
@@ -17058,7 +17058,7 @@
             },
             {
               "name": "BANZEIRO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/BANZEIRO/BANZEIRO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BANZEIRO/BANZEIRO_PETE_PIRATA.midi"
             },
@@ -17103,7 +17103,7 @@
             },
             {
               "name": "BELEZA_RARA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BELEZA_RARA/BELEZA_RARA_PETE_PIRATA.midi"
             },
@@ -17271,7 +17271,7 @@
           "parts": [
             {
               "name": "BUYO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/BUYO/BUYO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BUYO/BUYO_BONE_PIRATA.midi"
             },
@@ -17283,7 +17283,7 @@
             },
             {
               "name": "BUYO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/BUYO/BUYO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/BUYO/BUYO_PETE_PIRATA.midi"
             },
@@ -17316,7 +17316,7 @@
           "parts": [
             {
               "name": "CABELEIRA_DA_ED_MARTE_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_BONE_PIRATA.midi"
             },
@@ -17328,7 +17328,7 @@
             },
             {
               "name": "CABELEIRA_DA_ED_MARTE_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_PETE_PIRATA.midi"
             },
@@ -17586,7 +17586,7 @@
           "parts": [
             {
               "name": "CELEBRATION_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/CELEBRATION/CELEBRATION_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CELEBRATION/CELEBRATION_BONE_PIRATA.midi"
             },
@@ -17598,7 +17598,7 @@
             },
             {
               "name": "CELEBRATION_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/CELEBRATION/CELEBRATION_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CELEBRATION/CELEBRATION_PETE_PIRATA.midi"
             },
@@ -17631,7 +17631,7 @@
           "parts": [
             {
               "name": "CHAMELEON_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/CHAMELEON/CHAMELEON_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CHAMELEON/CHAMELEON_BONE_PIRATA.midi"
             },
@@ -17643,7 +17643,7 @@
             },
             {
               "name": "CHAMELEON_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/CHAMELEON/CHAMELEON_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CHAMELEON/CHAMELEON_PETE_PIRATA.midi"
             },
@@ -17862,7 +17862,7 @@
           "parts": [
             {
               "name": "CONSELHO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/CONSELHO/CONSELHO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CONSELHO/CONSELHO_BONE_PIRATA.midi"
             },
@@ -17874,7 +17874,7 @@
             },
             {
               "name": "CONSELHO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/CONSELHO/CONSELHO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CONSELHO/CONSELHO_PETE_PIRATA.midi"
             },
@@ -17907,7 +17907,7 @@
           "parts": [
             {
               "name": "CORAÇÃO_PARTIDO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/CORAÇÃO_PARTIDO/CORAÇÃO_PARTIDO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CORAÇÃO_PARTIDO/CORAÇÃO_PARTIDO_BONE_PIRATA.midi"
             },
@@ -17919,7 +17919,7 @@
             },
             {
               "name": "CORAÇÃO_PARTIDO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/CORAÇÃO_PARTIDO/CORAÇÃO_PARTIDO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CORAÇÃO_PARTIDO/CORAÇÃO_PARTIDO_PETE_PIRATA.midi"
             },
@@ -17997,7 +17997,7 @@
           "parts": [
             {
               "name": "CORONÉ_ANTÔNIO_BENTO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_BONE_PIRATA.midi"
             },
@@ -18009,7 +18009,7 @@
             },
             {
               "name": "CORONÉ_ANTÔNIO_BENTO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO_PETE_PIRATA.midi"
             },
@@ -18132,7 +18132,7 @@
           "parts": [
             {
               "name": "DEIXA_DE_ONDA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/DEIXA_DE_ONDA/DEIXA_DE_ONDA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DEIXA_DE_ONDA/DEIXA_DE_ONDA_BONE_PIRATA.midi"
             },
@@ -18144,7 +18144,7 @@
             },
             {
               "name": "DEIXA_DE_ONDA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/DEIXA_DE_ONDA/DEIXA_DE_ONDA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DEIXA_DE_ONDA/DEIXA_DE_ONDA_PETE_PIRATA.midi"
             },
@@ -18177,7 +18177,7 @@
           "parts": [
             {
               "name": "DESCOBRIDOS_DOS_SETE_MARES_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_BONE_PIRATA.midi"
             },
@@ -18189,7 +18189,7 @@
             },
             {
               "name": "DESCOBRIDOS_DOS_SETE_MARES_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_PETE_PIRATA.midi"
             },
@@ -18222,7 +18222,7 @@
           "parts": [
             {
               "name": "DEUSA_DO_AMOR_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_BONE_PIRATA.midi"
             },
@@ -18234,7 +18234,7 @@
             },
             {
               "name": "DEUSA_DO_AMOR_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DEUSA_DO_AMOR/DEUSA_DO_AMOR_PETE_PIRATA.midi"
             },
@@ -18267,7 +18267,7 @@
           "parts": [
             {
               "name": "DO_WHATCHA_WANNA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_BONE_PIRATA.midi"
             },
@@ -18279,7 +18279,7 @@
             },
             {
               "name": "DO_WHATCHA_WANNA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA_PETE_PIRATA.midi"
             },
@@ -18312,7 +18312,7 @@
           "parts": [
             {
               "name": "ELA_É_TOP_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/ELA_É_TOP/ELA_É_TOP_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ELA_É_TOP/ELA_É_TOP_BONE_PIRATA.midi"
             },
@@ -18324,7 +18324,7 @@
             },
             {
               "name": "ELA_É_TOP_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/ELA_É_TOP/ELA_É_TOP_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ELA_É_TOP/ELA_É_TOP_PETE_PIRATA.midi"
             },
@@ -18402,7 +18402,7 @@
           "parts": [
             {
               "name": "ENTÃO_BRILHA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_BONE_PIRATA.midi"
             },
@@ -18414,7 +18414,7 @@
             },
             {
               "name": "ENTÃO_BRILHA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ENTÃO_BRILHA/ENTÃO_BRILHA_PETE_PIRATA.midi"
             },
@@ -18447,7 +18447,7 @@
           "parts": [
             {
               "name": "EU_E_VOCÊ_SEMPRE_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_BONE_PIRATA.midi"
             },
@@ -18459,7 +18459,7 @@
             },
             {
               "name": "EU_E_VOCÊ_SEMPRE_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/EU_E_VOCÊ_SEMPRE/EU_E_VOCÊ_SEMPRE_PETE_PIRATA.midi"
             },
@@ -18627,7 +18627,7 @@
           "parts": [
             {
               "name": "FREVO_DE_SEGUNDA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA_BONE_PIRATA.midi"
             },
@@ -18639,7 +18639,7 @@
             },
             {
               "name": "FREVO_DE_SEGUNDA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA_PETE_PIRATA.midi"
             },
@@ -18762,7 +18762,7 @@
           "parts": [
             {
               "name": "HOTSTEPPER_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_BONE_PIRATA.midi"
             },
@@ -18774,7 +18774,7 @@
             },
             {
               "name": "HOTSTEPPER_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/HOTSTEPPER/HOTSTEPPER_PETE_PIRATA.midi"
             },
@@ -18852,7 +18852,7 @@
           "parts": [
             {
               "name": "JARDINS_DA_BABILÔNIA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/JARDINS_DA_BABILÔNIA/JARDINS_DA_BABILÔNIA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/JARDINS_DA_BABILÔNIA/JARDINS_DA_BABILÔNIA_BONE_PIRATA.midi"
             },
@@ -18864,7 +18864,7 @@
             },
             {
               "name": "JARDINS_DA_BABILÔNIA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/JARDINS_DA_BABILÔNIA/JARDINS_DA_BABILÔNIA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/JARDINS_DA_BABILÔNIA/JARDINS_DA_BABILÔNIA_PETE_PIRATA.midi"
             },
@@ -18942,7 +18942,7 @@
           "parts": [
             {
               "name": "KILARIÔ_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/KILARIÔ/KILARIÔ_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ_BONE_PIRATA.midi"
             },
@@ -18954,7 +18954,7 @@
             },
             {
               "name": "KILARIÔ_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/KILARIÔ/KILARIÔ_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ_PETE_PIRATA.midi"
             },
@@ -19032,7 +19032,7 @@
           "parts": [
             {
               "name": "LIVIN_ON_A_PRAYER_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/LIVIN_ON_A_PRAYER/LIVIN_ON_A_PRAYER_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/LIVIN_ON_A_PRAYER/LIVIN_ON_A_PRAYER_BONE_PIRATA.midi"
             },
@@ -19044,7 +19044,7 @@
             },
             {
               "name": "LIVIN_ON_A_PRAYER_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/LIVIN_ON_A_PRAYER/LIVIN_ON_A_PRAYER_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/LIVIN_ON_A_PRAYER/LIVIN_ON_A_PRAYER_PETE_PIRATA.midi"
             },
@@ -19122,7 +19122,7 @@
           "parts": [
             {
               "name": "MACETANDO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/MACETANDO/MACETANDO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MACETANDO/MACETANDO_BONE_PIRATA.midi"
             },
@@ -19134,7 +19134,7 @@
             },
             {
               "name": "MACETANDO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/MACETANDO/MACETANDO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MACETANDO/MACETANDO_PETE_PIRATA.midi"
             },
@@ -19167,7 +19167,7 @@
           "parts": [
             {
               "name": "MALHA_FUNK_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_BONE_PIRATA.midi"
             },
@@ -19179,7 +19179,7 @@
             },
             {
               "name": "MALHA_FUNK_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_PETE_PIRATA.midi"
             },
@@ -19437,7 +19437,7 @@
           "parts": [
             {
               "name": "ME_ABRAÇA_E_ME_BEIJA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_BONE_PIRATA.midi"
             },
@@ -19449,7 +19449,7 @@
             },
             {
               "name": "ME_ABRAÇA_E_ME_BEIJA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA/ME_ABRAÇA_E_ME_BEIJA_PETE_PIRATA.midi"
             },
@@ -19482,7 +19482,7 @@
           "parts": [
             {
               "name": "MISIRLOU_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/MISIRLOU/MISIRLOU_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU_BONE_PIRATA.midi"
             },
@@ -19494,7 +19494,7 @@
             },
             {
               "name": "MISIRLOU_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/MISIRLOU/MISIRLOU_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MISIRLOU/MISIRLOU_PETE_PIRATA.midi"
             },
@@ -19572,7 +19572,7 @@
           "parts": [
             {
               "name": "MORENA_TROPICANA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_BONE_PIRATA.midi"
             },
@@ -19584,7 +19584,7 @@
             },
             {
               "name": "MORENA_TROPICANA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/MORENA_TROPICANA/MORENA_TROPICANA_PETE_PIRATA.midi"
             },
@@ -19674,7 +19674,7 @@
             },
             {
               "name": "NADA_MAL_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/NADA_MAL/NADA_MAL_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/NADA_MAL/NADA_MAL_PETE_PIRATA.midi"
             },
@@ -19983,7 +19983,7 @@
           "parts": [
             {
               "name": "O_SEU_NOME_EU_ESCREVI_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/O_SEU_NOME_EU_ESCREVI/O_SEU_NOME_EU_ESCREVI_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/O_SEU_NOME_EU_ESCREVI/O_SEU_NOME_EU_ESCREVI_BONE_PIRATA.midi"
             },
@@ -19995,7 +19995,7 @@
             },
             {
               "name": "O_SEU_NOME_EU_ESCREVI_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/O_SEU_NOME_EU_ESCREVI/O_SEU_NOME_EU_ESCREVI_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/O_SEU_NOME_EU_ESCREVI/O_SEU_NOME_EU_ESCREVI_PETE_PIRATA.midi"
             },
@@ -20073,7 +20073,7 @@
           "parts": [
             {
               "name": "PALCO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/PALCO/PALCO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PALCO/PALCO_BONE_PIRATA.midi"
             },
@@ -20085,7 +20085,7 @@
             },
             {
               "name": "PALCO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/PALCO/PALCO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PALCO/PALCO_PETE_PIRATA.midi"
             },
@@ -20163,7 +20163,7 @@
           "parts": [
             {
               "name": "PASTORINHAS_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_BONE_PIRATA.midi"
             },
@@ -20175,7 +20175,7 @@
             },
             {
               "name": "PASTORINHAS_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PASTORINHAS/PASTORINHAS_PETE_PIRATA.midi"
             },
@@ -20208,7 +20208,7 @@
           "parts": [
             {
               "name": "PAÍS_TROPICAL_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_BONE_PIRATA.midi"
             },
@@ -20220,7 +20220,7 @@
             },
             {
               "name": "PAÍS_TROPICAL_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL_PETE_PIRATA.midi"
             },
@@ -20298,7 +20298,7 @@
           "parts": [
             {
               "name": "POCHETE_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/POCHETE/POCHETE_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/POCHETE/POCHETE_BONE_PIRATA.midi"
             },
@@ -20310,7 +20310,7 @@
             },
             {
               "name": "POCHETE_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/POCHETE/POCHETE_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/POCHETE/POCHETE_PETE_PIRATA.midi"
             },
@@ -20388,7 +20388,7 @@
           "parts": [
             {
               "name": "PRA_QUE_CHORAR_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/PRA_QUE_CHORAR/PRA_QUE_CHORAR_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PRA_QUE_CHORAR/PRA_QUE_CHORAR_BONE_PIRATA.midi"
             },
@@ -20400,7 +20400,7 @@
             },
             {
               "name": "PRA_QUE_CHORAR_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/PRA_QUE_CHORAR/PRA_QUE_CHORAR_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/PRA_QUE_CHORAR/PRA_QUE_CHORAR_PETE_PIRATA.midi"
             },
@@ -20478,7 +20478,7 @@
           "parts": [
             {
               "name": "QUEIMA_LARGADA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/QUEIMA_LARGADA/QUEIMA_LARGADA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/QUEIMA_LARGADA/QUEIMA_LARGADA_BONE_PIRATA.midi"
             },
@@ -20490,7 +20490,7 @@
             },
             {
               "name": "QUEIMA_LARGADA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/QUEIMA_LARGADA/QUEIMA_LARGADA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/QUEIMA_LARGADA/QUEIMA_LARGADA_PETE_PIRATA.midi"
             },
@@ -20568,7 +20568,7 @@
           "parts": [
             {
               "name": "RAP_DO_SILVA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_BONE_PIRATA.midi"
             },
@@ -20580,7 +20580,7 @@
             },
             {
               "name": "RAP_DO_SILVA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA_PETE_PIRATA.midi"
             },
@@ -20748,7 +20748,7 @@
           "parts": [
             {
               "name": "SANGUE_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/SANGUE/SANGUE_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SANGUE/SANGUE_BONE_PIRATA.midi"
             },
@@ -20760,7 +20760,7 @@
             },
             {
               "name": "SANGUE_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/SANGUE/SANGUE_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SANGUE/SANGUE_PETE_PIRATA.midi"
             },
@@ -20793,7 +20793,7 @@
           "parts": [
             {
               "name": "SEXY_YEMANJÁ_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_BONE_PIRATA.midi"
             },
@@ -20805,7 +20805,7 @@
             },
             {
               "name": "SEXY_YEMANJÁ_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SEXY_YEMANJÁ/SEXY_YEMANJÁ_PETE_PIRATA.midi"
             },
@@ -20838,7 +20838,7 @@
           "parts": [
             {
               "name": "SINA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/SINA/SINA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SINA/SINA_BONE_PIRATA.midi"
             },
@@ -20850,7 +20850,7 @@
             },
             {
               "name": "SINA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/SINA/SINA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SINA/SINA_PETE_PIRATA.midi"
             },
@@ -20883,7 +20883,7 @@
           "parts": [
             {
               "name": "SOUL_FINGER_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_BONE_PIRATA.midi"
             },
@@ -20895,7 +20895,7 @@
             },
             {
               "name": "SOUL_FINGER_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SOUL_FINGER/SOUL_FINGER_PETE_PIRATA.midi"
             },
@@ -20928,7 +20928,7 @@
           "parts": [
             {
               "name": "SÓ_FÉ_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_BONE_PIRATA.midi"
             },
@@ -20940,7 +20940,7 @@
             },
             {
               "name": "SÓ_FÉ_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SÓ_FÉ/SÓ_FÉ_PETE_PIRATA.midi"
             },
@@ -20973,7 +20973,7 @@
           "parts": [
             {
               "name": "SÓ_LOVE_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_BONE_PIRATA.midi"
             },
@@ -20985,7 +20985,7 @@
             },
             {
               "name": "SÓ_LOVE_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_PETE_PIRATA.midi"
             },
@@ -21063,7 +21063,7 @@
           "parts": [
             {
               "name": "TEMPORAL_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/TEMPORAL/TEMPORAL_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL_BONE_PIRATA.midi"
             },
@@ -21075,7 +21075,7 @@
             },
             {
               "name": "TEMPORAL_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/TEMPORAL/TEMPORAL_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/TEMPORAL/TEMPORAL_PETE_PIRATA.midi"
             },
@@ -21108,7 +21108,7 @@
           "parts": [
             {
               "name": "TEMPOS_MODERNOS_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_BONE_PIRATA.midi"
             },
@@ -21120,7 +21120,7 @@
             },
             {
               "name": "TEMPOS_MODERNOS_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/TEMPOS_MODERNOS/TEMPOS_MODERNOS_PETE_PIRATA.midi"
             },
@@ -21294,7 +21294,7 @@
           "parts": [
             {
               "name": "TREMENDO_VACILÃO_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_BONE_PIRATA.midi"
             },
@@ -21306,7 +21306,7 @@
             },
             {
               "name": "TREMENDO_VACILÃO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_PETE_PIRATA.midi"
             },
@@ -21474,7 +21474,7 @@
           "parts": [
             {
               "name": "VAI_SACUDIR_VAI_ABALAR_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/VAI_SACUDIR_VAI_ABALAR/VAI_SACUDIR_VAI_ABALAR_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VAI_SACUDIR_VAI_ABALAR/VAI_SACUDIR_VAI_ABALAR_BONE_PIRATA.midi"
             },
@@ -21486,7 +21486,7 @@
             },
             {
               "name": "VAI_SACUDIR_VAI_ABALAR_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/VAI_SACUDIR_VAI_ABALAR/VAI_SACUDIR_VAI_ABALAR_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VAI_SACUDIR_VAI_ABALAR/VAI_SACUDIR_VAI_ABALAR_PETE_PIRATA.midi"
             },
@@ -21666,7 +21666,7 @@
             },
             {
               "name": "VERMELHO_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/VERMELHO/VERMELHO_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VERMELHO/VERMELHO_PETE_PIRATA.midi"
             },
@@ -21699,7 +21699,7 @@
           "parts": [
             {
               "name": "VIDEOSHOW_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_BONE_PIRATA.midi"
             },
@@ -21711,7 +21711,7 @@
             },
             {
               "name": "VIDEOSHOW_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VIDEOSHOW/VIDEOSHOW_PETE_PIRATA.midi"
             },
@@ -21744,7 +21744,7 @@
           "parts": [
             {
               "name": "VOANDO_PRO_PARÁ_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_BONE_PIRATA.midi"
             },
@@ -21756,7 +21756,7 @@
             },
             {
               "name": "VOANDO_PRO_PARÁ_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VOANDO_PRO_PARÁ/VOANDO_PRO_PARÁ_PETE_PIRATA.midi"
             },
@@ -21789,7 +21789,7 @@
           "parts": [
             {
               "name": "VOU_FESTEJAR_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_BONE_PIRATA.midi"
             },
@@ -21801,7 +21801,7 @@
             },
             {
               "name": "VOU_FESTEJAR_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/VOU_FESTEJAR/VOU_FESTEJAR_PETE_PIRATA.midi"
             },
@@ -21834,7 +21834,7 @@
           "parts": [
             {
               "name": "YMCA_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/YMCA/YMCA_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/YMCA/YMCA_BONE_PIRATA.midi"
             },
@@ -21846,7 +21846,7 @@
             },
             {
               "name": "YMCA_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/YMCA/YMCA_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/YMCA/YMCA_PETE_PIRATA.midi"
             },
@@ -21924,7 +21924,7 @@
           "parts": [
             {
               "name": "É_TARDE_DEMAIS_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_BONE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_BONE_PIRATA.midi"
             },
@@ -21936,7 +21936,7 @@
             },
             {
               "name": "É_TARDE_DEMAIS_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_PETE_PIRATA-1.svg",
               "midi": "carnaval bh 2025/É_TARDE_DEMAIS/É_TARDE_DEMAIS_PETE_PIRATA.midi"
             },
@@ -27863,7 +27863,7 @@
             },
             {
               "name": "Sina Araketu_trombone-pirata",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "zagateile/Sina Araketu/Sina Araketu_trombone-pirata-1.svg",
               "midi": "zagateile/Sina Araketu/Sina Araketu_trombone-pirata.midi"
             }
@@ -27998,7 +27998,7 @@
           "parts": [
             {
               "name": "maresia_BONE_PIRATA",
-              "instrument": "trombone pirata",
+              "instrument": "trombone",
               "svg": "zagateile/maresia/maresia_BONE_PIRATA-1.svg",
               "midi": "zagateile/maresia/maresia_BONE_PIRATA.midi"
             },
@@ -28010,7 +28010,7 @@
             },
             {
               "name": "maresia_PETE_PIRATA",
-              "instrument": "trompete pirata",
+              "instrument": "trompete",
               "svg": "zagateile/maresia/maresia_PETE_PIRATA-1.svg",
               "midi": "zagateile/maresia/maresia_PETE_PIRATA.midi"
             },
@@ -28137,6 +28137,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-12T16:34:49.507Z",
+  "scrapedAt": "2025-01-12T23:47:17.423Z",
   "version": 2
 }
