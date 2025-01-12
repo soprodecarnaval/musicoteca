@@ -17534,7 +17534,7 @@
           "id": "carnaval bh 2025/CELEBRATION",
           "title": "CELEBRATION",
           "composer": "",
-          "sub": "http://musescore.com/user/32883266/scores/7047376",
+          "sub": "CELEBRATE GOOD TIMES COME ON, LET'S CELEBRATE!",
           "mscz": "carnaval bh 2025/CELEBRATION/CELEBRATION.mscz",
           "metajson": "carnaval bh 2025/CELEBRATION/CELEBRATION.metajson",
           "midi": "carnaval bh 2025/CELEBRATION/CELEBRATION.midi",
@@ -17571,7 +17571,7 @@
             }
           ],
           "tags": [
-            ""
+            "Internacional"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -17855,7 +17855,7 @@
           "id": "carnaval bh 2025/CORAÇÃO_PARTIDO",
           "title": "CORAÇÃO PARTIDO",
           "composer": "Menos é mais",
-          "sub": "",
+          "sub": "EU TENTEI FICAR COM VOCÊ. EU LUTEI, INSISTI PERSITI MAS VOCÊ SÓ BRINCOU",
           "mscz": "carnaval bh 2025/CORAÇÃO_PARTIDO/CORAÇÃO_PARTIDO.mscz",
           "metajson": "carnaval bh 2025/CORAÇÃO_PARTIDO/CORAÇÃO_PARTIDO.metajson",
           "midi": "carnaval bh 2025/CORAÇÃO_PARTIDO/CORAÇÃO_PARTIDO.midi",
@@ -17892,7 +17892,7 @@
             }
           ],
           "tags": [
-            ""
+            "Pagode"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -18124,7 +18124,7 @@
         {
           "id": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES",
           "title": "DESCOBRIDOS DOS SETE MARES",
-          "composer": "Arr: Felipe Reinhold",
+          "composer": "Tim Maia",
           "sub": "UMA LUZ AZUL ME GUIA. COM A FIRMEZA E OS LAMPEJOS DO FAROL",
           "mscz": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES.mscz",
           "metajson": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES.metajson",
@@ -18162,7 +18162,7 @@
             }
           ],
           "tags": [
-            ""
+            "Brazuka"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -18214,7 +18214,7 @@
         {
           "id": "carnaval bh 2025/DO_WHATCHA_WANNA",
           "title": "DO WHATCHA WANNA",
-          "composer": "",
+          "composer": "Rebirth Brass Band",
           "sub": "",
           "mscz": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA.mscz",
           "metajson": "carnaval bh 2025/DO_WHATCHA_WANNA/DO_WHATCHA_WANNA.metajson",
@@ -18252,7 +18252,7 @@
             }
           ],
           "tags": [
-            ""
+            "EBb"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -18387,7 +18387,7 @@
             }
           ],
           "tags": [
-            ""
+            "Beagá"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -18567,7 +18567,7 @@
             }
           ],
           "tags": [
-            ""
+            "Frevo"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -18972,7 +18972,7 @@
             }
           ],
           "tags": [
-            ""
+            "Internacional"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -20065,7 +20065,7 @@
         {
           "id": "carnaval bh 2025/PAÍS_TROPICAL",
           "title": "PAÍS TROPICAL",
-          "composer": "",
+          "composer": "Jorge Ben Jor",
           "sub": "",
           "mscz": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL.mscz",
           "metajson": "carnaval bh 2025/PAÍS_TROPICAL/PAÍS_TROPICAL.metajson",
@@ -20103,7 +20103,7 @@
             }
           ],
           "tags": [
-            ""
+            "Brazuka"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -20148,7 +20148,7 @@
             }
           ],
           "tags": [
-            ""
+            "Axé"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -20193,7 +20193,7 @@
             }
           ],
           "tags": [
-            ""
+            "EBb"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -20688,7 +20688,7 @@
             }
           ],
           "tags": [
-            ""
+            "Brazuka"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -21099,7 +21099,7 @@
             }
           ],
           "tags": [
-            ""
+            "Marchinha"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -21608,7 +21608,7 @@
           "midi": "carnaval bh 2025/YMCA/YMCA.midi",
           "parts": [],
           "tags": [
-            ""
+            "Internacional"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -27881,6 +27881,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-11T23:55:04.633Z",
+  "scrapedAt": "2025-01-12T01:12:49.833Z",
   "version": 2
 }

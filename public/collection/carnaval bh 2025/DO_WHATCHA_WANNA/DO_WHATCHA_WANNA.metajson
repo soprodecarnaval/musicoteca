@@ -1,5 +1,5 @@
 {
-    "composer": "",
+    "composer": "Rebirth Brass Band",
     "duration": 146,
     "fileVersion": 302,
     "hasHarmonies": "false",
@@ -71,7 +71,7 @@
             "program": 57
         }
     ],
-    "poet": "",
+    "poet": "EBb",
     "previousSource": "",
     "subtitle": "",
     "tempo": 0,

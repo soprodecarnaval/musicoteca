@@ -938,11 +938,11 @@
 <path class="Harmony" d="M2764.42,157.343 C2764.42,157.296 2764.37,156.796 2764.33,155.843 C2764.28,154.89 2764.28,154.343 2764.28,154.093 C2764.28,153.843 2764.28,153.343 2764.22,152.546 C2764.17,151.75 2764.08,151.14 2764.03,150.75 L2763.78,149.25 C2763.67,148.64 2763.58,148.093 2763.47,147.64 C2763.33,147.093 2763.08,146.75 2762.62,146.5 C2762.37,146.343 2762.17,146.296 2761.92,146.296 C2761.72,146.296 2761.53,146.343 2761.28,146.453 C2760.83,146.593 2760.47,146.953 2760.22,147.453 C2759.97,147.953 2759.78,148.546 2759.72,149.093 C2759.67,149.64 2759.62,150.25 2759.58,150.89 L2759.58,151.453 C2759.58,151.843 2759.58,152.203 2759.62,152.453 L2759.62,152.64 C2759.67,154.546 2759.87,157.64 2760.22,161.953 C2760.58,166.25 2760.72,169.5 2760.78,171.796 C2760.83,172.046 2760.78,172.5 2760.72,173.156 C2760.67,173.796 2760.67,174.453 2760.67,175 C2760.67,175.546 2760.72,176.156 2760.83,176.75 C2760.92,177.343 2761.08,177.796 2761.37,178.156 C2761.62,178.453 2761.92,178.593 2762.37,178.593 L2762.58,178.593 C2763.03,178.593 2763.47,178.453 2763.92,178.25 C2764.37,178.046 2764.87,177.703 2765.33,177.25 C2765.78,176.796 2766.12,176.453 2766.37,176.156 C2766.62,175.843 2766.97,175.343 2767.42,174.75 C2768.12,173.843 2768.12,173.843 2768.28,173.656 C2769.08,172.593 2769.78,171.593 2770.42,170.656 C2771.08,169.703 2771.72,168.593 2772.42,167.406 C2773.12,166.203 2773.78,165 2774.22,163.75 C2774.67,162.5 2774.92,161.343 2775.03,160.296 C2775.08,160.14 2775.08,160.046 2775.08,159.89 C2775.08,159.093 2774.87,158.296 2774.42,157.5 C2773.87,156.546 2773.17,155.843 2772.28,155.296 C2771.47,154.843 2770.67,154.593 2769.92,154.593 L2769.53,154.593 C2768.92,154.64 2768.37,154.843 2767.83,155.14 C2767.28,155.453 2766.62,155.796 2765.92,156.343 C2765.22,156.89 2764.67,157.203 2764.42,157.343 M2764.33,164.843 C2764.47,164.406 2764.78,163.656 2765.17,162.703 C2765.92,161 2766.92,160.14 2768.08,160.14 C2768.33,160.14 2768.53,160.203 2768.78,160.25 C2769.83,160.5 2770.37,161.156 2770.37,162.203 C2770.37,163.156 2770.03,164.296 2769.33,165.656 C2768.67,166.906 2768.17,167.75 2767.72,168.156 L2765.67,169.703 C2765.62,169.593 2765.47,169.453 2765.22,169.203 C2764.97,168.953 2764.87,168.703 2764.83,168.453 L2764.37,167.843 L2764.22,166.5 L2764.33,164.843 "/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="4072.36,422.193 4091.72,422.193"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="3894.74,422.193 3914.1,422.193"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1427.24,724.692 1446.6,724.692"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2507.47,724.692 2526.83,724.692"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2701.24,724.692 2720.6,724.692"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="3893.5,724.692 3912.86,724.692"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1493.23,724.692 1509.56,724.692"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1427.24,724.692 1446.6,724.692"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="3893.5,724.692 3912.86,724.692"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="3959.48,724.692 3975.82,724.692"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="735.013,1201.24 754.373,1201.24"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="903.292,1201.24 922.652,1201.24"/>
@@ -954,9 +954,9 @@
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1996.77,1201.24 2016.13,1201.24"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2607.92,1201.24 2624.26,1201.24"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="405.174,1601.82 421.509,1601.82"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1573.07,1601.82 1592.43,1601.82"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1022.84,1601.82 1042.2,1601.82"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1090.94,1601.82 1107.28,1601.82"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1573.07,1601.82 1592.43,1601.82"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2544.58,1601.82 2563.94,1601.82"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2791.75,1601.82 2811.11,1601.82"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2994.27,1601.82 3013.63,1601.82"/>
@@ -965,13 +965,13 @@
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="3849.42,1601.82 3865.76,1601.82"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="2.42" stroke-linejoin="bevel" points="676.654,1977.84 683.309,1977.84"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1085.71,1965.96 1105.07,1965.96"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="2.42" stroke-linejoin="bevel" points="3267.09,1977.84 3320.98,1977.84"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1349.59,1965.96 1368.95,1965.96"/>
-<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2498.63,1965.96 2514.97,1965.96"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="1563.07,1965.96 1582.43,1965.96"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="2.42" stroke-linejoin="bevel" points="1726.58,1977.84 1742.31,1977.84"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2272.26,1965.96 2291.62,1965.96"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2441.65,1965.96 2458.21,1965.96"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2498.63,1965.96 2514.97,1965.96"/>
+<polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="2.42" stroke-linejoin="bevel" points="3267.09,1977.84 3320.98,1977.84"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="510.397,2294.15 529.757,2294.15"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="587.773,2294.15 604.108,2294.15"/>
 <polyline class="LyricsLineSegment" fill="none" stroke="#000000" stroke-width="3.63" stroke-linejoin="bevel" points="2120.03,2294.15 2139.39,2294.15"/>
