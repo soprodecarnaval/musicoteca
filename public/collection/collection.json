@@ -27439,6 +27439,51 @@
           "projectTitle": "zagateile"
         },
         {
+          "id": "zagateile/Amor_Perfeito",
+          "title": "amor perfeito",
+          "composer": "Chiclete com Banana",
+          "sub": "",
+          "mscz": "zagateile/Amor_Perfeito/Amor_Perfeito.mscz",
+          "metajson": "zagateile/Amor_Perfeito/Amor_Perfeito.metajson",
+          "midi": "zagateile/Amor_Perfeito/Amor_Perfeito_Electric_Piano.midi",
+          "parts": [
+            {
+              "name": "Amor_Perfeito_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "zagateile/Amor_Perfeito/Amor_Perfeito_Alto_Saxophone-1.svg",
+              "midi": "zagateile/Amor_Perfeito/Amor_Perfeito_Alto_Saxophone.midi"
+            },
+            {
+              "name": "Amor_Perfeito_Bb_Trumpet",
+              "instrument": "trompete",
+              "svg": "zagateile/Amor_Perfeito/Amor_Perfeito_Bb_Trumpet-1.svg",
+              "midi": "zagateile/Amor_Perfeito/Amor_Perfeito_Bb_Trumpet.midi"
+            },
+            {
+              "name": "Amor_Perfeito_Flute",
+              "instrument": "flauta",
+              "svg": "zagateile/Amor_Perfeito/Amor_Perfeito_Flute-1.svg",
+              "midi": "zagateile/Amor_Perfeito/Amor_Perfeito_Flute.midi"
+            },
+            {
+              "name": "Amor_Perfeito_Tenor_Saxophone",
+              "instrument": "sax tenor",
+              "svg": "zagateile/Amor_Perfeito/Amor_Perfeito_Tenor_Saxophone-1.svg",
+              "midi": "zagateile/Amor_Perfeito/Amor_Perfeito_Tenor_Saxophone.midi"
+            },
+            {
+              "name": "Amor_Perfeito_Trombone",
+              "instrument": "trombone",
+              "svg": "zagateile/Amor_Perfeito/Amor_Perfeito_Trombone-1.svg",
+              "midi": "zagateile/Amor_Perfeito/Amor_Perfeito_Trombone.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "zagateile"
+        },
+        {
           "id": "zagateile/Camarote",
           "title": "camarote",
           "composer": "Wesley Safadao",
@@ -27874,6 +27919,51 @@
           "projectTitle": "zagateile"
         },
         {
+          "id": "zagateile/Só_Fé",
+          "title": "só fé",
+          "composer": "Grelo",
+          "sub": "",
+          "mscz": "zagateile/Só_Fé/Só_Fé.mscz",
+          "metajson": "zagateile/Só_Fé/Só_Fé.metajson",
+          "midi": "zagateile/Só_Fé/Só_Fé.midi",
+          "parts": [
+            {
+              "name": "Só_Fé_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "zagateile/Só_Fé/Só_Fé_Alto_Saxophone-1.svg",
+              "midi": "zagateile/Só_Fé/Só_Fé_Alto_Saxophone.midi"
+            },
+            {
+              "name": "Só_Fé_Bb_Trumpet",
+              "instrument": "trompete",
+              "svg": "zagateile/Só_Fé/Só_Fé_Bb_Trumpet-1.svg",
+              "midi": "zagateile/Só_Fé/Só_Fé_Bb_Trumpet.midi"
+            },
+            {
+              "name": "Só_Fé_Flute",
+              "instrument": "flauta",
+              "svg": "zagateile/Só_Fé/Só_Fé_Flute-1.svg",
+              "midi": "zagateile/Só_Fé/Só_Fé_Flute.midi"
+            },
+            {
+              "name": "Só_Fé_Tenor_Saxophone",
+              "instrument": "sax tenor",
+              "svg": "zagateile/Só_Fé/Só_Fé_Tenor_Saxophone-1.svg",
+              "midi": "zagateile/Só_Fé/Só_Fé_Tenor_Saxophone.midi"
+            },
+            {
+              "name": "Só_Fé_Trombone",
+              "instrument": "trombone",
+              "svg": "zagateile/Só_Fé/Só_Fé_Trombone-1.svg",
+              "midi": "zagateile/Só_Fé/Só_Fé_Trombone.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "zagateile"
+        },
+        {
           "id": "zagateile/Vai_dar_PT",
           "title": "vai dar pt",
           "composer": "Leo Santana",
@@ -28137,6 +28227,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-12T23:48:35.503Z",
+  "scrapedAt": "2025-01-13T01:06:57.846Z",
   "version": 2
 }
