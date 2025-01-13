@@ -772,16 +772,16 @@ MuseScore {
                   break;
                case "wind.reed.saxophone.soprano":
                   valInstrument = "Sax Soprano"
-                  break;
+                  continue;
                case "wind.reed.saxophone.alto":
                   valInstrument = "Sax Alto"
-                  break;
+                  continue;
                case "wind.reed.saxophone.tenor":
                   valInstrument = "Sax Tenor"
-                  break;
+                  continue;
                case "wind.reed.saxophone.baritone":
                   valInstrument = "Sax Baritone"
-                  break;
+                  continue;
                default:
                   continue
             }
