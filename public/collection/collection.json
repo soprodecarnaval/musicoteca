@@ -28123,6 +28123,51 @@
           "projectTitle": "zagateile"
         },
         {
+          "id": "zagateile/oh_garota_quero_voce_so_pra_mim",
+          "title": "oh garota quero voce so pra mim",
+          "composer": "Oruam",
+          "sub": "",
+          "mscz": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim.mscz",
+          "metajson": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim.metajson",
+          "midi": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim.midi",
+          "parts": [
+            {
+              "name": "oh_garota_quero_voce_so_pra_mim_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Alto_Saxophone-1.svg",
+              "midi": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Alto_Saxophone.midi"
+            },
+            {
+              "name": "oh_garota_quero_voce_so_pra_mim_Bb_Trumpet",
+              "instrument": "trompete",
+              "svg": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Bb_Trumpet-1.svg",
+              "midi": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Bb_Trumpet.midi"
+            },
+            {
+              "name": "oh_garota_quero_voce_so_pra_mim_Flute",
+              "instrument": "flauta",
+              "svg": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Flute-1.svg",
+              "midi": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Flute.midi"
+            },
+            {
+              "name": "oh_garota_quero_voce_so_pra_mim_Tenor_Saxophone",
+              "instrument": "sax tenor",
+              "svg": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Tenor_Saxophone-1.svg",
+              "midi": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Tenor_Saxophone.midi"
+            },
+            {
+              "name": "oh_garota_quero_voce_so_pra_mim_Trombone",
+              "instrument": "trombone",
+              "svg": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Trombone-1.svg",
+              "midi": "zagateile/oh_garota_quero_voce_so_pra_mim/oh_garota_quero_voce_so_pra_mim_Trombone.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "zagateile"
+        },
+        {
           "id": "zagateile/voce_me_vira_a_cabeca",
           "title": "voce me vira a cabeca",
           "composer": "Alcione",
@@ -28227,6 +28272,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-13T01:06:57.846Z",
+  "scrapedAt": "2025-01-14T14:39:25.650Z",
   "version": 2
 }
