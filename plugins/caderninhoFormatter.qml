@@ -63,8 +63,173 @@ MuseScore {
          }
 
          Text {
-            id: fingButtonTitle
+            id: basicFormatTitle
             anchors.top: optAll.bottom
+            anchors.topMargin: 10
+            anchors.left: parent.left
+            anchors.leftMargin: 10
+            font.bold: true
+            text: "Basic format:"
+         }
+
+        GridLayout {
+         id: basicFormatGrid
+         columns: 2
+         anchors.horizontalCenter: parent.horizontalCenter
+         anchors.top: basicFormatTitle.bottom
+         anchors.topMargin: 10
+         Layout.leftMargin: 5
+         Layout.rightMargin: 5
+
+         Text {
+            id: basic1
+            text: "1."
+         }
+
+         Button {
+            text: "Clean fingering"
+            Layout.fillWidth: true
+            Layout.margins: 1
+            
+            onClicked: {
+               curScore.startCmd()
+               if(optAll.checked){
+                  forAllParts(cleanAllFingering)
+               } else {
+                  cleanAllFingering(curScore)
+               }
+               curScore.endCmd()
+            }
+         }
+
+         Text {
+            id: basic2
+            text: "2."
+         }
+
+         Button {
+            text: "Clean text boxes"
+            Layout.fillWidth: true
+            Layout.margins: 1
+
+            onClicked: {
+               cleanTextBox()
+            }
+         }
+         
+         Text {
+            id: basic3
+            text: "3."
+         }
+
+         Button {
+            text: "Set style"
+            Layout.fillWidth: true
+            Layout.margins: 1
+
+            onClicked: {
+               curScore.startCmd()
+               if(optAll.checked){
+                  forAllParts(setStyle)
+               } else {
+                  setStyle(curScore)
+               }
+               curScore.endCmd()
+            }
+         }
+
+         Text {
+            id: basic4
+            text: "4."
+         }
+
+         Button {
+            text: "Adjust Scale"
+            Layout.fillWidth: true
+            Layout.margins: 1
+
+            onClicked: {
+               if(optAll.checked){
+                  forAllParts(adjustSpatium)
+               } else {
+                  adjustSpatium(curScore)
+               }
+            }
+         }
+
+         Text {
+            id: basic5
+            text: "5."
+         }
+
+         Button {
+            text: "Leading space"
+            Layout.fillWidth: true
+            Layout.margins: 1
+
+            onClicked: {
+               if(optAll.checked){
+                  forAllParts(adjustLeadingSpace)
+               } else {
+                  adjustLeadingSpace(curScore)
+               }
+            }
+         }
+
+         Text {
+            id: basic6
+            text: "6."
+         }
+
+         Button {
+            text: "Add fingering"
+            Layout.fillWidth: true
+            Layout.margins: 1
+
+            onClicked: {
+               // set configuration
+               breakLine = false;
+               noteShift = 0;
+               
+               curScore.startCmd()
+               if(optAll.checked){
+                  forAllParts(autoAddFingering)
+               } else {
+                  autoAddFingering(curScore)
+               }
+               curScore.endCmd()
+            }
+         }
+
+         Text {
+            id: basic7
+            text: "7."
+         }
+
+         Button {
+            text: "Fingering size"
+            Layout.fillWidth: true
+            Layout.margins: 1
+
+            onClicked: {
+               // set configuration
+               breakLine = false;
+               noteShift = 0;
+               
+               curScore.startCmd()
+               if(optAll.checked){
+                  forAllParts(adjustFingeringFontSize)
+               } else {
+                  adjustFingeringFontSize(curScore)
+               }
+               curScore.endCmd()
+            }
+         }
+        }
+
+         Text {
+            id: fingButtonTitle
+            anchors.top: basicFormatGrid.bottom
             anchors.topMargin: 10
             anchors.left: parent.left
             anchors.leftMargin: 10
