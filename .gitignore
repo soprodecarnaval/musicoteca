@@ -33,3 +33,5 @@ musescore_*
 public/collection-old
 public/collection-new
 test/scripts/indexCollectionTestOutput
+
+*.autosave
