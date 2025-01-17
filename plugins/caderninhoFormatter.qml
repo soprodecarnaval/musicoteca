@@ -913,6 +913,7 @@ MuseScore {
 
          for(var j = 0; j < (endTrack - startTrack)/4; j++){
             var staffIdx = startTrack/4+j;
+            var isSax = false;
             switch(instrumentId) {
                case "brass.trombone":
                case "trombone":
@@ -937,20 +938,28 @@ MuseScore {
                   break;
                case "wind.reed.saxophone.soprano":
                   valInstrument = "Sax Soprano"
-                  continue;
+                  isSax = true;
+                  break;
                case "wind.reed.saxophone.alto":
                   valInstrument = "Sax Alto"
-                  continue;
+                  isSax = true;
+                  break;
                case "wind.reed.saxophone.tenor":
                   valInstrument = "Sax Tenor"
-                  continue;
+                  isSax = true;
+                  break;
                case "wind.reed.saxophone.baritone":
                   valInstrument = "Sax Baritone"
-                  continue;
+                  isSax = true;
+                  break;
                default:
                   continue
             }
-            addFingering(score,staffIdx)
+            if (isSax && optAll.checked) {
+               console.log("Not adding sax fingering")
+            } else {
+               addFingering(score,staffIdx)
+            }
          }
 
       }
