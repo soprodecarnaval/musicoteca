@@ -2,13 +2,6 @@
   {
     "message": "Found a non-first page svg asset, ignoring it",
     "meta": {
-      "name": "SÓ_LOVE_BONE_PIRATA-2",
-      "entryPath": "/tmp/collection/carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_BONE_PIRATA-2.svg"
-    }
-  },
-  {
-    "message": "Found a non-first page svg asset, ignoring it",
-    "meta": {
       "name": "SÓ_LOVE_FLAUTA-2",
       "entryPath": "/tmp/collection/carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_FLAUTA-2.svg"
     }
@@ -18,6 +11,13 @@
     "meta": {
       "name": "SÓ_LOVE_SAX_ALTO-2",
       "entryPath": "/tmp/collection/carnaval bh 2025/SÓ_LOVE/SÓ_LOVE_SAX_ALTO-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "TREMENDO_VACILÃO_FLAUTA-2",
+      "entryPath": "/tmp/collection/carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_FLAUTA-2.svg"
     }
   }
 ]
