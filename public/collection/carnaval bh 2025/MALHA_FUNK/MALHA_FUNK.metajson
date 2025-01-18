@@ -1,19 +1,19 @@
 {
     "composer": "DJ Marlboro",
-    "duration": 144,
+    "duration": 132,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -2,
     "lyrics": "",
-    "measures": 34,
+    "measures": 26,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 148,
         "twosided": "true",
         "width": 210
     },
-    "pages": 6,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 0,
