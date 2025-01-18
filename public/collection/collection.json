@@ -18392,6 +18392,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/ENERGIA_DE_GOSTOSA",
+          "title": "energia de gostosa",
+          "composer": "Ivete Sangalo",
+          "sub": "HOJE É DIA .. DE JOGAR SOL NA PELE E METER UM BRONZE NA FITINHA",
+          "mscz": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA.mscz",
+          "metajson": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA.metajson",
+          "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA.midi",
+          "parts": [
+            {
+              "name": "ENERGIA_DE_GOSTOSA_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Flauta_Transversal.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Saxofone_Alto.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Trombone-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Trombone.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "Axé"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/ENTÃO_BRILHA",
           "title": "então brilha",
           "composer": "Bloco Então Brilha",
@@ -28272,6 +28317,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-18T18:14:37.013Z",
+  "scrapedAt": "2025-01-18T18:25:11.691Z",
   "version": 2
 }
