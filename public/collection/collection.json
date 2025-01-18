@@ -16451,51 +16451,6 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
-          "id": "carnaval bh 2025/ALCOVA_LIBERATINA",
-          "title": "alcova liberatina",
-          "composer": "Rafael Ludicanti\ne Bloco da Alcova",
-          "sub": "MAS NO CARNAVAL, A ALCOVA LIBERTINA VAI TRAZER O VENDAVAL",
-          "mscz": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA.mscz",
-          "metajson": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA.metajson",
-          "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA.midi",
-          "parts": [
-            {
-              "name": "ALCOVA_LIBERATINA_BONE",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_BONE-1.svg",
-              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_BONE.midi"
-            },
-            {
-              "name": "ALCOVA_LIBERATINA_FLAUTA",
-              "instrument": "flauta",
-              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_FLAUTA-1.svg",
-              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_FLAUTA.midi"
-            },
-            {
-              "name": "ALCOVA_LIBERATINA_PETE",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_PETE-1.svg",
-              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_PETE.midi"
-            },
-            {
-              "name": "ALCOVA_LIBERATINA_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_ALTO.midi"
-            },
-            {
-              "name": "ALCOVA_LIBERATINA_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2025/ALCOVA_LIBERATINA/ALCOVA_LIBERATINA_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Beagá"
-          ],
-          "projectTitle": "carnaval bh 2025"
-        },
-        {
           "id": "carnaval bh 2025/ANDO_MEIO_DESLIGADO",
           "title": "ando meio desligado",
           "composer": "OS MUTANTES",
@@ -28347,6 +28302,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-18T21:26:26.827Z",
+  "scrapedAt": "2025-01-18T21:38:18.116Z",
   "version": 2
 }
