@@ -1,10 +1,10 @@
 {
     "composer": "Tim Maia",
-    "duration": 88,
+    "duration": 64,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -3,
+    "keysig": -2,
     "lyrics": "",
     "measures": 21,
     "mscoreVersion": "3.6.2",

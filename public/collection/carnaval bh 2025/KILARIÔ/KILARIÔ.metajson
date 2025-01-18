@@ -1,19 +1,19 @@
 {
     "composer": "Di Melo",
-    "duration": 96,
+    "duration": 82,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -4,
+    "keysig": -1,
     "lyrics": "",
-    "measures": 25,
+    "measures": 17,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 4,
+    "pages": 3,
     "parts": [
         {
             "harmonyCount": 0,
@@ -72,7 +72,7 @@
         }
     ],
     "poet": "Brazuka",
-    "previousSource": "KILARIÔ, RAIOU DIA, EU CHOVER EM MINHA HORTA",
+    "previousSource": "KILARIÔ, RAIOU DIA, EU VI CHOVER EM MINHA HORTA",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",

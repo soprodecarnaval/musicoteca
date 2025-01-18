@@ -18188,6 +18188,12 @@
               "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_FLAUTA.midi"
             },
             {
+              "name": "DESCOBRIDOS_DOS_SETE_MARES_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Flauta_Transversal.midi"
+            },
+            {
               "name": "DESCOBRIDOS_DOS_SETE_MARES_PETE_PIRATA",
               "instrument": "trompete",
               "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_PETE_PIRATA-1.svg",
@@ -18204,6 +18210,30 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_SAX_TENOR.midi"
+            },
+            {
+              "name": "DESCOBRIDOS_DOS_SETE_MARES_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Saxofone_Alto.midi"
+            },
+            {
+              "name": "DESCOBRIDOS_DOS_SETE_MARES_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "DESCOBRIDOS_DOS_SETE_MARES_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Trombone-1.svg",
+              "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Trombone.midi"
+            },
+            {
+              "name": "DESCOBRIDOS_DOS_SETE_MARES_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_Trompete_em_Bb.midi"
             }
           ],
           "tags": [
@@ -19025,7 +19055,7 @@
           "id": "carnaval bh 2025/KILARIÔ",
           "title": "kilariô",
           "composer": "Di Melo",
-          "sub": "KILARIÔ, RAIOU DIA, EU CHOVER EM MINHA HORTA",
+          "sub": "KILARIÔ, RAIOU DIA, EU VI CHOVER EM MINHA HORTA",
           "mscz": "carnaval bh 2025/KILARIÔ/KILARIÔ.mscz",
           "metajson": "carnaval bh 2025/KILARIÔ/KILARIÔ.metajson",
           "midi": "carnaval bh 2025/KILARIÔ/KILARIÔ.midi",
@@ -19700,7 +19730,7 @@
           "id": "carnaval bh 2025/MÁSCARA_NEGRA",
           "title": "máscara negra",
           "composer": "Zé Keti e Pereira Matos",
-          "sub": "QUANTO RISO, OH! QUANTA ALEGRAIA! MAIS DE MIL PALHAÇOS",
+          "sub": "QUANTO RISO, OH! QUANTA ALEGRIA! MAIS DE MIL PALHAÇOS",
           "mscz": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA.mscz",
           "metajson": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA.metajson",
           "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA.midi",
@@ -20606,7 +20636,7 @@
           "id": "carnaval bh 2025/QUEM_SABE_SABE",
           "title": "quem sabe sabe",
           "composer": "Joel de Almeida e Carvalhinho",
-          "sub": "SE A CANOA NÃO VIRAR, OLÊ! OLÊ! OLÁ! EU CHEGO LÁ!",
+          "sub": "QUEM SABE, SABE. CONHECE BEM. COMO É GOSTOSO GOSTAR DE ALGUÉM",
           "mscz": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE.mscz",
           "metajson": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE.metajson",
           "midi": "carnaval bh 2025/QUEM_SABE_SABE/QUEM_SABE_SABE.midi",
@@ -20696,7 +20726,7 @@
           "id": "carnaval bh 2025/RECONVEXO",
           "title": "reconvexo",
           "composer": "Caetano Veloso",
-          "sub": "EU SOU CHUVA QUE LANÇA A AREA DO SAARA",
+          "sub": "EU SOU A CHUVA QUE LANÇA A AREIA DO SAARA",
           "mscz": "carnaval bh 2025/RECONVEXO/RECONVEXO.mscz",
           "metajson": "carnaval bh 2025/RECONVEXO/RECONVEXO.metajson",
           "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO.midi",
@@ -21737,7 +21767,7 @@
           "id": "carnaval bh 2025/VERMELHO",
           "title": "vermelho",
           "composer": "Gloria Groove",
-          "sub": "PAIXÃO, FAZ UM TEMPO EU QUERO TE ENCONTRA. TOMANDO UM VINHO ",
+          "sub": "PAIXÃO, FAZ UM TEMPO EU QUERO TE ENCONTRAR. TOMANDO UM VINHO ",
           "mscz": "carnaval bh 2025/VERMELHO/VERMELHO.mscz",
           "metajson": "carnaval bh 2025/VERMELHO/VERMELHO.metajson",
           "midi": "carnaval bh 2025/VERMELHO/VERMELHO.midi",
@@ -28317,6 +28347,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-18T18:42:46.799Z",
+  "scrapedAt": "2025-01-18T21:26:26.827Z",
   "version": 2
 }

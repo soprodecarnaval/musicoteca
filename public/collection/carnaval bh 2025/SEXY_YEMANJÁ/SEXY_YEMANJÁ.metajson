@@ -4,7 +4,7 @@
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
-    "keysig": 2,
+    "keysig": -2,
     "lyrics": "",
     "measures": 29,
     "mscoreVersion": "3.6.2",
@@ -13,7 +13,7 @@
         "twosided": "false",
         "width": 216
     },
-    "pages": 11,
+    "pages": 9,
     "parts": [
         {
             "harmonyCount": 57,

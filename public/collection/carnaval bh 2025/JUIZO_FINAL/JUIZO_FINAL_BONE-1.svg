@@ -28,16 +28,16 @@
 <path class="MeasureNumber" d="M63.4597,2061.81 C65.3504,2061.22 66.1004,2060.89 67.0691,2060.25 C68.9441,2059.02 70.1004,2056.81 70.1004,2054.58 C70.1004,2050.78 67.0691,2048.22 62.5847,2048.22 C58.2254,2048.22 54.5379,2050.94 54.5379,2054.22 C54.5379,2055.86 55.5379,2056.99 57.0691,2056.99 C58.3816,2056.99 59.3504,2056.02 59.3504,2054.7 C59.3504,2054.02 59.1472,2053.53 58.5066,2052.91 C58.1004,2052.53 57.9441,2052.27 57.9441,2051.99 C57.9441,2051.02 59.9441,2050.02 61.8191,2050.02 C64.5066,2050.02 66.1004,2051.5 66.1004,2053.99 C66.1004,2057.53 63.5847,2060.89 60.8972,2060.89 C60.7879,2060.89 60.4285,2060.86 59.991,2060.81 C58.8191,2060.74 58.8191,2060.74 58.5847,2060.74 C57.7097,2060.74 57.2254,2061.14 57.2254,2061.86 C57.2254,2062.5 57.6629,2062.89 58.3816,2062.89 C58.5847,2062.89 58.866,2062.86 59.1785,2062.81 C59.741,2062.7 60.3504,2062.66 60.7097,2062.66 C62.5847,2062.66 63.866,2064.35 63.866,2066.81 C63.866,2068.74 63.4285,2070.58 62.5379,2072.1 C61.3504,2074.25 59.5066,2075.3 56.8972,2075.3 C54.6629,2075.3 52.741,2074.17 52.741,2072.89 C52.741,2072.45 52.9129,2072.3 53.5379,2072.02 C54.7097,2071.5 55.1785,2070.78 55.1785,2069.7 C55.1785,2068.3 54.0691,2067.22 52.6316,2067.22 C50.9129,2067.22 49.7879,2068.58 49.7879,2070.66 C49.7879,2074.53 52.741,2076.97 57.5379,2076.97 C63.5847,2076.97 68.1785,2072.94 68.1785,2067.58 C68.1785,2066.14 67.741,2064.89 66.8972,2063.89 C66.0222,2062.86 65.2254,2062.38 63.4597,2061.81 M85.6941,2061.81 C87.5847,2061.22 88.3347,2060.89 89.3035,2060.25 C91.1785,2059.02 92.3347,2056.81 92.3347,2054.58 C92.3347,2050.78 89.3035,2048.22 84.8191,2048.22 C80.4597,2048.22 76.7722,2050.94 76.7722,2054.22 C76.7722,2055.86 77.7722,2056.99 79.3035,2056.99 C80.616,2056.99 81.5847,2056.02 81.5847,2054.7 C81.5847,2054.02 81.3816,2053.53 80.741,2052.91 C80.3347,2052.53 80.1785,2052.27 80.1785,2051.99 C80.1785,2051.02 82.1785,2050.02 84.0535,2050.02 C86.741,2050.02 88.3347,2051.5 88.3347,2053.99 C88.3347,2057.53 85.8191,2060.89 83.1316,2060.89 C83.0222,2060.89 82.6629,2060.86 82.2254,2060.81 C81.0535,2060.74 81.0535,2060.74 80.8191,2060.74 C79.9441,2060.74 79.4597,2061.14 79.4597,2061.86 C79.4597,2062.5 79.8972,2062.89 80.616,2062.89 C80.8191,2062.89 81.1004,2062.86 81.4129,2062.81 C81.9754,2062.7 82.5847,2062.66 82.9441,2062.66 C84.8191,2062.66 86.1004,2064.35 86.1004,2066.81 C86.1004,2068.74 85.6629,2070.58 84.7722,2072.1 C83.5847,2074.25 81.741,2075.3 79.1316,2075.3 C76.8972,2075.3 74.9754,2074.17 74.9754,2072.89 C74.9754,2072.45 75.1472,2072.3 75.7722,2072.02 C76.9441,2071.5 77.4129,2070.78 77.4129,2069.7 C77.4129,2068.3 76.3035,2067.22 74.866,2067.22 C73.1472,2067.22 72.0222,2068.58 72.0222,2070.66 C72.0222,2074.53 74.9754,2076.97 79.7722,2076.97 C85.8191,2076.97 90.4129,2072.94 90.4129,2067.58 C90.4129,2066.14 89.9754,2064.89 89.1316,2063.89 C88.2566,2062.86 87.4597,2062.38 85.6941,2061.81"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M723.335,301.558 C756.041,272.038 854.16,272.038 886.867,301.558 C854.16,281.364 756.041,281.364 723.335,301.558"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M1770.69,351.519 C1785.01,333.533 1827.98,333.533 1842.3,351.519 C1827.98,342.859 1785.01,342.859 1770.69,351.519"/>
-<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2080.51,380.166 C2111.67,351.823 2205.15,351.823 2236.31,380.166 C2205.15,361.149 2111.67,361.149 2080.51,380.166"/>
+<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2060.17,368.172 C2097.13,335.42 2208,335.42 2244.96,368.172 C2208,344.746 2097.13,344.746 2060.17,368.172"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2257.95,368.172 C2290.66,338.653 2388.78,338.653 2421.48,368.172 C2388.78,347.979 2290.66,347.979 2257.95,368.172"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2683.5,401.479 C2711.41,375.605 2795.14,375.605 2823.05,401.479 C2795.14,384.931 2711.41,384.931 2683.5,401.479"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2836.04,401.479 C2868.74,371.96 2966.86,371.96 2999.57,401.479 C2966.86,381.286 2868.74,381.286 2836.04,401.479"/>
-<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M3830.18,396.82 C3838.7,378.834 3864.26,378.834 3872.78,396.82 C3864.26,388.16 3838.7,388.16 3830.18,396.82"/>
+<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M3809.83,373.335 C3824.15,355.349 3867.12,355.349 3881.44,373.335 C3867.12,364.675 3824.15,364.675 3809.83,373.335"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M4083.15,406.642 C4094.04,388.656 4126.72,388.656 4137.61,406.642 C4126.72,397.982 4094.04,397.982 4083.15,406.642"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M307.607,996.321 C326.624,977.204 383.677,977.204 402.695,996.321 C383.677,986.53 326.624,986.53 307.607,996.321"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M899.406,890.389 C940.837,854.238 1065.13,854.238 1106.56,890.389 C1065.13,863.564 940.837,863.564 899.406,890.389"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2095.34,940.349 C2110.18,922.364 2154.72,922.364 2169.56,940.349 C2154.72,931.69 2110.18,931.69 2095.34,940.349"/>
-<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2413.4,968.997 C2448.09,937.963 2552.19,937.963 2586.88,968.997 C2552.19,947.289 2448.09,947.289 2413.4,968.997"/>
+<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2393.05,957.003 C2433.55,921.561 2555.04,921.561 2595.54,957.003 C2555.04,930.887 2433.55,930.887 2393.05,957.003"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2608.53,957.003 C2649.96,920.852 2774.26,920.852 2815.69,957.003 C2774.26,930.178 2649.96,930.178 2608.53,957.003"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M3121.33,990.31 C3149.24,964.436 3232.97,964.436 3260.88,990.31 C3232.97,973.762 3149.24,973.762 3121.33,990.31"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M3273.87,990.31 C3315.3,954.159 3439.6,954.159 3481.03,990.31 C3439.6,963.485 3315.3,963.485 3273.87,990.31"/>
@@ -46,7 +46,7 @@
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M1158.94,1545.83 C1189.58,1517.89 1281.48,1517.89 1312.11,1545.83 C1281.48,1527.22 1189.58,1527.22 1158.94,1545.83"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2023.51,1512.53 C2037.84,1494.54 2080.8,1494.54 2095.12,1512.53 C2080.8,1503.87 2037.84,1503.87 2023.51,1512.53"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2308.98,1529.18 C2336.89,1503.31 2420.62,1503.31 2448.52,1529.18 C2420.62,1512.63 2336.89,1512.63 2308.98,1529.18"/>
-<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2885.63,1553.61 C2907.74,1532.14 2974.07,1532.14 2996.18,1553.61 C2974.07,1541.47 2907.74,1541.47 2885.63,1553.61"/>
+<path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M2865.28,1545.83 C2893.19,1519.96 2976.92,1519.96 3004.83,1545.83 C2976.92,1529.29 2893.19,1529.29 2865.28,1545.83"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M3262.6,1512.53 C3298.22,1480.79 3405.08,1480.79 3440.71,1512.53 C3405.08,1490.12 3298.22,1490.12 3262.6,1512.53"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M3637.11,1545.83 C3651.43,1527.85 3694.4,1527.85 3708.72,1545.83 C3694.4,1537.17 3651.43,1537.17 3637.11,1545.83"/>
 <path class="TieSegment" stroke="#000000" stroke-width="2.33" stroke-linecap="round" stroke-linejoin="round" fill-rule="evenodd" d="M3902.54,1479.22 C3932.78,1451.57 4023.5,1451.57 4053.74,1479.22 C4023.5,1460.9 3932.78,1460.9 3902.54,1479.22"/>
@@ -155,9 +155,9 @@
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1494.92,314.361 1494.92,434.787"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1616.77,347.669 1616.77,455.122"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1744.38,380.976 1744.38,476.42"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1868.61,372.236 1868.61,375.091"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1950.2,388.889 1950.2,376.111"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2073.49,388.889 2073.49,377.652"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1828.98,380.976 1828.98,493.372"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1910.57,397.629 1910.57,494.392"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2033.86,397.629 2033.86,495.933"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2231.64,397.629 2231.64,509.728"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2408.16,397.629 2408.16,509.728"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2575.6,447.59 2575.6,543.035"/>
@@ -167,9 +167,9 @@
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3216.9,430.936 3216.9,543.035"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3331.27,414.283 3331.27,509.728"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3425.07,397.629 3425.07,501.401"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3594.8,364.322 3594.8,374.24"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3741.56,388.889 3741.56,387.807"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3823.15,405.543 3823.15,395.167"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3594.8,364.322 3594.8,485.95"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3701.93,397.629 3701.93,495.612"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3783.53,414.283 3783.53,502.971"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3868.12,414.283 3868.12,509.728"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3949.72,430.936 3949.72,524.127"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="4056.85,447.59 4056.85,543.035"/>
@@ -183,9 +183,9 @@
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1801.87,903.192 1801.87,1023.62"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="1941.41,936.499 1941.41,1045.36"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2069.03,969.806 2069.03,1065.25"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2195.87,961.066 2195.87,961.713"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2283.08,977.72 2283.08,962.774"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2406.37,977.72 2406.37,964.274"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2156.24,969.806 2156.24,1073.42"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2243.46,986.46 2243.46,1074.48"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2366.74,986.46 2366.74,1075.98"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2582.22,986.46 2582.22,1098.56"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2802.37,986.46 2802.37,1098.56"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3007.22,1036.42 3007.22,1131.87"/>
@@ -195,9 +195,9 @@
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3741.99,1036.42 3741.99,1148.52"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3889.33,1036.42 3889.33,1131.87"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="4012.61,1003.11 4012.61,1098.56"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="463.369,1566.55 463.369,1557.17"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="572.55,1616.51 572.55,1552.77"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="614.517,1541.98 614.517,1576.21"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="423.744,1575.29 423.744,1708.31"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="532.925,1625.25 532.925,1703.91"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="614.517,1541.98 614.517,1700.62"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="699.114,1541.98 699.114,1679.06"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="780.706,1575.29 780.706,1679.06"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="889.887,1558.64 889.887,1679.06"/>
@@ -213,8 +213,8 @@
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2175.06,1525.33 2175.06,1649.62"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2282.67,1558.64 2282.67,1654.08"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2435.21,1558.64 2435.21,1670.74"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2797.01,1566.55 2797.01,1554.35"/>
-<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2878.6,1566.55 2878.6,1554.35"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2757.39,1575.29 2757.39,1669.34"/>
+<polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2838.98,1575.29 2838.98,1669.34"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="2991.51,1575.29 2991.51,1695.72"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3073.11,1608.6 3073.11,1695.72"/>
 <polyline class="Stem" stroke="#000000" stroke-width="3.66" stroke-linejoin="bevel" points="3154.7,1575.29 3154.7,1695.72"/>
@@ -378,26 +378,26 @@
 <path class="Beam" fill-rule="evenodd" d="M1209.94,443.083 L1311.38,434.444 L1311.38,451.158 L1209.94,459.797 L1209.94,443.083 "/>
 <path class="Beam" fill-rule="evenodd" d="M1493.09,426.345 L1746.22,468.59 L1746.22,485.474 L1493.09,443.228 L1493.09,426.345 "/>
 <path class="Beam" fill-rule="evenodd" d="M1614.93,421.699 L1746.22,443.61 L1746.22,460.494 L1614.93,438.583 L1614.93,421.699 "/>
-<path class="Beam" fill-rule="evenodd" d="M1866.77,366.718 L2075.32,369.325 L2075.32,385.98 L1866.77,383.373 L1866.77,366.718 "/>
-<path class="Beam" fill-rule="evenodd" d="M1866.77,391.698 L1952.03,392.764 L1952.03,409.419 L1866.77,408.353 L1866.77,391.698 "/>
+<path class="Beam" fill-rule="evenodd" d="M1827.15,485.044 L2035.69,487.651 L2035.69,504.306 L1827.15,501.699 L1827.15,485.044 "/>
+<path class="Beam" fill-rule="evenodd" d="M1827.15,460.064 L1912.4,461.13 L1912.4,477.785 L1827.15,476.719 L1827.15,460.064 "/>
 <path class="Beam" fill-rule="evenodd" d="M2573.77,534.665 L2659.03,525.964 L2659.03,542.704 L2573.77,551.405 L2573.77,534.665 "/>
 <path class="Beam" fill-rule="evenodd" d="M2659.03,500.984 L2615.06,505.47 L2615.06,522.21 L2659.03,517.724 L2659.03,500.984 "/>
 <path class="Beam" fill-rule="evenodd" d="M3329.44,501.368 L3426.9,492.716 L3426.9,509.435 L3329.44,518.087 L3329.44,501.368 "/>
-<path class="Beam" fill-rule="evenodd" d="M3592.97,365.88 L3824.98,386.806 L3824.98,403.527 L3592.97,382.601 L3592.97,365.88 "/>
-<path class="Beam" fill-rule="evenodd" d="M3739.73,404.097 L3824.98,411.786 L3824.98,428.507 L3739.73,420.818 L3739.73,404.097 "/>
+<path class="Beam" fill-rule="evenodd" d="M3592.97,477.589 L3785.36,494.941 L3785.36,511.663 L3592.97,494.31 L3592.97,477.589 "/>
+<path class="Beam" fill-rule="evenodd" d="M3700.1,462.271 L3785.36,469.961 L3785.36,486.682 L3700.1,478.993 L3700.1,462.271 "/>
 <path class="Beam" fill-rule="evenodd" d="M3866.29,501.272 L4058.68,535.226 L4058.68,552.137 L3866.29,518.183 L3866.29,501.272 "/>
 <path class="Beam" fill-rule="evenodd" d="M3866.29,476.292 L3910.26,484.051 L3910.26,500.962 L3866.29,493.203 L3866.29,476.292 "/>
 <path class="Beam" fill-rule="evenodd" d="M4058.68,510.245 L4014.71,502.486 L4014.71,519.397 L4058.68,527.156 L4058.68,510.245 "/>
 <path class="Beam" fill-rule="evenodd" d="M1489.79,1031.92 L1604.78,1023.32 L1604.78,1040.02 L1489.79,1048.62 L1489.79,1031.92 "/>
 <path class="Beam" fill-rule="evenodd" d="M1800.04,1015.19 L2070.86,1057.39 L2070.86,1074.25 L1800.04,1032.04 L1800.04,1015.19 "/>
 <path class="Beam" fill-rule="evenodd" d="M1939.58,1011.96 L2070.86,1032.41 L2070.86,1049.27 L1939.58,1028.81 L1939.58,1011.96 "/>
-<path class="Beam" fill-rule="evenodd" d="M2194.04,953.341 L2408.2,955.947 L2408.2,972.601 L2194.04,969.996 L2194.04,953.341 "/>
-<path class="Beam" fill-rule="evenodd" d="M2194.04,978.322 L2284.91,979.427 L2284.91,996.082 L2194.04,994.976 L2194.04,978.322 "/>
+<path class="Beam" fill-rule="evenodd" d="M2154.41,1065.1 L2368.58,1067.7 L2368.58,1084.36 L2154.41,1081.75 L2154.41,1065.1 "/>
+<path class="Beam" fill-rule="evenodd" d="M2154.41,1040.11 L2245.29,1041.22 L2245.29,1057.88 L2154.41,1056.77 L2154.41,1040.11 "/>
 <path class="Beam" fill-rule="evenodd" d="M3005.39,1123.5 L3096.86,1114.83 L3096.86,1131.56 L3005.39,1140.23 L3005.39,1123.5 "/>
 <path class="Beam" fill-rule="evenodd" d="M3096.86,1089.85 L3052.9,1094.02 L3052.9,1110.74 L3096.86,1106.57 L3096.86,1089.85 "/>
 <path class="Beam" fill-rule="evenodd" d="M3887.49,1123.24 L4014.45,1088.94 L4014.45,1106.19 L3887.49,1140.49 L3887.49,1123.24 "/>
-<path class="Beam" fill-rule="evenodd" d="M461.537,1548.98 L616.349,1542.75 L616.349,1559.42 L461.537,1565.65 L461.537,1548.98 "/>
-<path class="Beam" fill-rule="evenodd" d="M570.718,1569.57 L616.349,1567.73 L616.349,1584.4 L570.718,1586.23 L570.718,1569.57 "/>
+<path class="Beam" fill-rule="evenodd" d="M421.912,1699.97 L616.349,1692.14 L616.349,1708.81 L421.912,1716.64 L421.912,1699.97 "/>
+<path class="Beam" fill-rule="evenodd" d="M531.093,1670.6 L616.349,1667.16 L616.349,1683.83 L531.093,1687.26 L531.093,1670.6 "/>
 <path class="Beam" fill-rule="evenodd" d="M697.282,1670.74 L891.719,1670.74 L891.719,1687.39 L697.282,1687.39 L697.282,1670.74 "/>
 <path class="Beam" fill-rule="evenodd" d="M697.282,1645.75 L741.248,1645.75 L741.248,1662.41 L697.282,1662.41 L697.282,1645.75 "/>
 <path class="Beam" fill-rule="evenodd" d="M891.719,1645.75 L847.754,1645.75 L847.754,1662.41 L891.719,1662.41 L891.719,1645.75 "/>
@@ -407,8 +407,8 @@
 <path class="Beam" fill-rule="evenodd" d="M2079.97,1637.42 L2284.5,1645.9 L2284.5,1662.57 L2079.97,1654.09 L2079.97,1637.42 "/>
 <path class="Beam" fill-rule="evenodd" d="M2079.97,1612.44 L2123.94,1614.26 L2123.94,1630.93 L2079.97,1629.11 L2079.97,1612.44 "/>
 <path class="Beam" fill-rule="evenodd" d="M2284.5,1620.92 L2240.54,1619.1 L2240.54,1635.76 L2284.5,1637.59 L2284.5,1620.92 "/>
-<path class="Beam" fill-rule="evenodd" d="M2795.18,1546.02 L2880.44,1546.02 L2880.44,1562.68 L2795.18,1562.68 L2795.18,1546.02 "/>
-<path class="Beam" fill-rule="evenodd" d="M2880.44,1571 L2836.47,1571 L2836.47,1587.66 L2880.44,1587.66 L2880.44,1571 "/>
+<path class="Beam" fill-rule="evenodd" d="M2755.55,1661.02 L2840.81,1661.02 L2840.81,1677.67 L2755.55,1677.67 L2755.55,1661.02 "/>
+<path class="Beam" fill-rule="evenodd" d="M2840.81,1636.04 L2796.85,1636.04 L2796.85,1652.69 L2840.81,1652.69 L2840.81,1636.04 "/>
 <path class="Beam" fill-rule="evenodd" d="M2989.68,1687.39 L3156.53,1687.39 L3156.53,1704.04 L2989.68,1704.04 L2989.68,1687.39 "/>
 <path class="Beam" fill-rule="evenodd" d="M3693.57,1678.84 L3878.06,1636.37 L3878.06,1653.46 L3693.57,1695.93 L3693.57,1678.84 "/>
 <path class="Beam" fill-rule="evenodd" d="M3693.57,1653.86 L3737.54,1643.74 L3737.54,1660.83 L3693.57,1670.95 L3693.57,1653.86 "/>
