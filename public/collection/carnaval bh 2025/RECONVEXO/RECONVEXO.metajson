@@ -4,7 +4,7 @@
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 2,
+    "keysig": 1,
     "lyrics": "",
     "measures": 35,
     "mscoreVersion": "3.6.2",
@@ -72,7 +72,7 @@
         }
     ],
     "poet": "Brazuka",
-    "previousSource": "EU SOU CHUVA QUE LANÇA A AREA DO SAARA",
+    "previousSource": "EU SOU A CHUVA QUE LANÇA A AREIA DO SAARA",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",

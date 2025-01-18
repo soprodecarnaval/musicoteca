@@ -1,11 +1,11 @@
 {
     "composer": "João do Vale e Luiz Wanderley",
-    "duration": 140,
+    "duration": 118,
     "fileVersion": 302,
     "hasHarmonies": "false",
-    "hasLyrics": "true",
+    "hasLyrics": "false",
     "keysig": -3,
-    "lyrics": "faltou pouco pra vi - \n\nfaltou pouco pra vi -",
+    "lyrics": "",
     "measures": 52,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
@@ -33,7 +33,7 @@
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
-            "lyricCount": 6,
+            "lyricCount": 0,
             "name": "Saxofone Alto",
             "program": 65
         },
@@ -44,7 +44,7 @@
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
-            "lyricCount": 6,
+            "lyricCount": 0,
             "name": "Saxofone Tenor",
             "program": 66
         },

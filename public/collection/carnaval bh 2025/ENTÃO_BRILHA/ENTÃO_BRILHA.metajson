@@ -1,6 +1,6 @@
 {
     "composer": "Bloco Então Brilha",
-    "duration": 88,
+    "duration": 120,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 210
     },
-    "pages": 3,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 25,
