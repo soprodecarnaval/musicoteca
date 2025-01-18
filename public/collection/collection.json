@@ -18527,6 +18527,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA",
+          "title": "eu vou pro baile da gaiola",
+          "composer": "Kevin o Chris",
+          "sub": "BAILE DA PENHA, SEMPRE LOTADO, TODO SABADÃO EU TENHO QUE PARTIR",
+          "mscz": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA.mscz",
+          "metajson": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA.metajson",
+          "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA.midi",
+          "parts": [
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Alto_Saxophone-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Alto_Saxophone.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Flauta_Transversal.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Trombone-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Trombone.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "Funk"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/FILHOS_DE_TCHA_TCHA",
           "title": "filhos de tcha tcha",
           "composer": "LG Lopes, JL Braga,\nF. Mafra e Y. Vellasco",
@@ -28227,6 +28272,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-13T01:06:57.846Z",
+  "scrapedAt": "2025-01-18T18:14:37.013Z",
   "version": 2
 }
