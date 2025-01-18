@@ -1,50 +1,9 @@
 [
   {
-    "message": "Invalid song",
+    "message": "Found a non-first page svg asset, ignoring it",
     "meta": {
-      "errors": [
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "composer"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "sub"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "metajson"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "midi"
-          ],
-          "message": "Required"
-        }
-      ],
-      "songDirectory": {
-        "absPath": "/tmp/collection/carnaval bh 2025/ALCOVA_LIBERTINA",
-        "songTitle": "ALCOVA_LIBERTINA",
-        "projectTitle": "carnaval bh 2025"
-      }
+      "name": "ALALAÔ_SAX_ALTO-2",
+      "entryPath": "/tmp/collection/carnaval bh 2025/ALALAÔ/ALALAÔ_SAX_ALTO-2.svg"
     }
   }
 ]
