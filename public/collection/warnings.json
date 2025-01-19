@@ -2,8 +2,22 @@
   {
     "message": "Found a non-first page svg asset, ignoring it",
     "meta": {
-      "name": "DESCOBRIDOS_DOS_SETE_MARES_PETE_PIRATA-2",
-      "entryPath": "/tmp/collection/carnaval bh 2025/DESCOBRIDOS_DOS_SETE_MARES/DESCOBRIDOS_DOS_SETE_MARES_PETE_PIRATA-2.svg"
+      "name": "KILARIÔ_BONE_PIRATA-2",
+      "entryPath": "/tmp/collection/carnaval bh 2025/KILARIÔ/KILARIÔ_BONE_PIRATA-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "KILARIÔ_PETE_PIRATA-2",
+      "entryPath": "/tmp/collection/carnaval bh 2025/KILARIÔ/KILARIÔ_PETE_PIRATA-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "KILARIÔ_SAX_TENOR-2",
+      "entryPath": "/tmp/collection/carnaval bh 2025/KILARIÔ/KILARIÔ_SAX_TENOR-2.svg"
     }
   }
 ]
