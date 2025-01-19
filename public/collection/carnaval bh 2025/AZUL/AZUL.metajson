@@ -1,19 +1,19 @@
 {
     "composer": "Gal Costa",
-    "duration": 96,
+    "duration": 136,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 82,
+    "measures": 52,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 5,
+    "pages": 3,
     "parts": [
         {
             "harmonyCount": 0,
