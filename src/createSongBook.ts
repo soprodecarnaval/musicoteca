@@ -61,11 +61,14 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     doc.addPage();
     doc.addPage();
     doc.addPage();
-    doc.addPage();
-    await drawImage(doc, "assets/anti_assedio_2025_1.png", 6);
-    await drawImage(doc, "assets/anti_assedio_2025_2.png", 8);
-    await drawImage(doc, "assets/anti_assedio_2025_3.png", 10);
-    await drawImage(doc, "assets/anti_assedio_2025_4.png", 12);
+    // doc.addPage();
+    await drawImage(doc, "assets/anti_assedio_2024_1.png", 6);
+    await drawImage(doc, "assets/anti_assedio_2024_2.png", 8);
+    await drawImage(doc, "assets/anti_assedio_2024_3.png", 10);
+    // await drawImage(doc, "assets/anti_assedio_2025_1.png", 6);
+    // await drawImage(doc, "assets/anti_assedio_2025_2.png", 8);
+    // await drawImage(doc, "assets/anti_assedio_2025_3.png", 10);
+    // await drawImage(doc, "assets/anti_assedio_2025_4.png", 12);
   }
 
   const { outline } = doc;
