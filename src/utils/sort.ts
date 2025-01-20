@@ -1,19 +1,26 @@
 import { Score } from "../../types";
 
-const fixedStyleOrder = [
-  "marchinhas",
-  "ranchos",
+export const carnivalSectionOrder = [
+  "marchinha",
+  "moments",
   "beagá",
-  "axés",
-  "frevos",
-  "sambas",
-  "pagodes",
-  "latinas",
-  "funks",
-  "brazukas",
-  "odaras",
-  "fanfarras",
+  "fanfarra", // antiga
+  "ebb",
+  "odara",
+  "marcha rancho", // antiga
+  "rancho", // antiga
+  "latina", // antiga
+  "piseiro", // antiga
+  "axé",
+  "funk",
+  "pagode",
+  "samba",
+  "brazuka",
+  "frevo",
+  "brega",
+  "forrós", // antiga
   "technohell",
+  "internacional", // antiga
 ];
 
 export type SortColumn = "title" | "projectTitle" | "style" | "carnivalStyle";
@@ -38,10 +45,10 @@ export const sortByColumn = (
       if (a.tags[0] === b.tags[0]) {
         return a.tags[0].localeCompare(b.tags[0]);
       }
-      return (
-        // TODO: use same fixed style array as in SongBook.tsx
-        fixedStyleOrder.indexOf(a.tags[0]) - fixedStyleOrder.indexOf(b.tags[0])
-      );
+      const cmpSection =
+        carnivalSectionOrder.indexOf(a.tags[0]) -
+        carnivalSectionOrder.indexOf(b.tags[0]);
+      return cmpSection == 0 ? a.title.localeCompare(b.title) : cmpSection;
     }
     return 0;
   });
