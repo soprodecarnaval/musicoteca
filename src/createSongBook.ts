@@ -61,14 +61,11 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     doc.addPage();
     doc.addPage();
     doc.addPage();
-    // doc.addPage();
-    await drawImage(doc, "assets/anti_assedio_2024_1.png", 6);
-    await drawImage(doc, "assets/anti_assedio_2024_2.png", 8);
-    await drawImage(doc, "assets/anti_assedio_2024_3.png", 10);
-    // await drawImage(doc, "assets/anti_assedio_2025_1.png", 6);
-    // await drawImage(doc, "assets/anti_assedio_2025_2.png", 8);
-    // await drawImage(doc, "assets/anti_assedio_2025_3.png", 10);
-    // await drawImage(doc, "assets/anti_assedio_2025_4.png", 12);
+    doc.addPage();
+    await drawImage(doc, "assets/anti_assedio_2025_1.png", 6);
+    await drawImage(doc, "assets/anti_assedio_2025_2.png", 8);
+    await drawImage(doc, "assets/anti_assedio_2025_3.png", 10);
+    await drawImage(doc, "assets/anti_assedio_2025_4.png", 12);
   }
 
   const { outline } = doc;
@@ -118,7 +115,7 @@ const drawSvg = async (
   try {
     const resp = await fetch(url);
     const svg = await resp.text();
-    let pdfPage = carnivalMode ? 2 * page + 10 : page + 1;
+    let pdfPage = carnivalMode ? 2 * page + 12 : page + 1; // adiciona páginas extras para preambulo. N° de elementos * 2 (6*2=12)
     console.log(pdfPage);
     doc.switchToPage(pdfPage);
     const width = 17.17 * cm2pt;
@@ -285,7 +282,7 @@ const addIndexPage = (
   const sectionCount = sections.length;
   const containerWidth = 17.17 * cm2pt;
   const containerHeight = 13 * cm2pt;
-  let totalLineCount = carnivalMode ? 76 : totalSongCount + sectionCount * 2;
+  let totalLineCount = totalSongCount + sectionCount * 2;
 
   let columnCount = 1;
   if (totalLineCount > 80) {
@@ -294,6 +291,11 @@ const addIndexPage = (
     columnCount = 3;
   } else if (totalLineCount > 20) {
     columnCount = 2;
+  }
+
+  if (carnivalMode){
+    totalLineCount = 85
+    columnCount = 3
   }
 
   const maxLinesPerColumn = Math.floor(totalLineCount / columnCount) + 2;
