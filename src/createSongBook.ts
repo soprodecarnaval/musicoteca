@@ -115,7 +115,7 @@ const drawSvg = async (
   try {
     const resp = await fetch(url);
     const svg = await resp.text();
-    let pdfPage = carnivalMode ? 2 * page + 12 : page + 1; // adiciona páginas extras para preambulo. N° de elementos * 2 (6*2=12)
+    let pdfPage = carnivalMode ? 2 * page + 11 : page + 1; // adiciona páginas extras para preambulo
     console.log(pdfPage);
     doc.switchToPage(pdfPage);
     const width = 17.17 * cm2pt;
