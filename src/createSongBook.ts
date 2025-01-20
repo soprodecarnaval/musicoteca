@@ -62,6 +62,8 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     doc.addPage();
     doc.addPage();
     doc.addPage();
+    doc.addPage();
+    doc.addPage();
     await drawImage(doc, "assets/anti_assedio_2025_1.png", 6);
     await drawImage(doc, "assets/anti_assedio_2025_2.png", 8);
     await drawImage(doc, "assets/anti_assedio_2025_3.png", 10);
@@ -115,7 +117,7 @@ const drawSvg = async (
   try {
     const resp = await fetch(url);
     const svg = await resp.text();
-    let pdfPage = carnivalMode ? 2 * page + 11 : page + 1; // adiciona páginas extras para preambulo
+    let pdfPage = carnivalMode ? 2 * page + 13 : page + 1; // adiciona páginas extras para preambulo
     console.log(pdfPage);
     doc.switchToPage(pdfPage);
     const width = 17.17 * cm2pt;
