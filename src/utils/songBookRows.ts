@@ -5,7 +5,12 @@ import {
   songBookSection,
   songBookScore,
 } from "../../types";
-import { SortColumn, sortByColumn, SortDirection } from "./sort";
+import {
+  SortColumn,
+  sortByColumn,
+  SortDirection,
+  carnivalSectionOrder,
+} from "./sort";
 
 // moves a row up or down, swapping it with the row in the new position
 export const moveRow = (rows: SongBookItem[], idx: number, steps: number) => {
@@ -88,24 +93,11 @@ export const generateSectionsByStyle = (rows: SongBookItem[]) => {
   return sorted;
 };
 
-export const carnivalSectionOrder = [
-  "marchinhas", // 14
-  "beagá", // 9
-  "fanfarras", // 8
-  "pagodes", // 6
-  "odaras", // 7
-  "marcha ranchos", // 7
-  "latinas", // 5
-  "piseiro",
-
-  "axés", // 15
-  "funks", // 14
-  "sambas", // 13
-  "brazukas", // 11
-  "frevos", // 4
-  "forrós", // 4
-  "technohell", // 3
-];
+// secion names have changed over time, so we need to map them to the current ones
+// some of them have been capitalized or had a plural -s added to the end
+const normalizeSectionName = (name: string) => {
+  return name.toLocaleLowerCase().replace(/s$/, "");
+};
 
 export const generateCarnivalSections = (rows: SongBookItem[]) => {
   rows = generateSectionsByStyle(rows);
@@ -116,7 +108,7 @@ export const generateCarnivalSections = (rows: SongBookItem[]) => {
   for (const section of carnivalSectionOrder) {
     // find section index
     const idx = rows.findIndex(
-      (r) => isSongBookSection(r) && r.title === section
+      (r) => isSongBookSection(r) && normalizeSectionName(r.title) === section
     );
     if (idx === -1) {
       continue;

@@ -22,13 +22,13 @@ import { SongBookSectionRow } from "./SongBookSectionRow";
 import { ChangeEvent, useState } from "react";
 import { Sort } from "./Sort";
 import {
-  carnivalSectionOrder,
   deleteRow,
   generateCarnivalSections,
   generateSectionsByStyle,
   moveRow,
-  sortSongsWithinSections as sortScoreWithSections,
+  sortSongsWithinSections,
 } from "../utils/songBookRows";
+import { carnivalSectionOrder } from "../utils/sort";
 
 interface SongBookTableProps {
   rows: SongBookItem[];
@@ -103,7 +103,9 @@ const SongBookTable = ({
       <Row>
         <Col sm="4">
           <Sort
-            onSortBy={(col, dir) => sortScoreWithSections(rows, col, dir)}
+            onSortBy={(col, dir) =>
+              setRows(sortSongsWithinSections(rows, col, dir))
+            }
           />
         </Col>
         <Col>
