@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Row, Col, Form } from "react-bootstrap";
 
 import { Score } from "../../types";
@@ -17,7 +17,6 @@ const allScores = collection.projects.flatMap((project) => {
 
 const searchKeys = ["title", "composer", "tags", "projectTitle"];
 
-// TODO: move index creation to build step
 const scoreSearchIndex = Fuse.createIndex(searchKeys, allScores);
 Fuse.config.getFn = (obj, path) => {
   var value = Fuse.config.getFn(obj, path);
@@ -44,26 +43,26 @@ const fuse = new Fuse(
 const SearchBar = ({ handleResults }: SearchBarProps) => {
   const [searchInput, setSearchInput] = useState("");
 
+  // Perform search whenever searchInput changes
+  useEffect(() => {
+    if (searchInput === "") {
+      handleResults(allScores);
+      return;
+    }
+
+    const searchResult = fuse.search(searchInput);
+    const results = searchResult.map((result) => result.item);
+    handleResults(results);
+  }, [searchInput, handleResults]);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    e.preventDefault();
     setSearchInput(e.target.value);
   };
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
     if (e.key === "Enter") {
       e.preventDefault();
-      return;
     }
-
-    if (searchInput === "") {
-      handleResults([]);
-      return;
-    }
-
-    const searchResult = fuse.search(searchInput);
-    const results = searchResult.map((result) => result.item);
-
-    handleResults(results);
   };
 
   return (

@@ -9,6 +9,8 @@ import {
   Tooltip,
   ListGroup,
   CloseButton,
+  Modal,
+  Spinner,
 } from "react-bootstrap";
 import { useState } from "react";
 import {
@@ -53,13 +55,14 @@ const CarnivalModeTooltip = () => (
   </Tooltip>
 );
 
-// GUS-TODO: persist songbook
 const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   const scores = songBook.items.filter(
     (r: SongBookItem) => !isSongBookSection(r)
   ) as SongBookScore[];
 
   const [songbookTitle, setTitle] = useState("");
+  const [isGenerating, setIsGenerating] = useState(false);
+  const [generationProgress, setGenerationProgress] = useState(0);
 
   const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
 
@@ -92,7 +95,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
 
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
 
-  const onGeneratePdfClicked = (e: any, instrument: string = "all") => {
+  const onGeneratePdfClicked = async (e: any, instrument: string = "all") => {
     e.preventDefault();
     let selectedInstruments = instruments;
     if (instrument != "all") {
@@ -107,120 +110,165 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
       return;
     }
 
-    // Create sections from songbook rows
-    const sections: Section[] = [];
-    let currentSection: Section | null = null;
+    // Start generation process
+    setIsGenerating(true);
+    setGenerationProgress(0);
 
-    for (const item of songBook.items) {
-      if (isSongBookSection(item)) {
-        currentSection = {
-          title: item.title,
-          songs: [],
-        };
-        sections.push(currentSection);
-      } else {
-        // Create empty section if no row exists
-        if (!currentSection) {
+    try {
+      // Create sections from songbook rows
+      const sections: Section[] = [];
+      let currentSection: Section | null = null;
+
+      for (const item of songBook.items) {
+        if (isSongBookSection(item)) {
           currentSection = {
-            title: "",
+            title: item.title,
             songs: [],
           };
           sections.push(currentSection);
+        } else {
+          if (!currentSection) {
+            currentSection = {
+              title: "",
+              songs: [],
+            };
+            sections.push(currentSection);
+          }
+          currentSection.songs.push(item.score);
         }
-        currentSection.songs.push(item.score);
       }
-    }
 
-    const songbooks: any[] = selectedInstruments.map((instrument) => {
-      createSongBook({
-        instrument,
-        sections,
-        title: songbookTitle,
-        coverImageUrl: songbookImg.imgUrl,
-        carnivalMode,
-        backSheetPageNumber,
-      });
-    });
-    Promise.all(songbooks).then(() => {
+      const totalInstruments = selectedInstruments.length;
+      
+      for (let i = 0; i < selectedInstruments.length; i++) {
+        const instrument = selectedInstruments[i];
+        await createSongBook({
+          instrument,
+          sections,
+          title: songbookTitle,
+          coverImageUrl: songbookImg.imgUrl,
+          carnivalMode,
+          backSheetPageNumber,
+        });
+        
+        // Update progress
+        setGenerationProgress(((i + 1) / totalInstruments) * 100);
+      }
+
       console.log("Terminei");
-    });
+    } catch (error) {
+      console.error("Error generating PDFs:", error);
+      alert("Ocorreu um erro ao gerar os PDFs. Por favor, tente novamente.");
+    } finally {
+      setIsGenerating(false);
+      setGenerationProgress(0);
+    }
   };
 
   return (
-    <Row className="mt-4">
-      <Form className="d-flex" onSubmit={onGeneratePdfClicked}>
-        <Col sm={6}>
-          <Form.Control
-            type="text"
-            onChange={onInputSongbookTitle}
-            value={songbookTitle}
-            placeholder="Título do caderninho"
-          />
-        </Col>
-        <Col sm={3}>
-          <Dropdown as={ButtonGroup}>
-            <Button type="submit">Gerar todos</Button>
-
-            <Dropdown.Toggle split id="dropdown-split-basic" />
-
-            <Dropdown.Menu>
-              {instruments.map((instrument) => (
-                <Dropdown.Item
-                  key={instrument}
-                  onClick={(event: any) =>
-                    onGeneratePdfClicked(event, instrument)
-                  }
-                >
-                  {instrument.toUpperCase()}
-                </Dropdown.Item>
-              ))}
-            </Dropdown.Menu>
-          </Dropdown>
-        </Col>
-        <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
-          <Col sm={4}>
-            <Form.Check
-              type="switch"
-              id="back-number"
-              label="Modo carnaval"
-              onChange={onCheckCarnivalMode}
+    <>
+      <Row className="mt-4">
+        <Form className="d-flex" onSubmit={onGeneratePdfClicked}>
+          <Col sm={6}>
+            <Form.Control
+              type="text"
+              onChange={onInputSongbookTitle}
+              value={songbookTitle}
+              placeholder="Título do caderninho"
             />
           </Col>
-        </OverlayTrigger>
-        <Form.Group controlId="formFileImg" className="mb-1">
-          <Form.Label
-            className={
-              songbookImg.imgUrl !== ""
-                ? "btn btn-success w-100 container mb-0"
-                : "btn btn-primary w-100 mb-0"
-            }
-            style={{
-              wordWrap: "break-word",
-              display: "flex",
-              justifyContent: "space-between",
-              paddingRight: "5px",
-            }}
-          >
-            {songbookImg.imgUrl !== "" ? (
-              <span>{`${formattedImgName()} - ${formattedImgSize()} MB`}</span>
-            ) : (
-              <span>Imagem da capa</span>
-            )}
-            <CloseButton
-              hidden={songbookImg.imgUrl === ""}
-              onClick={removeSongbookImg}
-              variant="white"
+          <Col sm={3}>
+            <Dropdown as={ButtonGroup}>
+              <Button type="submit">Gerar todos</Button>
+
+              <Dropdown.Toggle split id="dropdown-split-basic" />
+
+              <Dropdown.Menu>
+                {instruments.map((instrument) => (
+                  <Dropdown.Item
+                    key={instrument}
+                    onClick={(event: any) =>
+                      onGeneratePdfClicked(event, instrument)
+                    }
+                  >
+                    {instrument.toUpperCase()}
+                  </Dropdown.Item>
+                ))}
+              </Dropdown.Menu>
+            </Dropdown>
+          </Col>
+          <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
+            <Col sm={4}>
+              <Form.Check
+                type="switch"
+                id="back-number"
+                label="Modo carnaval"
+                onChange={onCheckCarnivalMode}
+              />
+            </Col>
+          </OverlayTrigger>
+          <Form.Group controlId="formFileImg" className="mb-1">
+            <Form.Label
+              className={
+                songbookImg.imgUrl !== ""
+                  ? "btn btn-success w-100 container mb-0"
+                  : "btn btn-primary w-100 mb-0"
+              }
+              style={{
+                wordWrap: "break-word",
+                display: "flex",
+                justifyContent: "space-between",
+                paddingRight: "5px",
+              }}
+            >
+              {songbookImg.imgUrl !== "" ? (
+                <span>{`${formattedImgName()} - ${formattedImgSize()} MB`}</span>
+              ) : (
+                <span>Imagem da capa</span>
+              )}
+              <CloseButton
+                hidden={songbookImg.imgUrl === ""}
+                onClick={removeSongbookImg}
+                variant="white"
+              />
+            </Form.Label>
+            <Form.Control
+              type="file"
+              hidden={true}
+              onChange={onInputSongbookImg}
+              accept="image/png,image/jpeg"
             />
-          </Form.Label>
-          <Form.Control
-            type="file"
-            hidden={true}
-            onChange={onInputSongbookImg}
-            accept="image/png,image/jpeg"
-          />
-        </Form.Group>
-      </Form>
-    </Row>
+          </Form.Group>
+        </Form>
+      </Row>
+
+      <Modal
+        show={isGenerating}
+        centered
+        backdrop="static"
+        keyboard={false}
+      >
+        <Modal.Header>
+          <Modal.Title>Gerando PDFs</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="text-center py-4">
+          <Spinner animation="border" variant="primary" className="mb-3" />
+          <p>Gerando caderninhos, por favor aguarde...</p>
+          <div className="progress">
+            <div
+              className="progress-bar"
+              role="progressbar"
+              style={{ width: `${generationProgress}%` }}
+              aria-valuenow={generationProgress}
+              aria-valuemin={0}
+              aria-valuemax={100}
+            >
+              {Math.round(generationProgress)}%
+            </div>
+          </div>
+        </Modal.Body>
+      </Modal>
+    </>
   );
 };
 
