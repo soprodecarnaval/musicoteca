@@ -108,7 +108,9 @@ export const generateCarnivalSections = (rows: SongBookItem[]) => {
   for (const section of carnivalSectionOrder) {
     // find section index
     const idx = rows.findIndex(
-      (r) => isSongBookSection(r) && normalizeSectionName(r.title) === section
+      (r) =>
+        isSongBookSection(r) &&
+        normalizeSectionName(r.title) === normalizeSectionName(section)
     );
     if (idx === -1) {
       continue;

@@ -2,25 +2,26 @@ import { Score } from "../../types";
 
 export const carnivalSectionOrder = [
   "marchinha",
-  "moments",
-  "beagá",
-  "fanfarra", // antiga
-  "ebb",
-  "odara",
-  "marcha rancho", // antiga
-  "rancho", // antiga
-  "latina", // antiga
-  "piseiro", // antiga
   "axé",
-  "funk",
   "pagode",
   "samba",
   "brazuka",
-  "frevo",
   "brega",
-  "forrós", // antiga
+  "frevo",
+  "odara",
+  "funk",
+  "ebb",
+  "internacional",
+  "beagá",
+  "moments",
+  // seções antigas (pré-2025), não estão nas mesmas ordens de antes
+  "marcha rancho",
+  "fanfarra",
+  "rancho",
+  "latina",
+  "piseiro",
+  "forrós",
   "technohell",
-  "internacional", // antiga
 ];
 
 export type SortColumn = "title" | "projectTitle" | "style" | "carnivalStyle";
