@@ -27,16 +27,16 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
 
   const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
   if (carnivalMode) {
-    await drawImage(doc, "assets/capa_carnaval_2024.jpeg", 0);
-    doc
-      .font("Roboto-Medium")
-      .fontSize(14)
-      // .rect(142, 213, 220, 15)
-      // .fill("red")
-      .text(instrument.toUpperCase(), 142, 203, {
-        width: 220,
-        align: "center",
-      });
+    await drawImage(doc, `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.jpeg`, 0);
+    // doc
+    //   .font("Roboto-Medium")
+    //   .fontSize(14)
+    //   // .rect(142, 213, 220, 15)
+    //   // .fill("red")
+    //   .text(instrument.toUpperCase(), 142, 203, {
+    //     width: 220,
+    //     align: "center",
+    //   });
   } else if (coverImageUrl != "") {
     await drawImage(doc, coverImageUrl, 0);
     doc
