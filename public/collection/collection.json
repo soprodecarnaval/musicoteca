@@ -27466,6 +27466,56 @@
       ]
     },
     {
+      "title": "trovoada",
+      "scores": [
+        {
+          "id": "trovoada/Paula_e_bebeto",
+          "title": "paula e bebeto",
+          "composer": "Caetano Veloso & Milton Nascimento ",
+          "sub": "",
+          "mscz": "trovoada/Paula_e_bebeto/Paula_e_bebeto.mscz",
+          "metajson": "trovoada/Paula_e_bebeto/Paula_e_bebeto.metajson",
+          "midi": "trovoada/Paula_e_bebeto/Paula_e_bebeto.midi",
+          "parts": [
+            {
+              "name": "Paula_e_bebeto_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Alto_Saxophone-1.svg",
+              "midi": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Alto_Saxophone.midi"
+            },
+            {
+              "name": "Paula_e_bebeto_Flauta",
+              "instrument": "flauta",
+              "svg": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Flauta-1.svg",
+              "midi": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Flauta.midi"
+            },
+            {
+              "name": "Paula_e_bebeto_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Saxofone_Tenor-1.svg",
+              "midi": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "Paula_e_bebeto_Trombone",
+              "instrument": "trombone",
+              "svg": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Trombone-1.svg",
+              "midi": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Trombone.midi"
+            },
+            {
+              "name": "Paula_e_bebeto_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Trompete_em_Bb-1.svg",
+              "midi": "trovoada/Paula_e_bebeto/Paula_e_bebeto_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "trovoada"
+        }
+      ]
+    },
+    {
       "title": "zagateile",
       "scores": [
         {
@@ -28302,6 +28352,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-19T01:21:17.037Z",
+  "scrapedAt": "2025-01-22T15:00:18.494Z",
   "version": 2
 }
