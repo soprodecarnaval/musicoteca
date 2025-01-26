@@ -27,7 +27,11 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
 
   const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
   if (carnivalMode) {
-    await drawImage(doc, `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.jpeg`, 0);
+    await drawImage(
+      doc,
+      `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.jpeg`,
+      0
+    );
     // doc
     //   .font("Roboto-Medium")
     //   .fontSize(14)
@@ -246,6 +250,13 @@ const addSongPage = async (
     align: "right",
     width: 17.1 * cm2pt,
   }); // Número topo página
+  doc
+    .font("Roboto-Medium")
+    .fontSize(9)
+    .text(song.title.toUpperCase(), 0, 12.5 * cm2pt, {
+      align: "center",
+      destination: page,
+    }); // Título pequeno no centro da página abaixo da partitura
 
   doc
     .fontSize(9)
@@ -295,9 +306,9 @@ const addIndexPage = (
     columnCount = 2;
   }
 
-  if (carnivalMode){
-    totalLineCount = 85
-    columnCount = 3
+  if (carnivalMode) {
+    totalLineCount = 85;
+    columnCount = 3;
   }
 
   const maxLinesPerColumn = Math.floor(totalLineCount / columnCount) + 2;
