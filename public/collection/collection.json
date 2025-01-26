@@ -18739,8 +18739,8 @@
         {
           "id": "carnaval bh 2025/FREVO_DE_SEGUNDA",
           "title": "frevo de segunda",
-          "composer": "",
-          "sub": "",
+          "composer": "Charanga do França",
+          "sub": "TR-TR-TR-TR-TR-TR-TR / TR-TR-TR-TR-TR-TR-TR / PÃ PÃ PÃ PÃ",
           "mscz": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA.mscz",
           "metajson": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA.metajson",
           "midi": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA.midi",
@@ -30393,6 +30393,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T22:06:43.023Z",
+  "scrapedAt": "2025-01-26T22:16:07.000Z",
   "version": 2
 }
