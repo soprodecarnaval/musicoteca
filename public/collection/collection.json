@@ -19547,6 +19547,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/MEDO_BOBO",
+          "title": "medo bobo",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO.mscz",
+          "metajson": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO.metajson",
+          "midi": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO.midi",
+          "parts": [
+            {
+              "name": "MEDO_BOBO_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_BONE_PIRATA.midi"
+            },
+            {
+              "name": "MEDO_BOBO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_FLAUTA.midi"
+            },
+            {
+              "name": "MEDO_BOBO_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "MEDO_BOBO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_SAX_ALTO.midi"
+            },
+            {
+              "name": "MEDO_BOBO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA",
           "title": "me abraça e me beija",
           "composer": "Ivete Sangalo",
@@ -28397,6 +28442,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T01:57:53.630Z",
+  "scrapedAt": "2025-01-26T02:06:09.419Z",
   "version": 2
 }
