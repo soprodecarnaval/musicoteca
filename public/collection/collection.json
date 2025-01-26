@@ -19592,6 +19592,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/MELÔ_PIRIPIPI",
+          "title": "melô piripipi",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI.mscz",
+          "metajson": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI.metajson",
+          "midi": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI.midi",
+          "parts": [
+            {
+              "name": "MELÔ_PIRIPIPI_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_BONE_PIRATA.midi"
+            },
+            {
+              "name": "MELÔ_PIRIPIPI_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_FLAUTA.midi"
+            },
+            {
+              "name": "MELÔ_PIRIPIPI_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_PETE_PIRATA.midi"
+            },
+            {
+              "name": "MELÔ_PIRIPIPI_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_SAX_ALTO.midi"
+            },
+            {
+              "name": "MELÔ_PIRIPIPI_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/ME_ABRAÇA_E_ME_BEIJA",
           "title": "me abraça e me beija",
           "composer": "Ivete Sangalo",
@@ -28442,6 +28487,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T02:06:09.419Z",
+  "scrapedAt": "2025-01-26T02:11:17.188Z",
   "version": 2
 }
