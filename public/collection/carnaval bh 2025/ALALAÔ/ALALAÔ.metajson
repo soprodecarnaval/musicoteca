@@ -1,12 +1,12 @@
 {
     "composer": "Nássara e Haroldo Lobo",
-    "duration": 70,
+    "duration": 122,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
     "keysig": 1,
     "lyrics": "",
-    "measures": 51,
+    "measures": 59,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
@@ -16,7 +16,7 @@
     "pages": 5,
     "parts": [
         {
-            "harmonyCount": 26,
+            "harmonyCount": 32,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 26,
+            "harmonyCount": 32,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,7 +49,7 @@
             "program": 56
         },
         {
-            "harmonyCount": 26,
+            "harmonyCount": 32,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",

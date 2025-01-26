@@ -1,12 +1,12 @@
 {
     "composer": "Djavan",
-    "duration": 86,
+    "duration": 148,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -1,
+    "keysig": 1,
     "lyrics": "",
-    "measures": 33,
+    "measures": 32,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,

@@ -1,19 +1,19 @@
 {
     "composer": "Luedji Luna e Emillie Lapa",
-    "duration": 108,
+    "duration": 164,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -1,
+    "keysig": -3,
     "lyrics": "",
-    "measures": 89,
+    "measures": 81,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 279,
         "twosided": "true",
         "width": 216
     },
-    "pages": 6,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,

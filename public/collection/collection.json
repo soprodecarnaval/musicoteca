@@ -19234,8 +19234,8 @@
         {
           "id": "carnaval bh 2025/MALHA_FUNK",
           "title": "malha funk",
-          "composer": "DJ Marlboro",
-          "sub": "ESSE É O MALHA FUNK. OS MULEQUE SÃO DENGOSO",
+          "composer": "",
+          "sub": "",
           "mscz": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.mscz",
           "metajson": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.metajson",
           "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.midi",
@@ -19272,7 +19272,7 @@
             }
           ],
           "tags": [
-            "Funk"
+            ""
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -28352,6 +28352,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-22T15:00:18.494Z",
+  "scrapedAt": "2025-01-26T01:28:00.833Z",
   "version": 2
 }
