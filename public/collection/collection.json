@@ -16453,8 +16453,8 @@
         {
           "id": "carnaval bh 2025/ALCOVA_LIBERTINA",
           "title": "alcova libertina",
-          "composer": "Rafael Ludicanti\ne Bloco da Alcova",
-          "sub": "MAS NO CARNAVAL, A ALCOVA LIBERTINA VAI TRAZER O VENDAVAL",
+          "composer": "Rafael Ludicanti",
+          "sub": "CHUTA! X3 CHUTA A FAMILIA MINEIRA! OS MORALISTAS ESTÃO CHEGANDO",
           "mscz": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.mscz",
           "metajson": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.metajson",
           "midi": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.midi",
@@ -16491,7 +16491,7 @@
             }
           ],
           "tags": [
-            "Forma: ABACBACBDE"
+            "Marchinha"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -19142,6 +19142,51 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
+          "id": "carnaval bh 2025/LANÇA_PERFUME",
+          "title": "lança perfume",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME.mscz",
+          "metajson": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME.metajson",
+          "midi": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME.midi",
+          "parts": [
+            {
+              "name": "LANÇA_PERFUME_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_BONE_PIRATA.midi"
+            },
+            {
+              "name": "LANÇA_PERFUME_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_FLAUTA.midi"
+            },
+            {
+              "name": "LANÇA_PERFUME_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_PETE_PIRATA.midi"
+            },
+            {
+              "name": "LANÇA_PERFUME_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_SAX_ALTO.midi"
+            },
+            {
+              "name": "LANÇA_PERFUME_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/LANÇA_PERFUME/LANÇA_PERFUME_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
           "id": "carnaval bh 2025/LIVIN_ON_A_PRAYER",
           "title": "livin on a prayer",
           "composer": "Bon Jovi",
@@ -19549,8 +19594,8 @@
         {
           "id": "carnaval bh 2025/MEDO_BOBO",
           "title": "medo bobo",
-          "composer": "",
-          "sub": "",
+          "composer": "Maiara e Maraisa",
+          "sub": "AH, ESSE TOM DE VOZ EU RECONHEÇO. MISTURA DE MEDO E DESEJO",
           "mscz": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO.mscz",
           "metajson": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO.metajson",
           "midi": "carnaval bh 2025/MEDO_BOBO/MEDO_BOBO.midi",
@@ -19587,15 +19632,15 @@
             }
           ],
           "tags": [
-            ""
+            "Odara"
           ],
           "projectTitle": "carnaval bh 2025"
         },
         {
           "id": "carnaval bh 2025/MELÔ_PIRIPIPI",
           "title": "melô piripipi",
-          "composer": "",
-          "sub": "",
+          "composer": "Gretchen",
+          "sub": "PIRIPIRIPIRIPIPIRIPI. JE SUIS LA FEMME. O-OOOO OH. OH, MON AMOUR",
           "mscz": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI.mscz",
           "metajson": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI.metajson",
           "midi": "carnaval bh 2025/MELÔ_PIRIPIPI/MELÔ_PIRIPIPI.midi",
@@ -19632,7 +19677,7 @@
             }
           ],
           "tags": [
-            ""
+            "Moments"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -28487,6 +28532,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T02:11:17.188Z",
+  "scrapedAt": "2025-01-26T02:25:42.086Z",
   "version": 2
 }
