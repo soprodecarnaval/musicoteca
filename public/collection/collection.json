@@ -27746,6 +27746,236 @@
       ]
     },
     {
+      "title": "trovoadas",
+      "scores": [
+        {
+          "id": "trovoadas/ALGUEM_ME_AVISOU",
+          "title": "alguem me avisou",
+          "composer": "",
+          "sub": "",
+          "mscz": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU.mscz",
+          "metajson": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU.metajson",
+          "midi": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU.midi",
+          "parts": [
+            {
+              "name": "ALGUEM_ME_AVISOU_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_BONE_PIRATA-1.svg",
+              "midi": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ALGUEM_ME_AVISOU_FLAUTA",
+              "instrument": "flauta",
+              "svg": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_FLAUTA-1.svg",
+              "midi": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_FLAUTA.midi"
+            },
+            {
+              "name": "ALGUEM_ME_AVISOU_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_PETE_PIRATA-1.svg",
+              "midi": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ALGUEM_ME_AVISOU_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_SAX_ALTO-1.svg",
+              "midi": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_SAX_ALTO.midi"
+            },
+            {
+              "name": "ALGUEM_ME_AVISOU_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_SAX_TENOR-1.svg",
+              "midi": "trovoadas/ALGUEM_ME_AVISOU/ALGUEM_ME_AVISOU_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "trovoadas"
+        },
+        {
+          "id": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS",
+          "title": "a dona dos raios e dos ventos",
+          "composer": "Compositor / arranjador",
+          "sub": "",
+          "mscz": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS.mscz",
+          "metajson": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS.metajson",
+          "midi": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS.midi",
+          "parts": [
+            {
+              "name": "A_DONA_DOS_RAIOS_E_DOS_VENTOS_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_BONE_PIRATA-1.svg",
+              "midi": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_BONE_PIRATA.midi"
+            },
+            {
+              "name": "A_DONA_DOS_RAIOS_E_DOS_VENTOS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_FLAUTA-1.svg",
+              "midi": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_FLAUTA.midi"
+            },
+            {
+              "name": "A_DONA_DOS_RAIOS_E_DOS_VENTOS_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_PETE_PIRATA-1.svg",
+              "midi": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_PETE_PIRATA.midi"
+            },
+            {
+              "name": "A_DONA_DOS_RAIOS_E_DOS_VENTOS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_SAX_ALTO-1.svg",
+              "midi": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_SAX_ALTO.midi"
+            },
+            {
+              "name": "A_DONA_DOS_RAIOS_E_DOS_VENTOS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_SAX_TENOR-1.svg",
+              "midi": "trovoadas/A_DONA_DOS_RAIOS_E_DOS_VENTOS/A_DONA_DOS_RAIOS_E_DOS_VENTOS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "trovoadas"
+        },
+        {
+          "id": "trovoadas/A_VOLTA_DO_MALANDRO",
+          "title": "a volta do malandro",
+          "composer": "Chico Buarque",
+          "sub": "",
+          "mscz": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO.mscz",
+          "metajson": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO.metajson",
+          "midi": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO.midi",
+          "parts": [
+            {
+              "name": "A_VOLTA_DO_MALANDRO_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_BONE_PIRATA-1.svg",
+              "midi": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_BONE_PIRATA.midi"
+            },
+            {
+              "name": "A_VOLTA_DO_MALANDRO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_FLAUTA-1.svg",
+              "midi": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_FLAUTA.midi"
+            },
+            {
+              "name": "A_VOLTA_DO_MALANDRO_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_PETE_PIRATA-1.svg",
+              "midi": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "A_VOLTA_DO_MALANDRO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_SAX_ALTO-1.svg",
+              "midi": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_SAX_ALTO.midi"
+            },
+            {
+              "name": "A_VOLTA_DO_MALANDRO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_SAX_TENOR-1.svg",
+              "midi": "trovoadas/A_VOLTA_DO_MALANDRO/A_VOLTA_DO_MALANDRO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "trovoadas"
+        },
+        {
+          "id": "trovoadas/EXU",
+          "title": "exu",
+          "composer": "Compositor / arranjador",
+          "sub": "",
+          "mscz": "trovoadas/EXU/EXU.mscz",
+          "metajson": "trovoadas/EXU/EXU.metajson",
+          "midi": "trovoadas/EXU/EXU.midi",
+          "parts": [
+            {
+              "name": "EXU_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "trovoadas/EXU/EXU_BONE_PIRATA-1.svg",
+              "midi": "trovoadas/EXU/EXU_BONE_PIRATA.midi"
+            },
+            {
+              "name": "EXU_FLAUTA",
+              "instrument": "flauta",
+              "svg": "trovoadas/EXU/EXU_FLAUTA-1.svg",
+              "midi": "trovoadas/EXU/EXU_FLAUTA.midi"
+            },
+            {
+              "name": "EXU_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "trovoadas/EXU/EXU_PETE_PIRATA-1.svg",
+              "midi": "trovoadas/EXU/EXU_PETE_PIRATA.midi"
+            },
+            {
+              "name": "EXU_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "trovoadas/EXU/EXU_SAX_ALTO-1.svg",
+              "midi": "trovoadas/EXU/EXU_SAX_ALTO.midi"
+            },
+            {
+              "name": "EXU_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "trovoadas/EXU/EXU_SAX_TENOR-1.svg",
+              "midi": "trovoadas/EXU/EXU_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "trovoadas"
+        },
+        {
+          "id": "trovoadas/TRISTEZA_PÉ_NO_CHÃO",
+          "title": "tristeza pé no chão",
+          "composer": "Mamão",
+          "sub": "",
+          "mscz": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO.mscz",
+          "metajson": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO.metajson",
+          "midi": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO.midi",
+          "parts": [
+            {
+              "name": "TRISTEZA_PÉ_NO_CHÃO_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_BONE_PIRATA-1.svg",
+              "midi": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_BONE_PIRATA.midi"
+            },
+            {
+              "name": "TRISTEZA_PÉ_NO_CHÃO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_FLAUTA-1.svg",
+              "midi": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_FLAUTA.midi"
+            },
+            {
+              "name": "TRISTEZA_PÉ_NO_CHÃO_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_PETE_PIRATA-1.svg",
+              "midi": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "TRISTEZA_PÉ_NO_CHÃO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_SAX_ALTO-1.svg",
+              "midi": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_SAX_ALTO.midi"
+            },
+            {
+              "name": "TRISTEZA_PÉ_NO_CHÃO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_SAX_TENOR-1.svg",
+              "midi": "trovoadas/TRISTEZA_PÉ_NO_CHÃO/TRISTEZA_PÉ_NO_CHÃO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "trovoadas"
+        }
+      ]
+    },
+    {
       "title": "zagateile",
       "scores": [
         {
@@ -28582,6 +28812,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T02:38:23.514Z",
+  "scrapedAt": "2025-01-26T03:11:11.548Z",
   "version": 2
 }
