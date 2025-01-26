@@ -2,15 +2,8 @@
   {
     "message": "Found a non-first page svg asset, ignoring it",
     "meta": {
-      "name": "TREMENDO_VACILÃO_FLAUTA-2",
-      "entryPath": "/tmp/collection/carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_FLAUTA-2.svg"
-    }
-  },
-  {
-    "message": "Found a non-first page svg asset, ignoring it",
-    "meta": {
-      "name": "TREMENDO_VACILÃO_PETE_PIRATA-2",
-      "entryPath": "/tmp/collection/carnaval bh 2025/TREMENDO_VACILÃO/TREMENDO_VACILÃO_PETE_PIRATA-2.svg"
+      "name": "MALHA_FUNK_PETE_PIRATA-2",
+      "entryPath": "/tmp/collection/carnaval bh 2025/MALHA_FUNK/MALHA_FUNK_PETE_PIRATA-2.svg"
     }
   }
 ]
