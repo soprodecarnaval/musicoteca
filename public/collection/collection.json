@@ -19279,8 +19279,8 @@
         {
           "id": "carnaval bh 2025/MALHA_FUNK",
           "title": "malha funk",
-          "composer": "",
-          "sub": "",
+          "composer": "Furacão 2000",
+          "sub": "ESSE É O MALHA FUNK. OS MULEQUES SÃO DENGOSO",
           "mscz": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.mscz",
           "metajson": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.metajson",
           "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.midi",
@@ -19317,7 +19317,7 @@
             }
           ],
           "tags": [
-            ""
+            "Funk"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -30393,6 +30393,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T15:11:31.326Z",
+  "scrapedAt": "2025-01-26T22:06:43.023Z",
   "version": 2
 }
