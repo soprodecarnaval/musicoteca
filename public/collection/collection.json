@@ -18874,8 +18874,8 @@
         {
           "id": "carnaval bh 2025/ILARIE",
           "title": "ilarie",
-          "composer": "",
-          "sub": "",
+          "composer": "Xuxa",
+          "sub": "TÁ NA HORA, TÁ NA HOR! TÁ NA HORA DE BRINCAR!",
           "mscz": "carnaval bh 2025/ILARIE/ILARIE.mscz",
           "metajson": "carnaval bh 2025/ILARIE/ILARIE.metajson",
           "midi": "carnaval bh 2025/ILARIE/ILARIE.midi",
@@ -18912,7 +18912,7 @@
             }
           ],
           "tags": [
-            ""
+            "Moments"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -30455,6 +30455,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-27T02:13:53.540Z",
+  "scrapedAt": "2025-01-27T02:34:33.713Z",
   "version": 2
 }
