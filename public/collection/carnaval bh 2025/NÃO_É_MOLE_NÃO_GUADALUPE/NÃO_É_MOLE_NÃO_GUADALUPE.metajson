@@ -1,6 +1,6 @@
 {
     "composer": "",
-    "duration": 72,
+    "duration": 144,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -53,10 +53,10 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.cornet.soprano",
+            "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Pete 1",
+            "name": "Trompete em B♭",
             "program": 56
         },
         {
@@ -69,17 +69,6 @@
             "lyricCount": 0,
             "name": "Bone 2",
             "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.tuba",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Tuba",
-            "program": 58
         }
     ],
     "poet": "Moments",

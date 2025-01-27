@@ -1,12 +1,12 @@
 {
     "composer": "Lamparina",
-    "duration": 174,
+    "duration": 172,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 66,
+    "measures": 65,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
