@@ -16454,7 +16454,7 @@
           "id": "carnaval bh 2025/ALCOVA_LIBERTINA",
           "title": "alcova libertina",
           "composer": "Rafael Ludicanti",
-          "sub": "CHUTA! X3 CHUTA A FAMILIA MINEIRA! OS MORALISTAS ESTÃO CHEGANDO",
+          "sub": "CHUTA (3X). CHUTA A FAMILIA MINEIRA! OS MORALISTAS ESTÃO CHEGANDO",
           "mscz": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.mscz",
           "metajson": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.metajson",
           "midi": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.midi",
@@ -16491,7 +16491,7 @@
             }
           ],
           "tags": [
-            "Marchinha"
+            "Beagá"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -20057,6 +20057,12 @@
               "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE.midi"
             },
             {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE_PIRATA.midi"
+            },
+            {
               "name": "NÃO_É_MOLE_NÃO_GUADALUPE_FLAUTA",
               "instrument": "flauta",
               "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_FLAUTA-1.svg",
@@ -20067,6 +20073,12 @@
               "instrument": "trompete",
               "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE-1.svg",
               "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE.midi"
+            },
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE_PIRATA.midi"
             },
             {
               "name": "NÃO_É_MOLE_NÃO_GUADALUPE_SAX_ALTO",
@@ -20770,7 +20782,7 @@
         {
           "id": "carnaval bh 2025/RAP_DO_SILVA",
           "title": "rap do silva",
-          "composer": "",
+          "composer": "MC Bob Rum",
           "sub": "TODO MUNDO DEVIA NESSA HISTÓRIA SE LIGAR ",
           "mscz": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA.mscz",
           "metajson": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA.metajson",
@@ -21221,7 +21233,7 @@
           "id": "carnaval bh 2025/TAÍ",
           "title": "taí",
           "composer": "Joubert de Carvalho",
-          "sub": "TAÍ! EU FIZ TUDO PRA VOCÊ GOSTAR DE MIM",
+          "sub": "TAÍ, EU FIZ TUDO PRA VOCÊ GOSTAR DE MIM",
           "mscz": "carnaval bh 2025/TAÍ/TAÍ.mscz",
           "metajson": "carnaval bh 2025/TAÍ/TAÍ.metajson",
           "midi": "carnaval bh 2025/TAÍ/TAÍ.midi",
@@ -21452,7 +21464,7 @@
           "id": "carnaval bh 2025/TOURADAS_DE_MADRI",
           "title": "touradas de madri",
           "composer": "João de Barro",
-          "sub": "EU.. FUI ÀS TOURADAS EM MADRI. E QUASE NÃO VOLTO MAIS AQUI",
+          "sub": "EU.. FUI ÀS TOURADAS EM MADRI. E.. QUASE NÃO VOLTO MAIS AQUI",
           "mscz": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.mscz",
           "metajson": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.metajson",
           "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.midi",
@@ -30393,6 +30405,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T22:16:07.000Z",
+  "scrapedAt": "2025-01-27T01:58:38.616Z",
   "version": 2
 }
