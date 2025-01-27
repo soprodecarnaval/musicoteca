@@ -16631,51 +16631,6 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
-          "id": "carnaval bh 2025/AZUL",
-          "title": "azul",
-          "composer": "Gal Costa",
-          "sub": "EU NÃO SEI SE VEM DE DEUS. DO CÉU FICAR AZUL",
-          "mscz": "carnaval bh 2025/AZUL/AZUL.mscz",
-          "metajson": "carnaval bh 2025/AZUL/AZUL.metajson",
-          "midi": "carnaval bh 2025/AZUL/AZUL.midi",
-          "parts": [
-            {
-              "name": "AZUL_BONE_PIRATA",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2025/AZUL/AZUL_BONE_PIRATA-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_BONE_PIRATA.midi"
-            },
-            {
-              "name": "AZUL_FLAUTA",
-              "instrument": "flauta",
-              "svg": "carnaval bh 2025/AZUL/AZUL_FLAUTA-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_FLAUTA.midi"
-            },
-            {
-              "name": "AZUL_PETE_PIRATA",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2025/AZUL/AZUL_PETE_PIRATA-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_PETE_PIRATA.midi"
-            },
-            {
-              "name": "AZUL_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": "carnaval bh 2025/AZUL/AZUL_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_SAX_ALTO.midi"
-            },
-            {
-              "name": "AZUL_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": "carnaval bh 2025/AZUL/AZUL_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Brazuka"
-          ],
-          "projectTitle": "carnaval bh 2025"
-        },
-        {
           "id": "carnaval bh 2025/A_BANDA_TÁ_COM_SEDE",
           "title": "a banda tá com sede",
           "composer": "Thiago França (música incedental: Marcha do Caneco)",
@@ -18913,6 +18868,51 @@
           ],
           "tags": [
             "EBb"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/ILARIE",
+          "title": "ilarie",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2025/ILARIE/ILARIE.mscz",
+          "metajson": "carnaval bh 2025/ILARIE/ILARIE.metajson",
+          "midi": "carnaval bh 2025/ILARIE/ILARIE.midi",
+          "parts": [
+            {
+              "name": "ILARIE_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ILARIE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_FLAUTA.midi"
+            },
+            {
+              "name": "ILARIE_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ILARIE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_SAX_ALTO.midi"
+            },
+            {
+              "name": "ILARIE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -24313,6 +24313,56 @@
             ""
           ],
           "projectTitle": "mamá vaquinha 2024"
+        }
+      ]
+    },
+    {
+      "title": "miscellaneous",
+      "scores": [
+        {
+          "id": "miscellaneous/AZUL",
+          "title": "azul",
+          "composer": "Gal Costa",
+          "sub": "EU NÃO SEI SE VEM DE DEUS. DO CÉU FICAR AZUL",
+          "mscz": "miscellaneous/AZUL/AZUL.mscz",
+          "metajson": "miscellaneous/AZUL/AZUL.metajson",
+          "midi": "miscellaneous/AZUL/AZUL.midi",
+          "parts": [
+            {
+              "name": "AZUL_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "miscellaneous/AZUL/AZUL_BONE_PIRATA-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_BONE_PIRATA.midi"
+            },
+            {
+              "name": "AZUL_FLAUTA",
+              "instrument": "flauta",
+              "svg": "miscellaneous/AZUL/AZUL_FLAUTA-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_FLAUTA.midi"
+            },
+            {
+              "name": "AZUL_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "miscellaneous/AZUL/AZUL_PETE_PIRATA-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_PETE_PIRATA.midi"
+            },
+            {
+              "name": "AZUL_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "miscellaneous/AZUL/AZUL_SAX_ALTO-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_SAX_ALTO.midi"
+            },
+            {
+              "name": "AZUL_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "miscellaneous/AZUL/AZUL_SAX_TENOR-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "miscellaneous"
         }
       ]
     },
@@ -30405,6 +30455,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-27T01:58:38.616Z",
+  "scrapedAt": "2025-01-27T02:13:53.540Z",
   "version": 2
 }
