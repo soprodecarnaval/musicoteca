@@ -16454,7 +16454,7 @@
           "id": "carnaval bh 2025/ALCOVA_LIBERTINA",
           "title": "alcova libertina",
           "composer": "Rafael Ludicanti",
-          "sub": "CHUTA! X3 CHUTA A FAMILIA MINEIRA! OS MORALISTAS ESTÃO CHEGANDO",
+          "sub": "CHUTA (3X). CHUTA A FAMILIA MINEIRA! OS MORALISTAS ESTÃO CHEGANDO",
           "mscz": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.mscz",
           "metajson": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.metajson",
           "midi": "carnaval bh 2025/ALCOVA_LIBERTINA/ALCOVA_LIBERTINA.midi",
@@ -16491,7 +16491,7 @@
             }
           ],
           "tags": [
-            "Marchinha"
+            "Beagá"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -16627,51 +16627,6 @@
           ],
           "tags": [
             "Axé"
-          ],
-          "projectTitle": "carnaval bh 2025"
-        },
-        {
-          "id": "carnaval bh 2025/AZUL",
-          "title": "azul",
-          "composer": "Gal Costa",
-          "sub": "EU NÃO SEI SE VEM DE DEUS. DO CÉU FICAR AZUL",
-          "mscz": "carnaval bh 2025/AZUL/AZUL.mscz",
-          "metajson": "carnaval bh 2025/AZUL/AZUL.metajson",
-          "midi": "carnaval bh 2025/AZUL/AZUL.midi",
-          "parts": [
-            {
-              "name": "AZUL_BONE_PIRATA",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2025/AZUL/AZUL_BONE_PIRATA-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_BONE_PIRATA.midi"
-            },
-            {
-              "name": "AZUL_FLAUTA",
-              "instrument": "flauta",
-              "svg": "carnaval bh 2025/AZUL/AZUL_FLAUTA-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_FLAUTA.midi"
-            },
-            {
-              "name": "AZUL_PETE_PIRATA",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2025/AZUL/AZUL_PETE_PIRATA-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_PETE_PIRATA.midi"
-            },
-            {
-              "name": "AZUL_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": "carnaval bh 2025/AZUL/AZUL_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_SAX_ALTO.midi"
-            },
-            {
-              "name": "AZUL_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": "carnaval bh 2025/AZUL/AZUL_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2025/AZUL/AZUL_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Brazuka"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -18739,8 +18694,8 @@
         {
           "id": "carnaval bh 2025/FREVO_DE_SEGUNDA",
           "title": "frevo de segunda",
-          "composer": "",
-          "sub": "",
+          "composer": "Charanga do França",
+          "sub": "TR-TR-TR-TR-TR-TR-TR / TR-TR-TR-TR-TR-TR-TR / PÃ PÃ PÃ PÃ",
           "mscz": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA.mscz",
           "metajson": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA.metajson",
           "midi": "carnaval bh 2025/FREVO_DE_SEGUNDA/FREVO_DE_SEGUNDA.midi",
@@ -18913,6 +18868,51 @@
           ],
           "tags": [
             "EBb"
+          ],
+          "projectTitle": "carnaval bh 2025"
+        },
+        {
+          "id": "carnaval bh 2025/ILARIE",
+          "title": "ilarie",
+          "composer": "Xuxa",
+          "sub": "TÁ NA HORA, TÁ NA HOR! TÁ NA HORA DE BRINCAR!",
+          "mscz": "carnaval bh 2025/ILARIE/ILARIE.mscz",
+          "metajson": "carnaval bh 2025/ILARIE/ILARIE.metajson",
+          "midi": "carnaval bh 2025/ILARIE/ILARIE.midi",
+          "parts": [
+            {
+              "name": "ILARIE_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ILARIE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_FLAUTA.midi"
+            },
+            {
+              "name": "ILARIE_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ILARIE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_SAX_ALTO.midi"
+            },
+            {
+              "name": "ILARIE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ILARIE/ILARIE_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ILARIE/ILARIE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Moments"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -19279,8 +19279,8 @@
         {
           "id": "carnaval bh 2025/MALHA_FUNK",
           "title": "malha funk",
-          "composer": "",
-          "sub": "",
+          "composer": "Furacão 2000",
+          "sub": "ESSE É O MALHA FUNK. OS MULEQUES SÃO DENGOSO",
           "mscz": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.mscz",
           "metajson": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.metajson",
           "midi": "carnaval bh 2025/MALHA_FUNK/MALHA_FUNK.midi",
@@ -19317,7 +19317,7 @@
             }
           ],
           "tags": [
-            ""
+            "Funk"
           ],
           "projectTitle": "carnaval bh 2025"
         },
@@ -20057,6 +20057,12 @@
               "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE.midi"
             },
             {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_BONE_PIRATA.midi"
+            },
+            {
               "name": "NÃO_É_MOLE_NÃO_GUADALUPE_FLAUTA",
               "instrument": "flauta",
               "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_FLAUTA-1.svg",
@@ -20067,6 +20073,12 @@
               "instrument": "trompete",
               "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE-1.svg",
               "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE.midi"
+            },
+            {
+              "name": "NÃO_É_MOLE_NÃO_GUADALUPE_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/NÃO_É_MOLE_NÃO_GUADALUPE/NÃO_É_MOLE_NÃO_GUADALUPE_PETE_PIRATA.midi"
             },
             {
               "name": "NÃO_É_MOLE_NÃO_GUADALUPE_SAX_ALTO",
@@ -20770,7 +20782,7 @@
         {
           "id": "carnaval bh 2025/RAP_DO_SILVA",
           "title": "rap do silva",
-          "composer": "",
+          "composer": "MC Bob Rum",
           "sub": "TODO MUNDO DEVIA NESSA HISTÓRIA SE LIGAR ",
           "mscz": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA.mscz",
           "metajson": "carnaval bh 2025/RAP_DO_SILVA/RAP_DO_SILVA.metajson",
@@ -21221,7 +21233,7 @@
           "id": "carnaval bh 2025/TAÍ",
           "title": "taí",
           "composer": "Joubert de Carvalho",
-          "sub": "TAÍ! EU FIZ TUDO PRA VOCÊ GOSTAR DE MIM",
+          "sub": "TAÍ, EU FIZ TUDO PRA VOCÊ GOSTAR DE MIM",
           "mscz": "carnaval bh 2025/TAÍ/TAÍ.mscz",
           "metajson": "carnaval bh 2025/TAÍ/TAÍ.metajson",
           "midi": "carnaval bh 2025/TAÍ/TAÍ.midi",
@@ -21452,7 +21464,7 @@
           "id": "carnaval bh 2025/TOURADAS_DE_MADRI",
           "title": "touradas de madri",
           "composer": "João de Barro",
-          "sub": "EU.. FUI ÀS TOURADAS EM MADRI. E QUASE NÃO VOLTO MAIS AQUI",
+          "sub": "EU.. FUI ÀS TOURADAS EM MADRI. E.. QUASE NÃO VOLTO MAIS AQUI",
           "mscz": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.mscz",
           "metajson": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.metajson",
           "midi": "carnaval bh 2025/TOURADAS_DE_MADRI/TOURADAS_DE_MADRI.midi",
@@ -24301,6 +24313,56 @@
             ""
           ],
           "projectTitle": "mamá vaquinha 2024"
+        }
+      ]
+    },
+    {
+      "title": "miscellaneous",
+      "scores": [
+        {
+          "id": "miscellaneous/AZUL",
+          "title": "azul",
+          "composer": "Gal Costa",
+          "sub": "EU NÃO SEI SE VEM DE DEUS. DO CÉU FICAR AZUL",
+          "mscz": "miscellaneous/AZUL/AZUL.mscz",
+          "metajson": "miscellaneous/AZUL/AZUL.metajson",
+          "midi": "miscellaneous/AZUL/AZUL.midi",
+          "parts": [
+            {
+              "name": "AZUL_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "miscellaneous/AZUL/AZUL_BONE_PIRATA-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_BONE_PIRATA.midi"
+            },
+            {
+              "name": "AZUL_FLAUTA",
+              "instrument": "flauta",
+              "svg": "miscellaneous/AZUL/AZUL_FLAUTA-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_FLAUTA.midi"
+            },
+            {
+              "name": "AZUL_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "miscellaneous/AZUL/AZUL_PETE_PIRATA-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_PETE_PIRATA.midi"
+            },
+            {
+              "name": "AZUL_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "miscellaneous/AZUL/AZUL_SAX_ALTO-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_SAX_ALTO.midi"
+            },
+            {
+              "name": "AZUL_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "miscellaneous/AZUL/AZUL_SAX_TENOR-1.svg",
+              "midi": "miscellaneous/AZUL/AZUL_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "miscellaneous"
         }
       ]
     },
@@ -30393,6 +30455,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-26T03:44:31.482Z",
+  "scrapedAt": "2025-01-27T02:34:33.713Z",
   "version": 2
 }

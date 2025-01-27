@@ -1,19 +1,19 @@
 {
     "composer": "Banda Eva",
-    "duration": 136,
+    "duration": 134,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 34,
+    "measures": 31,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "false",
         "width": 297
     },
-    "pages": 7,
+    "pages": 8,
     "parts": [
         {
             "harmonyCount": 0,

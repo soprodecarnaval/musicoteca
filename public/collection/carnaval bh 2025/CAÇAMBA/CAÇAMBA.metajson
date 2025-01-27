@@ -1,6 +1,6 @@
 {
     "composer": "MOLEJO",
-    "duration": 105,
+    "duration": 118,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "Pagode",
     "previousSource": "ESTÁ TUDO AÍ. ESTÁ TUDO AÍ. QUE PAPO LEGAL. QUE PAPO LEGAL",
     "subtitle": "",
-    "tempo": 90,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 90</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
