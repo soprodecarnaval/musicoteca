@@ -19832,6 +19832,12 @@
               "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_BONE.midi"
             },
             {
+              "name": "MÁSCARA_NEGRA_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_BONE_PIRATA.midi"
+            },
+            {
               "name": "MÁSCARA_NEGRA_FLAUTA",
               "instrument": "flauta",
               "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_FLAUTA-1.svg",
@@ -19842,6 +19848,12 @@
               "instrument": "trompete",
               "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_PETE-1.svg",
               "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_PETE.midi"
+            },
+            {
+              "name": "MÁSCARA_NEGRA_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/MÁSCARA_NEGRA/MÁSCARA_NEGRA_PETE_PIRATA.midi"
             },
             {
               "name": "MÁSCARA_NEGRA_SAX_ALTO",
@@ -30455,6 +30467,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-28T02:53:47.228Z",
+  "scrapedAt": "2025-01-28T22:55:36.951Z",
   "version": 2
 }
