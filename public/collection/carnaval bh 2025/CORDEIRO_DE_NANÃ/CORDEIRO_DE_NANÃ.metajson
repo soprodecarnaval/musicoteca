@@ -1,12 +1,12 @@
 {
     "composer": "Matheus Aleluia e Dadinho\n(Os Tincoãs)",
-    "duration": 108,
+    "duration": 104,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 27,
+    "measures": 26,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
@@ -16,7 +16,7 @@
     "pages": 4,
     "parts": [
         {
-            "harmonyCount": 29,
+            "harmonyCount": 28,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 29,
+            "harmonyCount": 28,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,7 +49,7 @@
             "program": 56
         },
         {
-            "harmonyCount": 29,
+            "harmonyCount": 28,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
