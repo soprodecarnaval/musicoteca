@@ -335,8 +335,8 @@ const addIndexPage = (
       itemCount++;
       return cursorStartPosition;
     }
-    currentLine = itemCount % (maxLinesPerColumn + 1); //Math.max((itemCount+1)%(maxLinesPerColumn+1),1)
     currentColumn = Math.ceil((itemCount + 1) / (maxLinesPerColumn + 1)) - 1; //Math.max(Math.ceil((itemCount+1)/maxLinesPerColumn),1)
+    currentLine = itemCount % (maxLinesPerColumn + 1); //Math.max((itemCount+1)%(maxLinesPerColumn+1),1)
     itemCount++;
     return [
       cursorStartPosition[0] + currentColumn * columnWidth + 1,
@@ -359,6 +359,15 @@ const addIndexPage = (
         resetCursorPosition();
         [currentX, currentY] = nextCursorPosition();
         doc.addPage().addPage();
+      }
+
+      // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
+      if (
+        title.toLocaleLowerCase() == "frevo" ||
+        title.toLocaleLowerCase() == "odara"
+      ) {
+        itemCount = 2 * (maxLinesPerColumn + 1);
+        [currentX, currentY] = nextCursorPosition();
       }
     }
 

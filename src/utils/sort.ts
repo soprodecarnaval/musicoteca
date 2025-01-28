@@ -23,6 +23,8 @@ export const carnivalSectionOrder = [
   "forrós",
   "technohell",
 ];
+// carnaval agora é alfabético
+carnivalSectionOrder.sort();
 
 export type SortColumn = "title" | "projectTitle" | "style" | "carnivalStyle";
 
