@@ -1,10 +1,10 @@
 {
     "composer": "Bon Jovi",
-    "duration": 112,
+    "duration": 128,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -5,
+    "keysig": -1,
     "lyrics": "",
     "measures": 25,
     "mscoreVersion": "3.6.2",
