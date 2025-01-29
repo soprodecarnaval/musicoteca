@@ -4,7 +4,7 @@
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -3,
+    "keysig": -2,
     "lyrics": "",
     "measures": 36,
     "mscoreVersion": "3.6.2",
@@ -45,7 +45,7 @@
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
+            "name": "",
             "program": 66
         },
         {
