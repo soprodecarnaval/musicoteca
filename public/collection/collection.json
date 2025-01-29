@@ -18386,10 +18386,40 @@
           "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA.midi",
           "parts": [
             {
+              "name": "ENERGIA_DE_GOSTOSA_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_FLAUTA.midi"
+            },
+            {
               "name": "ENERGIA_DE_GOSTOSA_Flauta_Transversal",
               "instrument": "flauta",
               "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Flauta_Transversal-1.svg",
               "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_Flauta_Transversal.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_SAX_ALTO.midi"
+            },
+            {
+              "name": "ENERGIA_DE_GOSTOSA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/ENERGIA_DE_GOSTOSA/ENERGIA_DE_GOSTOSA_SAX_TENOR.midi"
             },
             {
               "name": "ENERGIA_DE_GOSTOSA_Saxofone_Alto",
@@ -18572,10 +18602,40 @@
               "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Alto_Saxophone.midi"
             },
             {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_FLAUTA.midi"
+            },
+            {
               "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_Flauta_Transversal",
               "instrument": "flauta",
               "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Flauta_Transversal-1.svg",
               "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_Flauta_Transversal.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_SAX_ALTO.midi"
+            },
+            {
+              "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA/EU_VOU_PRO_BAILE_DA_GAIOLA_SAX_TENOR.midi"
             },
             {
               "name": "EU_VOU_PRO_BAILE_DA_GAIOLA_Saxofone_Tenor",
@@ -20852,6 +20912,12 @@
               "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_BONE.midi"
             },
             {
+              "name": "RECONVEXO_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_BONE_PIRATA.midi"
+            },
+            {
               "name": "RECONVEXO_FLAUTA",
               "instrument": "flauta",
               "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_FLAUTA-1.svg",
@@ -20862,6 +20928,12 @@
               "instrument": "trompete",
               "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_PETE-1.svg",
               "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_PETE.midi"
+            },
+            {
+              "name": "RECONVEXO_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2025/RECONVEXO/RECONVEXO_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2025/RECONVEXO/RECONVEXO_PETE_PIRATA.midi"
             },
             {
               "name": "RECONVEXO_SAX_ALTO",
@@ -30467,6 +30539,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-28T22:55:36.951Z",
+  "scrapedAt": "2025-01-29T03:02:37.649Z",
   "version": 2
 }

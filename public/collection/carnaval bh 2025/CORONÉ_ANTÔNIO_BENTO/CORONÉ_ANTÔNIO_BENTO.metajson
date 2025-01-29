@@ -1,19 +1,19 @@
 {
     "composer": "João do Vale e Luiz Wanderley",
-    "duration": 118,
+    "duration": 110,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -3,
     "lyrics": "",
-    "measures": 52,
+    "measures": 47,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "true",
         "width": 297
     },
-    "pages": 6,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,

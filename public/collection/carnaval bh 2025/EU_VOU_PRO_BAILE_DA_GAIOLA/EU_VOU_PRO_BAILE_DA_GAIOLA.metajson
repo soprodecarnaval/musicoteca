@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 210
     },
-    "pages": 8,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,17 +69,6 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "true",
-            "hasPitchedStaff": "false",
-            "hasTabStaff": "false",
-            "instrumentId": "drum.group.set",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Bateria",
-            "program": 0
         }
     ],
     "poet": "Funk",
