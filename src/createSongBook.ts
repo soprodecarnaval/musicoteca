@@ -1,7 +1,6 @@
 import SVGtoPDF from "svg-to-pdfkit";
 import { Instrument, Score } from "../types";
 import { Section } from "./tsx/PdfGenerator";
-import { fonts } from "pdfkit/js/page";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
