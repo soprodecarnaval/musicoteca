@@ -18542,51 +18542,6 @@
           "projectTitle": "carnaval bh 2025"
         },
         {
-          "id": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR",
-          "title": "eu também queiro beijar",
-          "composer": "F. Nilo, M. Moreira\ne Pepeu Gomes",
-          "sub": "A FLOR DO DESEJO E DO MARACUJÁ. EU TAMBÉM QUERO BEIJAR",
-          "mscz": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR.mscz",
-          "metajson": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR.metajson",
-          "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR.midi",
-          "parts": [
-            {
-              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_BONE",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_BONE-1.svg",
-              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_BONE.midi"
-            },
-            {
-              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_FLAUTA",
-              "instrument": "flauta",
-              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_FLAUTA-1.svg",
-              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_FLAUTA.midi"
-            },
-            {
-              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_PETE",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_PETE-1.svg",
-              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_PETE.midi"
-            },
-            {
-              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_ALTO.midi"
-            },
-            {
-              "name": "EU_TAMBÉM_QUEIRO_BEIJAR_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2025/EU_TAMBÉM_QUEIRO_BEIJAR/EU_TAMBÉM_QUEIRO_BEIJAR_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Axé"
-          ],
-          "projectTitle": "carnaval bh 2025"
-        },
-        {
           "id": "carnaval bh 2025/EU_VOU_PRO_BAILE_DA_GAIOLA",
           "title": "eu vou pro baile da gaiola",
           "composer": "Kevin o Chris",
@@ -30539,6 +30494,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-29T03:02:37.649Z",
+  "scrapedAt": "2025-01-29T03:25:10.679Z",
   "version": 2
 }
