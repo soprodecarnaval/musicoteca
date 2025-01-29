@@ -1,6 +1,7 @@
 import SVGtoPDF from "svg-to-pdfkit";
 import { Instrument, Score } from "../types";
 import { Section } from "./tsx/PdfGenerator";
+import { fonts } from "pdfkit/js/page";
 
 // Needed for calling PDFDocument from window variable
 declare const window: any;
@@ -122,7 +123,7 @@ const drawSvg = async (
     const resp = await fetch(url);
     const svg = await resp.text();
     let pdfPage = carnivalMode ? 2 * page + 13 : page + 1; // adiciona páginas extras para preambulo
-    console.log(pdfPage);
+    // console.log(pdfPage);
     doc.switchToPage(pdfPage);
     const width = 17.17 * cm2pt;
     const height = 9.82 * cm2pt;
@@ -306,17 +307,22 @@ const addIndexPage = (
     columnCount = 2;
   }
 
-  if (carnivalMode) {
-    totalLineCount = 85;
-    columnCount = 3;
-  }
-
-  const maxLinesPerColumn = Math.floor(totalLineCount / columnCount) + 2;
-  const fontSize = Math.min(
+  let maxLinesPerColumn = Math.floor(totalLineCount / columnCount) + 2;
+  let fontSize = Math.min(
     Math.floor(containerHeight / maxLinesPerColumn) - 3,
     15
   );
-  const columnWidth = Math.ceil(containerWidth / columnCount);
+  let columnWidth = Math.ceil(containerWidth / columnCount);
+
+  console.log(`containerWidth: ${containerWidth}\n containerHeight: ${containerHeight}\n totalLineCount: ${totalLineCount}\n columnCount: ${columnCount}\n maxLinexPerColumn: ${maxLinesPerColumn}\n fontSize: ${fontSize}\n columnWidth: ${columnWidth}\n`)
+
+  if (carnivalMode) {
+    totalLineCount = 90;
+    columnCount = 3;
+    maxLinesPerColumn = 31;
+    fontSize = 9;
+    columnWidth = 163
+  }
 
   let cursorStartPosition = [1.44 * cm2pt, 1.55 * cm2pt];
   let currentColumn = 0;
@@ -364,9 +370,14 @@ const addIndexPage = (
       // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
       if (
         title.toLocaleLowerCase() == "frevo" ||
-        title.toLocaleLowerCase() == "odara"
+        title.toLocaleLowerCase() == "pagode"
       ) {
         itemCount = 2 * (maxLinesPerColumn + 1);
+        [currentX, currentY] = nextCursorPosition();
+      } else if (
+        title.toLocaleLowerCase() == "moments"
+      ) {
+        itemCount = (maxLinesPerColumn + 1);
         [currentX, currentY] = nextCursorPosition();
       }
     }
