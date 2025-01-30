@@ -26,12 +26,18 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   await loadFonts(doc);
 
   const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
+  let pageNumber = 0;
+  let promises: Promise<any>[] = [];
+
   if (carnivalMode) {
-    await drawImage(
-      doc,
-      `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.jpeg`,
-      0
+    promises.push(
+      drawImage(
+        doc,
+        `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.jpeg`,
+        pageNumber
+      )
     );
+
     // doc
     //   .font("Roboto-Medium")
     //   .fontSize(14)
@@ -41,8 +47,11 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     //     width: 220,
     //     align: "center",
     //   });
+
+    doc.addPage();
+    pageNumber++;
   } else if (coverImageUrl != "") {
-    await drawImage(doc, coverImageUrl, 0);
+    promises.push(drawImage(doc, coverImageUrl, 0));
     doc
       .fontSize(25)
       .text(title.toUpperCase(), 120, 100)
@@ -56,37 +65,54 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
       .text(instrument.toUpperCase(), 120, 125);
   }
 
-  if (carnivalMode) doc.addPage();
-  addIndexPage(doc, opts);
+  pageNumber += addIndexPage(doc, opts);
 
   if (carnivalMode) {
     doc.addPage();
+    pageNumber++;
+    promises.push(drawImage(doc, "assets/anti_assedio_2025_1.png", pageNumber));
+
     doc.addPage();
+    pageNumber++;
+
     doc.addPage();
+    pageNumber++;
+    promises.push(drawImage(doc, "assets/anti_assedio_2025_2.png", pageNumber));
+
     doc.addPage();
+    pageNumber++;
+
     doc.addPage();
+    pageNumber++;
+    promises.push(drawImage(doc, "assets/anti_assedio_2025_3.png", pageNumber));
+
     doc.addPage();
+    pageNumber++;
+
     doc.addPage();
-    // doc.addPage();
-    await drawImage(doc, "assets/anti_assedio_2025_1.png", 6);
-    await drawImage(doc, "assets/anti_assedio_2025_2.png", 8);
-    await drawImage(doc, "assets/anti_assedio_2025_3.png", 10);
-    await drawImage(doc, "assets/anti_assedio_2025_4.png", 12);
+    pageNumber++;
+    promises.push(drawImage(doc, "assets/anti_assedio_2025_4.png", pageNumber));
+
+    doc.addPage();
+    pageNumber++;
   }
 
   const { outline } = doc;
-  let promises: Promise<any>[] = [];
-  let pageNumber = 0;
   for (const { title, songs } of sections) {
     let topItem = outline.addItem(title.toUpperCase());
     sectionTitleOutlines.set(title, topItem);
 
-    promises.push(
-      ...songs.map((song) => {
-        pageNumber++;
-        return addSongPage(doc, song, pageNumber, title, opts);
-      })
-    );
+    for (const song of songs) {
+      const [pageCount, addSongPagePromises] = await addSongPage(
+        doc,
+        song,
+        pageNumber,
+        title,
+        opts
+      );
+      pageNumber += pageCount;
+      promises.push(...addSongPagePromises);
+    }
   }
   const nonNullPromises = promises.filter((promise) => promise !== null);
   if (nonNullPromises.length > 0) {
@@ -112,18 +138,11 @@ const download = (doc: any, file_name: string) => {
   doc.end();
 };
 
-const drawSvg = async (
-  doc: any,
-  url: string,
-  page: number,
-  carnivalMode: boolean
-) => {
+const drawSvg = async (doc: any, url: string, page: number): Promise<void> => {
   try {
     const resp = await fetch(url);
     const svg = await resp.text();
-    let pdfPage = carnivalMode ? 2 * page + 12 : page + 1; // adiciona páginas extras para preambulo
-    // console.log(pdfPage);
-    doc.switchToPage(pdfPage);
+    doc.switchToPage(page);
     const width = 17.17 * cm2pt;
     const height = 9.82 * cm2pt;
     SVGtoPDF(doc, svg, 0.44 * cm2pt, 2.55 * cm2pt, {
@@ -159,19 +178,19 @@ const loadImage = (url: string) => {
   });
 };
 
-const drawImage = (doc: any, imageUrl: any, pageNumber: number) => {
-  return loadImage(imageUrl)
-    .then((img: any) => {
-      doc.switchToPage(pageNumber);
-      doc.image(img, 0, 0, {
-        fit: [pageWidth, pageHeight],
-        align: "center",
-        valign: "center",
-      });
-    })
-    .catch((error) => {
-      console.log(error);
+const drawImage = (
+  doc: any,
+  imageUrl: any,
+  pageNumber: number
+): Promise<void> => {
+  return loadImage(imageUrl).then((img: any) => {
+    doc.switchToPage(pageNumber);
+    doc.image(img, 0, 0, {
+      fit: [pageWidth, pageHeight],
+      align: "center",
+      valign: "center",
     });
+  });
 };
 
 const createDoc = () => {
@@ -197,19 +216,22 @@ const addSongPage = async (
   song: Score,
   page: number,
   sectionTitle: string,
-  { instrument, backSheetPageNumber, carnivalMode }: CreateSongBookOptions
-) => {
+  { instrument, backSheetPageNumber }: CreateSongBookOptions
+): Promise<[number, Promise<void>[]]> => {
+  const initialPage = page;
+  const promises: Promise<void>[] = [];
+
   if (backSheetPageNumber) {
     const fontSize = 7 * cm2pt;
     const titleSpacing = 6 * cm2pt;
     const numberSpacing = 0;
-    
+
     doc.addPage();
-    await drawImage( doc, `assets/patrocinio-2025.png`, page );
+    await drawImage(doc, `assets/patrocinio-2025.png`, page);
     doc
       .moveTo(5.5 * cm2pt, 1 * cm2pt)
       .lineTo(5.5 * cm2pt, 12 * cm2pt)
-      .stroke(); 
+      .stroke();
     doc
       .font("Roboto-Bold")
       .fontSize(fontSize)
@@ -226,8 +248,14 @@ const addSongPage = async (
         width: 8 * cm2pt,
         height: 3 * cm2pt,
       }); // Título do verso
+
+    // make sure to increment page count after drawing everything
+    page++;
   }
+
   doc.addPage();
+  page++;
+
   sectionTitleOutlines.get(sectionTitle).addItem(song.title.toUpperCase());
   doc
     .font("Roboto-Bold")
@@ -280,9 +308,10 @@ const addSongPage = async (
     svgUrl = song.parts.filter((part) => part.instrument == instrument)[0].svg;
   } catch (error) {
     console.log(`No part for ${instrument} in ${song.title}.`);
-    return null;
   }
-  return drawSvg(doc, `/collection/${svgUrl}`, page, carnivalMode);
+  promises.push(drawSvg(doc, `/collection/${svgUrl}`, page));
+
+  return [page - initialPage, promises];
 };
 
 const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
@@ -292,7 +321,9 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 const addIndexPage = (
   doc: any,
   { sections, carnivalMode }: CreateSongBookOptions
-) => {
+): number => {
+  let pageCount = 0;
+
   const totalSongCount = sections.reduce(
     (acc, { songs }) => acc + songs.length,
     0
@@ -318,14 +349,16 @@ const addIndexPage = (
   );
   let columnWidth = Math.ceil(containerWidth / columnCount);
 
-  console.log(`containerWidth: ${containerWidth}\n containerHeight: ${containerHeight}\n totalLineCount: ${totalLineCount}\n columnCount: ${columnCount}\n maxLinexPerColumn: ${maxLinesPerColumn}\n fontSize: ${fontSize}\n columnWidth: ${columnWidth}\n`)
+  console.log(
+    `containerWidth: ${containerWidth}\n containerHeight: ${containerHeight}\n totalLineCount: ${totalLineCount}\n columnCount: ${columnCount}\n maxLinexPerColumn: ${maxLinesPerColumn}\n fontSize: ${fontSize}\n columnWidth: ${columnWidth}\n`
+  );
 
   if (carnivalMode) {
     totalLineCount = 90;
     columnCount = 3;
     maxLinesPerColumn = 31;
     fontSize = 9;
-    columnWidth = 163
+    columnWidth = 163;
   }
 
   let cursorStartPosition = [1.44 * cm2pt, 1.55 * cm2pt];
@@ -355,7 +388,10 @@ const addIndexPage = (
   };
   let [currentX, currentY] = nextCursorPosition();
   let reorderedSongs: Score[] = [];
+
   doc.addPage();
+  pageCount++;
+
   // .fontSize(25)
   // .font("Roboto-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
@@ -369,6 +405,7 @@ const addIndexPage = (
         resetCursorPosition();
         [currentX, currentY] = nextCursorPosition();
         doc.addPage().addPage();
+        pageCount += 2;
       }
 
       // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
@@ -378,10 +415,8 @@ const addIndexPage = (
       ) {
         itemCount = 2 * (maxLinesPerColumn + 1);
         [currentX, currentY] = nextCursorPosition();
-      } else if (
-        title.toLocaleLowerCase() == "moments"
-      ) {
-        itemCount = (maxLinesPerColumn + 1);
+      } else if (title.toLocaleLowerCase() == "moments") {
+        itemCount = maxLinesPerColumn + 1;
         [currentX, currentY] = nextCursorPosition();
       }
     }
@@ -416,6 +451,10 @@ const addIndexPage = (
     });
     if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
   });
-  if (carnivalMode) doc.addPage();
-  return reorderedSongs;
+  if (carnivalMode) {
+    doc.addPage();
+    pageCount++;
+  }
+
+  return pageCount;
 };
