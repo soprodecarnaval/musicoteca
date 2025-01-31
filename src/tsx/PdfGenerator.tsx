@@ -35,6 +35,14 @@ const instruments: Instrument[] = [
   "clarinete",
 ];
 
+const carnivalInstruments: Instrument[] = [
+  "trompete",
+  "trombone",
+  "sax alto",
+  "sax tenor",
+  "flauta",
+];
+
 interface PdfGeneratorProps {
   songBook: SongBook;
 }
@@ -100,6 +108,9 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
     let selectedInstruments = instruments;
     if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i);
+    }
+    if (carnivalMode){
+      selectedInstruments = carnivalInstruments
     }
     if (scores.length < 1) {
       alert("Selecione ao menos uma música!");
