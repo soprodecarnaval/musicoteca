@@ -98,6 +98,8 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   }
 
   const { outline } = doc;
+
+  let songPageIndex = 1;
   for (const { title, songs } of sections) {
     let topItem = outline.addItem(title.toUpperCase());
     sectionTitleOutlines.set(title, topItem);
@@ -107,9 +109,11 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
         doc,
         song,
         pageNumber,
+        songPageIndex,
         title,
         opts
       );
+      songPageIndex++;
       pageNumber += pageCount;
       promises.push(...addSongPagePromises);
     }
@@ -214,11 +218,12 @@ const loadFonts = async (doc: any) => {
 const addSongPage = async (
   doc: any,
   song: Score,
-  page: number,
+  currentPage: number,
+  songPageIndex: number,
   sectionTitle: string,
   { instrument, backSheetPageNumber }: CreateSongBookOptions
 ): Promise<[number, Promise<void>[]]> => {
-  const initialPage = page;
+  const initialPage = currentPage;
   const promises: Promise<void>[] = [];
 
   if (backSheetPageNumber) {
@@ -227,7 +232,9 @@ const addSongPage = async (
     const numberSpacing = 0;
 
     doc.addPage();
-    await drawImage(doc, `assets/patrocinio-2025.png`, page);
+    currentPage++;
+
+    await drawImage(doc, `assets/patrocinio-2025.png`, currentPage);
     doc
       .moveTo(5.5 * cm2pt, 1 * cm2pt)
       .lineTo(5.5 * cm2pt, 12 * cm2pt)
@@ -235,7 +242,7 @@ const addSongPage = async (
     doc
       .font("Roboto-Bold")
       .fontSize(fontSize)
-      .text(page, 4 * cm2pt, 1.5 * cm2pt + numberSpacing, {
+      .text(songPageIndex, 4 * cm2pt, 1.5 * cm2pt + numberSpacing, {
         align: "center",
         width: 15 * cm2pt,
         height: fontSize,
@@ -248,21 +255,17 @@ const addSongPage = async (
         width: 8 * cm2pt,
         height: 3 * cm2pt,
       }); // Título do verso
-
-    // make sure to increment page count after drawing everything
-    page++;
   }
 
   doc.addPage();
-  page++;
+  currentPage++;
 
   sectionTitleOutlines.get(sectionTitle).addItem(song.title.toUpperCase());
+  doc.addNamedDestination(song.id);
   doc
     .font("Roboto-Bold")
     .fontSize(22)
-    .text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt, {
-      destination: page,
-    }); // Título x: 0.44*cm2pt, y: 10*cm2pt,
+    .text(song.title.toUpperCase(), 0.39 * cm2pt, 1.2 * cm2pt, {}); // Título x: 0.44*cm2pt, y: 10*cm2pt,
   doc
     .rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt)
     .fillAndStroke(); // Retângulo do trecho da letra
@@ -279,22 +282,23 @@ const addSongPage = async (
     .fontSize(9)
     .fillColor("black")
     .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
-  doc.fontSize(1.2 * cm2pt).text(`${page}`, 0.44 * cm2pt, 0.93 * cm2pt, {
-    align: "right",
-    width: 17.1 * cm2pt,
-  }); // Número topo página
+  doc
+    .fontSize(1.2 * cm2pt)
+    .text(`${songPageIndex}`, 0.44 * cm2pt, 0.93 * cm2pt, {
+      align: "right",
+      width: 17.1 * cm2pt,
+    }); // Número topo página
   doc
     .font("Roboto-Medium")
     .fontSize(9)
     .text(song.title.toUpperCase(), 0, 12.5 * cm2pt, {
       align: "center",
-      destination: page,
     }); // Título pequeno no centro da página abaixo da partitura
 
   doc
     .fontSize(9)
     .text(
-      `${sectionTitle.toUpperCase()}   ${page}`,
+      `${sectionTitle.toUpperCase()}   ${songPageIndex}`,
       0.44 * cm2pt,
       12.5 * cm2pt,
       {
@@ -302,6 +306,7 @@ const addSongPage = async (
         width: 17.1 * cm2pt,
       }
     ); // Estilo + Número
+
   // TODO: Pensar em quando tiver mais de um arranjo
   let svgUrl = "";
   try {
@@ -309,9 +314,9 @@ const addSongPage = async (
   } catch (error) {
     console.log(`No part for ${instrument} in ${song.title}.`);
   }
-  promises.push(drawSvg(doc, `/collection/${svgUrl}`, page));
+  promises.push(drawSvg(doc, `/collection/${svgUrl}`, currentPage));
 
-  return [page - initialPage, promises];
+  return [currentPage - initialPage, promises];
 };
 
 const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
@@ -438,11 +443,11 @@ const addIndexPage = (
         .text(1 + songCount++, currentX - 0.5 * cm2pt, currentY, {
           align: "right",
           width: 0.6 * cm2pt,
-          goTo: songCount,
+          goTo: song.id,
         }) // Número da página
         .font("Roboto-Medium")
         .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
-          goTo: songCount,
+          goTo: song.id,
           width: columnWidth - 0.3 * cm2pt,
           height: fontSize,
           lineBreak: false,
