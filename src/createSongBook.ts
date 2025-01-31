@@ -33,7 +33,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     promises.push(
       drawImage(
         doc,
-        `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.jpeg`,
+        `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.png`,
         pageNumber
       )
     );
@@ -93,8 +93,8 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     pageNumber++;
     promises.push(drawImage(doc, "assets/anti_assedio_2025_4.png", pageNumber));
 
-    doc.addPage();
-    pageNumber++;
+    // doc.addPage();
+    // pageNumber++;
   }
 
   const { outline } = doc;
@@ -235,10 +235,10 @@ const addSongPage = async (
     currentPage++;
 
     await drawImage(doc, `assets/patrocinio-2025.png`, currentPage);
-    doc
-      .moveTo(5.5 * cm2pt, 1 * cm2pt)
-      .lineTo(5.5 * cm2pt, 12 * cm2pt)
-      .stroke();
+    // doc
+    //   .moveTo(5.5 * cm2pt, 1 * cm2pt)
+    //   .lineTo(5.5 * cm2pt, 12 * cm2pt)
+    //   .stroke();
     doc
       .font("Roboto-Bold")
       .fontSize(fontSize)
