@@ -23556,6 +23556,51 @@
             ""
           ],
           "projectTitle": "garota 2025"
+        },
+        {
+          "id": "garota 2025/TITANIC",
+          "title": "titanic",
+          "composer": "",
+          "sub": "",
+          "mscz": "garota 2025/TITANIC/TITANIC.mscz",
+          "metajson": "garota 2025/TITANIC/TITANIC.metajson",
+          "midi": "garota 2025/TITANIC/TITANIC.midi",
+          "parts": [
+            {
+              "name": "TITANIC_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "garota 2025/TITANIC/TITANIC_BONE_PIRATA-1.svg",
+              "midi": "garota 2025/TITANIC/TITANIC_BONE_PIRATA.midi"
+            },
+            {
+              "name": "TITANIC_FLAUTA",
+              "instrument": "flauta",
+              "svg": "garota 2025/TITANIC/TITANIC_FLAUTA-1.svg",
+              "midi": "garota 2025/TITANIC/TITANIC_FLAUTA.midi"
+            },
+            {
+              "name": "TITANIC_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "garota 2025/TITANIC/TITANIC_PETE_PIRATA-1.svg",
+              "midi": "garota 2025/TITANIC/TITANIC_PETE_PIRATA.midi"
+            },
+            {
+              "name": "TITANIC_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "garota 2025/TITANIC/TITANIC_SAX_ALTO-1.svg",
+              "midi": "garota 2025/TITANIC/TITANIC_SAX_ALTO.midi"
+            },
+            {
+              "name": "TITANIC_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "garota 2025/TITANIC/TITANIC_SAX_TENOR-1.svg",
+              "midi": "garota 2025/TITANIC/TITANIC_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "garota 2025"
         }
       ]
     },
@@ -30264,6 +30309,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-01-29T15:21:48.362Z",
+  "scrapedAt": "2025-02-01T14:00:02.636Z",
   "version": 2
 }
