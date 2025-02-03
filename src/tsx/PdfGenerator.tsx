@@ -109,7 +109,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
     if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i);
     }
-    if (carnivalMode){
+    if (carnivalMode && instrument == "all"){
       selectedInstruments = carnivalInstruments
     }
     if (scores.length < 1) {

@@ -227,33 +227,30 @@ const addSongPage = async (
   const promises: Promise<void>[] = [];
 
   if (backSheetPageNumber) {
-    const fontSize = 7 * cm2pt;
+    const fontSize = 9 * cm2pt;
     const titleSpacing = 6 * cm2pt;
     const numberSpacing = 0;
 
     doc.addPage();
     currentPage++;
 
-    await drawImage(doc, `assets/patrocinio-2025.png`, currentPage);
-    // doc
-    //   .moveTo(5.5 * cm2pt, 1 * cm2pt)
-    //   .lineTo(5.5 * cm2pt, 12 * cm2pt)
-    //   .stroke();
+    // await drawImage(doc, `assets/patrocinio-2025.png`, currentPage);
+
     doc
       .font("Roboto-Bold")
       .fontSize(fontSize)
-      .text(songPageIndex, 4 * cm2pt, 1.5 * cm2pt + numberSpacing, {
+      .text(songPageIndex, 1 * cm2pt, 0.5 * cm2pt + numberSpacing, {
         align: "center",
-        width: 15 * cm2pt,
+        width: 16 * cm2pt,
         height: fontSize,
       }); // Número do verso
     doc
       .font("Roboto-Medium")
       .fontSize(1 * cm2pt)
-      .text(song.title.toUpperCase(), 8 * cm2pt, 3 * cm2pt + titleSpacing, {
+      .text(song.title.toUpperCase(), 1 * cm2pt, 4 * cm2pt + titleSpacing, {
         align: "center",
-        width: 8 * cm2pt,
-        height: 3 * cm2pt,
+        width: 16 * cm2pt,
+        height: 9 * cm2pt,
       }); // Título do verso
   }
 
