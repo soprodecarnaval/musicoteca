@@ -163,7 +163,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
         });
         
         // Update progress
-        setGenerationProgress(((i + 1) / totalInstruments) * 100);
+        setGenerationProgress(((i + 1) / totalInstruments) * 100); 
       }
 
       console.log("Terminei");
