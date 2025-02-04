@@ -1,13 +1,13 @@
 {
     "composer": "Maiara e Maraisa",
-    "duration": 120,
-    "fileVersion": 302,
+    "duration": 116,
+    "fileVersion": 301,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
     "measures": 29,
-    "mscoreVersion": "3.6.2",
+    "mscoreVersion": "3.5.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
