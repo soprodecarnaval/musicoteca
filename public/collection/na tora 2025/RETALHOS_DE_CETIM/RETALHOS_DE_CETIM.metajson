@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 297
     },
-    "pages": 6,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 0,
@@ -71,7 +71,7 @@
             "program": 57
         }
     ],
-    "poet": "Samba",
+    "poet": "",
     "previousSource": "ENSAIEI MEU SAMBA O ANO INTIRO, AMOR / MAS CHEGOU O CARNAVAL",
     "subtitle": "",
     "tempo": 0,

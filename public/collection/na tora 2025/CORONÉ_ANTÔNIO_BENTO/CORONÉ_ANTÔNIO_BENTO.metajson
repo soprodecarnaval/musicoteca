@@ -1,19 +1,19 @@
 {
     "composer": "João do Vale e Luiz Wanderley",
-    "duration": 118,
+    "duration": 149,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -3,
     "lyrics": "",
-    "measures": 52,
+    "measures": 58,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "true",
         "width": 297
     },
-    "pages": 6,
+    "pages": 7,
     "parts": [
         {
             "harmonyCount": 0,
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "",
             "program": 65
         },
         {
@@ -67,12 +67,12 @@
             "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "Tbn1",
             "program": 57
         }
     ],
-    "poet": "Brazuka",
-    "previousSource": "CORONEL ANTÔNIO BENTO. NO DIA DO CASAMENTO",
+    "poet": "",
+    "previousSource": "http://musescore.com/user/72615103/scores/12610786",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",

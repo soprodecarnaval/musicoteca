@@ -1,19 +1,19 @@
 {
-    "composer": "Di Melo",
-    "duration": 78,
+    "composer": "",
+    "duration": 318,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -1,
+    "keysig": -2,
     "lyrics": "",
-    "measures": 17,
+    "measures": 88,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 210,
         "twosided": "true",
-        "width": 210
+        "width": 297
     },
-    "pages": 3,
+    "pages": 8,
     "parts": [
         {
             "harmonyCount": 0,
@@ -53,10 +53,10 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet",
+            "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Pete",
+            "name": "Trompete em B♭",
             "program": 56
         },
         {
@@ -67,12 +67,12 @@
             "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Bone 1",
+            "name": "Bone",
             "program": 57
         }
     ],
-    "poet": "Brazuka",
-    "previousSource": "KILARIÔ, RAIOU DIA, EU VI CHOVER EM MINHA HORTA",
+    "poet": "",
+    "previousSource": "",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
