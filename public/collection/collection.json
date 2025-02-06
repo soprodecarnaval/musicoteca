@@ -25139,6 +25139,51 @@
           "projectTitle": "garota 2025"
         },
         {
+          "id": "garota 2025/PEQUENA_EVA",
+          "title": "pequena eva",
+          "composer": "Banda Eva",
+          "sub": "MEU AMOR, OLHA SÓ HOJE O SOL NÃO APARECEU",
+          "mscz": "garota 2025/PEQUENA_EVA/PEQUENA_EVA.mscz",
+          "metajson": "garota 2025/PEQUENA_EVA/PEQUENA_EVA.metajson",
+          "midi": "garota 2025/PEQUENA_EVA/PEQUENA_EVA.midi",
+          "parts": [
+            {
+              "name": "PEQUENA_EVA_BONE",
+              "instrument": "trombone",
+              "svg": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_BONE-1.svg",
+              "midi": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_BONE.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_FLAUTA-1.svg",
+              "midi": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_FLAUTA.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_PETE",
+              "instrument": "trompete",
+              "svg": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_PETE-1.svg",
+              "midi": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_PETE.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_SAX_ALTO-1.svg",
+              "midi": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_SAX_ALTO.midi"
+            },
+            {
+              "name": "PEQUENA_EVA_TENOR",
+              "instrument": "sax tenor",
+              "svg": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_TENOR-1.svg",
+              "midi": "garota 2025/PEQUENA_EVA/PEQUENA_EVA_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Axé"
+          ],
+          "projectTitle": "garota 2025"
+        },
+        {
           "id": "garota 2025/PINTURA_ÍNTIMA",
           "title": "pintura íntima",
           "composer": "",
@@ -25315,6 +25360,51 @@
           ],
           "tags": [
             "Moments"
+          ],
+          "projectTitle": "garota 2025"
+        },
+        {
+          "id": "garota 2025/TAPÃO_NA_RABA",
+          "title": "tapão na raba",
+          "composer": "RAÍ SOARES",
+          "sub": "É PUXÃO DE CABELO, É TAPÃO NA RABA",
+          "mscz": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA.mscz",
+          "metajson": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA.metajson",
+          "midi": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA.midi",
+          "parts": [
+            {
+              "name": "TAPÃO_NA_RABA_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_BONE_PIRATA-1.svg",
+              "midi": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_BONE_PIRATA.midi"
+            },
+            {
+              "name": "TAPÃO_NA_RABA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_FLAUTA-1.svg",
+              "midi": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_FLAUTA.midi"
+            },
+            {
+              "name": "TAPÃO_NA_RABA_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_PETE_PIRATA-1.svg",
+              "midi": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_PETE_PIRATA.midi"
+            },
+            {
+              "name": "TAPÃO_NA_RABA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_SAX_ALTO-1.svg",
+              "midi": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_SAX_ALTO.midi"
+            },
+            {
+              "name": "TAPÃO_NA_RABA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_SAX_TENOR-1.svg",
+              "midi": "garota 2025/TAPÃO_NA_RABA/TAPÃO_NA_RABA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "garota 2025"
         },
@@ -33972,6 +34062,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-02-04T21:21:49.685Z",
+  "scrapedAt": "2025-02-06T01:19:13.175Z",
   "version": 2
 }
