@@ -1,12 +1,12 @@
 {
-    "composer": "Banda Eva",
-    "duration": 136,
+    "composer": "Umberto Tozzi/Banda Eva",
+    "duration": 116,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 34,
+    "measures": 25,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
@@ -23,7 +23,7 @@
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Tranversal",
+            "name": "C ClavG",
             "program": 73
         },
         {
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Eb",
             "program": 65
         },
         {
@@ -45,7 +45,7 @@
             "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete Bb",
+            "name": "Bb - Pirata",
             "program": 56
         },
         {
@@ -56,7 +56,7 @@
             "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
+            "name": "Bb",
             "program": 56
         },
         {
@@ -67,11 +67,11 @@
             "instrumentId": "brass.trombone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "C ClavF",
             "program": 57
         }
     ],
-    "poet": "Axé",
+    "poet": "",
     "previousSource": "MEU AMOR, OLHA SÓ HOJE O SOL NÃO APARECEU",
     "subtitle": "",
     "tempo": 0,

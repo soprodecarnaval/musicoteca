@@ -28247,7 +28247,7 @@
             }
           ],
           "tags": [
-            "Axé"
+            ""
           ],
           "projectTitle": "na tora 2025"
         },
@@ -28428,6 +28428,51 @@
           ],
           "tags": [
             "Moments"
+          ],
+          "projectTitle": "na tora 2025"
+        },
+        {
+          "id": "na tora 2025/CABELEIRA_DA_ED_MARTE",
+          "title": "cabeleira da ed marte",
+          "composer": "João Roberto Kelly\ne Roberto Faissal",
+          "sub": "OLHA A CABELEIRA DA ED MARTE. SERÁ QUE ELA É? DE MARTE!",
+          "mscz": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE.mscz",
+          "metajson": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE.metajson",
+          "midi": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE.midi",
+          "parts": [
+            {
+              "name": "CABELEIRA_DA_ED_MARTE_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_BONE_PIRATA-1.svg",
+              "midi": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_BONE_PIRATA.midi"
+            },
+            {
+              "name": "CABELEIRA_DA_ED_MARTE_FLAUTA",
+              "instrument": "flauta",
+              "svg": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_FLAUTA-1.svg",
+              "midi": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_FLAUTA.midi"
+            },
+            {
+              "name": "CABELEIRA_DA_ED_MARTE_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_PETE_PIRATA-1.svg",
+              "midi": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_PETE_PIRATA.midi"
+            },
+            {
+              "name": "CABELEIRA_DA_ED_MARTE_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_SAX_ALTO-1.svg",
+              "midi": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_SAX_ALTO.midi"
+            },
+            {
+              "name": "CABELEIRA_DA_ED_MARTE_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_SAX_TENOR-1.svg",
+              "midi": "na tora 2025/CABELEIRA_DA_ED_MARTE/CABELEIRA_DA_ED_MARTE_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Marchinha"
           ],
           "projectTitle": "na tora 2025"
         },
@@ -28705,7 +28750,7 @@
           "id": "na tora 2025/CORONÉ_ANTÔNIO_BENTO",
           "title": "coroné antônio bento",
           "composer": "João do Vale e Luiz Wanderley",
-          "sub": "CORONEL ANTÔNIO BENTO. NO DIA DO CASAMENTO",
+          "sub": "http://musescore.com/user/72615103/scores/12610786",
           "mscz": "na tora 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO.mscz",
           "metajson": "na tora 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO.metajson",
           "midi": "na tora 2025/CORONÉ_ANTÔNIO_BENTO/CORONÉ_ANTÔNIO_BENTO.midi",
@@ -28742,7 +28787,7 @@
             }
           ],
           "tags": [
-            "Brazuka"
+            ""
           ],
           "projectTitle": "na tora 2025"
         },
@@ -29064,8 +29109,8 @@
         {
           "id": "na tora 2025/KILARIÔ",
           "title": "kilariô",
-          "composer": "Di Melo",
-          "sub": "KILARIÔ, RAIOU DIA, EU VI CHOVER EM MINHA HORTA",
+          "composer": "",
+          "sub": "",
           "mscz": "na tora 2025/KILARIÔ/KILARIÔ.mscz",
           "metajson": "na tora 2025/KILARIÔ/KILARIÔ.metajson",
           "midi": "na tora 2025/KILARIÔ/KILARIÔ.midi",
@@ -29102,7 +29147,7 @@
             }
           ],
           "tags": [
-            "Brazuka"
+            ""
           ],
           "projectTitle": "na tora 2025"
         },
@@ -29333,7 +29378,7 @@
             }
           ],
           "tags": [
-            "Moments"
+            ""
           ],
           "projectTitle": "na tora 2025"
         },
@@ -29430,7 +29475,7 @@
         {
           "id": "na tora 2025/PEQUENA_EVA",
           "title": "pequena eva",
-          "composer": "Banda Eva",
+          "composer": "Umberto Tozzi/Banda Eva",
           "sub": "MEU AMOR, OLHA SÓ HOJE O SOL NÃO APARECEU",
           "mscz": "na tora 2025/PEQUENA_EVA/PEQUENA_EVA.mscz",
           "metajson": "na tora 2025/PEQUENA_EVA/PEQUENA_EVA.metajson",
@@ -29468,7 +29513,7 @@
             }
           ],
           "tags": [
-            "Axé"
+            ""
           ],
           "projectTitle": "na tora 2025"
         },
@@ -29603,7 +29648,58 @@
             }
           ],
           "tags": [
-            "Samba"
+            ""
+          ],
+          "projectTitle": "na tora 2025"
+        },
+        {
+          "id": "na tora 2025/SE_TÁ_SOLTEIRA",
+          "title": "se tá solteira",
+          "composer": "FBC",
+          "sub": "CHARMOSA! CHEIROSA! NOSSA! SE TÁ SOLTEIRA, VAMO FICAR DE CASAL",
+          "mscz": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA.mscz",
+          "metajson": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA.metajson",
+          "midi": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA.midi",
+          "parts": [
+            {
+              "name": "SE_TÁ_SOLTEIRA_BONE",
+              "instrument": "trombone",
+              "svg": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_BONE-1.svg",
+              "midi": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_BONE.midi"
+            },
+            {
+              "name": "SE_TÁ_SOLTEIRA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_FLAUTA-1.svg",
+              "midi": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_FLAUTA.midi"
+            },
+            {
+              "name": "SE_TÁ_SOLTEIRA_PETE",
+              "instrument": "trompete",
+              "svg": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_PETE-1.svg",
+              "midi": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_PETE.midi"
+            },
+            {
+              "name": "SE_TÁ_SOLTEIRA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_SAX_ALTO-1.svg",
+              "midi": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_SAX_ALTO.midi"
+            },
+            {
+              "name": "SE_TÁ_SOLTEIRA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_SAX_TENOR-1.svg",
+              "midi": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_SAX_TENOR.midi"
+            },
+            {
+              "name": "SE_TÁ_SOLTEIRA_TUBA",
+              "instrument": "tuba",
+              "svg": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_TUBA-1.svg",
+              "midi": "na tora 2025/SE_TÁ_SOLTEIRA/SE_TÁ_SOLTEIRA_TUBA.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "na tora 2025"
         },
@@ -34062,6 +34158,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-02-06T01:22:48.490Z",
+  "scrapedAt": "2025-02-06T03:09:20.722Z",
   "version": 2
 }
