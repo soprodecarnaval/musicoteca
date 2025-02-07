@@ -1,12 +1,12 @@
 {
     "composer": "",
-    "duration": 156,
+    "duration": 160,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -3,
+    "keysig": 1,
     "lyrics": "",
-    "measures": 36,
+    "measures": 37,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
