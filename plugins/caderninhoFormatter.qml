@@ -931,6 +931,7 @@ MuseScore {
                   valInstrument = "Trumpet Bb"
                   break;
                case "euphonium-treble":
+               case "brass.euphonium":
                   valInstrument = "Euphonium"
                   break;
                case "c-trumpet":
