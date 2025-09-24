@@ -226,13 +226,6 @@ const addSongPage = async (
   const initialPage = currentPage;
   const promises: Promise<void>[] = [];
 
-  // Guard: skip if the song has no part for this instrument
-  const partForInstrument = song.parts?.find((part) => part.instrument === instrument);
-  if (!partForInstrument) {
-    console.log(`Skipping ${song.title} for ${instrument}: no part available.`);
-    return [0, promises];
-  }
-
   if (backSheetPageNumber) {
     const fontSize = 9 * cm2pt;
     const titleSpacing = 6 * cm2pt;
@@ -311,8 +304,13 @@ const addSongPage = async (
       }
     ); // Estilo + Número
 
-  // Use the discovered part for the instrument safely
-  const svgUrl = partForInstrument.svg;
+  // TODO: Pensar em quando tiver mais de um arranjo
+  let svgUrl = "";
+  try {
+    svgUrl = song.parts.filter((part) => part.instrument == instrument)[0].svg;
+  } catch (error) {
+    console.log(`No part for ${instrument} in ${song.title}.`);
+  }
   promises.push(drawSvg(doc, `/collection/${svgUrl}`, currentPage));
 
   return [currentPage - initialPage, promises];
