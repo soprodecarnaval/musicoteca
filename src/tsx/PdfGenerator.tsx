@@ -150,12 +150,32 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
       }
 
       const totalInstruments = selectedInstruments.length;
+      const skippedInstruments: string[] = [];
       
       for (let i = 0; i < selectedInstruments.length; i++) {
         const instrument = selectedInstruments[i];
+
+        // Filter out songs that do NOT have a part for this instrument
+        const filteredSections = sections
+          .map((sec) => ({
+            title: sec.title,
+            songs: sec.songs.filter((song) =>
+              song.parts?.some((p) => p.instrument === instrument)
+            ),
+          }))
+          .filter((sec) => sec.songs.length > 0);
+
+        // Skip generating this instrument if no songs are available
+        if (filteredSections.length === 0) {
+          // advance progress as if processed
+          setGenerationProgress(((i + 1) / totalInstruments) * 100);
+          skippedInstruments.push(instrument.toUpperCase());
+          continue;
+        }
+
         await createSongBook({
           instrument,
-          sections,
+          sections: filteredSections,
           title: songbookTitle,
           coverImageUrl: songbookImg.imgUrl,
           carnivalMode,
@@ -164,6 +184,12 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
         
         // Update progress
         setGenerationProgress(((i + 1) / totalInstruments) * 100);
+      }
+
+      if (skippedInstruments.length > 0) {
+        alert(
+          `Não foi gerado PDF para os seguintes instrumentos por falta de partituras: \n- ${skippedInstruments.join("\n- ")}`
+        );
       }
 
       console.log("Terminei");
