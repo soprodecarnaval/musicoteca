@@ -4,21 +4,9 @@ about: Request adding or updating a song in the collection
 labels: type:song
 ---
 
-## Title
+## Song
 
-Song title (as it should appear)
-
-## Composer(s)
-
-Who composed/arranged it?
-
-## Style / Collection (optional)
-
-e.g., pagode, frevo, carnaval 2025
-
-## Instruments
-
-List instruments that should be included (e.g., trompete, sax alto)
+Artist - "Song Title"
 
 ## What is needed
 
@@ -26,16 +14,19 @@ List instruments that should be included (e.g., trompete, sax alto)
 - [ ] Update existing song parts/metadata
 - [ ] Remove song
 
-## References (optional)
+<!--
+## Additional info (optional)
 
-Links to audio/video/sheet sources
-
-## Files (optional)
-
-Attach files if available (midi, svg, mscz, metajson)
+- Style: 
+- Year: 
+- Instruments: 
+- Version/arrangement: 
+- References: 
+- Files: attach if available (midi, svg, mscz, metajson)
+-->
 
 ## Acceptance criteria
 
-- Files placed under correct path in `public/collection/...`
-- metajson present and consistent (title, composer, style)
-- Parts included for listed instruments (or clearly stated if missing) 
+- User can find and use the song in the platform
+- Song appears correctly in PDF generation for listed instruments
+- Only intended changes are made (no accidental modifications)

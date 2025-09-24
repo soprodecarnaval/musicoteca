@@ -16,8 +16,8 @@
 ### PR title conventions (simple)
 - `feat:` Short summary of the feature
 - `fix:` Short summary of the fix
-- `song:` "TITLE" [style] [instruments]
-  - Example: `song: "CHEGUEI" [pagode] [trompete, sax alto]`
+- `song:` {Add/Update/Remove} "TITLE" - optional note
+  - Example: `song: Add "CHEGUEI" - Trombone`, `song: Update "CHEGUEI" - Fingering Tuba`, `song: Remove "OLD MARCHA" - All`
 
 ## GitHub Project
 - Add the issue to the Project board.
