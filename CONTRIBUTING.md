@@ -13,6 +13,12 @@
 - Add short testing notes and screenshots if UI changes.
 - One approval is enough; keep changes easy to review.
 
+### PR title conventions (simple)
+- `feat:` Short summary of the feature
+- `fix:` Short summary of the fix
+- `song:` "TITLE" [style] [instruments]
+  - Example: `song: "CHEGUEI" [pagode] [trompete, sax alto]`
+
 ## GitHub Project
 - Add the issue to the Project board.
 - Status flow: Backlog → In Progress → In Review → Done.
