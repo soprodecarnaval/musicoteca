@@ -15,11 +15,8 @@
 
 - 
 
-## Checklist
+## Checklist before publishing this PR
 
 - [ ] Linked issue or added context
 - [ ] Small, focused PR
-- [ ] Lint passes locally (npm run lint)
-- [ ] Typecheck passes locally (tsc --noEmit or npm run build)
-- [ ] Tests pass locally (npm test)
-- [ ] Updated docs (README/CONTRIBUTING) if needed 
+- [ ] Clear testing steps provided (self-tested)
