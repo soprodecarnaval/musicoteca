@@ -1,7 +1,7 @@
 ---
 name: Song request
 about: Request adding or updating a song in the collection
-labels: type:content, content:song
+labels: type:song
 ---
 
 ## Title
