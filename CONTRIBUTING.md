@@ -1,12 +1,12 @@
 # Contributing
 
 ## Workflow
-- Create an issue for every bug, feature, or song request before coding.
+- Create an issue for every bug, feature, song request, or documentation request before coding.
 - Use the provided issue templates.
 - Keep PRs small and focused on a single issue.
 
 ## Branching
-- Branch from `main`: `feature/<issue-number>-short-title`, `fix/<issue-number>-short-title` or `song/<issue-number>-short-title`
+- Branch from `main`: `feature/<issue-number>-short-title`, `fix/<issue-number>-short-title`, `song/<issue-number>-short-title` or `docs/<issue-number>-short-title`
 
 ## Pull Requests
 - Link the issue in the PR description using "Fixes #<issue-number>".
@@ -17,8 +17,8 @@
 - `feat:` Short summary of the feature
 - `fix:` Short summary of the fix
 - `song:` {Add/Update/Remove} "TITLE" - optional note
+  - Example: `song: Add "CHEGUEI" - Trombone`, `song: Update "CHEGUEI" - Fingering Tuba`, `song: Remove "OLD MARCHA" - All`  
 - `docs:` Documentation changes (README, CONTRIBUTING, templates, etc.)
-  - Example: `song: Add "CHEGUEI" - Trombone`, `song: Update "CHEGUEI" - Fingering Tuba`, `song: Remove "OLD MARCHA" - All`
   - Example: `docs: establish project management workflow with 3-column board`
 
 ## GitHub Project
@@ -33,9 +33,13 @@
 - Always reference the issue in the PR (use "Fixes #<issue-number>") so it closes automatically on merge.
 
 ## Releases and Version Labels
-- Use version labels as defined by the organization.
+- The major versions for now are based on the carnaval (e.g., `carnaval-2025`, `carnaval-2024`).
 - Apply the appropriate version label if the issue qualifies for that release.
 - Issues without version labels remain in Backlog for future consideration.
+
+## Language Policy
+- **Primary language**: English is our primary language for documentation, code, and technical discussions.
+- **Song requests**: Can be in Portuguese or other languages to make it easier for more people to help with song-related issues.
 
 ## Local checks (recommended)
 - Run the app and do a quick sanity check.

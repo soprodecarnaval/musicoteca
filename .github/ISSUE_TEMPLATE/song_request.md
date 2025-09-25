@@ -14,18 +14,17 @@ Artist - "Song Title"
 - [ ] Update existing song parts/metadata
 - [ ] Remove song
 
-<!--
 ## Additional info (optional)
 
+- Instruments: 
+- Project (Which "cadernin"?): 
 - Style: 
 - Year: 
-- Instruments: 
-- Version/arrangement: 
+- Other bands playing it for reference: 
 - References: 
 - Files: attach if available (midi, svg, mscz, metajson)
--->
 
-## Acceptance criteria
+## Acceptance Criteria
 
 - User can find and use the song in the platform
 - Song appears correctly in PDF generation for listed instruments
