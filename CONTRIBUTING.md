@@ -17,7 +17,9 @@
 - `feat:` Short summary of the feature
 - `fix:` Short summary of the fix
 - `song:` {Add/Update/Remove} "TITLE" - optional note
+- `docs:` Documentation changes (README, CONTRIBUTING, templates, etc.)
   - Example: `song: Add "CHEGUEI" - Trombone`, `song: Update "CHEGUEI" - Fingering Tuba`, `song: Remove "OLD MARCHA" - All`
+  - Example: `docs: establish project management workflow with 3-column board`
 
 ## GitHub Project
 - Single board using Status: `No status` (triage) → `Backlog` → `In Progress` → `Done`.
