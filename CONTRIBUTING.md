@@ -6,7 +6,7 @@
 - Keep PRs small and focused on a single issue.
 
 ## Branching
-- Branch from `main`: `feature/<issue-number>-short-title` or `fix/<issue-number>-short-title`.
+- Branch from `main`: `feature/<issue-number>-short-title`, `fix/<issue-number>-short-title` or `song/<issue-number>-short-title`
 
 ## Pull Requests
 - Link the issue in the PR description using “Fixes #<issue-number>”.
@@ -20,11 +20,12 @@
   - Example: `song: Add "CHEGUEI" - Trombone`, `song: Update "CHEGUEI" - Fingering Tuba`, `song: Remove "OLD MARCHA" - All`
 
 ## GitHub Project
-- Add the issue to the Project board.
-- Status flow: Backlog → In Progress → In Review → Done.
-- When you start: move the issue to “In Progress”.
-- When you open a PR: move to “In Review”.
-- When merged: the issue auto-closes (via “Fixes #…”) and you move it to “Done”.
+- Single board using Status: `No status` (triage) → `Backlog` → `In Progress` → `Done`.
+- New issues are auto-added to the board and land in `No status` (we treat this as “Needs triage”).
+- During triage, move items from `No status` → `Backlog`.
+- When you start work, move the issue to `In Progress` (or open a linked PR; automation may move it).
+- When the linked PR is merged OR the issue is closed, automation sets Status to `Done`.
+- Always reference the issue in the PR (use “Fixes #<issue-number>”) so it closes automatically on merge.
 
 ## Local checks (recommended)
 - Run the app and do a quick sanity check.

@@ -1,7 +1,7 @@
 ## Summary
 
 - What is the purpose of this change?
-- Link to issue: Fixes #
+- Link to issue: Fixes #<issue-id>
 
 ## Changes
 
@@ -17,6 +17,6 @@
 
 ## Checklist before publishing this PR
 
-- [ ] Linked issue or added context
+- [ ] References the linked issue with `Fixes #<issue-id>` (auto-closes on merge)
 - [ ] Small, focused PR
 - [ ] Clear testing steps provided (self-tested)
