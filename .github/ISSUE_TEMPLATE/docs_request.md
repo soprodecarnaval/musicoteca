@@ -1,26 +1,26 @@
 ---
-name: Documentation request
-about: Request documentation changes or improvements
+name: Solicitação de Documentação
+about: Solicite mudanças ou melhorias na documentação
 labels: type:docs
 ---
 
-## Documentation Type
+## Tipo de Documentação
 - [ ] Templates
-- [ ] Documentation
-- [ ] Guides
+- [ ] Documentação
+- [ ] Guias
 
-## What needs to be documented?
-Describe what information is missing or unclear.
+## O que precisa ser documentado?
+Descreva que informação está faltando ou não está clara.
 
-## Target Audience
-- [ ] Developers
-- [ ] End users
+## Público-alvo
+- [ ] Desenvolvedores
+- [ ] Usuários finais
 
-## Acceptance Criteria
-- [ ] Information is clear and accurate
-- [ ] Examples are provided where helpful
-- [ ] Documentation follows project style
-- [ ] Links are working and relevant
+## Critérios de Aceitação
+- [ ] Informação está clara e precisa
+- [ ] Exemplos são fornecidos quando útil
+- [ ] Documentação segue o estilo do projeto
+- [ ] Links estão funcionando e são relevantes
 
-## Additional context
-Links, references, or examples that might help.
+## Contexto adicional
+Links, referências ou exemplos que possam ajudar.

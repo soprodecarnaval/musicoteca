@@ -1,31 +1,31 @@
 ---
-name: Song request
-about: Request adding or updating a song in the collection
+name: Solicitação de Música
+about: Solicite adicionar ou atualizar uma música na coleção
 labels: type:song
 ---
 
-## Song
+## Música
 
-Artist - "Song Title"
+Artista - "Título da Música"
 
-## What is needed
+## O que é necessário
 
-- [ ] Add new song
-- [ ] Update existing song parts/metadata
-- [ ] Remove song
+- [ ] Adicionar nova música
+- [ ] Atualizar partes/metadados de música existente
+- [ ] Remover música
 
-## Additional info (optional)
+## Informações adicionais (opcional)
 
-- Instruments: 
-- Project (Which "cadernin"?): 
-- Style: 
-- Year: 
-- Other bands playing it for reference: 
-- References: 
-- Files: attach if available (midi, svg, mscz, metajson)
+- Instrumentos: 
+- Projeto (Qual "cadernin"?): 
+- Estilo: 
+- Ano: 
+- Outras bandas que tocam para referência: 
+- Referências: 
+- Arquivos: anexe se disponível (midi, svg, mscz, metajson)
 
-## Acceptance Criteria
+## Critérios de Aceitação
 
-- User can find and use the song in the platform
-- Song appears correctly in PDF generation for listed instruments
-- Only intended changes are made (no accidental modifications)
+- Usuário consegue encontrar e usar a música na plataforma
+- Música aparece corretamente na geração de PDF para os instrumentos listados
+- Apenas as mudanças pretendidas são feitas (sem modificações acidentais)

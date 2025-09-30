@@ -1,24 +1,24 @@
 ---
-name: Bug report
-about: Report a problem so we can fix it
+name: Relatório de Bug
+about: Reporte um problema para que possamos corrigi-lo
 labels: type:bug
 ---
 
-## Description
+## Descrição
 
-What happened? What did you expect to happen?
+O que aconteceu? O que você esperava que acontecesse?
 
-## Steps to reproduce
+## Passos para reproduzir
 
 1. 
 2. 
 3. 
 
-## Environment
+## Ambiente
 
-- Browser/OS:
+- Navegador/SO:
 - Branch/Commit:
 
-## Additional context
+## Contexto adicional
 
-Logs, screenshots, links, etc. 
+Logs, screenshots, links, etc.

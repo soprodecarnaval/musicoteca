@@ -1,22 +1,22 @@
 ---
-name: Feature request
-about: Suggest an idea or improvement
+name: Solicitação de Feature
+about: Sugira uma ideia ou melhoria
 labels: type:feature
 ---
 
-## Problem / Motivation
+## Problema / Motivação
 
-What user problem does this solve?
+Que problema do usuário isso resolve?
 
-## Proposal
+## Proposta
 
-What do you want to happen? Any alternatives considered?
+O que você gostaria que acontecesse? Alguma alternativa considerada?
 
-## Acceptance Criteria
+## Critérios de Aceitação
 
 - [ ] 
 - [ ] 
 
-## Additional context
+## Contexto adicional
 
-Links, references, notes. 
+Links, referências, notas.
