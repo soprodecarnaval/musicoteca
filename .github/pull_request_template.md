@@ -1,23 +1,23 @@
-## Summary
+## Resumo
 
-- What is the purpose of this change?
-- Link to issue: Fixes #<issue-id>
+- Qual é o propósito desta mudança?
+- Link para issue: Fixes #<issue-id>
 
-## Changes
-
-- 
-
-## Screenshots / Demos (if UI)
+## Mudanças
 
 - 
 
-## How to test
+## Screenshots / Demos (se UI)
 
 - 
 
-## Checklist before publishing this PR
+## Como testar
 
-- [ ] References the linked issue with `Fixes #<issue-id>` (auto-closes on merge)
-- [ ] PR title follows conventions: `feat:`, `fix:`, `song:`, or `docs:`
-- [ ] Small, focused PR
-- [ ] Clear testing steps provided (self-tested)
+- 
+
+## Checklist antes de publicar esta PR
+
+- [ ] Referencia a issue vinculada com `Fixes #<issue-id>` (fecha automaticamente na mesclagem)
+- [ ] Título da PR segue convenções: `feat:`, `fix:`, `song:`, ou `docs:`
+- [ ] PR pequena e focada
+- [ ] Passos de teste claros fornecidos (auto-testado)
