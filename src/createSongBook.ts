@@ -19,13 +19,14 @@ export interface CreateSongBookOptions {
   coverImageUrl: string;
   backSheetPageNumber: boolean;
   carnivalMode: boolean;
+  masterSongList?: { song: any; pageNumber: number }[];
 }
 
 export const createSongBook = async (opts: CreateSongBookOptions) => {
   const doc = createDoc();
   await loadFonts(doc);
 
-  const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
+  const { title, instrument, sections, coverImageUrl, carnivalMode, masterSongList } = opts;
   let pageNumber = 0;
   let promises: Promise<any>[] = [];
 
@@ -105,11 +106,18 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     sectionTitleOutlines.set(title, topItem);
 
     for (const song of songs) {
+      // Use consistent page number from master list if available
+      let consistentPageNumber = songPageIndex;
+      if (masterSongList) {
+        const masterEntry = masterSongList.find(entry => entry.song.id === song.id);
+        consistentPageNumber = masterEntry?.pageNumber || songPageIndex;
+      }
+      
       const [pageCount, addSongPagePromises] = await addSongPage(
         doc,
         song,
         pageNumber,
-        songPageIndex,
+        consistentPageNumber,
         title,
         opts
       );
@@ -324,11 +332,12 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode }: CreateSongBookOptions
+  { sections, carnivalMode, masterSongList }: CreateSongBookOptions
 ): number => {
   let pageCount = 0;
 
-  const totalSongCount = sections.reduce(
+  // Use master song list if available for consistent numbering, otherwise fall back to current logic
+  const totalSongCount = masterSongList ? masterSongList.length : sections.reduce(
     (acc, { songs }) => acc + songs.length,
     0
   );
@@ -399,62 +408,148 @@ const addIndexPage = (
   // .fontSize(25)
   // .font("Roboto-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
-  sections.forEach(({ title, songs }, styleIdx) => {
-    if (carnivalMode) {
-      if (
-        firstPage &&
-        songCount + (styleIdx + 1) * 2 + songs.length + 2 > totalLineCount
-      ) {
-        firstPage = false;
-        resetCursorPosition();
-        [currentX, currentY] = nextCursorPosition();
-        doc.addPage().addPage();
-        pageCount += 2;
+  
+  // If we have a master song list, use it for consistent numbering
+  if (masterSongList) {
+    // Group songs by section for display
+    const songsBySection = new Map<string, any[]>();
+    
+    // First, collect all songs from sections
+    sections.forEach(({ title, songs }) => {
+      if (!songsBySection.has(title)) {
+        songsBySection.set(title, []);
       }
-
-      // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
-      if (
-        title.toLocaleLowerCase() == "frevo" ||
-        title.toLocaleLowerCase() == "pagode"
-      ) {
-        itemCount = 2 * (maxLinesPerColumn + 1);
-        [currentX, currentY] = nextCursorPosition();
-      } else if (title.toLocaleLowerCase() == "moments") {
-        itemCount = maxLinesPerColumn + 1;
-        [currentX, currentY] = nextCursorPosition();
+      songs.forEach(song => {
+        songsBySection.get(title)!.push(song);
+      });
+    });
+    
+    // Then iterate through master list to maintain consistent order
+    let currentSectionTitle = "";
+    masterSongList.forEach(({ song, pageNumber }) => {
+      // Find which section this song belongs to
+      let songSection = "";
+      for (const [sectionTitle, sectionSongs] of songsBySection) {
+        if (sectionSongs.some(s => s.id === song.id)) {
+          songSection = sectionTitle;
+          break;
+        }
       }
-    }
-
-    songs.forEach((song, songIdx) => {
-      reorderedSongs.push(song);
-      if (songIdx == 0) {
+      
+      // Add section header if we're starting a new section
+      if (songSection !== currentSectionTitle) {
+        currentSectionTitle = songSection;
         if (currentLine == maxLinesPerColumn)
           [currentX, currentY] = nextCursorPosition();
         doc
           .font("Roboto-Bold")
           .fontSize(fontSize - 2)
-          .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
+          .text(`${currentSectionTitle.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
         [currentX, currentY] = nextCursorPosition();
       }
+      
+      // Check if this song is available for the current instrument
+      const songData = sections
+        .flatMap(sec => sec.songs)
+        .find(s => s.id === song.id);
+      const hasInstrument = songData?.hasInstrument || false;
+      
+      // Display song with consistent page number
       doc
         .font("Roboto-Bold")
         .fontSize(fontSize - 2)
-        .text(1 + songCount++, currentX - 0.5 * cm2pt, currentY, {
+        .text(pageNumber, currentX - 0.5 * cm2pt, currentY, {
           align: "right",
           width: 0.6 * cm2pt,
-          goTo: song.id,
-        }) // Número da página
-        .font("Roboto-Medium")
-        .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
-          goTo: song.id,
-          width: columnWidth - 0.3 * cm2pt,
-          height: fontSize,
-          lineBreak: false,
+          goTo: hasInstrument ? song.id : undefined,
         });
+      
+      if (hasInstrument) {
+        // Song is available - normal display
+        doc
+          .font("Roboto-Medium")
+          .fillColor("black")
+          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
+            goTo: song.id,
+            width: columnWidth - 0.3 * cm2pt,
+            height: fontSize,
+            lineBreak: false,
+          });
+      } else {
+        // Song is not available - show with strikethrough in gray color
+        doc
+          .font("Roboto-Medium")
+          .fillColor("gray")
+          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
+            width: columnWidth - 0.3 * cm2pt,
+            height: fontSize,
+            lineBreak: false,
+            strike: true, // Strikethrough
+          })
+          .fillColor("black"); // Reset color for next items
+      }
+      
       [currentX, currentY] = nextCursorPosition();
     });
-    if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
-  });
+  } else {
+    // Fallback to original logic if no master list
+    sections.forEach(({ title, songs }, styleIdx) => {
+      if (carnivalMode) {
+        if (
+          firstPage &&
+          songCount + (styleIdx + 1) * 2 + songs.length + 2 > totalLineCount
+        ) {
+          firstPage = false;
+          resetCursorPosition();
+          [currentX, currentY] = nextCursorPosition();
+          doc.addPage().addPage();
+          pageCount += 2;
+        }
+
+        // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
+        if (
+          title.toLocaleLowerCase() == "frevo" ||
+          title.toLocaleLowerCase() == "pagode"
+        ) {
+          itemCount = 2 * (maxLinesPerColumn + 1);
+          [currentX, currentY] = nextCursorPosition();
+        } else if (title.toLocaleLowerCase() == "moments") {
+          itemCount = maxLinesPerColumn + 1;
+          [currentX, currentY] = nextCursorPosition();
+        }
+      }
+
+      songs.forEach((song, songIdx) => {
+        reorderedSongs.push(song);
+        if (songIdx == 0) {
+          if (currentLine == maxLinesPerColumn)
+            [currentX, currentY] = nextCursorPosition();
+          doc
+            .font("Roboto-Bold")
+            .fontSize(fontSize - 2)
+            .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
+          [currentX, currentY] = nextCursorPosition();
+        }
+        doc
+          .font("Roboto-Bold")
+          .fontSize(fontSize - 2)
+          .text(1 + songCount++, currentX - 0.5 * cm2pt, currentY, {
+            align: "right",
+            width: 0.6 * cm2pt,
+            goTo: song.id,
+          })
+          .font("Roboto-Medium")
+          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
+            goTo: song.id,
+            width: columnWidth - 0.3 * cm2pt,
+            height: fontSize,
+            lineBreak: false,
+          });
+        [currentX, currentY] = nextCursorPosition();
+      });
+      if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
+    });
+  }
   if (carnivalMode) {
     doc.addPage();
     pageCount++;
