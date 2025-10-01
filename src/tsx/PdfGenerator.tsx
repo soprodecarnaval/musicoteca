@@ -21,7 +21,7 @@ import {
   SongBookItem,
   SongBookScore,
 } from "../../types";
-import { createSongBook, CreateSongBookOptions } from "../createSongBook";
+import { createSongBook } from "../createSongBook";
 
 const instruments: Instrument[] = [
   "trompete",

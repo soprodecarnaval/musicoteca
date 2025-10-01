@@ -452,7 +452,7 @@ const addIndexPage = (
       const songData = sections
         .flatMap(sec => sec.songs)
         .find(s => s.id === song.id);
-      const hasInstrument = songData?.hasInstrument || false;
+      const hasInstrument = (songData as any)?.hasInstrument || false;
       
       // Display song with consistent page number
       doc
