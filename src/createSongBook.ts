@@ -105,17 +105,24 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     sectionTitleOutlines.set(title, topItem);
 
     for (const song of songs) {
-      const [pageCount, addSongPagePromises] = await addSongPage(
-        doc,
-        song,
-        pageNumber,
-        songPageIndex,
-        title,
-        opts
-      );
+      // Check if this song has a part for the current instrument
+      const hasInstrument = song.parts?.some((p) => p.instrument === instrument);
+      
+      if (hasInstrument) {
+        // Add physical page only if the song has the instrument
+        const [pageCount, addSongPagePromises] = await addSongPage(
+          doc,
+          song,
+          pageNumber,
+          songPageIndex,
+          title,
+          opts
+        );
+        pageNumber += pageCount;
+        promises.push(...addSongPagePromises);
+      }
+      // Always advance the index number for consistent numbering
       songPageIndex++;
-      pageNumber += pageCount;
-      promises.push(...addSongPagePromises);
     }
   }
   const nonNullPromises = promises.filter((promise) => promise !== null);
@@ -226,6 +233,13 @@ const addSongPage = async (
   const initialPage = currentPage;
   const promises: Promise<void>[] = [];
 
+  // Guard: skip if the song has no part for this instrument
+  const partForInstrument = song.parts?.find((part) => part.instrument === instrument);
+  if (!partForInstrument) {
+    console.log(`Skipping ${song.title} for ${instrument}: no part available.`);
+    return [0, promises];
+  }
+
   if (backSheetPageNumber) {
     const fontSize = 9 * cm2pt;
     const titleSpacing = 6 * cm2pt;
@@ -304,13 +318,8 @@ const addSongPage = async (
       }
     ); // Estilo + Número
 
-  // TODO: Pensar em quando tiver mais de um arranjo
-  let svgUrl = "";
-  try {
-    svgUrl = song.parts.filter((part) => part.instrument == instrument)[0].svg;
-  } catch (error) {
-    console.log(`No part for ${instrument} in ${song.title}.`);
-  }
+  // Use the discovered part for the instrument safely
+  const svgUrl = partForInstrument.svg;
   promises.push(drawSvg(doc, `/collection/${svgUrl}`, currentPage));
 
   return [currentPage - initialPage, promises];
@@ -322,7 +331,7 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode }: CreateSongBookOptions
+  { sections, carnivalMode, instrument }: CreateSongBookOptions
 ): number => {
   let pageCount = 0;
 
@@ -397,6 +406,7 @@ const addIndexPage = (
   // .fontSize(25)
   // .font("Roboto-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
+  
   sections.forEach(({ title, songs }, styleIdx) => {
     if (carnivalMode) {
       if (
@@ -431,24 +441,48 @@ const addIndexPage = (
         doc
           .font("Roboto-Bold")
           .fontSize(fontSize - 2)
-          .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY); // Título do estílo
+          .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
         [currentX, currentY] = nextCursorPosition();
       }
+      
+      // Check if this song has a part for the current instrument
+      const hasInstrument = song.parts?.some((p) => p.instrument === instrument);
+      
+      // Display song with consistent page number
       doc
         .font("Roboto-Bold")
         .fontSize(fontSize - 2)
         .text(1 + songCount++, currentX - 0.5 * cm2pt, currentY, {
           align: "right",
           width: 0.6 * cm2pt,
-          goTo: song.id,
-        }) // Número da página
-        .font("Roboto-Medium")
-        .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
-          goTo: song.id,
-          width: columnWidth - 0.3 * cm2pt,
-          height: fontSize,
-          lineBreak: false,
+          goTo: hasInstrument ? song.id : undefined,
         });
+      
+      if (hasInstrument) {
+        // Song is available - normal display
+        doc
+          .font("Roboto-Medium")
+          .fillColor("black")
+          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
+            goTo: song.id,
+            width: columnWidth - 0.3 * cm2pt,
+            height: fontSize,
+            lineBreak: false,
+          });
+      } else {
+        // Song is not available - show with strikethrough in gray color
+        doc
+          .font("Roboto-Medium")
+          .fillColor("gray")
+          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
+            width: columnWidth - 0.3 * cm2pt,
+            height: fontSize,
+            lineBreak: false,
+            strike: true, // Strikethrough
+          })
+          .fillColor("black"); // Reset color for next items
+      }
+      
       [currentX, currentY] = nextCursorPosition();
     });
     if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
