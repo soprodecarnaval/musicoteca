@@ -19,14 +19,13 @@ export interface CreateSongBookOptions {
   coverImageUrl: string;
   backSheetPageNumber: boolean;
   carnivalMode: boolean;
-  masterSongList?: { song: any; pageNumber: number }[];
 }
 
 export const createSongBook = async (opts: CreateSongBookOptions) => {
   const doc = createDoc();
   await loadFonts(doc);
 
-  const { title, instrument, sections, coverImageUrl, carnivalMode, masterSongList } = opts;
+  const { title, instrument, sections, coverImageUrl, carnivalMode } = opts;
   let pageNumber = 0;
   let promises: Promise<any>[] = [];
 
@@ -106,24 +105,24 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     sectionTitleOutlines.set(title, topItem);
 
     for (const song of songs) {
-      // Use consistent page number from master list if available
-      let consistentPageNumber = songPageIndex;
-      if (masterSongList) {
-        const masterEntry = masterSongList.find(entry => entry.song.id === song.id);
-        consistentPageNumber = masterEntry?.pageNumber || songPageIndex;
-      }
+      // Check if this song has a part for the current instrument
+      const hasInstrument = song.parts?.some((p) => p.instrument === instrument);
       
-      const [pageCount, addSongPagePromises] = await addSongPage(
-        doc,
-        song,
-        pageNumber,
-        consistentPageNumber,
-        title,
-        opts
-      );
+      if (hasInstrument) {
+        // Add physical page only if the song has the instrument
+        const [pageCount, addSongPagePromises] = await addSongPage(
+          doc,
+          song,
+          pageNumber,
+          songPageIndex,
+          title,
+          opts
+        );
+        pageNumber += pageCount;
+        promises.push(...addSongPagePromises);
+      }
+      // Always advance the index number for consistent numbering
       songPageIndex++;
-      pageNumber += pageCount;
-      promises.push(...addSongPagePromises);
     }
   }
   const nonNullPromises = promises.filter((promise) => promise !== null);
@@ -332,12 +331,11 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode, masterSongList }: CreateSongBookOptions
+  { sections, carnivalMode, instrument }: CreateSongBookOptions
 ): number => {
   let pageCount = 0;
 
-  // Use master song list if available for consistent numbering, otherwise fall back to current logic
-  const totalSongCount = masterSongList ? masterSongList.length : sections.reduce(
+  const totalSongCount = sections.reduce(
     (acc, { songs }) => acc + songs.length,
     0
   );
@@ -409,56 +407,52 @@ const addIndexPage = (
   // .font("Roboto-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
   
-  // If we have a master song list, use it for consistent numbering
-  if (masterSongList) {
-    // Group songs by section for display
-    const songsBySection = new Map<string, any[]>();
-    
-    // First, collect all songs from sections
-    sections.forEach(({ title, songs }) => {
-      if (!songsBySection.has(title)) {
-        songsBySection.set(title, []);
+  sections.forEach(({ title, songs }, styleIdx) => {
+    if (carnivalMode) {
+      if (
+        firstPage &&
+        songCount + (styleIdx + 1) * 2 + songs.length + 2 > totalLineCount
+      ) {
+        firstPage = false;
+        resetCursorPosition();
+        [currentX, currentY] = nextCursorPosition();
+        doc.addPage().addPage();
+        pageCount += 2;
       }
-      songs.forEach(song => {
-        songsBySection.get(title)!.push(song);
-      });
-    });
-    
-    // Then iterate through master list to maintain consistent order
-    let currentSectionTitle = "";
-    masterSongList.forEach(({ song, pageNumber }) => {
-      // Find which section this song belongs to
-      let songSection = "";
-      for (const [sectionTitle, sectionSongs] of songsBySection) {
-        if (sectionSongs.some(s => s.id === song.id)) {
-          songSection = sectionTitle;
-          break;
-        }
+
+      // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
+      if (
+        title.toLocaleLowerCase() == "frevo" ||
+        title.toLocaleLowerCase() == "pagode"
+      ) {
+        itemCount = 2 * (maxLinesPerColumn + 1);
+        [currentX, currentY] = nextCursorPosition();
+      } else if (title.toLocaleLowerCase() == "moments") {
+        itemCount = maxLinesPerColumn + 1;
+        [currentX, currentY] = nextCursorPosition();
       }
-      
-      // Add section header if we're starting a new section
-      if (songSection !== currentSectionTitle) {
-        currentSectionTitle = songSection;
+    }
+
+    songs.forEach((song, songIdx) => {
+      reorderedSongs.push(song);
+      if (songIdx == 0) {
         if (currentLine == maxLinesPerColumn)
           [currentX, currentY] = nextCursorPosition();
         doc
           .font("Roboto-Bold")
           .fontSize(fontSize - 2)
-          .text(`${currentSectionTitle.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
+          .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
         [currentX, currentY] = nextCursorPosition();
       }
       
-      // Check if this song is available for the current instrument
-      const songData = sections
-        .flatMap(sec => sec.songs)
-        .find(s => s.id === song.id);
-      const hasInstrument = (songData as any)?.hasInstrument || false;
+      // Check if this song has a part for the current instrument
+      const hasInstrument = song.parts?.some((p) => p.instrument === instrument);
       
       // Display song with consistent page number
       doc
         .font("Roboto-Bold")
         .fontSize(fontSize - 2)
-        .text(pageNumber, currentX - 0.5 * cm2pt, currentY, {
+        .text(1 + songCount++, currentX - 0.5 * cm2pt, currentY, {
           align: "right",
           width: 0.6 * cm2pt,
           goTo: hasInstrument ? song.id : undefined,
@@ -491,65 +485,8 @@ const addIndexPage = (
       
       [currentX, currentY] = nextCursorPosition();
     });
-  } else {
-    // Fallback to original logic if no master list
-    sections.forEach(({ title, songs }, styleIdx) => {
-      if (carnivalMode) {
-        if (
-          firstPage &&
-          songCount + (styleIdx + 1) * 2 + songs.length + 2 > totalLineCount
-        ) {
-          firstPage = false;
-          resetCursorPosition();
-          [currentX, currentY] = nextCursorPosition();
-          doc.addPage().addPage();
-          pageCount += 2;
-        }
-
-        // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
-        if (
-          title.toLocaleLowerCase() == "frevo" ||
-          title.toLocaleLowerCase() == "pagode"
-        ) {
-          itemCount = 2 * (maxLinesPerColumn + 1);
-          [currentX, currentY] = nextCursorPosition();
-        } else if (title.toLocaleLowerCase() == "moments") {
-          itemCount = maxLinesPerColumn + 1;
-          [currentX, currentY] = nextCursorPosition();
-        }
-      }
-
-      songs.forEach((song, songIdx) => {
-        reorderedSongs.push(song);
-        if (songIdx == 0) {
-          if (currentLine == maxLinesPerColumn)
-            [currentX, currentY] = nextCursorPosition();
-          doc
-            .font("Roboto-Bold")
-            .fontSize(fontSize - 2)
-            .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
-          [currentX, currentY] = nextCursorPosition();
-        }
-        doc
-          .font("Roboto-Bold")
-          .fontSize(fontSize - 2)
-          .text(1 + songCount++, currentX - 0.5 * cm2pt, currentY, {
-            align: "right",
-            width: 0.6 * cm2pt,
-            goTo: song.id,
-          })
-          .font("Roboto-Medium")
-          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
-            goTo: song.id,
-            width: columnWidth - 0.3 * cm2pt,
-            height: fontSize,
-            lineBreak: false,
-          });
-        [currentX, currentY] = nextCursorPosition();
-      });
-      if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
-    });
-  }
+    if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
+  });
   if (carnivalMode) {
     doc.addPage();
     pageCount++;

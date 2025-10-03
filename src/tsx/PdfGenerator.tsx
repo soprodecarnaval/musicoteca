@@ -152,40 +152,18 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
       const totalInstruments = selectedInstruments.length;
       const skippedInstruments: string[] = [];
       
-      // Create a master song list with consistent page numbering
-      const masterSongList: { song: any; pageNumber: number }[] = [];
-      let currentPageNumber = 1;
-      
-      for (const section of sections) {
-        for (const song of section.songs) {
-          masterSongList.push({
-            song,
-            pageNumber: currentPageNumber++
-          });
-        }
-      }
-      
       for (let i = 0; i < selectedInstruments.length; i++) {
         const instrument = selectedInstruments[i];
 
-        // Create sections with consistent page numbering and availability info
-        const instrumentSections = sections
-          .map((sec) => ({
-            title: sec.title,
-            songs: sec.songs.map((song) => {
-              const hasInstrument = song.parts?.some((p) => p.instrument === instrument);
-              const masterEntry = masterSongList.find(entry => entry.song.id === song.id);
-              return {
-                ...song,
-                hasInstrument,
-                pageNumber: masterEntry?.pageNumber || 0
-              };
-            }),
-          }))
-          .filter((sec) => sec.songs.some(song => song.hasInstrument));
+        // Check if this instrument has at least one song available
+        const hasAnySong = sections.some((sec) =>
+          sec.songs.some((song) =>
+            song.parts?.some((p) => p.instrument === instrument)
+          )
+        );
 
         // Skip generating this instrument if no songs are available
-        if (instrumentSections.length === 0) {
+        if (!hasAnySong) {
           // advance progress as if processed
           setGenerationProgress(((i + 1) / totalInstruments) * 100);
           skippedInstruments.push(instrument.toUpperCase());
@@ -194,12 +172,11 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
 
         await createSongBook({
           instrument,
-          sections: instrumentSections,
+          sections, // Pass all sections so index can show all songs
           title: songbookTitle,
           coverImageUrl: songbookImg.imgUrl,
           carnivalMode,
           backSheetPageNumber,
-          masterSongList, // Pass the master list for consistent numbering
         });
         
         // Update progress
