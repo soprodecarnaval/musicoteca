@@ -1,16 +1,15 @@
 # Cadern.in - Musicoteca
 
-> Ser o ponto de encontro open source de fanfarras: arranjos e partituras testados pela comunidade, de músicos para músicos, para democratizar a música de rua.
+## Objetivo
+Ser a plataforma open source onde fanfarras contribuem com suas partituras testadas, conectando músicos para democratizar a música de rua.
 
 **Acesse:** https://cadern.in
 
-## O Problema
+## O Problema e Solução
 
-Hoje, ter acesso a partituras adequadas para fanfarras não é fácil. A maioria das partituras online são complexas demais - feitas para orquestras ou com inúmeras vozes - e não funcionam bem nas ruas. Fanfarras precisam de arranjos simples, diretos e testados em apresentações reais.
+Hoje, ter acesso a partituras adequadas para fanfarras não é fácil. A maioria das partituras online são complexas demais - feitas para orquestras ou com inúmeras vozes - e não funcionam bem nas ruas. Fanfarras precisam de partituras simples, diretas e testadas em apresentações reais.
 
-## A Solução
-
-O Cadern.in resolve esse problema criando uma forma super fácil de gerar caderninhos padronizados e conectando músicos para permitir o intercâmbio de partituras testadas. O resultado é um acervo compartilhado crescente com manutenção e evolução distribuída pela comunidade.
+O Cadern.in resolve esse problema conectando músicos para permitir o intercâmbio de partituras, criando um acervo compartilhado crescente com manutenção distribuída pela comunidade.
 
 ## Características Principais
 
@@ -23,7 +22,7 @@ O Cadern.in resolve esse problema criando uma forma super fácil de gerar cadern
 ## Público-Alvo
 
 ### Primário: Band Leaders
-**Por quê:** Eles definem repertório, adicionam novas músicas, garantem qualidade "testada pela comunidade" e precisam exportar caderninhos rápido.
+**Por quê:** Eles definem repertório, adicionam novas músicas, garantem qualidade e precisam exportar caderninhos rápido.
 
 ### Secundários:
 
@@ -34,7 +33,7 @@ O Cadern.in resolve esse problema criando uma forma super fácil de gerar cadern
 - Precisam achar e tocar suas partes com facilidade.
 
 **Arranjadores**
-- Enviam, atualizam e testam os arranjos e mantêm o acervo vivo.
+- Enviam, atualizam e testam as partituras e mantêm o acervo vivo.
 
 **Organizadores de Blocos**
 - Curam o acervo do grupo e solicitam novas músicas que façam sentido para rua.
