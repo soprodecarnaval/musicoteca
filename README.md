@@ -2,16 +2,22 @@
 
 > Ser o ponto de encontro open source de fanfarras: arranjos e partituras testados pela comunidade, de músicos para músicos, para democratizar a música de rua.
 
-## Sobre o Projeto
+**Acesse:** https://cadern.in
 
-O Cadern.in é uma plataforma open source que conecta fanfarras e blocos de rua com metais de todo o mundo. A plataforma permite que músicos compartilhem arranjos testados pela comunidade e acessem um acervo crescente de partituras.
+## O Problema
 
-### Características Principais
+Hoje, ter acesso a partituras adequadas para fanfarras não é fácil. A maioria das partituras online são complexas demais - feitas para orquestras ou com inúmeras vozes - e não funcionam bem nas ruas. Fanfarras precisam de arranjos simples, diretos e testados em apresentações reais.
+
+## A Solução
+
+O Cadern.in resolve esse problema criando uma forma super fácil de gerar caderninhos padronizados e conectando músicos para permitir o intercâmbio de partituras testadas. O resultado é um acervo compartilhado crescente com manutenção e evolução distribuída pela comunidade.
+
+## Características Principais
 
 - **Geração de caderninhos** personalizados por instrumento
 - **Busca e descoberta** de músicas por projeto, instrumento e estilo
 - **Reprodução MIDI** para facilitar compreensão do arranjo
-- **Download de partituras** em formato MuseScore (.mscz)
+- **Download de partituras** em formato MuseScore (.mscz) ou PDF
 - **Sistema de contribuição** via GitHub Issues e Pull Requests
 
 ## Público-Alvo
@@ -33,36 +39,6 @@ O Cadern.in é uma plataforma open source que conecta fanfarras e blocos de rua 
 **Organizadores de Blocos**
 - Curam o acervo do grupo e solicitam novas músicas que façam sentido para rua.
 
-## Métricas de Sucesso
-
-### Por Persona
-
-**Band Leaders:**
-- **Métrica:** % de band leaders que conseguem exportar um caderninho completo
-- **Meta:** > 90% conseguem exportar sem ajuda
-
-**Novos Fanfarrões:**
-- **Métrica:** % de novos usuários que conseguem tocar uma música na primeira sessão
-- **Meta:** > 80% conseguem reproduzir MIDI na primeira tentativa
-
-**Fanfarrões (músicos de seção):**
-- **Métrica:** % de downloads de .mscz que são bem-sucedidos
-- **Meta:** > 95% dos downloads funcionam
-
-**Arranjadores:**
-- **Métrica:** % de issues songs que são aceitas (PRs aprovados)
-- **Meta:** > 70% das contribuições são aceitas
-
-**Organizadores de Blocos:**
-- **Métrica:** % de song issues que são processadas (movidas para Backlog)
-- **Meta:** > 90% das issues são processadas
-
-### Métricas Gerais
-
-- **Crescimento:** Número de músicas no acervo (mês a mês)
-- **Engajamento:** Número de downloads por mês
-- **Qualidade:** % de músicas com todas as partes por instrumento
-
 ## Tecnologias
 
 - **Frontend:** React + TypeScript + Vite
@@ -70,7 +46,7 @@ O Cadern.in é uma plataforma open source que conecta fanfarras e blocos de rua 
 - **Busca:** Fuse.js
 - **PDF:** PDFKit
 - **MIDI:** midi-player-js + soundfont-player
-- **Arquivos:** MuseScore (.mscz), MIDI, SVG
+- **Arquivos:** MuseScore (.mscz), PDF, MIDI, SVG
 
 ## Como Contribuir
 
@@ -80,11 +56,10 @@ Veja [CONTRIBUTING.md](CONTRIBUTING.md) para instruções detalhadas sobre como 
 
 1. Abra uma [Issue de Solicitação de Música](.github/ISSUE_TEMPLATE/song_request.md)
 2. Preencha todas as informações solicitadas
-3. Se você tem os arquivos: anexe-os na issue
-4. Aguarde a revisão e aprovação da issue
-5. Crie uma Pull Request com os arquivos necessários (você ou outro contribuidor)
-6. Aguarde a validação e aprovação da PR por outro contribuidor
-7. Após merge, a música estará disponível na plataforma
+3. Aguarde a revisão e aprovação da issue
+4. Crie (você ou outro contribuidor) uma Pull Request com os arquivos necessários 
+5. Aguarde a validação e aprovação da PR por outro contribuidor
+6. Após merge, a música estará disponível na plataforma
 
 ## Estrutura do Projeto
 
@@ -96,7 +71,7 @@ musicoteca/
 └── dist/                 # Build de produção
 ```
 
-## Desenvolvimento Local
+## Quick Start
 
 ```bash
 # Instalar dependências
