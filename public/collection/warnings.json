@@ -1,9 +1,50 @@
 [
   {
-    "message": "Found a non-first page svg asset, ignoring it",
+    "message": "Invalid song",
     "meta": {
-      "name": "INDUSTRY_COM_BONE2_BONE_PIRATA-2",
-      "entryPath": "/tmp/collection/na tora 2025/INDUSTRY_COM_BONE2/INDUSTRY_COM_BONE2_BONE_PIRATA-2.svg"
+      "errors": [
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "composer"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "sub"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "metajson"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "midi"
+          ],
+          "message": "Required"
+        }
+      ],
+      "songDirectory": {
+        "absPath": "/tmp/collection/carnaval bh 2026/PERAE",
+        "songTitle": "PERAE",
+        "projectTitle": "carnaval bh 2026"
+      }
     }
   }
 ]
