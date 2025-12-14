@@ -22267,6 +22267,56 @@
       ]
     },
     {
+      "title": "carnaval bh 2026",
+      "scores": [
+        {
+          "id": "carnaval bh 2026/PERAE",
+          "title": "perae",
+          "composer": "Banda Beijo",
+          "sub": "PERAÊ, PERAÊ, PERAÊ, TA PENSANDO O QUE...",
+          "mscz": "carnaval bh 2026/PERAE/PERAE.mscz",
+          "metajson": "carnaval bh 2026/PERAE/PERAE.metajson",
+          "midi": "carnaval bh 2026/PERAE/PERAE.midi",
+          "parts": [
+            {
+              "name": "PERAE_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/PERAE/PERAE_Alto-1.svg",
+              "midi": "carnaval bh 2026/PERAE/PERAE_Alto.midi"
+            },
+            {
+              "name": "PERAE_Bone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/PERAE/PERAE_Bone-1.svg",
+              "midi": "carnaval bh 2026/PERAE/PERAE_Bone.midi"
+            },
+            {
+              "name": "PERAE_Flauta",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/PERAE/PERAE_Flauta-1.svg",
+              "midi": "carnaval bh 2026/PERAE/PERAE_Flauta.midi"
+            },
+            {
+              "name": "PERAE_Pete",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/PERAE/PERAE_Pete-1.svg",
+              "midi": "carnaval bh 2026/PERAE/PERAE_Pete.midi"
+            },
+            {
+              "name": "PERAE_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/PERAE/PERAE_Tenor-1.svg",
+              "midi": "carnaval bh 2026/PERAE/PERAE_Tenor.midi"
+            }
+          ],
+          "tags": [
+            "Axé"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        }
+      ]
+    },
+    {
       "title": "festa junina 2024",
       "scores": [
         {
@@ -34563,6 +34613,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-14T19:34:16.852Z",
+  "scrapedAt": "2025-12-14T20:04:37.606Z",
   "version": 2
 }
