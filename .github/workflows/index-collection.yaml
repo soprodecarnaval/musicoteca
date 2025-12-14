@@ -16,15 +16,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
-      # - name: Make sure all git refs and configs are there
-      #   run: |
-      #     git config core.quotePath false
-      #     git fetch origin ${{ github.event.pull_request.head.ref || github.ref_name }}:${{ github.event.pull_request.head.ref || github.ref_name }}
-      #     git fetch origin main:main
-      #     git checkout ${{ github.event.pull_request.head.ref || github.ref_name }}
-      #     git branch --set-upstream-to=origin/${{ github.event.pull_request.head.ref || github.ref_name }}
+      - name: Make sure all git refs and configs are there
+        run: |
+          git config core.quotePath false
+          git fetch origin ${{ github.event.pull_request.head.ref }}:${{ github.event.pull_request.head.ref }}
+          git fetch origin main:main
+          git checkout ${{ github.event.pull_request.head.ref }}
+          git branch --set-upstream-to=origin/${{ github.event.pull_request.head.ref }}
       - name: Skip if current commit is from the indexer
         run: |
           LAST_EMAIL=$(git log -1 --pretty=format:%ae)
