@@ -22270,6 +22270,96 @@
       "title": "carnaval bh 2026",
       "scores": [
         {
+          "id": "carnaval bh 2026/CAVALINHO",
+          "title": "cavalinho",
+          "composer": "Pedro Sampaio",
+          "sub": "ESSA MULHER ENLOUQUECEU",
+          "mscz": "carnaval bh 2026/CAVALINHO/CAVALINHO.mscz",
+          "metajson": "carnaval bh 2026/CAVALINHO/CAVALINHO.metajson",
+          "midi": "carnaval bh 2026/CAVALINHO/CAVALINHO.midi",
+          "parts": [
+            {
+              "name": "CAVALINHO_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/CAVALINHO/CAVALINHO_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/CAVALINHO/CAVALINHO_Flauta_Transversal.midi"
+            },
+            {
+              "name": "CAVALINHO_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/CAVALINHO/CAVALINHO_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/CAVALINHO/CAVALINHO_Saxofone_Alto.midi"
+            },
+            {
+              "name": "CAVALINHO_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/CAVALINHO/CAVALINHO_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/CAVALINHO/CAVALINHO_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "CAVALINHO_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/CAVALINHO/CAVALINHO_Trombone-1.svg",
+              "midi": "carnaval bh 2026/CAVALINHO/CAVALINHO_Trombone.midi"
+            },
+            {
+              "name": "CAVALINHO_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/CAVALINHO/CAVALINHO_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/CAVALINHO/CAVALINHO_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/LEPO_LEPO",
+          "title": "lepo lepo",
+          "composer": "Filipe Escandurras",
+          "sub": "AH, EU JÁ NÁO SEI O QUE FAZER",
+          "mscz": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO.mscz",
+          "metajson": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO.metajson",
+          "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO.midi",
+          "parts": [
+            {
+              "name": "LEPO_LEPO_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Flauta_Transversal.midi"
+            },
+            {
+              "name": "LEPO_LEPO_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Saxofone_Alto.midi"
+            },
+            {
+              "name": "LEPO_LEPO_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "LEPO_LEPO_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Trombone-1.svg",
+              "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Trombone.midi"
+            },
+            {
+              "name": "LEPO_LEPO_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "Pagode"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/PERAE",
           "title": "perae",
           "composer": "Banda Beijo",
@@ -34613,6 +34703,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-14T20:04:37.606Z",
+  "scrapedAt": "2025-12-14T22:00:28.084Z",
   "version": 2
 }
