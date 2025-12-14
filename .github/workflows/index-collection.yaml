@@ -16,7 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
+        with:
+          ref: ${{ github.event.pull_request.head.ref || github.ref_name }}
       # - name: Make sure all git refs and configs are there
       #   run: |
       #     git config core.quotePath false
