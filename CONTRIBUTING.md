@@ -10,7 +10,39 @@
 - Foque no que é melhor para a comunidade
 - Mantenha discussões técnicas e relevantes ao projeto
 
-## Como Contribuir
+## Como contribuir com partituras
+
+### 1. Formatando a partitura
+- Baixe a última versão do plugin [aqui](https://raw.githubusercontent.com/soprodecarnaval/musicoteca/refs/heads/main/plugins/caderninhoFormatter-MU3.qml) (use o MuseScore 3!).
+- Habilite o plugin e abra a partitura.
+- Com o plugin aberto, habilite `Apply to all parts`
+- Pressione os botões de 1 a 3 do plugin (`Clean fingering`, `Clean text boxes` e `Set style`)
+- *Desmarque a opção `Apply to all parts`*, as próximas funções podem travar o computador se forem aplicadas a todas as partes de uma vez.
+- Abra as partes uma a uma e execute as funções 4 e 5 (`Ajust scale` e `Leading space`)
+
+### 2. Ajustando o dedilhado
+- Nas partes de trompete e trombone, execute a função 6 `Add fingering`, muito provavelmente aparecerá uma segunda página.
+- Clique em `Leading space` para tentar voltar a uma página apenas (necessário para o caderninho).
+- Esse ponto necessita de cuidado individual, alterne entre os botões `Leading space`, `Adust scale` e mude o valor de `Fingering size` para ajustar a partitura.
+- Se necessário faça ajustes manual na parte para caber todos os elementos e facilitar a leitura.
+
+### 3. Adicionando os metadados
+- Clique na primeira aba (com a partitura completa)
+- Vá em `Arquivo -> Propriedades da Partitura`
+- Preencha os seguintes campos (extraímos apenas esses da partitura para usar no caderninho):
+  - Composer: compositor ou banda da música
+  - Lyricist: estilo da música (ex. pagode, samba, axé, ...)
+  - Source: trecho da letra (Deve ser curto e todo em maiúscula)
+  - workTitle: título da música todo em maiúsculas
+
+### 4. Enviando a partitura
+- Nomeie o arquivo em letras maiúsculas sem espaços (substitua os espaços por `_`) e coloque em uma pasta de mesmo nome, dentro de umas das coleções no caminho `public/collection`
+- Suba em um branch a modificação e faça um PR para o branch main
+- Uma action será executada automaticamente com a criação do PR
+- Aguarde a action rodar pois ela adicionará diversos arquivos ao seu PR (com as partituras e metadados)
+- Faça o merge e execute a action de deploy para publicar a partitura.
+
+## Como Contribuir com código
 
 ### 1. Setup Inicial
 - Fork o repositório: [musicoteca](https://github.com/SEU-USUARIO/musicoteca)
