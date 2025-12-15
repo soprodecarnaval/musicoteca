@@ -17,7 +17,7 @@
 - Habilite o plugin e abra a partitura.
 - Com o plugin aberto, habilite `Apply to all parts`
 - Pressione os botões de 1 a 3 do plugin (`Clean fingering`, `Clean text boxes` e `Set style`)
-- *Desmarque a opção `Apply to all parts`*, as próximas funções podem travar o computador se forem aplicadas a todas as partes de uma vez.
+- **Desmarque a opção `Apply to all parts`**, as próximas funções podem travar o computador se forem aplicadas a todas as partes de uma vez.
 - Abra as partes uma a uma e execute as funções 4 e 5 (`Ajust scale` e `Leading space`)
 
 ### 2. Ajustando o dedilhado
