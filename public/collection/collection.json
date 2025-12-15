@@ -22360,6 +22360,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/PAISAGEM_DA_JANELA",
+          "title": "paisagem da janela",
+          "composer": "Compositor / arranjador",
+          "sub": "",
+          "mscz": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA.mscz",
+          "metajson": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA.metajson",
+          "midi": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA.midi",
+          "parts": [
+            {
+              "name": "PAISAGEM_DA_JANELA_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Alto_Saxophone-1.svg",
+              "midi": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Alto_Saxophone.midi"
+            },
+            {
+              "name": "PAISAGEM_DA_JANELA_Flauta",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Flauta-1.svg",
+              "midi": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Flauta.midi"
+            },
+            {
+              "name": "PAISAGEM_DA_JANELA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "PAISAGEM_DA_JANELA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Trombone.midi"
+            },
+            {
+              "name": "PAISAGEM_DA_JANELA_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/PAISAGEM_DA_JANELA/PAISAGEM_DA_JANELA_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/PERAE",
           "title": "perae",
           "composer": "Banda Beijo",
@@ -34703,6 +34748,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-14T22:00:28.084Z",
+  "scrapedAt": "2025-12-15T20:41:49.106Z",
   "version": 2
 }
