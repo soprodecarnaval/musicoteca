@@ -23,7 +23,7 @@
 ### 2. Ajustando o dedilhado
 - Nas partes de trompete e trombone, execute a função 6 `Add fingering`, muito provavelmente aparecerá uma segunda página.
 - Clique em `Leading space` para tentar voltar a uma página apenas (necessário para o caderninho).
-- Esse ponto necessita de cuidado individual, alterne entre os botões `Leading space`, `Adust scale` e mude o valor de `Fingering size` para ajustar a partitura.
+- Esse ponto necessita de cuidado individual, alterne entre os botões `Leading space`, `Adust scale` e mude o valor de `Fingering size` para ajustar a partitura. A partitura deve ficar em apenas 1 página, com o dedilhado disposto de forma coerente acima das claves (caso os números estejam encavalando diminua o valor em `Fingering size`, 11 ou 12 costumam ser valores adequados).
 - Se necessário faça ajustes manual na parte para caber todos os elementos e facilitar a leitura.
 
 ### 3. Adicionando os metadados
