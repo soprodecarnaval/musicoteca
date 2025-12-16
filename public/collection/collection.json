@@ -24796,6 +24796,57 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/MARIA_MARIA",
+          "title": "maria maria",
+          "composer": "Milton Nascimento",
+          "sub": "MARIA, MARIA, É UM DOM, UMA CERTA MAGIA",
+          "mscz": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA.mscz",
+          "metajson": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA.metajson",
+          "midi": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA.midi",
+          "parts": [
+            {
+              "name": "MARIA_MARIA_Bb_Trumpet",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Bb_Trumpet-1.svg",
+              "midi": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Bb_Trumpet.midi"
+            },
+            {
+              "name": "MARIA_MARIA_Clarinete_em_Bb",
+              "instrument": "clarinete",
+              "svg": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Clarinete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Clarinete_em_Bb.midi"
+            },
+            {
+              "name": "MARIA_MARIA_Flauta",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Flauta-1.svg",
+              "midi": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Flauta.midi"
+            },
+            {
+              "name": "MARIA_MARIA_Saxofone_Contralto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Saxofone_Contralto-1.svg",
+              "midi": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Saxofone_Contralto.midi"
+            },
+            {
+              "name": "MARIA_MARIA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "MARIA_MARIA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/MARIA_MARIA/MARIA_MARIA_Trombone.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/MEDO_BOBO",
           "title": "medo bobo",
           "composer": "Maiara e Maraisa",
@@ -39080,6 +39131,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-16T04:39:33.524Z",
+  "scrapedAt": "2025-12-16T20:20:10.320Z",
   "version": 2
 }
