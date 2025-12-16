@@ -26428,6 +26428,57 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/UMA_NOITE_E_MEIA",
+          "title": "uma noite e meia",
+          "composer": "Marina Lima",
+          "sub": "VEM CHEGANDO O VERÃO, UM CALOR NO CORAÇÃO",
+          "mscz": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA.mscz",
+          "metajson": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA.metajson",
+          "midi": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Drum_Kit.midi",
+          "parts": [
+            {
+              "name": "UMA_NOITE_E_MEIA_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Alto_Saxophone-1.svg",
+              "midi": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Alto_Saxophone.midi"
+            },
+            {
+              "name": "UMA_NOITE_E_MEIA_Bb_Trumpet",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Bb_Trumpet-1.svg",
+              "midi": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Bb_Trumpet.midi"
+            },
+            {
+              "name": "UMA_NOITE_E_MEIA_Flauta_1",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Flauta_1-1.svg",
+              "midi": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Flauta_1.midi"
+            },
+            {
+              "name": "UMA_NOITE_E_MEIA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "UMA_NOITE_E_MEIA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Trombone.midi"
+            },
+            {
+              "name": "UMA_NOITE_E_MEIA_Tuba",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Tuba-1.svg",
+              "midi": "carnaval bh 2026/UMA_NOITE_E_MEIA/UMA_NOITE_E_MEIA_Tuba.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/VAI_COM_JEITO",
           "title": "vai com jeito",
           "composer": "João de Barro",
@@ -39131,6 +39182,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-16T20:20:10.320Z",
+  "scrapedAt": "2025-12-16T20:34:55.366Z",
   "version": 2
 }
