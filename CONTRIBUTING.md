@@ -19,7 +19,7 @@
 - Com o plugin aberto, habilite `Apply to all parts`
 - Pressione os botões de 1 a 3 do plugin (`Clean fingering`, `Clean text boxes` e `Set style`)
 - **Desmarque a opção `Apply to all parts`**, as próximas funções podem travar o computador se forem aplicadas a todas as partes de uma vez.
-- Abra as partes (abas) uma a uma e execute as funções 4 e 5 (`Ajust scale` e `Leading space`)
+- Abra as partes (abas) uma a uma e execute as funções 4 e 5 (`Adjust scale` e `Leading space`)
 
 ### 2. Ajustando o dedilhado
 - Nas partes de trompete e trombone, execute a função 6 `Add fingering`, muito provavelmente aparecerá uma segunda página.
@@ -35,13 +35,30 @@
   - Lyricist: estilo da música (ex. pagode, samba, axé, ...)
   - Source: trecho da letra (Deve ser curto e todo em maiúscula)
   - workTitle: título da música todo em maiúsculas
+ 
+### 4. Conferindo a partitura
+- Após finalizada a formatação salve o arquivo, feche-o e abra novamente
+  - Confira se todas as partes continuam com apenas 1 página
+  - Confira se os dedilhados estão aparecendo da forma esperada
+  - Confira se todas as partes estão sem títulos e textos
 
-### 4. Enviando a partitura
+### 5. Enviando a partitura
 - Nomeie o arquivo em letras maiúsculas sem espaços (substitua os espaços por `_`) e coloque em uma pasta de mesmo nome, dentro de umas das coleções no caminho `public/collection`
 - Suba em um branch a modificação e faça um PR para o branch main
 - Uma action será executada automaticamente com a criação do PR
 - Aguarde a action rodar pois ela adicionará diversos arquivos ao seu PR (com as partituras e metadados)
 - Faça o merge e execute a action de deploy para publicar a partitura.
+
+### 6. Corrigindo possíveis problemas
+- **A partitura em MusicXML abriu sem as partes**
+  - Cria as partes clicando em `Arquivos -> Partes -> Todas as Partes -> Ok`
+- **Após formatar, salvar, fechar e abrir o arquivo alguma parte apareceu com 2 páginas**
+  - Use os botões `Adjust scale` e `Leading spaces` para fazer a partitura voltar a 1 página.
+  - Salve, feche e reabra o arquivo até ter certeza que todas as partes estão em apenas 1 página.
+- **Algum instrumento não está pegando dedilhado**
+  - Adicione o instrumento correto com sua respectiva parte.
+  - Copie a partitura da parte com problema e cole no novo intrumento.
+  - Tente adicionar o dedilhado novamente nessa nova parte.
 
 ## Como Contribuir com código
 
