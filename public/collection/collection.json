@@ -26839,6 +26839,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/É_HOJE_O_DIA",
+          "title": "é hoje o dia",
+          "composer": "União da Ilha do Governador",
+          "sub": "A MINHA ALEGRIA ATRAVESSOU O MAR",
+          "mscz": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA.mscz",
+          "metajson": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA.metajson",
+          "midi": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA.midi",
+          "parts": [
+            {
+              "name": "É_HOJE_O_DIA_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Flauta_Transversal.midi"
+            },
+            {
+              "name": "É_HOJE_O_DIA_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Saxofone_Alto.midi"
+            },
+            {
+              "name": "É_HOJE_O_DIA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "É_HOJE_O_DIA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Trombone.midi"
+            },
+            {
+              "name": "É_HOJE_O_DIA_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/É_HOJE_O_DIA/É_HOJE_O_DIA_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "Samba"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/É_TARDE_DEMAIS",
           "title": "é tarde demais",
           "composer": "Raça Negra",
@@ -39182,6 +39227,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-16T20:34:55.366Z",
+  "scrapedAt": "2026-01-01T21:38:11.562Z",
   "version": 2
 }
