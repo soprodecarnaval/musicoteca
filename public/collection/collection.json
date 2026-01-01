@@ -25387,6 +25387,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/PARABENS_A_BANDA",
+          "title": "parabens a banda",
+          "composer": "Popular / Chico Buarque",
+          "sub": "PARABÉNS PRA VOCÊ",
+          "mscz": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA.mscz",
+          "metajson": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA.metajson",
+          "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA.midi",
+          "parts": [
+            {
+              "name": "PARABENS_A_BANDA_Flauta",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Flauta-1.svg",
+              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Flauta.midi"
+            },
+            {
+              "name": "PARABENS_A_BANDA_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Alto.midi"
+            },
+            {
+              "name": "PARABENS_A_BANDA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "PARABENS_A_BANDA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trombone.midi"
+            },
+            {
+              "name": "PARABENS_A_BANDA_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "Moments"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/PARADOS_NO_BAILÃO",
           "title": "parados no bailão",
           "composer": "Mc L Da Vinte e Mc Gury",
@@ -39182,6 +39227,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-16T20:34:55.366Z",
+  "scrapedAt": "2026-01-01T20:37:55.251Z",
   "version": 2
 }
