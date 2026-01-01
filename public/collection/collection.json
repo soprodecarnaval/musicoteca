@@ -25927,6 +25927,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)",
+          "title": "sorte grande (poeira)",
+          "composer": "Ivete Sangalo",
+          "sub": "A MINHA SORTE GRANDE FOI VOCÊ CAIR DO CÉU",
+          "mscz": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA).mscz",
+          "metajson": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA).metajson",
+          "midi": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA).midi",
+          "parts": [
+            {
+              "name": "SORTE_GRANDE_(POEIRA)_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Alto_Saxophone-1.svg",
+              "midi": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Alto_Saxophone.midi"
+            },
+            {
+              "name": "SORTE_GRANDE_(POEIRA)_Flauta",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Flauta-1.svg",
+              "midi": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Flauta.midi"
+            },
+            {
+              "name": "SORTE_GRANDE_(POEIRA)_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "SORTE_GRANDE_(POEIRA)_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Trombone-1.svg",
+              "midi": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Trombone.midi"
+            },
+            {
+              "name": "SORTE_GRANDE_(POEIRA)_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/SORTE_GRANDE_(POEIRA)/SORTE_GRANDE_(POEIRA)_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "AXÉ"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/SOUL_FINGER",
           "title": "soul finger",
           "composer": "The Bar-Kays\n",
@@ -39182,6 +39227,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-16T20:34:55.366Z",
+  "scrapedAt": "2026-01-01T21:53:22.450Z",
   "version": 2
 }
