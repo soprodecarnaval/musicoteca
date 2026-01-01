@@ -24892,6 +24892,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/MINEIRINHO",
+          "title": "mineirinho",
+          "composer": "Só Pra Contrariar",
+          "sub": "EU NÃO TENHO CULPA DE COMER QUIETINHO",
+          "mscz": "carnaval bh 2026/MINEIRINHO/MINEIRINHO.mscz",
+          "metajson": "carnaval bh 2026/MINEIRINHO/MINEIRINHO.metajson",
+          "midi": "carnaval bh 2026/MINEIRINHO/MINEIRINHO.midi",
+          "parts": [
+            {
+              "name": "MINEIRINHO_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Alto_Saxophone-1.svg",
+              "midi": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Alto_Saxophone.midi"
+            },
+            {
+              "name": "MINEIRINHO_Bb_Trumpet",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Bb_Trumpet-1.svg",
+              "midi": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Bb_Trumpet.midi"
+            },
+            {
+              "name": "MINEIRINHO_Flute",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Flute-1.svg",
+              "midi": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Flute.midi"
+            },
+            {
+              "name": "MINEIRINHO_Tenor_Saxophone",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Tenor_Saxophone-1.svg",
+              "midi": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Tenor_Saxophone.midi"
+            },
+            {
+              "name": "MINEIRINHO_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Trombone-1.svg",
+              "midi": "carnaval bh 2026/MINEIRINHO/MINEIRINHO_Trombone.midi"
+            }
+          ],
+          "tags": [
+            "Pagode"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/MONTSERRAT_SERRAT",
           "title": "montserrat serrat",
           "composer": "Hungry March Band",
@@ -39182,6 +39227,6 @@
       ]
     }
   ],
-  "scrapedAt": "2025-12-16T20:34:55.366Z",
+  "scrapedAt": "2026-01-01T22:05:06.498Z",
   "version": 2
 }
