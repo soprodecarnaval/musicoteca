@@ -33,9 +33,9 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     promises.push(
       drawImage(
         doc,
-        `assets/capa_carnaval_2025_${instrument.replace(/[ ]/g, "_")}.png`,
-        pageNumber
-      )
+        `assets/capa_carnaval_2026_${instrument.replace(/[ ]/g, "_")}.png`,
+        pageNumber,
+      ),
     );
 
     // doc
@@ -106,8 +106,10 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
 
     for (const song of songs) {
       // Check if this song has a part for the current instrument
-      const hasInstrument = song.parts?.some((p) => p.instrument === instrument);
-      
+      const hasInstrument = song.parts?.some(
+        (p) => p.instrument === instrument,
+      );
+
       if (hasInstrument) {
         // Add physical page only if the song has the instrument
         const [pageCount, addSongPagePromises] = await addSongPage(
@@ -116,7 +118,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
           pageNumber,
           songPageIndex,
           title,
-          opts
+          opts,
         );
         pageNumber += pageCount;
         promises.push(...addSongPagePromises);
@@ -192,7 +194,7 @@ const loadImage = (url: string) => {
 const drawImage = (
   doc: any,
   imageUrl: any,
-  pageNumber: number
+  pageNumber: number,
 ): Promise<void> => {
   return loadImage(imageUrl).then((img: any) => {
     doc.switchToPage(pageNumber);
@@ -228,13 +230,15 @@ const addSongPage = async (
   currentPage: number,
   songPageIndex: number,
   sectionTitle: string,
-  { instrument, backSheetPageNumber }: CreateSongBookOptions
+  { instrument, backSheetPageNumber }: CreateSongBookOptions,
 ): Promise<[number, Promise<void>[]]> => {
   const initialPage = currentPage;
   const promises: Promise<void>[] = [];
 
   // Guard: skip if the song has no part for this instrument
-  const partForInstrument = song.parts?.find((part) => part.instrument === instrument);
+  const partForInstrument = song.parts?.find(
+    (part) => part.instrument === instrument,
+  );
   if (!partForInstrument) {
     console.log(`Skipping ${song.title} for ${instrument}: no part available.`);
     return [0, promises];
@@ -315,7 +319,7 @@ const addSongPage = async (
       {
         align: "right",
         width: 17.1 * cm2pt,
-      }
+      },
     ); // Estilo + Número
 
   // Use the discovered part for the instrument safely
@@ -331,13 +335,13 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode, instrument }: CreateSongBookOptions
+  { sections, carnivalMode, instrument }: CreateSongBookOptions,
 ): number => {
   let pageCount = 0;
 
   const totalSongCount = sections.reduce(
     (acc, { songs }) => acc + songs.length,
-    0
+    0,
   );
   const sectionCount = sections.length;
   const containerWidth = 17.17 * cm2pt;
@@ -356,12 +360,12 @@ const addIndexPage = (
   let maxLinesPerColumn = Math.floor(totalLineCount / columnCount) + 2;
   let fontSize = Math.min(
     Math.floor(containerHeight / maxLinesPerColumn) - 3,
-    15
+    15,
   );
   let columnWidth = Math.ceil(containerWidth / columnCount);
 
   console.log(
-    `containerWidth: ${containerWidth}\n containerHeight: ${containerHeight}\n totalLineCount: ${totalLineCount}\n columnCount: ${columnCount}\n maxLinexPerColumn: ${maxLinesPerColumn}\n fontSize: ${fontSize}\n columnWidth: ${columnWidth}\n`
+    `containerWidth: ${containerWidth}\n containerHeight: ${containerHeight}\n totalLineCount: ${totalLineCount}\n columnCount: ${columnCount}\n maxLinexPerColumn: ${maxLinesPerColumn}\n fontSize: ${fontSize}\n columnWidth: ${columnWidth}\n`,
   );
 
   if (carnivalMode) {
@@ -406,7 +410,7 @@ const addIndexPage = (
   // .fontSize(25)
   // .font("Roboto-Bold")
   // .text("ÍNDICE", currentX + 0.3 * cm2pt, 1.2 * cm2pt);
-  
+
   sections.forEach(({ title, songs }, styleIdx) => {
     if (carnivalMode) {
       if (
@@ -444,10 +448,12 @@ const addIndexPage = (
           .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
         [currentX, currentY] = nextCursorPosition();
       }
-      
+
       // Check if this song has a part for the current instrument
-      const hasInstrument = song.parts?.some((p) => p.instrument === instrument);
-      
+      const hasInstrument = song.parts?.some(
+        (p) => p.instrument === instrument,
+      );
+
       // Display song with consistent page number
       doc
         .font("Roboto-Bold")
@@ -457,32 +463,42 @@ const addIndexPage = (
           width: 0.6 * cm2pt,
           goTo: hasInstrument ? song.id : undefined,
         });
-      
+
       if (hasInstrument) {
         // Song is available - normal display
         doc
           .font("Roboto-Medium")
           .fillColor("black")
-          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
-            goTo: song.id,
-            width: columnWidth - 0.3 * cm2pt,
-            height: fontSize,
-            lineBreak: false,
-          });
+          .text(
+            `${song.title.toUpperCase()}`,
+            currentX + 0.3 * cm2pt,
+            currentY,
+            {
+              goTo: song.id,
+              width: columnWidth - 0.3 * cm2pt,
+              height: fontSize,
+              lineBreak: false,
+            },
+          );
       } else {
         // Song is not available - show with strikethrough in gray color
         doc
           .font("Roboto-Medium")
           .fillColor("gray")
-          .text(`${song.title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY, {
-            width: columnWidth - 0.3 * cm2pt,
-            height: fontSize,
-            lineBreak: false,
-            strike: true, // Strikethrough
-          })
+          .text(
+            `${song.title.toUpperCase()}`,
+            currentX + 0.3 * cm2pt,
+            currentY,
+            {
+              width: columnWidth - 0.3 * cm2pt,
+              height: fontSize,
+              lineBreak: false,
+              strike: true, // Strikethrough
+            },
+          )
           .fillColor("black"); // Reset color for next items
       }
-      
+
       [currentX, currentY] = nextCursorPosition();
     });
     if (currentLine != 0) [currentX, currentY] = nextCursorPosition();
