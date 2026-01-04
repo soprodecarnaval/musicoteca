@@ -26626,6 +26626,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/VAPOR_BARATO",
+          "title": "vapor barato",
+          "composer": "O Rappa",
+          "sub": "SIM, EU ESTOU TÃO CANSADO",
+          "mscz": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO.mscz",
+          "metajson": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO.metajson",
+          "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO.midi",
+          "parts": [
+            {
+              "name": "VAPOR_BARATO_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Flauta_Transversal.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Alto.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trombone-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trombone.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/VARIAS_QUEIXAS",
           "title": "varias queixas",
           "composer": "Gilsons",
@@ -39284,6 +39329,6 @@
       ]
     }
   ],
-  "scrapedAt": "2026-01-04T20:52:23.699Z",
+  "scrapedAt": "2026-01-04T20:55:34.408Z",
   "version": 2
 }
