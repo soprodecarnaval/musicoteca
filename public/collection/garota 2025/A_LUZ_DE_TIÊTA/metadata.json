@@ -1,0 +1,35 @@
+{
+  "composer": "Caetano Veloso",
+  "musescoreVersion": "3.6.2",
+  "parts": [
+    {
+      "instrument": "flauta",
+      "name": "FLAUTA"
+    },
+    {
+      "instrument": "sax alto",
+      "name": "SAX ALTO"
+    },
+    {
+      "instrument": "trompete",
+      "name": "SAX TENOR"
+    },
+    {
+      "instrument": "trompete",
+      "name": "PETE"
+    },
+    {
+      "instrument": "trombone",
+      "name": "BONE"
+    }
+  ],
+  "projectId": "",
+  "projectTitle": "",
+  "scrapedAt": "2025-12-14T21:20:51.647Z",
+  "songTitle": "A_LUZ_DE_TIÊTA",
+  "sub": "",
+  "tags": [
+    "Axé"
+  ],
+  "version": 1
+}

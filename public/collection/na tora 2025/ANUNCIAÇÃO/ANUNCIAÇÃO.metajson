@@ -1,40 +1,62 @@
 {
-    "composer": "Ludmila",
-    "duration": 98,
+    "composer": "Alceu valença",
+    "duration": 54,
     "fileVersion": 302,
-    "hasHarmonies": "true",
+    "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -3,
+    "keysig": -1,
     "lyrics": "",
-    "measures": 19,
+    "measures": 22,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
-        "twosided": "false",
-        "width": 210
+        "height": 210,
+        "twosided": "true",
+        "width": 297
     },
     "pages": 3,
     "parts": [
         {
-            "harmonyCount": 28,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "C ClavG",
+            "name": "Flauta Transversal",
             "program": 73
         },
         {
-            "harmonyCount": 28,
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 57
+        },
+        {
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Eb",
+            "name": "",
             "program": 65
         },
         {
@@ -42,37 +64,15 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet",
+            "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Bb - Pirata",
-            "program": 56
-        },
-        {
-            "harmonyCount": 28,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Bb",
-            "program": 56
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trombone.tenor",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "C ClavF",
-            "program": 57
+            "name": "Saxofone Tenor",
+            "program": 66
         }
     ],
-    "poet": "",
-    "previousSource": "CHEGUEI, CHEGUEI CHEGANDO BAGUNÇANDO A ZORRA TODA",
+    "poet": "Na Tora",
+    "previousSource": "NA BLUMA LEVE DAS PAIXÕES QUE VEM DE DENTRO",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -86,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "4/4",
-    "title": "Cheguei"
+    "timesig": "2/4",
+    "title": "ANUNCIAÇÃO"
 }
