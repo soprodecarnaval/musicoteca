@@ -24499,6 +24499,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/JOGO_DA_SEDUÇÃO",
+          "title": "jogo da sedução",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO.mscz",
+          "metajson": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO.metajson",
+          "midi": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO.midi",
+          "parts": [
+            {
+              "name": "JOGO_DA_SEDUÇÃO_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Flauta_Transversal.midi"
+            },
+            {
+              "name": "JOGO_DA_SEDUÇÃO_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Saxofone_Alto.midi"
+            },
+            {
+              "name": "JOGO_DA_SEDUÇÃO_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "JOGO_DA_SEDUÇÃO_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Trombone-1.svg",
+              "midi": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Trombone.midi"
+            },
+            {
+              "name": "JOGO_DA_SEDUÇÃO_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/JOGO_DA_SEDUÇÃO/JOGO_DA_SEDUÇÃO_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/JUIZO_FINAL",
           "title": "juizo final",
           "composer": "Nelson Cavaquinho",
@@ -24630,6 +24675,51 @@
           ],
           "tags": [
             "Pagode"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/LILÁS",
+          "title": "lilás",
+          "composer": "",
+          "sub": "",
+          "mscz": "carnaval bh 2026/LILÁS/LILÁS.mscz",
+          "metajson": "carnaval bh 2026/LILÁS/LILÁS.metajson",
+          "midi": "carnaval bh 2026/LILÁS/LILÁS.midi",
+          "parts": [
+            {
+              "name": "LILÁS_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/LILÁS/LILÁS_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/LILÁS/LILÁS_Flauta_Transversal.midi"
+            },
+            {
+              "name": "LILÁS_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/LILÁS/LILÁS_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/LILÁS/LILÁS_Saxofone_Alto.midi"
+            },
+            {
+              "name": "LILÁS_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/LILÁS/LILÁS_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/LILÁS/LILÁS_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "LILÁS_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/LILÁS/LILÁS_Trombone-1.svg",
+              "midi": "carnaval bh 2026/LILÁS/LILÁS_Trombone.midi"
+            },
+            {
+              "name": "LILÁS_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/LILÁS/LILÁS_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/LILÁS/LILÁS_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "carnaval bh 2026"
         },
@@ -25806,6 +25896,51 @@
           ],
           "tags": [
             "Axé"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/PIPOCA",
+          "title": "pipoca",
+          "composer": "Compositor / arranjador",
+          "sub": "",
+          "mscz": "carnaval bh 2026/PIPOCA/PIPOCA.mscz",
+          "metajson": "carnaval bh 2026/PIPOCA/PIPOCA.metajson",
+          "midi": "carnaval bh 2026/PIPOCA/PIPOCA.midi",
+          "parts": [
+            {
+              "name": "PIPOCA_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/PIPOCA/PIPOCA_Alto-1.svg",
+              "midi": "carnaval bh 2026/PIPOCA/PIPOCA_Alto.midi"
+            },
+            {
+              "name": "PIPOCA_Bone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/PIPOCA/PIPOCA_Bone-1.svg",
+              "midi": "carnaval bh 2026/PIPOCA/PIPOCA_Bone.midi"
+            },
+            {
+              "name": "PIPOCA_Flauta",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/PIPOCA/PIPOCA_Flauta-1.svg",
+              "midi": "carnaval bh 2026/PIPOCA/PIPOCA_Flauta.midi"
+            },
+            {
+              "name": "PIPOCA_Pete",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/PIPOCA/PIPOCA_Pete-1.svg",
+              "midi": "carnaval bh 2026/PIPOCA/PIPOCA_Pete.midi"
+            },
+            {
+              "name": "PIPOCA_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/PIPOCA/PIPOCA_Tenor-1.svg",
+              "midi": "carnaval bh 2026/PIPOCA/PIPOCA_Tenor.midi"
+            }
+          ],
+          "tags": [
+            ""
           ],
           "projectTitle": "carnaval bh 2026"
         },
