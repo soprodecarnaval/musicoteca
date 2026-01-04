@@ -22315,6 +22315,57 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/ADOCICA",
+          "title": "adocica",
+          "composer": "Beto Barbosa",
+          "sub": "AGORA NÓS VAMOS ADOCICAR",
+          "mscz": "carnaval bh 2026/ADOCICA/ADOCICA.mscz",
+          "metajson": "carnaval bh 2026/ADOCICA/ADOCICA.metajson",
+          "midi": "carnaval bh 2026/ADOCICA/ADOCICA.midi",
+          "parts": [
+            {
+              "name": "ADOCICA_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/ADOCICA/ADOCICA_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/ADOCICA/ADOCICA_Flauta_Transversal.midi"
+            },
+            {
+              "name": "ADOCICA_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/ADOCICA/ADOCICA_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/ADOCICA/ADOCICA_Saxofone_Alto.midi"
+            },
+            {
+              "name": "ADOCICA_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/ADOCICA/ADOCICA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/ADOCICA/ADOCICA_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "ADOCICA_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/ADOCICA/ADOCICA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/ADOCICA/ADOCICA_Trombone.midi"
+            },
+            {
+              "name": "ADOCICA_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/ADOCICA/ADOCICA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/ADOCICA/ADOCICA_Trompete_em_Bb.midi"
+            },
+            {
+              "name": "ADOCICA_Tuba",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/ADOCICA/ADOCICA_Tuba-1.svg",
+              "midi": "carnaval bh 2026/ADOCICA/ADOCICA_Tuba.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR",
           "title": "agua de chuva do mar",
           "composer": "Beth Carvalho",
@@ -22356,6 +22407,57 @@
           ],
           "tags": [
             "Samba"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/AI_AI_AI",
+          "title": "ai ai ai",
+          "composer": "Vanessa da Mata",
+          "sub": "SE VOCÊ QUISER EU VOU TE DAR UM AMOR",
+          "mscz": "carnaval bh 2026/AI_AI_AI/AI_AI_AI.mscz",
+          "metajson": "carnaval bh 2026/AI_AI_AI/AI_AI_AI.metajson",
+          "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI.midi",
+          "parts": [
+            {
+              "name": "AI_AI_AI_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Alto_Saxophone-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Alto_Saxophone.midi"
+            },
+            {
+              "name": "AI_AI_AI_Saxofone_Soprano",
+              "instrument": "sax soprano",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Soprano-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Soprano.midi"
+            },
+            {
+              "name": "AI_AI_AI_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "AI_AI_AI_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trombone-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trombone.midi"
+            },
+            {
+              "name": "AI_AI_AI_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trompete_em_Bb.midi"
+            },
+            {
+              "name": "AI_AI_AI_Tuba",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Tuba-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Tuba.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
           ],
           "projectTitle": "carnaval bh 2026"
         },
@@ -26565,6 +26667,51 @@
           ],
           "tags": [
             "Marchinha"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/VAPOR_BARATO",
+          "title": "vapor barato",
+          "composer": "O Rappa",
+          "sub": "SIM, EU ESTOU TÃO CANSADO",
+          "mscz": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO.mscz",
+          "metajson": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO.metajson",
+          "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO.midi",
+          "parts": [
+            {
+              "name": "VAPOR_BARATO_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Flauta_Transversal.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Alto.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trombone-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trombone.midi"
+            },
+            {
+              "name": "VAPOR_BARATO_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
           ],
           "projectTitle": "carnaval bh 2026"
         },
@@ -39227,6 +39374,6 @@
       ]
     }
   ],
-  "scrapedAt": "2026-01-01T20:37:55.251Z",
+  "scrapedAt": "2026-01-04T20:55:34.408Z",
   "version": 2
 }
