@@ -1,19 +1,19 @@
 {
     "composer": "Vanessa da Mata",
-    "duration": 150,
+    "duration": 134,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -4,
     "lyrics": "",
-    "measures": 34,
+    "measures": 26,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "true",
         "width": 297
     },
-    "pages": 11,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
@@ -83,14 +83,14 @@
         },
         {
             "harmonyCount": 0,
-            "hasDrumStaff": "true",
-            "hasPitchedStaff": "false",
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "drum.group.set",
+            "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Bateria",
-            "program": 0
+            "name": "Flute",
+            "program": 73
         }
     ],
     "poet": "Brazuka",
