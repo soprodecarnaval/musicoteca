@@ -44,7 +44,6 @@ export interface Project {
 
 export const zCollection = z.object({
   projects: z.array(z.object({ title: z.string(), scores: z.array(zScore) })),
-  scrapedAt: z.string().transform((s) => new Date(s)),
   version: z.literal(2),
 });
 

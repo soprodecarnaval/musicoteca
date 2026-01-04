@@ -50,7 +50,6 @@ const expectEqualDirs = (dir1: string, dir2: string, skip: Set<string>) => {
 // - sort tags
 // - set sortedAt to the same value
 const makeCollectionComparable = (inputCollection: Collection) => {
-  inputCollection.scrapedAt = new Date("2024-09-27T15:51:00.000Z");
   inputCollection.projects.sort((a, b) => a.title.localeCompare(b.title));
   inputCollection.projects.forEach((project) => {
     project.scores.sort((a, b) => a.title.localeCompare(b.title));
@@ -63,13 +62,13 @@ const makeCollectionComparable = (inputCollection: Collection) => {
 
 const assertCollectionEquality = (
   inputCollection: Collection,
-  outputCollection: Collection
+  outputCollection: Collection,
 ) => {
   makeCollectionComparable(inputCollection);
   makeCollectionComparable(outputCollection);
 
   expect(inputCollection.projects.length).toEqual(
-    outputCollection.projects.length
+    outputCollection.projects.length,
   );
 
   // assert project by project to get better error messages
@@ -78,7 +77,7 @@ const assertCollectionEquality = (
     const outputProject = outputCollection.projects[i];
     expect(outputProject.title).toEqual(inputProject.title);
     expect(outputProject.scores.map((s) => s.title)).toEqual(
-      inputProject.scores.map((s) => s.title)
+      inputProject.scores.map((s) => s.title),
     );
 
     // assert score by score to get better error messages
@@ -107,10 +106,10 @@ const compareCollections = (inputDir: string, outputDir: string) => {
   const outputCollectionPath = path.join(outputDir, "collection.json");
 
   const inputCollection = JSON.parse(
-    fs.readFileSync(inputCollectionPath, "utf-8")
+    fs.readFileSync(inputCollectionPath, "utf-8"),
   ) as Collection;
   const outputCollection = JSON.parse(
-    fs.readFileSync(outputCollectionPath, "utf-8")
+    fs.readFileSync(outputCollectionPath, "utf-8"),
   ) as Collection;
 
   assertCollectionEquality(inputCollection, outputCollection);
@@ -148,7 +147,7 @@ describe("indexCollection", () => {
         const metajson = JSON.parse(fs.readFileSync(metajsonPath, "utf-8"));
         delete metajson.tags;
         return fsp.writeFile(metajsonPath, JSON.stringify(metajson, null, 2));
-      })
+      }),
     );
 
     // run indexCollection with the noTags dir

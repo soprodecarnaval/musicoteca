@@ -46,7 +46,7 @@ const listScoreDirectories = (inputDir: string): ScoreDirectory[] => {
 const parseInstrumentInEntry = (
   songDirectory: ScoreDirectory,
   entry: string,
-  ext: string
+  ext: string,
 ): Instrument | undefined => {
   const basename = path.basename(entry, ext);
   // make sure the song title is removed from the basename
@@ -60,7 +60,7 @@ const scrapeMediaAsset = (
   draft: any,
   songDirectory: ScoreDirectory,
   entry: string,
-  ext: string
+  ext: string,
 ): Result<void> => {
   const instrument = parseInstrumentInEntry(songDirectory, entry, ext);
   const entryPath = path.join(songDirectory.absPath, entry);
@@ -76,7 +76,7 @@ const scrapeMediaAsset = (
           warning(`Found a non-first page svg asset, ignoring it`, {
             name,
             entryPath,
-          })
+          }),
         );
       }
     }
@@ -103,7 +103,7 @@ const normalizeSongTitle = (songTitle: string): string => {
 
 const indexScore = (
   scoreDirectory: ScoreDirectory,
-  previousCollection?: Collection
+  previousCollection?: Collection,
 ): Result<Score> => {
   console.debug(`[indexScore] read ${scoreDirectory.absPath}`);
   let draft: any = {
@@ -149,13 +149,13 @@ const indexScore = (
     warning("Invalid song", {
       errors: result.error.errors,
       songDirectory: scoreDirectory,
-    })
+    }),
   );
 };
 
 const indexProjects = (
   songDirectories: ScoreDirectory[],
-  previousCollection?: Collection
+  previousCollection?: Collection,
 ): Ok<Project[]> => {
   const projects: Project[] = [];
   const warnings: Warning[] = [];
@@ -164,7 +164,7 @@ const indexProjects = (
     if (songResult.ok) {
       const score = songResult.value;
       const projectIdx = projects.findIndex(
-        (p) => p.title === songDirectory.projectTitle
+        (p) => p.title === songDirectory.projectTitle,
       );
       if (projectIdx === -1) {
         projects.push({
@@ -205,7 +205,7 @@ type MetajsonSongFields = {
  */
 function scrapeMetaJson(
   scoreDirectory: ScoreDirectory,
-  entry: string
+  entry: string,
 ): MetajsonSongFields | {} {
   const metajson = path.join(scoreDirectory.absPath, entry);
   const readMetaJsonResult = readJsonFile(metajson);
@@ -235,7 +235,7 @@ function copyAsset<K extends string>(
   obj: Record<K, string>,
   key: K,
   inputPath: string,
-  outputPath: string
+  outputPath: string,
 ): Result<void> {
   const inputAbsPath = obj[key];
   if (inputAbsPath) {
@@ -254,7 +254,7 @@ function copyAsset<K extends string>(
 function copySongAssets(
   song: Score,
   inputPath: string,
-  outputPath: string
+  outputPath: string,
 ): Result<void> {
   const warnings: Warning[] = [];
   const scoreAssets = ["mscz" as const, "metajson" as const, "midi" as const];
@@ -282,11 +282,10 @@ function copySongAssets(
 function writeCollection(
   projects: Project[],
   inputDir: string,
-  outputDir: string
+  outputDir: string,
 ): Ok<Collection> {
   const collection: Collection = {
     projects,
-    scrapedAt: new Date(),
     version: 2,
   };
   const warnings: Warning[] = [];
@@ -312,7 +311,7 @@ const readCollection = (collectionPath: string): Collection => {
 function indexCollection(
   inputDir: string,
   outputDir: string,
-  previousCollection?: Collection
+  previousCollection?: Collection,
 ): Warning[] {
   const scoreDirectories = listScoreDirectories(inputDir);
   const { value: projects, warnings: indexScoreDirectoriesWarnings } =
@@ -320,7 +319,7 @@ function indexCollection(
   const { warnings: writeCollectionWarnings } = writeCollection(
     projects,
     inputDir,
-    outputDir
+    outputDir,
   );
   return [...indexScoreDirectoriesWarnings, ...writeCollectionWarnings];
 }
@@ -373,23 +372,23 @@ const run = async (args: string[]) => {
   let previousCollection: Collection | undefined;
   if (parsedArgs["previousCollection"]) {
     previousCollection = readCollection(
-      path.join(outputPath, "collection.json")
+      path.join(outputPath, "collection.json"),
     );
   }
   // try to look for the previous collection in the input or output path
   else if (fs.existsSync(path.join(outputPath, "collection.json"))) {
     console.info(
-      `Found previous collection at output path, using it to backfill tags.`
+      `Found previous collection at output path, using it to backfill tags.`,
     );
     previousCollection = readCollection(
-      path.join(outputPath, "collection.json")
+      path.join(outputPath, "collection.json"),
     );
   } else if (fs.existsSync(path.join(inputPath, "collection.json"))) {
     console.info(
-      `Found previous collection at input path, using it to backfill tags.`
+      `Found previous collection at input path, using it to backfill tags.`,
     );
     previousCollection = readCollection(
-      path.join(inputPath, "collection.json")
+      path.join(inputPath, "collection.json"),
     );
   }
 
@@ -400,7 +399,7 @@ const run = async (args: string[]) => {
 
   if (fs.existsSync(outputPath)) {
     console.info(
-      `Output folder exists, removing all files inside '${outputPath}'`
+      `Output folder exists, removing all files inside '${outputPath}'`,
     );
     fs.rmSync(outputPath, { recursive: true });
   }
@@ -408,17 +407,17 @@ const run = async (args: string[]) => {
   fs.mkdirSync(outputPath);
 
   console.info(
-    `Indexing collection from '${inputPath}' into '${outputPath}'...`
+    `Indexing collection from '${inputPath}' into '${outputPath}'...`,
   );
 
   const warnings = indexCollection(inputPath, outputPath, previousCollection);
   if (warnings.length > 0) {
     console.info(
-      `Writing ${warnings.length} warnings at '${outputPath}/warnings.json'...`
+      `Writing ${warnings.length} warnings at '${outputPath}/warnings.json'...`,
     );
     fs.writeFileSync(
       path.join(outputPath, "warnings.json"),
-      JSON.stringify(warnings, null, 2)
+      JSON.stringify(warnings, null, 2),
     );
   }
 };

@@ -46,7 +46,7 @@ const migrateAsset = (
   assets: OldFileRef[],
   destDir: string,
   relDestPath: string,
-  ext: string
+  ext: string,
 ): string => {
   const oldRef = assets.find(({ extension }) => extension === `.${ext}`);
   if (!oldRef) {
@@ -65,7 +65,7 @@ const migratePart = (
   oldPart: OldPart,
   score: Score,
   destDir: string,
-  scoreDirRelPath: string
+  scoreDirRelPath: string,
 ) => {
   const partName = `${score.title} - ${oldPart.name}`;
   const partRelPath = path.join(scoreDirRelPath, partName);
@@ -93,7 +93,7 @@ const migrateArrangement = (
   oldSong: OldSong,
   arr: OldArrangement,
   coll: Collection,
-  destDir: string
+  destDir: string,
 ) => {
   const songTitle = oldSong.title;
 
@@ -124,7 +124,7 @@ const migrateArrangement = (
       arr.assets,
       destDir,
       songRelPath,
-      "metajson"
+      "metajson",
     ),
     midi: migrateAsset(srcDir, arr.assets, destDir, songRelPath, "midi"),
     parts: [],
@@ -152,7 +152,7 @@ const migrateArrangement = (
   }
 
   const projectIdx = coll.projects.findIndex(
-    (project: Project) => project.title === projectTitle
+    (project: Project) => project.title === projectTitle,
   );
   if (projectIdx === -1) {
     coll.projects.push({
@@ -171,11 +171,10 @@ const migrateCollection = (srcDir: string, destDir: string) => {
     return;
   }
   const oldCollection = JSON.parse(
-    fs.readFileSync(collectionJsonPath, "utf8")
+    fs.readFileSync(collectionJsonPath, "utf8"),
   ) as OldCollection;
   const newCollection: Collection = {
     projects: [],
-    scrapedAt: new Date(),
     version: 2,
   };
   for (const oldSong of oldCollection.songs) {
@@ -185,7 +184,7 @@ const migrateCollection = (srcDir: string, destDir: string) => {
       // one of them has an empty parts array, so we can ignore it.
       if (arrangement.parts.length === 0) {
         console.info(
-          `migrateCollection: ignoring arrangement with empty parts ${arrangement.id}`
+          `migrateCollection: ignoring arrangement with empty parts ${arrangement.id}`,
         );
         continue;
       }
@@ -198,19 +197,19 @@ const migrateCollection = (srcDir: string, destDir: string) => {
         "manifestacao-vermelho-carnaval-bh-2023-vermelho-vermelhaco"
       ) {
         console.info(
-          `migrateCollection: renaming '${oldSong.title}' to 'vermelho vermelhaço', arrangement '${arrangement.id}'`
+          `migrateCollection: renaming '${oldSong.title}' to 'vermelho vermelhaço', arrangement '${arrangement.id}'`,
         );
         oldSong.title = "vermelho vermelhaço";
       }
       console.debug(
-        `migrateCollection: reading '${oldSong.title}/${arrangement.name}'`
+        `migrateCollection: reading '${oldSong.title}/${arrangement.name}'`,
       );
       migrateArrangement(srcDir, oldSong, arrangement, newCollection, destDir);
     }
   }
   fs.writeFileSync(
     path.join(destDir, "collection.json"),
-    JSON.stringify(newCollection, null, 2)
+    JSON.stringify(newCollection, null, 2),
   );
 };
 
@@ -250,7 +249,7 @@ const run = async (args: string[]) => {
 
   if (fs.existsSync(outputPath)) {
     console.info(
-      `Output folder exists, removing all files inside '${outputPath}'`
+      `Output folder exists, removing all files inside '${outputPath}'`,
     );
     fs.rmSync(outputPath, { recursive: true });
   }
@@ -258,7 +257,7 @@ const run = async (args: string[]) => {
   fs.mkdirSync(outputPath);
 
   console.info(
-    `Indexing collection from '${inputPath}' into '${outputPath}'...`
+    `Indexing collection from '${inputPath}' into '${outputPath}'...`,
   );
 
   console.debug = () => {};
