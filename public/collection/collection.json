@@ -22411,6 +22411,57 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/AI_AI_AI",
+          "title": "ai ai ai",
+          "composer": "Vanessa da Mata",
+          "sub": "SE VOCÊ QUISER EU VOU TE DAR UM AMOR",
+          "mscz": "carnaval bh 2026/AI_AI_AI/AI_AI_AI.mscz",
+          "metajson": "carnaval bh 2026/AI_AI_AI/AI_AI_AI.metajson",
+          "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI.midi",
+          "parts": [
+            {
+              "name": "AI_AI_AI_Alto_Saxophone",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Alto_Saxophone-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Alto_Saxophone.midi"
+            },
+            {
+              "name": "AI_AI_AI_Saxofone_Soprano",
+              "instrument": "sax soprano",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Soprano-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Soprano.midi"
+            },
+            {
+              "name": "AI_AI_AI_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "AI_AI_AI_Trombone",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trombone-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trombone.midi"
+            },
+            {
+              "name": "AI_AI_AI_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Trompete_em_Bb.midi"
+            },
+            {
+              "name": "AI_AI_AI_Tuba",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Tuba-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Tuba.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/ALALAÔ",
           "title": "alalaô",
           "composer": "Nássara e Haroldo Lobo",
@@ -39233,6 +39284,6 @@
       ]
     }
   ],
-  "scrapedAt": "2026-01-01T19:06:45.657Z",
+  "scrapedAt": "2026-01-04T20:52:23.699Z",
   "version": 2
 }
