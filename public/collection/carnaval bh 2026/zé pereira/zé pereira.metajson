@@ -1,40 +1,40 @@
 {
-    "composer": "Vanessa da Mata",
-    "duration": 134,
+    "composer": "Domínio Público",
+    "duration": 81,
     "fileVersion": 302,
-    "hasHarmonies": "false",
+    "hasHarmonies": "true",
     "hasLyrics": "false",
-    "keysig": -4,
+    "keysig": -2,
     "lyrics": "",
-    "measures": 26,
+    "measures": 35,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
-        "twosided": "true",
+        "twosided": "false",
         "width": 297
     },
-    "pages": 5,
+    "pages": 3,
     "parts": [
         {
-            "harmonyCount": 0,
+            "harmonyCount": 19,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.reed.saxophone.soprano",
+            "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Soprano",
-            "program": 64
+            "name": "C clavG",
+            "program": 73
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 19,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Alto Saxophone",
+            "name": "Eb",
             "program": 65
         },
         {
@@ -42,21 +42,21 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.reed.saxophone.tenor",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
-            "program": 66
+            "name": "Bb - Pirata",
+            "program": 56
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 19,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet.bflat",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete em Bb",
+            "name": "Bb",
             "program": 56
         },
         {
@@ -64,37 +64,15 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
+            "instrumentId": "brass.trombone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "C clavF",
             "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.tuba",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Tuba",
-            "program": 58
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "wind.flutes.flute",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Flute",
-            "program": 73
         }
     ],
-    "poet": "Brazuka",
-    "previousSource": "SE VOCÊ QUISER EU VOU TE DAR UM AMOR",
+    "poet": "",
+    "previousSource": "",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -108,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "4/4",
-    "title": "AI_AI_AI"
+    "timesig": "2/4",
+    "title": "zé pereira"
 }

@@ -22426,6 +22426,12 @@
               "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Alto_Saxophone.midi"
             },
             {
+              "name": "AI_AI_AI_Flute",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Flute-1.svg",
+              "midi": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Flute.midi"
+            },
+            {
               "name": "AI_AI_AI_Saxofone_Soprano",
               "instrument": "sax soprano",
               "svg": "carnaval bh 2026/AI_AI_AI/AI_AI_AI_Saxofone_Soprano-1.svg",
@@ -27211,6 +27217,141 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/bandeira branca",
+          "title": "bandeira branca",
+          "composer": "Max Nunes e Laércio Alves",
+          "sub": "",
+          "mscz": "carnaval bh 2026/bandeira branca/bandeira branca.mscz",
+          "metajson": "carnaval bh 2026/bandeira branca/bandeira branca.metajson",
+          "midi": "carnaval bh 2026/bandeira branca/bandeira branca.midi",
+          "parts": [
+            {
+              "name": "bandeira branca_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/bandeira branca/bandeira branca_BONE-1.svg",
+              "midi": "carnaval bh 2026/bandeira branca/bandeira branca_BONE.midi"
+            },
+            {
+              "name": "bandeira branca_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/bandeira branca/bandeira branca_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/bandeira branca/bandeira branca_FLAUTA.midi"
+            },
+            {
+              "name": "bandeira branca_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/bandeira branca/bandeira branca_PETE-1.svg",
+              "midi": "carnaval bh 2026/bandeira branca/bandeira branca_PETE.midi"
+            },
+            {
+              "name": "bandeira branca_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/bandeira branca/bandeira branca_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/bandeira branca/bandeira branca_SAX_ALTO.midi"
+            },
+            {
+              "name": "bandeira branca_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/bandeira branca/bandeira branca_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/bandeira branca/bandeira branca_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/pastorinhas",
+          "title": "pastorinhas",
+          "composer": "Noel Rosa e João De Barro",
+          "sub": "",
+          "mscz": "carnaval bh 2026/pastorinhas/pastorinhas.mscz",
+          "metajson": "carnaval bh 2026/pastorinhas/pastorinhas.metajson",
+          "midi": "carnaval bh 2026/pastorinhas/pastorinhas.midi",
+          "parts": [
+            {
+              "name": "pastorinhas_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/pastorinhas/pastorinhas_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/pastorinhas/pastorinhas_BONE_PIRATA.midi"
+            },
+            {
+              "name": "pastorinhas_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/pastorinhas/pastorinhas_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/pastorinhas/pastorinhas_FLAUTA.midi"
+            },
+            {
+              "name": "pastorinhas_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/pastorinhas/pastorinhas_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/pastorinhas/pastorinhas_PETE_PIRATA.midi"
+            },
+            {
+              "name": "pastorinhas_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/pastorinhas/pastorinhas_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/pastorinhas/pastorinhas_SAX_ALTO.midi"
+            },
+            {
+              "name": "pastorinhas_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/pastorinhas/pastorinhas_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/pastorinhas/pastorinhas_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/zé pereira",
+          "title": "zé pereira",
+          "composer": "Domínio Público",
+          "sub": "",
+          "mscz": "carnaval bh 2026/zé pereira/zé pereira.mscz",
+          "metajson": "carnaval bh 2026/zé pereira/zé pereira.metajson",
+          "midi": "carnaval bh 2026/zé pereira/zé pereira.midi",
+          "parts": [
+            {
+              "name": "zé pereira_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/zé pereira/zé pereira_BONE-1.svg",
+              "midi": "carnaval bh 2026/zé pereira/zé pereira_BONE.midi"
+            },
+            {
+              "name": "zé pereira_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/zé pereira/zé pereira_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/zé pereira/zé pereira_FLAUTA.midi"
+            },
+            {
+              "name": "zé pereira_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/zé pereira/zé pereira_PETE-1.svg",
+              "midi": "carnaval bh 2026/zé pereira/zé pereira_PETE.midi"
+            },
+            {
+              "name": "zé pereira_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/zé pereira/zé pereira_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/zé pereira/zé pereira_SAX_ALTO.midi"
+            },
+            {
+              "name": "zé pereira_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/zé pereira/zé pereira_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/zé pereira/zé pereira_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/É_DOXUM",
           "title": "é doxum",
           "composer": "Geronimo Santana",
@@ -29084,7 +29225,7 @@
             }
           ],
           "tags": [
-            "Funk"
+            ""
           ],
           "projectTitle": "garota 2025"
         },
@@ -33280,6 +33421,51 @@
               "instrument": "sax tenor",
               "svg": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_TENOR-1.svg",
               "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Na Tora"
+          ],
+          "projectTitle": "na tora 2025"
+        },
+        {
+          "id": "na tora 2025/ANUNCIAÇÃO",
+          "title": "anunciação",
+          "composer": "Alceu valença",
+          "sub": "NA BLUMA LEVE DAS PAIXÕES QUE VEM DE DENTRO",
+          "mscz": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO.mscz",
+          "metajson": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO.metajson",
+          "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO.midi",
+          "parts": [
+            {
+              "name": "ANUNCIAÇÃO_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_BONE_PIRATA-1.svg",
+              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ANUNCIAÇÃO_FLAUTA",
+              "instrument": "flauta",
+              "svg": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_FLAUTA-1.svg",
+              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_FLAUTA.midi"
+            },
+            {
+              "name": "ANUNCIAÇÃO_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_PETE_PIRATA-1.svg",
+              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ANUNCIAÇÃO_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_ALTO-1.svg",
+              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_ALTO.midi"
+            },
+            {
+              "name": "ANUNCIAÇÃO_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_TENOR-1.svg",
+              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_TENOR.midi"
             }
           ],
           "tags": [
