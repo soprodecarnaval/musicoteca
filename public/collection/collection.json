@@ -27217,6 +27217,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/andança",
+          "title": "andança",
+          "composer": "Danilo Caymmi",
+          "sub": "VIM, TANTA AREIA ANDEI",
+          "mscz": "carnaval bh 2026/andança/andança.mscz",
+          "metajson": "carnaval bh 2026/andança/andança.metajson",
+          "midi": "carnaval bh 2026/andança/andança.midi",
+          "parts": [
+            {
+              "name": "andança_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/andança/andança_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_BONE_PIRATA.midi"
+            },
+            {
+              "name": "andança_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/andança/andança_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_FLAUTA.midi"
+            },
+            {
+              "name": "andança_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/andança/andança_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_PETE_PIRATA.midi"
+            },
+            {
+              "name": "andança_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/andança/andança_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_SAX_ALTO.midi"
+            },
+            {
+              "name": "andança_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/andança/andança_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/bandeira branca",
           "title": "bandeira branca",
           "composer": "Max Nunes e Laércio Alves",
@@ -27299,6 +27344,63 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/pastorinhas/pastorinhas_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/pastorinhas/pastorinhas_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/voce_nao_entende_nada",
+          "title": "voce nao entende nada",
+          "composer": "Caetano",
+          "sub": "",
+          "mscz": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada.mscz",
+          "metajson": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada.metajson",
+          "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada.midi",
+          "parts": [
+            {
+              "name": "voce_nao_entende_nada_BONE_COM_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_COM_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_COM_PIRATA.midi"
+            },
+            {
+              "name": "voce_nao_entende_nada_BONE_SEM_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_SEM_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_SEM_PIRATA.midi"
+            },
+            {
+              "name": "voce_nao_entende_nada_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_FLAUTA.midi"
+            },
+            {
+              "name": "voce_nao_entende_nada_PETE_COM_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_COM_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_COM_PIRATA.midi"
+            },
+            {
+              "name": "voce_nao_entende_nada_PETE_SEM_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_SEM_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_SEM_PIRATA.midi"
+            },
+            {
+              "name": "voce_nao_entende_nada_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_ALTO.midi"
+            },
+            {
+              "name": "voce_nao_entende_nada_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_TENOR.midi"
             }
           ],
           "tags": [
