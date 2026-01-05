@@ -1,22 +1,22 @@
 {
-    "composer": "Filipe Escandurras",
-    "duration": 62,
+    "composer": "Caetano Veloso",
+    "duration": 84,
     "fileVersion": 302,
-    "hasHarmonies": "false",
+    "hasHarmonies": "true",
     "hasLyrics": "false",
-    "keysig": -4,
+    "keysig": -1,
     "lyrics": "",
-    "measures": 16,
+    "measures": 18,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 4,
+    "pages": 6,
     "parts": [
         {
-            "harmonyCount": 0,
+            "harmonyCount": 34,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 34,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -38,7 +38,7 @@
             "program": 65
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 34,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -47,6 +47,28 @@
             "lyricCount": 0,
             "name": "Saxofone Tenor",
             "program": 66
+        },
+        {
+            "harmonyCount": 34,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trompete em B♭",
+            "program": 56
+        },
+        {
+            "harmonyCount": 34,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trombone",
+            "program": 57
         },
         {
             "harmonyCount": 0,
@@ -71,11 +93,11 @@
             "program": 57
         }
     ],
-    "poet": "Axé",
-    "previousSource": "AH, EU JÁ NÁO SEI O QUE FAZER",
+    "poet": "Brazuka",
+    "previousSource": "QUANDO EU CHEGO EM CASA NADA ME CONSOLA",
     "subtitle": "",
-    "tempo": 70,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 70</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
@@ -87,5 +109,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "LEPO LEPO"
+    "title": "VOCÊ NÃO ENTENDE NADA"
 }

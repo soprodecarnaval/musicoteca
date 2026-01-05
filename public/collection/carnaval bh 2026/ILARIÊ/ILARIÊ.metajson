@@ -1,12 +1,12 @@
 {
-    "composer": "Filipe Escandurras",
-    "duration": 62,
+    "composer": "Xuxa",
+    "duration": 96,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -4,
+    "keysig": -2,
     "lyrics": "",
-    "measures": 16,
+    "measures": 52,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
@@ -71,11 +71,11 @@
             "program": 57
         }
     ],
-    "poet": "Axé",
-    "previousSource": "AH, EU JÁ NÁO SEI O QUE FAZER",
+    "poet": "Moments",
+    "previousSource": "TÁ NA HORA, TÁ NA HOR! TÁ NA HORA DE BRINCAR!",
     "subtitle": "",
-    "tempo": 70,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 70</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
@@ -86,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "4/4",
-    "title": "LEPO LEPO"
+    "timesig": "2/4",
+    "title": "ILARIÊ"
 }

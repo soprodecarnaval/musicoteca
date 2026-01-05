@@ -22366,51 +22366,6 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
-          "id": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR",
-          "title": "agua de chuva do mar",
-          "composer": "Beth Carvalho",
-          "sub": "O MEU CORAÇÃO, HOJE TEM PAZ. DECEPÇÃO, FICOU PRA TRÁS ",
-          "mscz": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR.mscz",
-          "metajson": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR.metajson",
-          "midi": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR.midi",
-          "parts": [
-            {
-              "name": "AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_BONE_PIRATA.midi"
-            },
-            {
-              "name": "AGUA_DE_CHUVA_DO_MAR_FLAUTA",
-              "instrument": "flauta",
-              "svg": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_FLAUTA-1.svg",
-              "midi": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_FLAUTA.midi"
-            },
-            {
-              "name": "AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_PETE_PIRATA.midi"
-            },
-            {
-              "name": "AGUA_DE_CHUVA_DO_MAR_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_ALTO.midi"
-            },
-            {
-              "name": "AGUA_DE_CHUVA_DO_MAR_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2026/AGUA_DE_CHUVA_DO_MAR/AGUA_DE_CHUVA_DO_MAR_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Samba"
-          ],
-          "projectTitle": "carnaval bh 2026"
-        },
-        {
           "id": "carnaval bh 2026/AI_AI_AI",
           "title": "ai ai ai",
           "composer": "Vanessa da Mata",
@@ -24274,43 +24229,43 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
-          "id": "carnaval bh 2026/HISTORIA_DE_UMA_GATA",
-          "title": "historia de uma gata",
+          "id": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA",
+          "title": "história de uma gata",
           "composer": "OS SALTIMBANCOS",
           "sub": "MEU MUNDO ERA O APARTAMENTO",
-          "mscz": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA.mscz",
-          "metajson": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA.metajson",
-          "midi": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA.midi",
+          "mscz": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA.mscz",
+          "metajson": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA.metajson",
+          "midi": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA.midi",
           "parts": [
             {
-              "name": "HISTORIA_DE_UMA_GATA_Flauta_Transversal",
+              "name": "HISTÓRIA_DE_UMA_GATA_Flauta_Transversal",
               "instrument": "flauta",
-              "svg": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Flauta_Transversal-1.svg",
-              "midi": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Flauta_Transversal.midi"
+              "svg": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Flauta_Transversal-1.svg",
+              "midi": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Flauta_Transversal.midi"
             },
             {
-              "name": "HISTORIA_DE_UMA_GATA_Saxofone_Alto",
+              "name": "HISTÓRIA_DE_UMA_GATA_Saxofone_Alto",
               "instrument": "sax alto",
-              "svg": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Saxofone_Alto-1.svg",
-              "midi": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Saxofone_Alto.midi"
+              "svg": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Saxofone_Alto.midi"
             },
             {
-              "name": "HISTORIA_DE_UMA_GATA_Saxofone_Tenor",
+              "name": "HISTÓRIA_DE_UMA_GATA_Saxofone_Tenor",
               "instrument": "sax tenor",
-              "svg": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Saxofone_Tenor-1.svg",
-              "midi": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Saxofone_Tenor.midi"
+              "svg": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Saxofone_Tenor.midi"
             },
             {
-              "name": "HISTORIA_DE_UMA_GATA_Trombone",
+              "name": "HISTÓRIA_DE_UMA_GATA_Trombone",
               "instrument": "trombone",
-              "svg": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Trombone-1.svg",
-              "midi": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Trombone.midi"
+              "svg": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Trombone.midi"
             },
             {
-              "name": "HISTORIA_DE_UMA_GATA_Trompete_em_Bb",
+              "name": "HISTÓRIA_DE_UMA_GATA_Trompete_em_Bb",
               "instrument": "trompete",
-              "svg": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Trompete_em_Bb-1.svg",
-              "midi": "carnaval bh 2026/HISTORIA_DE_UMA_GATA/HISTORIA_DE_UMA_GATA_Trompete_em_Bb.midi"
+              "svg": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/HISTÓRIA_DE_UMA_GATA/HISTÓRIA_DE_UMA_GATA_Trompete_em_Bb.midi"
             }
           ],
           "tags": [
@@ -24364,43 +24319,43 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
-          "id": "carnaval bh 2026/ILARIE",
-          "title": "ilarie",
+          "id": "carnaval bh 2026/ILARIÊ",
+          "title": "ilariê",
           "composer": "Xuxa",
           "sub": "TÁ NA HORA, TÁ NA HOR! TÁ NA HORA DE BRINCAR!",
-          "mscz": "carnaval bh 2026/ILARIE/ILARIE.mscz",
-          "metajson": "carnaval bh 2026/ILARIE/ILARIE.metajson",
-          "midi": "carnaval bh 2026/ILARIE/ILARIE.midi",
+          "mscz": "carnaval bh 2026/ILARIÊ/ILARIÊ.mscz",
+          "metajson": "carnaval bh 2026/ILARIÊ/ILARIÊ.metajson",
+          "midi": "carnaval bh 2026/ILARIÊ/ILARIÊ.midi",
           "parts": [
             {
-              "name": "ILARIE_BONE_PIRATA",
+              "name": "ILARIÊ_BONE_PIRATA",
               "instrument": "trombone",
-              "svg": "carnaval bh 2026/ILARIE/ILARIE_BONE_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/ILARIE/ILARIE_BONE_PIRATA.midi"
+              "svg": "carnaval bh 2026/ILARIÊ/ILARIÊ_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/ILARIÊ/ILARIÊ_BONE_PIRATA.midi"
             },
             {
-              "name": "ILARIE_FLAUTA",
+              "name": "ILARIÊ_FLAUTA",
               "instrument": "flauta",
-              "svg": "carnaval bh 2026/ILARIE/ILARIE_FLAUTA-1.svg",
-              "midi": "carnaval bh 2026/ILARIE/ILARIE_FLAUTA.midi"
+              "svg": "carnaval bh 2026/ILARIÊ/ILARIÊ_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/ILARIÊ/ILARIÊ_FLAUTA.midi"
             },
             {
-              "name": "ILARIE_PETE_PIRATA",
+              "name": "ILARIÊ_PETE_PIRATA",
               "instrument": "trompete",
-              "svg": "carnaval bh 2026/ILARIE/ILARIE_PETE_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/ILARIE/ILARIE_PETE_PIRATA.midi"
+              "svg": "carnaval bh 2026/ILARIÊ/ILARIÊ_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/ILARIÊ/ILARIÊ_PETE_PIRATA.midi"
             },
             {
-              "name": "ILARIE_SAX_ALTO",
+              "name": "ILARIÊ_SAX_ALTO",
               "instrument": "sax alto",
-              "svg": "carnaval bh 2026/ILARIE/ILARIE_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2026/ILARIE/ILARIE_SAX_ALTO.midi"
+              "svg": "carnaval bh 2026/ILARIÊ/ILARIÊ_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/ILARIÊ/ILARIÊ_SAX_ALTO.midi"
             },
             {
-              "name": "ILARIE_SAX_TENOR",
+              "name": "ILARIÊ_SAX_TENOR",
               "instrument": "sax tenor",
-              "svg": "carnaval bh 2026/ILARIE/ILARIE_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2026/ILARIE/ILARIE_SAX_TENOR.midi"
+              "svg": "carnaval bh 2026/ILARIÊ/ILARIÊ_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/ILARIÊ/ILARIÊ_SAX_TENOR.midi"
             }
           ],
           "tags": [
@@ -24674,7 +24629,7 @@
             }
           ],
           "tags": [
-            "Pagode"
+            "Axé"
           ],
           "projectTitle": "carnaval bh 2026"
         },
@@ -25675,43 +25630,43 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
-          "id": "carnaval bh 2026/PARABENS_A_BANDA",
-          "title": "parabens a banda",
+          "id": "carnaval bh 2026/PARABÉNS_+_A_BANDA",
+          "title": "parabéns + a banda",
           "composer": "Popular / Chico Buarque",
           "sub": "PARABÉNS PRA VOCÊ",
-          "mscz": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA.mscz",
-          "metajson": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA.metajson",
-          "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA.midi",
+          "mscz": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA.mscz",
+          "metajson": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA.metajson",
+          "midi": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA.midi",
           "parts": [
             {
-              "name": "PARABENS_A_BANDA_Flauta",
+              "name": "PARABÉNS_+_A_BANDA_Flauta",
               "instrument": "flauta",
-              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Flauta-1.svg",
-              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Flauta.midi"
+              "svg": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Flauta-1.svg",
+              "midi": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Flauta.midi"
             },
             {
-              "name": "PARABENS_A_BANDA_Saxofone_Alto",
+              "name": "PARABÉNS_+_A_BANDA_Saxofone_Alto",
               "instrument": "sax alto",
-              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Alto-1.svg",
-              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Alto.midi"
+              "svg": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Saxofone_Alto-1.svg",
+              "midi": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Saxofone_Alto.midi"
             },
             {
-              "name": "PARABENS_A_BANDA_Saxofone_Tenor",
+              "name": "PARABÉNS_+_A_BANDA_Saxofone_Tenor",
               "instrument": "sax tenor",
-              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Tenor-1.svg",
-              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Saxofone_Tenor.midi"
+              "svg": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Saxofone_Tenor-1.svg",
+              "midi": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Saxofone_Tenor.midi"
             },
             {
-              "name": "PARABENS_A_BANDA_Trombone",
+              "name": "PARABÉNS_+_A_BANDA_Trombone",
               "instrument": "trombone",
-              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trombone-1.svg",
-              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trombone.midi"
+              "svg": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Trombone-1.svg",
+              "midi": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Trombone.midi"
             },
             {
-              "name": "PARABENS_A_BANDA_Trompete_em_Bb",
+              "name": "PARABÉNS_+_A_BANDA_Trompete_em_Bb",
               "instrument": "trompete",
-              "svg": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trompete_em_Bb-1.svg",
-              "midi": "carnaval bh 2026/PARABENS_A_BANDA/PARABENS_A_BANDA_Trompete_em_Bb.midi"
+              "svg": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Trompete_em_Bb-1.svg",
+              "midi": "carnaval bh 2026/PARABÉNS_+_A_BANDA/PARABÉNS_+_A_BANDA_Trompete_em_Bb.midi"
             }
           ],
           "tags": [
@@ -25855,43 +25810,43 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
-          "id": "carnaval bh 2026/PERAE",
-          "title": "perae",
+          "id": "carnaval bh 2026/PERAÊ",
+          "title": "peraê",
           "composer": "Banda Beijo",
           "sub": "PERAÊ, PERAÊ, PERAÊ, TA PENSANDO O QUE...",
-          "mscz": "carnaval bh 2026/PERAE/PERAE.mscz",
-          "metajson": "carnaval bh 2026/PERAE/PERAE.metajson",
-          "midi": "carnaval bh 2026/PERAE/PERAE.midi",
+          "mscz": "carnaval bh 2026/PERAÊ/PERAÊ.mscz",
+          "metajson": "carnaval bh 2026/PERAÊ/PERAÊ.metajson",
+          "midi": "carnaval bh 2026/PERAÊ/PERAÊ.midi",
           "parts": [
             {
-              "name": "PERAE_Alto",
+              "name": "PERAÊ_Alto",
               "instrument": "sax alto",
-              "svg": "carnaval bh 2026/PERAE/PERAE_Alto-1.svg",
-              "midi": "carnaval bh 2026/PERAE/PERAE_Alto.midi"
+              "svg": "carnaval bh 2026/PERAÊ/PERAÊ_Alto-1.svg",
+              "midi": "carnaval bh 2026/PERAÊ/PERAÊ_Alto.midi"
             },
             {
-              "name": "PERAE_Bone",
+              "name": "PERAÊ_Bone",
               "instrument": "trombone",
-              "svg": "carnaval bh 2026/PERAE/PERAE_Bone-1.svg",
-              "midi": "carnaval bh 2026/PERAE/PERAE_Bone.midi"
+              "svg": "carnaval bh 2026/PERAÊ/PERAÊ_Bone-1.svg",
+              "midi": "carnaval bh 2026/PERAÊ/PERAÊ_Bone.midi"
             },
             {
-              "name": "PERAE_Flauta",
+              "name": "PERAÊ_Flauta",
               "instrument": "flauta",
-              "svg": "carnaval bh 2026/PERAE/PERAE_Flauta-1.svg",
-              "midi": "carnaval bh 2026/PERAE/PERAE_Flauta.midi"
+              "svg": "carnaval bh 2026/PERAÊ/PERAÊ_Flauta-1.svg",
+              "midi": "carnaval bh 2026/PERAÊ/PERAÊ_Flauta.midi"
             },
             {
-              "name": "PERAE_Pete",
+              "name": "PERAÊ_Pete",
               "instrument": "trompete",
-              "svg": "carnaval bh 2026/PERAE/PERAE_Pete-1.svg",
-              "midi": "carnaval bh 2026/PERAE/PERAE_Pete.midi"
+              "svg": "carnaval bh 2026/PERAÊ/PERAÊ_Pete-1.svg",
+              "midi": "carnaval bh 2026/PERAÊ/PERAÊ_Pete.midi"
             },
             {
-              "name": "PERAE_Tenor",
+              "name": "PERAÊ_Tenor",
               "instrument": "sax tenor",
-              "svg": "carnaval bh 2026/PERAE/PERAE_Tenor-1.svg",
-              "midi": "carnaval bh 2026/PERAE/PERAE_Tenor.midi"
+              "svg": "carnaval bh 2026/PERAÊ/PERAÊ_Tenor-1.svg",
+              "midi": "carnaval bh 2026/PERAÊ/PERAÊ_Tenor.midi"
             }
           ],
           "tags": [
@@ -27037,51 +26992,6 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
-          "id": "carnaval bh 2026/VARIAS_QUEIXAS",
-          "title": "varias queixas",
-          "composer": "Gilsons",
-          "sub": "VÁRIAS QUEIXAS DE VOCÊ, POR QUE FEZ ISSO COMIGO?",
-          "mscz": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS.mscz",
-          "metajson": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS.metajson",
-          "midi": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS.midi",
-          "parts": [
-            {
-              "name": "VARIAS_QUEIXAS_BONE",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_BONE-1.svg",
-              "midi": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_BONE.midi"
-            },
-            {
-              "name": "VARIAS_QUEIXAS_FLAUTA",
-              "instrument": "flauta",
-              "svg": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_FLAUTA-1.svg",
-              "midi": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_FLAUTA.midi"
-            },
-            {
-              "name": "VARIAS_QUEIXAS_PETE",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_PETE-1.svg",
-              "midi": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_PETE.midi"
-            },
-            {
-              "name": "VARIAS_QUEIXAS_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_ALTO.midi"
-            },
-            {
-              "name": "VARIAS_QUEIXAS_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2026/VARIAS_QUEIXAS/VARIAS_QUEIXAS_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Odara"
-          ],
-          "projectTitle": "carnaval bh 2026"
-        },
-        {
           "id": "carnaval bh 2026/VASSOURINHAS",
           "title": "vassourinhas",
           "composer": "Matias da Rocha e Joana B. Ramos",
@@ -27262,6 +27172,51 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
+          "id": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA",
+          "title": "você não entende nada",
+          "composer": "Caetano Veloso",
+          "sub": "QUANDO EU CHEGO EM CASA NADA ME CONSOLA",
+          "mscz": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA.mscz",
+          "metajson": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA.metajson",
+          "midi": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA.midi",
+          "parts": [
+            {
+              "name": "VOCÊ_NÃO_ENTENDE_NADA_BONE_COM_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_BONE_COM_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_BONE_COM_PIRATA.midi"
+            },
+            {
+              "name": "VOCÊ_NÃO_ENTENDE_NADA_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_FLAUTA.midi"
+            },
+            {
+              "name": "VOCÊ_NÃO_ENTENDE_NADA_PETE_COM_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_PETE_COM_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_PETE_COM_PIRATA.midi"
+            },
+            {
+              "name": "VOCÊ_NÃO_ENTENDE_NADA_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_SAX_ALTO.midi"
+            },
+            {
+              "name": "VOCÊ_NÃO_ENTENDE_NADA_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/VOCÊ_NÃO_ENTENDE_NADA/VOCÊ_NÃO_ENTENDE_NADA_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Brazuka"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
           "id": "carnaval bh 2026/VOLARE",
           "title": "volare",
           "composer": "Gypsy Kings",
@@ -27348,6 +27303,51 @@
           ],
           "tags": [
             "Samba"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/VÁRIAS_QUEIXAS",
+          "title": "várias queixas",
+          "composer": "Gilsons",
+          "sub": "VÁRIAS QUEIXAS DE VOCÊ, POR QUE FEZ ISSO COMIGO?",
+          "mscz": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS.mscz",
+          "metajson": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS.metajson",
+          "midi": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS.midi",
+          "parts": [
+            {
+              "name": "VÁRIAS_QUEIXAS_BONE",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_BONE-1.svg",
+              "midi": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_BONE.midi"
+            },
+            {
+              "name": "VÁRIAS_QUEIXAS_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_FLAUTA.midi"
+            },
+            {
+              "name": "VÁRIAS_QUEIXAS_PETE",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_PETE-1.svg",
+              "midi": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_PETE.midi"
+            },
+            {
+              "name": "VÁRIAS_QUEIXAS_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_SAX_ALTO.midi"
+            },
+            {
+              "name": "VÁRIAS_QUEIXAS_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/VÁRIAS_QUEIXAS/VÁRIAS_QUEIXAS_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Odara"
           ],
           "projectTitle": "carnaval bh 2026"
         },
@@ -27487,63 +27487,6 @@
           "projectTitle": "carnaval bh 2026"
         },
         {
-          "id": "carnaval bh 2026/voce_nao_entende_nada",
-          "title": "voce nao entende nada",
-          "composer": "Caetano Veloso",
-          "sub": "QUANDO EU CHEGO EM CASA NADA ME CONSOLA",
-          "mscz": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada.mscz",
-          "metajson": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada.metajson",
-          "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada.midi",
-          "parts": [
-            {
-              "name": "voce_nao_entende_nada_BONE_COM_PIRATA",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_COM_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_COM_PIRATA.midi"
-            },
-            {
-              "name": "voce_nao_entende_nada_BONE_SEM_PIRATA",
-              "instrument": "trombone",
-              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_SEM_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_BONE_SEM_PIRATA.midi"
-            },
-            {
-              "name": "voce_nao_entende_nada_FLAUTA",
-              "instrument": "flauta",
-              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_FLAUTA-1.svg",
-              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_FLAUTA.midi"
-            },
-            {
-              "name": "voce_nao_entende_nada_PETE_COM_PIRATA",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_COM_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_COM_PIRATA.midi"
-            },
-            {
-              "name": "voce_nao_entende_nada_PETE_SEM_PIRATA",
-              "instrument": "trompete",
-              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_SEM_PIRATA-1.svg",
-              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_PETE_SEM_PIRATA.midi"
-            },
-            {
-              "name": "voce_nao_entende_nada_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_ALTO-1.svg",
-              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_ALTO.midi"
-            },
-            {
-              "name": "voce_nao_entende_nada_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_TENOR-1.svg",
-              "midi": "carnaval bh 2026/voce_nao_entende_nada/voce_nao_entende_nada_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Brazuka"
-          ],
-          "projectTitle": "carnaval bh 2026"
-        },
-        {
           "id": "carnaval bh 2026/zé pereira",
           "title": "zé pereira",
           "composer": "Domínio Público",
@@ -27585,6 +27528,51 @@
           ],
           "tags": [
             "Marchinha"
+          ],
+          "projectTitle": "carnaval bh 2026"
+        },
+        {
+          "id": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR",
+          "title": "água de chuva no mar",
+          "composer": "Beth Carvalho",
+          "sub": "O MEU CORAÇÃO, HOJE TEM PAZ. DECEPÇÃO, FICOU PRA TRÁS ",
+          "mscz": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR.mscz",
+          "metajson": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR.metajson",
+          "midi": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR.midi",
+          "parts": [
+            {
+              "name": "ÁGUA_DE_CHUVA_NO_MAR_BONE_PIRATA",
+              "instrument": "trombone",
+              "svg": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_BONE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_BONE_PIRATA.midi"
+            },
+            {
+              "name": "ÁGUA_DE_CHUVA_NO_MAR_FLAUTA",
+              "instrument": "flauta",
+              "svg": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_FLAUTA-1.svg",
+              "midi": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_FLAUTA.midi"
+            },
+            {
+              "name": "ÁGUA_DE_CHUVA_NO_MAR_PETE_PIRATA",
+              "instrument": "trompete",
+              "svg": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_PETE_PIRATA-1.svg",
+              "midi": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_PETE_PIRATA.midi"
+            },
+            {
+              "name": "ÁGUA_DE_CHUVA_NO_MAR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_SAX_ALTO-1.svg",
+              "midi": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_SAX_ALTO.midi"
+            },
+            {
+              "name": "ÁGUA_DE_CHUVA_NO_MAR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_SAX_TENOR-1.svg",
+              "midi": "carnaval bh 2026/ÁGUA_DE_CHUVA_NO_MAR/ÁGUA_DE_CHUVA_NO_MAR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            "Samba"
           ],
           "projectTitle": "carnaval bh 2026"
         },
