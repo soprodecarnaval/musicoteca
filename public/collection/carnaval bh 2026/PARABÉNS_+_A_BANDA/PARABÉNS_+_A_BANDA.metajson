@@ -1,44 +1,44 @@
 {
-    "composer": "Caetano",
-    "duration": 84,
+    "composer": "Popular / Chico Buarque",
+    "duration": 80,
     "fileVersion": 302,
-    "hasHarmonies": "true",
+    "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -1,
+    "keysig": -2,
     "lyrics": "",
-    "measures": 18,
+    "measures": 51,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 6,
+    "pages": 4,
     "parts": [
         {
-            "harmonyCount": 34,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Transversal",
+            "name": "Flauta",
             "program": 73
         },
         {
-            "harmonyCount": 34,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Saxofone Contralto",
             "program": 65
         },
         {
-            "harmonyCount": 34,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,28 +49,6 @@
             "program": 66
         },
         {
-            "harmonyCount": 34,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet.bflat",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Trompete em B♭",
-            "program": 56
-        },
-        {
-            "harmonyCount": 34,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Trombone",
-            "program": 57
-        },
-        {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
@@ -78,7 +56,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete em B♭",
+            "name": "Trompete em Bb",
             "program": 56
         },
         {
@@ -93,8 +71,8 @@
             "program": 57
         }
     ],
-    "poet": "",
-    "previousSource": "",
+    "poet": "Moments",
+    "previousSource": "PARABÉNS PRA VOCÊ",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -108,6 +86,6 @@
         "titles": [
         ]
     },
-    "timesig": "4/4",
-    "title": "voce_nao_entende_nada"
+    "timesig": "2/4",
+    "title": "Parabéns + A Banda"
 }

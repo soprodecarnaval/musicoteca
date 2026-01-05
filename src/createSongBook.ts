@@ -393,8 +393,8 @@ const addIndexPage = (
       itemCount++;
       return cursorStartPosition;
     }
-    currentColumn = Math.ceil((itemCount + 1) / (maxLinesPerColumn + 1)) - 1; //Math.max(Math.ceil((itemCount+1)/maxLinesPerColumn),1)
-    currentLine = itemCount % (maxLinesPerColumn + 1); //Math.max((itemCount+1)%(maxLinesPerColumn+1),1)
+    currentColumn = Math.ceil((itemCount + 1) / (maxLinesPerColumn + 1)) - 1;
+    currentLine = itemCount % (maxLinesPerColumn + 1);
     itemCount++;
     return [
       cursorStartPosition[0] + currentColumn * columnWidth + 1,
@@ -402,7 +402,7 @@ const addIndexPage = (
     ];
   };
   let [currentX, currentY] = nextCursorPosition();
-  let reorderedSongs: Score[] = [];
+  const reorderedSongs: Score[] = [];
 
   doc.addPage();
   pageCount++;
@@ -424,14 +424,14 @@ const addIndexPage = (
         pageCount += 2;
       }
 
-      // gambiarra do carnaval 2025, força a quebra de coluna no índice para frevo e odara
+      // gambiarra do carnaval 2026, força a quebra de coluna no índice
       if (
-        title.toLocaleLowerCase() == "frevo" ||
-        title.toLocaleLowerCase() == "pagode"
+        title.toLocaleLowerCase() == "pagode" ||
+        title.toLocaleLowerCase() == "moments"
       ) {
         itemCount = 2 * (maxLinesPerColumn + 1);
         [currentX, currentY] = nextCursorPosition();
-      } else if (title.toLocaleLowerCase() == "moments") {
+      } else if (title.toLocaleLowerCase() == "ebb") {
         itemCount = maxLinesPerColumn + 1;
         [currentX, currentY] = nextCursorPosition();
       }

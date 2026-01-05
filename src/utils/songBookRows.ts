@@ -35,7 +35,7 @@ export const deleteRow = (rows: SongBookItem[], idx: number) => {
 export const sortSongsWithinSections = (
   rows: SongBookItem[],
   column: SortColumn,
-  direction: SortDirection
+  direction: SortDirection,
 ) => {
   // sort slices of songs delimited by sections
   const sorted: SongBookItem[] = [];
@@ -44,7 +44,7 @@ export const sortSongsWithinSections = (
     if (isSongBookSection(row)) {
       if (slice.length > 0) {
         const sortedSongRows = sortByColumn(slice, column, direction).map(
-          songBookScore
+          songBookScore,
         );
         sorted.push(...sortedSongRows);
       }
@@ -57,7 +57,7 @@ export const sortSongsWithinSections = (
   // sort last slice
   if (slice.length > 0) {
     const sortedSongRows = sortByColumn(slice, column, direction).map(
-      songBookScore
+      songBookScore,
     );
     sorted.push(...sortedSongRows);
   }
@@ -104,13 +104,20 @@ export const generateCarnivalSections = (rows: SongBookItem[]) => {
 
   // pick only carnival sections, keeping their order
   // ignore sections not in the order
+  const allSongs: Map<string, Score> = new Map();
+  for (const row of rows) {
+    if (row.type == "score") {
+      allSongs.set(row.score.title, row.score);
+    }
+  }
+
   const newRows: SongBookItem[] = [];
   for (const section of carnivalSectionOrder) {
     // find section index
     const idx = rows.findIndex(
       (r) =>
         isSongBookSection(r) &&
-        normalizeSectionName(r.title) === normalizeSectionName(section)
+        normalizeSectionName(r.title) === normalizeSectionName(section),
     );
     if (idx === -1) {
       continue;
@@ -126,10 +133,14 @@ export const generateCarnivalSections = (rows: SongBookItem[]) => {
         break;
       }
       slice.push(row.score);
+      allSongs.delete(row.score.title);
     }
     // push sorted slice
     const sorted = sortByColumn(slice, "title", "asc").map(songBookScore);
     newRows.push(...sorted);
+  }
+  for (const rest of allSongs.values()) {
+    console.log(rest.title, rest.tags);
   }
   return newRows;
 };

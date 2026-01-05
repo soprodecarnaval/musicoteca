@@ -1,52 +1,74 @@
 {
-    "composer": "Beth Carvalho",
-    "duration": 100,
+    "composer": "Caetano Veloso",
+    "duration": 84,
     "fileVersion": 302,
-    "hasHarmonies": "false",
+    "hasHarmonies": "true",
     "hasLyrics": "false",
-    "keysig": -4,
+    "keysig": -1,
     "lyrics": "",
-    "measures": 43,
+    "measures": 18,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 297,
         "twosided": "true",
-        "width": 297
+        "width": 210
     },
-    "pages": 5,
+    "pages": 6,
     "parts": [
         {
-            "harmonyCount": 0,
+            "harmonyCount": 34,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "",
+            "name": "Flauta Transversal",
             "program": 73
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 34,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "",
+            "name": "Saxofone Alto",
             "program": 65
         },
         {
-            "harmonyCount": 0,
+            "harmonyCount": 34,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "",
+            "name": "Saxofone Tenor",
             "program": 66
+        },
+        {
+            "harmonyCount": 34,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trompete em B♭",
+            "program": 56
+        },
+        {
+            "harmonyCount": 34,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trombone",
+            "program": 57
         },
         {
             "harmonyCount": 0,
@@ -56,7 +78,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "",
+            "name": "Trompete em B♭",
             "program": 56
         },
         {
@@ -67,12 +89,12 @@
             "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "",
+            "name": "Trombone",
             "program": 57
         }
     ],
-    "poet": "Samba",
-    "previousSource": "O MEU CORAÇÃO, HOJE TEM PAZ. DECEPÇÃO, FICOU PRA TRÁS ",
+    "poet": "Brazuka",
+    "previousSource": "QUANDO EU CHEGO EM CASA NADA ME CONSOLA",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -86,6 +108,6 @@
         "titles": [
         ]
     },
-    "timesig": "2/4",
-    "title": "AGUA DE CHUVA NO MAR"
+    "timesig": "4/4",
+    "title": "VOCÊ NÃO ENTENDE NADA"
 }

@@ -1,5 +1,5 @@
 {
-    "composer": "Compositor / arranjador",
+    "composer": "Araketu",
     "duration": 163,
     "fileVersion": 302,
     "hasHarmonies": "false",
@@ -71,8 +71,8 @@
             "program": 57
         }
     ],
-    "poet": "",
-    "previousSource": "",
+    "poet": "Axé",
+    "previousSource": "O FOGO É FOGO, ESQUENTA",
     "subtitle": "",
     "tempo": 140,
     "tempoText": "<sym>metNoteQuarterUp</sym> = 140",
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "PIPOCA"
+    "title": "Pipoca"
 }

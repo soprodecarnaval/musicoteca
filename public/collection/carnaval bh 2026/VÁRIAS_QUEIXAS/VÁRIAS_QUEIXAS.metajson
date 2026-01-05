@@ -1,12 +1,12 @@
 {
-    "composer": "OS SALTIMBANCOS",
-    "duration": 80,
+    "composer": "Gilsons",
+    "duration": 129,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -4,
+    "keysig": -2,
     "lyrics": "",
-    "measures": 26,
+    "measures": 25,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
@@ -53,10 +53,10 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet.bflat",
+            "instrumentId": "brass.cornet.soprano",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete em B♭",
+            "name": "B♭ Trumpet",
             "program": 56
         },
         {
@@ -71,11 +71,11 @@
             "program": 57
         }
     ],
-    "poet": "Moments",
-    "previousSource": "MEU MUNDO ERA O APARTAMENTO",
+    "poet": "Odara",
+    "previousSource": "VÁRIAS QUEIXAS DE VOCÊ, POR QUE FEZ ISSO COMIGO?",
     "subtitle": "",
-    "tempo": 0,
-    "tempoText": "",
+    "tempo": 110,
+    "tempoText": "<sym>metNoteQuarterUp</sym> = 110",
     "textFramesData": {
         "composers": [
         ],
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "História de uma gata"
+    "title": "VÁRIAS QUEIXAS"
 }

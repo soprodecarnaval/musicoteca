@@ -1,19 +1,19 @@
 {
-    "composer": "Popular / Chico Buarque",
-    "duration": 80,
+    "composer": "Beth Carvalho",
+    "duration": 100,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -2,
+    "keysig": -4,
     "lyrics": "",
-    "measures": 51,
+    "measures": 43,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
+        "height": 210,
         "twosided": "true",
-        "width": 210
+        "width": 297
     },
-    "pages": 4,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
@@ -23,7 +23,7 @@
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta",
+            "name": "",
             "program": 73
         },
         {
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Contralto",
+            "name": "",
             "program": 65
         },
         {
@@ -45,7 +45,7 @@
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
+            "name": "",
             "program": 66
         },
         {
@@ -56,7 +56,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete em Bb",
+            "name": "",
             "program": 56
         },
         {
@@ -67,12 +67,12 @@
             "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "",
             "program": 57
         }
     ],
-    "poet": "Moments",
-    "previousSource": "PARABÉNS PRA VOCÊ",
+    "poet": "Samba",
+    "previousSource": "O MEU CORAÇÃO, HOJE TEM PAZ. DECEPÇÃO, FICOU PRA TRÁS ",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "2/4",
-    "title": "Parabéns / A Banda"
+    "title": "ÁGUA DE CHUVA NO MAR"
 }

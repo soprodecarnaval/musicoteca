@@ -2,17 +2,17 @@ import { Score } from "../../types";
 
 export const carnivalSectionOrder = [
   "marchinha",
+  "beagá",
   "axé",
+  "brega",
+  "frevo",
   "pagode",
   "samba",
-  "brega",
   "brazuka",
-  "frevo",
   "odara",
   "ebb",
   "funk",
   "internacional",
-  "beagá",
   "moments",
   // seções antigas (pré-2025), não estão nas mesmas ordens de antes
   "marcha rancho",
@@ -24,7 +24,6 @@ export const carnivalSectionOrder = [
   "technohell",
 ];
 // carnaval agora é alfabético
-carnivalSectionOrder.sort();
 
 export type SortColumn = "title" | "projectTitle" | "style" | "carnivalStyle";
 
@@ -33,7 +32,7 @@ export type SortDirection = "asc" | "desc";
 export const sortByColumn = (
   arrayToSort: Score[],
   columnToSort: SortColumn,
-  directionToSort: SortDirection
+  directionToSort: SortDirection,
 ): Score[] => {
   let sorted: Score[] = arrayToSort.sort((a: Score, b: Score) => {
     if (columnToSort === "title") {
