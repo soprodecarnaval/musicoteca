@@ -1,5 +1,5 @@
 {
-    "composer": "Caetano",
+    "composer": "Caetano Veloso",
     "duration": 84,
     "fileVersion": 302,
     "hasHarmonies": "true",
@@ -93,8 +93,8 @@
             "program": 57
         }
     ],
-    "poet": "",
-    "previousSource": "",
+    "poet": "Brazuka",
+    "previousSource": "QUANDO EU CHEGO EM CASA NADA ME CONSOLA",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
