@@ -5,7 +5,6 @@ import { Score } from "../../types";
 import collection from "../collection";
 
 import Fuse from "fuse.js";
-import dropDiacritics from "../utils/dropDiacritics";
 
 interface SearchBarProps {
   handleResults: (results: Score[]) => void;
@@ -18,16 +17,6 @@ const allScores = collection.projects.flatMap((project) => {
 const searchKeys = ["title", "composer", "tags", "projectTitle"];
 
 const scoreSearchIndex = Fuse.createIndex(searchKeys, allScores);
-Fuse.config.getFn = (obj, path) => {
-  var value = Fuse.config.getFn(obj, path);
-  if (Array.isArray(value)) {
-    return value.map((el) => dropDiacritics(el));
-  } else if (typeof value === "string") {
-    return dropDiacritics(value);
-  }
-  return value;
-};
-
 const fuse = new Fuse(
   allScores,
   {
@@ -36,8 +25,10 @@ const fuse = new Fuse(
     shouldSort: true,
     threshold: 0.1,
     useExtendedSearch: true,
+    ignoreDiacritics: true,
+    ignoreLocation: true,
   },
-  scoreSearchIndex
+  scoreSearchIndex,
 );
 
 const SearchBar = ({ handleResults }: SearchBarProps) => {
