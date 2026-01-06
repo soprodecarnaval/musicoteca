@@ -1,19 +1,19 @@
 {
-    "composer": "Grelo",
-    "duration": 76,
+    "composer": "Banda Beijo",
+    "duration": 150,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -2,
+    "keysig": -1,
     "lyrics": "",
-    "measures": 18,
+    "measures": 35,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 4,
+    "pages": 5,
     "parts": [
         {
             "harmonyCount": 0,
@@ -23,7 +23,7 @@
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Transversal",
+            "name": "Flauta",
             "program": 73
         },
         {
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Alto",
             "program": 65
         },
         {
@@ -45,7 +45,7 @@
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
+            "name": "Tenor",
             "program": 66
         },
         {
@@ -56,7 +56,7 @@
             "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete em Bb 1",
+            "name": "Pete",
             "program": 56
         },
         {
@@ -67,15 +67,15 @@
             "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone 4",
+            "name": "Bone",
             "program": 57
         }
     ],
-    "poet": "Odara",
-    "previousSource": "LAVEI MEU ROSTO NAS ÁGUAS SAGRADAS DA PIA",
+    "poet": "Axé",
+    "previousSource": "PERAÊ, PERAÊ, PERAÊ, TA PENSANDO O QUE...",
     "subtitle": "",
-    "tempo": 0,
-    "tempoText": "",
+    "tempo": 144,
+    "tempoText": "<font size=\"12\"></font><b>Allegro</b>",
     "textFramesData": {
         "composers": [
         ],
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "Só Fé"
+    "title": "PERAÊ"
 }

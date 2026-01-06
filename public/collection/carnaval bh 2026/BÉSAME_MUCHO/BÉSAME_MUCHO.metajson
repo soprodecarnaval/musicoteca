@@ -1,19 +1,19 @@
 {
-    "composer": "Grelo",
-    "duration": 76,
+    "composer": "Consuelito Velázquez",
+    "duration": 136,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": -2,
+    "keysig": 0,
     "lyrics": "",
-    "measures": 18,
+    "measures": 28,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
-        "twosided": "true",
+        "twosided": "false",
         "width": 210
     },
-    "pages": 4,
+    "pages": 9,
     "parts": [
         {
             "harmonyCount": 0,
@@ -23,7 +23,7 @@
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Transversal",
+            "name": "C clavG",
             "program": 73
         },
         {
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Eb",
             "program": 65
         },
         {
@@ -42,21 +42,10 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.reed.saxophone.tenor",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
-            "program": 66
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet.bflat",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Trompete em Bb 1",
+            "name": "Bb - Pirata",
             "program": 56
         },
         {
@@ -64,15 +53,26 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone 4",
+            "name": "Bb",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone.tenor",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "C clavF",
             "program": 57
         }
     ],
-    "poet": "Odara",
-    "previousSource": "LAVEI MEU ROSTO NAS ÁGUAS SAGRADAS DA PIA",
+    "poet": "Moments",
+    "previousSource": "BÉSAME, BÉSAME MUCHO.  COMO SI FUERA ESTA NOCHE LA ÚLTIMA VEZ",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "Só Fé"
+    "title": "Bésame Mucho"
 }
