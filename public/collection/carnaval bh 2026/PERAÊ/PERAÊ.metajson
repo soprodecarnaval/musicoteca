@@ -1,6 +1,6 @@
 {
     "composer": "Banda Beijo",
-    "duration": 150,
+    "duration": 180,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "Axé",
     "previousSource": "PERAÊ, PERAÊ, PERAÊ, TA PENSANDO O QUE...",
     "subtitle": "",
-    "tempo": 144,
-    "tempoText": "<font size=\"12\"></font><b>Allegro</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
