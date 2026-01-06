@@ -70,28 +70,28 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   if (carnivalMode) {
     doc.addPage();
     pageNumber++;
-    promises.push(drawImage(doc, "assets/anti_assedio_2025_1.png", pageNumber));
+    promises.push(drawImage(doc, "assets/anti_assedio_2026_1.png", pageNumber));
 
     doc.addPage();
     pageNumber++;
 
     doc.addPage();
     pageNumber++;
-    promises.push(drawImage(doc, "assets/anti_assedio_2025_2.png", pageNumber));
+    promises.push(drawImage(doc, "assets/anti_assedio_2026_2.png", pageNumber));
 
     doc.addPage();
     pageNumber++;
 
     doc.addPage();
     pageNumber++;
-    promises.push(drawImage(doc, "assets/anti_assedio_2025_3.png", pageNumber));
+    promises.push(drawImage(doc, "assets/anti_assedio_2026_3.png", pageNumber));
 
     doc.addPage();
     pageNumber++;
 
     doc.addPage();
     pageNumber++;
-    promises.push(drawImage(doc, "assets/anti_assedio_2025_4.png", pageNumber));
+    promises.push(drawImage(doc, "assets/anti_assedio_2026_4.png", pageNumber));
 
     // doc.addPage();
     // pageNumber++;
@@ -244,32 +244,53 @@ const addSongPage = async (
     return [0, promises];
   }
 
+  const hasSponsor = true;
+
   if (backSheetPageNumber) {
-    const fontSize = 9 * cm2pt;
+    const fontSize = hasSponsor ? 7 * cm2pt : 9 * cm2pt;
     const titleSpacing = 6 * cm2pt;
     const numberSpacing = 0;
 
     doc.addPage();
     currentPage++;
 
-    // await drawImage(doc, `assets/patrocinio-2025.png`, currentPage);
+    if (hasSponsor) {
+      await drawImage(doc, `assets/patrocinio-2026.png`, currentPage);
 
-    doc
-      .font("Roboto-Bold")
-      .fontSize(fontSize)
-      .text(songPageIndex, 1 * cm2pt, 0.5 * cm2pt + numberSpacing, {
-        align: "center",
-        width: 16 * cm2pt,
-        height: fontSize,
-      }); // Número do verso
-    doc
-      .font("Roboto-Medium")
-      .fontSize(1 * cm2pt)
-      .text(song.title.toUpperCase(), 1 * cm2pt, 4 * cm2pt + titleSpacing, {
-        align: "center",
-        width: 16 * cm2pt,
-        height: 9 * cm2pt,
-      }); // Título do verso
+      doc
+        .font("Roboto-Bold")
+        .fontSize(fontSize)
+        .text(songPageIndex, 4 * cm2pt, 1.5 * cm2pt + numberSpacing, {
+          align: "center",
+          width: 15 * cm2pt,
+          height: fontSize,
+        }); // Número do verso
+      doc
+        .font("Roboto-Medium")
+        .fontSize(1 * cm2pt)
+        .text(song.title.toUpperCase(), 8 * cm2pt, 3 * cm2pt + titleSpacing, {
+          align: "center",
+          width: 8 * cm2pt,
+          height: 3 * cm2pt,
+        }); // Título do verso
+    } else {
+      doc
+        .font("Roboto-Bold")
+        .fontSize(fontSize)
+        .text(songPageIndex, 1 * cm2pt, 0.5 * cm2pt + numberSpacing, {
+          align: "center",
+          width: 16 * cm2pt,
+          height: fontSize,
+        }); // Número do verso
+      doc
+        .font("Roboto-Medium")
+        .fontSize(1 * cm2pt)
+        .text(song.title.toUpperCase(), 1 * cm2pt, 4 * cm2pt + titleSpacing, {
+          align: "center",
+          width: 16 * cm2pt,
+          height: 9 * cm2pt,
+        }); // Título do verso
+    }
   }
 
   doc.addPage();
