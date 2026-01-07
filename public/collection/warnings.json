@@ -1,0 +1,23 @@
+[
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "LILÁS_Trompete_em_Bb-2",
+      "entryPath": "/tmp/collection/carnaval bh 2026/LILÁS/LILÁS_Trompete_em_Bb-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "VAPOR_BARATO_Trombone-2",
+      "entryPath": "/tmp/collection/carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trombone-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "VAPOR_BARATO_Trompete_em_Bb-2",
+      "entryPath": "/tmp/collection/carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trompete_em_Bb-2.svg"
+    }
+  }
+]
