@@ -33489,6 +33489,51 @@
           "projectTitle": "garota 2026"
         },
         {
+          "id": "garota 2026/DON'T_LOOK_BACK_IN_ANGER",
+          "title": "don't look back in anger",
+          "composer": "OASIS",
+          "sub": "SLIP INSIDE THE EYE OF YOUR MIND",
+          "mscz": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER.mscz",
+          "metajson": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER.metajson",
+          "midi": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER.midi",
+          "parts": [
+            {
+              "name": "DON'T_LOOK_BACK_IN_ANGER_Flauta_Transversal",
+              "instrument": "flauta",
+              "svg": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Flauta_Transversal-1.svg",
+              "midi": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Flauta_Transversal.midi"
+            },
+            {
+              "name": "DON'T_LOOK_BACK_IN_ANGER_Saxofone_Alto_1",
+              "instrument": "sax alto",
+              "svg": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Saxofone_Alto_1-1.svg",
+              "midi": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Saxofone_Alto_1.midi"
+            },
+            {
+              "name": "DON'T_LOOK_BACK_IN_ANGER_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Saxofone_Tenor-1.svg",
+              "midi": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "DON'T_LOOK_BACK_IN_ANGER_Trombone",
+              "instrument": "trombone",
+              "svg": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Trombone-1.svg",
+              "midi": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Trombone.midi"
+            },
+            {
+              "name": "DON'T_LOOK_BACK_IN_ANGER_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Trompete_em_Bb-1.svg",
+              "midi": "garota 2026/DON'T_LOOK_BACK_IN_ANGER/DON'T_LOOK_BACK_IN_ANGER_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "garota 2026"
+        },
+        {
           "id": "garota 2026/EMORIÔ",
           "title": "emoriô",
           "composer": "João Donato",
@@ -33626,8 +33671,8 @@
         {
           "id": "garota 2026/HAWAII_FIVE-O",
           "title": "hawaii five-o",
-          "composer": "",
-          "sub": "https://musescore.com/user/41778048/scores/8220641",
+          "composer": "THE VENTURES",
+          "sub": "",
           "mscz": "garota 2026/HAWAII_FIVE-O/HAWAII_FIVE-O.mscz",
           "metajson": "garota 2026/HAWAII_FIVE-O/HAWAII_FIVE-O.metajson",
           "midi": "garota 2026/HAWAII_FIVE-O/HAWAII_FIVE-O.midi",
@@ -33671,8 +33716,8 @@
         {
           "id": "garota 2026/HOTEL_CALIFORNIA",
           "title": "hotel california",
-          "composer": "",
-          "sub": "http://musescore.com/user/1842796/scores/7696946",
+          "composer": "EAGLES",
+          "sub": "ON A DARK DESERT HIGHWAY",
           "mscz": "garota 2026/HOTEL_CALIFORNIA/HOTEL_CALIFORNIA.mscz",
           "metajson": "garota 2026/HOTEL_CALIFORNIA/HOTEL_CALIFORNIA.metajson",
           "midi": "garota 2026/HOTEL_CALIFORNIA/HOTEL_CALIFORNIA.midi",

@@ -28,63 +28,6 @@
     }
   },
   {
-    "message": "Invalid song",
-    "meta": {
-      "errors": [
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "composer"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "sub"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "mscz"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "metajson"
-          ],
-          "message": "Required"
-        },
-        {
-          "code": "invalid_type",
-          "expected": "string",
-          "received": "undefined",
-          "path": [
-            "midi"
-          ],
-          "message": "Required"
-        }
-      ],
-      "songDirectory": {
-        "absPath": "/tmp/collection/garota 2026/DON'T_BACK_IN_ANGER",
-        "songTitle": "DON'T_BACK_IN_ANGER",
-        "projectTitle": "garota 2026"
-      }
-    }
-  },
-  {
     "message": "Found a non-first page svg asset, ignoring it",
     "meta": {
       "name": "HOTEL_CALIFORNIA_Trombone-2",

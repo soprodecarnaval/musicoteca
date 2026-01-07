@@ -1,31 +1,20 @@
 {
-    "composer": "THE VENTURES",
-    "duration": 174,
+    "composer": "OASIS",
+    "duration": 171,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": -3,
     "lyrics": "",
-    "measures": 37,
+    "measures": 32,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 297,
         "twosided": "true",
-        "width": 297
+        "width": 210
     },
-    "pages": 9,
+    "pages": 4,
     "parts": [
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "true",
-            "hasPitchedStaff": "false",
-            "hasTabStaff": "false",
-            "instrumentId": "keyboard.piano",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Drumset",
-            "program": 0
-        },
         {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
@@ -45,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Saxofone Alto 1",
             "program": 65
         },
         {
@@ -83,10 +72,10 @@
         }
     ],
     "poet": "",
-    "previousSource": "",
+    "previousSource": "SLIP INSIDE THE EYE OF YOUR MIND",
     "subtitle": "",
-    "tempo": 0,
-    "tempoText": "",
+    "tempo": 80,
+    "tempoText": "<sym>metNoteQuarterUp</sym> = 80",
     "textFramesData": {
         "composers": [
         ],
@@ -98,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "HAWAII FIVE-O"
+    "title": "DON'T LOOK BACK IN ANGER"
 }
