@@ -1,6 +1,6 @@
 {
     "composer": "Jards Macalé e Waly Salomão",
-    "duration": 123,
+    "duration": 96,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "Brazuka",
     "previousSource": "SIM, EU ESTOU TÃO CANSADO",
     "subtitle": "",
-    "tempo": 94,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 94</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
@@ -87,5 +87,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "VAPOR_BARATO"
+    "title": "VAPOR BARATO"
 }

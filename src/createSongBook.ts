@@ -271,7 +271,7 @@ const addSongPage = async (
         .text(song.title.toUpperCase(), 8 * cm2pt, 3 * cm2pt + titleSpacing, {
           align: "center",
           width: 8 * cm2pt,
-          height: 3 * cm2pt,
+          height: 5 * cm2pt,
         }); // Título do verso
     } else {
       doc

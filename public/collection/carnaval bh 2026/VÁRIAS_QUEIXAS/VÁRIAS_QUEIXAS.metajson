@@ -1,6 +1,6 @@
 {
     "composer": "Gilsons",
-    "duration": 129,
+    "duration": 118,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -74,8 +74,8 @@
     "poet": "Odara",
     "previousSource": "VÁRIAS QUEIXAS DE VOCÊ, POR QUE FEZ ISSO COMIGO?",
     "subtitle": "",
-    "tempo": 110,
-    "tempoText": "<sym>metNoteQuarterUp</sym> = 110",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],
