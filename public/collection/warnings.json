@@ -1,0 +1,94 @@
+[
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "ARERÊ_Ê_Ê_FLAUTA-2",
+      "entryPath": "/tmp/collection/garota 2026/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_FLAUTA-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "ARERÊ_Ê_Ê_SAX_ALTO-2",
+      "entryPath": "/tmp/collection/garota 2026/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_SAX_ALTO-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "ARERÊ_Ê_Ê_SAX_TENOR-2",
+      "entryPath": "/tmp/collection/garota 2026/ARERÊ_Ê_Ê/ARERÊ_Ê_Ê_SAX_TENOR-2.svg"
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "A_LUZ_DE_TIÊTA_FLAUTA-2",
+      "entryPath": "/tmp/collection/garota 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_FLAUTA-2.svg"
+    }
+  },
+  {
+    "message": "Invalid song",
+    "meta": {
+      "errors": [
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "composer"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "sub"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "mscz"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "metajson"
+          ],
+          "message": "Required"
+        },
+        {
+          "code": "invalid_type",
+          "expected": "string",
+          "received": "undefined",
+          "path": [
+            "midi"
+          ],
+          "message": "Required"
+        }
+      ],
+      "songDirectory": {
+        "absPath": "/tmp/collection/garota 2026/DON'T_BACK_IN_ANGER",
+        "songTitle": "DON'T_BACK_IN_ANGER",
+        "projectTitle": "garota 2026"
+      }
+    }
+  },
+  {
+    "message": "Found a non-first page svg asset, ignoring it",
+    "meta": {
+      "name": "HOTEL_CALIFORNIA_Trombone-2",
+      "entryPath": "/tmp/collection/garota 2026/HOTEL_CALIFORNIA/HOTEL_CALIFORNIA_Trombone-2.svg"
+    }
+  }
+]
