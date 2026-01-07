@@ -5,9 +5,6 @@ import {
   Dropdown,
   Form,
   Row,
-  OverlayTrigger,
-  Tooltip,
-  ListGroup,
   CloseButton,
   Modal,
   Spinner,
@@ -22,6 +19,7 @@ import {
   SongBookScore,
 } from "../../types";
 import { createSongBook } from "../createSongBook";
+import { generateCarnivalSections } from "../utils/songBookRows";
 
 const instruments: Instrument[] = [
   "trompete",
@@ -45,6 +43,7 @@ const carnivalInstruments: Instrument[] = [
 
 interface PdfGeneratorProps {
   songBook: SongBook;
+  setItems: (items: SongBookItem[]) => void;
 }
 
 export type Section = {
@@ -52,20 +51,9 @@ export type Section = {
   songs: Score[];
 };
 
-const CarnivalModeTooltip = () => (
-  <Tooltip id="tooltip">
-    <ListGroup>
-      <ListGroup.Item>Capa automática</ListGroup.Item>
-      <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
-      <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
-      <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
-    </ListGroup>
-  </Tooltip>
-);
-
-const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
+const PDFGenerator = ({ songBook, setItems }: PdfGeneratorProps) => {
   const scores = songBook.items.filter(
-    (r: SongBookItem) => !isSongBookSection(r)
+    (r: SongBookItem) => !isSongBookSection(r),
   ) as SongBookScore[];
 
   const [songbookTitle, setTitle] = useState("");
@@ -103,14 +91,103 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
 
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
 
+  const onGenerateCarnivalClicked = async (e: any) => {
+    e.preventDefault();
+
+    if (scores.length < 1) {
+      alert("Selecione ao menos uma música!");
+      return;
+    }
+
+    // Apply carnival ordering
+    setItems(generateCarnivalSections(songBook.items));
+
+    // Start generation process
+    setIsGenerating(true);
+    setGenerationProgress(0);
+
+    try {
+      // Create sections from songbook rows
+      const sections: Section[] = [];
+      let currentSection: Section | null = null;
+
+      for (const item of songBook.items) {
+        if (isSongBookSection(item)) {
+          currentSection = {
+            title: item.title,
+            songs: [],
+          };
+          sections.push(currentSection);
+        } else {
+          if (!currentSection) {
+            currentSection = {
+              title: "",
+              songs: [],
+            };
+            sections.push(currentSection);
+          }
+          currentSection.songs.push(item.score);
+        }
+      }
+
+      const totalInstruments = carnivalInstruments.length;
+      const skippedInstruments: string[] = [];
+
+      for (let i = 0; i < carnivalInstruments.length; i++) {
+        const instrument = carnivalInstruments[i];
+
+        // Check if this instrument has at least one song available
+        const hasAnySong = sections.some((sec) =>
+          sec.songs.some((song) =>
+            song.parts?.some((p) => p.instrument === instrument),
+          ),
+        );
+
+        // Skip generating this instrument if no songs are available
+        if (!hasAnySong) {
+          // advance progress as if processed
+          setGenerationProgress(((i + 1) / totalInstruments) * 100);
+          skippedInstruments.push(instrument.toUpperCase());
+          continue;
+        }
+
+        await createSongBook({
+          instrument,
+          sections,
+          title: "cadernin 2026",
+          coverImageUrl: "",
+          carnivalMode: true,
+          backSheetPageNumber: true,
+        });
+
+        // Update progress
+        setGenerationProgress(((i + 1) / totalInstruments) * 100);
+      }
+
+      if (skippedInstruments.length > 0) {
+        alert(
+          `Não foi gerado PDF para os seguintes instrumentos por falta de partituras: \n- ${skippedInstruments.join("\n- ")}`,
+        );
+      }
+
+      console.log("Terminei");
+    } catch (error) {
+      console.error("Error generating PDFs:", error);
+      alert("Ocorreu um erro ao gerar os PDFs. Por favor, tente novamente.");
+    } finally {
+      setIsGenerating(false);
+      setGenerationProgress(0);
+    }
+  };
+
   const onGeneratePdfClicked = async (e: any, instrument: string = "all") => {
     e.preventDefault();
     let selectedInstruments = instruments;
     if (instrument != "all") {
       selectedInstruments = selectedInstruments.filter((i) => instrument == i);
     }
-    if (carnivalMode && instrument == "all"){
-      selectedInstruments = carnivalInstruments
+    if (carnivalMode && instrument == "all") {
+      selectedInstruments = carnivalInstruments;
     }
     if (scores.length < 1) {
       alert("Selecione ao menos uma música!");
@@ -151,15 +228,15 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
 
       const totalInstruments = selectedInstruments.length;
       const skippedInstruments: string[] = [];
-      
+
       for (let i = 0; i < selectedInstruments.length; i++) {
         const instrument = selectedInstruments[i];
 
         // Check if this instrument has at least one song available
         const hasAnySong = sections.some((sec) =>
           sec.songs.some((song) =>
-            song.parts?.some((p) => p.instrument === instrument)
-          )
+            song.parts?.some((p) => p.instrument === instrument),
+          ),
         );
 
         // Skip generating this instrument if no songs are available
@@ -178,14 +255,14 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
           carnivalMode,
           backSheetPageNumber,
         });
-        
+
         // Update progress
         setGenerationProgress(((i + 1) / totalInstruments) * 100);
       }
 
       if (skippedInstruments.length > 0) {
         alert(
-          `Não foi gerado PDF para os seguintes instrumentos por falta de partituras: \n- ${skippedInstruments.join("\n- ")}`
+          `Não foi gerado PDF para os seguintes instrumentos por falta de partituras: \n- ${skippedInstruments.join("\n- ")}`,
         );
       }
 
@@ -231,16 +308,10 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
               </Dropdown.Menu>
             </Dropdown>
           </Col>
-          <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
-            <Col sm={4}>
-              <Form.Check
-                type="switch"
-                id="back-number"
-                label="Modo carnaval"
-                onChange={onCheckCarnivalMode}
-              />
-            </Col>
-          </OverlayTrigger>
+          <Col sm={3}>
+            <Button onClick={onGenerateCarnivalClicked}>Modo carnaval</Button>
+          </Col>
+
           <Form.Group controlId="formFileImg" className="mb-1">
             <Form.Label
               className={
@@ -276,12 +347,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
         </Form>
       </Row>
 
-      <Modal
-        show={isGenerating}
-        centered
-        backdrop="static"
-        keyboard={false}
-      >
+      <Modal show={isGenerating} centered backdrop="static" keyboard={false}>
         <Modal.Header>
           <Modal.Title>Gerando PDFs</Modal.Title>
         </Modal.Header>

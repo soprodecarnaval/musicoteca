@@ -46,7 +46,7 @@ function App() {
 
   const handleRemoveScore = (score: Score) => {
     const updatedRes = items.filter(
-      (r) => isSongBookSection(r) || r.score.id !== score.id
+      (r) => isSongBookSection(r) || r.score.id !== score.id,
     );
 
     setResults([score, ...results]);
@@ -55,7 +55,7 @@ function App() {
 
   const handleResultsSortBy = (
     column: SortColumn,
-    direction: SortDirection
+    direction: SortDirection,
   ) => {
     const sorted = sortByColumn(results, column, direction);
     setResults(sorted.slice());
@@ -73,7 +73,7 @@ function App() {
         // include first occurrence of song
         index ===
           newSongBookItems.findIndex(
-            (o) => !isSongBookSection(o) && row.score.id === o.score.id
+            (o) => !isSongBookSection(o) && row.score.id === o.score.id,
           )
       );
     });
@@ -111,7 +111,7 @@ function App() {
             <SearchBar handleResults={setResults} />
           </Col>
           <Col sm={6}>
-            <PDFGenerator songBook={songBook} />
+            <PDFGenerator songBook={songBook} setItems={setItems} />
           </Col>
         </Row>
         <SongBar info={playingPart} />
