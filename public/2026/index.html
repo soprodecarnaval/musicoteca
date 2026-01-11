@@ -20,7 +20,7 @@
 
             body {
                 font-family: "Bicyclette", sans-serif;
-                background: #fff;
+                background: #ffdd16;
                 color: #000;
                 min-height: 100vh;
                 display: flex;
@@ -51,7 +51,6 @@
             nav {
                 position: sticky;
                 top: 0;
-                background: #fff;
                 z-index: 100;
             }
 
@@ -70,7 +69,6 @@
                 min-width: fit-content;
                 max-width: 100%;
                 padding: 1.25rem 1.75rem;
-                background: #fff;
                 color: #000;
                 text-decoration: none;
                 text-align: center;
@@ -109,6 +107,58 @@
                 width: 100%;
             }
 
+            footer {
+                background: #000;
+                color: #fff;
+                padding: 3rem 1rem;
+                text-align: center;
+            }
+
+            footer .content {
+                max-width: 600px;
+                margin: 0 auto;
+            }
+
+            footer p {
+                font-size: 1.2rem;
+                line-height: 1.6;
+                margin-bottom: 1.5rem;
+            }
+
+            footer h2 {
+                font-size: 1.8rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                margin: 2rem 0 1.5rem;
+            }
+
+            footer img.qrcode {
+                max-width: 250px;
+                margin: 1.5rem auto;
+                display: block;
+                background: #fff;
+                padding: 1rem;
+                border-radius: 15px;
+            }
+
+            footer img.logo {
+                max-width: 200px;
+                margin: 2rem auto 0;
+                display: block;
+            }
+
+            footer .pix-key {
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin: 1rem 0 0.5rem;
+            }
+
+            footer .pix-name {
+                font-size: 0.8rem;
+                font-style: italic;
+                color: #ccc;
+            }
+
             @media (max-width: 400px) {
                 .nav-container {
                     flex-direction: column;
@@ -126,6 +176,11 @@
                 }
             }
         </style>
+        <script
+            defer
+            src="https://static.cloudflareinsights.com/beacon.min.js"
+            data-cf-beacon='{"token": "2f70f7544c3f4a55840c14d4adbc7730"}'
+        ></script>
     </head>
     <body>
         <header>
@@ -144,5 +199,28 @@
         </nav>
 
         <main></main>
+
+        <footer>
+            <div class="content">
+                <h2>CONTRIBUA COM O CADERNINHO!</h2>
+
+                <p>
+                    ajude o sopro de carnaval na produção dos caderninhos que
+                    vão trazer música para as ruas de BH!
+                </p>
+
+                <img class="qrcode" src="qrcode.png" alt="QR Code PIX" />
+
+                <p class="pix-key">soprodecarnaval@gmail.com</p>
+                <p class="pix-name">(em nome de Alexandre Guido)</p>
+
+                <p>realização</p>
+                <img
+                    class="logo"
+                    src="soprodecarnaval.png"
+                    alt="Sopro de Carnaval"
+                />
+            </div>
+        </footer>
     </body>
 </html>
