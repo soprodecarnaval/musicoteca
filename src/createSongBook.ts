@@ -33,7 +33,7 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     promises.push(
       drawImage(
         doc,
-        `assets/capa_carnaval_2026_${instrument.replace(/[ ]/g, "_")}.png`,
+        `assets/capa_garota_2026_${instrument.replace(/[ ]/g, "_")}.png`,
         pageNumber,
       ),
     );
@@ -199,7 +199,7 @@ const drawImage = (
   return loadImage(imageUrl).then((img: any) => {
     doc.switchToPage(pageNumber);
     doc.image(img, 0, 0, {
-      fit: [pageWidth, pageHeight],
+      cover: [pageWidth, pageHeight],
       align: "center",
       valign: "center",
     });
