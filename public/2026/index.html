@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Cadernin 2026</title>
+        <style>
+            @font-face {
+                font-family: "Bicyclette";
+                src: url("Bicyclette-Bold.woff2") format("woff2");
+                font-weight: bold;
+                font-style: normal;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family: "Bicyclette", sans-serif;
+                background: #fff;
+                color: #000;
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+            }
+
+            header {
+                width: 100%;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 2rem 1rem;
+            }
+
+            header img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+
+            header h1 {
+                text-align: center;
+                font-size: 3rem;
+                margin-top: 1rem;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+
+            nav {
+                position: sticky;
+                top: 0;
+                background: #fff;
+                z-index: 100;
+            }
+
+            .nav-container {
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 1.5rem 1rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 1rem;
+                justify-content: center;
+            }
+
+            .nav-container a {
+                flex: 1 1 100%;
+                min-width: fit-content;
+                max-width: 100%;
+                padding: 1.25rem 1.75rem;
+                background: #fff;
+                color: #000;
+                text-decoration: none;
+                text-align: center;
+                border-radius: 25px;
+                font-weight: bold;
+                font-size: 1.5rem;
+                transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                border: 5px solid #000;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                white-space: nowrap;
+            }
+
+            @media (min-width: 768px) {
+                .nav-container a {
+                    flex: 1 1 0;
+                    max-width: none;
+                }
+            }
+
+            .nav-container a:hover {
+                transform: translate(-3px, -3px);
+                box-shadow: 9px 9px 0 #000;
+            }
+
+            .nav-container a:active {
+                transform: translate(2px, 2px);
+                box-shadow: 4px 4px 0 #000;
+            }
+
+            main {
+                flex: 1;
+                max-width: 1200px;
+                margin: 0 auto;
+                padding: 2rem 1rem;
+                width: 100%;
+            }
+
+            @media (max-width: 400px) {
+                .nav-container {
+                    flex-direction: column;
+                    gap: 0.75rem;
+                    padding: 1rem;
+                }
+
+                .nav-container a {
+                    min-width: 100%;
+                    padding: 1rem 1.5rem;
+                }
+
+                header {
+                    padding: 1rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="capa.png" alt="Cadernin 2026" />
+            <h1>CARNAVAL DE RUA . BH</h1>
+        </header>
+
+        <nav>
+            <div class="nav-container">
+                <a href="cadernin_2026_trompete.pdf" download>Trompete</a>
+                <a href="cadernin_2026_trombone.pdf" download>Trombone</a>
+                <a href="cadernin_2026_sax alto.pdf" download>Sax Alto</a>
+                <a href="cadernin_2026_sax tenor.pdf" download>Sax Tenor</a>
+                <a href="cadernin_2026_flauta.pdf" download>Flauta</a>
+            </div>
+        </nav>
+
+        <main></main>
+    </body>
+</html>
