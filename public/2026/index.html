@@ -64,9 +64,8 @@
             }
 
             .nav-container a {
-                flex: 1 1 100%;
-                min-width: fit-content;
-                max-width: 100%;
+                flex: 0 0 auto;
+                width: 200px;
                 padding: 1.25rem 1.75rem;
                 color: #000;
                 text-decoration: none;
@@ -78,13 +77,6 @@
                 border: 5px solid #000;
                 letter-spacing: 1px;
                 white-space: nowrap;
-            }
-
-            @media (min-width: 768px) {
-                .nav-container a {
-                    flex: 1 1 0;
-                    max-width: none;
-                }
             }
 
             .nav-container a:hover {
