@@ -6,7 +6,6 @@ import {
   OverlayTrigger,
   Row,
   Table,
-  Tooltip,
 } from "react-bootstrap";
 
 import {
@@ -65,17 +64,6 @@ const SongBookTable = ({
     setRows(newRows);
     setNewSection("");
   };
-
-  const CarnivalSectionsToolTip = () => (
-    <Tooltip id="tooltip">
-      Reorganiza seções como no caderninho do carnaval:
-      <ListGroup>
-        {carnivalSectionOrder.map((section) => (
-          <ListGroup.Item key={`section-${section}`}>{section}</ListGroup.Item>
-        ))}
-      </ListGroup>
-    </Tooltip>
-  );
 
   const SongBookTableRow = ({ row, idx }: SongBookTableRowProps) => {
     if (isSongBookSection(row)) {
@@ -155,15 +143,6 @@ const SongBookTable = ({
           <Button onClick={() => setRows(generateSectionsByStyle(rows))}>
             Gerar seções por estilo
           </Button>
-        </Col>
-      </Row>
-      <Row>
-        <Col>
-          <OverlayTrigger placement="left" overlay={CarnivalSectionsToolTip}>
-            <Button onClick={() => setRows(generateCarnivalSections(rows))}>
-              Aplicar ordenação do carnaval
-            </Button>
-          </OverlayTrigger>
         </Col>
       </Row>
     </>
