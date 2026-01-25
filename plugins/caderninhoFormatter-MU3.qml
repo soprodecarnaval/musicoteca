@@ -456,6 +456,28 @@ MuseScore {
                setSpatium(curScore,saptiumSizeVal.value)
             }
          }
+
+         // Button {
+         //    id: createEbTuba
+         //    text: "Create Eb Tuba part"
+         //    Layout.fillWidth: true
+         //    Layout.margins: 1
+
+         //    onClicked: {
+         //       // set configuration
+         //       //breakLine = false;
+         //       //noteShift = 0;
+               
+         //       curScore.startCmd()
+         //       createEbTubaPart(curScore)
+         //       // if(optAll.checked){
+         //       //    forAllParts(adjustFingeringFontSize)
+         //       // } else {
+         //       //    adjustFingeringFontSize(curScore)
+         //       // }
+         //       curScore.endCmd()
+         //    }
+         // }
       }
       // Text {
       //    id: optTitle
@@ -747,6 +769,11 @@ MuseScore {
    function griff_euphonium(midi) {
       var lineBreak = breakLine ? "\n" : ""
       switch (midi) {
+         case 17: return "1" + lineBreak + "2" + lineBreak + "3" + lineBreak + "4"; break;
+         case 18: return "1" + lineBreak + "3" + lineBreak + "4"; break;
+         case 19: return "2" + lineBreak + "3" + lineBreak + "4"; break;
+         case 20: return "1" + lineBreak + "2" + lineBreak + "4"; break;
+         case 21: return "1" + lineBreak + "4"; break;
          case 22: return "1" + lineBreak + "2" + lineBreak + "3"; break;
          case 23: return "1" + lineBreak + "3"; break;
          case 24: return "2" + lineBreak + "3"; break;
@@ -898,6 +925,21 @@ MuseScore {
          || part.shortName.indexOf("Eb") > -1 || part.shortName.indexOf("E♭") > -1)
    }
 
+   // function createEbTubaPart(score) {
+   //    var cursor = score.newCursor();
+   //    for(var i = 0; i < cursor.score.parts.length; i++ ){
+   //       const part = cursor.score.parts[i]
+   //       var instrument = part.instruments[0]
+   //       log("Part " + part.longName + " - instrument: (" + instrument.shortName + "), longName: " + instrument.longName)
+   //       const instrumentId = part.instrumentId
+   //       log("instrumentId: " + instrumentId)
+   //    }
+   //    cursor.score.appendPart("bass-eb-tuba");
+   //   // cursor.score.appendPartByMusicXmlId("brass.tuba.bass");
+
+   //    log("Created Eb Tuba part")
+   // }
+
    function autoAddFingering(score) {
       var cursor = score.newCursor();
       var partsNum = cursor.score.parts.length
@@ -993,11 +1035,16 @@ MuseScore {
       var extremes = scoreExtremes(score,staffIdx)
       var minPitch = extremes[0]
       var maxPitch = extremes[1]
+      var activeClef = null
       log("Adding fingering for staff " + staff + ". Pitch min/max: " + minPitch + "/" + maxPitch)
       cursor.staffIdx = staff
       cleanFingering(score,staff)
       cursor.rewind(0);
       while (cursor.segment) {
+         //if (cursor.element && cursor.element.type === Element.CLEF) {
+         //   activeClef = cursor.element.clefType;
+         //   log("Active clef changed to " + activeClef)
+         //}
          if (cursor.element && cursor.element.type == Element.CHORD) {
             var fingering = newElement(Element.FINGERING)
             var note = cursor.element.notes[0]
@@ -1005,7 +1052,23 @@ MuseScore {
             fingering.text = griff(note.pitch)
             fingering.offsetY = pitchOffset;
             if (note.tieBack == null && fingering.text != "") cursor.add(fingering)
-            if(cursor.element.stem) cursor.element.stem.stemDirection = 2
+            if(cursor.element.stem) {
+               if (maxPitch < 65) { // Bass Clef if higher note is below F4
+                     if (note.pitch < 50) {
+                        cursor.element.stemDirection = Direction.UP;
+                     } else {
+                        cursor.element.stemDirection = Direction.DOWN;
+                     }
+                     
+               } else { // Default to Treble Logic
+                     if (note.pitch < 71){ 
+                        cursor.element.stemDirection = Direction.UP;
+                     } else {
+                        cursor.element.stemDirection = Direction.DOWN;
+                     }
+               }
+               //cursor.element.stem.stemDirection = 2
+            }
          }
          cursor.next();
       }
