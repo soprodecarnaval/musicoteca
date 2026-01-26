@@ -50,6 +50,7 @@ const instrumentAliases: [string, Instrument][] = [
   // tuba
   ["tuba", "tuba"],
   ["sousaphone", "tuba"],
+  ["tuba eb", "tuba eb"],
 ];
 
 // We will sort them by number of parts descending, so we're sure that

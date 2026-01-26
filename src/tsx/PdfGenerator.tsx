@@ -31,6 +31,7 @@ const instruments: Instrument[] = [
   "sax tenor",
   "flauta",
   "tuba",
+  "tuba eb",
   "bombardino",
   "clarinete",
 ];

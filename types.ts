@@ -12,6 +12,7 @@ export const zInstrument = z.enum([
   "trompete",
   "trompete pirata",
   "tuba",
+  "tuba eb",
 ]);
 export type Instrument = z.infer<typeof zInstrument>;
 

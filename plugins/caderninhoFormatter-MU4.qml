@@ -343,44 +343,6 @@ MuseScore {
             }
          }
       }
-      // Text {
-      //    id: optTitle
-      //    anchors.top: fingeringButtonsGrid.bottom
-      //    anchors.topMargin: 10
-      //    anchors.left: parent.left
-      //    anchors.leftMargin: 10
-      //    text: "Options:"
-      // }
-
-      // TabView {
-      //    Layout.fillWidth: true
-      //    anchors.horizontalCenter: parent.horizontalCenter
-      //    anchors.top: optTitle.bottom
-      //    anchors.topMargin: 10
-      //    Settings {
-      //       category: "Fingering"
-      //       property alias valueoptAddOffset: optAddOffset.checked
-      //    }
-      //    style: TabViewStyle {
-      //       tabOverlap: 0
-      //    }
-      //    Tab {
-      //       title: "Fingering"
-      //       CheckBox {
-      //          id: optAddOffset
-      //          text: "Add offset"
-      //          checked: true
-      //          anchors.top: parent.top
-      //          anchors.topMargin: 10
-      //          anchors.left: parent.left
-      //          anchors.leftMargin: 10
-      //       }
-      //    }
-      //    Tab {
-      //       title: "Style"
-      //       Rectangle { color: "blue" }
-      //    }
-      // }
 
    }
 
@@ -633,6 +595,11 @@ MuseScore {
    function griff_euphonium(midi) {
       var lineBreak = breakLine ? "\n" : ""
       switch (midi) {
+         case 17: return "1" + lineBreak + "2" + lineBreak + "3" + lineBreak + "4"; break;
+         case 18: return "1" + lineBreak + "3" + lineBreak + "4"; break;
+         case 19: return "2" + lineBreak + "3" + lineBreak + "4"; break;
+         case 20: return "1" + lineBreak + "2" + lineBreak + "4"; break;
+         case 21: return "1" + lineBreak + "4"; break;
          case 22: return "1" + lineBreak + "2" + lineBreak + "3"; break;
          case 23: return "1" + lineBreak + "3"; break;
          case 24: return "2" + lineBreak + "3"; break;
@@ -891,7 +858,22 @@ MuseScore {
             fingering.text = griff(note.pitch)
             fingering.offsetY = pitchOffset;
             if (note.tieBack == null && fingering.text != "") cursor.add(fingering)
-            if(cursor.element.stem) cursor.element.stem.stemDirection = 2
+            if(cursor.element.stem) {
+               if (maxPitch < 65) { // Bass Clef if higher note is below F4
+                     if (note.pitch < 50) {
+                        cursor.element.stemDirection = Direction.UP;
+                     } else {
+                        cursor.element.stemDirection = Direction.DOWN;
+                     }
+                     
+               } else { // Default to Treble Logic
+                     if (note.pitch < 71){ 
+                        cursor.element.stemDirection = Direction.UP;
+                     } else {
+                        cursor.element.stemDirection = Direction.DOWN;
+                     }
+               }
+            }         
          }
          cursor.next();
       }
