@@ -1,6 +1,6 @@
 {
     "composer": "Nelson Cavaquinho",
-    "duration": 40,
+    "duration": 55,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -9,11 +9,11 @@
     "measures": 40,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 297,
         "twosided": "true",
-        "width": 297
+        "width": 210
     },
-    "pages": 4,
+    "pages": 9,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,13 +69,46 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "B♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
         }
     ],
     "poet": "Samba",
     "previousSource": "O SOL HÁ DE BRILHAR MAIS UMA VEZ",
     "subtitle": "",
-    "tempo": 0,
-    "tempoText": "",
+    "tempo": 88,
+    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 88</b>",
     "textFramesData": {
         "composers": [
         ],

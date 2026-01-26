@@ -1,6 +1,6 @@
 {
     "composer": "Filipe Escandurras",
-    "duration": 62,
+    "duration": 36,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -13,7 +13,7 @@
         "twosided": "true",
         "width": 210
     },
-    "pages": 4,
+    "pages": 7,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,13 +69,46 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "B♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
+            "program": 58
         }
     ],
     "poet": "Axé",
     "previousSource": "AH, EU JÁ NÁO SEI O QUE FAZER",
     "subtitle": "",
-    "tempo": 70,
-    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 70</b>",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],

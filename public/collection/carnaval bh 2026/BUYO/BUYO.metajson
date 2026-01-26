@@ -1,19 +1,19 @@
 {
     "composer": "Lucky Chops",
-    "duration": 110,
+    "duration": 112,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -3,
     "lyrics": "",
-    "measures": 21,
+    "measures": 26,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 4,
+    "pages": 10,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Bombardino",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba",
+            "program": 58
         }
     ],
     "poet": "EBb",

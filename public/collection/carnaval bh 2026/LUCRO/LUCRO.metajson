@@ -4,7 +4,7 @@
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": 1,
     "lyrics": "",
     "measures": 39,
     "mscoreVersion": "3.6.2",
@@ -13,7 +13,7 @@
         "twosided": "false",
         "width": 210
     },
-    "pages": 7,
+    "pages": 17,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "C ClavF",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Bombardino",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba",
+            "program": 58
         }
     ],
     "poet": "Moments",

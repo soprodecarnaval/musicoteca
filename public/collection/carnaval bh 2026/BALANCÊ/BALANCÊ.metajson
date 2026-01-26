@@ -2,7 +2,7 @@
     "composer": "João de Barro e Alberto Ribeiro",
     "duration": 80,
     "fileVersion": 302,
-    "hasHarmonies": "true",
+    "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -2,
     "lyrics": "",
@@ -16,7 +16,7 @@
     "pages": 3,
     "parts": [
         {
-            "harmonyCount": 23,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 23,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,7 +49,7 @@
             "program": 56
         },
         {
-            "harmonyCount": 23,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "C clavF",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "B♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "E♭ Tuba",
+            "program": 58
         }
     ],
     "poet": "Marchinha",

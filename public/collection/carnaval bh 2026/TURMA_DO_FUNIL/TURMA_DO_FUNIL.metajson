@@ -13,7 +13,7 @@
         "twosided": "false",
         "width": 297
     },
-    "pages": 3,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 20,
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "C clavF",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "B♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
         }
     ],
     "poet": "Marchinha",

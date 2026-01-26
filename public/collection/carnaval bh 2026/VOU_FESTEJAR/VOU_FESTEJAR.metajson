@@ -1,12 +1,12 @@
 {
     "composer": "Beth Carvalho",
-    "duration": 132,
+    "duration": 78,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 56,
+    "measures": 55,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Bombardino",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba",
+            "program": 58
         }
     ],
     "poet": "Samba",

@@ -1,19 +1,19 @@
 {
-    "composer": "Jards Macalé e Waly Salomão",
-    "duration": 96,
+    "composer": "Composer",
+    "duration": 123,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 24,
+    "measures": 26,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 3,
+    "pages": 9,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,13 +69,46 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Bombardino",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em B♭",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
         }
     ],
-    "poet": "Brazuka",
-    "previousSource": "SIM, EU ESTOU TÃO CANSADO",
+    "poet": "",
+    "previousSource": "",
     "subtitle": "",
-    "tempo": 0,
-    "tempoText": "",
+    "tempo": 94,
+    "tempoText": "<sym>metNoteQuarterUp</sym> = 94",
     "textFramesData": {
         "composers": [
         ],
@@ -87,5 +120,5 @@
         ]
     },
     "timesig": "4/4",
-    "title": "VAPOR BARATO"
+    "title": "Title"
 }
