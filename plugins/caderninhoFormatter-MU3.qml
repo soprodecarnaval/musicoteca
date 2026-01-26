@@ -456,67 +456,7 @@ MuseScore {
                setSpatium(curScore,saptiumSizeVal.value)
             }
          }
-
-         // Button {
-         //    id: createEbTuba
-         //    text: "Create Eb Tuba part"
-         //    Layout.fillWidth: true
-         //    Layout.margins: 1
-
-         //    onClicked: {
-         //       // set configuration
-         //       //breakLine = false;
-         //       //noteShift = 0;
-               
-         //       curScore.startCmd()
-         //       createEbTubaPart(curScore)
-         //       // if(optAll.checked){
-         //       //    forAllParts(adjustFingeringFontSize)
-         //       // } else {
-         //       //    adjustFingeringFontSize(curScore)
-         //       // }
-         //       curScore.endCmd()
-         //    }
-         // }
       }
-      // Text {
-      //    id: optTitle
-      //    anchors.top: fingeringButtonsGrid.bottom
-      //    anchors.topMargin: 10
-      //    anchors.left: parent.left
-      //    anchors.leftMargin: 10
-      //    text: "Options:"
-      // }
-
-      // TabView {
-      //    Layout.fillWidth: true
-      //    anchors.horizontalCenter: parent.horizontalCenter
-      //    anchors.top: optTitle.bottom
-      //    anchors.topMargin: 10
-      //    Settings {
-      //       category: "Fingering"
-      //       property alias valueoptAddOffset: optAddOffset.checked
-      //    }
-      //    style: TabViewStyle {
-      //       tabOverlap: 0
-      //    }
-      //    Tab {
-      //       title: "Fingering"
-      //       CheckBox {
-      //          id: optAddOffset
-      //          text: "Add offset"
-      //          checked: true
-      //          anchors.top: parent.top
-      //          anchors.topMargin: 10
-      //          anchors.left: parent.left
-      //          anchors.leftMargin: 10
-      //       }
-      //    }
-      //    Tab {
-      //       title: "Style"
-      //       Rectangle { color: "blue" }
-      //    }
-      // }
 
    }
 
@@ -925,21 +865,6 @@ MuseScore {
          || part.shortName.indexOf("Eb") > -1 || part.shortName.indexOf("E♭") > -1)
    }
 
-   // function createEbTubaPart(score) {
-   //    var cursor = score.newCursor();
-   //    for(var i = 0; i < cursor.score.parts.length; i++ ){
-   //       const part = cursor.score.parts[i]
-   //       var instrument = part.instruments[0]
-   //       log("Part " + part.longName + " - instrument: (" + instrument.shortName + "), longName: " + instrument.longName)
-   //       const instrumentId = part.instrumentId
-   //       log("instrumentId: " + instrumentId)
-   //    }
-   //    cursor.score.appendPart("bass-eb-tuba");
-   //   // cursor.score.appendPartByMusicXmlId("brass.tuba.bass");
-
-   //    log("Created Eb Tuba part")
-   // }
-
    function autoAddFingering(score) {
       var cursor = score.newCursor();
       var partsNum = cursor.score.parts.length
@@ -1035,16 +960,11 @@ MuseScore {
       var extremes = scoreExtremes(score,staffIdx)
       var minPitch = extremes[0]
       var maxPitch = extremes[1]
-      var activeClef = null
       log("Adding fingering for staff " + staff + ". Pitch min/max: " + minPitch + "/" + maxPitch)
       cursor.staffIdx = staff
       cleanFingering(score,staff)
       cursor.rewind(0);
       while (cursor.segment) {
-         //if (cursor.element && cursor.element.type === Element.CLEF) {
-         //   activeClef = cursor.element.clefType;
-         //   log("Active clef changed to " + activeClef)
-         //}
          if (cursor.element && cursor.element.type == Element.CHORD) {
             var fingering = newElement(Element.FINGERING)
             var note = cursor.element.notes[0]
@@ -1067,7 +987,6 @@ MuseScore {
                         cursor.element.stemDirection = Direction.DOWN;
                      }
                }
-               //cursor.element.stem.stemDirection = 2
             }
          }
          cursor.next();
