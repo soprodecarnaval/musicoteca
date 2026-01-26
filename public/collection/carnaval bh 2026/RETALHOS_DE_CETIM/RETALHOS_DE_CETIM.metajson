@@ -1,6 +1,6 @@
 {
     "composer": "Benito de Paula",
-    "duration": 96,
+    "duration": 136,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
@@ -9,11 +9,11 @@
     "measures": 35,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 297,
         "twosided": "true",
-        "width": 297
+        "width": 210
     },
-    "pages": 6,
+    "pages": 9,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,13 +69,46 @@
             "lyricCount": 0,
             "name": "Trombone",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "B♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
         }
     ],
     "poet": "Samba",
     "previousSource": "ENSAIEI MEU SAMBA O ANO INTEIRO, AMOR / MAS CHEGOU O CARNAVAL",
     "subtitle": "",
-    "tempo": 0,
-    "tempoText": "",
+    "tempo": 85,
+    "tempoText": "<b></b><font face=\"ScoreText\"></font><b><font face=\"Edwin\"></font> = 85</b>",
     "textFramesData": {
         "composers": [
         ],

@@ -9,22 +9,22 @@
     "measures": 18,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 300,
+        "height": 105,
         "twosided": "true",
-        "width": 215
+        "width": 148
     },
-    "pages": 2,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.flutes.flute",
+            "instrumentId": "brass.trumpet.bflat",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta",
-            "program": 73
+            "name": "",
+            "program": 56
         },
         {
             "harmonyCount": 0,
@@ -34,7 +34,7 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "",
             "program": 65
         },
         {
@@ -45,7 +45,7 @@
             "instrumentId": "wind.reed.saxophone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
+            "name": "",
             "program": 66
         },
         {
@@ -53,11 +53,22 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet.bflat",
+            "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trompete Bb",
-            "program": 56
+            "name": "",
+            "program": 73
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.clarinet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "",
+            "program": 71
         },
         {
             "harmonyCount": 0,
@@ -67,12 +78,45 @@
             "instrumentId": "brass.trombone",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Bombardino",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba em E♭",
+            "program": 58
         }
     ],
-    "poet": "EBb",
-    "previousSource": "TEU, TODO TEU. MINHA, TODA MINHA. JUNTOS,  ESSA NOITE. QUERO TE DAR TODO MEU AMOR",
+    "poet": "",
+    "previousSource": "",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
