@@ -1,19 +1,19 @@
 {
     "composer": "Danilo Caymmi",
-    "duration": 102,
+    "duration": 100,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": -2,
     "lyrics": "",
-    "measures": 37,
+    "measures": 36,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 297,
         "twosided": "true",
-        "width": 297
+        "width": 210
     },
-    "pages": 6,
+    "pages": 10,
     "parts": [
         {
             "harmonyCount": 0,
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "Trompete Bb",
             "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "E♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "B♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
+            "program": 58
         }
     ],
     "poet": "Samba",

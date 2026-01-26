@@ -9,11 +9,11 @@
     "measures": 17,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 210,
+        "height": 297,
         "twosided": "true",
-        "width": 297
+        "width": 210
     },
-    "pages": 2,
+    "pages": 3,
     "parts": [
         {
             "harmonyCount": 0,
@@ -79,6 +79,28 @@
             "isVisible": "true",
             "lyricCount": 0,
             "name": "Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "E♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
             "program": 58
         }
     ],

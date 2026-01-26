@@ -1,19 +1,19 @@
 {
     "composer": "Evandro Rodrigues",
-    "duration": 122,
+    "duration": 138,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
     "keysig": -1,
     "lyrics": "",
-    "measures": 27,
+    "measures": 35,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 210,
         "twosided": "false",
         "width": 297
     },
-    "pages": 4,
+    "pages": 6,
     "parts": [
         {
             "harmonyCount": 26,
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "C clavF",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Bombardino",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "E♭ Tuba",
+            "program": 58
         }
     ],
     "poet": "Axé",

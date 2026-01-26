@@ -16,7 +16,7 @@
     "pages": 4,
     "parts": [
         {
-            "harmonyCount": 16,
+            "harmonyCount": 15,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -27,7 +27,7 @@
             "program": 73
         },
         {
-            "harmonyCount": 16,
+            "harmonyCount": 15,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -49,7 +49,7 @@
             "program": 56
         },
         {
-            "harmonyCount": 16,
+            "harmonyCount": 15,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
@@ -69,6 +69,39 @@
             "lyricCount": 0,
             "name": "C clavF",
             "program": 57
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.euphonium",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Euphonium",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "B♭ Tuba",
+            "program": 58
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.tuba",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "E♭ Tuba",
+            "program": 58
         }
     ],
     "poet": "Axé",

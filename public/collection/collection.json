@@ -22279,6 +22279,12 @@
           "midi": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS.midi",
           "parts": [
             {
+              "name": "ABRE_ALAS_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_BOMBARDINO.midi"
+            },
+            {
               "name": "ABRE_ALAS_BONE",
               "instrument": "trombone",
               "svg": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_BONE-1.svg",
@@ -22307,6 +22313,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_SAX_TENOR.midi"
+            },
+            {
+              "name": "ABRE_ALAS_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_TUBA-1.svg",
+              "midi": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_TUBA.midi"
+            },
+            {
+              "name": "ABRE_ALAS_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/ABRE_ALAS/ABRE_ALAS_TUBA_EB.midi"
             }
           ],
           "tags": [
@@ -22432,6 +22450,12 @@
           "midi": "carnaval bh 2026/ALALAÔ/ALALAÔ.midi",
           "parts": [
             {
+              "name": "ALALAÔ_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/ALALAÔ/ALALAÔ_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/ALALAÔ/ALALAÔ_BOMBARDINO.midi"
+            },
+            {
               "name": "ALALAÔ_BONE",
               "instrument": "trombone",
               "svg": "carnaval bh 2026/ALALAÔ/ALALAÔ_BONE-1.svg",
@@ -22460,6 +22484,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/ALALAÔ/ALALAÔ_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/ALALAÔ/ALALAÔ_SAX_TENOR.midi"
+            },
+            {
+              "name": "ALALAÔ_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/ALALAÔ/ALALAÔ_TUBA-1.svg",
+              "midi": "carnaval bh 2026/ALALAÔ/ALALAÔ_TUBA.midi"
+            },
+            {
+              "name": "ALALAÔ_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/ALALAÔ/ALALAÔ_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/ALALAÔ/ALALAÔ_TUBA_EB.midi"
             }
           ],
           "tags": [
@@ -22612,6 +22648,12 @@
           "midi": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE.midi",
           "parts": [
             {
+              "name": "A_BANDA_TÁ_COM_SEDE_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_BOMBARDINO.midi"
+            },
+            {
               "name": "A_BANDA_TÁ_COM_SEDE_BONE",
               "instrument": "trombone",
               "svg": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_BONE-1.svg",
@@ -22640,6 +22682,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_SAX_TENOR.midi"
+            },
+            {
+              "name": "A_BANDA_TÁ_COM_SEDE_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_TUBA-1.svg",
+              "midi": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_TUBA.midi"
+            },
+            {
+              "name": "A_BANDA_TÁ_COM_SEDE_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/A_BANDA_TÁ_COM_SEDE/A_BANDA_TÁ_COM_SEDE_TUBA_EB.midi"
             }
           ],
           "tags": [
@@ -22656,6 +22710,12 @@
           "metajson": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA.metajson",
           "midi": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA.midi",
           "parts": [
+            {
+              "name": "A_LUZ_DE_TIÊTA_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_BOMBARDINO.midi"
+            },
             {
               "name": "A_LUZ_DE_TIÊTA_BONE",
               "instrument": "trombone",
@@ -22685,6 +22745,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_SAX_TENOR.midi"
+            },
+            {
+              "name": "A_LUZ_DE_TIÊTA_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_TUBA-1.svg",
+              "midi": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_TUBA.midi"
+            },
+            {
+              "name": "A_LUZ_DE_TIÊTA_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/A_LUZ_DE_TIÊTA/A_LUZ_DE_TIÊTA_TUBA_EB.midi"
             }
           ],
           "tags": [
@@ -22701,6 +22773,12 @@
           "metajson": "carnaval bh 2026/A_SORRIR/A_SORRIR.metajson",
           "midi": "carnaval bh 2026/A_SORRIR/A_SORRIR.midi",
           "parts": [
+            {
+              "name": "A_SORRIR_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/A_SORRIR/A_SORRIR_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/A_SORRIR/A_SORRIR_BOMBARDINO.midi"
+            },
             {
               "name": "A_SORRIR_BONE",
               "instrument": "trombone",
@@ -22730,6 +22808,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/A_SORRIR/A_SORRIR_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/A_SORRIR/A_SORRIR_SAX_TENOR.midi"
+            },
+            {
+              "name": "A_SORRIR_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/A_SORRIR/A_SORRIR_TUBA-1.svg",
+              "midi": "carnaval bh 2026/A_SORRIR/A_SORRIR_TUBA.midi"
+            },
+            {
+              "name": "A_SORRIR_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/A_SORRIR/A_SORRIR_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/A_SORRIR/A_SORRIR_TUBA_EB.midi"
             }
           ],
           "tags": [
@@ -22746,6 +22836,12 @@
           "metajson": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ.metajson",
           "midi": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ.midi",
           "parts": [
+            {
+              "name": "BAIANIDADE_NAGÔ_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_BOMBARDINO.midi"
+            },
             {
               "name": "BAIANIDADE_NAGÔ_BONE",
               "instrument": "trombone",
@@ -22775,6 +22871,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_SAX_TENOR.midi"
+            },
+            {
+              "name": "BAIANIDADE_NAGÔ_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_TUBA-1.svg",
+              "midi": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_TUBA.midi"
+            },
+            {
+              "name": "BAIANIDADE_NAGÔ_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/BAIANIDADE_NAGÔ/BAIANIDADE_NAGÔ_TUBA_EB.midi"
             }
           ],
           "tags": [
@@ -27361,6 +27469,12 @@
           "midi": "carnaval bh 2026/andança/andança.midi",
           "parts": [
             {
+              "name": "andança_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/andança/andança_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_BOMBARDINO.midi"
+            },
+            {
               "name": "andança_BONE_PIRATA",
               "instrument": "trombone",
               "svg": "carnaval bh 2026/andança/andança_BONE_PIRATA-1.svg",
@@ -27389,6 +27503,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/andança/andança_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/andança/andança_SAX_TENOR.midi"
+            },
+            {
+              "name": "andança_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/andança/andança_TUBA-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_TUBA.midi"
+            },
+            {
+              "name": "andança_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/andança/andança_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/andança/andança_TUBA_EB.midi"
             }
           ],
           "tags": [
