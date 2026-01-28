@@ -22588,6 +22588,12 @@
           "midi": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO.midi",
           "parts": [
             {
+              "name": "ANDO_MEIO_DESLIGADO_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_BOMBARDINO.midi"
+            },
+            {
               "name": "ANDO_MEIO_DESLIGADO_BONE_PIRATA",
               "instrument": "trombone",
               "svg": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_BONE_PIRATA-1.svg",
@@ -22616,6 +22622,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_SAX_TENOR.midi"
+            },
+            {
+              "name": "ANDO_MEIO_DESLIGADO_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_TUBA-1.svg",
+              "midi": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_TUBA.midi"
+            },
+            {
+              "name": "ANDO_MEIO_DESLIGADO_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/ANDO_MEIO_DESLIGADO/ANDO_MEIO_DESLIGADO_TUBA_EB.midi"
             }
           ],
           "tags": [
@@ -27796,6 +27814,12 @@
           "midi": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS.midi",
           "parts": [
             {
+              "name": "TEMPOS_MODERNOS_BOMBARDINO",
+              "instrument": "bombardino",
+              "svg": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_BOMBARDINO-1.svg",
+              "midi": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_BOMBARDINO.midi"
+            },
+            {
               "name": "TEMPOS_MODERNOS_BONE_PIRATA",
               "instrument": "trombone",
               "svg": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_BONE_PIRATA-1.svg",
@@ -27824,6 +27848,18 @@
               "instrument": "sax tenor",
               "svg": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_SAX_TENOR-1.svg",
               "midi": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_SAX_TENOR.midi"
+            },
+            {
+              "name": "TEMPOS_MODERNOS_TUBA",
+              "instrument": "tuba",
+              "svg": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_TUBA-1.svg",
+              "midi": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_TUBA.midi"
+            },
+            {
+              "name": "TEMPOS_MODERNOS_TUBA_EB",
+              "instrument": "tuba eb",
+              "svg": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_TUBA_EB-1.svg",
+              "midi": "carnaval bh 2026/TEMPOS_MODERNOS/TEMPOS_MODERNOS_TUBA_EB.midi"
             }
           ],
           "tags": [
