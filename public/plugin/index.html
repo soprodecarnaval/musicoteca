@@ -97,8 +97,33 @@
             }
 
             ol {
-                margin-left: 40px;
+                margin-left: 0;
                 margin-right: 20px;
+                list-style: none;
+                counter-reset: step-counter;
+            }
+
+            ol > li {
+                counter-increment: step-counter;
+                position: relative;
+                margin-bottom: 20px;
+                padding-left: 50px;
+            }
+
+            ol > li::before {
+                content: counter(step-counter);
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 32px;
+                height: 32px;
+                background: #3498db;
+                color: white;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 32px;
+                font-weight: bold;
+                font-size: 1.1em;
             }
 
             .os-icon {
@@ -111,8 +136,9 @@
             <h1>Caderninho Formatter</h1>
 
             <p>
-                O Caderninho Formatter é o plugin que desenvolvemos para
-                auxiliar na formatação de partituras para o sistema cadern.in.
+                O Caderninho Formatter é o plugin de MuseScore que desenvolvemos
+                para auxiliar na formatação de partituras para o sistema
+                cadern.in.
             </p>
 
             <div class="alerta">
@@ -164,8 +190,7 @@
                         <li>
                             <span class="os-icon">🪟</span>Windows:
                             <code
-                                >C:\Users\&lt;SEU NOME DE
-                                USUÁRIO&gt;\Documents\MuseScore4\Plugins</code
+                                >C:\Users\SeuUsuário\Documents\MuseScore4\Plugins</code
                             >
                         </li>
                         <li>
@@ -176,7 +201,10 @@
                             <span class="os-icon">🐧</span>Linux:
                             <code>~/Documents/MuseScore4/Plugins/</code>
                         </li>
-                        <li>Se estiver instalando a versão</li>
+                        <li>
+                            Talvez seja necessário criar a pasta Plugins dentro
+                            da sua pasta do MuseScore
+                        </li>
                     </ul>
                 </li>
                 <li>

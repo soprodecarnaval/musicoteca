@@ -67,12 +67,35 @@
                 text-transform: uppercase;
             }
 
+            .container {
+                counter-reset: step-counter;
+            }
+
             .step {
                 margin: 30px 0;
-                padding: 20px;
-                background: #f9f9f9;
-                border-left: 4px solid #3498db;
-                border-radius: 4px;
+                padding-left: 0;
+                position: relative;
+                counter-increment: step-counter;
+            }
+
+            .step::before {
+                content: counter(step-counter);
+                display: inline-block;
+                width: 32px;
+                height: 32px;
+                background: #3498db;
+                color: white;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 32px;
+                font-weight: bold;
+                font-size: 1.1em;
+                margin-right: 15px;
+                vertical-align: top;
+            }
+
+            .step > p:first-child {
+                display: inline;
             }
 
             .step img {
@@ -114,26 +137,24 @@
 
             <div class="alerta">
                 <strong>⚠️ ALERTA</strong>
-                <p>TEM QUE SER NO MUSESCORE 3 por enquanto.</p>
+                <p>É necessário usar o MuseScore 3 por enquanto.</p>
             </div>
 
             <div class="step">
-                <p>
-                    Vai em <strong>Arquivo → Partes</strong>:
-                </p>
+                <p>Acesse <strong>Arquivo → Partes</strong>:</p>
                 <img src="images/image3.png" alt="Menu Arquivo - Partes" />
             </div>
 
             <div class="step">
-                <p>Vai aparecer essa janela aqui:</p>
+                <p>Será exibida a seguinte janela:</p>
                 <img src="images/image12.png" alt="Janela de Partes" />
             </div>
 
             <div class="step">
                 <p>
-                    Aí vc aperta em <strong>Todas as Partes</strong> e vai
-                    aparecer o nome de todos os instrumentos. Aperta
-                    <strong>Ok</strong> depois
+                    Em seguida, clique em <strong>Todas as Partes</strong> e o
+                    nome de todos os instrumentos será exibido. Clique em
+                    <strong>Ok</strong> após isso.
                 </p>
                 <img
                     src="images/image8.png"
@@ -143,14 +164,14 @@
 
             <div class="step">
                 <p>
-                    Quando a janela <strong>Partes</strong> fechar, vai ter uma
+                    Quando a janela <strong>Partes</strong> fechar, haverá uma
                     aba para cada instrumento:
                 </p>
                 <img src="images/image11.png" alt="Abas de instrumentos" />
             </div>
 
             <div class="step">
-                <p>Vai em <strong>Plugins → Caderninho Formatter</strong>:</p>
+                <p>Acesse <strong>Plugins → Caderninho Formatter</strong>:</p>
                 <img
                     src="images/image10.png"
                     alt="Menu Plugins - Caderninho Formatter"
@@ -159,9 +180,9 @@
 
             <div class="step">
                 <p>
-                    Vai aparecer essa aba com várias opções de formatação. A
-                    primeira coisa é tirar o título no topo. Aperta em
-                    <strong>Clean text boxes</strong> pra fazer isso:
+                    Será exibida uma aba com várias opções de formatação. O
+                    primeiro passo é remover o título no topo. Clique em
+                    <strong>Clean text boxes</strong> para fazer isso:
                 </p>
                 <img
                     src="images/image5.png"
@@ -187,11 +208,11 @@
 
             <div class="step">
                 <p>
-                    Não funcionou, porque o plugin olha quais são instrumentos
-                    usados na partitura pra definir qual o tipo de pirata. Nesse
-                    caso a gente vai precisar editar a partitura para colocar o
-                    instrumento correto. Clica com o botão direito em algum
-                    lugar da pauta, depois vai em
+                    Não funcionou, porque o plugin verifica quais instrumentos
+                    são usados na partitura para definir o tipo de pirata. Nesse
+                    caso, será necessário editar a partitura para definir o
+                    instrumento correto. Clique com o botão direito em algum
+                    lugar da pauta e depois acesse
                     <strong>Propriedades da Parte:</strong>
                 </p>
                 <img
@@ -202,10 +223,10 @@
 
             <div class="step">
                 <p>
-                    Vai no campo <strong>Instrumento</strong> e seleciona o
-                    instrumento certo no menu. No meu caso aqui é
-                    <strong>Bb Trumpet</strong>. Aperta <strong>Ok</strong>
-                    depois.
+                    Acesse o campo <strong>Instrumento</strong> e selecione o
+                    instrumento correto no menu. Neste exemplo, é
+                    <strong>Bb Trumpet</strong>. Clique em <strong>Ok</strong>
+                    em seguida.
                 </p>
                 <img
                     src="images/image7.png"
@@ -215,8 +236,8 @@
 
             <div class="step">
                 <p>
-                    Agora que o pirata tá no lugar, tem que aumentar a pauta
-                    para ficar no maior tamanho possível. Clica em
+                    Agora que o pirata está no lugar, é necessário aumentar a
+                    pauta para o maior tamanho possível. Clique em
                     <strong>Scale:</strong>
                 </p>
                 <img src="images/image6.png" alt="Botão Scale" />
@@ -224,32 +245,37 @@
 
             <div class="step">
                 <p>
-                    Agora a questão é ajustar os tamanhos ali na seção
-                    <strong>Manual Adjust</strong> para ficar no maior tamanho
-                    possível sem quebrar para a próxima página. Cada vez que vc
-                    modificar o valor, clica na partitura para ele atualizar a
+                    Agora é necessário ajustar os tamanhos na seção
+                    <strong>Manual Adjust</strong> para o maior tamanho possível
+                    sem quebrar para a próxima página. Cada vez que você
+                    modificar o valor, clique na partitura para atualizar a
                     formatação.
                 </p>
                 <p>
-                    Se ficar um compasso ou dois sobrando no fim, tenta usar o
-                    botão <strong>Leading Space</strong> para resolver.
+                    Se sobrar um ou dois compassos no fim, tente usar o botão
+                    <strong>Leading Space</strong> para resolver.
                 </p>
                 <img src="images/image4.png" alt="Ajustes manuais" />
             </div>
 
             <div class="step">
                 <p>
-                    A partitura ficou desse jeito, e parece que tá bom. Talvez
-                    ainda seja necessário mover alguns valores de pirata na mão.
-                    No exemplo aqui o compasso 9 tem três notas 12 que eram pra
-                    estar na mesma altura, mas estão em alturas diferentes.
+                    A partitura ficou desta forma, e parece estar adequada.
+                    Talvez ainda seja necessário ajustar alguns valores de
+                    pirata manualmente. Neste exemplo, o compasso 9 tem três
+                    notas 12 que deveriam estar na mesma altura, mas estão em
+                    alturas diferentes.
                 </p>
                 <img src="images/image2.png" alt="Resultado final" />
             </div>
 
             <div class="step">
                 <p>
-                    Depois de tudo pronto é só ir em
+                    Para o sistema cadern.in, apenas o arquivo .mscz já é
+                    suficiente.
+                </p>
+                <p>
+                    Caso queira os arquivos em pdf ou svg,
                     <strong>Arquivo → Exportar</strong>
                 </p>
                 <img src="images/image14.png" alt="Menu Arquivo - Exportar" />
