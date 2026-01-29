@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tutorial - Caderninho Formatter</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, Cantarell, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background: #f5f5f5;
+                padding: 20px;
+            }
+
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                background: white;
+                padding: 40px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 0.5em;
+                color: #2c3e50;
+            }
+
+            h2 {
+                font-size: 1.8em;
+                margin-top: 1.5em;
+                margin-bottom: 0.5em;
+                color: #34495e;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 0.3em;
+            }
+
+            p {
+                margin-bottom: 1em;
+                font-size: 1.1em;
+            }
+
+            .alerta {
+                background: #fee;
+                border: 2px solid #c33;
+                border-radius: 6px;
+                padding: 20px;
+                margin: 20px 0;
+                color: #c33;
+                font-weight: 600;
+            }
+
+            .alerta strong {
+                display: block;
+                font-size: 1.1em;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+
+            .step {
+                margin: 30px 0;
+                padding: 20px;
+                background: #f9f9f9;
+                border-left: 4px solid #3498db;
+                border-radius: 4px;
+            }
+
+            .step img {
+                max-width: 100%;
+                height: auto;
+                margin: 15px 0;
+                border-radius: 4px;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            }
+
+            strong {
+                color: #2c3e50;
+                font-weight: 600;
+            }
+
+            code {
+                background: #f4f4f4;
+                padding: 2px 6px;
+                border-radius: 3px;
+                font-family: "Courier New", monospace;
+                font-size: 0.9em;
+            }
+
+            a {
+                color: #3498db;
+                text-decoration: none;
+                border-bottom: 1px solid transparent;
+                transition: border-color 0.2s;
+            }
+
+            a:hover {
+                border-bottom-color: #3498db;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Como formatar partituras de caderninho</h1>
+
+            <div class="alerta">
+                <strong>⚠️ ALERTA</strong>
+                <p>TEM QUE SER NO MUSESCORE 3 por enquanto.</p>
+            </div>
+
+            <div class="step">
+                <p>
+                    Vai em <strong>Arquivo → Partes</strong>:
+                </p>
+                <img src="images/image3.png" alt="Menu Arquivo - Partes" />
+            </div>
+
+            <div class="step">
+                <p>Vai aparecer essa janela aqui:</p>
+                <img src="images/image12.png" alt="Janela de Partes" />
+            </div>
+
+            <div class="step">
+                <p>
+                    Aí vc aperta em <strong>Todas as Partes</strong> e vai
+                    aparecer o nome de todos os instrumentos. Aperta
+                    <strong>Ok</strong> depois
+                </p>
+                <img
+                    src="images/image8.png"
+                    alt="Selecionando todas as partes"
+                />
+            </div>
+
+            <div class="step">
+                <p>
+                    Quando a janela <strong>Partes</strong> fechar, vai ter uma
+                    aba para cada instrumento:
+                </p>
+                <img src="images/image11.png" alt="Abas de instrumentos" />
+            </div>
+
+            <div class="step">
+                <p>Vai em <strong>Plugins → Caderninho Formatter</strong>:</p>
+                <img
+                    src="images/image10.png"
+                    alt="Menu Plugins - Caderninho Formatter"
+                />
+            </div>
+
+            <div class="step">
+                <p>
+                    Vai aparecer essa aba com várias opções de formatação. A
+                    primeira coisa é tirar o título no topo. Aperta em
+                    <strong>Clean text boxes</strong> pra fazer isso:
+                </p>
+                <img
+                    src="images/image5.png"
+                    alt="Plugin com opção Clean text boxes"
+                />
+            </div>
+
+            <div class="step">
+                <p>
+                    Agora tem que redimensionar a página. Clica em
+                    <strong>Set style:</strong>
+                </p>
+                <img src="images/image9.png" alt="Botão Set style" />
+            </div>
+
+            <div class="step">
+                <p>
+                    O próximo passo é adicionar o pirata. Clica em
+                    <strong>Add fingering:</strong>
+                </p>
+                <img src="images/image13.png" alt="Botão Add fingering" />
+            </div>
+
+            <div class="step">
+                <p>
+                    Não funcionou, porque o plugin olha quais são instrumentos
+                    usados na partitura pra definir qual o tipo de pirata. Nesse
+                    caso a gente vai precisar editar a partitura para colocar o
+                    instrumento correto. Clica com o botão direito em algum
+                    lugar da pauta, depois vai em
+                    <strong>Propriedades da Parte:</strong>
+                </p>
+                <img
+                    src="images/image1.png"
+                    alt="Menu de contexto - Propriedades da Parte"
+                />
+            </div>
+
+            <div class="step">
+                <p>
+                    Vai no campo <strong>Instrumento</strong> e seleciona o
+                    instrumento certo no menu. No meu caso aqui é
+                    <strong>Bb Trumpet</strong>. Aperta <strong>Ok</strong>
+                    depois.
+                </p>
+                <img
+                    src="images/image7.png"
+                    alt="Selecionando instrumento Bb Trumpet"
+                />
+            </div>
+
+            <div class="step">
+                <p>
+                    Agora que o pirata tá no lugar, tem que aumentar a pauta
+                    para ficar no maior tamanho possível. Clica em
+                    <strong>Scale:</strong>
+                </p>
+                <img src="images/image6.png" alt="Botão Scale" />
+            </div>
+
+            <div class="step">
+                <p>
+                    Agora a questão é ajustar os tamanhos ali na seção
+                    <strong>Manual Adjust</strong> para ficar no maior tamanho
+                    possível sem quebrar para a próxima página. Cada vez que vc
+                    modificar o valor, clica na partitura para ele atualizar a
+                    formatação.
+                </p>
+                <p>
+                    Se ficar um compasso ou dois sobrando no fim, tenta usar o
+                    botão <strong>Leading Space</strong> para resolver.
+                </p>
+                <img src="images/image4.png" alt="Ajustes manuais" />
+            </div>
+
+            <div class="step">
+                <p>
+                    A partitura ficou desse jeito, e parece que tá bom. Talvez
+                    ainda seja necessário mover alguns valores de pirata na mão.
+                    No exemplo aqui o compasso 9 tem três notas 12 que eram pra
+                    estar na mesma altura, mas estão em alturas diferentes.
+                </p>
+                <img src="images/image2.png" alt="Resultado final" />
+            </div>
+
+            <div class="step">
+                <p>
+                    Depois de tudo pronto é só ir em
+                    <strong>Arquivo → Exportar</strong>
+                </p>
+                <img src="images/image14.png" alt="Menu Arquivo - Exportar" />
+            </div>
+
+            <p style="margin-top: 40px; text-align: center">
+                <a href="index.html">← Voltar para página inicial</a>
+            </p>
+        </div>
+    </body>
+</html>

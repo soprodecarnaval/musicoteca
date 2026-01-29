@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Caderninho Formatter</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                font-family:
+                    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+                    Oxygen, Ubuntu, Cantarell, sans-serif;
+                line-height: 1.6;
+                color: #333;
+                background: #f5f5f5;
+                padding: 20px;
+            }
+
+            .container {
+                max-width: 800px;
+                margin: 0 auto;
+                background: white;
+                padding: 40px;
+                border-radius: 8px;
+                box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            }
+
+            h1 {
+                font-size: 2.5em;
+                margin-bottom: 0.5em;
+                color: #2c3e50;
+            }
+
+            h2 {
+                font-size: 1.8em;
+                margin-top: 1.5em;
+                margin-bottom: 0.5em;
+                color: #34495e;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 0.3em;
+            }
+
+            p {
+                margin-bottom: 1em;
+                font-size: 1.1em;
+            }
+
+            .alerta {
+                background: #fee;
+                border: 2px solid #c33;
+                border-radius: 6px;
+                padding: 20px;
+                margin: 20px 0;
+                color: #c33;
+                font-weight: 600;
+            }
+
+            .alerta strong {
+                display: block;
+                font-size: 1.1em;
+                margin-bottom: 10px;
+                text-transform: uppercase;
+            }
+
+            ul {
+                margin-left: 20px;
+                margin-bottom: 1em;
+            }
+
+            li {
+                margin-bottom: 0.5em;
+                font-size: 1.05em;
+            }
+
+            a {
+                color: #3498db;
+                text-decoration: none;
+                border-bottom: 1px solid transparent;
+                transition: border-color 0.2s;
+            }
+
+            a:hover {
+                border-bottom-color: #3498db;
+            }
+
+            code {
+                background: #f4f4f4;
+                padding: 2px 6px;
+                border-radius: 3px;
+                font-family: "Courier New", monospace;
+                font-size: 0.9em;
+            }
+
+            ol {
+                margin-left: 40px;
+                margin-right: 20px;
+            }
+
+            .os-icon {
+                margin-right: 8px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Caderninho Formatter</h1>
+
+            <p>
+                O Caderninho Formatter é o plugin que desenvolvemos para
+                auxiliar na formatação de partituras para o sistema cadern.in.
+            </p>
+
+            <div class="alerta">
+                <strong>⚠️ ALERTA</strong>
+                <p>
+                    Por enquanto, para subir a partitura no sistema do cadern.in
+                    <strong>TEM QUE SER NO MUSESCORE 3</strong>
+                </p>
+
+                <p>
+                    Estamos no processo de migração para o MuseScore 4, mas por
+                    enquanto ainda não há suporte do sistema.
+                </p>
+            </div>
+
+            <h2>Como usar</h2>
+            <p><a href="tutorial.html">Siga o tutorial aqui</a>.</p>
+            <p>
+                O plugin funciona da mesma maneira em ambas as versões do
+                MuseScore.
+            </p>
+
+            <h2>Download</h2>
+            <ul>
+                <li>
+                    <a
+                        href="https://raw.githubusercontent.com/soprodecarnaval/musicoteca/refs/heads/main/plugins/caderninhoFormatter-MU3.qml"
+                        >Musescore 3</a
+                    >
+                </li>
+                <li>
+                    <a
+                        href="https://raw.githubusercontent.com/soprodecarnaval/musicoteca/refs/heads/main/plugins/caderninhoFormatter-MU4.qml"
+                        >Musescore 4</a
+                    >
+                </li>
+            </ul>
+
+            <h2>Instalação</h2>
+            <p>
+                Instruções para MuseScore 4, o processo é ser semelhante no
+                MuseScore 3. O que deve mudar são os nomes das pastas e os
+                caminhos de alguns menus.
+            </p>
+            <ol>
+                <li>
+                    Ache a pasta de plugins do MuseScore:
+                    <ul>
+                        <li>
+                            <span class="os-icon">🪟</span>Windows:
+                            <code
+                                >C:\Users\&lt;SEU NOME DE
+                                USUÁRIO&gt;\Documents\MuseScore4\Plugins</code
+                            >
+                        </li>
+                        <li>
+                            <span class="os-icon">🍎</span>Mac:
+                            <code>~/Documents/MuseScore4/Plugins/</code>
+                        </li>
+                        <li>
+                            <span class="os-icon">🐧</span>Linux:
+                            <code>~/Documents/MuseScore4/Plugins/</code>
+                        </li>
+                        <li>Se estiver instalando a versão</li>
+                    </ul>
+                </li>
+                <li>
+                    Baixa o arquivo QML do plugin <a href="#download">aqui</a>
+                </li>
+                <li>Coloca o arquivo na pasta de plugins do MuseScore 4</li>
+                <li>
+                    Abre o MuseScore 4 e vai no menu "Extensões". Se deu certo o
+                    nome do plugin já vai aparecer lá.
+                </li>
+                <li>
+                    (se o passo anterior não deu certo) Vai em "Extensões" →
+                    "Gerenciar Extensões…" e clica no botão "↻ Recarregar
+                    extensões". Se o arquivo .qml estiver na pasta correta o
+                    nome plugin vai aparecer ali perto do botão.
+                </li>
+            </ol>
+        </div>
+    </body>
+</html>
