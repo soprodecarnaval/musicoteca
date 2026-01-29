@@ -46,7 +46,7 @@ function App() {
 
   const handleRemoveScore = (score: Score) => {
     const updatedRes = items.filter(
-      (r) => isSongBookSection(r) || r.score.id !== score.id
+      (r) => isSongBookSection(r) || r.score.id !== score.id,
     );
 
     setResults([score, ...results]);
@@ -55,7 +55,7 @@ function App() {
 
   const handleResultsSortBy = (
     column: SortColumn,
-    direction: SortDirection
+    direction: SortDirection,
   ) => {
     const sorted = sortByColumn(results, column, direction);
     setResults(sorted.slice());
@@ -73,7 +73,7 @@ function App() {
         // include first occurrence of song
         index ===
           newSongBookItems.findIndex(
-            (o) => !isSongBookSection(o) && row.score.id === o.score.id
+            (o) => !isSongBookSection(o) && row.score.id === o.score.id,
           )
       );
     });
@@ -101,8 +101,16 @@ function App() {
       >
         <Container>
           <Navbar.Brand className="nav-bar-title" href="#">
-            Cadern.in
+            cadern.in
           </Navbar.Brand>
+          <div className="banner-container">
+            <a href="/2026" className="banner banner-yellow">
+              Carnaval BH 2026
+            </a>
+            <a href="/plugin" className="banner banner-blue">
+              Plugin de Musescore
+            </a>
+          </div>
         </Container>
       </Navbar>
       <Container>
