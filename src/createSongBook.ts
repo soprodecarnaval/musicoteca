@@ -354,21 +354,28 @@ const addSongPage = async (
         align: "center",
       }); // Título pequeno no centro da página abaixo da partitura
 
-    // Bottom right: section + number, with page indicator for multi-page parts
-    const pageIndicator = isMultiPage
-      ? `   pág. ${svgPageIdx + 1}/${totalSvgPages}`
-      : "";
+    // Bottom right: section + number
     doc
       .fontSize(9)
       .text(
-        `${sectionTitle.toUpperCase()}   ${displayNumber}${pageIndicator}`,
+        `${sectionTitle.toUpperCase()}   ${displayNumber}`,
         0.44 * cm2pt,
         12.5 * cm2pt,
         {
           align: "right",
           width: 17.1 * cm2pt,
         },
-      ); // Estilo + Número + Página
+      ); // Estilo + Número
+
+    // Bottom center: page indicator for multi-page parts
+    if (isMultiPage) {
+      const pageIndicator = partLabel
+        ? `${song.title}: ${partLabel} · página (${svgPageIdx + 1}/${totalSvgPages})`
+        : `${song.title} · página (${svgPageIdx + 1}/${totalSvgPages})`;
+      doc.fontSize(9).text(pageIndicator, 0, 12.5 * cm2pt, {
+        align: "center",
+      });
+    }
 
     promises.push(drawSvg(doc, `/collection/${part.svg[svgPageIdx]}`, currentPage));
   }
