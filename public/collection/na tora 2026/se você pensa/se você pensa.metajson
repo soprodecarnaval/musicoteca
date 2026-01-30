@@ -75,17 +75,6 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Trombone",
-            "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
             "instrumentId": "brass.tuba",
             "isVisible": "true",
             "lyricCount": 0,

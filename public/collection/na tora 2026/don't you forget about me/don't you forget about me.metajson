@@ -1,10 +1,10 @@
 {
     "composer": "Keith Forsey e Steve Schiff",
-    "duration": 220,
+    "duration": 202,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": -1,
     "lyrics": "",
     "measures": 56,
     "mscoreVersion": "3.6.2",
@@ -74,8 +74,8 @@
     "poet": "rock 80",
     "previousSource": "Don't you forget about me, Don't, don't, don't, don't",
     "subtitle": "",
-    "tempo": 110,
-    "tempoText": "<sym>metNoteQuarterUp</sym> = 110",
+    "tempo": 0,
+    "tempoText": "",
     "textFramesData": {
         "composers": [
         ],

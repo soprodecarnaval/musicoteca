@@ -1,19 +1,19 @@
 {
     "composer": "Michael Jackson",
-    "duration": 362,
+    "duration": 304,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
     "keysig": 0,
     "lyrics": "",
-    "measures": 105,
+    "measures": 91,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
         "twosided": "true",
         "width": 210
     },
-    "pages": 38,
+    "pages": 29,
     "parts": [
         {
             "harmonyCount": 0,

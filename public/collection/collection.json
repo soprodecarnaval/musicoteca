@@ -31219,14 +31219,6 @@
               "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_TUBA_EB.midi"
             },
             {
-              "name": "LEPO_LEPO_Trombone",
-              "instrument": "trombone",
-              "svg": [
-                "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Trombone-1.svg"
-              ],
-              "midi": "carnaval bh 2026/LEPO_LEPO/LEPO_LEPO_Trombone.midi"
-            },
-            {
               "name": "LEPO_LEPO_Trompete_em_Bb",
               "instrument": "trompete",
               "svg": [
@@ -35037,14 +35029,6 @@
                 "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_TUBA_EB-1.svg"
               ],
               "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_TUBA_EB.midi"
-            },
-            {
-              "name": "VAPOR_BARATO_Trombone",
-              "instrument": "trombone",
-              "svg": [
-                "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trombone-1.svg"
-              ],
-              "midi": "carnaval bh 2026/VAPOR_BARATO/VAPOR_BARATO_Trombone.midi"
             },
             {
               "name": "VAPOR_BARATO_Trompete_em_Bb",
@@ -39105,61 +39089,6 @@
           ],
           "tags": [
             "Moments"
-          ],
-          "projectTitle": "garota 2025"
-        },
-        {
-          "id": "garota 2025/CHEGUEI",
-          "title": "cheguei",
-          "composer": "Ludmila",
-          "sub": "CHEGUEI, CHEGUEI CHEGANDO BAGUNÇANDO A ZORRA TODA",
-          "mscz": "garota 2025/CHEGUEI/cheguei.mscz",
-          "metajson": "garota 2025/CHEGUEI/cheguei.metajson",
-          "midi": "garota 2025/CHEGUEI/cheguei.midi",
-          "parts": [
-            {
-              "name": "cheguei_BONE",
-              "instrument": "trombone",
-              "svg": [
-                "garota 2025/CHEGUEI/cheguei_BONE-1.svg"
-              ],
-              "midi": "garota 2025/CHEGUEI/cheguei_BONE.midi"
-            },
-            {
-              "name": "cheguei_FLAUTA",
-              "instrument": "flauta",
-              "svg": [
-                "garota 2025/CHEGUEI/cheguei_FLAUTA-1.svg"
-              ],
-              "midi": "garota 2025/CHEGUEI/cheguei_FLAUTA.midi"
-            },
-            {
-              "name": "cheguei_PETE",
-              "instrument": "trompete",
-              "svg": [
-                "garota 2025/CHEGUEI/cheguei_PETE-1.svg"
-              ],
-              "midi": "garota 2025/CHEGUEI/cheguei_PETE.midi"
-            },
-            {
-              "name": "cheguei_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": [
-                "garota 2025/CHEGUEI/cheguei_SAX_ALTO-1.svg"
-              ],
-              "midi": "garota 2025/CHEGUEI/cheguei_SAX_ALTO.midi"
-            },
-            {
-              "name": "cheguei_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": [
-                "garota 2025/CHEGUEI/cheguei_SAX_TENOR-1.svg"
-              ],
-              "midi": "garota 2025/CHEGUEI/cheguei_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            ""
           ],
           "projectTitle": "garota 2025"
         },
@@ -48720,61 +48649,6 @@
           "projectTitle": "na tora 2025"
         },
         {
-          "id": "na tora 2025/ANUNCIAÇÃO",
-          "title": "anunciação",
-          "composer": "Alceu valença",
-          "sub": "NA BLUMA LEVE DAS PAIXÕES QUE VEM DE DENTRO",
-          "mscz": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO.mscz",
-          "metajson": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO.metajson",
-          "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO.midi",
-          "parts": [
-            {
-              "name": "ANUNCIAÇÃO_BONE_PIRATA",
-              "instrument": "trombone",
-              "svg": [
-                "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_BONE_PIRATA-1.svg"
-              ],
-              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_BONE_PIRATA.midi"
-            },
-            {
-              "name": "ANUNCIAÇÃO_FLAUTA",
-              "instrument": "flauta",
-              "svg": [
-                "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_FLAUTA-1.svg"
-              ],
-              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_FLAUTA.midi"
-            },
-            {
-              "name": "ANUNCIAÇÃO_PETE_PIRATA",
-              "instrument": "trompete",
-              "svg": [
-                "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_PETE_PIRATA-1.svg"
-              ],
-              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_PETE_PIRATA.midi"
-            },
-            {
-              "name": "ANUNCIAÇÃO_SAX_ALTO",
-              "instrument": "sax alto",
-              "svg": [
-                "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_ALTO-1.svg"
-              ],
-              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_ALTO.midi"
-            },
-            {
-              "name": "ANUNCIAÇÃO_SAX_TENOR",
-              "instrument": "sax tenor",
-              "svg": [
-                "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_TENOR-1.svg"
-              ],
-              "midi": "na tora 2025/ANUNCIAÇÃO/ANUNCIAÇÃO_SAX_TENOR.midi"
-            }
-          ],
-          "tags": [
-            "Na Tora"
-          ],
-          "projectTitle": "na tora 2025"
-        },
-        {
           "id": "na tora 2025/A_LUZ_DE_TIÊTA",
           "title": "a luz de tiêta",
           "composer": "Caetano Veloso",
@@ -51618,70 +51492,6 @@
           "projectTitle": "na tora 2026"
         },
         {
-          "id": "na tora 2026/Anunciao",
-          "title": "anunciao",
-          "composer": "Eliabe Santos;Flávio Luiz",
-          "sub": "Na bruma leve das paixões que vêm de dentro",
-          "mscz": "na tora 2026/Anunciao/Anunciao.mscz",
-          "metajson": "na tora 2026/Anunciao/Anunciao.metajson",
-          "midi": "na tora 2026/Anunciao/Anunciao.midi",
-          "parts": [
-            {
-              "name": "Anunciao_Clarinete_em_Bb",
-              "instrument": "clarinete",
-              "svg": [
-                "na tora 2026/Anunciao/Anunciao_Clarinete_em_Bb-1.svg"
-              ],
-              "midi": "na tora 2026/Anunciao/Anunciao_Clarinete_em_Bb.midi"
-            },
-            {
-              "name": "Anunciao_Saxofone_Alto",
-              "instrument": "sax alto",
-              "svg": [
-                "na tora 2026/Anunciao/Anunciao_Saxofone_Alto-1.svg"
-              ],
-              "midi": "na tora 2026/Anunciao/Anunciao_Saxofone_Alto.midi"
-            },
-            {
-              "name": "Anunciao_Saxofone_Tenor",
-              "instrument": "sax tenor",
-              "svg": [
-                "na tora 2026/Anunciao/Anunciao_Saxofone_Tenor-1.svg"
-              ],
-              "midi": "na tora 2026/Anunciao/Anunciao_Saxofone_Tenor.midi"
-            },
-            {
-              "name": "Anunciao_Trombone_1",
-              "instrument": "trombone",
-              "svg": [
-                "na tora 2026/Anunciao/Anunciao_Trombone_1-1.svg"
-              ],
-              "midi": "na tora 2026/Anunciao/Anunciao_Trombone_1.midi"
-            },
-            {
-              "name": "Anunciao_Trombone_2",
-              "instrument": "trombone",
-              "svg": [
-                "na tora 2026/Anunciao/Anunciao_Trombone_2-1.svg",
-                "na tora 2026/Anunciao/Anunciao_Trombone_2-2.svg"
-              ],
-              "midi": "na tora 2026/Anunciao/Anunciao_Trombone_2.midi"
-            },
-            {
-              "name": "Anunciao_Trompete_em_Bb",
-              "instrument": "trompete",
-              "svg": [
-                "na tora 2026/Anunciao/Anunciao_Trompete_em_Bb-1.svg"
-              ],
-              "midi": "na tora 2026/Anunciao/Anunciao_Trompete_em_Bb.midi"
-            }
-          ],
-          "tags": [
-            "forró"
-          ],
-          "projectTitle": "na tora 2026"
-        },
-        {
           "id": "na tora 2026/BALANCÊ",
           "title": "balancê",
           "composer": "João de Barro e Alberto Ribeiro",
@@ -52989,8 +52799,7 @@
               "name": "ando meio desligado_Alto",
               "instrument": "sax alto",
               "svg": [
-                "na tora 2026/ando meio desligado/ando meio desligado_Alto-1.svg",
-                "na tora 2026/ando meio desligado/ando meio desligado_Alto-2.svg"
+                "na tora 2026/ando meio desligado/ando meio desligado_Alto-1.svg"
               ],
               "midi": "na tora 2026/ando meio desligado/ando meio desligado_Alto.midi"
             },
@@ -53014,8 +52823,7 @@
               "name": "ando meio desligado_Pete",
               "instrument": "trompete",
               "svg": [
-                "na tora 2026/ando meio desligado/ando meio desligado_Pete-1.svg",
-                "na tora 2026/ando meio desligado/ando meio desligado_Pete-2.svg"
+                "na tora 2026/ando meio desligado/ando meio desligado_Pete-1.svg"
               ],
               "midi": "na tora 2026/ando meio desligado/ando meio desligado_Pete.midi"
             },
@@ -53062,6 +52870,69 @@
           ],
           "tags": [
             "rock"
+          ],
+          "projectTitle": "na tora 2026"
+        },
+        {
+          "id": "na tora 2026/anunciação",
+          "title": "anunciação",
+          "composer": "Eliabe Santos;Flávio Luiz",
+          "sub": "Na bruma leve das paixões que vêm de dentro",
+          "mscz": "na tora 2026/anunciação/anunciação.mscz",
+          "metajson": "na tora 2026/anunciação/anunciação.metajson",
+          "midi": "na tora 2026/anunciação/anunciação.midi",
+          "parts": [
+            {
+              "name": "anunciação_Clarinete_em_Bb",
+              "instrument": "clarinete",
+              "svg": [
+                "na tora 2026/anunciação/anunciação_Clarinete_em_Bb-1.svg"
+              ],
+              "midi": "na tora 2026/anunciação/anunciação_Clarinete_em_Bb.midi"
+            },
+            {
+              "name": "anunciação_Saxofone_Alto",
+              "instrument": "sax alto",
+              "svg": [
+                "na tora 2026/anunciação/anunciação_Saxofone_Alto-1.svg"
+              ],
+              "midi": "na tora 2026/anunciação/anunciação_Saxofone_Alto.midi"
+            },
+            {
+              "name": "anunciação_Saxofone_Tenor",
+              "instrument": "sax tenor",
+              "svg": [
+                "na tora 2026/anunciação/anunciação_Saxofone_Tenor-1.svg"
+              ],
+              "midi": "na tora 2026/anunciação/anunciação_Saxofone_Tenor.midi"
+            },
+            {
+              "name": "anunciação_Trombone_1",
+              "instrument": "trombone",
+              "svg": [
+                "na tora 2026/anunciação/anunciação_Trombone_1-1.svg"
+              ],
+              "midi": "na tora 2026/anunciação/anunciação_Trombone_1.midi"
+            },
+            {
+              "name": "anunciação_Trombone_2",
+              "instrument": "trombone",
+              "svg": [
+                "na tora 2026/anunciação/anunciação_Trombone_2-1.svg"
+              ],
+              "midi": "na tora 2026/anunciação/anunciação_Trombone_2.midi"
+            },
+            {
+              "name": "anunciação_Trompete_em_Bb",
+              "instrument": "trompete",
+              "svg": [
+                "na tora 2026/anunciação/anunciação_Trompete_em_Bb-1.svg"
+              ],
+              "midi": "na tora 2026/anunciação/anunciação_Trompete_em_Bb.midi"
+            }
+          ],
+          "tags": [
+            "forró"
           ],
           "projectTitle": "na tora 2026"
         },
@@ -53197,8 +53068,7 @@
               "name": "beat it + thriller_Trombone_2",
               "instrument": "trombone",
               "svg": [
-                "na tora 2026/beat it + thriller/beat it + thriller_Trombone_2-1.svg",
-                "na tora 2026/beat it + thriller/beat it + thriller_Trombone_2-2.svg"
+                "na tora 2026/beat it + thriller/beat it + thriller_Trombone_2-1.svg"
               ],
               "midi": "na tora 2026/beat it + thriller/beat it + thriller_Trombone_2.midi"
             },
@@ -53314,21 +53184,20 @@
               "midi": "na tora 2026/blinding lights/blinding lights_Saxofone_Tenor.midi"
             },
             {
+              "name": "blinding lights_Trombone_1",
+              "instrument": "trombone",
+              "svg": [
+                "na tora 2026/blinding lights/blinding lights_Trombone_1-1.svg"
+              ],
+              "midi": "na tora 2026/blinding lights/blinding lights_Trombone_1.midi"
+            },
+            {
               "name": "blinding lights_Trombone_2",
               "instrument": "trombone",
               "svg": [
-                "na tora 2026/blinding lights/blinding lights_Trombone_2-1.svg",
-                "na tora 2026/blinding lights/blinding lights_Trombone_2-2.svg"
+                "na tora 2026/blinding lights/blinding lights_Trombone_2-1.svg"
               ],
               "midi": "na tora 2026/blinding lights/blinding lights_Trombone_2.midi"
-            },
-            {
-              "name": "blinding lights_Trombón_tenor",
-              "instrument": "sax tenor",
-              "svg": [
-                "na tora 2026/blinding lights/blinding lights_Trombón_tenor-1.svg"
-              ],
-              "midi": "na tora 2026/blinding lights/blinding lights_Trombón_tenor.midi"
             },
             {
               "name": "blinding lights_Trompete_em_Bb",
@@ -53345,61 +53214,61 @@
           "projectTitle": "na tora 2026"
         },
         {
-          "id": "na tora 2026/chameleon and the chicken",
-          "title": "chameleon and the chicken",
+          "id": "na tora 2026/chameleon + the chicken",
+          "title": "chameleon + the chicken",
           "composer": "Herbie Hancock / Pee Wee Ellis",
           "sub": "",
-          "mscz": "na tora 2026/chameleon and the chicken/chameleon and the chicken.mscz",
-          "metajson": "na tora 2026/chameleon and the chicken/chameleon and the chicken.metajson",
-          "midi": "na tora 2026/chameleon and the chicken/chameleon and the chicken.midi",
+          "mscz": "na tora 2026/chameleon + the chicken/chameleon + the chicken.mscz",
+          "metajson": "na tora 2026/chameleon + the chicken/chameleon + the chicken.metajson",
+          "midi": "na tora 2026/chameleon + the chicken/chameleon + the chicken.midi",
           "parts": [
             {
-              "name": "chameleon and the chicken_Alto_Saxophone",
+              "name": "chameleon + the chicken_Alto_Saxophone",
               "instrument": "sax alto",
               "svg": [
-                "na tora 2026/chameleon and the chicken/chameleon and the chicken_Alto_Saxophone-1.svg"
+                "na tora 2026/chameleon + the chicken/chameleon + the chicken_Alto_Saxophone-1.svg"
               ],
-              "midi": "na tora 2026/chameleon and the chicken/chameleon and the chicken_Alto_Saxophone.midi"
+              "midi": "na tora 2026/chameleon + the chicken/chameleon + the chicken_Alto_Saxophone.midi"
             },
             {
-              "name": "chameleon and the chicken_Clarinete_em_Bb",
+              "name": "chameleon + the chicken_Clarinete_em_Bb",
               "instrument": "clarinete",
               "svg": [
-                "na tora 2026/chameleon and the chicken/chameleon and the chicken_Clarinete_em_Bb-1.svg"
+                "na tora 2026/chameleon + the chicken/chameleon + the chicken_Clarinete_em_Bb-1.svg"
               ],
-              "midi": "na tora 2026/chameleon and the chicken/chameleon and the chicken_Clarinete_em_Bb.midi"
+              "midi": "na tora 2026/chameleon + the chicken/chameleon + the chicken_Clarinete_em_Bb.midi"
             },
             {
-              "name": "chameleon and the chicken_Saxofone_Tenor",
+              "name": "chameleon + the chicken_Saxofone_Tenor",
               "instrument": "sax tenor",
               "svg": [
-                "na tora 2026/chameleon and the chicken/chameleon and the chicken_Saxofone_Tenor-1.svg"
+                "na tora 2026/chameleon + the chicken/chameleon + the chicken_Saxofone_Tenor-1.svg"
               ],
-              "midi": "na tora 2026/chameleon and the chicken/chameleon and the chicken_Saxofone_Tenor.midi"
+              "midi": "na tora 2026/chameleon + the chicken/chameleon + the chicken_Saxofone_Tenor.midi"
             },
             {
-              "name": "chameleon and the chicken_Trombone_1",
+              "name": "chameleon + the chicken_Trombone_1",
               "instrument": "trombone",
               "svg": [
-                "na tora 2026/chameleon and the chicken/chameleon and the chicken_Trombone_1-1.svg"
+                "na tora 2026/chameleon + the chicken/chameleon + the chicken_Trombone_1-1.svg"
               ],
-              "midi": "na tora 2026/chameleon and the chicken/chameleon and the chicken_Trombone_1.midi"
+              "midi": "na tora 2026/chameleon + the chicken/chameleon + the chicken_Trombone_1.midi"
             },
             {
-              "name": "chameleon and the chicken_Trombone_2",
+              "name": "chameleon + the chicken_Trombone_2",
               "instrument": "trombone",
               "svg": [
-                "na tora 2026/chameleon and the chicken/chameleon and the chicken_Trombone_2-1.svg"
+                "na tora 2026/chameleon + the chicken/chameleon + the chicken_Trombone_2-1.svg"
               ],
-              "midi": "na tora 2026/chameleon and the chicken/chameleon and the chicken_Trombone_2.midi"
+              "midi": "na tora 2026/chameleon + the chicken/chameleon + the chicken_Trombone_2.midi"
             },
             {
-              "name": "chameleon and the chicken_Trompete_em_Bb",
+              "name": "chameleon + the chicken_Trompete_em_Bb",
               "instrument": "trompete",
               "svg": [
-                "na tora 2026/chameleon and the chicken/chameleon and the chicken_Trompete_em_Bb-1.svg"
+                "na tora 2026/chameleon + the chicken/chameleon + the chicken_Trompete_em_Bb-1.svg"
               ],
-              "midi": "na tora 2026/chameleon and the chicken/chameleon and the chicken_Trompete_em_Bb.midi"
+              "midi": "na tora 2026/chameleon + the chicken/chameleon + the chicken_Trompete_em_Bb.midi"
             }
           ],
           "tags": [
@@ -53507,7 +53376,8 @@
               "name": "don't let me be misunderstood_Trombone_1",
               "instrument": "trombone",
               "svg": [
-                "na tora 2026/don't let me be misunderstood/don't let me be misunderstood_Trombone_1-1.svg"
+                "na tora 2026/don't let me be misunderstood/don't let me be misunderstood_Trombone_1-1.svg",
+                "na tora 2026/don't let me be misunderstood/don't let me be misunderstood_Trombone_1-2.svg"
               ],
               "midi": "na tora 2026/don't let me be misunderstood/don't let me be misunderstood_Trombone_1.midi"
             },
@@ -53774,58 +53644,58 @@
           "title": "malha funk + i feel good",
           "composer": "Mc Andinho / James Brown",
           "sub": "Esse é o malha funk, Os muleque são dengoso / I feel good, I knew that I would now",
-          "mscz": "na tora 2026/malha funk + i feel good/malha funk + i feel good.mscz",
-          "metajson": "na tora 2026/malha funk + i feel good/malha funk + i feel good.metajson",
-          "midi": "na tora 2026/malha funk + i feel good/malha funk + i feel good_Bateria.midi",
+          "mscz": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good.mscz",
+          "metajson": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good.metajson",
+          "midi": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Bateria.midi",
           "parts": [
             {
-              "name": "malha funk + i feel good_Clarinete_em_Bb",
+              "name": "Malha Funk + i feel good_Clarinete_em_Bb",
               "instrument": "clarinete",
               "svg": [
-                "na tora 2026/malha funk + i feel good/malha funk + i feel good_Clarinete_em_Bb-1.svg"
+                "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Clarinete_em_Bb-1.svg"
               ],
-              "midi": "na tora 2026/malha funk + i feel good/malha funk + i feel good_Clarinete_em_Bb.midi"
+              "midi": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Clarinete_em_Bb.midi"
             },
             {
-              "name": "malha funk + i feel good_Saxofone_Alto",
+              "name": "Malha Funk + i feel good_Saxofone_Alto",
               "instrument": "sax alto",
               "svg": [
-                "na tora 2026/malha funk + i feel good/malha funk + i feel good_Saxofone_Alto-1.svg"
+                "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Saxofone_Alto-1.svg"
               ],
-              "midi": "na tora 2026/malha funk + i feel good/malha funk + i feel good_Saxofone_Alto.midi"
+              "midi": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Saxofone_Alto.midi"
             },
             {
-              "name": "malha funk + i feel good_Saxofone_Tenor",
+              "name": "Malha Funk + i feel good_Saxofone_Tenor",
               "instrument": "sax tenor",
               "svg": [
-                "na tora 2026/malha funk + i feel good/malha funk + i feel good_Saxofone_Tenor-1.svg"
+                "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Saxofone_Tenor-1.svg"
               ],
-              "midi": "na tora 2026/malha funk + i feel good/malha funk + i feel good_Saxofone_Tenor.midi"
+              "midi": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Saxofone_Tenor.midi"
             },
             {
-              "name": "malha funk + i feel good_Trombone",
+              "name": "Malha Funk + i feel good_Trombone",
               "instrument": "trombone",
               "svg": [
-                "na tora 2026/malha funk + i feel good/malha funk + i feel good_Trombone-1.svg"
+                "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Trombone-1.svg"
               ],
-              "midi": "na tora 2026/malha funk + i feel good/malha funk + i feel good_Trombone.midi"
+              "midi": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Trombone.midi"
             },
             {
-              "name": "malha funk + i feel good_Trompete_em_Bb",
+              "name": "Malha Funk + i feel good_Trompete_em_Bb",
               "instrument": "trompete",
               "svg": [
-                "na tora 2026/malha funk + i feel good/malha funk + i feel good_Trompete_em_Bb-1.svg"
+                "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Trompete_em_Bb-1.svg"
               ],
-              "midi": "na tora 2026/malha funk + i feel good/malha funk + i feel good_Trompete_em_Bb.midi"
+              "midi": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Trompete_em_Bb.midi"
             },
             {
-              "name": "malha funk + i feel good_Tuba",
+              "name": "Malha Funk + i feel good_Tuba",
               "instrument": "tuba",
               "svg": [
-                "na tora 2026/malha funk + i feel good/malha funk + i feel good_Tuba-1.svg",
-                "na tora 2026/malha funk + i feel good/malha funk + i feel good_Tuba-2.svg"
+                "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Tuba-1.svg",
+                "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Tuba-2.svg"
               ],
-              "midi": "na tora 2026/malha funk + i feel good/malha funk + i feel good_Tuba.midi"
+              "midi": "na tora 2026/malha funk + i feel good/Malha Funk + i feel good_Tuba.midi"
             }
           ],
           "tags": [
@@ -54001,15 +53871,6 @@
               "midi": "na tora 2026/se você pensa/se você pensa_Trombone_1.midi"
             },
             {
-              "name": "se você pensa_Trombone_2",
-              "instrument": "trombone",
-              "svg": [
-                "na tora 2026/se você pensa/se você pensa_Trombone_2-1.svg",
-                "na tora 2026/se você pensa/se você pensa_Trombone_2-2.svg"
-              ],
-              "midi": "na tora 2026/se você pensa/se você pensa_Trombone_2.midi"
-            },
-            {
               "name": "se você pensa_Trompete_em_Bb",
               "instrument": "trompete",
               "svg": [
@@ -54170,7 +54031,7 @@
           "id": "na tora 2026/you oughta know",
           "title": "you oughta know",
           "composer": "Alanis Morissette e Glen Ballard",
-          "sub": "I want you to know,  that I'm happy for you",
+          "sub": "I want you to know, That I'm happy for you",
           "mscz": "na tora 2026/you oughta know/you oughta know.mscz",
           "metajson": "na tora 2026/you oughta know/you oughta know.metajson",
           "midi": "na tora 2026/you oughta know/you oughta know.midi",

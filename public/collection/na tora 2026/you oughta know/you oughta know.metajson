@@ -4,7 +4,7 @@
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": -2,
     "lyrics": "",
     "measures": 49,
     "mscoreVersion": "3.6.2",
@@ -105,7 +105,7 @@
         }
     ],
     "poet": "rock",
-    "previousSource": "I want you to know,  that I'm happy for you",
+    "previousSource": "I want you to know, That I'm happy for you",
     "subtitle": "",
     "tempo": 0,
     "tempoText": "",
