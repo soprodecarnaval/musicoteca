@@ -117,7 +117,11 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
         for (let partIdx = 0; partIdx < partsForInstrument.length; partIdx++) {
           const part = partsForInstrument[partIdx];
           const partLabel = isMultiPart
-            ? extractPartLabel(part.name, song.title, opts.stripInstrumentFromPartLabel)
+            ? extractPartLabel(
+                part.name,
+                song.title,
+                opts.stripInstrumentFromPartLabel,
+              )
             : undefined;
           const displayNumber = isMultiPart
             ? `${songPageIndex}.${partIdx + 1}`
@@ -347,14 +351,19 @@ const addSongPage = async (
       align: "right",
       width: 17.1 * cm2pt,
     }); // Número topo página
+
+    // Centro do rodapé: "$título: $parte · página ($páginaAtual/$totalPáginas)"
+    const bottomCenterLabel = isMultiPage
+      ? `${displayTitle} · página (${svgPageIdx + 1}/${totalSvgPages})`
+      : displayTitle;
     doc
       .font("Roboto-Medium")
       .fontSize(9)
-      .text(displayTitle, 0, 12.5 * cm2pt, {
+      .text(bottomCenterLabel, 0, 12.5 * cm2pt, {
         align: "center",
-      }); // Título pequeno no centro da página abaixo da partitura
+      });
 
-    // Bottom right: section + number
+    // Direita do rodapé: "$estilo  $índiceMúsica.$índiceParte"
     doc
       .fontSize(9)
       .text(
@@ -365,19 +374,11 @@ const addSongPage = async (
           align: "right",
           width: 17.1 * cm2pt,
         },
-      ); // Estilo + Número
+      );
 
-    // Bottom center: page indicator for multi-page parts
-    if (isMultiPage) {
-      const pageIndicator = partLabel
-        ? `${song.title}: ${partLabel} · página (${svgPageIdx + 1}/${totalSvgPages})`
-        : `${song.title} · página (${svgPageIdx + 1}/${totalSvgPages})`;
-      doc.fontSize(9).text(pageIndicator, 0, 12.5 * cm2pt, {
-        align: "center",
-      });
-    }
-
-    promises.push(drawSvg(doc, `/collection/${part.svg[svgPageIdx]}`, currentPage));
+    promises.push(
+      drawSvg(doc, `/collection/${part.svg[svgPageIdx]}`, currentPage),
+    );
   }
 
   return [currentPage - initialPage, promises];
