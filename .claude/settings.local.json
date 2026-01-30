@@ -5,7 +5,8 @@
       "Bash(npx tsx:*)",
       "Bash(npx tsc:*)",
       "Bash(npm run export:*)",
-      "Bash(npm run export:project:*)"
+      "Bash(npm run export:project:*)",
+      "Bash(npm run build:songbook:*)"
     ]
   }
 }

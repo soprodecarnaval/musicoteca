@@ -16,6 +16,7 @@
     "export:score": "tsx scripts exportScore",
     "export:project": "tsx scripts exportProject",
     "export:collection": "tsx scripts exportCollection",
+    "build:songbook": "tsx scripts/buildSongbook.ts",
     "test": "vitest"
   },
   "dependencies": {
