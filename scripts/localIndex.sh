@@ -31,15 +31,19 @@ fi
 
 echo "=== Using MuseScore: $MSCORE ==="
 
-# 1. Copy mscz to collection in proper folder structure
+# 1. Copy mscz to collection in proper folder structure (if not already there)
 FILENAME=$(basename "$MSCZ_FILE")
 SONG_NAME="${FILENAME%.mscz}"
 DEST_DIR="$COLLECTION_DIR/$PROJECT_NAME/$SONG_NAME"
 DEST_FILE="$DEST_DIR/$FILENAME"
 
-echo "=== Copying to collection ==="
-mkdir -vp "$DEST_DIR"
-cp -v "$MSCZ_FILE" "$DEST_FILE"
+if [ ! -f "$DEST_FILE" ]; then
+    echo "=== Copying to collection ==="
+    mkdir -vp "$DEST_DIR"
+    cp -v "$MSCZ_FILE" "$DEST_FILE"
+else
+    echo "=== File already in collection ==="
+fi
 
 # 2. Generate assets for this file only
 echo "=== Generating assets ==="
@@ -51,7 +55,8 @@ cat "$MEDIA_GENERATION_JSON" | jq
 
 # 3. Index collection
 echo "=== Indexing collection ==="
+rm -rf /tmp/collection
 cp -r "$COLLECTION_DIR" /tmp/collection
-npm run index-collection -- -i /tmp/collection -o "$COLLECTION_DIR" --verbose
+npx tsx scripts/runIndexCollection.ts -i /tmp/collection -o "$COLLECTION_DIR" --verbose
 
 echo "=== Done ==="

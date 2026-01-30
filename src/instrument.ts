@@ -64,3 +64,30 @@ export const parseInstrument = (raw: string): Instrument | undefined => {
   const match = instrumentAliases.find(([alias]) => normalized.includes(alias));
   return match ? match[1] : undefined;
 };
+
+export const extractPartLabel = (
+  partName: string,
+  songTitle: string,
+  stripInstrument: boolean = false,
+): string | undefined => {
+  // Normalize: replace separators with spaces, lowercase
+  let normalized = partName.replace(/[_\-.]/g, " ").toLowerCase();
+  const normalizedSongTitle = songTitle.replace(/[_\-.]/g, " ").toLowerCase();
+
+  // Remove song title
+  normalized = normalized.replace(normalizedSongTitle, "");
+
+  // Optionally remove instrument name
+  if (stripInstrument) {
+    const match = instrumentAliases.find(([alias]) =>
+      normalized.includes(alias),
+    );
+    if (match) {
+      normalized = normalized.replace(match[0], "");
+    }
+  }
+
+  // Clean up: trim, collapse spaces
+  const label = normalized.replace(/\s+/g, " ").trim();
+  return label || undefined;
+};
