@@ -1,8 +1,6 @@
 import {
   Button,
-  ButtonGroup,
   Col,
-  Dropdown,
   Form,
   Row,
   OverlayTrigger,
@@ -12,7 +10,7 @@ import {
   Modal,
   Spinner,
 } from "react-bootstrap";
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import {
   Instrument,
   isSongBookSection,
@@ -23,7 +21,7 @@ import {
 } from "../../types";
 import { createSongBook } from "../createSongBook";
 
-const instruments: Instrument[] = [
+const allInstruments: Instrument[] = [
   "trompete",
   "trombone",
   "sax alto",
@@ -34,14 +32,6 @@ const instruments: Instrument[] = [
   "tuba eb",
   "bombardino",
   "clarinete",
-];
-
-const carnivalInstruments: Instrument[] = [
-  "trompete",
-  "trombone",
-  "sax alto",
-  "sax tenor",
-  "flauta",
 ];
 
 interface PdfGeneratorProps {
@@ -72,6 +62,10 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   const [songbookTitle, setTitle] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [generationProgress, setGenerationProgress] = useState(0);
+  const [currentInstrument, setCurrentInstrument] = useState<Instrument | null>(null);
+  const [completedInstruments, setCompletedInstruments] = useState<Set<Instrument>>(new Set());
+  const [showModal, setShowModal] = useState(false);
+  const [selectedInstruments, setSelectedInstruments] = useState<Set<Instrument>>(new Set());
 
   const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
 
@@ -104,27 +98,81 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
 
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
 
-  const onGeneratePdfClicked = async (e: any, instrument: string = "all") => {
+  // Calculate which instruments have parts and how many scores have each
+  const instrumentStats = useMemo(() => {
+    const totalScores = scores.length;
+    const stats: { instrument: Instrument; count: number }[] = [];
+
+    for (const instrument of allInstruments) {
+      const count = scores.filter((s) =>
+        s.score.parts?.some((p) => p.instrument === instrument)
+      ).length;
+      if (count > 0) {
+        stats.push({ instrument, count });
+      }
+    }
+
+    // Sort by count descending
+    stats.sort((a, b) => b.count - a.count);
+
+    return { stats, totalScores };
+  }, [scores]);
+
+  const toggleInstrument = (instrument: Instrument) => {
+    setSelectedInstruments((prev) => {
+      const next = new Set(prev);
+      if (next.has(instrument)) {
+        next.delete(instrument);
+      } else {
+        next.add(instrument);
+      }
+      return next;
+    });
+  };
+
+  const selectAllInstruments = () => {
+    setSelectedInstruments(new Set(instrumentStats.stats.map((s) => s.instrument)));
+  };
+
+  const deselectAllInstruments = () => {
+    setSelectedInstruments(new Set());
+  };
+
+  const openModal = (e: any) => {
     e.preventDefault();
-    let selectedInstruments = instruments;
-    if (instrument != "all") {
-      selectedInstruments = selectedInstruments.filter((i) => instrument == i);
-    }
-    if (carnivalMode && instrument == "all"){
-      selectedInstruments = carnivalInstruments
-    }
     if (scores.length < 1) {
       alert("Selecione ao menos uma música!");
       return;
     }
-    if (songbookTitle == "") {
+    if (songbookTitle === "") {
       alert("Digite um título para o caderninho!");
       return;
     }
+    // Pre-select all available instruments
+    selectAllInstruments();
+    setCompletedInstruments(new Set());
+    setCurrentInstrument(null);
+    setShowModal(true);
+  };
 
-    // Start generation process
+  const closeModal = () => {
+    if (!isGenerating) {
+      setShowModal(false);
+      setCompletedInstruments(new Set());
+      setGenerationProgress(0);
+    }
+  };
+
+  const onGeneratePdfs = async () => {
+    if (selectedInstruments.size === 0) {
+      alert("Selecione ao menos um instrumento!");
+      return;
+    }
+
     setIsGenerating(true);
     setGenerationProgress(0);
+    setCompletedInstruments(new Set());
+    setCurrentInstrument(null);
 
     try {
       // Create sections from songbook rows
@@ -150,45 +198,25 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
         }
       }
 
-      const totalInstruments = selectedInstruments.length;
-      const skippedInstruments: string[] = [];
-      
-      for (let i = 0; i < selectedInstruments.length; i++) {
-        const instrument = selectedInstruments[i];
+      const instrumentsToGenerate = Array.from(selectedInstruments);
+      const totalInstruments = instrumentsToGenerate.length;
 
-        // Check if this instrument has at least one song available
-        const hasAnySong = sections.some((sec) =>
-          sec.songs.some((song) =>
-            song.parts?.some((p) => p.instrument === instrument)
-          )
-        );
-
-        // Skip generating this instrument if no songs are available
-        if (!hasAnySong) {
-          // advance progress as if processed
-          setGenerationProgress(((i + 1) / totalInstruments) * 100);
-          skippedInstruments.push(instrument.toUpperCase());
-          continue;
-        }
+      for (let i = 0; i < instrumentsToGenerate.length; i++) {
+        const instrument = instrumentsToGenerate[i];
+        setCurrentInstrument(instrument);
 
         await createSongBook({
           instrument,
-          sections, // Pass all sections so index can show all songs
+          sections,
           title: songbookTitle,
           coverImageUrl: songbookImg.imgUrl,
           carnivalMode,
           backSheetPageNumber,
           stripInstrumentFromPartLabel: false,
         });
-        
-        // Update progress
-        setGenerationProgress(((i + 1) / totalInstruments) * 100);
-      }
 
-      if (skippedInstruments.length > 0) {
-        alert(
-          `Não foi gerado PDF para os seguintes instrumentos por falta de partituras: \n- ${skippedInstruments.join("\n- ")}`
-        );
+        setCompletedInstruments((prev) => new Set(prev).add(instrument));
+        setGenerationProgress(((i + 1) / totalInstruments) * 100);
       }
 
       console.log("Terminei");
@@ -197,14 +225,14 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
       alert("Ocorreu um erro ao gerar os PDFs. Por favor, tente novamente.");
     } finally {
       setIsGenerating(false);
-      setGenerationProgress(0);
+      setCurrentInstrument(null);
     }
   };
 
   return (
     <>
       <Row className="mt-4">
-        <Form className="d-flex" onSubmit={onGeneratePdfClicked}>
+        <Form className="d-flex" onSubmit={openModal}>
           <Col sm={6}>
             <Form.Control
               type="text"
@@ -214,24 +242,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
             />
           </Col>
           <Col sm={3}>
-            <Dropdown as={ButtonGroup}>
-              <Button type="submit">Gerar todos</Button>
-
-              <Dropdown.Toggle split id="dropdown-split-basic" />
-
-              <Dropdown.Menu>
-                {instruments.map((instrument) => (
-                  <Dropdown.Item
-                    key={instrument}
-                    onClick={(event: any) =>
-                      onGeneratePdfClicked(event, instrument)
-                    }
-                  >
-                    {instrument.toUpperCase()}
-                  </Dropdown.Item>
-                ))}
-              </Dropdown.Menu>
-            </Dropdown>
+            <Button type="submit">Gerar caderninhos</Button>
           </Col>
           <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
             <Col sm={4}>
@@ -278,31 +289,116 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
         </Form>
       </Row>
 
+      {/* Instrument Selection / Progress Modal */}
       <Modal
-        show={isGenerating}
+        show={showModal}
+        onHide={closeModal}
         centered
-        backdrop="static"
-        keyboard={false}
+        backdrop={isGenerating ? "static" : true}
+        keyboard={!isGenerating}
       >
-        <Modal.Header>
-          <Modal.Title>Gerando PDFs</Modal.Title>
+        <Modal.Header closeButton={!isGenerating}>
+          <Modal.Title>
+            {isGenerating ? "Gerando caderninhos" : "Selecionar instrumentos"}
+          </Modal.Title>
         </Modal.Header>
-        <Modal.Body className="text-center py-4">
-          <Spinner animation="border" variant="primary" className="mb-3" />
-          <p>Gerando caderninhos, por favor aguarde...</p>
-          <div className="progress">
-            <div
-              className="progress-bar"
-              role="progressbar"
-              style={{ width: `${generationProgress}%` }}
-              aria-valuenow={generationProgress}
-              aria-valuemin={0}
-              aria-valuemax={100}
-            >
-              {Math.round(generationProgress)}%
+        <Modal.Body>
+          {!isGenerating && (
+            <div className="d-flex justify-content-between mb-3">
+              <Button variant="outline-primary" size="sm" onClick={selectAllInstruments}>
+                Selecionar todos
+              </Button>
+              <Button variant="outline-secondary" size="sm" onClick={deselectAllInstruments}>
+                Limpar seleção
+              </Button>
             </div>
-          </div>
+          )}
+          <ListGroup>
+            {instrumentStats.stats.map(({ instrument, count }) => {
+              const isSelected = selectedInstruments.has(instrument);
+              const isCompleted = completedInstruments.has(instrument);
+              const isCurrent = currentInstrument === instrument;
+              const isGreyedOut = isGenerating && !isSelected;
+
+              return (
+                <ListGroup.Item
+                  key={instrument}
+                  action={!isGenerating}
+                  onClick={() => !isGenerating && toggleInstrument(instrument)}
+                  className="d-flex align-items-center"
+                  style={{
+                    cursor: isGenerating ? "default" : "pointer",
+                    opacity: isGreyedOut ? 0.4 : 1,
+                  }}
+                >
+                  <span className="me-3" style={{ width: "1.25rem", display: "inline-flex", justifyContent: "center" }}>
+                    {!isGenerating ? (
+                      <Form.Check
+                        type="checkbox"
+                        checked={isSelected}
+                        onChange={() => toggleInstrument(instrument)}
+                        onClick={(e) => e.stopPropagation()}
+                      />
+                    ) : isSelected ? (
+                      isCompleted ? "✅" : isCurrent ? (
+                        <Spinner animation="border" size="sm" variant="primary" />
+                      ) : null
+                    ) : null}
+                  </span>
+                  <span className="flex-grow-1">{instrument.toUpperCase()}</span>
+                  <span className="text-muted">
+                    ({count}/{instrumentStats.totalScores})
+                  </span>
+                </ListGroup.Item>
+              );
+            })}
+          </ListGroup>
+          {instrumentStats.stats.length === 0 && (
+            <p className="text-muted text-center">
+              Nenhum instrumento disponível nas músicas selecionadas.
+            </p>
+          )}
+          {isGenerating && (
+            <div className="progress mt-3">
+              <div
+                className="progress-bar"
+                role="progressbar"
+                style={{ width: `${generationProgress}%` }}
+                aria-valuenow={generationProgress}
+                aria-valuemin={0}
+                aria-valuemax={100}
+              >
+                {Math.round(generationProgress)}%
+              </div>
+            </div>
+          )}
         </Modal.Body>
+        <Modal.Footer>
+          {!isGenerating && completedInstruments.size === 0 && (
+            <>
+              <Button variant="secondary" onClick={closeModal}>
+                Cancelar
+              </Button>
+              <Button
+                variant="primary"
+                onClick={onGeneratePdfs}
+                disabled={selectedInstruments.size === 0}
+              >
+                Gerar {selectedInstruments.size} caderninho{selectedInstruments.size !== 1 ? "s" : ""}
+              </Button>
+            </>
+          )}
+          {isGenerating && (
+            <Button variant="secondary" disabled>
+              Gerando...
+            </Button>
+          )}
+          {!isGenerating && completedInstruments.size > 0 && (
+            <Button variant="success" onClick={closeModal}>
+              Fechar
+            </Button>
+          )}
+        </Modal.Footer>
       </Modal>
     </>
   );
