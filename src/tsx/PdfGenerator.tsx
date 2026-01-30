@@ -6,7 +6,6 @@ import {
   OverlayTrigger,
   Tooltip,
   ListGroup,
-  CloseButton,
   Modal,
   Spinner,
 } from "react-bootstrap";
@@ -66,20 +65,9 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   const [completedInstruments, setCompletedInstruments] = useState<Set<Instrument>>(new Set());
   const [showModal, setShowModal] = useState(false);
   const [selectedInstruments, setSelectedInstruments] = useState<Set<Instrument>>(new Set());
+  const [instrumentCovers, setInstrumentCovers] = useState<Map<Instrument, string>>(new Map());
 
   const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
-
-  const [songbookImg, setImg] = useState({
-    imgUrl: "",
-    imgName: "",
-    imgSize: "",
-  });
-  const onInputSongbookImg = ({ target: { files } }: any) =>
-    setImg({
-      imgUrl: URL.createObjectURL(files[0]),
-      imgName: files[0].name,
-      imgSize: files[0].size,
-    });
 
   const [carnivalMode, setCarnivalMode] = useState(false);
   const onCheckCarnivalMode = ({ target: { checked } }: any) => {
@@ -87,16 +75,19 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
     setCarnivalMode(checked);
   };
 
-  const removeSongbookImg = () =>
-    setImg({ imgName: "", imgSize: "", imgUrl: "" });
-
-  const formattedImgName = () =>
-    songbookImg.imgName.slice(0, -4).slice(0, 25).toLowerCase();
-
-  const formattedImgSize = () =>
-    (parseInt(songbookImg.imgSize) * Math.pow(10, -6)).toFixed(2);
-
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
+
+  const setInstrumentCover = (instrument: Instrument, file: File | null) => {
+    setInstrumentCovers((prev) => {
+      const next = new Map(prev);
+      if (file) {
+        next.set(instrument, URL.createObjectURL(file));
+      } else {
+        next.delete(instrument);
+      }
+      return next;
+    });
+  };
 
   // Calculate which instruments have parts and how many scores have each
   const instrumentStats = useMemo(() => {
@@ -152,6 +143,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
     selectAllInstruments();
     setCompletedInstruments(new Set());
     setCurrentInstrument(null);
+    setInstrumentCovers(new Map());
     setShowModal(true);
   };
 
@@ -209,7 +201,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
           instrument,
           sections,
           title: songbookTitle,
-          coverImageUrl: songbookImg.imgUrl,
+          coverImageUrl: instrumentCovers.get(instrument) || "",
           carnivalMode,
           backSheetPageNumber,
           stripInstrumentFromPartLabel: false,
@@ -254,38 +246,6 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
               />
             </Col>
           </OverlayTrigger>
-          <Form.Group controlId="formFileImg" className="mb-1">
-            <Form.Label
-              className={
-                songbookImg.imgUrl !== ""
-                  ? "btn btn-success w-100 container mb-0"
-                  : "btn btn-primary w-100 mb-0"
-              }
-              style={{
-                wordWrap: "break-word",
-                display: "flex",
-                justifyContent: "space-between",
-                paddingRight: "5px",
-              }}
-            >
-              {songbookImg.imgUrl !== "" ? (
-                <span>{`${formattedImgName()} - ${formattedImgSize()} MB`}</span>
-              ) : (
-                <span>Imagem da capa</span>
-              )}
-              <CloseButton
-                hidden={songbookImg.imgUrl === ""}
-                onClick={removeSongbookImg}
-                variant="white"
-              />
-            </Form.Label>
-            <Form.Control
-              type="file"
-              hidden={true}
-              onChange={onInputSongbookImg}
-              accept="image/png,image/jpeg"
-            />
-          </Form.Group>
         </Form>
       </Row>
 
@@ -320,6 +280,8 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
               const isCurrent = currentInstrument === instrument;
               const isGreyedOut = isGenerating && !isSelected;
 
+              const hasCover = instrumentCovers.has(instrument);
+
               return (
                 <ListGroup.Item
                   key={instrument}
@@ -346,9 +308,32 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
                     ) : null}
                   </span>
                   <span className="flex-grow-1">{instrument.toUpperCase()}</span>
-                  <span className="text-muted">
+                  <span className="text-muted me-2">
                     ({count}/{instrumentStats.totalScores})
                   </span>
+                  {!isGenerating && (
+                    <>
+                      <Form.Label
+                        htmlFor={`cover-${instrument}`}
+                        className={`btn btn-sm ${hasCover ? "btn-success" : "btn-outline-secondary"} mb-0`}
+                        style={{ cursor: "pointer", fontSize: "0.75rem" }}
+                        onClick={(e) => e.stopPropagation()}
+                      >
+                        {hasCover ? "✓ Capa" : "Capa"}
+                      </Form.Label>
+                      <Form.Control
+                        id={`cover-${instrument}`}
+                        type="file"
+                        hidden
+                        accept="image/png,image/jpeg"
+                        onChange={(e: any) => {
+                          const file = e.target.files?.[0] || null;
+                          setInstrumentCover(instrument, file);
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                      />
+                    </>
+                  )}
                 </ListGroup.Item>
               );
             })}
