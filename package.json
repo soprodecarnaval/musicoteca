@@ -12,6 +12,10 @@
     "index-collection": "tsx scripts indexCollection",
     "download-gdrive": "tsx scripts downloadGoogleDrive",
     "migrate-collection": "tsx scripts migrateCollection",
+    "export": "tsx scripts export",
+    "export:score": "tsx scripts exportScore",
+    "export:project": "tsx scripts exportProject",
+    "export:collection": "tsx scripts exportCollection",
     "test": "vitest"
   },
   "dependencies": {

@@ -3,7 +3,9 @@
     "allow": [
       "mcp__acp__Edit",
       "Bash(npx tsx:*)",
-      "Bash(npx tsc:*)"
+      "Bash(npx tsc:*)",
+      "Bash(npm run export:*)",
+      "Bash(npm run export:project:*)"
     ]
   }
 }

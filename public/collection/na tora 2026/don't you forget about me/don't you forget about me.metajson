@@ -1,0 +1,91 @@
+{
+    "composer": "Keith Forsey e Steve Schiff",
+    "duration": 220,
+    "fileVersion": 302,
+    "hasHarmonies": "false",
+    "hasLyrics": "false",
+    "keysig": 0,
+    "lyrics": "",
+    "measures": 56,
+    "mscoreVersion": "3.6.2",
+    "pageFormat": {
+        "height": 210,
+        "twosided": "true",
+        "width": 297
+    },
+    "pages": 7,
+    "parts": [
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.clarinet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Clarinete em B♭",
+            "program": 71
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.alto",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Saxofone Alto",
+            "program": 65
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "wind.reed.saxophone.tenor",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Saxofone Tenor",
+            "program": 66
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trumpet.bflat",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trompete 1",
+            "program": 56
+        },
+        {
+            "harmonyCount": 0,
+            "hasDrumStaff": "false",
+            "hasPitchedStaff": "true",
+            "hasTabStaff": "false",
+            "instrumentId": "brass.trombone",
+            "isVisible": "true",
+            "lyricCount": 0,
+            "name": "Trombone 1",
+            "program": 57
+        }
+    ],
+    "poet": "rock 80",
+    "previousSource": "Don't you forget about me, Don't, don't, don't, don't",
+    "subtitle": "",
+    "tempo": 110,
+    "tempoText": "<sym>metNoteQuarterUp</sym> = 110",
+    "textFramesData": {
+        "composers": [
+        ],
+        "poets": [
+        ],
+        "subtitles": [
+        ],
+        "titles": [
+        ]
+    },
+    "timesig": "4/4",
+    "title": "Don't You Forget About Me"
+}
