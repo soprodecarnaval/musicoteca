@@ -80,6 +80,11 @@ const scrapeMediaAsset = (
         );
       }
     }
+    if (!name || name.trim() === "") {
+      return err(
+        warning(`Part name is empty`, { entryPath, songDirectory }),
+      );
+    }
     const partIdx = draft.parts.findIndex((p: any) => p.name === name);
     if (partIdx === -1) {
       draft.parts.push({

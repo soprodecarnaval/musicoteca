@@ -178,6 +178,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
           coverImageUrl: songbookImg.imgUrl,
           carnivalMode,
           backSheetPageNumber,
+          stripInstrumentFromPartLabel: false,
         });
         
         // Update progress
