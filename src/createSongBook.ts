@@ -310,55 +310,68 @@ const addSongPage = async (
     }
   }
 
-  doc.addPage();
-  currentPage++;
+  const totalSvgPages = part.svg.length;
+  const isMultiPage = totalSvgPages > 1;
 
-  sectionTitleOutlines.get(sectionTitle).addItem(displayTitle);
-  doc.addNamedDestination(destId);
-  doc
-    .font("Roboto-Bold")
-    .fontSize(22)
-    .text(displayTitle, 0.39 * cm2pt, 1.2 * cm2pt, {}); // Título x: 0.44*cm2pt, y: 10*cm2pt,
-  doc
-    .rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt)
-    .fillAndStroke(); // Retângulo do trecho da letra
-  doc
-    .fontSize(9)
-    .fillColor("white")
-    .text(song.sub.toUpperCase(), 0.5 * cm2pt, 2.21 * cm2pt); // Trecho da letra
-  doc.text(song.composer.toUpperCase(), 0.44 * cm2pt, 2.21 * cm2pt, {
-    align: "right",
-    width: 17.1 * cm2pt,
-  }); // Compositor
-  doc.rect(0.44 * cm2pt, 2.55 * cm2pt, 17.17 * cm2pt, 9.82 * cm2pt).stroke(); // Retângulo da partitura
-  doc
-    .fontSize(9)
-    .fillColor("black")
-    .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
-  doc.fontSize(1.2 * cm2pt).text(songPageIndex, 0.44 * cm2pt, 0.93 * cm2pt, {
-    align: "right",
-    width: 17.1 * cm2pt,
-  }); // Número topo página
-  doc
-    .font("Roboto-Medium")
-    .fontSize(9)
-    .text(displayTitle, 0, 12.5 * cm2pt, {
-      align: "center",
-    }); // Título pequeno no centro da página abaixo da partitura
+  for (let svgPageIdx = 0; svgPageIdx < totalSvgPages; svgPageIdx++) {
+    doc.addPage();
+    currentPage++;
 
-  doc
-    .fontSize(9)
-    .text(
-      `${sectionTitle.toUpperCase()}   ${displayNumber}`,
-      0.44 * cm2pt,
-      12.5 * cm2pt,
-      {
-        align: "right",
-        width: 17.1 * cm2pt,
-      },
-    ); // Estilo + Número
+    // Only add outline and destination on first page
+    if (svgPageIdx === 0) {
+      sectionTitleOutlines.get(sectionTitle).addItem(displayTitle);
+      doc.addNamedDestination(destId);
+    }
 
-  promises.push(drawSvg(doc, `/collection/${part.svg}`, currentPage));
+    doc
+      .font("Roboto-Bold")
+      .fontSize(22)
+      .text(displayTitle, 0.39 * cm2pt, 1.2 * cm2pt, {}); // Título
+    doc
+      .rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt)
+      .fillAndStroke(); // Retângulo do trecho da letra
+    doc
+      .fontSize(9)
+      .fillColor("white")
+      .text(song.sub.toUpperCase(), 0.5 * cm2pt, 2.21 * cm2pt); // Trecho da letra
+    doc.text(song.composer.toUpperCase(), 0.44 * cm2pt, 2.21 * cm2pt, {
+      align: "right",
+      width: 17.1 * cm2pt,
+    }); // Compositor
+    doc.rect(0.44 * cm2pt, 2.55 * cm2pt, 17.17 * cm2pt, 9.82 * cm2pt).stroke(); // Retângulo da partitura
+    doc
+      .fontSize(9)
+      .fillColor("black")
+      .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
+    doc.fontSize(1.2 * cm2pt).text(displayNumber, 0.44 * cm2pt, 0.93 * cm2pt, {
+      align: "right",
+      width: 17.1 * cm2pt,
+    }); // Número topo página
+    doc
+      .font("Roboto-Medium")
+      .fontSize(9)
+      .text(displayTitle, 0, 12.5 * cm2pt, {
+        align: "center",
+      }); // Título pequeno no centro da página abaixo da partitura
+
+    // Bottom right: section + number, with page indicator for multi-page parts
+    const pageIndicator = isMultiPage
+      ? `   pág. ${svgPageIdx + 1}/${totalSvgPages}`
+      : "";
+    doc
+      .fontSize(9)
+      .text(
+        `${sectionTitle.toUpperCase()}   ${displayNumber}${pageIndicator}`,
+        0.44 * cm2pt,
+        12.5 * cm2pt,
+        {
+          align: "right",
+          width: 17.1 * cm2pt,
+        },
+      ); // Estilo + Número + Página
+
+    promises.push(drawSvg(doc, `/collection/${part.svg[svgPageIdx]}`, currentPage));
+  }
 
   return [currentPage - initialPage, promises];
 };

@@ -27,11 +27,11 @@ MuseScore {
    property variant multiNoteOffset: -2.3
    property variant pitchOffsetScale: -5.0
    property var instrumentList: [
-      "Trumpet Bb", 
-      "Trumpet C", 
-      "Trombone", 
-      "Tuba", 
-      "Tuba Eb", 
+      "Trumpet Bb",
+      "Trumpet C",
+      "Trombone",
+      "Tuba",
+      "Tuba Eb",
       "Euphonium",
       "Sax Soprano",
       "Sax Alto",
@@ -90,7 +90,7 @@ MuseScore {
             text: "Clean fingering"
             Layout.fillWidth: true
             Layout.margins: 1
-            
+
             onClicked: {
                curScore.startCmd()
                if(optAll.checked){
@@ -116,7 +116,7 @@ MuseScore {
                cleanTextBox()
             }
          }
-         
+
          Text {
             id: basic3
             text: "3."
@@ -190,7 +190,7 @@ MuseScore {
                // set configuration
                breakLine = false;
                noteShift = 0;
-               
+
                curScore.startCmd()
                if(optAll.checked){
                   forAllParts(autoAddFingering)
@@ -215,7 +215,7 @@ MuseScore {
                // set configuration
                breakLine = false;
                noteShift = 0;
-               
+
                curScore.startCmd()
                if(optAll.checked){
                   forAllParts(adjustFingeringFontSize)
@@ -256,7 +256,7 @@ MuseScore {
                // set configuration
                breakLine = false;
                noteShift = 0;
-               
+
                curScore.startCmd()
                if(optAll.checked){
                   forAllParts(autoAddFingering)
@@ -271,7 +271,7 @@ MuseScore {
             text: "Clean fingering"
             Layout.fillWidth: true
             Layout.margins: 1
-            
+
             onClicked: {
                curScore.startCmd()
                if(optAll.checked){
@@ -393,7 +393,7 @@ MuseScore {
                // set configuration
                breakLine = false;
                noteShift = 0;
-               
+
                curScore.startCmd()
                if(optAll.checked){
                   forAllParts(adjustFingeringFontSize)
@@ -643,7 +643,7 @@ MuseScore {
          case 30: return "6"; break;//C
          case 31: return "5"; break;//Db
          case 32: return "4"; break;//D
-         case 33: return "3"; break;//Eb            
+         case 33: return "3"; break;//Eb
          case 34: return "2"; break;//E
          case 35: return "1"; break;//F
          case 36: return "5"; break;//Gb
@@ -844,8 +844,8 @@ MuseScore {
                   removeElement(elements[i])
                }
             }
-         } 
-         
+         }
+
          if (cursor.segment.annotations) {
             for (var i = 0; i < cursor.segment.annotations.length; i++){
                var annotation = cursor.segment.annotations[i]
@@ -926,6 +926,7 @@ MuseScore {
             if (isSax && optAll.checked) {
                console.log("Not adding sax fingering")
             } else {
+               log("resolved instrument: ", valInstrument);
                addFingering(score,staffIdx)
             }
          }
@@ -979,9 +980,9 @@ MuseScore {
                      } else {
                         cursor.element.stemDirection = Direction.DOWN;
                      }
-                     
+
                } else { // Default to Treble Logic
-                     if (note.pitch < 71){ 
+                     if (note.pitch < 71){
                         cursor.element.stemDirection = Direction.UP;
                      } else {
                         cursor.element.stemDirection = Direction.DOWN;

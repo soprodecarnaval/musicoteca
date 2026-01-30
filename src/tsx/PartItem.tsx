@@ -19,7 +19,7 @@ interface PartItemProps {
 const PartItem = ({ score, part, handlePlayingSong }: PartItemProps) => {
   const [showPreview, setShowPreview] = useState(false);
 
-  const hasSvg = part.svg != "";
+  const hasSvg = part.svg.length > 0;
 
   const handlePlay = async () => {
     handlePlayingSong({ score, part });

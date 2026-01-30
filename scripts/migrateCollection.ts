@@ -70,11 +70,12 @@ const migratePart = (
   const partName = `${score.title} - ${oldPart.name}`;
   const partRelPath = path.join(scoreDirRelPath, partName);
   console.debug(`migratePart: '${partName}'`);
+  const svgPath = migrateAsset(srcDir, oldPart.assets, destDir, partRelPath, "svg");
   const part = {
     name: partName,
     instrument: oldPart.instrument,
     midi: migrateAsset(srcDir, oldPart.assets, destDir, partRelPath, "midi"),
-    svg: migrateAsset(srcDir, oldPart.assets, destDir, partRelPath, "svg"),
+    svg: svgPath ? [svgPath] : [],
   };
   score.parts.push(part);
 };
@@ -164,7 +165,7 @@ const migrateArrangement = (
   }
 };
 
-const migrateCollection = (srcDir: string, destDir: string) => {
+const migrateV1ToV3 = (srcDir: string, destDir: string) => {
   const collectionJsonPath = path.join(srcDir, "collection.json");
   if (!fs.existsSync(collectionJsonPath)) {
     console.error("ERROR: No collection.json found in input folder");
@@ -175,7 +176,7 @@ const migrateCollection = (srcDir: string, destDir: string) => {
   ) as OldCollection;
   const newCollection: Collection = {
     projects: [],
-    version: 2,
+    version: 3,
   };
   for (const oldSong of oldCollection.songs) {
     for (const arrangement of oldSong.arrangements) {
@@ -213,9 +214,123 @@ const migrateCollection = (srcDir: string, destDir: string) => {
   );
 };
 
+interface V2Part {
+  name: string;
+  instrument: Instrument;
+  svg: string;
+  midi: string;
+}
+
+interface V2Score {
+  id: string;
+  title: string;
+  composer: string;
+  sub: string;
+  mscz: string;
+  metajson: string;
+  midi: string;
+  parts: V2Part[];
+  tags: string[];
+  projectTitle: string;
+}
+
+interface V2Project {
+  title: string;
+  scores: V2Score[];
+}
+
+interface V2Collection {
+  projects: V2Project[];
+  version: 2;
+}
+
+const migrateV2ToV3 = (srcDir: string, destDir: string) => {
+  const collectionJsonPath = path.join(srcDir, "collection.json");
+  if (!fs.existsSync(collectionJsonPath)) {
+    console.error("ERROR: No collection.json found in input folder");
+    return;
+  }
+  const v2Collection = JSON.parse(
+    fs.readFileSync(collectionJsonPath, "utf8"),
+  ) as V2Collection;
+
+  // Copy all files from srcDir to destDir
+  console.info(`Copying files from '${srcDir}' to '${destDir}'...`);
+  fs.cpSync(srcDir, destDir, { recursive: true });
+
+  // Convert v2 to v3: svg: string -> svg: string[]
+  const v3Collection: Collection = {
+    projects: v2Collection.projects.map((project) => ({
+      title: project.title,
+      scores: project.scores.map((score) => ({
+        id: score.id,
+        title: score.title,
+        composer: score.composer,
+        sub: score.sub,
+        mscz: score.mscz,
+        metajson: score.metajson,
+        midi: score.midi,
+        tags: score.tags,
+        projectTitle: score.projectTitle,
+        parts: score.parts.map((part) => ({
+          name: part.name,
+          instrument: part.instrument,
+          svg: part.svg ? [part.svg] : [],
+          midi: part.midi,
+        })),
+      })),
+    })),
+    version: 3,
+  };
+
+  fs.writeFileSync(
+    path.join(destDir, "collection.json"),
+    JSON.stringify(v3Collection, null, 2),
+  );
+  console.info(`Migrated ${v3Collection.projects.length} projects to v3`);
+};
+
+type CollectionVersion = 1 | 2 | 3;
+
+const detectCollectionVersion = (collectionJsonPath: string): CollectionVersion => {
+  const collection = JSON.parse(fs.readFileSync(collectionJsonPath, "utf8"));
+  // v3 has version: 3
+  if (collection.version === 3) {
+    return 3;
+  }
+  // v2 has version: 2 or has projects array with scores
+  if (collection.version === 2 || (collection.projects && !collection.songs)) {
+    return 2;
+  }
+  // v1 has songs array
+  return 1;
+};
+
+const migrateCollection = (srcDir: string, destDir: string) => {
+  const collectionJsonPath = path.join(srcDir, "collection.json");
+  if (!fs.existsSync(collectionJsonPath)) {
+    console.error("ERROR: No collection.json found in input folder");
+    return;
+  }
+
+  const version = detectCollectionVersion(collectionJsonPath);
+  console.info(`Detected collection version: ${version}`);
+
+  if (version === 3) {
+    console.info("Collection is already v3, nothing to migrate");
+    return;
+  }
+
+  if (version === 2) {
+    migrateV2ToV3(srcDir, destDir);
+  } else {
+    migrateV1ToV3(srcDir, destDir);
+  }
+};
+
 const run = async (args: string[]) => {
   const argParser = new ArgumentParser({
-    description: "Migrates v1 collections to v2 collections",
+    description: "Migrates v1 or v2 collections to v3 format",
   });
 
   argParser.add_argument("-i", "--input", {

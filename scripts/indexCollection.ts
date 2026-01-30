@@ -7,7 +7,6 @@ import {
   Instrument,
   Project,
   Score,
-  zCollection,
   zScore,
 } from "../types";
 import { Ok, Result, Warning, err, ok, warning } from "../src/result";
@@ -67,30 +66,43 @@ const scrapeMediaAsset = (
   const field = ext.replace(".", "");
   if (instrument) {
     let name = path.basename(entry, ext);
-    // svg assets might have a page number suffix, we should remove it from the name, and only keep the first page
+    let pageNumber: number | undefined;
+
+    // svg assets might have a page number suffix (e.g., "-1", "-2")
     if (ext === ".svg" && name.match(/-\d+$/)) {
-      if (name.match(/-1$/)) {
+      const match = name.match(/-(\d+)$/);
+      if (match) {
+        pageNumber = parseInt(match[1], 10);
         name = name.replace(/-\d+$/, "");
-      } else {
-        return err(
-          warning(`Found a non-first page svg asset, ignoring it`, {
-            name,
-            entryPath,
-          }),
-        );
       }
     }
+
     if (!name || name.trim() === "") {
       return err(
         warning(`Part name is empty`, { entryPath, songDirectory }),
       );
     }
-    const partIdx = draft.parts.findIndex((p: any) => p.name === name);
+
+    let partIdx = draft.parts.findIndex((p: any) => p.name === name);
     if (partIdx === -1) {
       draft.parts.push({
         name,
         instrument,
-        [field]: entryPath,
+        svg: [],
+      });
+      partIdx = draft.parts.length - 1;
+    }
+
+    // Ensure svg is initialized (for backwards compatibility)
+    if (!draft.parts[partIdx].svg) {
+      draft.parts[partIdx].svg = [];
+    }
+
+    if (ext === ".svg") {
+      // Add SVG page to the array (will be sorted later)
+      draft.parts[partIdx].svg.push({
+        page: pageNumber ?? 1,
+        path: entryPath,
       });
     } else {
       draft.parts[partIdx][field] = entryPath;
@@ -129,6 +141,14 @@ const indexScore = (
       if (!result.ok) {
         scrapeAssetErrors.push(...result.warnings);
       }
+    }
+  }
+
+  // Sort svg by page number and convert to array of paths
+  for (const part of draft.parts) {
+    if (part.svg && Array.isArray(part.svg)) {
+      part.svg.sort((a: any, b: any) => a.page - b.page);
+      part.svg = part.svg.map((p: any) => p.path);
     }
   }
 
@@ -270,11 +290,23 @@ function copySongAssets(
     }
   }
   for (const part of song.parts) {
-    const partAssets = ["svg" as const, "midi" as const];
-    for (const partAsset of partAssets) {
-      const result = copyAsset(part, partAsset, inputPath, outputPath);
-      if (!result.ok) {
-        warnings.push(...result.warnings);
+    // Copy midi asset
+    const midiResult = copyAsset(part, "midi", inputPath, outputPath);
+    if (!midiResult.ok) {
+      warnings.push(...midiResult.warnings);
+    }
+    // Copy all SVG pages
+    for (let i = 0; i < part.svg.length; i++) {
+      const inputAbsPath = part.svg[i];
+      if (inputAbsPath) {
+        const relPath = path.relative(inputPath, inputAbsPath);
+        const outputAbsPath = path.join(outputPath, relPath);
+        const outputDirname = path.dirname(outputAbsPath);
+        if (!fs.existsSync(outputDirname)) {
+          fs.mkdirSync(outputDirname, { recursive: true });
+        }
+        fs.copyFileSync(inputAbsPath, outputAbsPath);
+        part.svg[i] = relPath;
       }
     }
   }
@@ -291,7 +323,7 @@ function writeCollection(
 ): Ok<Collection> {
   const collection: Collection = {
     projects,
-    version: 2,
+    version: 3,
   };
   const warnings: Warning[] = [];
   for (const project of projects) {
@@ -304,9 +336,10 @@ function writeCollection(
   return ok(collection, warnings);
 }
 
-const readCollection = (collectionPath: string): Collection => {
+const readCollection = (collectionPath: string): Collection | any => {
   const collectionJson = fs.readFileSync(collectionPath, "utf-8");
-  return zCollection.parse(JSON.parse(collectionJson));
+  // Use loose parsing for backwards compatibility (only used for backfilling tags)
+  return JSON.parse(collectionJson);
 };
 
 /**

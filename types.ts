@@ -19,7 +19,7 @@ export type Instrument = z.infer<typeof zInstrument>;
 export const zPart = z.object({
   name: z.string(),
   instrument: zInstrument,
-  svg: z.string(),
+  svg: z.array(z.string()),
   midi: z.string(),
 });
 export type Part = z.infer<typeof zPart>;
@@ -45,7 +45,7 @@ export interface Project {
 
 export const zCollection = z.object({
   projects: z.array(z.object({ title: z.string(), scores: z.array(zScore) })),
-  version: z.literal(2),
+  version: z.literal(3),
 });
 
 export type Collection = z.infer<typeof zCollection>;

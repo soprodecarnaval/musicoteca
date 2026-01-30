@@ -84,7 +84,7 @@ const PreviewModal = ({ show, handleShow, part }: PreviewModalProps) => {
           onClick={handlePause}
         />
         <small id="song-time-preview"></small>
-        <FilesCarousel svgs={[part.svg]} />
+        <FilesCarousel svgs={part.svg} />
       </Modal.Body>
     </Modal>
   );
