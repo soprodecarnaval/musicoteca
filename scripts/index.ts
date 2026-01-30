@@ -45,6 +45,11 @@ const main = async () => {
       await exportCollection(process.argv.slice(3));
       break;
     }
+    case "buildSongbook": {
+      const { default: buildSongbook } = await import("./buildSongbook");
+      await buildSongbook(process.argv.slice(3));
+      break;
+    }
     default:
       console.error(`ERROR: script '${script}' not found`);
   }
