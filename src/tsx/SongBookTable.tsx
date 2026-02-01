@@ -14,6 +14,7 @@ import {
   songBookSection,
   PlayingPart,
   SongBookItem,
+  SongBookScore,
   Score,
 } from "../../types";
 
@@ -77,6 +78,12 @@ const SongBookTable = ({
     </Tooltip>
   );
 
+  const handleUpdateScore = (idx: number, updatedScore: Score) => {
+    const newRows = [...rows];
+    newRows[idx] = { type: "score", score: updatedScore } as SongBookScore;
+    setRows(newRows);
+  };
+
   const SongBookTableRow = ({ row, idx }: SongBookTableRowProps) => {
     if (isSongBookSection(row)) {
       return (
@@ -94,6 +101,7 @@ const SongBookTable = ({
         key={row.score.id}
         handlePlayingSong={handlePlayingSong}
         handleMove={(steps) => setRows(moveRow(rows, idx, steps))}
+        handleUpdateScore={(updatedScore) => handleUpdateScore(idx, updatedScore)}
       />
     );
   };
