@@ -33,7 +33,7 @@ jobs:
       - name: Get apt dependencies
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
-          packages: jq libegl-dev libasound2 libjack0 librust-gobject-sys-dev libnss3 xvfb
+          packages: jq libegl-dev libasound2 libjack0 librust-gobject-sys-dev libnss3 xvfb libasound2-dev
           version: 1.0
       - name: Setup MuseScore AppImage
         run: |
