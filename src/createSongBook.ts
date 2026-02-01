@@ -16,6 +16,7 @@ const pageHeight = 13 * cm2pt;
 export interface CreateSongBookOptions {
   title: string;
   instrument: Instrument;
+  fallbackInstrument?: Instrument;
   sections: Section[];
   coverImageUrl: string;
   backSheetPageNumber: boolean;
@@ -107,9 +108,14 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
     sectionTitleOutlines.set(title, topItem);
 
     for (const song of songs) {
-      // Get all parts for the current instrument
-      const partsForInstrument =
+      // Get all parts for the current instrument, with optional fallback
+      let partsForInstrument =
         song.parts?.filter((p) => p.instrument === instrument) ?? [];
+
+      if (partsForInstrument.length === 0 && opts.fallbackInstrument) {
+        partsForInstrument =
+          song.parts?.filter((p) => p.instrument === opts.fallbackInstrument) ?? [];
+      }
 
       if (partsForInstrument.length > 0) {
         const isMultiPart = partsForInstrument.length > 1;

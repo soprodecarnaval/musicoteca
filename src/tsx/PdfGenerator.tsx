@@ -9,7 +9,7 @@ import {
   Modal,
   Spinner,
 } from "react-bootstrap";
-import { useState, useMemo } from "react";
+import React, { useState, useMemo } from "react";
 import {
   Instrument,
   isSongBookSection,
@@ -32,6 +32,11 @@ const allInstruments: Instrument[] = [
   "bombardino",
   "clarinete",
 ];
+
+// Fallback instrument mapping: when primary instrument is missing, use fallback
+const instrumentFallbacks: Partial<Record<Instrument, Instrument>> = {
+  "clarinete": "sax tenor",
+};
 
 interface PdfGeneratorProps {
   songBook: SongBook;
@@ -66,6 +71,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   const [showModal, setShowModal] = useState(false);
   const [selectedInstruments, setSelectedInstruments] = useState<Set<Instrument>>(new Set());
   const [instrumentCovers, setInstrumentCovers] = useState<Map<Instrument, string>>(new Map());
+  const [enabledFallbacks, setEnabledFallbacks] = useState<Set<Instrument>>(new Set());
 
   const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
 
@@ -92,14 +98,22 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   // Calculate which instruments have parts and how many scores have each
   const instrumentStats = useMemo(() => {
     const totalScores = scores.length;
-    const stats: { instrument: Instrument; count: number }[] = [];
+    const stats: { instrument: Instrument; count: number; countWithFallback?: number }[] = [];
 
     for (const instrument of allInstruments) {
       const count = scores.filter((s) =>
         s.score.parts?.some((p) => p.instrument === instrument)
       ).length;
       if (count > 0) {
-        stats.push({ instrument, count });
+        const fallback = instrumentFallbacks[instrument];
+        let countWithFallback: number | undefined;
+        if (fallback) {
+          countWithFallback = scores.filter((s) =>
+            s.score.parts?.some((p) => p.instrument === instrument) ||
+            s.score.parts?.some((p) => p.instrument === fallback)
+          ).length;
+        }
+        stats.push({ instrument, count, countWithFallback });
       }
     }
 
@@ -144,6 +158,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
     setCompletedInstruments(new Set());
     setCurrentInstrument(null);
     setInstrumentCovers(new Map());
+    setEnabledFallbacks(new Set());
     setShowModal(true);
   };
 
@@ -199,6 +214,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
 
         await createSongBook({
           instrument,
+          fallbackInstrument: enabledFallbacks.has(instrument) ? instrumentFallbacks[instrument] : undefined,
           sections,
           title: songbookTitle,
           coverImageUrl: instrumentCovers.get(instrument) || "",
@@ -274,67 +290,96 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
             </div>
           )}
           <ListGroup>
-            {instrumentStats.stats.map(({ instrument, count }) => {
+            {instrumentStats.stats.map(({ instrument, count, countWithFallback }) => {
               const isSelected = selectedInstruments.has(instrument);
               const isCompleted = completedInstruments.has(instrument);
               const isCurrent = currentInstrument === instrument;
               const isGreyedOut = isGenerating && !isSelected;
 
               const hasCover = instrumentCovers.has(instrument);
+              const fallback = instrumentFallbacks[instrument];
+              const hasFallback = fallback && countWithFallback && countWithFallback > count;
+              const fallbackEnabled = enabledFallbacks.has(instrument);
+              const displayCount = fallbackEnabled && countWithFallback ? countWithFallback : count;
 
               return (
-                <ListGroup.Item
-                  key={instrument}
-                  action={!isGenerating}
-                  onClick={() => !isGenerating && toggleInstrument(instrument)}
-                  className="d-flex align-items-center"
-                  style={{
-                    cursor: isGenerating ? "default" : "pointer",
-                    opacity: isGreyedOut ? 0.4 : 1,
-                  }}
-                >
-                  <span className="me-3" style={{ width: "1.25rem", display: "inline-flex", justifyContent: "center" }}>
-                    {!isGenerating ? (
+                <React.Fragment key={instrument}>
+                  <ListGroup.Item
+                    action={!isGenerating}
+                    onClick={() => !isGenerating && toggleInstrument(instrument)}
+                    className="d-flex align-items-center"
+                    style={{
+                      cursor: isGenerating ? "default" : "pointer",
+                      opacity: isGreyedOut ? 0.4 : 1,
+                    }}
+                  >
+                    <span className="me-3" style={{ width: "1.25rem", display: "inline-flex", justifyContent: "center" }}>
+                      {!isGenerating ? (
+                        <Form.Check
+                          type="checkbox"
+                          checked={isSelected}
+                          onChange={() => toggleInstrument(instrument)}
+                          onClick={(e) => e.stopPropagation()}
+                        />
+                      ) : isSelected ? (
+                        isCompleted ? "✅" : isCurrent ? (
+                          <Spinner animation="border" size="sm" variant="primary" />
+                        ) : null
+                      ) : null}
+                    </span>
+                    <span className="flex-grow-1">{instrument.toUpperCase()}</span>
+                    <span className="text-muted me-2">
+                      ({displayCount}/{instrumentStats.totalScores})
+                    </span>
+                    {!isGenerating && (
+                      <>
+                        <Form.Label
+                          htmlFor={`cover-${instrument}`}
+                          className={`btn btn-sm ${hasCover ? "btn-success" : "btn-outline-secondary"} mb-0`}
+                          style={{ cursor: "pointer", fontSize: "0.75rem" }}
+                          onClick={(e) => e.stopPropagation()}
+                        >
+                          {hasCover ? "✓ Capa" : "Capa"}
+                        </Form.Label>
+                        <Form.Control
+                          id={`cover-${instrument}`}
+                          type="file"
+                          hidden
+                          accept="image/png,image/jpeg"
+                          onChange={(e: any) => {
+                            const file = e.target.files?.[0] || null;
+                            setInstrumentCover(instrument, file);
+                          }}
+                          onClick={(e) => e.stopPropagation()}
+                        />
+                      </>
+                    )}
+                  </ListGroup.Item>
+                  {!isGenerating && isSelected && hasFallback && (
+                    <ListGroup.Item
+                      className="d-flex align-items-center ps-5"
+                      style={{ backgroundColor: "#f8f9fa", borderTop: "none" }}
+                    >
                       <Form.Check
                         type="checkbox"
-                        checked={isSelected}
-                        onChange={() => toggleInstrument(instrument)}
-                        onClick={(e) => e.stopPropagation()}
-                      />
-                    ) : isSelected ? (
-                      isCompleted ? "✅" : isCurrent ? (
-                        <Spinner animation="border" size="sm" variant="primary" />
-                      ) : null
-                    ) : null}
-                  </span>
-                  <span className="flex-grow-1">{instrument.toUpperCase()}</span>
-                  <span className="text-muted me-2">
-                    ({count}/{instrumentStats.totalScores})
-                  </span>
-                  {!isGenerating && (
-                    <>
-                      <Form.Label
-                        htmlFor={`cover-${instrument}`}
-                        className={`btn btn-sm ${hasCover ? "btn-success" : "btn-outline-secondary"} mb-0`}
-                        style={{ cursor: "pointer", fontSize: "0.75rem" }}
-                        onClick={(e) => e.stopPropagation()}
-                      >
-                        {hasCover ? "✓ Capa" : "Capa"}
-                      </Form.Label>
-                      <Form.Control
-                        id={`cover-${instrument}`}
-                        type="file"
-                        hidden
-                        accept="image/png,image/jpeg"
-                        onChange={(e: any) => {
-                          const file = e.target.files?.[0] || null;
-                          setInstrumentCover(instrument, file);
+                        id={`fallback-${instrument}`}
+                        label={`Usar ${fallback} como fallback (+${countWithFallback! - count})`}
+                        checked={fallbackEnabled}
+                        onChange={() => {
+                          setEnabledFallbacks((prev) => {
+                            const next = new Set(prev);
+                            if (next.has(instrument)) {
+                              next.delete(instrument);
+                            } else {
+                              next.add(instrument);
+                            }
+                            return next;
+                          });
                         }}
-                        onClick={(e) => e.stopPropagation()}
                       />
-                    </>
+                    </ListGroup.Item>
                   )}
-                </ListGroup.Item>
+                </React.Fragment>
               );
             })}
           </ListGroup>

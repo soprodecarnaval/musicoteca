@@ -2,13 +2,7 @@ import fs from "fs";
 import path from "path";
 import { ArgumentParser } from "argparse";
 
-import {
-  Collection,
-  Instrument,
-  Project,
-  Score,
-  zScore,
-} from "../types";
+import { Collection, Instrument, Project, Score, zScore } from "../types";
 import { Ok, Result, Warning, err, ok, warning } from "../src/result";
 import { parseInstrument } from "../src/instrument";
 
@@ -78,9 +72,7 @@ const scrapeMediaAsset = (
     }
 
     if (!name || name.trim() === "") {
-      return err(
-        warning(`Part name is empty`, { entryPath, songDirectory }),
-      );
+      return err(warning(`Part name is empty`, { entryPath, songDirectory }));
     }
 
     let partIdx = draft.parts.findIndex((p: any) => p.name === name);
@@ -172,7 +164,12 @@ const indexScore = (
   }
   return err(
     warning("Invalid song", {
-      errors: result.error.errors,
+      errors: result.error.errors.map((err) => {
+        return {
+          ...err,
+          path: err.path.join("."),
+        };
+      }),
       songDirectory: scoreDirectory,
     }),
   );
