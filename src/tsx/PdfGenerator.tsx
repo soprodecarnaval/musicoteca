@@ -104,15 +104,17 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
       const count = scores.filter((s) =>
         s.score.parts?.some((p) => p.instrument === instrument)
       ).length;
-      if (count > 0) {
-        const fallback = instrumentFallbacks[instrument];
-        let countWithFallback: number | undefined;
-        if (fallback) {
-          countWithFallback = scores.filter((s) =>
-            s.score.parts?.some((p) => p.instrument === instrument) ||
-            s.score.parts?.some((p) => p.instrument === fallback)
-          ).length;
-        }
+
+      const fallback = instrumentFallbacks[instrument];
+      let countWithFallback: number | undefined;
+      if (fallback) {
+        countWithFallback = scores.filter((s) =>
+          s.score.parts?.some((p) => p.instrument === instrument) ||
+          s.score.parts?.some((p) => p.instrument === fallback)
+        ).length;
+      }
+
+      if (count > 0 || (countWithFallback && countWithFallback > 0)) {
         stats.push({ instrument, count, countWithFallback });
       }
     }

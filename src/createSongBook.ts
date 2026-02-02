@@ -396,7 +396,7 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode, instrument }: CreateSongBookOptions,
+  { sections, carnivalMode, instrument, fallbackInstrument }: CreateSongBookOptions,
 ): number => {
   let pageCount = 0;
 
@@ -512,8 +512,12 @@ const addIndexPage = (
         [currentX, currentY] = nextCursorPosition();
       }
 
-      const partsForInstrument =
+      let partsForInstrument =
         song.parts?.filter((p) => p.instrument === instrument) ?? [];
+      if (partsForInstrument.length === 0 && fallbackInstrument) {
+        partsForInstrument =
+          song.parts?.filter((p) => p.instrument === fallbackInstrument) ?? [];
+      }
       const hasInstrument = partsForInstrument.length > 0;
       const isMultiPart = partsForInstrument.length > 1;
       const songNumber = 1 + songCount++;
