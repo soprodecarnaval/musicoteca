@@ -82,6 +82,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   };
 
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
+  const [debugBoundingBoxes, setDebugBoundingBoxes] = useState(false);
 
   const setInstrumentCover = (instrument: Instrument, file: File | null) => {
     setInstrumentCovers((prev) => {
@@ -223,6 +224,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
           carnivalMode,
           backSheetPageNumber,
           stripInstrumentFromPartLabel: false,
+          debugBoundingBoxes,
         });
 
         setCompletedInstruments((prev) => new Set(prev).add(instrument));
@@ -255,7 +257,7 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
             <Button type="submit">Gerar caderninhos</Button>
           </Col>
           <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
-            <Col sm={4}>
+            <Col sm={3}>
               <Form.Check
                 type="switch"
                 id="back-number"
@@ -264,6 +266,17 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
               />
             </Col>
           </OverlayTrigger>
+          {import.meta.env.DEV && (
+            <Col sm={1}>
+              <Form.Check
+                type="switch"
+                id="debug-boxes"
+                label="Debug"
+                checked={debugBoundingBoxes}
+                onChange={(e) => setDebugBoundingBoxes(e.target.checked)}
+              />
+            </Col>
+          )}
         </Form>
       </Row>
 

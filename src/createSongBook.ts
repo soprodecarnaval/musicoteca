@@ -22,7 +22,36 @@ export interface CreateSongBookOptions {
   backSheetPageNumber: boolean;
   carnivalMode: boolean;
   stripInstrumentFromPartLabel: boolean;
+  debugBoundingBoxes?: boolean;
 }
+
+const fitText = (
+  doc: any,
+  text: string,
+  font: string,
+  maxFontSize: number,
+  minFontSize: number,
+  maxWidth: number,
+): number => {
+  for (let size = maxFontSize; size >= minFontSize; size--) {
+    doc.font(font).fontSize(size);
+    if (doc.widthOfString(text) <= maxWidth) return size;
+  }
+  return minFontSize;
+};
+
+const debugRect = (
+  doc: any,
+  x: number,
+  y: number,
+  w: number,
+  h: number,
+  color: string,
+  debug: boolean,
+) => {
+  if (!debug) return;
+  doc.save().rect(x, y, w, h).strokeColor(color).stroke().restore();
+};
 
 export const createSongBook = async (opts: CreateSongBookOptions) => {
   const doc = createDoc();
@@ -261,7 +290,7 @@ const addSongPage = async (
   partLabel: string | undefined,
   destId: string,
   sectionTitle: string,
-  { instrument, backSheetPageNumber }: CreateSongBookOptions,
+  { instrument, backSheetPageNumber, debugBoundingBoxes }: CreateSongBookOptions,
 ): Promise<[number, Promise<void>[]]> => {
   const initialPage = currentPage;
   const promises: Promise<void>[] = [];
@@ -333,30 +362,80 @@ const addSongPage = async (
       doc.addNamedDestination(destId);
     }
 
-    doc
-      .font("Roboto-Bold")
-      .fontSize(22)
-      .text(displayTitle, 0.39 * cm2pt, 1.2 * cm2pt, {}); // Título
+    // Measure displayNumber width to calculate available title space
+    const numberFontSize = 1.2 * cm2pt;
+    doc.font("Roboto-Bold").fontSize(numberFontSize);
+    const numberWidth = doc.widthOfString(displayNumber);
+    const padding = 0.3 * cm2pt;
+    const totalWidth = 17.1 * cm2pt;
+    const titleX = 0.39 * cm2pt;
+    const titleY = 1.2 * cm2pt;
+    const availableTitleWidth = totalWidth - numberWidth - padding;
+
+    // Fit title to available space
+    const titleFontSize = fitText(doc, displayTitle, "Roboto-Bold", 22, 12, availableTitleWidth);
+    doc.font("Roboto-Bold").fontSize(titleFontSize);
+    const titleWidth = doc.widthOfString(displayTitle);
+    const titleHeight = doc.currentLineHeight();
+    debugRect(doc, titleX, titleY, titleWidth, titleHeight, "red", !!debugBoundingBoxes);
+
+    doc.text(displayTitle, titleX, titleY, {}); // Título
+
+    // Debug rect for number
+    const numberX = 0.44 * cm2pt + totalWidth - numberWidth;
+    const numberY = 0.93 * cm2pt;
+    doc.font("Roboto-Bold").fontSize(numberFontSize);
+    const numberHeight = doc.currentLineHeight();
+    debugRect(doc, numberX, numberY, numberWidth, numberHeight, "blue", !!debugBoundingBoxes);
+
+    doc.fontSize(numberFontSize).text(displayNumber, 0.44 * cm2pt, numberY, {
+      align: "right",
+      width: totalWidth,
+    }); // Número topo página
+
     doc
       .rect(0.44 * cm2pt, 2.14 * cm2pt, 17.17 * cm2pt, 0.41 * cm2pt)
       .fillAndStroke(); // Retângulo do trecho da letra
-    doc
-      .fontSize(9)
-      .fillColor("white")
-      .text(song.sub.toUpperCase(), 0.5 * cm2pt, 2.21 * cm2pt); // Trecho da letra
-    doc.text(song.composer.toUpperCase(), 0.44 * cm2pt, 2.21 * cm2pt, {
+
+    // Composer takes max 30% of line, sub takes remaining 70%
+    const subComposerY = 2.21 * cm2pt;
+    const subX = 0.5 * cm2pt;
+    const subPadding = 0.3 * cm2pt;
+    const maxComposerWidth = totalWidth * 0.3;
+    const availableSubWidth = totalWidth * 0.7 - subPadding - (subX - 0.44 * cm2pt);
+
+    // Fit composer to max 30%
+    const composerText = song.composer.toUpperCase();
+    const composerFontSize = fitText(doc, composerText, "Roboto-Bold", 9, 6, maxComposerWidth);
+    doc.font("Roboto-Bold").fontSize(composerFontSize);
+    const composerWidth = doc.widthOfString(composerText);
+    const composerHeight = doc.currentLineHeight();
+
+    // Fit sub to available space
+    const subText = song.sub.toUpperCase();
+    const subFontSize = fitText(doc, subText, "Roboto-Bold", 9, 6, availableSubWidth);
+    doc.font("Roboto-Bold").fontSize(subFontSize);
+    const subWidth = doc.widthOfString(subText);
+    const subHeight = doc.currentLineHeight();
+    debugRect(doc, subX, subComposerY, subWidth, subHeight, "green", !!debugBoundingBoxes);
+
+    doc.fillColor("white").text(subText, subX, subComposerY); // Trecho da letra
+
+    // Debug rect for composer
+    doc.font("Roboto-Bold").fontSize(composerFontSize);
+    const composerX = 0.44 * cm2pt + totalWidth - composerWidth;
+    debugRect(doc, composerX, subComposerY, composerWidth, composerHeight, "purple", !!debugBoundingBoxes);
+
+    doc.text(composerText, 0.44 * cm2pt, subComposerY, {
       align: "right",
-      width: 17.1 * cm2pt,
+      width: totalWidth,
     }); // Compositor
+
     doc.rect(0.44 * cm2pt, 2.55 * cm2pt, 17.17 * cm2pt, 9.82 * cm2pt).stroke(); // Retângulo da partitura
     doc
       .fontSize(9)
       .fillColor("black")
       .text(instrument.toUpperCase(), 0.44 * cm2pt, 12.5 * cm2pt); // Nome do instrumento
-    doc.fontSize(1.2 * cm2pt).text(displayNumber, 0.44 * cm2pt, 0.93 * cm2pt, {
-      align: "right",
-      width: 17.1 * cm2pt,
-    }); // Número topo página
 
     // Centro do rodapé: "$título: $parte · página ($páginaAtual/$totalPáginas)"
     const bottomCenterLabel = isMultiPage
