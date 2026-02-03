@@ -21,6 +21,7 @@ export interface CreateSongBookOptions {
   coverImageUrl: string;
   backSheetPageNumber: boolean;
   carnivalMode: boolean;
+  antiAssedioPages: boolean;
   stripInstrumentFromPartLabel: boolean;
   debugBoundingBoxes?: boolean;
 }
@@ -99,34 +100,39 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
 
   pageNumber += addIndexPage(doc, opts);
 
-  if (carnivalMode) {
+  if (opts.antiAssedioPages) {
+    const addBlank = opts.backSheetPageNumber;
+
     doc.addPage();
     pageNumber++;
     promises.push(drawImage(doc, "assets/anti_assedio_2026_1.png", pageNumber));
 
-    doc.addPage();
-    pageNumber++;
+    if (addBlank) {
+      doc.addPage();
+      pageNumber++;
+    }
 
     doc.addPage();
     pageNumber++;
     promises.push(drawImage(doc, "assets/anti_assedio_2026_2.png", pageNumber));
 
-    doc.addPage();
-    pageNumber++;
+    if (addBlank) {
+      doc.addPage();
+      pageNumber++;
+    }
 
     doc.addPage();
     pageNumber++;
     promises.push(drawImage(doc, "assets/anti_assedio_2026_3.png", pageNumber));
 
-    doc.addPage();
-    pageNumber++;
+    if (addBlank) {
+      doc.addPage();
+      pageNumber++;
+    }
 
     doc.addPage();
     pageNumber++;
     promises.push(drawImage(doc, "assets/anti_assedio_2026_4.png", pageNumber));
-
-    // doc.addPage();
-    // pageNumber++;
   }
 
   const { outline } = doc;
@@ -143,7 +149,8 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
 
       if (partsForInstrument.length === 0 && opts.fallbackInstrument) {
         partsForInstrument =
-          song.parts?.filter((p) => p.instrument === opts.fallbackInstrument) ?? [];
+          song.parts?.filter((p) => p.instrument === opts.fallbackInstrument) ??
+          [];
       }
 
       if (partsForInstrument.length > 0) {
@@ -290,7 +297,11 @@ const addSongPage = async (
   partLabel: string | undefined,
   destId: string,
   sectionTitle: string,
-  { instrument, backSheetPageNumber, debugBoundingBoxes }: CreateSongBookOptions,
+  {
+    instrument,
+    backSheetPageNumber,
+    debugBoundingBoxes,
+  }: CreateSongBookOptions,
 ): Promise<[number, Promise<void>[]]> => {
   const initialPage = currentPage;
   const promises: Promise<void>[] = [];
@@ -373,11 +384,26 @@ const addSongPage = async (
     const availableTitleWidth = totalWidth - numberWidth - padding;
 
     // Fit title to available space
-    const titleFontSize = fitText(doc, displayTitle, "Roboto-Bold", 22, 12, availableTitleWidth);
+    const titleFontSize = fitText(
+      doc,
+      displayTitle,
+      "Roboto-Bold",
+      22,
+      12,
+      availableTitleWidth,
+    );
     doc.font("Roboto-Bold").fontSize(titleFontSize);
     const titleWidth = doc.widthOfString(displayTitle);
     const titleHeight = doc.currentLineHeight();
-    debugRect(doc, titleX, titleY, titleWidth, titleHeight, "red", !!debugBoundingBoxes);
+    debugRect(
+      doc,
+      titleX,
+      titleY,
+      titleWidth,
+      titleHeight,
+      "red",
+      !!debugBoundingBoxes,
+    );
 
     doc.text(displayTitle, titleX, titleY, {}); // Título
 
@@ -386,7 +412,15 @@ const addSongPage = async (
     const numberY = 0.93 * cm2pt;
     doc.font("Roboto-Bold").fontSize(numberFontSize);
     const numberHeight = doc.currentLineHeight();
-    debugRect(doc, numberX, numberY, numberWidth, numberHeight, "blue", !!debugBoundingBoxes);
+    debugRect(
+      doc,
+      numberX,
+      numberY,
+      numberWidth,
+      numberHeight,
+      "blue",
+      !!debugBoundingBoxes,
+    );
 
     doc.fontSize(numberFontSize).text(displayNumber, 0.44 * cm2pt, numberY, {
       align: "right",
@@ -402,29 +436,60 @@ const addSongPage = async (
     const subX = 0.5 * cm2pt;
     const subPadding = 0.3 * cm2pt;
     const maxComposerWidth = totalWidth * 0.3;
-    const availableSubWidth = totalWidth * 0.7 - subPadding - (subX - 0.44 * cm2pt);
+    const availableSubWidth =
+      totalWidth * 0.7 - subPadding - (subX - 0.44 * cm2pt);
 
     // Fit composer to max 30%
     const composerText = song.composer.toUpperCase();
-    const composerFontSize = fitText(doc, composerText, "Roboto-Bold", 9, 6, maxComposerWidth);
+    const composerFontSize = fitText(
+      doc,
+      composerText,
+      "Roboto-Bold",
+      9,
+      6,
+      maxComposerWidth,
+    );
     doc.font("Roboto-Bold").fontSize(composerFontSize);
     const composerWidth = doc.widthOfString(composerText);
     const composerHeight = doc.currentLineHeight();
 
     // Fit sub to available space
     const subText = song.sub.toUpperCase();
-    const subFontSize = fitText(doc, subText, "Roboto-Bold", 9, 6, availableSubWidth);
+    const subFontSize = fitText(
+      doc,
+      subText,
+      "Roboto-Bold",
+      9,
+      6,
+      availableSubWidth,
+    );
     doc.font("Roboto-Bold").fontSize(subFontSize);
     const subWidth = doc.widthOfString(subText);
     const subHeight = doc.currentLineHeight();
-    debugRect(doc, subX, subComposerY, subWidth, subHeight, "green", !!debugBoundingBoxes);
+    debugRect(
+      doc,
+      subX,
+      subComposerY,
+      subWidth,
+      subHeight,
+      "green",
+      !!debugBoundingBoxes,
+    );
 
     doc.fillColor("white").text(subText, subX, subComposerY); // Trecho da letra
 
     // Debug rect for composer
     doc.font("Roboto-Bold").fontSize(composerFontSize);
     const composerX = 0.44 * cm2pt + totalWidth - composerWidth;
-    debugRect(doc, composerX, subComposerY, composerWidth, composerHeight, "purple", !!debugBoundingBoxes);
+    debugRect(
+      doc,
+      composerX,
+      subComposerY,
+      composerWidth,
+      composerHeight,
+      "purple",
+      !!debugBoundingBoxes,
+    );
 
     doc.text(composerText, 0.44 * cm2pt, subComposerY, {
       align: "right",
@@ -475,7 +540,12 @@ const createFileName = ({ title, instrument }: CreateSongBookOptions) => {
 
 const addIndexPage = (
   doc: any,
-  { sections, carnivalMode, instrument, fallbackInstrument }: CreateSongBookOptions,
+  {
+    sections,
+    carnivalMode,
+    instrument,
+    fallbackInstrument,
+  }: CreateSongBookOptions,
 ): number => {
   let pageCount = 0;
 
@@ -582,13 +652,17 @@ const addIndexPage = (
     songs.forEach((song, songIdx) => {
       reorderedSongs.push(song);
       if (songIdx == 0) {
-        if (currentLine == maxLinesPerColumn)
+        if (currentLine == maxLinesPerColumn) {
           [currentX, currentY] = nextCursorPosition();
-        doc
-          .font("Roboto-Bold")
-          .fontSize(fontSize - 2)
-          .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
-        [currentX, currentY] = nextCursorPosition();
+        }
+        // título da seção
+        if (title.length > 0) {
+          doc
+            .font("Roboto-Bold")
+            .fontSize(fontSize - 2)
+            .text(`${title.toUpperCase()}`, currentX + 0.3 * cm2pt, currentY);
+          [currentX, currentY] = nextCursorPosition();
+        }
       }
 
       let partsForInstrument =

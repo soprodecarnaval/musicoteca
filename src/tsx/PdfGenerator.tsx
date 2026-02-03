@@ -35,7 +35,7 @@ const allInstruments: Instrument[] = [
 
 // Fallback instrument mapping: when primary instrument is missing, use fallback
 const instrumentFallbacks: Partial<Record<Instrument, Instrument>> = {
-  "clarinete": "sax tenor",
+  clarinete: "sax tenor",
 };
 
 interface PdfGeneratorProps {
@@ -47,41 +47,62 @@ export type Section = {
   songs: Score[];
 };
 
-const CarnivalModeTooltip = () => (
-  <Tooltip id="tooltip">
-    <ListGroup>
-      <ListGroup.Item>Capa automática</ListGroup.Item>
-      <ListGroup.Item>Númeração no verso de cada música</ListGroup.Item>
-      <ListGroup.Item>Índice com duas páginas</ListGroup.Item>
-      <ListGroup.Item>Mensagem anti assédio no início</ListGroup.Item>
-    </ListGroup>
+const CarnivalModeTooltip = (
+  <Tooltip id="carnival-tooltip">
+    Usa a capa do carnaval 2026 e formatação especial do índice
   </Tooltip>
+);
+
+const BackPageTooltip = (
+  <Tooltip id="back-tooltip">
+    Adiciona uma página com o número da música no verso de cada partitura
+  </Tooltip>
+);
+
+const AntiAssedioTooltip = (
+  <Tooltip id="anti-assedio-tooltip">
+    Inclui 4 páginas da cartilha anti-assédio após o índice
+  </Tooltip>
+);
+
+const HelpIcon = ({ tooltip }: { tooltip: JSX.Element }) => (
+  <OverlayTrigger placement="right" overlay={tooltip}>
+    <span style={{ cursor: "help", marginLeft: "0.5rem", color: "#6c757d" }}>
+      �
+    </span>
+  </OverlayTrigger>
 );
 
 const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   const scores = songBook.items.filter(
-    (r: SongBookItem) => !isSongBookSection(r)
+    (r: SongBookItem) => !isSongBookSection(r),
   ) as SongBookScore[];
 
   const [songbookTitle, setTitle] = useState("");
   const [isGenerating, setIsGenerating] = useState(false);
   const [generationProgress, setGenerationProgress] = useState(0);
-  const [currentInstrument, setCurrentInstrument] = useState<Instrument | null>(null);
-  const [completedInstruments, setCompletedInstruments] = useState<Set<Instrument>>(new Set());
+  const [currentInstrument, setCurrentInstrument] = useState<Instrument | null>(
+    null,
+  );
+  const [completedInstruments, setCompletedInstruments] = useState<
+    Set<Instrument>
+  >(new Set());
   const [showModal, setShowModal] = useState(false);
-  const [selectedInstruments, setSelectedInstruments] = useState<Set<Instrument>>(new Set());
-  const [instrumentCovers, setInstrumentCovers] = useState<Map<Instrument, string>>(new Map());
-  const [enabledFallbacks, setEnabledFallbacks] = useState<Set<Instrument>>(new Set());
+  const [selectedInstruments, setSelectedInstruments] = useState<
+    Set<Instrument>
+  >(new Set());
+  const [instrumentCovers, setInstrumentCovers] = useState<
+    Map<Instrument, string>
+  >(new Map());
+  const [enabledFallbacks, setEnabledFallbacks] = useState<Set<Instrument>>(
+    new Set(),
+  );
 
   const onInputSongbookTitle = ({ target: { value } }: any) => setTitle(value);
 
   const [carnivalMode, setCarnivalMode] = useState(false);
-  const onCheckCarnivalMode = ({ target: { checked } }: any) => {
-    setBackSheetPageNumber(checked);
-    setCarnivalMode(checked);
-  };
-
   const [backSheetPageNumber, setBackSheetPageNumber] = useState(false);
+  const [antiAssedioPages, setAntiAssedioPages] = useState(false);
   const [debugBoundingBoxes, setDebugBoundingBoxes] = useState(false);
 
   const setInstrumentCover = (instrument: Instrument, file: File | null) => {
@@ -99,19 +120,24 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   // Calculate which instruments have parts and how many scores have each
   const instrumentStats = useMemo(() => {
     const totalScores = scores.length;
-    const stats: { instrument: Instrument; count: number; countWithFallback?: number }[] = [];
+    const stats: {
+      instrument: Instrument;
+      count: number;
+      countWithFallback?: number;
+    }[] = [];
 
     for (const instrument of allInstruments) {
       const count = scores.filter((s) =>
-        s.score.parts?.some((p) => p.instrument === instrument)
+        s.score.parts?.some((p) => p.instrument === instrument),
       ).length;
 
       const fallback = instrumentFallbacks[instrument];
       let countWithFallback: number | undefined;
       if (fallback) {
-        countWithFallback = scores.filter((s) =>
-          s.score.parts?.some((p) => p.instrument === instrument) ||
-          s.score.parts?.some((p) => p.instrument === fallback)
+        countWithFallback = scores.filter(
+          (s) =>
+            s.score.parts?.some((p) => p.instrument === instrument) ||
+            s.score.parts?.some((p) => p.instrument === fallback),
         ).length;
       }
 
@@ -139,7 +165,9 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
   };
 
   const selectAllInstruments = () => {
-    setSelectedInstruments(new Set(instrumentStats.stats.map((s) => s.instrument)));
+    setSelectedInstruments(
+      new Set(instrumentStats.stats.map((s) => s.instrument)),
+    );
   };
 
   const deselectAllInstruments = () => {
@@ -217,12 +245,15 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
 
         await createSongBook({
           instrument,
-          fallbackInstrument: enabledFallbacks.has(instrument) ? instrumentFallbacks[instrument] : undefined,
+          fallbackInstrument: enabledFallbacks.has(instrument)
+            ? instrumentFallbacks[instrument]
+            : undefined,
           sections,
           title: songbookTitle,
           coverImageUrl: instrumentCovers.get(instrument) || "",
           carnivalMode,
           backSheetPageNumber,
+          antiAssedioPages,
           stripInstrumentFromPartLabel: false,
           debugBoundingBoxes,
         });
@@ -256,27 +287,6 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
           <Col sm={3}>
             <Button type="submit">Gerar caderninhos</Button>
           </Col>
-          <OverlayTrigger placement="left" overlay={CarnivalModeTooltip}>
-            <Col sm={3}>
-              <Form.Check
-                type="switch"
-                id="back-number"
-                label="Modo carnaval"
-                onChange={onCheckCarnivalMode}
-              />
-            </Col>
-          </OverlayTrigger>
-          {import.meta.env.DEV && (
-            <Col sm={1}>
-              <Form.Check
-                type="switch"
-                id="debug-boxes"
-                label="Debug"
-                checked={debugBoundingBoxes}
-                onChange={(e) => setDebugBoundingBoxes(e.target.checked)}
-              />
-            </Col>
-          )}
         </Form>
       </Row>
 
@@ -290,113 +300,147 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
       >
         <Modal.Header closeButton={!isGenerating}>
           <Modal.Title>
-            {isGenerating ? "Gerando caderninhos" : "Selecionar instrumentos"}
+            {isGenerating ? "Gerando caderninhos" : "Gerar caderninhos"}
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
           {!isGenerating && (
             <div className="d-flex justify-content-between mb-3">
-              <Button variant="outline-primary" size="sm" onClick={selectAllInstruments}>
+              <Button
+                variant="outline-primary"
+                size="sm"
+                onClick={selectAllInstruments}
+              >
                 Selecionar todos
               </Button>
-              <Button variant="outline-secondary" size="sm" onClick={deselectAllInstruments}>
+              <Button
+                variant="outline-secondary"
+                size="sm"
+                onClick={deselectAllInstruments}
+              >
                 Limpar seleção
               </Button>
             </div>
           )}
           <ListGroup>
-            {instrumentStats.stats.map(({ instrument, count, countWithFallback }) => {
-              const isSelected = selectedInstruments.has(instrument);
-              const isCompleted = completedInstruments.has(instrument);
-              const isCurrent = currentInstrument === instrument;
-              const isGreyedOut = isGenerating && !isSelected;
+            {instrumentStats.stats.map(
+              ({ instrument, count, countWithFallback }) => {
+                const isSelected = selectedInstruments.has(instrument);
+                const isCompleted = completedInstruments.has(instrument);
+                const isCurrent = currentInstrument === instrument;
+                const isGreyedOut = isGenerating && !isSelected;
 
-              const hasCover = instrumentCovers.has(instrument);
-              const fallback = instrumentFallbacks[instrument];
-              const hasFallback = fallback && countWithFallback && countWithFallback > count;
-              const fallbackEnabled = enabledFallbacks.has(instrument);
-              const displayCount = fallbackEnabled && countWithFallback ? countWithFallback : count;
+                const hasCover = instrumentCovers.has(instrument);
+                const fallback = instrumentFallbacks[instrument];
+                const hasFallback =
+                  fallback && countWithFallback && countWithFallback > count;
+                const fallbackEnabled = enabledFallbacks.has(instrument);
+                const displayCount =
+                  fallbackEnabled && countWithFallback
+                    ? countWithFallback
+                    : count;
 
-              return (
-                <React.Fragment key={instrument}>
-                  <ListGroup.Item
-                    action={!isGenerating}
-                    onClick={() => !isGenerating && toggleInstrument(instrument)}
-                    className="d-flex align-items-center"
-                    style={{
-                      cursor: isGenerating ? "default" : "pointer",
-                      opacity: isGreyedOut ? 0.4 : 1,
-                    }}
-                  >
-                    <span className="me-3" style={{ width: "1.25rem", display: "inline-flex", justifyContent: "center" }}>
-                      {!isGenerating ? (
+                return (
+                  <React.Fragment key={instrument}>
+                    <ListGroup.Item
+                      action={!isGenerating}
+                      onClick={() =>
+                        !isGenerating && toggleInstrument(instrument)
+                      }
+                      className="d-flex align-items-center"
+                      style={{
+                        cursor: isGenerating ? "default" : "pointer",
+                        opacity: isGreyedOut ? 0.4 : 1,
+                      }}
+                    >
+                      <span
+                        className="me-3"
+                        style={{
+                          width: "1.25rem",
+                          display: "inline-flex",
+                          justifyContent: "center",
+                        }}
+                      >
+                        {!isGenerating ? (
+                          <Form.Check
+                            type="checkbox"
+                            checked={isSelected}
+                            onChange={() => toggleInstrument(instrument)}
+                            onClick={(e) => e.stopPropagation()}
+                          />
+                        ) : isSelected ? (
+                          isCompleted ? (
+                            "✅"
+                          ) : isCurrent ? (
+                            <Spinner
+                              animation="border"
+                              size="sm"
+                              variant="primary"
+                            />
+                          ) : null
+                        ) : null}
+                      </span>
+                      <span className="flex-grow-1">
+                        {instrument.toUpperCase()}
+                      </span>
+                      <span className="text-muted me-2">
+                        ({displayCount}/{instrumentStats.totalScores})
+                      </span>
+                      {!isGenerating && (
+                        <>
+                          <Form.Label
+                            htmlFor={`cover-${instrument}`}
+                            className={`btn btn-sm ${hasCover ? "btn-success" : "btn-outline-secondary"} mb-0`}
+                            style={{ cursor: "pointer", fontSize: "0.75rem" }}
+                            onClick={(e) => e.stopPropagation()}
+                          >
+                            {hasCover ? "✓ Capa" : "Capa"}
+                          </Form.Label>
+                          <Form.Control
+                            id={`cover-${instrument}`}
+                            type="file"
+                            hidden
+                            accept="image/png,image/jpeg"
+                            onChange={(e: any) => {
+                              const file = e.target.files?.[0] || null;
+                              setInstrumentCover(instrument, file);
+                            }}
+                            onClick={(e) => e.stopPropagation()}
+                          />
+                        </>
+                      )}
+                    </ListGroup.Item>
+                    {!isGenerating && isSelected && hasFallback && (
+                      <ListGroup.Item
+                        className="d-flex align-items-center ps-5"
+                        style={{
+                          backgroundColor: "#f8f9fa",
+                          borderTop: "none",
+                        }}
+                      >
                         <Form.Check
                           type="checkbox"
-                          checked={isSelected}
-                          onChange={() => toggleInstrument(instrument)}
-                          onClick={(e) => e.stopPropagation()}
-                        />
-                      ) : isSelected ? (
-                        isCompleted ? "✅" : isCurrent ? (
-                          <Spinner animation="border" size="sm" variant="primary" />
-                        ) : null
-                      ) : null}
-                    </span>
-                    <span className="flex-grow-1">{instrument.toUpperCase()}</span>
-                    <span className="text-muted me-2">
-                      ({displayCount}/{instrumentStats.totalScores})
-                    </span>
-                    {!isGenerating && (
-                      <>
-                        <Form.Label
-                          htmlFor={`cover-${instrument}`}
-                          className={`btn btn-sm ${hasCover ? "btn-success" : "btn-outline-secondary"} mb-0`}
-                          style={{ cursor: "pointer", fontSize: "0.75rem" }}
-                          onClick={(e) => e.stopPropagation()}
-                        >
-                          {hasCover ? "✓ Capa" : "Capa"}
-                        </Form.Label>
-                        <Form.Control
-                          id={`cover-${instrument}`}
-                          type="file"
-                          hidden
-                          accept="image/png,image/jpeg"
-                          onChange={(e: any) => {
-                            const file = e.target.files?.[0] || null;
-                            setInstrumentCover(instrument, file);
+                          id={`fallback-${instrument}`}
+                          label={`Usar ${fallback} como fallback (+${countWithFallback! - count})`}
+                          checked={fallbackEnabled}
+                          onChange={() => {
+                            setEnabledFallbacks((prev) => {
+                              const next = new Set(prev);
+                              if (next.has(instrument)) {
+                                next.delete(instrument);
+                              } else {
+                                next.add(instrument);
+                              }
+                              return next;
+                            });
                           }}
-                          onClick={(e) => e.stopPropagation()}
                         />
-                      </>
+                      </ListGroup.Item>
                     )}
-                  </ListGroup.Item>
-                  {!isGenerating && isSelected && hasFallback && (
-                    <ListGroup.Item
-                      className="d-flex align-items-center ps-5"
-                      style={{ backgroundColor: "#f8f9fa", borderTop: "none" }}
-                    >
-                      <Form.Check
-                        type="checkbox"
-                        id={`fallback-${instrument}`}
-                        label={`Usar ${fallback} como fallback (+${countWithFallback! - count})`}
-                        checked={fallbackEnabled}
-                        onChange={() => {
-                          setEnabledFallbacks((prev) => {
-                            const next = new Set(prev);
-                            if (next.has(instrument)) {
-                              next.delete(instrument);
-                            } else {
-                              next.add(instrument);
-                            }
-                            return next;
-                          });
-                        }}
-                      />
-                    </ListGroup.Item>
-                  )}
-                </React.Fragment>
-              );
-            })}
+                  </React.Fragment>
+                );
+              },
+            )}
           </ListGroup>
           {instrumentStats.stats.length === 0 && (
             <p className="text-muted text-center">
@@ -417,6 +461,49 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
               </div>
             </div>
           )}
+          {!isGenerating && (
+            <div className="mt-3">
+              <div className="d-flex align-items-center">
+                <Form.Check
+                  type="switch"
+                  id="carnival-mode"
+                  label="Capa e índice do carnaval"
+                  checked={carnivalMode}
+                  onChange={(e) => setCarnivalMode(e.target.checked)}
+                />
+                <HelpIcon tooltip={CarnivalModeTooltip} />
+              </div>
+              <div className="d-flex align-items-center">
+                <Form.Check
+                  type="switch"
+                  id="back-number"
+                  label="Página de número no verso"
+                  checked={backSheetPageNumber}
+                  onChange={(e) => setBackSheetPageNumber(e.target.checked)}
+                />
+                <HelpIcon tooltip={BackPageTooltip} />
+              </div>
+              <div className="d-flex align-items-center">
+                <Form.Check
+                  type="switch"
+                  id="anti-assedio"
+                  label="Cartilha anti-assédio"
+                  checked={antiAssedioPages}
+                  onChange={(e) => setAntiAssedioPages(e.target.checked)}
+                />
+                <HelpIcon tooltip={AntiAssedioTooltip} />
+              </div>
+              {import.meta.env.DEV && (
+                <Form.Check
+                  type="switch"
+                  id="debug-boxes"
+                  label="Debug"
+                  checked={debugBoundingBoxes}
+                  onChange={(e) => setDebugBoundingBoxes(e.target.checked)}
+                />
+              )}
+            </div>
+          )}
         </Modal.Body>
         <Modal.Footer>
           {!isGenerating && completedInstruments.size === 0 && (
@@ -429,7 +516,8 @@ const PDFGenerator = ({ songBook }: PdfGeneratorProps) => {
                 onClick={onGeneratePdfs}
                 disabled={selectedInstruments.size === 0}
               >
-                Gerar {selectedInstruments.size} caderninho{selectedInstruments.size !== 1 ? "s" : ""}
+                Gerar {selectedInstruments.size} caderninho
+                {selectedInstruments.size !== 1 ? "s" : ""}
               </Button>
             </>
           )}
