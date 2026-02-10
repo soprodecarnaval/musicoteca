@@ -36249,6 +36249,61 @@
           "projectTitle": "crack carnaval bh 2026"
         },
         {
+          "id": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR",
+          "title": "apocalipse do amor",
+          "composer": "Dead Lover's Twisted Heart",
+          "sub": "",
+          "mscz": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR.mscz",
+          "metajson": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR.metajson",
+          "midi": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR.midi",
+          "parts": [
+            {
+              "name": "APOCALIPSE_DO_AMOR_BONE",
+              "instrument": "trombone",
+              "svg": [
+                "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_BONE-1.svg"
+              ],
+              "midi": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_BONE.midi"
+            },
+            {
+              "name": "APOCALIPSE_DO_AMOR_FLAUTA",
+              "instrument": "flauta",
+              "svg": [
+                "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_FLAUTA-1.svg"
+              ],
+              "midi": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_FLAUTA.midi"
+            },
+            {
+              "name": "APOCALIPSE_DO_AMOR_PETE",
+              "instrument": "trompete",
+              "svg": [
+                "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_PETE-1.svg"
+              ],
+              "midi": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_PETE.midi"
+            },
+            {
+              "name": "APOCALIPSE_DO_AMOR_SAX_ALTO",
+              "instrument": "sax alto",
+              "svg": [
+                "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_SAX_ALTO-1.svg"
+              ],
+              "midi": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_SAX_ALTO.midi"
+            },
+            {
+              "name": "APOCALIPSE_DO_AMOR_SAX_TENOR",
+              "instrument": "sax tenor",
+              "svg": [
+                "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_SAX_TENOR-1.svg"
+              ],
+              "midi": "crack carnaval bh 2026/APOCALIPSE_DO_AMOR/APOCALIPSE_DO_AMOR_SAX_TENOR.midi"
+            }
+          ],
+          "tags": [
+            ""
+          ],
+          "projectTitle": "crack carnaval bh 2026"
+        },
+        {
           "id": "crack carnaval bh 2026/AZUL",
           "title": "azul",
           "composer": "Gal Costa",
