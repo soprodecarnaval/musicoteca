@@ -1,12 +1,12 @@
 {
     "composer": "Dead Lover's Twisted Heart",
-    "duration": 170,
+    "duration": 96,
     "fileVersion": 302,
     "hasHarmonies": "false",
     "hasLyrics": "false",
-    "keysig": 0,
+    "keysig": -3,
     "lyrics": "",
-    "measures": 55,
+    "measures": 41,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
         "height": 297,
