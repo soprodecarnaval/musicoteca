@@ -62,7 +62,14 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
   let pageNumber = 0;
   let promises: Promise<any>[] = [];
 
-  if (carnivalMode) {
+  if (coverImageUrl != "") {
+    promises.push(drawImage(doc, coverImageUrl, 0));
+    doc
+      .fontSize(25)
+      .text(title.toUpperCase(), 120, 100)
+      .fontSize(22)
+      .text(instrument.toUpperCase(), 120, 125);
+  } else if (carnivalMode) {
     promises.push(
       drawImage(
         doc,
@@ -83,13 +90,6 @@ export const createSongBook = async (opts: CreateSongBookOptions) => {
 
     doc.addPage();
     pageNumber++;
-  } else if (coverImageUrl != "") {
-    promises.push(drawImage(doc, coverImageUrl, 0));
-    doc
-      .fontSize(25)
-      .text(title.toUpperCase(), 120, 100)
-      .fontSize(22)
-      .text(instrument.toUpperCase(), 120, 125);
   } else {
     doc
       .fontSize(25)
