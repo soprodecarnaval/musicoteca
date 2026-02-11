@@ -38852,20 +38852,12 @@
           "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche.midi",
           "parts": [
             {
-              "name": "nao_enche_BONE_COM_PIRATA",
+              "name": "nao_enche_BONE",
               "instrument": "trombone",
               "svg": [
-                "crack carnaval bh 2026/NAO_ENCHE/nao_enche_BONE_COM_PIRATA-1.svg"
+                "crack carnaval bh 2026/NAO_ENCHE/nao_enche_BONE-1.svg"
               ],
-              "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche_BONE_COM_PIRATA.midi"
-            },
-            {
-              "name": "nao_enche_BONE_SEM_PIRATA",
-              "instrument": "trombone",
-              "svg": [
-                "crack carnaval bh 2026/NAO_ENCHE/nao_enche_BONE_SEM_PIRATA-1.svg"
-              ],
-              "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche_BONE_SEM_PIRATA.midi"
+              "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche_BONE.midi"
             },
             {
               "name": "nao_enche_FLAUTA",
@@ -38876,21 +38868,12 @@
               "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche_FLAUTA.midi"
             },
             {
-              "name": "nao_enche_PETE_COM_PIRATA",
+              "name": "nao_enche_PETE",
               "instrument": "trompete",
               "svg": [
-                "crack carnaval bh 2026/NAO_ENCHE/nao_enche_PETE_COM_PIRATA-1.svg",
-                "crack carnaval bh 2026/NAO_ENCHE/nao_enche_PETE_COM_PIRATA-2.svg"
+                "crack carnaval bh 2026/NAO_ENCHE/nao_enche_PETE-1.svg"
               ],
-              "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche_PETE_COM_PIRATA.midi"
-            },
-            {
-              "name": "nao_enche_PETE_SEM_PIRATA",
-              "instrument": "trompete",
-              "svg": [
-                "crack carnaval bh 2026/NAO_ENCHE/nao_enche_PETE_SEM_PIRATA-1.svg"
-              ],
-              "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche_PETE_SEM_PIRATA.midi"
+              "midi": "crack carnaval bh 2026/NAO_ENCHE/nao_enche_PETE.midi"
             },
             {
               "name": "nao_enche_SAX_ALTO",
@@ -40443,27 +40426,19 @@
         {
           "id": "crack carnaval bh 2026/VACA_PROFANA",
           "title": "vaca profana",
-          "composer": "Caetano",
+          "composer": "Caetano Veloso",
           "sub": "",
           "mscz": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana.mscz",
           "metajson": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana.metajson",
           "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana.midi",
           "parts": [
             {
-              "name": "vaca_profana_BONE_COM_PIRATA",
+              "name": "vaca_profana_BONE",
               "instrument": "trombone",
               "svg": [
-                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_BONE_COM_PIRATA-1.svg"
+                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_BONE-1.svg"
               ],
-              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_BONE_COM_PIRATA.midi"
-            },
-            {
-              "name": "vaca_profana_BONE_SEM_PIRATA",
-              "instrument": "trombone",
-              "svg": [
-                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_BONE_SEM_PIRATA-1.svg"
-              ],
-              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_BONE_SEM_PIRATA.midi"
+              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_BONE.midi"
             },
             {
               "name": "vaca_profana_FLAUTA",
@@ -40474,28 +40449,20 @@
               "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_FLAUTA.midi"
             },
             {
-              "name": "vaca_profana_PETE_COM_PIRATA",
+              "name": "vaca_profana_PETE",
               "instrument": "trompete",
               "svg": [
-                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_PETE_COM_PIRATA-1.svg"
+                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_PETE-1.svg"
               ],
-              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_PETE_COM_PIRATA.midi"
+              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_PETE.midi"
             },
             {
-              "name": "vaca_profana_PETE_SEM_PIRATA",
-              "instrument": "trompete",
-              "svg": [
-                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_PETE_SEM_PIRATA-1.svg"
-              ],
-              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_PETE_SEM_PIRATA.midi"
-            },
-            {
-              "name": "vaca_profana_SAX_ALTO",
+              "name": "vaca_profana_SAX_ALTA",
               "instrument": "sax alto",
               "svg": [
-                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_SAX_ALTO-1.svg"
+                "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_SAX_ALTA-1.svg"
               ],
-              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_SAX_ALTO.midi"
+              "midi": "crack carnaval bh 2026/VACA_PROFANA/vaca_profana_SAX_ALTA.midi"
             },
             {
               "name": "vaca_profana_SAX_TENOR",

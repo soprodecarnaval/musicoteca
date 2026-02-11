@@ -1,6 +1,6 @@
 {
     "composer": "Caetano Veloso",
-    "duration": 72,
+    "duration": 56,
     "fileVersion": 302,
     "hasHarmonies": "true",
     "hasLyrics": "false",
@@ -9,11 +9,11 @@
     "measures": 20,
     "mscoreVersion": "3.6.2",
     "pageFormat": {
-        "height": 297,
-        "twosided": "true",
-        "width": 210
+        "height": 210,
+        "twosided": "false",
+        "width": 297
     },
-    "pages": 8,
+    "pages": 4,
     "parts": [
         {
             "harmonyCount": 30,
@@ -23,7 +23,7 @@
             "instrumentId": "wind.flutes.flute",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Flauta Transversal",
+            "name": "C clavG",
             "program": 73
         },
         {
@@ -34,29 +34,18 @@
             "instrumentId": "wind.reed.saxophone.alto",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Alto",
+            "name": "Eb",
             "program": 65
         },
         {
-            "harmonyCount": 30,
+            "harmonyCount": 0,
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "wind.reed.saxophone.tenor",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Saxofone Tenor",
-            "program": 66
-        },
-        {
-            "harmonyCount": 30,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet.bflat",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Trompete em B♭",
+            "name": "Bb - Pirata",
             "program": 56
         },
         {
@@ -64,21 +53,10 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
+            "instrumentId": "brass.trumpet",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
-            "program": 57
-        },
-        {
-            "harmonyCount": 0,
-            "hasDrumStaff": "false",
-            "hasPitchedStaff": "true",
-            "hasTabStaff": "false",
-            "instrumentId": "brass.trumpet.bflat",
-            "isVisible": "true",
-            "lyricCount": 0,
-            "name": "Trompete em B♭",
+            "name": "Bb",
             "program": 56
         },
         {
@@ -86,10 +64,10 @@
             "hasDrumStaff": "false",
             "hasPitchedStaff": "true",
             "hasTabStaff": "false",
-            "instrumentId": "brass.trombone",
+            "instrumentId": "brass.trombone.tenor",
             "isVisible": "true",
             "lyricCount": 0,
-            "name": "Trombone",
+            "name": "C clavF",
             "program": 57
         }
     ],
