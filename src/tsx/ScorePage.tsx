@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react";
-import { Alert, Button, Container, Spinner } from "react-bootstrap";
+import { Alert, Badge, Button, Container, Spinner } from "react-bootstrap";
+import { useAuth } from "../auth";
 import { useNavigate, useParams } from "react-router-dom";
 import {
+  getMemberRole,
   getScore,
   getScoreRevision,
   getProject,
   softDeleteScore,
 } from "../lib/db";
 import { FEATURE_FLAG_COLLAB_FLOW } from "../featureFlags";
-import { canDeleteScore, canEditScoreMetadata } from "../lib/roles";
+import { canDeleteScore, canEditScoreMetadata, isReviewer } from "../lib/roles";
 import {
   resolveScoreMetadata,
   uploadedScoreMetadata,
@@ -23,6 +25,7 @@ interface LoadedScore extends ScoreMetadata {
   scoreId: string;
   revisionId: string;
   latestRevisionId: string;
+  publishedRevisionId: string | null;
   revisionNumber: number;
   uploaded: ScoreMetadata;
   projectId: string;
@@ -34,14 +37,23 @@ interface LoadedScore extends ScoreMetadata {
 
 async function loadScore(
   scoreId: string,
-  revisionId?: string,
+  revisionId: string | undefined,
+  uid: string | undefined,
 ): Promise<LoadedScore> {
   const song = await getScore(scoreId);
   if (!song || song.deletedAt) {
     throw new Error("Partitura não encontrada");
   }
 
-  const resolvedRevisionId = revisionId ?? song.latestRevisionId;
+  // Without a version in the URL, members get the latest and everyone else
+  // the published one, when there is one (collab-flow §4.4).
+  const isMember =
+    !!uid && isReviewer(await getMemberRole(song.projectId, uid));
+  const publishedId =
+    FEATURE_FLAG_COLLAB_FLOW && !isMember
+      ? song.published?.revisionId
+      : undefined;
+  const resolvedRevisionId = revisionId ?? publishedId ?? song.latestRevisionId;
   const [rev, project] = await Promise.all([
     getScoreRevision(scoreId, resolvedRevisionId),
     getProject(song.projectId),
@@ -59,6 +71,7 @@ async function loadScore(
     scoreId,
     revisionId: resolvedRevisionId,
     latestRevisionId: song.latestRevisionId,
+    publishedRevisionId: song.published?.revisionId ?? null,
     revisionNumber: rev.revisionNumber,
     ...resolveScoreMetadata(song),
     uploaded: uploadedScoreMetadata(song),
@@ -83,6 +96,7 @@ export function ScorePage() {
   const [score, setScore] = useState<LoadedScore | null>(null);
   const [error, setError] = useState("");
   const navigate = useNavigate();
+  const { currentUser } = useAuth();
   const [editing, setEditing] = useState(false);
   const [deleting, setDeleting] = useState(false);
   const role = useMemberRole(
@@ -95,10 +109,10 @@ export function ScorePage() {
     }
     setScore(null);
     setError("");
-    loadScore(scoreId, revisionId)
+    loadScore(scoreId, revisionId, currentUser?.uid)
       .then(setScore)
       .catch((e: unknown) => setError(e instanceof Error ? e.message : "Erro"));
-  }, [scoreId, revisionId]);
+  }, [scoreId, revisionId, currentUser]);
 
   const handleDelete = async () => {
     if (
@@ -138,6 +152,10 @@ export function ScorePage() {
       <div className="d-flex align-items-baseline gap-2 mb-1">
         <h2 className="mb-0">{score.title}</h2>
         <span className="text-muted">versão #{score.revisionNumber}</span>
+        {FEATURE_FLAG_COLLAB_FLOW &&
+          score.revisionId === score.publishedRevisionId && (
+            <Badge bg="success">publicada</Badge>
+          )}
       </div>
       <div className="d-flex align-items-center justify-content-between mb-3">
         <p className="text-muted mb-0">{score.projectTitle}</p>
