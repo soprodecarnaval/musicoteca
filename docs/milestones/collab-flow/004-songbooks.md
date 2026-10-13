@@ -95,11 +95,17 @@ Spec: PLAN §2.1.3, §2.5–§2.7, §4.3 (`songbooks`, `songbookRevisions`,
 
 ## 004d — published marker + homepage
 
-1. `syncPublishedScores` Cloud Function (PLAN §2.2.1) + emulator tests, and
-   `scripts/rebuildPublishedScores.ts`.
-2. Homepage (flag on): `scores where published != null` + published revisions;
-   score page defaults non-members to `published.revisionId`; CADERNIN filter
-   removed from the flag-on path.
+1. ✅ `syncPublishedScoresOnSongbook` / `…OnScore` / `…OnProject` (PLAN §2.2.1)
+   over `recomputePublished`; emulator tests for publish, unpublish, re-pin,
+   songbook / score / project delete and restore, newest songbook revision wins,
+   linked scores.
+2. ✅ `functions/scripts/rebuildPublishedScores.ts`
+   (`npm --prefix functions run rebuild:published`), dry run by default; not
+   deployed.
+3. ✅ Homepage (flag on): `scores where published != null`, each at its published
+   version. The CADERNIN filter stays only on the flag-off path.
+4. ✅ Score page: without a version in the URL, non-members get the published
+   version and members the latest; a "publicada" badge marks the published one.
 
 ## Acceptance
 
