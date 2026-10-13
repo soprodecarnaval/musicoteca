@@ -4,6 +4,8 @@ import {
   getAllProjects,
   getAllScores,
   getLatestScoreRevisions,
+  getPublishedScores,
+  getScoreRevision,
 } from "./lib/db";
 import { legacyIsOwner } from "./lib/roles";
 import { toScoreViewModel } from "./lib/viewModels";
@@ -16,19 +18,49 @@ import {
 
 const CADERNIN_UID = import.meta.env.VITE_CADERNIN_UID;
 
+/**
+ * The homepage with the collab flow on: exactly the scores published
+ * songbooks pin, each at its published version (collab-flow §4.4).
+ */
+async function loadPublishedCollection(): Promise<ScoreViewModel[]> {
+  const [projectDocs, scoreDocs] = await Promise.all([
+    getAllProjects(),
+    getPublishedScores(),
+  ]);
+  const projectTitles = new Map(projectDocs.map((p) => [p.id, p.title]));
+  const viewModels = await Promise.all(
+    scoreDocs
+      .filter((s) => s.published && projectTitles.has(s.projectId))
+      .map(async (score) => {
+        const revision = await getScoreRevision(
+          score.id,
+          score.published!.revisionId,
+        );
+        return revision
+          ? toScoreViewModel(
+              score,
+              revision,
+              projectTitles.get(score.projectId)!,
+            )
+          : null;
+      }),
+  );
+  return viewModels.filter((v): v is ScoreViewModel => v !== null);
+}
+
 async function loadCollection(): Promise<ScoreViewModel[]> {
-  console.log(">>>> loadCollection");
+  if (FEATURE_FLAG_COLLAB_FLOW) {
+    return loadPublishedCollection();
+  }
   const [projectDocs, songDocs, revisionDocs] = await Promise.all([
     getAllProjects(),
     getAllScores(),
     getLatestScoreRevisions(),
   ]);
 
-  console.log(songDocs.length);
-
-  const filteredProjectDocs = FEATURE_FLAG_COLLAB_FLOW
-    ? projectDocs
-    : projectDocs.filter((p) => CADERNIN_UID && legacyIsOwner(p, CADERNIN_UID));
+  const filteredProjectDocs = projectDocs.filter(
+    (p) => CADERNIN_UID && legacyIsOwner(p, CADERNIN_UID),
+  );
 
   const projectTitles = new Map(
     filteredProjectDocs.map((p) => [p.id, p.title]),
@@ -97,7 +129,9 @@ export function CollectionProvider({ children }: { children: ReactNode }) {
 
   const search = useCallback(
     (query: string): ScoreViewModel[] => {
-      if (!fuse || query === "") {return allScores;}
+      if (!fuse || query === "") {
+        return allScores;
+      }
       return fuse.search(query).map((r) => r.item);
     },
     [fuse, allScores],

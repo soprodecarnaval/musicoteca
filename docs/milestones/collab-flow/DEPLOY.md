@@ -132,6 +132,19 @@ gcloud services enable cloudfunctions.googleapis.com cloudbuild.googleapis.com a
 2. Verify (flag on, staging): re-pin a score with a newer version, publish a
    songbook, open its `/songbooks/…` URL logged out.
 
+## 9. Task 004d — published marker and homepage
+
+1. Merge → deploy ships hosting and the three `syncPublishedScores…` functions
+   (Cloud Functions prerequisites: §3).
+2. Run the rebuild once (dry run first):
+   ```fish
+   ENV_FILE=.env.prod-scripts.local npm --prefix functions run rebuild:published
+   ENV_FILE=.env.prod-scripts.local npm --prefix functions run rebuild:published -- --execute
+   ```
+   With no songbooks in prod it changes nothing; it matters after M7.
+3. Verify (flag on, staging): publishing a songbook adds its scores to the
+   homepage within seconds; unpublishing removes them.
+
 ## Open
 
 - **M1b semantics.** The export app has been creating `Acervo @<name>` projects in

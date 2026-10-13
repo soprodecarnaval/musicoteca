@@ -125,6 +125,17 @@ export async function getAllScores(): Promise<WithId<ScoreDoc>[]> {
   return snap.docs.map((d) => ({ id: d.id, ...zScoreDoc.parse(d.data()) }));
 }
 
+/**
+ * Scores some published songbook pins (collab-flow §4.4). `published` is
+ * maintained by the syncPublishedScores functions.
+ */
+export async function getPublishedScores(): Promise<WithId<ScoreDoc>[]> {
+  const snap = await getDocs(
+    query(collection(db, "scores"), where("published", "!=", null)),
+  );
+  return snap.docs.map((d) => ({ id: d.id, ...zScoreDoc.parse(d.data()) }));
+}
+
 export async function getLatestScoreRevisions(): Promise<
   (WithId<ScoreRevisionDoc> & { scoreId: string })[]
 > {

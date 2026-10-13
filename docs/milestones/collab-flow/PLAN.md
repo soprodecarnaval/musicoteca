@@ -296,8 +296,16 @@ container the songbook's admins must not be able to write.
 
 Recomputing a score reads its candidate songbooks (`published.songbookIds` ∪ the
 songbook that triggered) and their current revisions, so it is idempotent and
-order-independent. A `scripts/rebuildPublishedScores.ts` performs the same
-computation over everything, for migrations (M5, M7) and drift repair.
+order-independent. A restored score or project has no marker left to list its
+songbooks, so restores also consider every published, live songbook. The
+triggers ignore writes to `published` itself, so their updates don't loop.
+
+Implemented as three deployed functions — `syncPublishedScoresOnSongbook`,
+`…OnScore`, `…OnProject` — over one `recomputePublished`
+(`functions/src/publishedScores.ts`). `functions/scripts/rebuildPublishedScores.ts`
+(`npm --prefix functions run rebuild:published [-- --execute]`) runs the same
+computation over everything, for migrations (M7) and drift repair; it is not
+deployed — only exports of `functions/src/index.ts` are.
 
 **Eventually consistent:** a publish or re-pin shows up on the homepage a few seconds
 later. Acceptable — publishing is rare and owner-driven.
@@ -1080,7 +1088,7 @@ needs it (§9) — not as a block at the end.
 | M4 | Move metadata onto revisions | 002 | copy `scores.{title,composer,sub,tags}` → every revision's `metadata`; write `cachedMetadata` and `published: null`; legacy top-level fields kept until M9 (flag-off code reads them) |
 | ~~M5~~ | ~~Songbook containers → container + revision 1~~ | — | dropped: no songbook docs exist in prod or staging |
 | M6 | Identify the four PROJECTS — carnaval, garota, na tora, besourinhos | 007 | confirm which already exist; all owned by the CADERNIN uid |
-| M7 | Build SONGBOOKS per project-year | 007 | carnaval via `generateCarnivalSections`; others via `generateSectionsByStyle` (`src/utils/songBookRows.ts`); reorder manually; created with `isPublished: true`; pins = each score's latest revision. Since the homepage becomes songbook-driven, the dry run reports every score on today's homepage that no published songbook pins — those disappear at launch unless placed somewhere; then `rebuildPublishedScores` |
+| M7 | Build SONGBOOKS per project-year | 007 | carnaval via `generateCarnivalSections`; others via `generateSectionsByStyle` (`src/utils/songBookRows.ts`); reorder manually; created with `isPublished: true`; pins = each score's latest revision. Since the homepage becomes songbook-driven, the dry run reports every score on today's homepage that no published songbook pins — those disappear at launch unless placed somewhere; then `rebuild:published` |
 | M9 | Drop legacy data: score-level metadata, `projects.members` map, `scores/*/revisions` (and its collection-group rule); stop dual-writing | 007 | only after the flag is on in prod and the old code paths are deleted |
 
 There is no separate "deploy rules" step: each slice deploys its own rules (§0).
