@@ -1,41 +1,21 @@
 // Runs against the auth and firestore emulators: `npm run test:functions`
 // from the repo root.
-import { initializeApp } from "firebase-admin/app";
 import { getAuth } from "firebase-admin/auth";
 import { getFirestore } from "firebase-admin/firestore";
-import { beforeAll, beforeEach, describe, expect, it } from "vitest";
+import { beforeEach, describe, expect, it } from "vitest";
 import {
   findUserForInviteHandler,
   normalizeName,
 } from "../src/findUserForInvite";
+import { resetAuth, resetFirestore, useEmulators } from "./emulator";
 
-const PROJECT_ID = "demo-cadernin";
 const PROJECT = "acervo";
 
-beforeAll(() => {
-  initializeApp({ projectId: PROJECT_ID });
-});
-
-/**
- * Wipes an emulator's data through its REST endpoint.
- * @param {string | undefined} host The emulator host from the environment.
- * @param {string} path The emulator-specific reset path.
- */
-async function reset(host: string | undefined, path: string): Promise<void> {
-  if (!host) {
-    throw new Error("Run through `npm run test:functions` (emulators).");
-  }
-  await fetch(`http://${host}/emulator/v1/projects/${PROJECT_ID}${path}`, {
-    method: "DELETE",
-  });
-}
+useEmulators();
 
 beforeEach(async () => {
-  await reset(process.env.FIREBASE_AUTH_EMULATOR_HOST, "/accounts");
-  await reset(
-    process.env.FIRESTORE_EMULATOR_HOST,
-    "/databases/(default)/documents",
-  );
+  await resetAuth();
+  await resetFirestore();
   const project = getFirestore().collection("projects").doc(PROJECT);
   await project.set({ title: "Acervo", deletedAt: null });
   for (const [uid, role] of [["admin", "admin"], ["editor", "editor"]]) {
