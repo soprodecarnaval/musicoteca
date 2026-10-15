@@ -1,10 +1,12 @@
 import {
+  addDoc,
   arrayRemove,
   arrayUnion,
   collection,
   collectionGroup,
   deleteField,
   doc,
+  getCountFromServer,
   getDocs,
   getDoc,
   query,
@@ -23,6 +25,8 @@ import {
   zScoreDoc,
   zScoreData,
   zScoreMetadata,
+  zReviewCommentData,
+  zReviewCommentDoc,
   zScoreLinkData,
   zScoreLinkDoc,
   zSongbookData,
@@ -40,6 +44,8 @@ import {
   zUserProjectInvitationDoc,
   zUserProjectInvitationData,
   type ScoreDoc,
+  type CommentAnchor,
+  type ReviewCommentDoc,
   type ScoreLinkDoc,
   type SongbookDoc,
   type SongbookRevisionContent,
@@ -718,6 +724,89 @@ export async function setSongbookPublished(
 /** Owner-only. The songbook's scores are untouched (collab-flow §6). */
 export async function softDeleteSongbook(id: string): Promise<void> {
   await updateDoc(songbookRef(id), {
+    deletedAt: serverTimestamp(),
+    updatedAt: serverTimestamp(),
+  });
+}
+
+// -- Review comments --
+
+function commentsRef(scoreId: string, revisionId: string) {
+  return collection(
+    db,
+    "scores",
+    scoreId,
+    SCORE_REVISIONS,
+    revisionId,
+    "comments",
+  );
+}
+
+/** Oldest first. Project members only. */
+export async function getComments(
+  scoreId: string,
+  revisionId: string,
+): Promise<WithId<ReviewCommentDoc>[]> {
+  const snap = await getDocs(commentsRef(scoreId, revisionId));
+  return snap.docs
+    .map((d) => ({ id: d.id, ...zReviewCommentDoc.parse(d.data()) }))
+    .sort(
+      (a, b) =>
+        (a.createdAt?.toMillis() ?? Infinity) -
+        (b.createdAt?.toMillis() ?? Infinity),
+    );
+}
+
+/** Live (not deleted) comments on one version. Members only. */
+export async function countComments(
+  scoreId: string,
+  revisionId: string,
+): Promise<number> {
+  const snap = await getCountFromServer(
+    query(commentsRef(scoreId, revisionId), where("deletedAt", "==", null)),
+  );
+  return snap.data().count;
+}
+
+/** A new thread (`parentId: null`, optional anchor) or a reply. */
+export async function addComment(
+  scoreId: string,
+  revisionId: string,
+  input: {
+    authorId: string;
+    authorName: string;
+    body: string;
+    parentId: string | null;
+    anchor: CommentAnchor | null;
+  },
+): Promise<string> {
+  const ref = await addDoc(commentsRef(scoreId, revisionId), {
+    ...zReviewCommentData.parse(input),
+    createdAt: serverTimestamp(),
+    updatedAt: serverTimestamp(),
+    deletedAt: null,
+  });
+  return ref.id;
+}
+
+export async function editComment(
+  scoreId: string,
+  revisionId: string,
+  commentId: string,
+  body: string,
+): Promise<void> {
+  await updateDoc(doc(commentsRef(scoreId, revisionId), commentId), {
+    body: zReviewCommentData.shape.body.parse(body),
+    updatedAt: serverTimestamp(),
+  });
+}
+
+export async function softDeleteComment(
+  scoreId: string,
+  revisionId: string,
+  commentId: string,
+): Promise<void> {
+  await updateDoc(doc(commentsRef(scoreId, revisionId), commentId), {
     deletedAt: serverTimestamp(),
     updatedAt: serverTimestamp(),
   });

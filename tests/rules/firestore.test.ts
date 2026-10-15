@@ -958,3 +958,113 @@ describe("invitations", () => {
     );
   });
 });
+
+describe("review comments", () => {
+  const ref = (db: Firestore, id = "c1") =>
+    doc(db, "scores", SCORE, "scoreRevisions", "1", "comments", id);
+  const comment = (authorId: string, extra: Record<string, unknown> = {}) => ({
+    authorId,
+    authorName: authorId,
+    body: "Compasso 12 está errado",
+    parentId: null,
+    anchor: { partName: "Trompete", page: 1, x: 0.5, y: 0.25 },
+    deletedAt: null,
+    ...extra,
+  });
+  const seedRoot = () =>
+    seed((db) => setDoc(ref(db, "root"), comment(REVIEWER)));
+
+  it("lets any member comment, pinned or on the whole version", async () => {
+    await seedProject(testEnv());
+    await assertSucceeds(setDoc(ref(as(REVIEWER)), comment(REVIEWER)));
+    await assertSucceeds(
+      setDoc(ref(as(EDITOR), "c2"), comment(EDITOR, { anchor: null })),
+    );
+  });
+
+  it("denies outsiders, impersonation and empty or malformed comments", async () => {
+    await seedProject(testEnv());
+    await assertFails(setDoc(ref(as(OUTSIDER)), comment(OUTSIDER)));
+    await assertFails(setDoc(ref(as(EDITOR)), comment(REVIEWER)));
+    await assertFails(setDoc(ref(as(EDITOR)), comment(EDITOR, { body: "" })));
+    await assertFails(
+      setDoc(
+        ref(as(EDITOR)),
+        comment(EDITOR, {
+          anchor: { partName: "Trompete", page: 0, x: 0.5, y: 0.5 },
+        }),
+      ),
+    );
+    await assertFails(
+      setDoc(
+        ref(as(EDITOR)),
+        comment(EDITOR, {
+          anchor: { partName: "Trompete", page: 1, x: 1.5, y: 0.5 },
+        }),
+      ),
+    );
+    await assertFails(
+      setDoc(ref(as(EDITOR)), comment(EDITOR, { resolved: true })),
+    );
+  });
+
+  it("allows replies to roots only, without an anchor", async () => {
+    await seedProject(testEnv());
+    await seedRoot();
+    await assertSucceeds(
+      setDoc(
+        ref(as(EDITOR), "r1"),
+        comment(EDITOR, { parentId: "root", anchor: null }),
+      ),
+    );
+    await assertFails(
+      setDoc(ref(as(EDITOR), "r2"), comment(EDITOR, { parentId: "root" })),
+    );
+    await assertFails(
+      setDoc(
+        ref(as(EDITOR), "r3"),
+        comment(EDITOR, { parentId: "missing", anchor: null }),
+      ),
+    );
+    await assertFails(
+      setDoc(
+        ref(as(EDITOR), "r4"),
+        comment(EDITOR, { parentId: "r1", anchor: null }),
+      ),
+    );
+  });
+
+  it("restricts reading to members", async () => {
+    await seedProject(testEnv());
+    await seedRoot();
+    await assertSucceeds(getDoc(ref(as(REVIEWER), "root")));
+    await assertFails(getDoc(ref(as(OUTSIDER), "root")));
+    await assertFails(getDoc(ref(as(null), "root")));
+  });
+
+  it("lets authors edit and soft-delete their own, and nobody else", async () => {
+    await seedProject(testEnv());
+    await seedRoot();
+    await assertSucceeds(
+      updateDoc(ref(as(REVIEWER), "root"), { body: "Compasso 13" }),
+    );
+    await assertSucceeds(
+      updateDoc(ref(as(REVIEWER), "root"), { deletedAt: serverTimestamp() }),
+    );
+    await assertFails(updateDoc(ref(as(OWNER), "root"), { body: "x" }));
+    await assertFails(
+      updateDoc(ref(as(REVIEWER), "root"), {
+        anchor: { partName: "Trombone", page: 1, x: 0, y: 0 },
+      }),
+    );
+    await assertFails(deleteDoc(ref(as(REVIEWER), "root")));
+  });
+
+  it("freezes comments of a deleted project", async () => {
+    await seedProject(testEnv());
+    await seed((db) =>
+      updateDoc(doc(db, "projects", PROJECT), { deletedAt: new Date() }),
+    );
+    await assertFails(setDoc(ref(as(REVIEWER)), comment(REVIEWER)));
+  });
+});
