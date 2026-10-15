@@ -318,6 +318,41 @@ async function main(): Promise<void> {
     deletedAt: null,
   });
 
+  // Review comments on "Olha pro Céu" version 1: one pinned thread with a
+  // reply, and one about the whole version.
+  const olha = "acervo-dev-olha-pro-ceu";
+  const first = await db
+    .collection("scores")
+    .doc(olha)
+    .collection("scoreRevisions")
+    .where("revisionNumber", "==", 1)
+    .get();
+  const comments = first.docs[0].ref.collection("comments");
+  const comment = (
+    author: UserKey,
+    body: string,
+    extra: Record<string, unknown> = {},
+  ) => ({
+    authorId: uids[author],
+    authorName: USERS[author],
+    body,
+    parentId: null,
+    anchor: null,
+    createdAt: FieldValue.serverTimestamp(),
+    updatedAt: FieldValue.serverTimestamp(),
+    deletedAt: null,
+    ...extra,
+  });
+  const pinned = await comments.add(
+    comment("reviewer", "A nota do compasso 4 está uma oitava acima.", {
+      anchor: { partName: "Trompete", page: 1, x: 0.3, y: 0.45 },
+    }),
+  );
+  await comments.add(
+    comment("editor", "Corrigido na próxima versão.", { parentId: pinned.id }),
+  );
+  await comments.add(comment("editor", "Falta a parte de flauta."));
+
   console.log("Seeded. Users (password " + PASSWORD + "):");
   for (const key of Object.keys(USERS)) {
     console.log(`  ${key}@dev.cadern.in — ${USERS[key as UserKey]}`);
