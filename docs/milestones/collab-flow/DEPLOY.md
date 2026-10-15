@@ -145,6 +145,11 @@ gcloud services enable cloudfunctions.googleapis.com cloudbuild.googleapis.com a
 3. Verify (flag on, staging): publishing a songbook adds its scores to the
    homepage within seconds; unpublishing removes them.
 
+## 10. Task 005 — review comments
+
+1. Merge → deploy ships hosting and rules. No migration.
+2. Verify (flag on, staging): as a member, pin a comment on a score page and reply.
+
 ## Open
 
 - **M1b semantics.** The export app has been creating `Acervo @<name>` projects in

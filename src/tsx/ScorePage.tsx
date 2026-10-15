@@ -1,13 +1,23 @@
-import { useEffect, useState } from "react";
-import { Alert, Badge, Button, Container, Spinner } from "react-bootstrap";
+import { useEffect, useMemo, useState } from "react";
+import {
+  Alert,
+  Badge,
+  Button,
+  Col,
+  Container,
+  Row,
+  Spinner,
+} from "react-bootstrap";
 import { useAuth } from "../auth";
 import { useNavigate, useParams } from "react-router-dom";
 import {
+  getComments,
   getMemberRole,
   getScore,
   getScoreRevision,
   getProject,
   softDeleteScore,
+  type WithId,
 } from "../lib/db";
 import { FEATURE_FLAG_COLLAB_FLOW } from "../featureFlags";
 import { canDeleteScore, canEditScoreMetadata, isReviewer } from "../lib/roles";
@@ -16,8 +26,18 @@ import {
   uploadedScoreMetadata,
 } from "../lib/scoreMetadata";
 import { useMemberRole } from "../lib/useMemberRole";
-import type { ScoreMetadata } from "../../types/docs";
-import { ScoreDisplay, type ScoreDisplayPart } from "./ScoreDisplay";
+import { commentThreads } from "../lib/comments";
+import type {
+  CommentAnchor,
+  ReviewCommentDoc,
+  ScoreMetadata,
+} from "../../types/docs";
+import { ReviewCommentsPanel } from "./ReviewCommentsPanel";
+import {
+  ScoreDisplay,
+  type ScoreDisplayPart,
+  type ScorePin,
+} from "./ScoreDisplay";
 import { ScoreMetadataEditor } from "./ScoreMetadataEditor";
 import { ScoreRevisionList } from "./ScoreRevisionList";
 
@@ -101,6 +121,34 @@ export function ScorePage() {
   const [deleting, setDeleting] = useState(false);
   const role = useMemberRole(
     FEATURE_FLAG_COLLAB_FLOW ? score?.projectId : undefined,
+  );
+  // Review comments: project members only (collab-flow §5.4).
+  const reviewing = role !== "loading" && isReviewer(role) && !!currentUser;
+  const [comments, setComments] = useState<WithId<ReviewCommentDoc>[]>([]);
+  const [commentReloads, setCommentReloads] = useState(0);
+  const [selectedCommentId, setSelectedCommentId] = useState<string | null>(
+    null,
+  );
+  const [picking, setPicking] = useState(false);
+  const [pendingAnchor, setPendingAnchor] = useState<CommentAnchor | null>(
+    null,
+  );
+
+  const shownScoreId = score?.scoreId;
+  const shownRevisionId = score?.revisionId;
+  useEffect(() => {
+    if (!reviewing || !shownScoreId || !shownRevisionId) {
+      setComments([]);
+      return;
+    }
+    void getComments(shownScoreId, shownRevisionId).then(setComments);
+  }, [reviewing, shownScoreId, shownRevisionId, commentReloads]);
+
+  const threads = useMemo(() => commentThreads(comments), [comments]);
+  const pins: ScorePin[] = threads.flatMap((t) =>
+    t.pinNumber !== null && t.root.anchor
+      ? [{ id: t.root.id, number: t.pinNumber, anchor: t.root.anchor }]
+      : [],
   );
 
   useEffect(() => {
@@ -190,14 +238,50 @@ export function ScorePage() {
           </Button>
         </div>
       </div>
-      <ScoreDisplay
-        title={score.title}
-        composer={score.composer}
-        sub={score.sub}
-        tags={score.tags}
-        arrangementMidiUrl={score.arrangementMidiUrl}
-        parts={score.parts}
-      />
+      <Row>
+        <Col lg={reviewing ? 8 : 12}>
+          <ScoreDisplay
+            title={score.title}
+            composer={score.composer}
+            sub={score.sub}
+            tags={score.tags}
+            arrangementMidiUrl={score.arrangementMidiUrl}
+            parts={score.parts}
+            pinsProps={
+              reviewing
+                ? {
+                    pins,
+                    selectedPinId: selectedCommentId,
+                    onPinClick: setSelectedCommentId,
+                    picking,
+                    onPick: (anchor) => {
+                      setPendingAnchor(anchor);
+                      setPicking(false);
+                    },
+                  }
+                : undefined
+            }
+          />
+        </Col>
+        {reviewing && currentUser && (
+          <Col lg={4}>
+            <div style={{ position: "sticky", top: 16 }}>
+              <ReviewCommentsPanel
+                scoreId={score.scoreId}
+                revisionId={score.revisionId}
+                user={currentUser}
+                threads={threads}
+                selectedId={selectedCommentId}
+                picking={picking}
+                pendingAnchor={pendingAnchor}
+                onStartPicking={() => setPicking((p) => !p)}
+                onClearAnchor={() => setPendingAnchor(null)}
+                onChanged={() => setCommentReloads((n) => n + 1)}
+              />
+            </div>
+          </Col>
+        )}
+      </Row>
       {FEATURE_FLAG_COLLAB_FLOW && (
         <section className="mt-4">
           <h5>Versões</h5>
@@ -206,6 +290,8 @@ export function ScorePage() {
             projectId={score.projectId}
             currentRevisionId={score.revisionId}
             latestRevisionId={score.latestRevisionId}
+            showCommentCounts={reviewing}
+            reloadKey={commentReloads}
           />
         </section>
       )}

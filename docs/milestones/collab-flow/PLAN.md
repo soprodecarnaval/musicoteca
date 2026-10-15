@@ -360,19 +360,23 @@ revision. This keeps every revision's metadata a faithful record of its mscz.
 ```ts
 {
   authorId: uid
-  body: string
+  authorName: string        // denormalized from Auth when written; may go stale
+  body: string              // 1..5000 chars
   createdAt: Timestamp
   updatedAt: Timestamp
   deletedAt: Timestamp | null
 
-  anchor: {
-    partName: string     // matches RevisionDoc.parts[].name
-    page: number         // 1-based index into parts[].svg
-    x?: number           // optional normalized 0..1 pin position on the SVG
-    y?: number
-  }
+  // Threads are one level deep: replies point at a root, never at a reply.
+  parentId: string | null   // null = thread root
 
-  parentId: string | null   // null = thread root; else a reply
+  // Roots only. null = about the version as a whole; otherwise a point on one
+  // page of one part, normalized to the page's size. Replies have none.
+  anchor: {
+    partName: string     // matches parts[].name
+    page: number         // 1-based index into parts[].svg
+    x: number            // 0..1
+    y: number            // 0..1
+  } | null
 }
 ```
 

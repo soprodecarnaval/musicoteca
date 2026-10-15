@@ -206,6 +206,36 @@ export const zSongbookRevisionDoc = zSongbookRevisionData.extend({
 });
 export type SongbookRevisionDoc = z.infer<typeof zSongbookRevisionDoc>;
 
+/** A point on one page of one part, normalized to the page's size. */
+export const zCommentAnchor = z.object({
+  partName: z.string(),
+  page: z.number().int().positive(),
+  x: z.number().min(0).max(1),
+  y: z.number().min(0).max(1),
+});
+export type CommentAnchor = z.infer<typeof zCommentAnchor>;
+
+/**
+ * A comment on one score version (collab-flow §2.4). Threads are one level
+ * deep: roots may point at a spot (`anchor`) or at the version as a whole
+ * (`null`); replies have a `parentId` and no anchor. There is no "resolved"
+ * state — a new version starts with no comments.
+ */
+export const zReviewCommentData = z.object({
+  authorId: z.string(),
+  // Denormalized from Firebase Auth when written; may go stale on rename.
+  authorName: z.string(),
+  body: z.string().min(1).max(5000),
+  parentId: z.string().nullable(),
+  anchor: zCommentAnchor.nullable(),
+});
+export const zReviewCommentDoc = zReviewCommentData.extend({
+  createdAt: zTimestamp,
+  updatedAt: zTimestamp,
+  deletedAt: zTimestamp.nullable(),
+});
+export type ReviewCommentDoc = z.infer<typeof zReviewCommentDoc>;
+
 export const zScoreLinkData = z.object({
   scoreId: z.string(),
   sourceProjectId: z.string(),
